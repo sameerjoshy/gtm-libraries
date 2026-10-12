@@ -8,6 +8,7 @@ sources:
   - "Cold email 4-sequence (MIT, Alex Vacca / Frontal), trigger opener, pain email, delegation ask, break-up, BTL and ATL length rules, timing"
   - "Cold email strategist (MIT, Alex Vacca / Frontal, contributor Ivan Falco), value prop changes between emails, plain text, one CTA, deliverability limits (per-inbox volume, domain count, warmup, verification, bounce ceiling)"
   - "Email metrics and benchmarks (MIT, Alex Vacca / Frontal), reply-rate baselines by outreach type, deliverability warning thresholds"
+  - "SDR outbound rules (MIT, Alex Vacca / Frontal), the eight messaging frameworks, tone by offer type"
   - "Adapted for GTM-360: CRM and sequence-tool calls generalised, vendor benchmarks labelled as starting points to calibrate per client, no invented proof points or customers"
 ---
 
@@ -122,6 +123,21 @@ Run all seven checks on every message before it is staged. A failed check means 
 - Never send without explicit approval in the current conversation. Never attach files. Link instead.
 - A channel with missing contact data is fixed or dropped. Do not guess an address.
 - If the org has a sending tool, stage the sequence there as unsent. Do not start it.
+
+## Messaging frameworks
+
+Choose one of these eight frameworks for each email, and name it in the output. Use only one per email.
+
+1. **Before and after:** show the move from the current state to the desired one.
+2. **Pattern interrupt:** break the expected pattern of an inbox to earn a read.
+3. **Ask before pitch:** lead with a question and earn the right to pitch.
+4. **Upfront value:** give something useful before asking for anything.
+5. **Do the math:** calculate the likely impact using the buyer's own numbers, shown as working.
+6. **Challenge of similar companies:** point to a pattern seen across companies of the same type, without naming a customer you cannot reference.
+7. **Neutral insight:** share a third-party resource or finding that the reader would value.
+8. **Typical problems by role:** address a pain that is specific to the reader's role.
+
+Match the framework to the reader's altitude and the trigger. A pattern interrupt on a warm trigger wastes the trigger. Ask-before-pitch on a cold list with no trigger is usually the safer choice.
 
 ## Deliverability limits
 
