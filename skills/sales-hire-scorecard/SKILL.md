@@ -1,7 +1,7 @@
 ---
 name: sales-hire-scorecard
-version: 1.1.0
-description: "Use before interviews start for a sales, customer success, or other go-to-market hire, and again after each interview. Writes the motion of the seat, builds six to eight motion-fit criteria that the team ranks and weights, assigns each criterion an interview question and an owner with anchored 1 to 4 scoring, then scores candidates on evidence from what they did, not where they worked. Ends with a ranked summary and one yes or no decision for a human. Not for compensation design (see gtm-compensation)."
+version: 1.2.0
+description: "Use when preparing to interview for a sales, customer success, or other go-to-market hire, and again after each interview. Writes the motion of the seat, builds six to eight motion-fit criteria that the team ranks and weights, assigns each criterion an interview question and an owner with anchored 1 to 4 scoring, then scores candidates on evidence from what they did, not where they worked. Ends with a ranked summary and one yes or no decision for a human. Not for compensation design (see gtm-compensation)."
 ---
 
 # Sales hire scorecard

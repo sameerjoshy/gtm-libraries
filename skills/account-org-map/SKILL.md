@@ -1,7 +1,7 @@
 ---
 name: account-org-map
-version: 1.1.0
-description: "Use when a seller, partner manager, recruiter or researcher needs a usable map of who works at a named company, how its team is probably structured, and who matters for one specific objective. Fixes the scope and the objective before any research, builds an evidence set in deliberate passes, infers reporting lines with a confidence label on each edge, reads four structural observations, and ranks the people to approach. Not for a company's own internal org design (see revops-org-chart) or for the buying group in a signal-led campaign (see signal-campaign-build)."
+version: 1.2.0
+description: "Use when a seller, partner manager, recruiter or researcher needs a usable map of who works at a named company, how its team is probably structured, and who matters for one specific objective. Fixes the scope and the objective before any research, builds an evidence set in deliberate passes, infers reporting lines with a confidence label on each edge, reads four structural observations, and ranks the people to approach. Not for a company's own internal org design (see `revops-org-chart`) or for the buying group in a signal-led campaign (see `signal-campaign-build`)."
 ---
 
 # Account org map

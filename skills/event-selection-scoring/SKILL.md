@@ -1,7 +1,7 @@
 ---
 name: event-selection-scoring
-version: 1.1.0
-description: "Use to choose which conferences, trade shows or vendor events a company should attend, exhibit at or sponsor next. Locks the buyer classification first, then scores each event on relevance, decision-maker access and engagement mode, applies a bonus only for organizer-run matchmaking, and returns a short tiered list. Not for preparing a team for an event already chosen (see event-attendee-prep) or for the logistics of attending (see event-logistics-planning)."
+version: 1.2.0
+description: "Use when choosing which conferences, trade shows or vendor events a company should attend, exhibit at or sponsor next. Locks the buyer classification first, then scores each event on relevance, decision-maker access and engagement mode, applies a bonus only for organizer-run matchmaking, and returns a short tiered list. Not for preparing a team for an event already chosen (see event-attendee-prep) or for the logistics of attending (see event-logistics-planning)."
 ---
 
 # Event selection scoring

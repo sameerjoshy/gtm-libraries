@@ -1,7 +1,7 @@
 ---
 name: revops-org-chart
-version: 1.1.0
-description: "Use to design or change the structure of a RevOps team: which roles to hire first and in what order by ARR stage, when to bring in a systems architect and in what mode, centralised versus embedded versus hub-and-spoke, where RevOps should report, what its charter must say, how to move a business automation or CRM team into RevOps, and how to structure a multi-business-unit company. Not for the GTM org redesign across functions (see gtm-planning-org-design)."
+version: 1.2.0
+description: "Use when designing or changing the structure of a RevOps team: which roles to hire first and in what order by ARR stage, when to bring in a systems architect and in what mode, centralized versus embedded versus hub-and-spoke, where RevOps should report, what its charter must say, how to move a business automation or CRM team into RevOps, and how to structure a multi-business-unit company. Not for the GTM org redesign across functions (see `gtm-planning-org-design`)."
 ---
 
 # RevOps org chart and team design
@@ -23,7 +23,6 @@ The core rule: the team's authority must match its responsibility. If RevOps own
 - A multi-business-unit company needs a structure that gives comparable numbers without merging systems.
 
 Route elsewhere when:
-
 - The question is the GTM structure across sales, marketing, and customer success. Use `gtm-planning-org-design`.
 - The question is compensation for the roles. Use `gtm-compensation`.
 - The question is the change program for moving the team. Use `revops-change-management`.
@@ -92,7 +91,7 @@ Screen candidates on these signals:
 | Technical base | Can write scripts and reason about data pipelines | Strong platform certification and builder skill |
 | Communication | Explains architecture to executives who do not know the platform | Speaks the platform fluently, struggles to generalize |
 | Scale question | "How do we ingest from five sources consistently?" | "How do we report on this metric?" |
-| After failure | Analyses why the approach failed and changes the design | Fixes the error and ships |
+| After failure | Analyzes why the approach failed and changes the design | Fixes the error and ships |
 
 Interview prompts for an architect: describe an integration across three or more systems you designed, and where it broke. Describe a time you said no to a request because it would break the data model. Show a script you wrote to move or check data. Explain your current CRM to someone who has never seen it.
 
@@ -110,11 +109,11 @@ When the number of production agents passes about ten, orchestration needs to be
 
 ### Step 6: Choose the structure
 
-Three models. Each is right in some context.
+Four models. Each is right in some context.
 
 **Departmental.** Sales ops, marketing ops, and customer success ops as separate teams under a head of RevOps. Suits a company around $15M to $50M. Risk: re-siloing.
 
-**Centralised (center of excellence).** One RevOps team serving every GTM function. Owns definitions, data, and systems. Business partners may exist as relationship managers but report into RevOps. Suits a single-motion company with a strong RevOps leader, up to about $100M with one product line. Risk: other functions feel under-served, and RevOps becomes a queue.
+**Centralized (center of excellence).** One RevOps team serving every GTM function. Owns definitions, data, and systems. Business partners may exist as relationship managers but report into RevOps. Suits a single-motion company with a strong RevOps leader, up to about $100M with one product line. Risk: other functions feel under-served, and RevOps becomes a queue.
 
 **Embedded.** Ops people sit in and report to their functions. Faster and closer to the work. Suits fast-moving organizations where context matters more than consistency. Risk: re-siloing within a year, data model drift, and no one able to say no across functions.
 
@@ -122,7 +121,7 @@ Three models. Each is right in some context.
 
 The reporting line for spokes matters. A dotted line to the function head keeps the spoke credible with RevOps and close to the work. A direct report to the function gives speed and risks drift.
 
-The test for any model: can the central team make a binding decision that affects sales without the sales leader's approval? If yes, a centralised model works. If no, embedded spokes need enough central governance to hold the shared layer together.
+The test for any model: can the central team make a binding decision that affects sales without the sales leader's approval? If yes, a centralized model works. If no, embedded spokes need enough central governance to hold the shared layer together.
 
 ### Step 7: Choose the reporting line
 
@@ -171,9 +170,17 @@ Design principles:
 2. **One architect across all units**, fractional or full-time. The architect owns the interface between instances: how data reaches cross-unit reporting without a merge. This role should not be split by unit.
 3. **One business partner per unit.** Each works within the shared schema and owns the local implementation. A monthly sync across business partners is the minimum governance.
 4. **Maturity-adjusted expectations.** Scan each unit's maturity and plot them on one model. Show leadership the spread. A uniform target holds back the most mature unit and overwhelms the least mature.
-5. **Governance before automation.** A central warehouse on top of inconsistent definitions combines four languages into one table. Fix the dictionary first, then centralise reporting.
+5. **Governance before automation.** A central warehouse on top of inconsistent definitions combines four languages into one table. Fix the dictionary first, then centralize reporting.
 
 Example structure for a company of about $250M ARR with four units: a head of RevOps and business automation over a fractional or full-time architect, one business partner for each unit covering its motion (direct sales, mid-market, channel, and services), and a shared analyst team for cross-unit reporting.
+
+### Diagnostic questions
+
+1. Who owns the definition of a qualified opportunity, and can they say no to a sales leader?
+2. Which operations people report to a function rather than to RevOps, and what conflicts does that create?
+3. Is the architect a designer or an administrator in practice, and does their week show it?
+4. What is the last request RevOps declined, and was it declined with a reason?
+5. Which decisions go unmade for more than a month because no one has the authority to make them?
 
 ## Output
 
@@ -183,14 +190,6 @@ Example structure for a company of about $250M ARR with four units: a head of Re
 - The charter, with the four required sections and any additions.
 - The transition plan for an existing team, if one applies.
 - The multi-unit design, if relevant.
-
-## Diagnostic questions
-
-1. Who owns the definition of a qualified opportunity, and can they say no to a sales leader?
-2. Which operations people report to a function rather than to RevOps, and what conflicts does that create?
-3. Is the architect a designer or an administrator in practice, and does their week show it?
-4. What is the last request RevOps declined, and was it declined with a reason?
-5. Which decisions go unmade for more than a month because no one has the authority to make them?
 
 ## Quality bar
 

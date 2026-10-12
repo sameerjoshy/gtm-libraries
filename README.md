@@ -176,7 +176,7 @@ Paid social, paid search, LinkedIn ads and account-based campaigns.
 - [`paid-social-audience-strategy`](skills/paid-social-audience-strategy/SKILL.md)
 - [`paid-social-campaign-structure`](skills/paid-social-campaign-structure/SKILL.md)
 - [`paid-social-launch-checklist`](skills/paid-social-launch-checklist/SKILL.md)
-- [`paid-social-optimisation-playbook`](skills/paid-social-optimisation-playbook/SKILL.md)
+- [`paid-social-optimization-playbook`](skills/paid-social-optimization-playbook/SKILL.md)
 
 ### Content, newsletter and community (14)
 

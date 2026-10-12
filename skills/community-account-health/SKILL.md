@@ -1,7 +1,7 @@
 ---
 name: community-account-health
-version: 1.1.0
-description: "Use to monitor the health of a brand's accounts on online community forums, or to respond when something has gone wrong: a comment has disappeared, a community has banned the account, or the account has been suspended. Classifies each moderation signal correctly (a ban, a removal, or a rule note) before reacting, gates posting on confirmed signals only, checks membership before each posting attempt, and sets the recovery path for temporary bans, permanent bans, and site-wide suspension. Not for the warm-up of a new account (see community-account-warmup)."
+version: 1.2.0
+description: "Use when monitoring the health of a brand's accounts on online community forums, or responding when something has gone wrong: a comment has disappeared, a community has banned the account, or the account has been suspended. Classifies each moderation signal correctly (a ban, a removal, or a rule note) before reacting, gates posting on confirmed signals only, checks membership before each posting attempt, and sets the recovery path for temporary bans, permanent bans, and site-wide suspension. Not for the warm-up of a new account (see `community-account-warmup`)."
 ---
 
 # Community account health

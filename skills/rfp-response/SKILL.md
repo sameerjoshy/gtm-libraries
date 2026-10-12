@@ -1,6 +1,6 @@
 ---
 name: rfp-response
-version: 1.1.0
+version: 1.2.0
 description: "Use when an RFP, RFI, or brief arrives and a response is due. Makes a bid or no-bid decision on fit, winnability, and whether the request is genuine, builds the response to the buyer's scorecard in the buyer's order, plans the work backward from the proposal deadline, and tracks every live bid against its stage and date. Not for the proposal's pricing model (see pricing-monetization-ops)."
 ---
 

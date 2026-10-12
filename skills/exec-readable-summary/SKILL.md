@@ -1,6 +1,6 @@
 ---
 name: exec-readable-summary
-version: 1.1.0
+version: 1.2.0
 description: "Use when work is going from one person to another who did not make it, such as a report, plan, analysis, memo, research or a raw AI answer, and it must be reviewed in seconds. Produces a page with a ten-second top (the verdict, the ask, and at most three numbers), a two-minute body in the shape that fits the content, and folded evidence. Every number carries its source, and the sender reviews and signs the page before it is forwarded. Not for a deck (see the slides type) or for a formal document with a fixed template."
 ---
 
@@ -31,7 +31,7 @@ Route elsewhere when:
 ## Procedure
 
 1. **Read all of the raw work.** Extract the recipient, the ask, the verdict, each fact with its place in the source, and the gaps: missing data, contradictions, and claims with no evidence.
-2. **Ask at most two questions, in one message:** who receives this, and what must they do with it? And what is the one thing they must understand? Offer a proposed verdict so the sender can say yes. Any question left unanswered becomes a labelled assumption, not a second question.
+2. **Ask at most two questions, in one message:** who receives this, and what must they do with it? And what is the one thing they must understand? Offer a proposed verdict so the sender can say yes. Any question left unanswered becomes a labeled assumption, not a second question.
 3. **Choose the shape from the content.** A report suits a dashboard. A plan suits a one-page view. A decision suits a comparison of options. A change suits a diagram of what moved.
 4. **Write for the reader.** Use short, active sentences. Use one word for one thing. Avoid idioms. Give absolute dates. Name one owner for each action.
 5. **Build the three layers:**

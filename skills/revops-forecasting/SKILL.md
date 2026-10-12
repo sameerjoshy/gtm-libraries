@@ -1,7 +1,7 @@
 ---
 name: revops-forecasting
-version: 1.1.0
-description: "Use when the revenue forecast is consistently wrong, when the team cannot predict its quarter number, when deals slip unexpectedly, or when a forecast call needs to inspect deals rather than read status. Sets forecast categories with written validation rules, reconciles the number from at least two independent methods, measures accuracy by rep and segment, checks pipeline coverage against win rate, and wires forecast breaches into an operating cadence. Not for deal truth scoring (see deal-qualification-gates)."
+version: 1.2.0
+description: "Use when the revenue forecast is consistently wrong, when the team cannot predict its quarter number, when deals slip unexpectedly, or when a forecast call needs to inspect deals rather than read status. Sets forecast categories with written validation rules, reconciles the number from at least two independent methods, measures accuracy by rep and segment, checks pipeline coverage against win rate, and wires forecast breaches into an operating cadence. Not for deal truth scoring (see `deal-qualification-gates`)."
 ---
 
 # Revenue forecasting
@@ -24,14 +24,6 @@ Route elsewhere when:
 - The question is why a deal is slow. Use `deal-velocity`.
 - The question is capacity planning for next year. Use `gtm-planning-org-design`.
 
-## Principles
-
-1. **Forecast the process, not the outcome.** Do not ask "will this close?" Ask what the next step is, when it is scheduled, who will be in the room, and what has to be true before the buyer moves. Forecast quality comes from deal inspection, not the seller's optimism.
-2. **Use at least two methods and reconcile them.** When they agree, confidence rises. When they disagree, the gap is the diagnostic.
-3. **Segment every conversion rate.** Enterprise and SMB convert differently. Inbound and outbound move at different speeds. New business and expansion differ in predictability. A blended average gives a blended, useless forecast.
-4. **The forecast call manages risk.** Its purpose is to find deals at risk, move resources to committed deals, and check pipeline generation. A call where reps read out updates has no purpose.
-5. **Measure accuracy by rep, segment, and quarter.** Patterns of who over-forecasts and who under-forecasts are themselves actionable.
-
 ## Inputs
 
 - Forecast against outcome by period, rep and segment, from past quarters.
@@ -42,6 +34,14 @@ Route elsewhere when:
 ## Procedure
 
 Apply the methods in order, then reconcile them. Then run the cadence, accuracy, slippage, coverage and breach rules.
+
+### Principles
+
+1. **Forecast the process, not the outcome.** Do not ask "will this close?" Ask what the next step is, when it is scheduled, who will be in the room, and what has to be true before the buyer moves. Forecast quality comes from deal inspection, not the seller's optimism.
+2. **Use at least two methods and reconcile them.** When they agree, confidence rises. When they disagree, the gap is the diagnostic.
+3. **Segment every conversion rate.** Enterprise and SMB convert differently. Inbound and outbound move at different speeds. New business and expansion differ in predictability. A blended average gives a blended, useless forecast.
+4. **The forecast call manages risk.** Its purpose is to find deals at risk, move resources to committed deals, and check pipeline generation. A call where reps read out updates has no purpose.
+5. **Measure accuracy by rep, segment, and quarter.** Patterns of who over-forecasts and who under-forecasts are themselves actionable.
 
 ### Method 1: Category-based forecasting
 

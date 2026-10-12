@@ -1,7 +1,7 @@
 ---
 name: revops-tech-stack
-version: 1.1.0
-description: "Use to decide what the revenue technology stack should contain, to audit a stack that has grown without a plan, to evaluate a tool or decide build versus buy, and to decide where AI tools fit given the company's process and data maturity. Works capability by capability, not tool by tool, and sizes the stack to the company's stage. Use when the team says there are too many tools, the tools do not talk to each other, or someone wants to buy an AI tool. Not for strategy framing (see revops-strategy) or CRM data governance (see revops-data-governance)."
+version: 1.2.0
+description: "Use when deciding what the revenue technology stack should contain, auditing a stack that has grown without a plan, evaluating a tool or deciding build versus buy, or deciding where AI tools fit given the company's process and data maturity. Works capability by capability, not tool by tool, and sizes the stack to the company's stage. Use when the team says there are too many tools, the tools do not talk to each other, or someone wants to buy an AI tool. Not for strategy framing (see `revops-strategy`) or CRM data governance (see `revops-data-governance`)."
 ---
 
 # Revenue tech stack architecture
@@ -21,7 +21,6 @@ The core rule: every capability the business needs has exactly one owner, the CR
 - The stack has to be sized for the next growth stage.
 
 Route elsewhere when:
-
 - The question is the overall GTM strategy or pipeline design. Use `revops-strategy`.
 - The question is data definitions and quality inside the CRM. Use `revops-data-governance`.
 - The question is the warehouse, transformation, and reverse-ETL design. Use `gtm-data-architecture`.
@@ -125,8 +124,6 @@ Build only when all three hold:
 
 Build where the company's method differs from what vendors assume, or where the signal is internal and proprietary. Buy the commodity layers: outbound automation, call recording, enrichment, meeting scheduling, and native CRM scoring.
 
-### AI in the stack
-
 ### Maturity model
 
 | Stage | Name | What it looks like | Human role |
@@ -216,7 +213,15 @@ Custom software can be a differentiator. Competitors can buy the same products, 
 5. **Integration health.** Check every data sync. Failures are invisible until they cause a visible problem.
 6. **Roadmap.** Does the stack support next year's plan? What capability will be needed that does not exist yet? Which tools are being outgrown?
 
-Present the full cost of the current stack, including hidden costs, next to a rationalised version.
+Present the full cost of the current stack, including hidden costs, next to a rationalized version.
+
+### Diagnostic questions
+
+1. For each tool, which capability does it own, and what would stop working without it?
+2. Which tools are below half of their licensed users each month?
+3. How many data syncs failed last quarter, and who was told?
+4. Which proposed tool has a process written down that it will support?
+5. Which AI prerequisites are missing, and is the team ready for the first use case?
 
 ## Output
 
@@ -226,14 +231,6 @@ Present the full cost of the current stack, including hidden costs, next to a ra
 - The evaluation scorecard for any tool under consideration, with the ninety-day implementation question answered.
 - The build-or-buy decision and its reasons.
 - For AI: the stage assessment, the readiness check, and the first use case.
-
-## Diagnostic questions
-
-1. For each tool, which capability does it own, and what would stop working without it?
-2. Which tools are below half of their licensed users each month?
-3. How many data syncs failed last quarter, and who was told?
-4. Which proposed tool has a process written down that it will support?
-5. Which AI prerequisites are missing, and is the team ready for the first use case?
 
 ## Quality bar
 

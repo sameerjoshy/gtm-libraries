@@ -1,36 +1,29 @@
 ---
 name: icp-builder
-version: 1.1.0
-description: "Use to build, validate, refine, or add to an ideal customer profile (ICP), including segments, personas, and the gate-based qualification rule that decides which accounts are in. Use when the ICP is too broad, too vague, or was written before revenue arrived, or when a new segment needs defining. Derives the profile from closed-won revenue where data exists, and produces a matrix that two people can apply the same way. Account tiering and list filtering have their own skills. Not for scoring a list already on file (see audience-icp-filter) or tiering accounts (see account-tier-scoring)."
+version: 1.2.0
+description: "Use when building, validating, refining, or adding to an ideal customer profile (ICP), including segments, personas, and the gate-based qualification rule that decides which accounts are in. Use when the ICP is too broad, too vague, or was written before revenue arrived, or when a new segment needs defining. Derives the profile from closed-won revenue where data exists, and produces a matrix that two people can apply the same way. Account tiering and list filtering have their own skills. Not for scoring a list already on file (see `audience-icp-filter`) or tiering accounts (see `account-tier-scoring`)."
 ---
 
 # ICP builder
 
-Defines who the client sells to, turns that definition into rules a list can be filtered against, and keeps the rules current as deals close.
-
 ## Purpose
 
-Produce an ICP that is a decision rule, not a description. Every criterion is either a gate with a named data source or a labelled assumption. The output tells the team who to exclude as clearly as who to target, and it predicts the client's own past wins.
+Define who the client sells to, turn that definition into rules a list can be filtered against, and keep the rules current as deals close. Produce an ICP that is a decision rule, not a description. Every criterion is either a gate with a named data source or a labeled assumption. The output tells the team who to exclude as clearly as who to target, and it predicts the client's own past wins.
 
 ## When to use
 
 - A client needs an ideal customer profile that works as a decision rule for qualifying accounts.
 - The ICP needs refining against closed-won and closed-lost deals.
+- A new segment needs defining.
 
 Route elsewhere when:
+
 - A list already exists and must be sorted against the ICP. Use `audience-icp-filter`.
 - Accounts already in the CRM need tiers. Use `account-tier-scoring`.
-
-## Principles
-
-- **Revenue first, deck second.** The profile is derived from what paid, then checked against near-misses and late losses. A profile written before the revenue arrived is a hypothesis until it has been tested against the ledger.
-- **Default-deny.** An account is out until it passes every gate. A strong score on some dimensions never rescues a failed gate on another. A perfect-fit account with no budget or no reachable buyer is a no.
-- **Disqualifiers before qualifiers.** Knowing who to drop is the harder and more valuable skill. Write the exclusions first.
-- **Sort every criterion into one category:** fit (checkable from research or CRM without talking to the company), readiness (an observable event that suggests change), discovery (only a conversation can answer), or disqualifier. Discovery criteria never go into the fit threshold, because the team will either guess or skip them.
-- **Unknown is not a pass and not a fail.** An unknown produces the next research question. It is never filled with an assumption.
-- **Measure before asking.** Check what the CRM or list actually holds before proposing criteria the data cannot support.
-- **Falsifiable.** Every criterion names its source. Every gate can be answered yes or no by someone who has never met the customer.
-- **Persona is part of the ICP.** The people who sign, champion, and block shape the profile in the same pass. Personas are not a separate project.
+- The question is a TAM count or revenue sizing. Use `tam-build-and-sizing`.
+- The question is a signal or a single account's readiness. Use `signal-detection-and-timing`.
+- The question is a signal type: champion job changes. Use `champion-job-change-tracking`.
+- The question is a signal type: hiring patterns. Use `hiring-signal-tracking`.
 
 ## Inputs
 
@@ -46,6 +39,17 @@ Optional: customer interview notes, win/loss reasons, call transcripts, competit
 If fewer than ten closed deals are available, do not refine. Below that the signal is noise. Run discovery from the team interview and the named deals instead, and label the output as a hypothesis.
 
 ## Procedure
+
+### Principles
+
+- **Revenue first, deck second.** The profile is derived from what paid, then checked against near-misses and late losses. A profile written before the revenue arrived is a hypothesis until it has been tested against the ledger.
+- **Default-deny.** An account is out until it passes every gate. A strong score on some dimensions never rescues a failed gate on another. A perfect-fit account with no budget or no reachable buyer is a no.
+- **Disqualifiers before qualifiers.** Knowing who to drop is the harder and more valuable skill. Write the exclusions first.
+- **Sort every criterion into one category:** fit (checkable from research or CRM without talking to the company), readiness (an observable event that suggests change), discovery (only a conversation can answer), or disqualifier. Discovery criteria never go into the fit threshold, because the team will either guess or skip them.
+- **Unknown is not a pass and not a fail.** An unknown produces the next research question. It is never filled with an assumption.
+- **Measure before asking.** Check what the CRM or list actually holds before proposing criteria the data cannot support.
+- **Falsifiable.** Every criterion names its source. Every gate can be answered yes or no by someone who has never met the customer.
+- **Persona is part of the ICP.** The people who sign, champion, and block shape the profile in the same pass. Personas are not a separate project.
 
 ### Step 1: Check the evidence and fill rates
 
@@ -134,7 +138,7 @@ Add a segment:
 
 1. **ICP summary:** two to four archetypes, each with objective criteria a search can use, typical deal size, count of won companies behind it, and the evidence source.
 2. **Gates and matrix:** ordered gates, each with a source and a yes/no question. Tier rules. Exclusion list with reasons.
-3. **Personas:** per segment, roles and what each does in the decision, with the inferred ones labelled.
+3. **Personas:** per segment, roles and what each does in the decision, with the inferred ones labeled.
 4. **Revenue view:** the revenue-ranked table by segment, share of revenue, and any concentration flag. Source coverage stated.
 5. **Validation:** retro-test result on the last ten wins, two-person consistency result.
 6. **Open questions:** each unknown, the question that resolves it, and who should answer.
@@ -150,7 +154,7 @@ Write the approved ICP to `context/icp.md` in the client's ICP format.
 - No archetype is built on one account, or on firmographics the data did not carry.
 - Every exclusion has a recorded reason.
 - The retro-test on the last ten wins passes, or the failures are explained.
-- Inferred attributes are labelled as inferred.
+- Inferred attributes are labeled as inferred.
 - No proposed change is saved without approval.
 - No thresholds or benchmarks are presented as industry standards unless cited.
 
@@ -170,10 +174,3 @@ Write the approved ICP to `context/icp.md` in the client's ICP format.
 - NEVER infer a business problem, budget, or sponsor from firmographics or title alone.
 - NEVER claim causation from correlation in output.
 - NEVER state a benchmark or threshold as an industry standard unless the source is cited.
-
-
-- Defines and refines the ICP and its personas. It does not score or tier individual accounts across a list: use `account-tier-scoring`.
-- Does not filter an existing lead list: use the list-filtering skill.
-- Does not build a TAM count or revenue sizing: use `tam-build-and-sizing`.
-- Does not judge a single account's readiness or verdict: use `signal-detection-and-timing` for signals and `champion-job-change-tracking` or `hiring-signal-tracking` for the matching signal types.
-- Does not write outreach or sequences.

@@ -1,7 +1,7 @@
 ---
 name: citation-source-outreach
-version: 1.1.0
-description: "Use when the sources that AI answers cite in a category are known and the brand is missing from them. Ranks target sources by how many category answers each one feeds, matches the ask to the source type, works the list like a pipeline, and re-measures the affected questions after each placement to prove the change. Not for choosing which content to build (see answer-engine-citation-drill-down) or for measuring visibility (see answer-engine-visibility-tracking). Never astroturfs community threads and never presents paid placements as organic mentions."
+version: 1.2.0
+description: "Use when the sources that AI answers cite in a category are known and the brand is missing from them. Ranks target sources by how many category answers each one feeds, matches the ask to the source type, works the list like a pipeline, and re-measures the affected questions after each placement to prove the change. Not for choosing which content to build (see `answer-engine-citation-drill-down`) or for measuring visibility (see `answer-engine-visibility-tracking`). Never astroturfs community threads and never presents paid placements as organic mentions."
 ---
 
 # Citation source outreach
@@ -16,7 +16,6 @@ When AI answers in a category keep citing the same handful of sources and the br
 - A team wants a get-listed plan built from those sources.
 
 Route elsewhere when:
-
 - The question is which content to create. Use `answer-engine-citation-drill-down`.
 - The question is measuring visibility. Use `answer-engine-visibility-tracking`.
 
@@ -29,10 +28,10 @@ Route elsewhere when:
 
 ## Procedure
 
-1. **Rank by answers fed.** Order the sources by how many category answers each one fed. Domain authority, traffic and prestige can mislead. A modest directory that feeds nine answers outranks a well-known publication that feeds one.
+1. **Rank by answers fed.** Order the sources by how many category answers each one fed. Domain authority, traffic, and prestige can mislead. A modest directory that feeds nine answers outranks a well-known publication that feeds one.
 2. **Match the ask to the source type:**
    - a directory or listing: a submission or a claimed profile;
-   - a comparison or review page: inclusion with evidence, meaning real differentiators, pricing and proof, not a pitch;
+   - a comparison or review page: inclusion with evidence, meaning real differentiators, pricing, and proof, not a pitch;
    - a community thread: an honest answer from a real account, or no action;
    - a publication: the data or story its page is missing.
    Write each ask so the person who maintains that page can act on it in one sitting.

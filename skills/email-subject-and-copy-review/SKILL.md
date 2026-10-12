@@ -1,7 +1,7 @@
 ---
 name: email-subject-and-copy-review
-version: 1.1.0
-description: "Use to write or improve the subject line and body of a B2B marketing or newsletter email. Generates subject lines from named psychological triggers (curiosity, urgency, pain, authority, results, contrarian, value, action, empowerment, story, trend, and quick win), reviews the body against a checklist of copy rules (direct address, a hook that gets to the point, skimmable structure, a single contextual call to action, a closing line for the reader who skips to the end), and rewrites vague pain statements into specific ones. Not for the whole sequence (see saas-lifecycle-programs) or for detecting machine-sounding prose (see content-authenticity-review)."
+version: 1.2.0
+description: "Use when writing or improving the subject line and body of a B2B marketing or newsletter email. Generates subject lines from named psychological triggers (curiosity, urgency, pain, authority, results, contrarian, value, action, empowerment, story, trend, and quick win), reviews the body against a checklist of copy rules (direct address, a hook that gets to the point, skimmable structure, a single contextual call to action, a closing line for the reader who skips to the end), and rewrites vague pain statements into specific ones. Not for the whole sequence (see saas-lifecycle-programs) or for detecting machine-sounding prose (see content-authenticity-review)."
 ---
 
 # Email subject and copy review
@@ -76,7 +76,7 @@ Find sections that are generic, such as "we help you save time". For each, write
 
 ## Output
 
-- Five to ten subject lines, labelled by trigger, with three recommended and their preview lines.
+- Five to ten subject lines, labeled by trigger, with three recommended and their preview lines.
 - The copy review, with each check's result and the fix.
 - The rewritten sections, with the reason for each.
 

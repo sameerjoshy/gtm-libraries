@@ -1,7 +1,7 @@
 ---
 name: cold-offer-architect
-version: 1.1.0
-description: "Use before writing cold copy, or when cold outreach is not converting despite clean writing. Builds an offer as a complete value-for-value deal (specific outcome, believable mechanism, risk on the seller, low effort for the buyer, proof embedded) and scores it against an eight-criterion pass or fail gate. Covers cold email, cold DMs, and cold ads. Not for the copy, sequence, or list, which come after the offer passes."
+version: 1.2.0
+description: "Use when you are about to write cold copy, or when cold outreach is not converting despite clean writing. Builds an offer as a complete value-for-value deal (specific outcome, believable mechanism, risk on the seller, low effort for the buyer, proof embedded) and scores it against an eight-criterion pass or fail gate. Covers cold email, cold DMs, and cold ads. Not for the copy, sequence, or list (see `outbound-cold-email`), which come after the offer passes."
 ---
 
 # Cold offer architect

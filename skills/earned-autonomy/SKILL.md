@@ -1,7 +1,7 @@
 ---
 name: earned-autonomy
-version: 1.1.0
-description: "Use to decide how much a GTM automation or AI agent may do without a person reviewing each output. Assigns a level per task (draft, spot-check, exception-only, or automatic), states the evidence required to move up and the triggers that move it back down, and treats wordless low-risk actions differently from anything that carries words. Use when a workflow is ready to run on a schedule, when per-item approval should stop, or when an agent has made a mistake. Not for the security or legal review of the agent itself."
+version: 1.2.0
+description: "Use when deciding how much a GTM automation or AI agent may do without a person reviewing each output. Assigns a level per task (draft, spot-check, exception-only, or automatic), states the evidence required to move up and the triggers that move it back down, and treats wordless low-risk actions differently from anything that carries words. Use when a workflow is ready to run on a schedule, when per-item approval should stop, or when an agent has made a mistake. Not for the security or legal review of the agent itself."
 ---
 
 # Earned autonomy

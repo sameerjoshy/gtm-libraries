@@ -1,7 +1,7 @@
 ---
 name: signal-campaign-build
-version: 1.1.0
-description: "Use to turn an observable market event, such as a funding round, a regulatory change, or a hiring pattern, into a small, defensible outbound campaign. Produces a signal thesis with its false-positive definition, an evidence record for each account, a buyer map for accounts that pass, staged channel drafts, and a quality gate before launch. Use when someone asks who to contact now, which companies show a problem, or how to build a campaign around an event. Not for choosing among ready-made plays (see signal-outbound-plays) or for detecting signals in depth (see signal-detection-and-timing)."
+version: 1.2.0
+description: "Use to turn an observable market event, such as a funding round, a regulatory change, or a hiring pattern, into a small, defensible outbound campaign. Produces a signal thesis with its false-positive definition, an evidence record for each account, a buyer map for accounts that pass, staged channel drafts, and a quality gate before launch. Use when someone asks who to contact now, which companies show a problem, or how to build a campaign around an event. Not for choosing among ready-made plays (see `signal-outbound-plays`) or for detecting signals in depth (see `signal-detection-and-timing`)."
 ---
 
 # Signal to campaign

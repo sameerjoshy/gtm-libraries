@@ -1,7 +1,7 @@
 ---
 name: paid-budget-by-stage
-version: 1.1.0
-description: "Use to split a paid budget across demand stages (create, capture, accelerate or activate, revive, and expand) and to shift the split as spend grows. Sets out what each stage needs in audience size, return timeline, and difficulty, works from the stages with the quickest return toward the slowest, and states how product-led and sales-led companies usually weight the split. Not for the stage definitions themselves (see demand-lifecycle-model) or for the channel choice (see paid-channel-selection)."
+version: 1.2.0
+description: "Use when splitting a paid budget across demand stages (create, capture, accelerate or activate, revive, and expand) and shifting the split as spend grows. Sets out what each stage needs in audience size, return timeline, and difficulty, works from the stages with the quickest return toward the slowest, and states how product-led and sales-led companies usually weight the split. Not for the stage definitions themselves (see `demand-lifecycle-model`) or for the channel choice (see `paid-channel-selection`)."
 ---
 
 # Paid budget by stage
@@ -42,13 +42,6 @@ These are default characteristics. Replace them with the company's own data as i
 | Revive | Low | Under 45 days | Low: buyers know the brand and have shown interest before |
 | Expand | Low | Under 60 days | Medium: small audience, hard to scale |
 
-## Principles
-
-- **Work from the quickest return toward the slowest.** Fund the stages that pay back fastest first, so the budget has a return to fund the slower stages later.
-- **Product-led companies** usually spread budget across create and capture, because the product itself is the offer to people who arrive.
-- **Sales-led companies** usually weight toward accelerate and account-focused stages, because buyers need a sales process and a named account list.
-- **Treat the split as a series of bets**, each with a stated expected return and a date to check it.
-
 ## Procedure
 
 1. **Set the total budget** and its expected change over two quarters.
@@ -57,6 +50,13 @@ These are default characteristics. Replace them with the company's own data as i
 4. **Set the return check** for each stage: the metric and the date from the timeline above, adjusted for the company's own data.
 5. **Plan the change as budget grows.** Add money first to the stages that have shown return, and only then to stages with longer timelines.
 6. **Review the split quarterly** against the return checks, and move budget only where the check has passed or clearly failed.
+
+## Principles
+
+- **Work from the quickest return toward the slowest.** Fund the stages that pay back fastest first, so the budget has a return to fund the slower stages later.
+- **Product-led companies** usually spread budget across create and capture, because the product itself is the offer to people who arrive.
+- **Sales-led companies** usually weight toward accelerate and account-focused stages, because buyers need a sales process and a named account list.
+- **Treat the split as a series of bets**, each with a stated expected return and a date to check it.
 
 ## Output
 

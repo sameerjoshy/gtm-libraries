@@ -1,7 +1,7 @@
 ---
 name: paid-audience-reach-diagnostic
-version: 1.1.0
-description: "Use to judge whether paid ads are reaching a target audience or account list well enough and often enough, using penetration (share of the list reached) and frequency (average impressions per reached person). Always reads frequency over a ninety-day basis, judges warm and cold audiences by different measures, separates a saturated pool from a narrow source, and turns each verdict into a specific fix. Use when someone asks whether they are over-serving, whether the audience is too small, or how often people see an ad. Not for who converts (see paid-audience-segment-diagnostic)."
+version: 1.2.0
+description: "Use when you need to judge whether paid ads are reaching a target audience or account list well enough and often enough, using penetration (share of the list reached) and frequency (average impressions per reached person). Always reads frequency over a ninety-day basis, judges warm and cold audiences by different measures, separates a saturated pool from a narrow source, and turns each verdict into a specific fix. Use when someone asks whether they are over-serving, whether the audience is too small, or how often people see an ad. Not for who converts (see `paid-audience-segment-diagnostic`)."
 ---
 
 # Paid audience reach diagnostic

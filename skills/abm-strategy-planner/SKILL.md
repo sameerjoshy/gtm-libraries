@@ -1,16 +1,14 @@
 ---
 name: abm-strategy-planner
-version: 1.1.0
-description: "Use when someone wants an ABM strategy or plan, a LinkedIn ABM campaign plan, a budget and audience plan for account-based marketing, or needs to know how many ads or campaigns their budget supports. Builds a funnel-based plan from stated goals and economics. Not for measuring results (see abm-measurement-framework) or for choosing the campaign level (see abm-campaign-level-choice)."
+version: 1.2.0
+description: "Use when someone wants an ABM strategy or plan, a LinkedIn ABM campaign plan, a budget and audience plan for account-based marketing, or needs to know how many ads or campaigns their budget supports. Builds a funnel-based plan from stated goals and economics. Not for measuring results (see `abm-measurement-framework`) or for choosing the campaign level (see `abm-campaign-level-choice`)."
 ---
 
 # ABM strategy planner
 
-Turns a short interview plus research into a funnel-based ABM plan with budget, campaign structure, and a pre-launch checklist.
-
 ## Purpose
 
-Produce a plan a finance lead can check. Every number traces back to a stated input, and every assumption is labelled.
+Turn a short interview plus research into a funnel-based ABM plan with budget, campaign structure, and a pre-launch checklist. Produce a plan a finance lead can check: every number traces back to a stated input, and every assumption is labeled.
 
 ## When to use
 
@@ -19,6 +17,7 @@ Produce a plan a finance lead can check. Every number traces back to a stated in
 Route elsewhere when:
 - The question is reporting on a running program. Use `abm-account-engagement-report`.
 - The question is how to define the measures. Use `abm-measurement-framework`.
+- The question is the choice of campaign level. Use `abm-campaign-level-choice`.
 
 ## Inputs
 
@@ -35,7 +34,7 @@ Ask in small batches. Offer a default for each. Never block on a missing number.
 9. Target audiences (geography and industry). Seed from research and confirm.
 10. Top jobs-to-be-done per audience and the core problem solved.
 
-**Data order:** a live connector first, then the user's real figures, then the defaults above. Any figure that comes from a default must be labelled as a benchmark on the output.
+**Data order:** a live connector first, then the user's real figures, then the defaults above. Any figure that comes from a default must be labeled as a benchmark on the output.
 
 ## Procedure
 
@@ -54,7 +53,7 @@ A self-contained HTML plan titled "[Company] LinkedIn ABM Strategy", with inline
 ## Quality bar
 
 - Revenue and ACV are on the same basis (both monthly, or both annual).
-- Each figure from a default is labelled as a benchmark.
+- Each figure from a default is labeled as a benchmark.
 - The document states that all outputs are directional planning figures, not forecasts.
 - Budget allocation percentages sum to 100 at each budget level.
 - No budget is gated on CTR. CTR does not drive the budget math.

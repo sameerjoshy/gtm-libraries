@@ -1,7 +1,7 @@
 ---
 name: paid-search-unit-economics
-version: 1.1.0
-description: "Use when someone asks what a paid search number implies before committing spend: a budget projection, a target cost per acquisition or return on spend, an impression-share opportunity, a break-even figure, or a \"what would happen if\" question. Works from numbers the team already has, derives the core rates (cost per acquisition, return on spend, click-through rate, cost per click, conversion rate), chains them forward explicitly, and shows the distance to target and a sensitivity check. No live account access is needed. Not for diagnosing a live account (see paid-search-quality-diagnosis)."
+version: 1.2.0
+description: "Use when someone asks what a paid search number implies before committing spend: a budget projection, a target cost per acquisition or return on spend, an impression-share opportunity, a break-even figure, or a \"what would happen if\" question. Works from numbers the team already has, derives the core rates (cost per acquisition, return on spend, click-through rate, cost per click, conversion rate), chains them forward explicitly, and shows the distance to target and a sensitivity check. No live account access is needed. Not for diagnosing a live account (see `paid-search-quality-diagnosis`)."
 ---
 
 # Paid search unit economics

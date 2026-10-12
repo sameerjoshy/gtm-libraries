@@ -1,7 +1,7 @@
 ---
 name: account-selection-funnel
-version: 1.1.0
-description: "Use to decide how many target accounts an account-based program needs for a revenue goal, how to stage accounts from identified to selecting, and which firmographic, technographic, CRM and lookalike criteria choose the accounts. Works backwards from the revenue target to the account count, then builds the list from layered criteria. Not for the campaign level (see abm-campaign-level-choice) or the stage metrics used to report on the program (see abm-measurement-framework)."
+version: 1.2.0
+description: "Use when deciding how many target accounts an account-based program needs for a revenue goal, how to stage accounts from identified to selecting, and which firmographic, technographic, CRM and lookalike criteria choose the accounts. Works backwards from the revenue target to the account count, then builds the list from layered criteria. Not for the campaign level (see `abm-campaign-level-choice`) or the stage metrics used to report on the program (see `abm-measurement-framework`)."
 ---
 
 # Account selection funnel
@@ -58,7 +58,7 @@ Route elsewhere when:
 
 ## Quality bar
 
-Every account count is traceable to a stated rate. The default rates are labelled as defaults, not benchmarks. Each layer names its source. The list size and the revenue target are checked against each other before the list is used. Watch for a target account count that was never reconciled with the revenue goal, and a list built on a single layer.
+Every account count is traceable to a stated rate. The default rates are labeled as defaults, not benchmarks. Each layer names its source. The list size and the revenue target are checked against each other before the list is used. Watch for a target account count that was never reconciled with the revenue goal, and a list built on a single layer.
 
 ## Rules
 

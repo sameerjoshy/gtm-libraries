@@ -1,7 +1,7 @@
 ---
 name: revenue-metrics
-version: 1.1.0
-description: "Use to define, calculate, and diagnose revenue metrics: the funnel and its conversion rates, pipeline velocity and its four levers, CAC, LTV, payback, NRR and GRR, Rule of 40, burn multiple, and cohorts. Provides the diagnostic sequence for when revenue is off track, the breakout method, and a cascade of scorecards by role. Covers what to measure and how to read it, not forecasting (see revops-forecasting) or meeting cadence (see the operating cadence skill)."
+version: 1.2.0
+description: "Use when defining, calculating, or diagnosing revenue metrics: the funnel and its conversion rates, pipeline velocity and its four levers, CAC, LTV, payback, NRR and GRR, Rule of 40, burn multiple, and cohorts. Provides the diagnostic sequence for when revenue is off track, the breakout method, and a cascade of scorecards by role. Covers what to measure and how to read it, not forecasting (see `revops-forecasting`) or meeting cadence (see `revenue-operating-cadence`)."
 ---
 
 # Revenue metrics
@@ -20,7 +20,7 @@ A metric is a diagnostic tool. Its value is the question it prompts. Revenue met
 Route elsewhere when:
 
 - The question is the forecast number. Use `revops-forecasting`.
-- The question is the meeting rhythm. Use the operating cadence skill.
+- The question is the meeting rhythm. Use `revenue-operating-cadence`.
 - The question is data quality in the CRM. Use `revops-data-governance`.
 
 ## Inputs
@@ -157,7 +157,7 @@ Score six dimensions from 0 to 3 for each open deal:
 | Activity | None for 14 or more days | Sporadic | Weekly | Several a week, across channels |
 | Multi-threading | One contact | Two | Three or four | Five or more, including the decision-maker |
 | Access to the economic buyer | None identified | Identified, no contact | Met once | Actively engaged in the process |
-| Review | Never reviewed | Monthly | Fortnightly | Weekly with the manager |
+| Review | Never reviewed | Monthly | Biweekly | Weekly with the manager |
 | Methodology | No qualification data | Two or three fields | Complete | Used in the deal strategy |
 
 Total from 0 to 18. Treat 13 to 18 as healthy, 10 to 12 as watch, and 9 or below as at risk for intervention. The thresholds are the author's defaults. Calibrate them against the client's won and lost deals.

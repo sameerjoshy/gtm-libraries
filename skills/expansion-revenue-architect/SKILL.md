@@ -1,7 +1,7 @@
 ---
 name: expansion-revenue-architect
-version: 1.1.0
-description: "Use to diagnose and build the expansion engine for B2B SaaS: fix gross retention first, then design the expansion motion (ownership by deal size, the CS-to-Sales handback, whitespace analysis across five dimensions, a readiness score with action bands), signal rules wired into the cadence, and a 90-day net revenue retention program. Use when NRR is below target, GRR is below about 90%, expansion is accidental, or CS does not own revenue. Not for CS operations or health scoring (see cs-operations), pricing mechanics (see pricing-monetization-ops), or handoff mechanics (see revenue-handoffs)."
+version: 1.2.0
+description: "Use when diagnosing and building the expansion engine for B2B SaaS: fix gross retention first, then design the expansion motion (ownership by deal size, the CS-to-Sales handback, whitespace analysis across five dimensions, a readiness score with action bands), signal rules wired into the cadence, and a 90-day net revenue retention program. Use when NRR is below target, GRR is below about 90%, expansion is accidental, or CS does not own revenue. Not for CS operations or health scoring (see cs-operations), pricing mechanics (see pricing-monetization-ops), or handoff mechanics (see revenue-handoffs)."
 ---
 
 # Expansion revenue architecture
@@ -116,7 +116,7 @@ For medium and large expansions, use this sequence:
 2. **CS introduces sales to the champion.** A warm handoff, with CS on the first call.
 3. **Sales runs a discovery,** not a price quote. There may be new stakeholders, new pain, and new budget dynamics.
 4. **CS stays involved through close,** which keeps the relationship continuous and avoids the "you sold us and disappeared" reaction.
-5. **CS owns post-expansion onboarding.** New features follow the same activation rigour as a new customer.
+5. **CS owns post-expansion onboarding.** New features follow the same activation rigor as a new customer.
 
 Credit model: decide and write down how sourced and closed revenue are credited. CS sourcing should be credited, and sales should be credited for the close. If expansion pipeline is not sourced by CS, the system is not working. Record the credit rule as a design decision, because it changes behavior.
 
@@ -220,4 +220,4 @@ Platform features and vendor claims about AI are not evidence of what will work 
 
 ## Quality bar
 
-Gross retention is diagnosed before expansion is designed. Every expansion has an owner by size. Signals are captured as fields that someone must fill, not assumed. Handbacks are written, with CS on the first call. Targets come from the client's baseline, and any external benchmark is labelled as context. Watch for expansion built on weak retention, expansion pipeline with no CS sourcing, revenue gaps quoted without assumptions, and scores that were never calibrated against closed deals.
+Gross retention is diagnosed before expansion is designed. Every expansion has an owner by size. Signals are captured as fields that someone must fill, not assumed. Handbacks are written, with CS on the first call. Targets come from the client's baseline, and any external benchmark is labeled as context. Watch for expansion built on weak retention, expansion pipeline with no CS sourcing, revenue gaps quoted without assumptions, and scores that were never calibrated against closed deals.

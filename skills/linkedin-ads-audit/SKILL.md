@@ -1,7 +1,7 @@
 ---
 name: linkedin-ads-audit
-version: 1.1.0
-description: "Use when someone wants to review, grade, or improve their own LinkedIn ad results, ABM program, or spend over the last 30 days, for example \"audit my LinkedIn ads\", \"why is my CPC high\", \"which format is working\", \"are my ads decaying\". Produces a graded report with a prioritized fix list. Not for planning a new campaign."
+version: 1.2.0
+description: "Use when someone wants to review, grade, or improve their own LinkedIn ad results, ABM program, or spend over the last 30 days, for example \"audit my LinkedIn ads\", \"why is my CPC high\", \"which format is working\", \"are my ads decaying\". Produces a graded report with a prioritized fix list. Not for planning a new campaign (see `abm-strategy-planner`)."
 ---
 
 # LinkedIn ads audit

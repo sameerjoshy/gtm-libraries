@@ -1,7 +1,7 @@
 ---
 name: creator-program-measurement
-version: 1.1.0
-description: "Use to measure and report the return on a B2B creator program in a way a finance reviewer can check. Sets the attribution window for creator-sourced traffic (longer than paid ads), the view-through effect that direct-response habits miss, the separation of creator traffic from other channels, the funnel from spend to closed-won, the payback calculation, and the week-one leading indicators. Not for the strategy (see creator-program-strategy) or the paid channel measures (see paid-measurement-scorecard)."
+version: 1.2.0
+description: "Use when measuring and reporting the return on a B2B creator program in a way a finance reviewer can check. Sets the attribution window for creator-sourced traffic (longer than paid ads), the view-through effect that direct-response habits miss, the separation of creator traffic from other channels, the funnel from spend to closed-won, the payback calculation, and the week-one leading indicators. Not for the strategy (see `creator-program-strategy`) or the paid channel measures (see `paid-measurement-scorecard`)."
 ---
 
 # Creator program measurement
@@ -17,7 +17,6 @@ Creator spend often looks worse than it is, because the measures used for paid a
 - A new creator program needs its measures set before launch.
 
 Route elsewhere when:
-
 - The question is the strategy or tier. Use `creator-program-strategy`.
 - The question is the paid channel measures. Use `paid-measurement-scorecard`.
 - The question is the forecast of creator pipeline. Use `paid-search-unit-economics` for the arithmetic.
@@ -29,6 +28,8 @@ Route elsewhere when:
 - The CRM funnel from click to closed-won, with a field that marks creator-sourced records.
 - A holdout or before-and-after baseline, to measure view-through lift.
 - The attribution window, set before the data is read.
+
+## Procedure
 
 ### Fix the attribution first
 
@@ -49,7 +50,7 @@ Define a qualified click in behavioral terms: tracked to the site, and a minimum
 - **Payback period:** the time from spend to cumulative closed-won revenue covering the spend. Show it as a curve, so the reviewer can see when it crosses.
 - **Week-one indicators:** qualified clicks, saves, and direct visits to the site from the creator's post in the first week. These show whether a creator is working before the pipeline arrives.
 
-## Procedure
+### Sequence
 
 1. **Set the window, view-through method, and separation** before the data is read.
 2. **Define the qualified click** the same way across creators.

@@ -1,6 +1,6 @@
 ---
 name: email-deliverability
-version: 1.1.0
+version: 1.2.0
 description: "Use when emails land in spam, open rates drop, a domain or IP is blocklisted, a new sender needs to warm up, or a deliverability audit is wanted before volume is scaled. Produces either a severity-ranked audit of the sending setup or a root-cause diagnosis with a recovery plan and the thresholds to monitor. Covers infrastructure, data quality, content, and traffic shape. Not for the first cold campaign's launch checks (see cold-email-preflight)."
 ---
 

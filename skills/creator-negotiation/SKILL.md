@@ -1,7 +1,7 @@
 ---
 name: creator-negotiation
-version: 1.1.0
-description: "Use when a creator pushes back on a rate or terms for a B2B campaign and the team needs a reply that holds a position. Takes the creator's counter-offer and the team's original offer, checks them against the rate band, and gives three ranked options (hold, reshape, or accept with conditions), each with its reasoning and a ready-to-send draft. Not for estimating the rate in the first place (see creator-rate-band)."
+version: 1.2.0
+description: "Use when a creator pushes back on a rate or terms for a B2B campaign and the team needs a reply that holds a position. Takes the creator's counter-offer and the team's original offer, checks them against the rate band, and gives three ranked options (hold, reshape, or accept with conditions), each with its reasoning and a ready-to-send draft. Not for estimating the rate in the first place (see `creator-rate-band`)."
 ---
 
 # Creator negotiation
@@ -17,7 +17,6 @@ A creator who pushes back is telling the team something about price, scope, or f
 - A deal is stalling and the team needs a response that keeps it open.
 
 Route elsewhere when:
-
 - The team has no rate band yet. Use `creator-rate-band` first.
 - The question is the payment structure. Use `creator-deal-structure`.
 
@@ -48,4 +47,10 @@ Route elsewhere when:
 
 ## Quality bar
 
-Every concession is traded. Each option stays inside the rate band or states why it does not. Drafts are short and do not apologise for the offer. The walk-away point is set before the reply is sent. Watch for a rate raised without a trade, options that all say the same thing, and a deal agreed above the maximum.
+Every concession is traded. Each option stays inside the rate band or states why it does not. Drafts are short and do not apologize for the offer. The walk-away point is set before the reply is sent. Watch for a rate raised without a trade, options that all say the same thing, and a deal agreed above the maximum.
+
+## Rules
+
+- Nothing leaves the building without a named approver. The draft replies are external sends; stage them and get approval before any send.
+
+Before you send a draft, ask: who is the named approver releasing this?

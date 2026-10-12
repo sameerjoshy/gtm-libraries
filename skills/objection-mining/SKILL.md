@@ -1,7 +1,7 @@
 ---
 name: objection-mining
-version: 1.1.0
-description: "Use when the same pushback keeps arriving and nobody has recorded it. Mines call recordings, reply threads, and lost-deal notes for recurring objections, classifies each one (timing, budget, authority, trust, fit, competition), ranks them by observed frequency with real quotes, and names the upstream place each should be answered so it stops arriving. Not for handling one live objection on a call (see the demo or call-scoring skills)."
+version: 1.2.0
+description: "Use when the same pushback keeps arriving and nobody has recorded it. Mines call recordings, reply threads, and lost-deal notes for recurring objections, classifies each one (timing, budget, authority, trust, fit, competition), ranks them by observed frequency with real quotes, and names the upstream place each should be answered so it stops arriving. Not for handling one live objection on a call (see `call-scoring`) or a written reply (see `reply-handling`)."
 ---
 
 # Objection mining

@@ -1,7 +1,7 @@
 ---
 name: community-post-preflight
-version: 1.1.0
-description: "Use immediately before a brand posts anything, or shares a link, in an online community forum, to check whether the post is allowed and likely to stay up. Runs four checks in order (the community's rules, whether it is restricted or private, whether the link has been shared before, and the community's own posting norms), then gives a go or no-go verdict with the specific rule at issue and an alternative where one exists. Not for judging a comment's tone (see community-comment-safety)."
+version: 1.2.0
+description: "Use when a brand is about to post anything, or share a link, in an online community forum, to check whether the post is allowed and likely to stay up. Runs four checks in order (the community's rules, whether it is restricted or private, whether the link has been shared before, and the community's own posting norms), then gives a go or no-go verdict with the specific rule at issue and an alternative where one exists. Not for judging a comment's tone (see `community-comment-safety`)."
 ---
 
 # Community post preflight

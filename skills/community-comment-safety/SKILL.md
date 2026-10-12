@@ -1,7 +1,7 @@
 ---
 name: community-comment-safety
-version: 1.1.0
-description: "Use to review or write a comment that touches a brand in an online community forum, before it is posted. Runs a six-point check (the community's rules, its self-promotion policy, relevance to what the post actually says, authenticity, tone, and spam-filter risk), switches to a value-first mode where self-promotion is restricted, and sets the rule that a failed comment gets one rewrite before it is dropped. Use it because forum moderation punishes patterns, not just single posts. Not for choosing a community (see community-channel-research) or for pre-posting rule checks (see community-post-preflight)."
+version: 1.2.0
+description: "Use when reviewing or writing a comment that touches a brand in an online community forum, before it is posted. Runs a six-point check (the community's rules, its self-promotion policy, relevance to what the post actually says, authenticity, tone, and spam-filter risk), switches to a value-first mode where self-promotion is restricted, and sets the rule that a failed comment gets one rewrite before it is dropped. Use it because forum moderation punishes patterns, not just single posts. Not for choosing a community (see `community-channel-research`) or for pre-posting rule checks (see `community-post-preflight`)."
 ---
 
 # Community comment safety

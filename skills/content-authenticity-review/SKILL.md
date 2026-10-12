@@ -1,7 +1,7 @@
 ---
 name: content-authenticity-review
-version: 1.1.0
-description: "Use when a B2B draft (a post, email, page, case study, article, or executive piece) is correct but reads as machine-written and needs to sound like a person. Runs two passes: a subtractive pass that removes rhetorical moves which never help a reader, and a rewrite pass that puts claims first, attaches evidence, and makes a person the actor, then returns the rewrite with a list of changes and the claims that still need a source. Not for the first draft (see the writing skills) or for email subject lines (see email-subject-and-copy-review)."
+version: 1.2.0
+description: "Use when a B2B draft (a post, email, page, case study, article, or executive piece) is correct but reads as machine-written and needs to sound like a person. Runs two passes: a subtractive pass that removes rhetorical moves which never help a reader, and a rewrite pass that puts claims first, attaches evidence, and makes a person the actor, then returns the rewrite with a list of changes and the claims that still need a source. Not for the first draft (see the writing skills) or for email subject lines (see `email-subject-and-copy-review`)."
 ---
 
 # Content authenticity review

@@ -1,7 +1,7 @@
 ---
 name: board-meeting-prep
-version: 1.1.0
-description: "Use when a CEO, CRO, or go-to-market leader is preparing for a board, investor, or operating review and needs the room to make a decision. Produces a decision-first pre-read, an in-room agenda that spends most of the time on discussion, a single primary ask framed as a decision brief, and a preparation brief for likely director questions. Not for the financial model itself (see revenue-metrics)."
+version: 1.2.0
+description: "Use when a CEO, CRO, or go-to-market leader is preparing for a board, investor, or operating review and needs the room to make a decision. Produces a decision-first pre-read, an in-room agenda that spends most of the time on discussion, a single primary ask framed as a decision brief, and a preparation brief for likely director questions. Not for the financial model itself (see `revenue-metrics`)."
 ---
 
 # Board meeting prep
@@ -19,7 +19,6 @@ A board can only use a meeting for judgment if the context has already been read
 If no decision is needed, the material is a report. Send it as a memo, not a board presentation.
 
 Route elsewhere when:
-
 - The question is the revenue model or forecast. Use `revenue-metrics` or `revops-forecasting`.
 - The question is the company's internal operating cadence. Use `revenue-operating-cadence`.
 

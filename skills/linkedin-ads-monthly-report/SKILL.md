@@ -1,7 +1,7 @@
 ---
 name: linkedin-ads-monthly-report
-version: 1.1.0
-description: "Use when someone wants a monthly LinkedIn ads and ABM report for the last full calendar month, with a comparison to the month before. For stakeholder or executive audiences. Not a fix list (use linkedin-ads-audit) and not a new plan."
+version: 1.2.0
+description: "Use when someone wants a monthly LinkedIn ads and ABM report for the last full calendar month, with a comparison to the month before. For stakeholder or executive audiences. Not a fix list (use `linkedin-ads-audit`) and not a new plan (use `abm-strategy-planner`)."
 ---
 
 # LinkedIn ads monthly report

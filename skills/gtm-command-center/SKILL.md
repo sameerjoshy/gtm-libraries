@@ -1,6 +1,6 @@
 ---
 name: gtm-command-center
-version: 1.1.0
+version: 1.2.0
 description: "Use when one GTM operator's work is spread across many tools and the day is spent switching between them. Builds one personal operating view that shows only the lanes the operator acts on, with one source of truth per lane, read-mostly, and a daily roll-up of what needs attention today. Includes a rule for keeping any shared view free of private working notes. Not for building a team dashboard of metrics (see revenue-metrics)."
 ---
 

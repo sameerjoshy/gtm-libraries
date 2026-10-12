@@ -1,7 +1,7 @@
 ---
 name: sales-methodology
-version: 1.1.0
-description: "Use to choose and operationalise a sales methodology: SPICED for recurring-revenue discovery and qualification, MEDDIC or MEDDPICC for complex enterprise deals, BANT as a first screen only, and Challenger, SPIN, or Gap Selling as selling styles. Covers the discovery call structure, the discovery score as one field per deal, stage gates, CRM properties, deal-review coaching, rep onboarding, the discount conversation, and how the methodology connects to the pipeline. Use when reps skip discovery, deals reach proposal unqualified, or the framework lives in a deck and not in the CRM. Not for the health score (see deal-velocity) or change management across the whole revenue team (see revops-change-management)."
+version: 1.2.0
+description: "Use when choosing and operationalizing a sales methodology: SPICED for recurring-revenue discovery and qualification, MEDDIC or MEDDPICC for complex enterprise deals, BANT as a first screen only, and Challenger, SPIN, or Gap Selling as selling styles. Covers the discovery call structure, the discovery score as one field per deal, stage gates, CRM properties, deal-review coaching, rep onboarding, the discount conversation, and how the methodology connects to the pipeline. Use when reps skip discovery, deals reach proposal unqualified, or the framework lives in a deck and not in the CRM. Not for the health score (see `deal-velocity`) or change management across the whole revenue team (see `revops-change-management`)."
 ---
 
 # Sales methodology
@@ -233,6 +233,14 @@ When a deal closes or is disqualified, delete personal data on request, within t
 
 Rules for cold contact and electronic marketing vary by country. Check them with counsel before the first outreach, and do not rely on a summary of the rules in this skill.
 
+### Diagnostic questions
+
+1. Pick the last ten deals that reached proposal. How many have a documented economic buyer and a decision process?
+2. Where is the methodology recorded: in the CRM, in a deck, or nowhere?
+3. What do the weekly deal reviews actually ask?
+4. How many discounts in the last quarter have a recorded reason and a recorded trade?
+5. Are reps scoring the methodology from evidence, or from how they feel about the deal?
+
 ## Output
 
 - The methodology chosen, with the reason, and the pairing with a selling style if any.
@@ -244,14 +252,6 @@ Rules for cold contact and electronic marketing vary by country. Check them with
 - The discount conversation guide and the CRM fields for negotiation.
 - The pipeline rules: stage criteria, kill criteria, and forecast categories.
 - The AI guardrails and the override tracking.
-
-## Diagnostic questions
-
-1. Pick the last ten deals that reached proposal. How many have a documented economic buyer and a decision process?
-2. Where is the methodology recorded: in the CRM, in a deck, or nowhere?
-3. What do the weekly deal reviews actually ask?
-4. How many discounts in the last quarter have a recorded reason and a recorded trade?
-5. Are reps scoring the methodology from evidence, or from how they feel about the deal?
 
 ## Quality bar
 

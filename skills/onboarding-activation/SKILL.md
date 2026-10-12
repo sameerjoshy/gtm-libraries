@@ -1,7 +1,7 @@
 ---
 name: onboarding-activation
-version: 1.1.0
-description: "Use when customers sign and then stall, go-live takes months, or the gap between signed and successful is where accounts quietly die. Defines an activation event, carries the buying evidence across the signature, drives a 30-60-90 activation arc with milestone gates, detects stalls while they are cheap, and graduates accounts into steady state with a value baseline. Onboarding ends at first realised value, not at go-live. Not for Sales-to-CS handoff mechanics (see revenue-handoffs) or CS health scoring (see cs-operations)."
+version: 1.2.0
+description: "Use when customers sign and then stall, go-live takes months, or the gap between signed and successful is where accounts quietly die. Defines an activation event, carries the buying evidence across the signature, drives a 30-60-90 activation arc with milestone gates, detects stalls while they are cheap, and graduates accounts into steady state with a value baseline. Onboarding ends at first realized value, not at go-live. Not for Sales-to-CS handoff mechanics (see `revenue-handoffs`) or CS health scoring (see `cs-operations`)."
 ---
 
 # Onboarding to activation
@@ -110,6 +110,10 @@ The idea that activation drives renewal is plausible, and it should be tested ra
 - The graduation checklist.
 - The metric definitions and the first baseline.
 
+## Quality bar
+
+Activation is an event measured from data, not a milestone a vendor ticks off. The buying evidence is carried across the signature. Stalls are detected within two weeks and escalated with a named owner. Every account graduates with a documented baseline. Watch for go-live counted as success, kickoffs that re-ask for information already given, and accounts moved to steady state while still stalled.
+
 ## Diagnostic questions
 
 1. What is your activation event in one sentence, per segment? If the answer is a paragraph of milestones, you have a phase, not an event.
@@ -117,7 +121,3 @@ The idea that activation drives renewal is plausible, and it should be tested ra
 3. Open your three most recent kickoffs. Did the customer repeat what they told sales, or did you read it back to them?
 4. Which accounts in onboarding now show an access stall or attendance decay, and who is acting on each this week?
 5. Of the accounts that churned in the last year, how many ever activated? The answer often changes the churn conversation.
-
-## Quality bar
-
-Activation is an event measured from data, not a milestone a vendor ticks off. The buying evidence is carried across the signature. Stalls are detected within two weeks and escalated with a named owner. Every account graduates with a documented baseline. Watch for go-live counted as success, kickoffs that re-ask for information already given, and accounts moved to steady state while still stalled.

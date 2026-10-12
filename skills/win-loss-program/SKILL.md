@@ -1,7 +1,7 @@
 ---
 name: win-loss-program
-version: 1.1.0
-description: "Use when CRM loss reasons are not trusted, competitive losses go unexplained, or positioning and product decisions rest on rep-reported fields. Sets up a standing win-loss program with three evidence lanes: mining the record of every decided deal, interviewing buyers after the decision (both wins and losses), and periodic customer group sessions. Codes the causes against one driver taxonomy and routes the findings to positioning, enablement, and qualification. Rep-reported reasons are treated as opinion; buyer-reported reasons are treated as evidence."
+version: 1.2.0
+description: "Use when CRM loss reasons are not trusted, competitive losses go unexplained, or positioning and product decisions rest on rep-reported fields. Sets up a standing win-loss program with three evidence lanes: mining the record of every decided deal, interviewing buyers after the decision (both wins and losses), and periodic customer group sessions. Codes the causes against one driver taxonomy and routes the findings to positioning, enablement, and qualification. Rep-reported reasons are treated as opinion; buyer-reported reasons are treated as evidence. Not for reviving a lost deal (see `closed-lost-revival`)."
 ---
 
 # Win-loss program

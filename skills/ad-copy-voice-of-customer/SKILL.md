@@ -1,7 +1,7 @@
 ---
 name: ad-copy-voice-of-customer
-version: 1.1.0
-description: "Use when writing paid ad copy for B2B campaigns, so that headlines and body text use the buyer's own words instead of the product's marketing language. Sets out the rule to gather voice-of-customer language first, a ranked list of sources for it, the difference between describing a feature and describing a change in the buyer's daily work, and headline formulas to test. Not for the persona (see ad-persona-framework) or for the offer (see paid-offer-strategy)."
+version: 1.2.0
+description: "Use when writing paid ad copy for B2B campaigns, so that headlines and body text use the buyer's own words instead of the product's marketing language. Sets out the rule to gather voice-of-customer language first, a ranked list of sources for it, the difference between describing a feature and describing a change in the buyer's daily work, and headline formulas to test. Not for the persona (see `ad-persona-framework`) or for the offer (see `paid-offer-strategy`)."
 ---
 
 # Ad copy from the customer's voice
@@ -29,7 +29,9 @@ Route elsewhere when:
 - The offer, and the single action the ad asks for.
 - The channel's character limits, if known.
 
-### Rule one: write from the customer's words
+## Procedure
+
+### Write from the customer's words
 
 Brand language describes features: "real-time visibility across all business units". Customer language describes the change in daily work: "I used to spend six to eight hours a week on reporting. Now it takes fifteen minutes." Customer language wins because it mirrors what the buyer already thinks and feels.
 
@@ -56,7 +58,7 @@ Use these as starting points. Write three or more headlines per formula and test
 
 Do not invent numbers. Use only figures a customer or the company's own data has provided.
 
-## Procedure
+### Steps
 
 1. **Collect the voice-of-customer material** from the ranked sources, and record the before state, the after state, and the exact phrasing for each.
 2. **Pick the pain the segment names most often,** using the frequency in the source material.
@@ -75,3 +77,11 @@ Do not invent numbers. Use only figures a customer or the company's own data has
 ## Quality bar
 
 Every headline uses phrasing traceable to a customer source. No figure appears without a source. Copy is tested one element at a time. Watch for copy written from the product page, invented customer quotes or statistics, and multiple elements changed at once so no result can be attributed.
+
+## Rules
+
+- NEVER invent a customer quote, statistic, or figure. Every number traces to a customer or a citable source.
+- Do not write from the product page.
+- Ad copy is external. Stage it for a named approver before it runs.
+
+Before you publish the copy, ask: who is the named approver releasing this?

@@ -1,7 +1,7 @@
 ---
 name: revops-diagnostic
-version: 1.1.0
-description: "Use when revenue problems arrive as symptoms (weak pipeline, a forecast nobody believes, underperforming reps, churn, deals slipping late in the quarter, \"we are busy but nothing moves\") and the real constraint is unknown. Locates the layer of the revenue system where the problem sits, runs the information-focus-action check and the six stages, triages which motion to examine first, and produces one A3-lite with a stop-rule. Route to crisis handling first if several systems are failing at once. Not for the forecast model itself (see revops-forecasting)."
+version: 1.2.0
+description: "Use when revenue problems arrive as symptoms (weak pipeline, a forecast nobody believes, underperforming reps, churn, deals slipping late in the quarter, \"we are busy but nothing moves\") and the real constraint is unknown. Locates the layer of the revenue system where the problem sits, runs the information-focus-action check and the six stages, triages which motion to examine first, and produces one A3-lite with a stop-rule. Route to crisis handling first if several systems are failing at once. Not for the forecast model itself (see `revops-forecasting`)."
 ---
 
 # RevOps diagnostic
@@ -190,6 +190,14 @@ Where AI influences decisions about employees, such as territory allocation or p
 
 A revenue engine runs at the level of its weakest dimension. Before adding effort, automation or headcount, find the dimension that limits the rest. Score each dimension on evidence: ask to see the artifact behind it, such as the ICP document, the scoring model, a live sequence, a duplicate count or the notes from the last review. A capability that cannot be shown is not credited.
 
+### Diagnostic questions
+
+1. What exactly is the symptom, in one measured sentence, and who first noticed it?
+2. Which layer does the symptom live in, and what evidence says the constraint is one layer away?
+3. Which of the three information, focus, and action links is weakest, and what decision did it block last month?
+4. If the top three revenue metrics doubled, would anyone's compensation change? Name the function that cannot answer.
+5. What is the win rate and the coverage in the segment under discussion, and which of the two constrains output?
+
 ## Output
 
 - The layer where the symptom appears, and the layer where the constraint sits.
@@ -198,14 +206,6 @@ A revenue engine runs at the level of its weakest dimension. Before adding effor
 - The alignment gaps found in the audit.
 - One A3-lite, with owner, check, and stop-rule.
 - One two-week experiment, with its metric and kill criterion.
-
-## Diagnostic questions
-
-1. What exactly is the symptom, in one measured sentence, and who first noticed it?
-2. Which layer does the symptom live in, and what evidence says the constraint is one layer away?
-3. Which of the three information, focus, and action links is weakest, and what decision did it block last month?
-4. If the top three revenue metrics doubled, would anyone's compensation change? Name the function that cannot answer.
-5. What is the win rate and the coverage in the segment under discussion, and which of the two constrains output?
 
 ## Quality bar
 

@@ -1,7 +1,7 @@
 ---
 name: lookalike-prospect-ranking
-version: 1.1.0
-description: "Use when one proven person (a customer champion, a closed-won buyer, a strong operator) is the model and the team wants more people with the same useful characteristics. Defines a similarity signature from the attributes that plausibly explain the success, agrees hard constraints with the user, widens the search one dimension at a time with a record of each step, scores candidates with visible components, and returns a shortlist where every inclusion can be challenged. Not for account-level lookalikes (see closed-won-replication-play) or for paid audience building (see paid-social-audience-strategy)."
+version: 1.2.0
+description: "Use when one proven person (a customer champion, a closed-won buyer, a strong operator) is the model and the team wants more people with the same useful characteristics. Defines a similarity signature from the attributes that plausibly explain the success, agrees hard constraints with the user, widens the search one dimension at a time with a record of each step, scores candidates with visible components, and returns a shortlist where every inclusion can be challenged. Not for account-level lookalikes (see `closed-won-replication-play`) or paid audience building (see `paid-social-audience-strategy`)."
 ---
 
 # Lookalike prospect ranking

@@ -1,6 +1,6 @@
 ---
 name: founder-post-triggers
-version: 1.1.0
+version: 1.2.0
 description: "Use when a founder has no results to point to and needs something to publish, or wants to know what to write before launch. Gives twenty-four things that have already happened in the business and are publishable, in five categories (customer evidence, numbers, decisions and reversals, the product as demonstration, and position), a rule for choosing one play and holding it, opening lines for the lowest-effort post, and a pre-publish check that requires a first-hand fact. Not for the timing of a post once written (see post-launch-window) or for a company announcement (see newsletter-issue-formats)."
 ---
 

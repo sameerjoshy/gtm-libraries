@@ -1,7 +1,7 @@
 ---
 name: demo-builder
-version: 1.1.0
-description: "Use to build a demo script or live demo prep that starts with the outcome, reaches the mechanism early, shows two or three use cases, goes deep only when the buyer asks, and closes on one next step. Covers pre-recorded demos and live demos, with talk tracks, click paths, objection handles, and a post-demo debrief. Use when a demo is a feature tour, when a demo script is needed, or when a recording is to be made. Not for choosing which pains to demonstrate (see discovery-to-demo-bridge)."
+version: 1.2.0
+description: "Use when building a demo script or live demo prep that starts with the outcome, reaches the mechanism early, shows two or three use cases, goes deep only when the buyer asks, and closes on one next step. Covers pre-recorded demos and live demos, with talk tracks, click paths, objection handles, and a post-demo debrief. Use when a demo is a feature tour, when a demo script is needed, or when a recording is to be made. Not for choosing which pains to demonstrate (see discovery-to-demo-bridge)."
 ---
 
 # Demo builder

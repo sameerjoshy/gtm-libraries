@@ -1,7 +1,7 @@
 ---
 name: revops-crisis
-version: 1.1.0
-description: "Use when a revenue function is in crisis, meaning several systems are failing at once and the basic machinery can no longer be trusted. Typical signals are repeated forecast misses, win rates falling for several quarters, pipeline coverage dropping, retention collapsing, data that nobody believes, or functions blaming each other. Gives a four-week emergency triage, a 30-60-90 recovery plan, four crisis playbooks, and rules for leading through the blame. Use before the diagnostic, not instead of it. Not for routine diagnosis (see revops-diagnostic)."
+version: 1.2.0
+description: "Use when a revenue function is in crisis, meaning several systems are failing at once and the basic machinery can no longer be trusted. Typical signals are repeated forecast misses, win rates falling for several quarters, pipeline coverage dropping, retention collapsing, data that nobody believes, or functions blaming each other. Gives a four-week emergency triage, a 30-60-90 recovery plan, four crisis playbooks, and rules for leading through the blame. Use before the diagnostic, not instead of it. Not for routine diagnosis (see `revops-diagnostic`)."
 ---
 
 # RevOps crisis triage
@@ -10,7 +10,7 @@ description: "Use when a revenue function is in crisis, meaning several systems 
 
 Existing diagnostic skills assume the basics work. A diagnostic is useless when the data is unreliable, and a maturity assessment is academic when the functions do not talk to each other. In a crisis, the first job is to make the machinery trustworthy enough to steer, not to understand everything.
 
-The core rule: speed of stabilisation beats completeness of diagnosis. Find the one thing that unlocks the others, fix it, and move to the next constraint. Do not try to fix six things at once.
+The core rule: speed of stabilization beats completeness of diagnosis. Find the one thing that unlocks the others, fix it, and move to the next constraint. Do not try to fix six things at once.
 
 This skill is emergency response. Once the company is stable, move to `revops-diagnostic` for the deeper work.
 
@@ -126,7 +126,7 @@ Unlock logic, one action per constraint:
 
 ### The 30-60-90 recovery plan
 
-### Days 1 to 30: stabilise
+### Days 1 to 30: stabilize
 
 - Data audit complete, with the blitz run if needed.
 - Top ten at-risk deals named, each with an executive sponsor.
@@ -280,7 +280,15 @@ How to run them:
 
 **"The data is unusable."** Run the week-one data audit before anything else. Nothing else works until the data does.
 
-**After day ninety.** Hand off to `revops-diagnostic` for the deeper analysis. Crisis work stabilises. Long-term improvement needs a different approach.
+**After day ninety.** Hand off to `revops-diagnostic` for the deeper analysis. Crisis work stabilizes. Long-term improvement needs a different approach.
+
+### Diagnostic questions
+
+1. Which metric crossed the crisis line, and for how many quarters?
+2. What share of the critical deal fields are populated today, and who is accountable for that number?
+3. What is the executive-level downside: the value of the top ten at-risk deals and renewals?
+4. Which function is blaming which, and what single shared metric would they all accept?
+5. What is the one thing that, if fixed this week, would unlock the most?
 
 ## Output
 
@@ -291,14 +299,6 @@ How to run them:
 - The emergency constraint and its unlock action.
 - The 30-60-90 plan with owners.
 - The playbook applied, with its fix in weeks one and two.
-
-## Diagnostic questions
-
-1. Which metric crossed the crisis line, and for how many quarters?
-2. What share of the critical deal fields are populated today, and who is accountable for that number?
-3. What is the executive-level downside: the value of the top ten at-risk deals and renewals?
-4. Which function is blaming which, and what single shared metric would they all accept?
-5. What is the one thing that, if fixed this week, would unlock the most?
 
 ## Quality bar
 

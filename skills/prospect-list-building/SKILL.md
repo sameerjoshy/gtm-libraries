@@ -1,7 +1,7 @@
 ---
 name: prospect-list-building
-version: 1.1.0
-description: "Use when building a prospect list of companies, contacts, or both, for outbound, ABM, or a signal-based motion. Sizes the audience before any full pull, writes the column plan and the ICP pass rule before running it, removes most rows with free checks before any paid enrichment, runs AI research one narrow question at a time, and only activates a list after the user approves its size and cost. Not for scoring existing accounts (see account-tier-scoring) or for verifying an existing list (see list-hygiene)."
+version: 1.2.0
+description: "Use when building a prospect list of companies, contacts, or both, for outbound, ABM, or a signal-based motion. Sizes the audience before any full pull, writes the column plan and the ICP pass rule before running it, removes most rows with free checks before any paid enrichment, runs AI research one narrow question at a time, and only activates a list after the user approves its size and cost. Not for scoring existing accounts (see `account-tier-scoring`) or for verifying an existing list (see `list-hygiene`)."
 ---
 
 # Prospect list building
@@ -243,7 +243,11 @@ For each list build:
 8. Show the column plan, the size, and the cost before activating.
 9. Push back on briefs that contradict the saved ICP.
 
-## Anti-patterns
+## Quality bar
+
+The user sees the plan and the ICP rule before any sourcing. Free elimination removes most of the pool before any credit is spent. Each paid column has a run-when condition. AI research answers one question per column and has been piloted. The final summary shows size, tiers, completeness, and cost, and the user approves before activation.
+
+### Anti-patterns
 
 - Running several searches with different filters and calling it multi-source.
 - Guessing enum values and getting silent empty results.
@@ -256,7 +260,3 @@ For each list build:
 - Relying on one source for all coverage.
 - Over-filtering, which shrinks the market before anyone has seen it, or under-filtering, which sends outreach to poor fits.
 - Skipping verification before sending, which damages deliverability.
-
-## Quality bar
-
-The user sees the plan and the ICP rule before any sourcing. Free elimination removes most of the pool before any credit is spent. Each paid column has a run-when condition. AI research answers one question per column and has been piloted. The final summary shows size, tiers, completeness, and cost, and the user approves before activation.

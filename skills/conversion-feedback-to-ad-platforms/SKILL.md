@@ -1,7 +1,7 @@
 ---
 name: conversion-feedback-to-ad-platforms
-version: 1.1.0
-description: "Use when an ad platform is optimizing for form fills rather than pipeline, and the team wants the platform to receive later funnel stages (marketing-qualified, opportunity, and closed-won) from the CRM through a server-side connection. Sets the event hierarchy by lifecycle stage, the choice between a native sync and a middleware route, the deduplication of browser and server events, and the match-quality check. Not for tracking conversions that happen on a third-party page (see off-domain-conversion-tracking)."
+version: 1.2.0
+description: "Use when an ad platform is optimizing for form fills rather than pipeline, and the team wants the platform to receive later funnel stages (marketing-qualified, opportunity, and closed-won) from the CRM through a server-side connection. Sets the event hierarchy by lifecycle stage, the choice between a native sync and a middleware route, the deduplication of browser and server events, and the match-quality check. Not for tracking conversions that happen on a third-party page (see `off-domain-conversion-tracking`)."
 ---
 
 # Conversion feedback to ad platforms

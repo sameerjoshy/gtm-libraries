@@ -1,7 +1,7 @@
 ---
 name: organic-decline-diagnosis
-version: 1.1.0
-description: "Use when B2B organic search traffic has fallen, to decide whether the loss is a healthy shift in how people consume answers (more answers shown without a click, while visibility holds) or a real threat to pipeline (visibility is falling too). Runs two stages: first compare impressions with clicks for identical queries, then split queries into brand, non-brand commercial, and non-brand informational, and correlate each with pipeline before routing the fix. Not for finding new topics (see seo-topic-research)."
+version: 1.2.0
+description: "Use when B2B organic search traffic has fallen, to decide whether the loss is a healthy shift in how people consume answers (more answers shown without a click, while visibility holds) or a real threat to pipeline (visibility is falling too). Runs two stages: first compare impressions with clicks for identical queries, then split queries into brand, non-brand commercial, and non-brand informational, and correlate each with pipeline before routing the fix. Not for finding new topics (see `seo-topic-research`)."
 ---
 
 # Organic decline diagnosis
@@ -20,7 +20,7 @@ Route elsewhere when:
 
 - The question is which new topics to build. Use `seo-topic-prioritization`.
 - The question is whether a specific keyword can be won. Use `seo-serp-qualification`.
-- The question is how the business is cited in AI answers. Use answer-engine citation drill-down.
+- The question is how the business is cited in AI answers. Use `answer-engine-citation-drill-down`.
 
 ## Inputs
 
@@ -62,4 +62,4 @@ Route elsewhere when:
 
 ## Quality bar
 
-Matching periods and identical queries are used. A label is applied only when the pattern is clear. Pipeline is checked before the decline is called a threat. Watch for a fall in total clicks treated as a visibility loss without checking impressions, and a Zero-Click Shift labelled where the commercial pipeline has also fallen.
+Matching periods and identical queries are used. A label is applied only when the pattern is clear. Pipeline is checked before the decline is called a threat. Watch for a fall in total clicks treated as a visibility loss without checking impressions, and a Zero-Click Shift labeled where the commercial pipeline has also fallen.

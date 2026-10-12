@@ -1,7 +1,7 @@
 ---
 name: partner-channel-operations
-version: 1.1.0
-description: "Use to run the operational plumbing of a partner or channel program: choosing partner types and tiers, defining an ideal partner profile, deal registration and conflict rules, partner onboarding and enablement, co-sell motions, attribution of sourced versus influenced revenue, partner health scoring, and the review cadence. Use when partners are signed but not producing, when partner and direct reps fight over accounts, or when partner revenue cannot be reported. Not for deciding whether to build a partner motion at all (see partner-ecosystem-architect)."
+version: 1.2.0
+description: "Use when running the operational plumbing of a partner or channel program: choosing partner types and tiers, defining an ideal partner profile, deal registration and conflict rules, partner onboarding and enablement, co-sell motions, attribution of sourced versus influenced revenue, partner health scoring, and the review cadence. Triggers when partners are signed but not producing, when partner and direct reps fight over accounts, or when partner revenue cannot be reported. Not for deciding whether to build a partner motion at all (see `partner-ecosystem-architect`)."
 ---
 
 # Partner channel operations
@@ -170,6 +170,14 @@ Expect six to twelve months from launch to meaningful partner revenue. Track the
 - **Equal investment in unequal partners.** Tier them. Invest most in tier 1. Move partners to lower-touch treatment after two quarters of no activity.
 - **Partners bring poor-fit deals.** Define qualification for registered deals, reject deals outside the ICP, and train partners on the ICP.
 
+### Diagnostic questions
+
+1. How many partners registered a deal in the last ninety days, and how many have never registered one?
+2. How many registered deals ended in a conflict with a direct rep, and how long did each conflict take to resolve?
+3. Can sourced and influenced partner revenue be reported for the last four quarters, from the CRM alone?
+4. Which tier-one partner has a signed joint plan and a named owner on each side?
+5. What did the partner program cost last year, and what partner-attributed revenue did it produce?
+
 ## Output
 
 - The partner type and economics for each partner, with the tier.
@@ -179,14 +187,6 @@ Expect six to twelve months from launch to meaningful partner revenue. Track the
 - The co-sell rules and the attribution definitions.
 - The partner health score and the review cadence.
 - The maturity level, with the next step.
-
-## Diagnostic questions
-
-1. How many partners registered a deal in the last ninety days, and how many have never registered one?
-2. How many registered deals ended in a conflict with a direct rep, and how long did each conflict take to resolve?
-3. Can sourced and influenced partner revenue be reported for the last four quarters, from the CRM alone?
-4. Which tier-one partner has a signed joint plan and a named owner on each side?
-5. What did the partner program cost last year, and what partner-attributed revenue did it produce?
 
 ## Quality bar
 

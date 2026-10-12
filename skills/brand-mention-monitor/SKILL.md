@@ -1,7 +1,7 @@
 ---
 name: brand-mention-monitor
-version: 1.1.0
-description: "Use when a team needs to know what people are saying about its brand across social, news, forums, and review sites, for a routine weekly sweep, a launch watch, or a \"something feels off\" check. Resolves brand variants, picks a source profile for the audience, scores each mention on reach, velocity, sentiment, and risk-topic match, dedupes against earlier runs, and buckets each mention into Crisis, Watch, Engage, or Log with an owner and a response window. Not for a discourse read on a topic (see recent-discourse-sweep) or for one company's profile (see account-research-brief)."
+version: 1.2.0
+description: "Use when a team needs to know what people are saying about its brand across social, news, forums, and review sites, for a routine weekly sweep, a launch watch, or a \"something feels off\" check. Resolves brand variants, picks a source profile for the audience, scores each mention on reach, velocity, sentiment, and risk-topic match, dedupes against earlier runs, and buckets each mention into Crisis, Watch, Engage, or Log with an owner and a response window. Not for a discourse read on a topic (see `recent-discourse-sweep`) or for one company's profile (see `account-research-brief`)."
 ---
 
 # Brand mention monitor
@@ -18,7 +18,6 @@ Brand problems usually show up in public before they reach the team. This skill 
 - A comparison of how the brand is discussed against a named competitor.
 
 Route elsewhere when:
-
 - The question is what the market says about a topic over a window. Use `recent-discourse-sweep`.
 - The question is one company's profile. Use `account-research-brief`.
 
@@ -69,4 +68,4 @@ Route elsewhere when:
 
 ## Quality bar
 
-Every mention links to its exact URL, never a platform home page. First-pass velocity is labelled estimated. Every query is bounded to the stated window. Each Crisis card can be acted on from its own content. Watch for a flat list sorted by follower count, velocity claimed from a single snapshot, and a re-run that reports last week's items again. Never invent engagement counts or follower numbers.
+Every mention links to its exact URL, never a platform home page. First-pass velocity is labeled estimated. Every query is bounded to the stated window. Each Crisis card can be acted on from its own content. Watch for a flat list sorted by follower count, velocity claimed from a single snapshot, and a re-run that reports last week's items again. Never invent engagement counts or follower numbers.

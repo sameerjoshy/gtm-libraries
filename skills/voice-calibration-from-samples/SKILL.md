@@ -1,7 +1,7 @@
 ---
 name: voice-calibration-from-samples
-version: 1.1.0
-description: "Use when AI-drafted replies or posts do not sound like the person who will sign them, or get product facts wrong. Teaches the voice by having the person rewrite a handful of real drafts in their own words, extracts the differences as written voice guidelines, and grounds drafts in a small, current knowledge base for one product. Covers review of the extracted guidelines and the refresh after releases. Not for choosing which threads to answer (see community-channel-research) or for the content review of finished copy (see content-authenticity-review)."
+version: 1.2.0
+description: "Use when AI-drafted replies or posts do not sound like the person who will sign them, or get product facts wrong. Teaches the voice by having the person rewrite a handful of real drafts in their own words, extracts the differences as written voice guidelines, and grounds drafts in a small, current knowledge base for one product. Covers review of the extracted guidelines and the refresh after releases. Not for choosing which threads to answer (see `community-channel-research`) or for the content review of finished copy (see `content-authenticity-review`)."
 ---
 
 # Voice calibration from samples

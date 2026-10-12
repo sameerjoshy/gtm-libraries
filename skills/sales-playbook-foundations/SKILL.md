@@ -1,14 +1,14 @@
 ---
 name: sales-playbook-foundations
-version: 1.1.0
+version: 1.2.0
 description: "Use when a sales team has no written playbook, success lives in one leader's head, onboarding is inconsistent, or reps ramp too slowly. Produces a playbook skeleton in five sections (People, Prospect, Problem, Process, Product), a fully drafted People section covering expectations, standards, ramp, and stories, and a process section that names the methodology and qualification gates. Not for individual deal coaching or CRM configuration."
 ---
 
 # Sales playbook foundations
 
-Writes down what good looks like for the sales team, so the playbook works when the leader is absent or gone, a new rep can succeed from the document alone, and the team agrees on the same standard.
-
 ## Purpose
+
+Writes down what good looks like for the sales team, so the playbook works when the leader is absent or gone, a new rep can succeed from the document alone, and the team agrees on the same standard.
 
 Produce a playbook that is written, agreed, built from real calls and deals, and owned. Put people first, because people are the ones who run the plays. Show the math behind every target. Make ramp and qualification evidence explicit, so promotion, termination, and onboarding decisions do not depend on memory.
 
@@ -20,16 +20,11 @@ Produce a playbook that is written, agreed, built from real calls and deals, and
 Route elsewhere when:
 - The question is hiring, offer or close decisions for a sales role. Use `sales-hire-offer-close`.
 - The question is succession of leaders. Use `bench-strength-and-succession`.
-
-## Principles
-
-- **Write it down.** A playbook in someone's head is not a playbook.
-- **Build from reality.** Document how the team actually sells, from real calls, deals, and rep language. Do not write the ideal process that nobody runs.
-- **People first.** Most playbooks start at product and never reach people. Draft people first, so every later section has someone to execute it.
-- **Show the math.** Every target should be re-derivable by the rep who has to hit it.
-- **Evidence over time.** Ramp and qualification are gated by evidence, not by how long someone has been in the role.
-- **Keep the leader involved.** Outside help can draft and structure. The leader must shape the standards, or the playbook will not be adopted.
-- **Own it.** A playbook needs an owner, a review cadence, and one place everyone can reach it. An unmaintained playbook is one of the most common failures.
+- The question is coaching individual deals or the qualification gate itself. Use `deal-qualification-gates`.
+- The question is CRM field or stage configuration. Use `revops-salesforce`, or `revops-data-governance` for data standards.
+- The question is territories, capacity plans, or org structure. Use `gtm-planning-org-design`.
+- The question is messaging, battlecards, or outreach copy. Use `positioning-messaging-designer` or `sdr-outbound-rules`.
+- The question is discount policy. Use `deal-desk-operations`.
 
 ## Inputs
 
@@ -43,6 +38,16 @@ Route elsewhere when:
 If targets, close rates, or ramp data are missing, leave those figures as explicit blanks to be filled, not invented.
 
 ## Procedure
+
+### Principles
+
+- **Write it down.** A playbook in someone's head is not a playbook.
+- **Build from reality.** Document how the team actually sells, from real calls, deals, and rep language. Do not write the ideal process that nobody runs.
+- **People first.** Most playbooks start at product and never reach people. Draft people first, so every later section has someone to execute it.
+- **Show the math.** Every target should be re-derivable by the rep who has to hit it.
+- **Evidence over time.** Ramp and qualification are gated by evidence, not by how long someone has been in the role.
+- **Keep the leader involved.** Outside help can draft and structure. The leader must shape the standards, or the playbook will not be adopted.
+- **Own it.** A playbook needs an owner, a review cadence, and one place everyone can reach it. An unmaintained playbook is one of the most common failures.
 
 ### Step 1: Frame the five P's
 
@@ -158,7 +163,7 @@ The test: could a rep who joins after the leader has left succeed from this docu
 - Every ramp gate names its evidence, and its remediation path.
 - Every methodology choice is justified against the sale, not chosen by default.
 - Every section draws on real calls, deals, or rep language, or the gap is named.
-- Figures from vendor or survey sources are labelled as such, with the year.
+- Figures from vendor or survey sources are labeled as such, with the year.
 - No invented numbers. Missing data is a blank with an owner.
 - The operating rhythm names an owner, a cadence, and a home.
 - The new-hire test has been run, and each gap it found is logged.
@@ -174,10 +179,3 @@ The test: could a rep who joins after the leader has left succeed from this docu
 - MUST NOT invent targets, close rates, or ramp data. Leave a blank with an owner.
 - MUST assign an owner and an update cadence before the playbook ships.
 - NEVER let the playbook be fully outsourced. The leader stays heavily involved.
-
-
-- Writes the playbook as a document. Does not coach individual deals: use the deal-review and deal-qualification skills.
-- Does not configure CRM fields or stages. Use a platform-specific CRM skill, or the `revops-data-governance` skill for data standards.
-- Does not design territories, capacity plans, or org structure: use `gtm-planning-org-design` when it is complete.
-- Does not write messaging, battlecards, or outreach sequences.
-- Does not set discount policy. Discount governance is a separate policy decision.

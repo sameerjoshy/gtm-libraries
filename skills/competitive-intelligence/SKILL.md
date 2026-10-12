@@ -1,7 +1,7 @@
 ---
 name: competitive-intelligence
-version: 1.1.0
-description: "Use to track what named competitors are doing (funding, leadership, hiring, launches, partnerships), in a dated briefing that reports only new signals, to prepare a competitor brief for a specific deal such as a displacement or renewal defense, or to create or update a six-section battlecard. Not for positioning or messaging analysis, which is competitive-white-space."
+version: 1.2.0
+description: "Use when tracking what named competitors are doing (funding, leadership, hiring, launches, partnerships), in a dated briefing that reports only new signals, to prepare a competitor brief for a specific deal such as a displacement or renewal defense, or to create or update a six-section battlecard. Not for positioning or messaging analysis (see `competitive-white-space`)."
 ---
 
 # Competitive intelligence
@@ -69,7 +69,7 @@ Use when a team needs a standing competitor reference for live deals, not a date
 
 Battlecard rules:
 
-- Every strength and weakness has a source. A rumoured point is labelled as reported, with where it was reported.
+- Every strength and weakness has a source. A rumored point is labeled as reported, with where it was reported.
 - Do not include legally sensitive claims, such as "their product is insecure", without a citation.
 - Keep it to about one page (roughly 600 words).
 - If the competitor has almost no public footprint, say so. The team may be preparing for a rival that rarely appears in deals, and should check that before investing in a card.

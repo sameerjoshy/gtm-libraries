@@ -1,7 +1,7 @@
 ---
 name: procurement-navigation
-version: 1.1.0
-description: "Use when a verbally won deal enters security review, legal redlines, privacy terms, or vendor onboarding, and the close date keeps slipping at contract stage. Maps the buyer's gauntlet before the proposal, pre-builds the artifact pack for security, legal, and privacy, runs the reviews in parallel on a mutual close plan, and negotiates with procurement by trading concessions rather than giving them. Not for qualification (see sales-methodology) or discount approval (see deal-desk-operations)."
+version: 1.2.0
+description: "Use when a verbally won deal enters security review, legal redlines, privacy terms, or vendor onboarding, and the close date keeps slipping at contract stage. Maps the buyer's gauntlet before the proposal, pre-builds the artifact pack for security, legal, and privacy, runs the reviews in parallel on a mutual close plan, and negotiates with procurement by trading concessions rather than giving them. Not for qualification (see `sales-methodology`) or discount approval (see `deal-desk-operations`)."
 ---
 
 # Procurement navigation
@@ -113,6 +113,14 @@ For each deal, record:
 
 After five or so deals, the artifact pack and fallback positions should cover most of what buyers ask. Until then, each deal teaches the team something it can reuse.
 
+### Diagnostic questions
+
+1. For the current late-stage deals, can anyone list the remaining steps to signature, with owners and dates? Which ones are guesses?
+2. How long did the security review take on the last three enterprise deals, and how much of that time was the company's own response time?
+3. Are the fallback positions for each standard clause written down and agreed in advance, or does each redline round need a committee?
+4. What was conceded at contract stage last year without anything being traded for it?
+5. Which calendar constraints, such as fiscal close, freezes, or signer availability, sit inside this quarter's committed deals, and has anyone checked?
+
 ## Output
 
 - The gauntlet map for the deal, with owners, durations, and parallel and serial steps.
@@ -121,14 +129,6 @@ After five or so deals, the artifact pack and fallback positions should cover mo
 - The fallback positions for the clauses that are usually negotiated, agreed with counsel.
 - The concession log, showing what was traded for what.
 - The post-deal record that feeds the next cycle.
-
-## Diagnostic questions
-
-1. For the current late-stage deals, can anyone list the remaining steps to signature, with owners and dates? Which ones are guesses?
-2. How long did the security review take on the last three enterprise deals, and how much of that time was the company's own response time?
-3. Are the fallback positions for each standard clause written down and agreed in advance, or does each redline round need a committee?
-4. What was conceded at contract stage last year without anything being traded for it?
-5. Which calendar constraints, such as fiscal close, freezes, or signer availability, sit inside this quarter's committed deals, and has anyone checked?
 
 ## Quality bar
 

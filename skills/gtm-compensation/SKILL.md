@@ -1,6 +1,6 @@
 ---
 name: gtm-compensation
-version: 1.1.0
+version: 1.2.0
 description: "Use when designing, auditing, or explaining sales and customer success compensation: OTE and pay mix, quota setting, commission accelerators and decelerators, SPIFs, clawbacks, ramp, and rollout of a new plan. Gives the plan structure, a health check, and benchmark ranges to calibrate per client. Covers how to pay people, not org design or capacity planning (see gtm-planning-org-design). Not legal or tax advice."
 ---
 
@@ -8,7 +8,7 @@ description: "Use when designing, auditing, or explaining sales and customer suc
 
 ## Purpose
 
-Compensation is a behavior system. Every pound or euro of variable pay tells people what the company values. A plan that pays for bookings when the company needs retention will get bookings and poor retention. Design the plan from the company's stage and strategy first, then the numbers.
+Compensation is a behavior system. Every dollar or euro of variable pay tells people what the company values. A plan that pays for bookings when the company needs retention will get bookings and poor retention. Design the plan from the company's stage and strategy first, then the numbers.
 
 ## When to use
 
@@ -274,7 +274,7 @@ Ask about team geography and cross-border tax early. Compensation cannot be desi
 - The plan structure for each role in scope: pay mix, OTE, quota, accelerators, ramp, and any SPIF or clawback, with the basis for each number.
 - The benchmark range used, its source, and where the client sits in it.
 - The health-check result, with each failed item named.
-- The modelled payouts at 80%, 100%, and 120% of quota, with the cost against the budget.
+- The modeled payouts at 80%, 100%, and 120% of quota, with the cost against the budget.
 - The rollout plan and the list of points to confirm with counsel.
 
 ## Quality bar

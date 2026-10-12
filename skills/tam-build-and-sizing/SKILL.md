@@ -1,12 +1,10 @@
 ---
 name: tam-build-and-sizing
-version: 1.1.0
-description: "Use to size a total addressable market and turn it into a company list with honest coverage. Covers the ICP definition, company enumeration with provenance, TAM, SAM, and SOM, revenue sizing with a confirmed contract value, and coverage of the existing CRM. Companies first; contacts are a later stage. Not for the ICP definition on its own (see icp-builder) or account research (see account-research-brief)."
+version: 1.2.0
+description: "Use to size a total addressable market and turn it into a company list with honest coverage. Covers the ICP definition, company enumeration with provenance, TAM, SAM, and SOM, revenue sizing with a confirmed contract value, and coverage of the existing CRM. Companies first; contacts are a later stage. Not for the ICP definition on its own (see `icp-builder`) or account research (see `account-research-brief`)."
 ---
 
 # TAM build and sizing
-
-Produces a defensible market size and a company list, with each number's source and limits stated.
 
 ## Purpose
 
@@ -25,7 +23,7 @@ Route elsewhere when:
 
 - **ICP definition.** Industry, company size, geography, business model, disqualifiers. Ask for the minimum (industry, size, geography) if missing.
 - **Counting unit:** companies, not contacts. Decide how subsidiaries, franchises, and multi-brand groups are counted.
-- **Contract value.** Median or trimmed mean of comparable closed-won deals, annualised. Never use a price-page maximum or an unlabelled range.
+- **Contract value.** Median or trimmed mean of comparable closed-won deals, annualized. Never use a price-page maximum or an unlabeled range.
 - **Existing CRM export** (optional), to measure coverage.
 
 ## Procedure
@@ -59,7 +57,7 @@ Route elsewhere when:
 
 - Each number names its source, date, unit, and main limitation.
 - Account, revenue, contact, and role coverage are never combined.
-- Any capped result is labelled a floor, not the universe.
+- Any capped result is labeled a floor, not the universe.
 - A CRM account counts as coverage only if it is in-TAM.
 - If verified in-TAM accounts already exceed the estimate, revise the estimate upward rather than forcing the count down.
 - No ETA is projected from fewer than three comparable snapshots.

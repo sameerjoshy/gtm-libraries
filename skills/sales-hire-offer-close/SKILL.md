@@ -1,6 +1,6 @@
 ---
 name: sales-hire-offer-close
-version: 1.1.0
+version: 1.2.0
 description: "Use when a hiring manager is about to make an offer to a sales, marketing, customer success, or other go-to-market hire and wants it accepted without a fall-off. Confirms the candidate would accept before any number is put forward, sizes the gap on total package, prices up to three offer structures, rehearses the response to a counter-offer, and sets a dated notice-period plan through to the start date. Ends with one yes or no decision for a person. Not for the candidate-assessment scorecard (see sales-hire-scorecard)."
 ---
 
@@ -29,11 +29,11 @@ Route elsewhere when:
 - The total package basis: base, variable pay on target, benefits, and any equity at a stated value.
 - The notice period in their current contract, and any known counter-offer history.
 
+## Procedure
+
 ### The prime rule
 
 Never make an offer that has not been trial-closed. Ask the candidate, before the figure is sent: if this lands, are you accepting? If the answer is not known, the offer is not ready, however strong the final interview felt.
-
-## Procedure
 
 1. **Run the close-ready gate.** Check that the candidate has confirmed their motive, their current package, and what would make them accept. If any is unknown, the next step is a conversation, not an offer.
 2. **Size the gap.** Compare the candidate's stated expectation with the approved ceiling on total package, not base alone. Name the gap in the same currency and units.

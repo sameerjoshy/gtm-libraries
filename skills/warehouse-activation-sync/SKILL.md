@@ -1,7 +1,7 @@
 ---
 name: warehouse-activation-sync
-version: 1.1.0
-description: "Use to move a scored or segmented audience from the data warehouse into the CRM, ad platforms, or sequencing tools without corrupting them. Enforces the order of operations: resolve identity before any write, send only real changes, guard field types, apply suppression and consent before anything reaches a destination, batch to each destination's limits, dry-run with a deletion guard, then reconcile after a live push. Not for designing the data layer (see gtm-data-architecture) or for CRM data quality rules (see revops-data-governance)."
+version: 1.2.0
+description: "Use to move a scored or segmented audience from the data warehouse into the CRM, ad platforms, or sequencing tools without corrupting them. Enforces the order of operations: resolve identity before any write, send only real changes, guard field types, apply suppression and consent before anything reaches a destination, batch to each destination's limits, dry-run with a deletion guard, then reconcile after a live push. Not for designing the data layer (see `gtm-data-architecture`) or for CRM data quality rules (see `revops-data-governance`)."
 ---
 
 # Warehouse activation sync
@@ -48,7 +48,7 @@ Run the steps in this order every time.
 
 - The warehouse is authoritative for computed traits, such as scores, tiers and segments.
 - The CRM is authoritative for fields that reps own. A sync never overwrites a rep-owned field.
-- A sequencer never enrols contacts automatically from a warehouse sync. A bad upstream filter would become a mass mis-send.
+- A sequencer never enrolls contacts automatically from a warehouse sync. A bad upstream filter would become a mass mis-send.
 
 ## Output
 

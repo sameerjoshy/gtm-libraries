@@ -1,7 +1,7 @@
 ---
 name: gtm-data-architecture
-version: 1.1.0
-description: "Use to design the data layer behind revenue operations for a team that is not made of data engineers. Covers warehouse-centered architecture, transformation layers, the three queries every RevOps lead should read, reverse activation of computed scores, identity resolution, a unified customer health score, staged roadmap, and data readiness for AI agents. Use when the CRM cannot answer cross-system questions, when metrics differ between teams, or before any AI agent is pointed at customer data. Not for CRM data quality rules (see revops-data-governance) or vendor selection (see revops-tech-stack)."
+version: 1.2.0
+description: "Use when designing the data layer behind revenue operations for a team that is not made of data engineers. Covers warehouse-centered architecture, transformation layers, the three queries every RevOps lead should read, reverse activation of computed scores, identity resolution, a unified customer health score, staged roadmap, and data readiness for AI agents. Use when the CRM cannot answer cross-system questions, when metrics differ between teams, or before any AI agent is pointed at customer data. Not for CRM data quality rules (see revops-data-governance) or vendor selection (see revops-tech-stack)."
 ---
 
 # GTM data architecture
@@ -19,6 +19,20 @@ The core rule: keep one authoritative copy of customer data, define each metric 
 - A forecast, health score, or routing rule depends on data from several systems.
 - Someone proposes a data platform, a customer data platform, or reverse ETL.
 - AI agents are about to be pointed at customer data.
+
+### How to use this skill
+
+**"We are choosing a data platform for GTM."** Pick the pattern from the stage (Step 1 and Step 2). Then see `revops-tech-stack` for the vendor decision.
+
+**"Our data quality is terrible."** Start with Phase 2. Poor data is usually a governance problem before it is a platform problem. Move the definitions into versioned models, and add gates. Use `revops-data-governance` for the CRM rules.
+
+**"We want AI agents but do not trust the CRM."** Complete Phases 1 to 4 first, with emphasis on identity and the health score. Check the readiness prerequisites in `revops-tech-stack`.
+
+**"The CRM is too complex to manage."** The team has reached the ceiling of CRM-native automation. Move to ELT plus versioned transformations, starting with the three core marts.
+
+**"How do we know it is working?"** Track three things: time from data event to activation, monthly reconciliation variance, and the share of leadership metrics traced to a versioned model. Target the defaults in Step 5, and calibrate them.
+
+**"Do we need a reverse activation tool?"** Only if computed values must reach the CRM or another operational tool. If dashboards are the only need, use BI tools and skip activation.
 
 Route elsewhere when:
 
@@ -193,16 +207,6 @@ A six to twelve month path, adjusted to the team's size and data:
 
 Staffing guide: a small team can run the early phases with part of one analyst's time. Mid-sized teams need a data engineer and an analytics engineer. Enterprise-scale agent programs need a governance lead on top. Counts are planning assumptions.
 
-## Anti-patterns
-
-**Transformation sprawl.** Models multiply, nobody knows what feeds which dashboard, and breakage goes unnoticed for weeks. Fix: every model has a named owner and at least one known consumer. Retire orphaned models on a schedule.
-
-**Real-time obsession.** Refresh intervals are shortened without evidence that the delay costs deals. A correct score that is an hour old is usually enough. Fix: start with nightly or six-hourly refreshes, and speed up only when a latency gap is shown to lose revenue.
-
-**Identity bikeshedding.** Months go into a custom matching algorithm that a vendor could have delivered faster. Fix: buy first, build only for rules the vendor cannot handle.
-
-**Data quality later.** The warehouse goes live and bad data is accepted, with the promise to fix it later. Fix: define the gates early, as stage exit tests and required fields that must be present before a lead can route.
-
 ### Regulatory checks for counsel
 
 These are points for counsel to confirm, not legal advice.
@@ -212,20 +216,6 @@ These are points for counsel to confirm, not legal advice.
 - **Automated decisions.** Where a routing or scoring decision triggers automated contact, confirm the transparency duty and whether human review is needed for material decisions. Keep the logic explainable and the audit trail intact.
 - **Data portability.** The EU Data Act (Regulation (EU) 2023/2854) gives business customers rights to access and port their data in some cases. Keep the warehouse schema export-friendly.
 - **Residency.** Where data must stay in one jurisdiction, confirm the warehouse region and vendor sub-processors before setup, not after.
-
-### How to use this skill
-
-**"We are choosing a data platform for GTM."** Pick the pattern from the stage (Step 1 and Step 2). Then see `revops-tech-stack` for the vendor decision.
-
-**"Our data quality is terrible."** Start with Phase 2. Poor data is usually a governance problem before it is a platform problem. Move the definitions into versioned models, and add gates. Use `revops-data-governance` for the CRM rules.
-
-**"We want AI agents but do not trust the CRM."** Complete Phases 1 to 4 first, with emphasis on identity and the health score. Check the readiness prerequisites in `revops-tech-stack`.
-
-**"The CRM is too complex to manage."** The team has reached the ceiling of CRM-native automation. Move to ELT plus versioned transformations, starting with the three core marts.
-
-**"How do we know it is working?"** Track three things: time from data event to activation, monthly reconciliation variance, and the share of leadership metrics traced to a versioned model. Target the defaults in Step 5, and calibrate them.
-
-**"Do we need a reverse activation tool?"** Only if computed values must reach the CRM or another operational tool. If dashboards are the only need, use BI tools and skip activation.
 
 ## Output
 
@@ -237,14 +227,24 @@ These are points for counsel to confirm, not legal advice.
 - The health score components, with weights to be calibrated.
 - The phased roadmap, and the list of counsel checks.
 
-## Diagnostic questions
+## Quality bar
+
+Each core metric is defined once, in versioned code, and every report traces back to it. Activation reconciles monthly. Identity is resolved deterministically before anything else. Counsel has signed off the enrichment, deletion, and automated decision points. Watch for metrics defined in dashboard filters, activation with no reconciliation, real-time refreshes with no latency case, and agents pointed at data nobody has validated.
+
+### Anti-patterns
+
+**Transformation sprawl.** Models multiply, nobody knows what feeds which dashboard, and breakage goes unnoticed for weeks. Fix: every model has a named owner and at least one known consumer. Retire orphaned models on a schedule.
+
+**Real-time obsession.** Refresh intervals are shortened without evidence that the delay costs deals. A correct score that is an hour old is usually enough. Fix: start with nightly or six-hourly refreshes, and speed up only when a latency gap is shown to lose revenue.
+
+**Identity bikeshedding.** Months go into a custom matching algorithm that a vendor could have delivered faster. Fix: buy first, build only for rules the vendor cannot handle.
+
+**Data quality later.** The warehouse goes live and bad data is accepted, with the promise to fix it later. Fix: define the gates early, as stage exit tests and required fields that must be present before a lead can route.
+
+### Diagnostic questions
 
 1. Which two teams report different numbers for the same metric, and where is each definition written?
 2. If a metric changed tomorrow, how many places would need updating?
 3. Does the monthly reconciliation exist, and when did it last find a difference?
 4. Can a deal with no activity be counted in the pipeline query, or is it silently dropped?
 5. Before an agent reads customer data, can its output be traced back to the source record?
-
-## Quality bar
-
-Each core metric is defined once, in versioned code, and every report traces back to it. Activation reconciles monthly. Identity is resolved deterministically before anything else. Counsel has signed off the enrichment, deletion, and automated decision points. Watch for metrics defined in dashboard filters, activation with no reconciliation, real-time refreshes with no latency case, and agents pointed at data nobody has validated.

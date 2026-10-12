@@ -1,7 +1,7 @@
 ---
 name: ad-engagement-outbound-triggers
-version: 1.1.0
-description: "Use to turn engagement with account-based ads into outbound triggers. Structures campaigns so that engagement reveals intent, sets stage thresholds that decide when a sales development rep should act, defines what the alert contains, personalizes outreach to the topic the account engaged with rather than the channel, sequences the ads and the outbound over the first twelve weeks, feeds sales learning back into the ads, and measures the lift against the team's own cold baseline. Not for the choice of campaign level (see abm-campaign-level-choice) or for general signal detection (see signal-detection-and-timing)."
+version: 1.2.0
+description: "Use when turning engagement with account-based ads into outbound triggers. Structures campaigns so that engagement reveals intent, sets stage thresholds that decide when a sales development rep should act, defines what the alert contains, personalizes outreach to the topic the account engaged with rather than the channel, sequences the ads and the outbound over the first twelve weeks, feeds sales learning back into the ads, and measures the lift against the team's own cold baseline. Not for the choice of campaign level (see `abm-campaign-level-choice`) or for general signal detection (see `signal-detection-and-timing`)."
 ---
 
 # Ad engagement outbound triggers
@@ -43,11 +43,11 @@ Route elsewhere when:
 5. **Personalize to the topic, not the channel.** Refer to the subject the account showed interest in, such as a comparison, a feature area or a case study. Never tell a buyer that they clicked an ad. Lead with their problem, and keep the message short, because the ad has already warmed them.
 6. **Sequence the motion over about twelve weeks:**
    - weeks one to four: awareness ads only, with no outreach;
-   - weeks four to eight: interested accounts trigger outreach, and ads move towards solution content;
+   - weeks four to eight: interested accounts trigger outreach, and ads move toward solution content;
    - weeks eight to twelve: accounts that book a demo are worked by the rep and the account executive together, and ads show case studies and proof;
    - after twelve weeks: measure pipeline per unit of spend, by intent.
    For outreach, use several touches across channels, spread over about ten days, as a default.
-7. **Feed sales learning back into the ads.** When prospects repeatedly raise a pain point, a competitor or an objection, create a campaign around it. If personas respond differently, shift budget towards the ones that reply.
+7. **Feed sales learning back into the ads.** When prospects repeatedly raise a pain point, a competitor or an objection, create a campaign around it. If personas respond differently, shift budget toward the ones that reply.
 8. **Measure the signal, against your own cold baseline:**
    - reply rate from engaged accounts against cold outreach, and the lift between them;
    - meeting rate, engaged against cold;

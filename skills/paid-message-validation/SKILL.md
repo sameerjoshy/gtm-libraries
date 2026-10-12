@@ -1,7 +1,7 @@
 ---
 name: paid-message-validation
-version: 1.1.0
-description: "Use to find which paid ad messages actually produce valuable pipeline, not just cheap clicks or leads. Launches one message per buyer situation with equal budgets, scores the first qualified conversations on urgency, budget, and fit, ranks each ad by its average quality score rather than cost per lead or click-through, and scales only the messages that pass. Use when platform metrics say an ad is a winner but sales says the leads are poor. Not for the creative angles (see ad-creative-as-filter) or the offer (see paid-offer-strategy)."
+version: 1.2.0
+description: "Use when finding which paid ad messages actually produce valuable pipeline, not just cheap clicks or leads. Launches one message per buyer situation with equal budgets, scores the first qualified conversations on urgency, budget, and fit, ranks each ad by its average quality score rather than cost per lead or click-through, and scales only the messages that pass. Use when platform metrics say an ad is a winner but sales says the leads are poor. Not for the creative angles (see `ad-creative-as-filter`) or the offer (see `paid-offer-strategy`)."
 ---
 
 # Paid message validation
@@ -63,9 +63,9 @@ Scale only messages that have passed phase three. Increase budget in steps, with
 
 - The buyer situations, the ads per situation, and the budget split.
 - The scoring of each logged conversation, and the average quality per ad.
-- The ranked list of ads, with winners and vanity winners labelled.
+- The ranked list of ads, with winners and vanity winners labeled.
 - The scaling plan for the winners, with the re-score date.
 
 ## Quality bar
 
-Ads are ranked on quality, not platform metrics. The same people score the conversations for all ads. Vanity winners are labelled as such. Scaling starts only after the scoring. Watch for a budget raised on cost per lead alone, scores given by different people for different ads, and a winner that loses quality as budget rises.
+Ads are ranked on quality, not platform metrics. The same people score the conversations for all ads. Vanity winners are labeled as such. Scaling starts only after the scoring. Watch for a budget raised on cost per lead alone, scores given by different people for different ads, and a winner that loses quality as budget rises.

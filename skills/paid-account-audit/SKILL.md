@@ -1,7 +1,7 @@
 ---
 name: paid-account-audit
-version: 1.1.0
-description: "Use to audit a search or social paid media account at depth and return a graded, read-only recommendation list. Classifies search terms into intent tiers, separates rank pressure from budget pressure before recommending a change, grades product listings for kill, downgrade, or promote, gates automated-campaign changes on maturity and asset coverage, checks tracking health and the primary conversion metric, and reads video creative through hook and hold rates. Never changes the account; the team applies each recommendation itself. Not for planning a new campaign (see paid-campaign-plan) or for the LinkedIn-specific audit (see linkedin-ads-audit)."
+version: 1.2.0
+description: "Use when auditing a search or social paid media account at depth for a graded, read-only recommendation list. Classifies search terms into intent tiers, separates rank pressure from budget pressure before recommending a change, grades product listings for kill, downgrade, or promote, gates automated-campaign changes on maturity and asset coverage, checks tracking health and the primary conversion metric, and reads video creative through hook and hold rates. Never changes the account; the team applies each recommendation itself. Not for planning a new campaign (see `paid-campaign-plan`) or for the LinkedIn-specific audit (see `linkedin-ads-audit`)."
 ---
 
 # Paid account audit

@@ -1,7 +1,7 @@
 ---
 name: paid-social-launch-checklist
-version: 1.1.0
-description: "Use before the first live paid social campaign for a high-value B2B offer, to confirm measurement and audiences are ready. Covers conversion events that fire on completion rather than on click, the priority order when several events fire on one page, domain verification, a server-side events route where the browser misses conversions, remarketing and exclusion audiences built before any prospecting, and a test lead traced from the ad to the CRM. Not for the optimization of a live campaign (see paid-social-optimization-playbook) or for the choice of audience strategy (see paid-social-audience-strategy)."
+version: 1.2.0
+description: "Use when preparing the first live paid social campaign for a high-value B2B offer, to confirm measurement and audiences are ready. Covers conversion events that fire on completion rather than on click, the priority order when several events fire on one page, domain verification, a server-side events route where the browser misses conversions, remarketing and exclusion audiences built before any prospecting, and a test lead traced from the ad to the CRM. Not for the optimization of a live campaign (see `paid-social-optimization-playbook`) or for the choice of audience strategy (see `paid-social-audience-strategy`)."
 ---
 
 # Paid social launch checklist

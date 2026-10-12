@@ -1,7 +1,7 @@
 ---
 name: signal-outbound-plays
-version: 1.1.0
-description: "Use to choose a signal-based outbound play: a reason to contact a prospect that is tied to an observable event, such as a new hire, a departure, a role that signals priority, a review that names a problem, or a new follower. Gives eleven plays, each with its signal, its timing, and its value-first angle, and a rule for when each play should not be used. Not for detecting signals in depth (see signal-detection-and-timing)."
+version: 1.2.0
+description: "Use to choose a signal-based outbound play: a reason to contact a prospect that is tied to an observable event, such as a new hire, a departure, a role that signals priority, a review that names a problem, or a new follower. Gives eleven plays, each with its signal, its timing, and its value-first angle, and a rule for when each play should not be used. Not for detecting signals in depth (see `signal-detection-and-timing`)."
 ---
 
 # Signal-based outbound plays
@@ -45,7 +45,7 @@ Route elsewhere when:
 | 10. Visitor activity | Prospect has visited pricing or a high-intent page | Real time | Helpful, short follow-up by the most relevant channel |
 | 11. Inbound followers | A new follower on a relevant social account | 24 to 48 hours | Thank them and offer a relevant resource |
 
-### Rules for each play
+### Play rules
 
 - **Use the play only when the signal is observable and current.** A signal older than its timing window is not a signal.
 - **Do not reference how the prospect was found** beyond what is public. Never imply monitoring of private activity.

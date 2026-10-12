@@ -1,7 +1,7 @@
 ---
 name: revenue-handoffs
-version: 1.1.0
-description: "Use when revenue leaks between teams: leads go dark after handover to sales, promises made before signature disappear, implementation loses momentum, or nobody owns expansion. Designs the handoff protocol for each transition in the revenue bow tie (marketing to sales, sales to implementation, implementation to customer success, customer success back to sales), with an owner, a context packet, an SLA, and leading indicators for each. Not for routing rules (see lead-routing-design) or for tool build-out."
+version: 1.2.0
+description: "Use when revenue leaks between teams: leads go dark after handover to sales, promises made before signature disappear, implementation loses momentum, or nobody owns expansion. Designs the handoff protocol for each transition in the revenue bow tie (marketing to sales, sales to implementation, implementation to customer success, customer success back to sales), with an owner, a context packet, an SLA, and leading indicators for each. Not for routing rules (see `lead-routing-design`) or for tool build-out."
 ---
 
 # Revenue handoffs

@@ -1,7 +1,7 @@
 ---
 name: paid-campaign-plan
-version: 1.1.0
-description: "Use to plan a paid campaign end to end before anything is launched, so that objectives, channels and budget, targeting, creative, and measurement are fixed in advance. Sets out the four elements every plan needs, a naming convention that makes later reporting possible, and the choice between doing the setup in-house and outsourcing it. Not for choosing the channel (see paid-channel-selection) or for the creative copy (see ad-copy-voice-of-customer)."
+version: 1.2.0
+description: "Use when planning a paid campaign end to end before anything is launched, so that objectives, channels and budget, targeting, creative, and measurement are fixed in advance. Sets out the four elements every plan needs, a naming convention that makes later reporting possible, and the choice between doing the setup in-house and outsourcing it. Not for choosing the channel (see `paid-channel-selection`) or for the creative copy (see `ad-copy-voice-of-customer`)."
 ---
 
 # Paid campaign plan

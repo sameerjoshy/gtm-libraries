@@ -1,12 +1,10 @@
 ---
 name: pipeline-review
-version: 1.1.0
+version: 1.2.0
 description: "Use when reviewing a live pipeline for coverage, stage aging, and risk before a forecast call or a recurring pipeline check-in. Flags stalled, regressed, under-threaded, or at-risk deals with cited evidence, recommends one action per issue, and reconciles the weekly pipeline movement. Not a forecast (see revops-forecasting), and not CRM data rules (see revops-data-governance)."
 ---
 
 # Pipeline review
-
-Inspects the live pipeline, finds the deals that need attention, and gives one concrete next action for each, so that the forecast call is about real deals rather than optimism.
 
 ## Purpose
 
@@ -22,16 +20,6 @@ Route elsewhere when:
 - The question is data quality in the CRM. Use `revops-data-governance`.
 - A single complex deal is stuck. Use `deal-blocker-maneuvers`.
 
-## Principles
-
-- **Evidence beside every flag.** A flag reads "Stalled: last activity 26 days ago, stage Proposal". Never a vague "looks at risk".
-- **Stage-aware.** A 21-day gap is normal in one stage and alarming in another. Use the client's own stage rules, not one universal number.
-- **Flags are questions, not verdicts.** A flag says the deal needs a look. Only the owner can say whether it is at risk.
-- **Lightest action first.** A task to call the owner beats a restructuring of the deal. Recommend the smallest action that answers the flag.
-- **Nothing written to the CRM without approval.** Recommendations first, writes only after the user says which to proceed with.
-- **Bounded.** Slices of about 20 deals. No more than 10 to 15 recommended actions in one review. Those that do not make the list go to a follow-up pass.
-- **Reconcile.** The pipeline movement must add back to the ending pipeline. Check the arithmetic in code.
-
 ## Inputs
 
 1. Scope: whose pipeline (one owner, a team, or the whole org), which stages (mid-funnel by default), and the time horizon. Default: deals due to close this quarter, plus any deal older than 30 days regardless of close date.
@@ -44,6 +32,16 @@ If the stage rules or the baseline are missing, say so in the report. Do not pre
 
 ## Procedure
 
+### Principles
+
+- **Evidence beside every flag.** A flag reads "Stalled: last activity 26 days ago, stage Proposal". Never a vague "looks at risk".
+- **Stage-aware.** A 21-day gap is normal in one stage and alarming in another. Use the client's own stage rules, not one universal number.
+- **Flags are questions, not verdicts.** A flag says the deal needs a look. Only the owner can say whether it is at risk.
+- **Lightest action first.** A task to call the owner beats a restructuring of the deal. Recommend the smallest action that answers the flag.
+- **Nothing written to the CRM without approval.** Recommendations first, writes only after the user says which to proceed with.
+- **Bounded.** Slices of about 20 deals. No more than 10 to 15 recommended actions in one review. Those that do not make the list go to a follow-up pass.
+- **Reconcile.** The pipeline movement must add back to the ending pipeline. Check the arithmetic in code.
+
 ### Step 1: Scope the review
 
 Confirm the owner, stages, and horizon. If not given, default to all open mid-funnel deals for the whole team. State the scope at the top of the output.
@@ -53,7 +51,7 @@ Confirm the owner, stages, and horizon. If not given, default to all open mid-fu
 A flag depends on the stage it sits in. Before flagging, check:
 - Each stage has a verifiable exit criterion, such as "budget confirmed" or "signed". Not "rep feels good".
 - Stages describe buyer actions, not seller activity.
-- Stage probabilities come from the client's own history where that exists. Measure the close rate from each stage over the past twelve months of closed deals. Default probabilities from common SaaS practice carry no research backing and must be labelled as such.
+- Stage probabilities come from the client's own history where that exists. Measure the close rate from each stage over the past twelve months of closed deals. Default probabilities from common SaaS practice carry no research backing and must be labeled as such.
 
 If the stage design is weak, note it in the report. A review run on broken stages reports noise faithfully.
 
@@ -148,7 +146,7 @@ Pipeline quality scores combining engagement, threading, decision-maker access, 
 
 ```
 PIPELINE REVIEW, <date>, <scope>
-Stage rules: client's own | defaults (labelled)
+Stage rules: client's own | defaults (labeled)
 <N> deals reviewed. <M> flagged. <K> recommended actions (max 15).
 
 AT RISK (n)
@@ -187,7 +185,7 @@ End with the approval question. Write nothing to the CRM until the user approves
 - No more than 15 actions were recommended.
 - The waterfall reconciles to the ending pipeline, or the report says it does not.
 - Pulled-in deals are described as upside only after verification.
-- Benchmarks cited from vendor research are labelled as vendor-published, not as standards.
+- Benchmarks cited from vendor research are labeled as vendor-published, not as standards.
 - Nothing was written to the CRM without approval.
 
 ## Rules
@@ -202,10 +200,8 @@ End with the approval question. Write nothing to the CRM until the user approves
 - MUST NOT flag a deal as stalled in a stage where the normal gap is longer, until the stage rule has been checked.
 - MUST NOT present vendor benchmarks as industry standards. Label the source and its date.
 - NEVER forecast in this skill. Forecast methodology is a separate skill.
-
-
-- Inspects and flags the live pipeline. Does not produce the forecast or its commit and best-case categories: a forecast skill is needed for that.
-- Does not configure the CRM, its stages, or its fields. Data governance is covered by `revops-data-governance`.
-- Does not model creator-channel or campaign pipeline. Such models are separate.
-- Hands off deal-level plays to other skills: `deal-blocker-maneuvers` for a complex deal's next move, `champion-job-change-tracking` for a departed champion, and the outbound and multi-threading skills once they are added to the library.
-- Does not write outreach or sequences.
+- MUST NOT produce the forecast, its commit, or its best-case categories; a forecast skill does that.
+- MUST NOT configure the CRM, its stages, or its fields. Data governance is covered by `revops-data-governance`.
+- MUST NOT model creator-channel or campaign pipeline; such models are separate.
+- MUST hand off deal-level plays: `deal-blocker-maneuvers` for a complex deal's next move, `champion-job-change-tracking` for a departed champion, and the outbound and multi-threading skills once they are in the library.
+- MUST NOT write outreach or sequences.

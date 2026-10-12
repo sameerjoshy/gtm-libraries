@@ -1,6 +1,6 @@
 ---
 name: data-enrichment
-version: 1.1.0
+version: 1.2.0
 description: "Use when inbound leads arrive without the fields needed to score, route, or segment them, or when a target list or CRM lacks firmographic or contact data. Maps the coverage gap field by field, chooses between a single provider and a waterfall across providers, sets re-enrichment cadences and quality gates, and sets the legal conditions for enrichment in Europe. Not for choosing a specific vendor on the strength of its marketing; that needs a pilot on the client's own data."
 ---
 
@@ -18,7 +18,6 @@ Enrichment adds third-party company and contact data to records that arrive inco
 - A provider is about to be chosen, or replaced.
 
 Route elsewhere when:
-
 - The question is how to route leads once enriched. Use `lead-routing-design`.
 - The question is how to build a list from scratch. Use `prospect-list-building`.
 - The question is data quality in general. Use `revops-data-governance`.
@@ -97,7 +96,7 @@ Without provenance, a bad field cannot be traced or removed.
 
 ### Step 6: Set re-enrichment cadences
 
-Enriched data decays. Enriched data decays over time. Measure the client's own rate by re-checking a sample.
+Enriched data decays over time. Measure the client's own rate by re-checking a sample.
 
 Starting cadences, to adjust once the decay rate is known:
 
@@ -179,3 +178,11 @@ Record each contact's notification date in the CRM, so that compliance can be sh
 ## Quality bar
 
 Every field enriched is one the business uses. Each provider has been tested on the client's own records, and the decision rests on the pilot. Every enriched value has provenance. Re-enrichment runs on schedule, and coverage is reported monthly. The legal basis is written down, and the notifications are logged. Watch for vendor match rates quoted as fact, enrichment of fields no one reads, data with no source, and penalty figures stated without checking.
+
+## Rules
+
+- Use business contact data only. Do not enrich from personal emails or private account details.
+- Confirm the legal basis with counsel before enriching at scale in Europe.
+- Nothing is written to the CRM without human approval of the enriched, sourced values.
+
+Before enriched data reaches the CRM, ask: who is the named approver releasing this?

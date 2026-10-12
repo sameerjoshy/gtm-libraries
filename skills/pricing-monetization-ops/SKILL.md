@@ -1,6 +1,6 @@
 ---
 name: pricing-monetization-ops
-version: 1.1.0
+version: 1.2.0
 description: "Use when consumption, usage, outcome, or hybrid pricing needs reliable operations: bill shock is hurting renewals, metering and billing disagree, overages, minimums, or credits are applied inconsistently, a per-seat to usage migration threatens revenue reporting, or variable revenue will not reconcile. Covers the five layers (metering, rating, invoicing, collections, reconciliation), the contract structures a billing engine must handle, the data-quality audit, migration and price-change playbooks, and the data protection points. Not for discount approval (see deal-desk-operations) or pricing strategy and packaging design."
 ---
 
@@ -134,7 +134,7 @@ Work to a fixed calendar, and keep the order:
 
 | Stage | Timing | Action |
 |---|---|---|
-| Period close | Last day of the month, end of day UTC | Finalise aggregation. Flag late events |
+| Period close | Last day of the month, end of day UTC | Finalize aggregation. Flag late events |
 | Metering reconciliation | First three working days | Match event counts to source systems. Reconcile the dedupe log |
 | Rating | Days two to four | Apply contract rules. Flag missing contracts and rate errors |
 | Invoice generation | Days four to six | Generate and check line detail. Approve for sending |
@@ -167,7 +167,7 @@ Under ASC 606 in the US, and IFRS 15 internationally, variable consideration is 
 - The difference of $30,000 is a change in estimate, to be assessed by the accountants for the period it arose in, and possibly for correction. It is not nil.
 - From May, the revised estimate of 15 million calls a month gives $60,000 a month, if usage continues at that level.
 
-Confirm the treatment with the auditors before relying on it. The estimate method, the constraint on variable consideration, and any catch-up treatment are accounting judgements.
+Confirm the treatment with the auditors before relying on it. The estimate method, the constraint on variable consideration, and any catch-up treatment are accounting judgments.
 
 **The billing-centric approach.** Many companies simplify by billing for actual usage in the period, and recognizing the invoiced amount in that period. This avoids forecasting variable amounts, and ties revenue to what was billed. Confirm with the auditors that it matches the pattern in which the service is delivered, and that any practical expedient they accept applies to the contracts. Do not assume it is compliant.
 
@@ -251,11 +251,11 @@ Usage data is personal data whenever it can be linked to an individual, such as 
 
 - **Lawful basis.** Processing for billing and service delivery usually rests on contract. Say so in the terms.
 - **Re-use.** Using usage data for analytics or product decisions needs a separate assessment, typically a legitimate interest assessment. For profiling or marketing, consent may be required.
-- **Erasure.** On a valid request, delete the personal data that is not needed for tax or accounting records. Keep anonymised aggregates for revenue reporting.
-- **Objection.** A customer's objection to direct marketing must be honoured at once.
+- **Erasure.** On a valid request, delete the personal data that is not needed for tax or accounting records. Keep anonymized aggregates for revenue reporting.
+- **Objection.** A customer's objection to direct marketing must be honored at once.
 - **Portability.** Provide the data in a machine-readable form on request.
 - **Transfers.** Transfers of personal data from the EU to the US need a transfer mechanism and a transfer impact assessment. A standard data processing agreement is not, on its own, a sufficient answer. Confirm the set-up with counsel.
-- **Invoice confidentiality.** Invoices can reveal usage and business decisions. Send them over secure channels, and limit access to the customer and its authorised people.
+- **Invoice confidentiality.** Invoices can reveal usage and business decisions. Send them over secure channels, and limit access to the customer and its authorized people.
 
 ## Output
 

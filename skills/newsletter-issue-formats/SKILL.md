@@ -1,7 +1,7 @@
 ---
 name: newsletter-issue-formats
-version: 1.1.0
-description: "Use to plan and write the recurring issues of a newsletter, especially a weekly curated roundup. Covers the five roundup formats (links, lessons, tools, content, and a hybrid), the rule that each curated item carries the owner's own take, the structure of a scannable issue, a single closing call to action, and a repeatable production process. Also covers turning a social post into a newsletter issue and generating a year of issue ideas. Not for the welcome sequence (see newsletter-subscriber-onboarding) or the subject line (see email-subject-and-copy-review)."
+version: 1.2.0
+description: "Use to plan and write the recurring issues of a newsletter, especially a weekly curated roundup. Covers the five roundup formats (links, lessons, tools, content, and a hybrid), the rule that each curated item carries the owner's own take, the structure of a scannable issue, a single closing call to action, and a repeatable production process. Also covers turning a social post into a newsletter issue and generating a year of issue ideas. Not for the welcome sequence (see `newsletter-subscriber-onboarding`) or the subject line (see `email-subject-and-copy-review`)."
 ---
 
 # Newsletter issue formats

@@ -1,7 +1,7 @@
 ---
 name: paid-search-quality-diagnosis
-version: 1.1.0
-description: "Use when paid search keywords are expensive relative to competitors, ads are not showing as expected, or someone asks why ads are not showing without a budget explanation. Treats the keyword quality score as a diagnostic, not a target, breaks it into its three components (expected click-through rate, ad relevance, and landing page experience), weights the fix list by spend, and routes each below-average component to a different fix. Not for the budget envelope (see paid-search-budget-reallocation) or the forecast maths (see paid-search-unit-economics)."
+version: 1.2.0
+description: "Use when paid search keywords are expensive relative to competitors, ads are not showing as expected, or someone asks why ads are not showing without a budget explanation. Treats the keyword quality score as a diagnostic, not a target, breaks it into its three components (expected click-through rate, ad relevance, and landing page experience), weights the fix list by spend, and routes each below-average component to a different fix. Not for the budget envelope (see `paid-search-budget-reallocation`) or the forecast math (see `paid-search-unit-economics`)."
 ---
 
 # Paid search quality diagnosis

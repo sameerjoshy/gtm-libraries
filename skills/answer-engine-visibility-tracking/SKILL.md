@@ -1,7 +1,7 @@
 ---
 name: answer-engine-visibility-tracking
-version: 1.1.0
-description: "Use to measure how a brand appears in AI-generated answers over time, and to trust or challenge the score that results. Sets a baseline by seeding the questions buyers actually ask an AI answer engine, in the buyer's words, across the engines and countries that matter, and tracks mentions, ranking against competitors, and the citation sources behind them. Includes an audit that traces any headline visibility score down to the individual answers behind it before the score is explained. Not for choosing which content to build (see answer-engine citation drill-down)."
+version: 1.2.0
+description: "Use when a team needs to measure how a brand appears in AI-generated answers over time, and to trust or challenge the score that results. Sets a baseline by seeding the questions buyers actually ask an AI answer engine, in the buyer's words, across the engines and countries that matter, and tracks mentions, ranking against competitors, and the citation sources behind them. Includes an audit that traces any headline visibility score down to the individual answers behind it before the score is explained. Not for choosing which content to build (see `answer-engine-citation-drill-down`)."
 ---
 
 # Answer engine visibility tracking
@@ -17,7 +17,6 @@ AI answer engines now shape how buyers hear about categories and vendors. A bran
 - A client or leader asks for evidence behind a visibility number.
 
 Route elsewhere when:
-
 - The question is which content to create to earn citations. Use `answer-engine-citation-drill-down`.
 - The question is a drop in organic search clicks. Use `organic-decline-diagnosis`.
 
@@ -28,18 +27,20 @@ Route elsewhere when:
 - The engines and countries that matter to the business.
 - The period for the baseline.
 
-### Set the baseline
+## Procedure
+
+### Step 1: Set the baseline
 
 1. **Define the brand, its competitors, and its topics.** Competitor comparison is the readout that tends to matter most to leaders.
 2. **Seed the prompts.** Write questions the way buyers ask them: "best option for this problem", "option A versus option B", "how do I solve this". Use buyer language, not the category's marketing language. Create them per topic, and spread them across the target engines and countries.
    - Harvest the wording from several places: sales calls, support questions, community questions, and comparison content. Tag each prompt with where its wording came from.
    - Hold the brand back until a final pass. Build the category prompts from demand, not from the brand's own copy, which produces questions nobody types.
-   - Keep branded prompts, such as comparisons, alternatives and pricing questions, in a separate topic, so they do not inflate the category figures.
-   - Map each persona to an awareness stage, and weight the set towards consideration and decision questions.
+   - Keep branded prompts, such as comparisons, alternatives, and pricing questions, in a separate topic, so they do not inflate the category figures.
+   - Map each persona to an awareness stage, and weight the set toward consideration and decision questions.
 3. **Fix the prompt set.** Record the date and freeze the set. Change prompts only with a dated note, so trends are not created by changing the questions.
 4. **Read the baseline:** which brands are mentioned, for which prompts, on which engines, and where the brand ranks against competitors.
 
-### Track over time
+### Step 2: Track over time
 
 - Run the fixed set on a regular schedule.
 - Record, per engine and per country: whether the brand is mentioned, its position against competitors, and the sentiment of the mention.
@@ -49,7 +50,7 @@ Route elsewhere when:
 - Show the results as a grid of prompts against engines, with the aggregate on top. The grid shows which prompts are won, which are contested, and which engine disagrees with the rest.
 - Read movement with care. A change from none of three to three of three is movement. A wobble at the margin is noise. If the prompt set has to change, mark a break in the series and restate the baseline. Never join the old and new sets into one line.
 
-### Audit a score before explaining it
+### Step 3: Audit a score before explaining it
 
 When a visibility score moves, or a number needs proof, decompose it. Never explain a movement from the headline figure alone.
 
@@ -59,13 +60,9 @@ When a visibility score moves, or a number needs proof, decompose it. Never expl
 
 Only after these steps is a score movement explained.
 
-## Procedure
+### Step 4: Record the sources
 
-1. **Set the baseline** and freeze the prompt set with a date.
-2. **Run the tracking** on schedule, recording the per-engine and per-country results.
-3. **Report the trend** with the scans behind it, not only the headline.
-4. **When a score moves,** run the three-step audit before any explanation.
-5. **Record the sources** cited in the answers for the next content review.
+Record the sources cited in the answers for the next content review.
 
 ## Output
 

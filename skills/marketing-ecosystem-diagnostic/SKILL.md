@@ -1,6 +1,6 @@
 ---
 name: marketing-ecosystem-diagnostic
-version: 1.1.0
+version: 1.2.0
 description: "Use when someone asks where the company should spend marketing effort, which channel is working, or what the gaps in the marketing motion are. Grades the B2B marketing motion against a 22-motion maturity checklist across five pillars (create, capture, connect, convert, compound), each graded L0 to L3 on evidence, and produces a maturity score, a spend-by-funnel view, and exactly three next moves. Not for running an ads campaign (see `paid-campaign-plan`)."
 ---
 
@@ -18,7 +18,7 @@ Marketing reviews often list what the company does, not how well it does it. A c
 
 Route elsewhere when:
 
-- The question is a single paid campaign. Use the relevant paid skill.
+- The question is a single paid campaign. Use `paid-campaign-plan`.
 - The question is the revenue process as a whole. Use `move-gtm-diagnostic`.
 
 ## Inputs

@@ -1,7 +1,7 @@
 ---
 name: paid-search-budget-reallocation
-version: 1.1.0
-description: "Use when deciding where to move budget across existing paid search campaigns, for example when some campaigns are capped by budget, others are past their efficient spend, or a seasonal peak is coming. Treats the account as one budget envelope rather than separate silos, reads lost impression share as the signal for underfunded campaigns, compares marginal rather than average cost per result, and caps each move. Not for a new account with no history (see paid-channel-selection) or for the stage split (see paid-budget-by-stage)."
+version: 1.2.0
+description: "Use when deciding where to move budget across existing paid search campaigns, for example when some campaigns are capped by budget, others are past their efficient spend, or a seasonal peak is coming. Treats the account as one budget envelope rather than separate silos, reads lost impression share as the signal for underfunded campaigns, compares marginal rather than average cost per result, and caps each move. Not for a new account with no history (see `paid-channel-selection`) or for the stage split (see `paid-budget-by-stage`)."
 ---
 
 # Paid search budget reallocation

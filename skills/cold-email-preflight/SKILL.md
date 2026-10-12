@@ -1,7 +1,7 @@
 ---
 name: cold-email-preflight
-version: 1.1.0
-description: "Use in the hour before a cold email campaign goes live. Runs a checklist covering domain authentication, list verification, copy risk, day-one volume, and written kill-switch thresholds, then produces a launch or hold decision and the monitoring rules for the first week. Not for writing the copy or the sequence (see outbound-cold-email)."
+version: 1.2.0
+description: "Use when you are in the hour before a cold email campaign goes live. Runs a checklist covering domain authentication, list verification, copy risk, day-one volume, and written kill-switch thresholds, then produces a launch or hold decision and the monitoring rules for the first week. Not for writing the copy or the sequence (see `outbound-cold-email`)."
 ---
 
 # Cold email pre-flight check

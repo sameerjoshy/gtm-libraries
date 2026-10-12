@@ -1,7 +1,7 @@
 ---
 name: demand-lifecycle-model
-version: 1.1.0
-description: "Use to plan a B2B go-to-market program across the whole buyer lifecycle, not only up to conversion. Sets out five stages (create, capture, accelerate or activate, revive, expand), the awareness level each stage addresses, the offer and the measure for each, and a check that every program has a job at a named stage. Use when planning demand programs, when budget is spread with no stage logic, or when a channel is judged only on first conversion. Not for an individual campaign's setup (see `paid-campaign-plan`)."
+version: 1.2.0
+description: "Use when planning a B2B go-to-market program across the whole buyer lifecycle, not only up to conversion. Sets out five stages (create, capture, accelerate or activate, revive, expand), the awareness level each stage addresses, the offer and the measure for each, and a check that every program has a job at a named stage. Use when planning demand programs, when budget is spread with no stage logic, or when a channel is judged only on first conversion. Not for an individual campaign's setup (see `paid-campaign-plan`)."
 ---
 
 # Demand lifecycle model
@@ -19,7 +19,7 @@ A funnel that stops at conversion leaves most of the revenue process unplanned. 
 
 Route elsewhere when:
 
-- The question is one campaign's setup. Use the relevant channel skill.
+- The question is a single campaign's setup. Use `paid-campaign-plan`.
 - The question is the buyer's readiness signals. Use `signal-detection-and-timing`.
 - The question is the account list. Use `prospect-list-building`.
 
@@ -35,7 +35,7 @@ Route elsewhere when:
 1. **Create.** Build brand affinity and trust with people who are unaware or only aware of the problem. Offers: useful education and thought leadership. Measure: cost per engagement with that content, and blended cost per opportunity.
 2. **Capture.** Turn interest from in-market buyers into conversations. Buyers are solution-aware or product-aware. Offers: demo requests and trials. Measure: pipeline generated per unit of spend, and direct cost per opportunity.
 3. **Accelerate (sales-led) or activate (product-led).** Help a sales-led deal close faster, or help a free user become a paying one. Buyers are product-aware or offer-aware. Offers: customer evidence, case studies, events, and webinars. Measure: pipeline velocity, or paid sign-ups.
-4. **Revive.** Restart closed-lost opportunities where the blocker may have changed. Buyers are offer-aware. Offers: an incentivised demo or a guided trial. Measure: qualified opportunities created from the revived group, and their cost.
+4. **Revive.** Restart closed-lost opportunities where the blocker may have changed. Buyers are offer-aware. Offers: an incentivized demo or a guided trial. Measure: qualified opportunities created from the revived group, and their cost.
 5. **Expand.** Grow revenue from existing customers. Buyers are the most aware. Offers: referral and certification programs. Measure: expansion revenue, and opportunities influenced in existing accounts.
 
 ## Procedure

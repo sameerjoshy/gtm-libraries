@@ -1,7 +1,7 @@
 ---
 name: discovery-to-demo-bridge
-version: 1.1.0
-description: "Use in the gap between a discovery call and the demo that follows, when discovery surfaced several pains and the rep must decide what to show and what to cut. Quantifies each pain in the buyer's own numbers, ties it to a root cause, maps the demo moment that proves the fix, and produces a Why This Demo plan with an explicit cut list. Use when a demo risks becoming a feature tour, or a previous demo caused indigestion. Not for the demo's script and talk track (see demo-builder)."
+version: 1.2.0
+description: "Use when discovery has surfaced several pains and the rep must decide, before the demo, what to show and what to cut. Quantifies each pain in the buyer's own numbers, ties it to a root cause, maps the demo moment that proves the fix, and produces a Why This Demo plan with an explicit cut list. Use when a demo risks becoming a feature tour, or a previous demo caused indigestion. Not for the demo's script and talk track (see demo-builder)."
 ---
 
 # Discovery-to-demo bridge

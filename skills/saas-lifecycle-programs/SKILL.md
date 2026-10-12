@@ -1,7 +1,7 @@
 ---
 name: saas-lifecycle-programs
-version: 1.1.0
-description: "Use to design, audit, or rebuild the messaging a subscription product sends across the customer journey, from activation and onboarding to adoption, retention, expansion, failed-payment recovery, and win-back. Starts by checking whether the events and attributes the messaging needs are tracked and reach the messaging platform, then ranks findings by leverage, or produces a staged build roadmap with the trigger, touches, and data prerequisites for each program. Not for the customer success motion itself (see cs-operations)."
+version: 1.2.0
+description: "Use when designing, auditing, or rebuilding the messaging a subscription product sends across the customer journey, from activation and onboarding to adoption, retention, expansion, failed-payment recovery, and win-back. Starts by checking whether the events and attributes the messaging needs are tracked and reach the messaging platform, then ranks findings by leverage, or produces a staged build roadmap with the trigger, touches, and data prerequisites for each program. Not for the customer success motion itself (see cs-operations)."
 ---
 
 # SaaS lifecycle programs

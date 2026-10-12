@@ -1,7 +1,7 @@
 ---
 name: revenue-operating-cadence
-version: 1.1.0
-description: "Use to design or fix the revenue meeting system: the rhythm from daily pulse to board meeting, what each meeting decides and who attends, the data each one needs and who builds it, the board deck structure, the anti-patterns that waste meetings, and an asynchronous version for distributed teams. Covers meeting structure and inputs, not forecast methodology (see revops-forecasting) or metric definitions (see revenue-metrics)."
+version: 1.2.0
+description: "Use when designing or fixing the revenue meeting system: the rhythm from daily pulse to board meeting, what each meeting decides and who attends, the data each one needs and who builds it, the board deck structure, the anti-patterns that waste meetings, and an asynchronous version for distributed teams. Covers meeting structure and inputs, not forecast methodology (see `revops-forecasting`) or metric definitions (see `revenue-metrics`)."
 ---
 
 # Revenue operating cadence
@@ -77,7 +77,7 @@ The default structure, from most frequent to least:
 - Pre-read: consolidated forecast, variance to plan, confidence by stage, and the top ten at-risk deals.
 - Output: a locked company forecast, and an action log for closing the gap.
 
-**Fortnightly funnel review (60 minutes, marketing, sales, customer success, and RevOps).** Diagnose where the funnel is leaking.
+**Biweekly funnel review (60 minutes, marketing, sales, customer success, and RevOps).** Diagnose where the funnel is leaking.
 
 - Pre-read: conversion by stage against baseline, lead-to-opportunity speed, lead quality, bottlenecks, and win rate by segment and region.
 - Output: owners for the cross-functional actions, and experiments to run, such as changing lead routing to speed opportunities.
@@ -117,7 +117,7 @@ RevOps builds the data foundation. The CEO or CRO owns the narrative.
 | Daily pulse | Deal status, activity log | Sales teams |
 | Weekly pipeline review | Stage movement, deal aging, forecast accuracy | RevOps |
 | Weekly forecast roll-up | Consolidated forecast, variance to plan, confidence | RevOps |
-| Fortnightly funnel review | Conversion, velocity, bottlenecks | RevOps and marketing |
+| Biweekly funnel review | Conversion, velocity, bottlenecks | RevOps and marketing |
 | Monthly business review | Revenue, pipeline, efficiency, retention | RevOps and finance |
 | Quarterly review | Full business dashboard | RevOps |
 | Board meeting | Summary and KPI deck | RevOps builds the data, the CEO writes the narrative |

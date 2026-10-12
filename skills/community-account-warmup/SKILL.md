@@ -1,7 +1,7 @@
 ---
 name: community-account-warmup
-version: 1.1.0
-description: "Use when a brand account on an online community forum is new or has little standing, and the team wants it credible before any promotional activity. Sets out a warm-up ladder in which the share of promotional activity is earned step by step through contribution milestones, starting with zero product mentions, spreading across communities, and favoring active threads. Use before any promotion is planned for a new account. Not for monitoring an account that is already active (see community-account-health)."
+version: 1.2.0
+description: "Use when a brand account on an online community forum is new or has little standing, and the team wants it credible before any promotional activity. Sets out a warm-up ladder in which the share of promotional activity is earned step by step through contribution milestones, starting with zero product mentions, spreading across communities, and favoring active threads. Use before any promotion is planned for a new account. Not for monitoring an account that is already active (see `community-account-health`)."
 ---
 
 # Community account warmup

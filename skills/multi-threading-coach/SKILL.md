@@ -1,7 +1,7 @@
 ---
 name: multi-threading-coach
-version: 1.1.0
-description: "Use on a live deal that depends on one contact, when the champion has gone quiet, when nobody can name the decision-maker, or when the buying process is about to get bigger. Maps the buying committee, scores each contact on access (can you reach them) and influence (do they move the decision), flags single-thread risk, and produces a coalition plan with a reason and a talking point for each new thread. Not for blast outreach."
+version: 1.2.0
+description: "Use on a live deal that depends on one contact, when the champion has gone quiet, when nobody can name the decision-maker, or when the buying process is about to get bigger. Maps the buying committee, scores each contact on access (can you reach them) and influence (do they move the decision), flags single-thread risk, and produces a coalition plan with a reason and a talking point for each new thread. Not for one stalled deal (see `deal-blocker-maneuvers`) or volume outreach (see `outbound-cold-email`)."
 ---
 
 # Multi-threading coach
@@ -21,6 +21,11 @@ Run this when any of these are true:
 - You want a route to a high-influence person you have no access to.
 
 Do not run this on an unqualified deal. Coalition work on a deal with no validated need produces contacts who have no reason to care.
+
+Route elsewhere when:
+- The question is one stalled or ghosted deal. Use `deal-blocker-maneuvers`.
+- The question is an account-wide stakeholder map, not one deal. Use `account-org-map`.
+- The question is pipeline hygiene across deals. Use `pipeline-review`.
 
 ## Inputs
 
@@ -91,7 +96,7 @@ Routing rules:
 
 - With an engaged champion, default to the introduction route. Contacting the economic buyer directly, bypassing the champion, can damage a late-stage deal.
 - Do not suggest a contact who has been engaged in the last 30 days. Check the engagement record first.
-- If the deal is single-threaded and the one contact has gone silent, that is a stalled-deal problem, not a threading problem. Route it to stalled-deal recovery rather than this skill.
+- If the deal is single-threaded and the one contact has gone silent, that is a stalled-deal problem, not a threading problem. Route it to `deal-blocker-maneuvers` rather than this skill.
 
 Never invent a stakeholder's name, a priority, or a relationship you do not have. A plan built on imagined access convinces a rep that a dead deal is alive.
 
@@ -117,14 +122,14 @@ One coalition plan, containing:
 
 A strong plan makes the deal survive the loss of any one person. There are at least two live threads into the decision. The economic buyer is reachable, or there is a concrete route in motion to reach them. Each thread has a reason that serves the other person.
 
-Signs it is working:
+### Signs it is working
 
 - More than one high-access thread, and a route to every high-influence person.
 - The champion makes introductions because the plan gave them a reason that serves them.
 - Talking points differ by persona.
 - Single-thread risk was named early and fixed, not discovered at close.
 
-Signs it is off track:
+### Signs it is off track
 
 - Every access score is High. The rep is grading themselves.
 - The plan is "add more people to the thread" with no reason or talking point for each.

@@ -1,7 +1,7 @@
 ---
 name: creator-rate-band
-version: 1.1.0
-description: "Use to price a B2B thought-leadership creator from what their content actually does, not from follower count. Weights recent post performance by engagement type, cross-checks the result against a cost-per-thousand-impressions anchor, and produces an initial, budget, and maximum rate band to open a negotiation from. Use for a creator the team knows or a cold creator being priced for the first time. Not for the deal structure (see creator-deal-structure) or the reply to pushback (see creator-negotiation)."
+version: 1.2.0
+description: "Use when pricing a B2B thought-leadership creator from what their content actually does, not from follower count. Weights recent post performance by engagement type, cross-checks the result against a cost-per-thousand-impressions anchor, and produces an initial, budget, and maximum rate band to open a negotiation from. Use when a creator the team knows or a cold creator is being priced for the first time. Not for the deal structure (see `creator-deal-structure`) or the reply to pushback (see `creator-negotiation`)."
 ---
 
 # Creator rate band
@@ -17,7 +17,6 @@ A creator with a large following can have posts that nobody reads, and a smaller
 - A campaign ceiling needs to be tested against real creator costs.
 
 Route elsewhere when:
-
 - The question is how to structure the payment. Use `creator-deal-structure`.
 - The question is the reply to a counter-offer. Use `creator-negotiation`.
 - The question is finding creators. Use `creator-discovery-and-vetting`.

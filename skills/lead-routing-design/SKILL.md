@@ -1,7 +1,7 @@
 ---
 name: lead-routing-design
-version: 1.1.0
-description: "Use when designing or fixing how inbound or outbound leads are assigned to reps: the routing decision order, the routing model (geographic, named account, round-robin, weighted, skills-based, load-balanced, or hybrid), speed-to-lead SLAs with escalation, account-based routing for existing accounts, and the quarterly routing audit. Covers strategy and logic, independent of CRM. For CRM build-out, see revops-salesforce for Salesforce configuration. For scoring leads, see marketing-operations."
+version: 1.2.0
+description: "Use when designing or fixing how inbound or outbound leads are assigned to reps: the routing decision order, the routing model (geographic, named account, round-robin, weighted, skills-based, load-balanced, or hybrid), speed-to-lead SLAs with escalation, account-based routing for existing accounts, and the quarterly routing audit. Covers strategy and logic, independent of CRM. For CRM build-out, see `revops-salesforce` for Salesforce configuration. For scoring leads, see `marketing-operations`."
 ---
 
 # Lead routing design

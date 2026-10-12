@@ -1,7 +1,7 @@
 ---
 name: marketing-operations
-version: 1.1.0
-description: "Use to make marketing accountable for pipeline: shared lifecycle definitions, dual-axis lead scoring (fit and engagement) with quarterly calibration and governed versions, the marketing-to-sales handoff SLA with rejection reasons, lead recycling, attribution (sourced, influenced, and a multi-touch model), campaign and UTM taxonomy, and the maturity path. Use when sales says leads are poor or revenue cannot be attributed to campaigns. Covers marketing operations, not brand, creative, or ICP methodology (see icp-builder), and not the CRM build (see the platform skills)."
+version: 1.2.0
+description: "Use to make marketing accountable for pipeline: shared lifecycle definitions, dual-axis lead scoring (fit and engagement) with quarterly calibration and governed versions, the marketing-to-sales handoff SLA with rejection reasons, lead recycling, attribution (sourced, influenced, and a multi-touch model), campaign and UTM taxonomy, and the maturity path. Use when sales says leads are poor or revenue cannot be attributed to campaigns. Covers marketing operations, not brand, creative, or ICP methodology (see `icp-builder`), and not the CRM build (see `revops-salesforce` or `revops-tech-stack`)."
 ---
 
 # Marketing operations

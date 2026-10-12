@@ -1,7 +1,7 @@
 ---
 name: recent-discourse-sweep
-version: 1.1.0
-description: "Use when a decision depends on what the market said about a company, product, category, or person inside a dated window, such as before a first touch, a renewal call, or a positioning bet. Lists the venues first, reads each one and records whether it returned results, came back empty, or was never reached, dates every item, and produces a sourced synthesis with a coverage report. Not for a brand's own mentions and reputation (see brand-mention-monitor) or for one company's profile (see account-research-brief)."
+version: 1.2.0
+description: "Use when a decision depends on what the market said about a company, product, category, or person inside a dated window, such as before a first touch, a renewal call, or a positioning bet. Lists the venues first, reads each one and records whether it returned results, came back empty, or was never reached, dates every item, and produces a sourced synthesis with a coverage report. Not for a brand's own mentions and reputation (see `brand-mention-monitor`) or for one company's profile (see `account-research-brief`)."
 ---
 
 # Recent discourse sweep
@@ -40,7 +40,7 @@ Route elsewhere when:
    These are different facts. Collapsing them into "nothing found" is the failure this skill exists to prevent.
 4. **Date every item.** Drop anything outside the window. An undated item is not evidence.
 5. **Rank by engagement, then read against the ranking.** Engagement shows how loud a view was, not how common it is. Note the dissenting view that drew little response, because it is often the objection the decision will meet.
-6. **Synthesise with sources.** State what is consistently said, what is disputed, and what has changed in the window. Every claim links to its item.
+6. **Synthesize with sources.** State what is consistently said, what is disputed, and what has changed in the window. Every claim links to its item.
 7. **Report coverage** alongside the synthesis: the venues read, the venues empty, and the venues never reached, with the reason for each gap.
 
 ## Output

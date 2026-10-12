@@ -1,7 +1,7 @@
 ---
 name: meddpicc-gap-audit
-version: 1.1.0
-description: "Use before a forecast call, a stage change, or after a new call or email that could change qualification. Maps MEDDPICC evidence (Metrics, Economic buyer, Decision criteria, Decision process, Paper process, Identify pain, Champion, Competition) from the call and email record, cites the exact line behind every mapping, flags reversals between calls, and reconciles against CRM values where they exist. Not for scoring call behavior (see call-scoring) or for the evidence gates in deal-qualification-gates."
+version: 1.2.0
+description: "Use before a forecast call, a stage change, or after a new call or email that could change qualification. Maps MEDDPICC evidence (Metrics, Economic buyer, Decision criteria, Decision process, Paper process, Identify pain, Champion, Competition) from the call and email record, cites the exact line behind every mapping, flags reversals between calls, and reconciles against CRM values where they exist. Not for scoring rep call behavior (see `call-scoring`) or the evidence gates before a stage advances (see `deal-qualification-gates`)."
 ---
 
 # MEDDPICC gap audit

@@ -1,7 +1,7 @@
 ---
 name: outbound-cold-email
-version: 1.1.0
-description: "Use when writing or reviewing a cold email or a multi-step cold sequence for a named account, contact, list, or signal. Picks the hook from the strongest real trigger, matches the org's voice, sets the sequence shape and cadence, applies a seven-point final gate, and stages every message for approval. Covers the deliverability limits that cap volume. Not for replies to existing threads (see reply-handling) or for LinkedIn and phone outreach."
+version: 1.2.0
+description: "Use when writing or reviewing a cold email or a multi-step cold sequence for a named account, contact, list, or signal. Picks the hook from the strongest real trigger, matches the org's voice, sets the sequence shape and cadence, applies a seven-point final gate, and stages every message for approval. Covers the deliverability limits that cap volume. Not for replies to existing threads (see `reply-handling`) or for LinkedIn and phone outreach (see `linkedin-outreach` or `cold-call-outreach`)."
 ---
 
 # Outbound cold email
@@ -19,8 +19,8 @@ Write cold email that a named person could only receive from you, that has a rea
 Route elsewhere when:
 
 - The contact has replied. Use `reply-handling`.
-- The request is for a social message or a phone script. Those are separate motions.
-- The request is about inbox setup or domain health alone. That is an infrastructure task for the client's ops owner.
+- The request is for a social message or a phone script. Use `linkedin-outreach` or `cold-call-outreach`.
+- The request is about inbox setup or domain health alone. Use `email-deliverability`.
 
 ## Inputs
 
@@ -83,7 +83,7 @@ Rules for the sequence:
 
 - Each follow-up is shorter than the one before. Each one stands on its own and brings something new: new proof, a sharper insight, a useful asset, or a peer story. A follow-up with nothing new is skipped.
 - Change the value proposition between emails. A useful default: step 1 on saving money, step 2 on making money, step 3 on saving time.
-- The break-up asks a timing question, such as "Is this not a priority right now?" Once it is sent, honour it. No further messages.
+- The break-up asks a timing question, such as "Is this not a priority right now?" Once it is sent, honor it. No further messages.
 - One channel per sequence unless the motion says otherwise. Do not reference one channel from another.
 - Multi-thread only for large accounts (around 200 or more employees), committee signals, or when asked. Use a different angle for each contact. Never send the same email twice into one company.
 

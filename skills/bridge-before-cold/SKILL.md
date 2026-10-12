@@ -1,7 +1,7 @@
 ---
 name: bridge-before-cold
-version: 1.1.0
-description: "Use before staging a prospect and before drafting any first touch, when a segment has gone quiet, and when deciding whether an account is genuinely cold. Walks a ranked ladder of bridges the team can verify (prior contact, past delivery, a reference, a network edge, a shared conversation, a shared event, a peer's reply, a dated trigger), stops at the first verified rung, and writes a one-line premise for each contact. A contact is declared cold only after the search fails. Not for the message itself (see reply-pull-gate or personalized-first-touch)."
+version: 1.2.0
+description: "Use when staging a prospect, before drafting any first touch, when a segment has gone quiet, or when deciding whether an account is genuinely cold. Walks a ranked ladder of bridges the team can verify (prior contact, past delivery, a reference, a network edge, a shared conversation, a shared event, a peer's reply, a dated trigger), stops at the first verified rung, and writes a one-line premise for each contact. A contact is declared cold only after the search fails. Not for the message itself (see `reply-pull-gate` or `personalized-first-touch`)."
 ---
 
 # Bridge before cold
@@ -18,7 +18,6 @@ Most outbound treats cold as the starting point. It is the ending point, what re
 - When someone asks whether an account is cold.
 
 Route elsewhere when:
-
 - The question is the message wording. Use `reply-pull-gate` or `personalized-first-touch`.
 - The question is which contacts to target. Use `prospect-list-building`.
 
@@ -28,7 +27,9 @@ Route elsewhere when:
 - The team's own records: email and CRM history, delivered work, reference accounts the team is cleared to name, event attendance, and any shared network the team can see.
 - The segment and the angle, if one exists.
 
-### The lanes
+## Procedure
+
+### Step 1: Classify each contact into a lane
 
 Classify the recipient before writing. Each lane licenses a different opener and ask:
 
@@ -39,9 +40,9 @@ Classify the recipient before writing. Each lane licenses a different opener and
 | Bridgebound | A verified bridge, stated as dated fact | One step above cold |
 | Cold | An observation about their business that could be checked | The smallest yes |
 
-Cold is permitted only after the search below fails.
+Cold is permitted only after the search in Step 2 fails.
 
-### The ladder
+### Step 2: Walk the ladder
 
 Walk it top down. Stop at the first rung that returns a verifiable fact with a date and a source.
 
@@ -54,13 +55,17 @@ Walk it top down. Stop at the first rung that returns a verifiable fact with a d
 7. **A peer replied to this angle.** This is not a bridge to the person, but it calibrates the angle for their segment.
 8. **A dated why-now event at their company,** such as a launch or hire, within the freshness window.
 
-## Procedure
+### Step 3: Write the premise line
 
-1. **Classify each contact** into a lane.
-2. **Walk the ladder** and record the rung reached, the fact, its date, and its source.
-3. **Write the premise line** for each contact: one sentence stating the bridge or the observation the message will stand on. The writer and the reviewer both work from it.
-4. **Declare cold only after the ladder fails.** Record the rungs tried and why each failed.
-5. **Count the declarations.** Report how many contacts in the batch were declared cold. A high count is a finding about the list, not a reason to write colder messages.
+Write the premise line for each contact: one sentence stating the bridge or the observation the message will stand on. The writer and the reviewer both work from it.
+
+### Step 4: Declare cold only after the ladder fails
+
+Record the rungs tried and why each failed.
+
+### Step 5: Count the declarations
+
+Report how many contacts in the batch were declared cold. A high count is a finding about the list, not a reason to write colder messages.
 
 ## Output
 

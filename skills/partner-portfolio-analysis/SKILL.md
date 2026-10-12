@@ -1,7 +1,7 @@
 ---
 name: partner-portfolio-analysis
-version: 1.1.0
-description: "Use to prepare for a meeting with an investor, accelerator, or channel partner by analyzing how that partner's portfolio companies use the product. Produces a partner-facing summary of product penetration, plan mix, usage, and open pipeline with no financial figures, plus a separate internal sheet that holds the account-level financial detail. External sharing happens only with explicit confirmation. Maintains a registry of the portfolio mapping so later analysis starts from it. Not for a single account's figures or for partnership strategy without a portfolio data pull."
+version: 1.2.0
+description: "Use when preparing for a meeting with an investor, accelerator, or channel partner by analyzing how that partner's portfolio companies use the product. Produces a partner-facing summary of product penetration, plan mix, usage, and open pipeline with no financial figures, plus a separate internal sheet that holds the account-level financial detail. External sharing happens only with explicit confirmation. Maintains a registry of the portfolio mapping so later analysis starts from it. Not for a single account's figures or for partnership strategy without a portfolio data pull."
 ---
 
 # Partner portfolio analysis

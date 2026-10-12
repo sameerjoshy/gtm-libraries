@@ -1,7 +1,7 @@
 ---
 name: bench-strength-and-succession
-version: 1.1.0
-description: "Use when a CEO, CRO, sales leader, board, or investor needs to know whether the team could survive the loss of a key person, who is ready to step up, and what to do about the gaps. Produces a bench scorecard for critical roles with single points of failure, an evidence-based performance and potential view, a readiness call for each successor, interim cover and development plans, and a talent review run with bias controls. Not for one leader's development plan (see leadership-development-diagnostic)."
+version: 1.2.0
+description: "Use when a CEO, CRO, sales leader, board, or investor needs to know whether the team could survive the loss of a key person, who is ready to step up, and what to do about the gaps. Produces a bench scorecard for critical roles with single points of failure, an evidence-based performance and potential view, a readiness call for each successor, interim cover and development plans, and a talent review run with bias controls. Not for one leader's development plan (see `leadership-development-diagnostic`)."
 ---
 
 # Bench strength and succession
@@ -18,7 +18,6 @@ A business that loses its VP Sales for a month should know, before it happens, w
 - A senior role is about to open, and the question is internal or external.
 
 Route elsewhere when:
-
 - The question is one leader's development. Use `leadership-development-diagnostic`.
 - The question is hiring one candidate. Use `sales-hire-scorecard` or `sales-hire-offer-close`.
 

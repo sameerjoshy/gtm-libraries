@@ -1,7 +1,7 @@
 ---
 name: seo-serp-qualification
-version: 1.1.0
-description: "Use to check whether a keyword candidate can be won, by looking at what actually ranks for it, before any content is commissioned. Assesses intent clarity, the content format that the results reward, the competitive landscape, and whether the gaps are beatable, then gives each keyword a QUALIFY, CONDITIONAL, or KILL verdict with its reason. Many topics should die at this step. Not for prioritizing the topics that pass (see seo-topic-prioritization)."
+version: 1.2.0
+description: "Use to check whether a keyword candidate can be won, by looking at what actually ranks for it, before any content is commissioned. Assesses intent clarity, the content format that the results reward, the competitive landscape, and whether the gaps are beatable, then gives each keyword a QUALIFY, CONDITIONAL, or KILL verdict with its reason. Many topics should die at this step. Not for prioritizing the topics that pass (see `seo-topic-prioritization`)."
 ---
 
 # SEO SERP qualification

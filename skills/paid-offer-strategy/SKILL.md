@@ -1,7 +1,7 @@
 ---
 name: paid-offer-strategy
-version: 1.1.0
-description: "Use when choosing or writing the offer a paid campaign promotes, so that cold B2B traffic will take the next step. Explains the no-brainer test (high perceived value and low perceived effort), the two ways to communicate value (say who it is for and what it does, then make the reader want it), the match between offer strength and funnel stage, and the rule that a free offer still has to be sold. Not for the copy itself (see ad-copy-voice-of-customer) or for the stage budget (see paid-budget-by-stage)."
+version: 1.2.0
+description: "Use when choosing or writing the offer a paid campaign promotes, so that cold B2B traffic will take the next step. Explains the no-brainer test (high perceived value and low perceived effort), the two ways to communicate value (say who it is for and what it does, then make the reader want it), the match between offer strength and funnel stage, and the rule that a free offer still has to be sold. Not for the copy itself (see `ad-copy-voice-of-customer`) or for the stage budget (see `paid-budget-by-stage`)."
 ---
 
 # Paid offer strategy

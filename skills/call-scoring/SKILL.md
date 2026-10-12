@@ -1,7 +1,7 @@
 ---
 name: call-scoring
-version: 1.1.0
-description: "Use to score a sales call and turn the score into coaching. Covers two complementary views: nine conversation KPIs computed from the transcript (talk ratio, question rate, longest monologue, next steps, and similar), and a behavior scorecard per conversation type (prospecting, discovery, demo, pricing, close) scored 1 to 5 with cited evidence. Use when coaching is vague, reps and managers grade calls differently, or a transcript needs grading. Not for qualification of the deal itself (see meddpicc-gap-audit)."
+version: 1.2.0
+description: "Use when a team needs to score a sales call and turn the score into coaching. Covers two complementary views: nine conversation KPIs computed from the transcript (talk ratio, question rate, longest monologue, next steps, and similar), and a behavior scorecard per conversation type (prospecting, discovery, demo, pricing, close) scored 1 to 5 with cited evidence. Use when coaching is vague, when reps and managers grade calls differently, or when a transcript needs grading. Not for qualification of the deal itself (see `meddpicc-gap-audit`)."
 ---
 
 # Call scoring
@@ -18,7 +18,6 @@ Coaching fails when nobody agrees what a good call looks like. This skill makes 
 - A transcript needs grading against a standard.
 
 Route elsewhere when:
-
 - The question is whether the deal is qualified. Use `meddpicc-gap-audit`.
 - The question is a demo's structure. Use `demo-builder`.
 

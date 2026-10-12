@@ -1,7 +1,7 @@
 ---
 name: deal-velocity
-version: 1.1.0
-description: "Use when deals stall at specific stages, sales cycles run longer than the segment allows, or the pipeline is large but little closes. Diagnoses which lever of the velocity equation is binding (qualification, stage progression, volume, deal size, or zombie deals), sets stage exit criteria that reflect buyer actions, flags and triages zombie deals, and installs a weekly inspection rhythm. Treats slow deals as a speed problem, after deal truth has been checked by deal-qualification-gates. Not for scoring whether a deal is real."
+version: 1.2.0
+description: "Use when deals stall at specific stages, sales cycles run longer than the segment allows, or the pipeline is large but little closes. Diagnoses which lever of the velocity equation is binding (qualification, stage progression, volume, deal size, or zombie deals), sets stage exit criteria that reflect buyer actions, flags and triages zombie deals, and installs a weekly inspection rhythm. Treats slow deals as a speed problem, after deal truth has been checked by `deal-qualification-gates`. Not for scoring whether a deal is real."
 ---
 
 # Deal velocity
@@ -224,3 +224,11 @@ Set targets against the client's own baseline. Revisit them at six months.
 ## Quality bar
 
 The binding constraint is named, and one fix is made at a time. Stage moves rest on buyer actions in the record. Zombies are triaged with a decision and a date, not left in the pipeline. Health scores are used to direct inspection, not to rank reps. A single scoring scheme is used across the team. Watch for pipeline added to fix a conversion problem, gates that reps can bypass, and benchmarks quoted without their source.
+
+## Rules
+
+- Nothing is written to the CRM without human approval. Health scores and zombie flags are recommendations until an owner releases them.
+- Keep one scoring scheme per team, and do not average separate scales together.
+- Any closed-lost or stage change keeps a human decision. Automation may flag and recommend, never decide.
+
+Before a stage change or closed-lost is written, ask: who is the named approver releasing this?

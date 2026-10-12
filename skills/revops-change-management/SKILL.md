@@ -1,7 +1,7 @@
 ---
 name: revops-change-management
-version: 1.1.0
-description: "Use to plan and land a revenue change (a new process, comp plan, territory design, CRM migration, methodology, or AI tool) so that behavior changes and stays changed. Covers impact analysis, stakeholder strategy, traffic-light communication, transition design, enablement that reinforces over time, adoption measurement, and the specific risks of rolling out AI in revenue teams. Use when training happened and nothing changed, when people push back, or when adoption stalls. Not for the wider GTM org redesign (see gtm-planning-org-design)."
+version: 1.2.0
+description: "Use when planning and landing a revenue change (a new process, comp plan, territory design, CRM migration, methodology, or AI tool) so that behavior changes and stays changed. Covers impact analysis, stakeholder strategy, traffic-light communication, transition design, enablement that reinforces over time, adoption measurement, and the specific risks of rolling out AI in revenue teams. Use when training happened and nothing changed, when people push back, or when adoption stalls. Not for the wider GTM org redesign (see `gtm-planning-org-design`)."
 ---
 
 # RevOps change management
@@ -35,7 +35,7 @@ Route elsewhere when:
 
 Part 1 plans the change: impact, stakeholders, communication, transition. Part 2 makes it stick: behavior design, coaching, reinforcement, and energy. Both are required for any high-impact change. For a small change, Part 1 may be enough.
 
-Two established frameworks anchor the work. Kotter's eight-step model addresses the organization: urgency, a guiding coalition, a vision, a volunteer army, removing barriers, short-term wins, sustaining momentum, and institutionalising the change. Prosci's ADKAR addresses the individual: awareness, desire, knowledge, ability, and reinforcement. ADKAR's diagnostic value is matching the intervention to the barrier. Training someone who does not want to change, or who lacks the desire, is wasted effort.
+Two established frameworks anchor the work. Kotter's eight-step model addresses the organization: urgency, a guiding coalition, a vision, a volunteer army, removing barriers, short-term wins, sustaining momentum, and institutionalizing the change. Prosci's ADKAR addresses the individual: awareness, desire, knowledge, ability, and reinforcement. ADKAR's diagnostic value is matching the intervention to the barrier. Training someone who does not want to change, or who lacks the desire, is wasted effort.
 
 ## Procedure
 
@@ -199,7 +199,7 @@ The primary resistance pattern is fear of becoming obsolete. It is not technical
 - Separate the fear from the function. Name the worry in the room: "It is reasonable to worry about your skills. Let's deal with that."
 - Show augmentation with examples. The AI drafts, the rep judges. The AI prepares data, the rep plans the account. The job changes shape; it does not disappear.
 - Make the learning path visible. People stop fearing change when they can see how their own value grows: critiquing AI output, judging quality, and handling the judgment calls the tool cannot make.
-- Pair enthusiasm with caution. Let early adopters and sceptics work on the same pilot. Trust moves through working relationships faster than through data.
+- Pair enthusiasm with caution. Let early adopters and skeptics work on the same pilot. Trust moves through working relationships faster than through data.
 - Be honest about the cost of standing still. "If we do not move here, the market will move without us."
 
 Do not use invented statistics about job losses or salary effects to make the case. Use the client's own pilot results.
@@ -253,6 +253,14 @@ The full path usually takes six to nine months to reach embedding. Expect weeks 
 | How does learning last? | Reinforcement schedule and creation tasks |
 | Is the team ready for AI? | AI readiness score |
 
+### Diagnostic questions
+
+1. How many changes are running at once, and which one is getting the attention?
+2. Does the compensation, visibility, or review rhythm reward the new behavior, or the old one?
+3. Was the last change training, or a program with reinforcement? What changed in the first sixty days afterwards?
+4. Which barrier is it: awareness, desire, knowledge, ability, or reinforcement? Is the intervention matched to it?
+5. Has anyone planned for the productivity dip, and does leadership know it is coming?
+
 ## Output
 
 - The impact analysis across the five dimensions, with the behavioral audit.
@@ -262,14 +270,6 @@ The full path usually takes six to nine months to reach embedding. Expect weeks 
 - The readiness score and the support it triggers.
 - The enablement program: target behavior, creation task, reinforcement schedule, and coaching focus.
 - The adoption measures, across the four dimensions for AI, or the behavior measures for other changes.
-
-## Diagnostic questions
-
-1. How many changes are running at once, and which one is getting the attention?
-2. Does the compensation, visibility, or review rhythm reward the new behavior, or the old one?
-3. Was the last change training, or a program with reinforcement? What changed in the first sixty days afterwards?
-4. Which barrier is it: awareness, desire, knowledge, ability, or reinforcement? Is the intervention matched to it?
-5. Has anyone planned for the productivity dip, and does leadership know it is coming?
 
 ## Quality bar
 

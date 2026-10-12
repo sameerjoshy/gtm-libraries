@@ -1,7 +1,7 @@
 ---
 name: market-finder
-version: 1.1.0
-description: "Use to map every business of one type in one geography, for territory planning, market sizing, or building an account universe. Also audits an existing account list against fresh discovery, showing which accounts match, which were found only by discovery, and which were on the list but not found, with a coverage figure. Produces a deduplicated, source-linked inventory with a confidence rating per entity. Not for monitoring named competitors over time or for deep research on one company (see account-research-brief)."
+version: 1.2.0
+description: "Use to map every business of one type in one geography, for territory planning, market sizing, or building an account universe. Also audits an existing account list against fresh discovery, showing which accounts match, which were found only by discovery, and which were on the list but not found, with a coverage figure. Produces a deduplicated, source-linked inventory with a confidence rating per entity. Not for monitoring named competitors over time or deep research on one company (see `account-research-brief`)."
 ---
 
 # Market finder

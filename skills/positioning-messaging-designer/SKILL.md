@@ -1,7 +1,7 @@
 ---
 name: positioning-messaging-designer
-version: 1.1.0
-description: "Use to turn an evidenced ICP into a positioning and messaging framework: the twelve positioning elements, one repeatable positioning line, a Use Case Messaging Canvas built from customers' own words, and the opposites method that writes the messaging from the contrast between old and new ways. Also covers testing the framework with real calls and rolling it out to sales. Use when messaging is inconsistent across channels, when positioning is vague, or when copy is being written before the positioning exists. Not for building the ICP (see icp-builder) or writing channel copy."
+version: 1.2.0
+description: "Use when turning an evidenced ICP into a positioning and messaging framework: the twelve positioning elements, one repeatable positioning line, a Use Case Messaging Canvas built from customers' own words, and the opposites method that writes the messaging from the contrast between old and new ways. Also covers testing the framework with real calls and rolling it out to sales. Triggers when messaging is inconsistent across channels, when positioning is vague, or when copy is being written before the positioning exists. Not for building the ICP (see `icp-builder`) or writing channel copy."
 ---
 
 # Positioning and messaging designer
@@ -194,6 +194,14 @@ Before choosing a positioning, check the evidence. Ask why buyers actually switc
 
 After the messaging is drafted, test the narrative. Ask what has changed in the world that makes the problem urgent now. A message with no change behind it reads as generic, however clear the wording.
 
+### Diagnostic questions
+
+1. Which customer sentence, from an interview or call, supports each of the three problems on the canvas?
+2. Can a rep say the positioning line without notes, and can the sales leader?
+3. What share of recent lost deals would the positioning have changed, and why?
+4. Which two claims in the framework have no customer evidence behind them yet?
+5. Which channel is still using a different message, and who owns changing it?
+
 ## Output
 
 - The twelve positioning elements, each marked as evidenced or assumed.
@@ -202,14 +210,6 @@ After the messaging is drafted, test the narrative. Ask what has changed in the 
 - The validation plan, with the signals and their baselines.
 - The clarity test results.
 - The sales rollout plan, with the adoption measures.
-
-## Diagnostic questions
-
-1. Which customer sentence, from an interview or call, supports each of the three problems on the canvas?
-2. Can a rep say the positioning line without notes, and can the sales leader?
-3. What share of recent lost deals would the positioning have changed, and why?
-4. Which two claims in the framework have no customer evidence behind them yet?
-5. Which channel is still using a different message, and who owns changing it?
 
 ## Quality bar
 

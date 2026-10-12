@@ -1,7 +1,7 @@
 ---
 name: lead-form-quality
-version: 1.1.0
-description: "Use when a paid campaign collects leads through an in-platform lead form, to stop cheap leads that sales cannot use. Explains the social-amnesia problem (people who submit without remembering why, then deny knowing the company), sets form-type and friction choices, requires a work email, and adds one to three qualification questions. Use alongside the decision on whether a landing page would perform better. Not for the landing page itself or for the offer (see paid-offer-strategy)."
+version: 1.2.0
+description: "Use when a paid campaign collects leads through an in-platform lead form, to stop cheap leads that sales cannot use. Explains the social-amnesia problem (people who submit without remembering why, then deny knowing the company), sets form-type and friction choices, requires a work email, and adds one to three qualification questions. Use alongside the decision on whether a landing page would perform better. Not for the landing page itself or for the offer (see `paid-offer-strategy`)."
 ---
 
 # Lead form quality
@@ -29,6 +29,8 @@ Route elsewhere when:
 - Lead records with their email type, job title and company, and any sales feedback on them.
 - The offer the form promises.
 - The landing-page conversion rate for the same audience, if a landing page exists.
+
+## Procedure
 
 ### The social-amnesia problem
 
@@ -74,7 +76,7 @@ Add one to three custom questions. They are the most effective lever on lead qua
 
 Keep the questions short. Each extra question reduces completion, so add only what sales will use to qualify.
 
-## Procedure
+### Steps
 
 1. **Decide form versus landing page** using the test above.
 2. **Choose the form type.** Use higher intent by default.

@@ -1,7 +1,7 @@
 ---
 name: gtm-operating-principles
-version: 1.1.0
-description: "Use when setting outbound strategy, training a sales team, or establishing the fundamentals a go-to-market motion runs on. States six operating principles (copy what top performers do, diagnose before prescribing, act on signals, keep the market open, lead with the buyer's problem, segment before personalizing), a multi-channel sequencing pattern, and the mindsets on personalization, volume, timing, and messaging. Use it as the reference that other execution skills apply. Not for the daily execution rules (see sdr-outbound-rules) or for one diagnosis (see the diagnostic skills)."
+version: 1.2.0
+description: "Use when setting outbound strategy, training a sales team, or establishing the fundamentals a go-to-market motion runs on. States six operating principles (copy what top performers do, diagnose before prescribing, act on signals, keep the market open, lead with the buyer's problem, segment before personalizing), a multi-channel sequencing pattern, and the mindsets on personalization, volume, timing, and messaging. Use it as the reference that other execution skills apply. Not for the daily execution rules (see `sdr-outbound-rules`) or for one team's diagnosis (see `leadership-development-diagnostic` and `outbound-performance-diagnosis`)."
 ---
 
 # GTM operating principles
@@ -63,7 +63,7 @@ The pattern is a starting point. The team's own response data decides the order.
 - **On personalization.** Personalize to the person's role and situation, not only the company. Use specific facts, not vague praise. Research should shape the approach, not only the first line.
 - **On volume and quality.** Fewer signal-based messages beat many cold ones. Stack signals before deciding priority: when several independent signals arrive together, reach out the same day.
 - **On timing.** Act on a site visit within a day or two. A new role in the first few weeks is a strong moment for a relevant conversation. After a funding announcement, wait a few weeks before reaching out.
-- **On messaging.** Lead with the problem. Soft asks tend to get more replies than hard asks. Light humour can reduce tension, but only where it fits the buyer's culture.
+- **On messaging.** Lead with the problem. Soft asks tend to get more replies than hard asks. Light humor can reduce tension, but only where it fits the buyer's culture.
 
 ## Output
 
@@ -75,4 +75,4 @@ When this skill is applied to a plan, the output is:
 
 ## Quality bar
 
-Each tactic is traceable to one of the six principles. Timing windows and thresholds are labelled as defaults until calibrated against the team's data. Watch for a plan that personalizes every contact by default, a volume target set without a quality measure, and a fix proposed before the diagnosis.
+Each tactic is traceable to one of the six principles. Timing windows and thresholds are labeled as defaults until calibrated against the team's data. Watch for a plan that personalizes every contact by default, a volume target set without a quality measure, and a fix proposed before the diagnosis.

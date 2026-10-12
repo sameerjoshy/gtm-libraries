@@ -1,6 +1,6 @@
 ---
 name: paid-account-change-safety
-version: 1.1.0
+version: 1.2.0
 description: "Use when an AI agent or automation is about to make a write change to a live paid media account (pausing a campaign, changing a bid or budget, adding negative terms, editing conversion tracking, or launching a campaign). Classifies each change by blast radius, defaults to propose-only, sets explicit limits for the low-risk band, requires a preview and a confirmation for anything executed, and records proof that a change ran. Use it so that a claimed success is backed by a verified change. Not for read-only analysis of an account."
 ---
 

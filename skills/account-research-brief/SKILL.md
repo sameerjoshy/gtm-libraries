@@ -1,16 +1,14 @@
 ---
 name: account-research-brief
-version: 1.1.0
-description: "Use before a first meeting, an ABM push, or a territory review, when a single named account needs a sourced brief for the seller. Covers firmographics, positioning, buying committee, live signals, and discovery questions, with every claim tagged as sourced or inferred. Single account only; for portfolio ICP work see icp-builder."
+version: 1.2.0
+description: "Use when a first meeting, an ABM push, or a territory review needs a sourced brief for a single named account. Covers firmographics, positioning, buying committee, live signals, and discovery questions, with every claim tagged as sourced or inferred. Single account only; for portfolio ICP work see `icp-builder`."
 ---
 
 # Account research brief
 
-Produces a one-account brief an AE can use in a meeting. Every claim is tagged as sourced or inferred, so the seller knows what they can say out loud.
-
 ## Purpose
 
-Answer: why this account, why now, who to speak to, and what to ask. Anything that does not help the seller act is left out.
+Produce a one-account brief an AE can use in a meeting. Every claim is tagged as sourced or inferred, so the seller knows what they can say out loud. Answer: why this account, why now, who to speak to, and what to ask. Anything that does not help the seller act is left out.
 
 ## When to use
 
@@ -104,3 +102,4 @@ Briefs are often forwarded. Show contact names as initials, emails as domain onl
 
 - One account at a time. Portfolio ICP and scoring work go to `icp-builder` and `account-tier-scoring`.
 - Not a content piece. Outreach is limited to one draft per brief.
+- The draft message is an external send. Stage it for a named approver before any send.

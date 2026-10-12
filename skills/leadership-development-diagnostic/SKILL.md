@@ -1,7 +1,7 @@
 ---
 name: leadership-development-diagnostic
-version: 1.1.0
-description: "Use when a CEO, CRO, sales leader, board, or investor needs an honest, evidence-based read on one leader and a plan that changes behavior. Checks the system before the person, measures where the leader's time goes against the standard for their stage, combines multi-rater feedback, direct observation, and a practice test, and ends in a readiness verdict with one headline priority and a ninety-day sprint. Use for a development plan, a new manager struggling, a promotion decision, or a promote, develop, or replace call. Not for team-wide succession (see bench-strength-and-succession)."
+version: 1.2.0
+description: "Use when a CEO, CRO, sales leader, board, or investor needs an honest, evidence-based read on one leader and a plan that changes behavior. Checks the system before the person, measures where the leader's time goes against the standard for their stage, combines multi-rater feedback, direct observation, and a practice test, and ends in a readiness verdict with one headline priority and a ninety-day sprint. Use for a development plan, a new manager struggling, a promotion decision, or a promote, develop, or replace call. Not for team-wide succession (see `bench-strength-and-succession`)."
 ---
 
 # Leadership development diagnostic

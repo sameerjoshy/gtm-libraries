@@ -1,7 +1,7 @@
 ---
 name: paid-optimization-signals
-version: 1.1.0
-description: "Use when deciding which paid media metrics justify action, when to pause an ad, and how to tell a real result from noise. Separates leading signals (fast) from lagging signals (slow), sets breakeven cost formulas from deal size and conversion rate, applies a non-performer rule and a maintenance rule, and keeps an experiment log with a hypothesis, priority, and documented result for each test. Not for the measurement set-up (see paid-measurement-scorecard) or for creative fatigue (see creative-fatigue-rotation)."
+version: 1.2.0
+description: "Use when deciding which paid media metrics justify action, when to pause an ad, and how to tell a real result from noise. Separates leading signals (fast) from lagging signals (slow), sets breakeven cost formulas from deal size and conversion rate, applies a non-performer rule and a maintenance rule, and keeps an experiment log with a hypothesis, priority, and documented result for each test. Not for the measurement setup (see `paid-measurement-scorecard`) or for creative fatigue (see `creative-fatigue-rotation`)."
 ---
 
 # Paid optimization signals
@@ -48,11 +48,11 @@ The key is choosing leading signals that actually move the lagging ones. Expect 
 
 ### Breakeven costs
 
-Breakeven cost per lead = average deal size × lead-to-won conversion rate.
+Breakeven cost per lead = average deal size x lead-to-won conversion rate.
 Illustration: a $3,000 deal and a 10% lead-to-won rate give a breakeven cost per lead of $300.
 
-Breakeven cost per click = target cost per lead × landing-page conversion rate.
-Illustration: $300 × 5% gives a breakeven cost per click of $15.
+Breakeven cost per click = target cost per lead x landing-page conversion rate.
+Illustration: $300 x 5% gives a breakeven cost per click of $15.
 
 Use the company's own figures. The illustrations are not benchmarks.
 

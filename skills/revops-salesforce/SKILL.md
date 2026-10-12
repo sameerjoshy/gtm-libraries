@@ -1,7 +1,7 @@
 ---
 name: revops-salesforce
-version: 1.1.0
-description: "Use to design, audit, or fix a Salesforce org for revenue operations: the object model and record types, field governance, automation architecture (one entry point per object, Flow over legacy tools), the opportunity stage model with forecast categories and validation rules, forecasting setup, territory and assignment design, dashboards by audience, data quality with duplicate rules, integrations with a system of record for each object, and change control across sandboxes. Salesforce-specific. Not for the method of forecasting (see revops-forecasting), the CRM-neutral strategy (see revenue-metrics and revenue-operating-cadence), or migrating between CRMs (see crm-migration-consolidation)."
+version: 1.2.0
+description: "Use when designing, auditing, or fixing a Salesforce org for revenue operations: the object model and record types, field governance, automation architecture (one entry point per object, Flow over legacy tools), the opportunity stage model with forecast categories and validation rules, forecasting setup, territory and assignment design, dashboards by audience, data quality with duplicate rules, integrations with a system of record for each object, and change control across sandboxes. Salesforce-specific. Not for the method of forecasting (see `revops-forecasting`), the CRM-neutral strategy (see `revenue-metrics` and `revenue-operating-cadence`), or migrating between CRMs (see `crm-migration-consolidation`)."
 ---
 
 # Salesforce for revenue operations
@@ -22,7 +22,6 @@ This skill covers how to design and audit the org so that the pipeline, forecast
 - A team is adding a second pipeline, a territory model, or team selling with splits.
 
 Route elsewhere when:
-
 - The question is the forecast method, accuracy, or variance. Use `revops-forecasting`.
 - The question is the revenue metrics. Use `revenue-metrics`.
 - The question is the meeting rhythm. Use `revenue-operating-cadence`.
@@ -199,7 +198,11 @@ Vendor claims about AI accuracy or pipeline improvement are not evidence for thi
 - The integration register, with the system of record for each object.
 - The change process: environments, deployment, and permissions.
 
-## Anti-patterns
+## Quality bar
+
+Each object has one entry point for automation, and each field has an owner. The stage model has exit criteria a rep can check against the record. Validation is tested as a rep, not as an administrator. Dashboards carry their definitions and owners, and each number has one source. Every integration has a register entry naming the system of record. Watch for legacy automation still running, forecast categories set by feel, and integrations that write to the same field from two places.
+
+### Anti-patterns
 
 | Anti-pattern | Symptom | Fix |
 |---|---|---|
@@ -213,7 +216,3 @@ Vendor claims about AI accuracy or pipeline improvement are not evidence for thi
 | Overloaded page layouts | Fifty-plus fields on one screen | Role-based layouts |
 | Dashboards with no owner | Two dashboards show two different pipeline numbers | Named owner, definitions on the page, one source for each number |
 | Integrations that both write one field | Values flip between two systems | One system of record per field |
-
-## Quality bar
-
-Each object has one entry point for automation, and each field has an owner. The stage model has exit criteria a rep can check against the record. Validation is tested as a rep, not as an administrator. Dashboards carry their definitions and owners, and each number has one source. Every integration has a register entry naming the system of record. Watch for legacy automation still running, forecast categories set by feel, and integrations that write to the same field from two places.

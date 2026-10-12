@@ -1,7 +1,7 @@
 ---
 name: newsletter-subscriber-onboarding
-version: 1.1.0
-description: "Use to write the welcome sequence a new newsletter subscriber receives, typically five emails over the first five to seven days, that builds trust, delivers value, and then makes a soft offer. Sets the job of each email (warm welcome, the best past pieces, the common mistake the reader should avoid, the origin story, and a soft offer), the interview needed first, and the rule that the sequence must work for a reader who never opens another email. Not for the newsletter's positioning (see newsletter-positioning) or for lifecycle messaging for paying customers (see saas-lifecycle-programs)."
+version: 1.2.0
+description: "Use to write the welcome sequence a new newsletter subscriber receives, typically five emails over the first five to seven days, that builds trust, delivers value, and then makes a soft offer. Sets the job of each email (warm welcome, the best past pieces, the common mistake the reader should avoid, the origin story, and a soft offer), the interview needed first, and the rule that the sequence must work for a reader who never opens another email. Not for the newsletter's positioning (see `newsletter-positioning`) or lifecycle messaging for paying customers (see `saas-lifecycle-programs`)."
 ---
 
 # Newsletter subscriber onboarding

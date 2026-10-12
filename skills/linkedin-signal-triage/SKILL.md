@@ -1,7 +1,7 @@
 ---
 name: linkedin-signal-triage
-version: 1.1.0
-description: "Use to turn LinkedIn activity around a team member into routed, scored signals, covering profile views, inbound connection requests, direct-message conversations, post comments and reactions, and engagement with a product-focused influencer post. Resolves each actor, applies dedup, internal, relationship, and fit gates, scores active signals more strongly than passive ones, writes to the CRM only for fully resolved and fit-matched actors, and proposes a next move for a human to approve. Never sends outreach. Not for writing the outreach itself (see linkedin-outreach) or for general buying-signal tracking (see signal-detection-and-timing)."
+version: 1.2.0
+description: "Use when turning LinkedIn activity around a team member into routed, scored signals, covering profile views, inbound connection requests, direct-message conversations, post comments and reactions, and engagement with a product-focused influencer post. Resolves each actor, applies dedup, internal, relationship, and fit gates, scores active signals more strongly than passive ones, writes to the CRM only for fully resolved and fit-matched actors, and proposes a next move for a human to approve. Never sends outreach. Not for writing the outreach itself (see `linkedin-outreach`) or for general buying-signal tracking (see `signal-detection-and-timing`)."
 ---
 
 # LinkedIn signal triage

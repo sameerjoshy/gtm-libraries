@@ -1,7 +1,7 @@
 ---
 name: leaked-demand-recovery
-version: 1.1.0
-description: "Use to recover demand that was paid for and then lost between systems: a chat or form lead who never booked, a demo request with no meeting, a call with no follow-up, an inbound reply never answered or a trial that ended quietly. Builds the candidate list from capture systems, verifies each drop against two independent sources, sets the right voice from history, and drafts one recovery message per confirmed drop for human approval. Not for warm-reply cadence (see stage-aware-follow-up) or closed-lost re-engagement campaigns (see closed-lost-revival)."
+version: 1.2.0
+description: "Use when recovering demand that was paid for and then lost between systems: a chat or form lead who never booked, a demo request with no meeting, a call with no follow-up, an inbound reply never answered, or a trial that ended quietly. Builds the candidate list from capture systems, verifies each drop against two independent sources, sets the right voice from history, and drafts one recovery message per confirmed drop for human approval. Not for warm-reply cadence (see `stage-aware-follow-up`) or closed-lost re-engagement campaigns (see `closed-lost-revival`)."
 ---
 
 # Leaked demand recovery

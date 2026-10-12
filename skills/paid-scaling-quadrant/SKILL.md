@@ -1,7 +1,7 @@
 ---
 name: paid-scaling-quadrant
-version: 1.1.0
-description: "Use to decide how to scale paid spend when a campaign is working, based on whether the constraint is budget or effort. Plots four levers on two axes (audiences, geography, ads, and objectives and bids), maps each to a situation (no budget and time to test, budget but no time, and so on), and sets the order for pulling them. Not for setting the first budget (see paid-budget-by-stage) or for diagnosing a campaign that is not working (see paid-optimization-signals)."
+version: 1.2.0
+description: "Use when deciding how to scale paid spend when a campaign is working, based on whether the constraint is budget or effort. Plots four levers on two axes (audiences, geography, ads, and objectives and bids), maps each to a situation (no budget and time to test, budget but no time, and so on), and sets the order for pulling them. Not for setting the first budget (see `paid-budget-by-stage`) or for diagnosing a campaign that is not working (see `paid-optimization-signals`)."
 ---
 
 # Paid scaling quadrant

@@ -1,7 +1,7 @@
 ---
 name: paid-social-optimization-playbook
-version: 1.1.0
-description: "Use to diagnose and fix a live paid social campaign for a high-value B2B offer. Sets the decision rhythm (no judgment on less than seven days of data), three diagnosis paths (cost per action rising, click-through falling, lead quality poor), a kill, optimize or scale rule, a learning-phase rule for what resets delivery, and a swap rule that never pauses an ad without a replacement ready. Not for the first launch (see paid-social-launch-checklist) or for the account-wide audit (see paid-account-audit)."
+version: 1.2.0
+description: "Use when diagnosing and fixing a live paid social campaign for a high-value B2B offer. Sets the decision rhythm (no judgment on less than seven days of data), three diagnosis paths (cost per action rising, click-through falling, lead quality poor), a kill, optimize or scale rule, a learning-phase rule for what resets delivery, and a swap rule that never pauses an ad without a replacement ready. Not for the first launch (see `paid-social-launch-checklist`) or for the account-wide audit (see `paid-account-audit`)."
 ---
 
 # Paid social optimization playbook

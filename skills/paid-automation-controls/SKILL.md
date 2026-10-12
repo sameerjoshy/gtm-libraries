@@ -1,7 +1,7 @@
 ---
 name: paid-automation-controls
-version: 1.1.0
-description: "Use when deciding whether and how to let an ad platform automate targeting, placements, creative, and budget for a B2B lead campaign, or when a manual campaign is being compared with an automated one. Explains how automation changes the levers (creative and conversion data matter more than targeting inputs), the layers a platform may automate, what to keep constrained, when manual control still wins, and the B2B lead-quality features to switch on. Not for the campaign structure in the testing phases (see paid-social-campaign-structure)."
+version: 1.2.0
+description: "Use when deciding whether and how to let an ad platform automate targeting, placements, creative, and budget for a B2B lead campaign, or when a manual campaign is being compared with an automated one. Explains how automation changes the levers (creative and conversion data matter more than targeting inputs), the layers a platform may automate, what to keep constrained, when manual control still wins, and the B2B lead-quality features to switch on. Not for the campaign structure in the testing phases (see `paid-social-campaign-structure`)."
 ---
 
 # Paid automation controls

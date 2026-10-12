@@ -1,14 +1,14 @@
 ---
 name: deal-blocker-maneuvers
-version: 1.1.0
-description: "Use after a meaningful interaction on a complex, multi-stakeholder deal (a call, a stakeholder meeting, a procurement exchange) when the question is what to run next, not what is missing. Scores the deal's qualification from primary evidence only, reads it against the stage it is in, identifies the single worst blocker, and produces a two-cycle maneuver with a trigger, pre-mortem, verbatim opener, branches, and explicit abort criteria. Not for transactional or high-velocity deals."
+version: 1.2.0
+description: "Use when a complex, multi-stakeholder deal needs its next move after a meaningful interaction (a call, a stakeholder meeting, a procurement exchange), and the question is what to run next rather than what is missing. Scores the deal's qualification from primary evidence only, reads it against the stage it is in, identifies the single worst blocker, and produces a two-cycle maneuver with a trigger, pre-mortem, verbatim opener, branches, and explicit abort criteria. Not for transactional or high-velocity deals."
 ---
 
 # Deal blocker maneuvers
 
-Turns a complex deal's qualification into one saved artifact the rep can act on: a stage-adjusted read, one named blocker, and a two-cycle move with abort criteria. The gaps that nobody has asked about are listed as literal questions.
-
 ## Purpose
+
+Turns a complex deal's qualification into one saved artifact the rep can act on: a stage-adjusted read, one named blocker, and a two-cycle move with abort criteria. The gaps that nobody has asked about are listed as literal questions.
 
 Tell the rep what to do next week on a deal that is stuck, has gone quiet, or is about to be forecast. Stop it from being scored on optimism. Make the next move specific enough to run, and the stopping point clear enough that the rep will actually stop.
 
@@ -20,22 +20,12 @@ Tell the rep what to do next week on a deal that is stuck, has gone quiet, or is
 Route elsewhere when:
 - The question is the qualification standard for the whole deal. Use `deal-qualification-gates`.
 - The question is the agreed plan with the buyer. Use `mutual-action-plan-builder`.
-
-## Principles
-
-- **Primary evidence only.** Score what the buyer said or wrote. Never the rep's summary, confidence, or assurance that the economic buyer is engaged.
-- **Unknown is zero.** An absent dimension scores 0. A guess dressed as a score is worse than an honest gap.
-- **Read against the stage.** A raw total means nothing alone. +3 is healthy in discovery and alarming in negotiation.
-- **One blocker, one maneuver.** Cycle 1 targets the single worst blocker. Cycle 2 starts only after cycle 1 reaches an exit state.
-- **Abort before you start.** Define the failure condition before anyone is invested in the play.
-- **Unknowns clustered behind one person are the warning.** Three or more zeros behind a single stakeholder means the deal has one source, however good the total looks.
-- **Do not blend divergent stakeholders.** If the parties want different things, score them separately.
-
-### Scope
-
-Built for enterprise and complex deals: several stakeholders, a real evaluation, third parties or procurement in the path, and a cycle of months. Do not run the full framework on transactional deals, or deals that close in under about 30 days with no second stakeholder. The diagnostic overhead exceeds what those deals return. Use the team's lighter qualification standard instead.
-
-Terminology: use the client's own labels for the eight dimensions and stages if they differ from the labels here. Declare the mapping once and use only those labels in output.
+- The question is widening the buying committee itself. Use `multi-threading-coach`.
+- The question is account fit or tier. Use `icp-builder` or `account-tier-scoring`.
+- The question is the forecast category. Use `revops-forecasting`.
+- The question is a full outreach sequence. Use `outbound-cold-email`.
+- The question is discount or pricing policy. Use `deal-desk-operations`.
+- The question is the pipeline-wide inspection. Use `pipeline-review`.
 
 ## Inputs
 
@@ -47,6 +37,20 @@ Terminology: use the client's own labels for the eight dimensions and stages if 
 6. The forecast owner, the person who must be told the same day when a deal breaches an escalation condition.
 
 ## Procedure
+
+### Principles
+
+- **Primary evidence only.** Score what the buyer said or wrote. Never the rep's summary, confidence, or assurance that the economic buyer is engaged.
+- **Unknown is zero.** An absent dimension scores 0. A guess dressed as a score is worse than an honest gap.
+- **Read against the stage.** A raw total means nothing alone. +3 is healthy in discovery and alarming in negotiation.
+- **One blocker, one maneuver.** Cycle 1 targets the single worst blocker. Cycle 2 starts only after cycle 1 reaches an exit state.
+- **Abort before you start.** Define the failure condition before anyone is invested in the play.
+- **Unknowns clustered behind one person are the warning.** Three or more zeros behind a single stakeholder means the deal has one source, however good the total looks.
+- **Do not blend divergent stakeholders.** If the parties want different things, score them separately.
+
+**Scope.** Built for enterprise and complex deals: several stakeholders, a real evaluation, third parties or procurement in the path, and a cycle of months. Do not run the full framework on transactional deals, or deals that close in under about 30 days with no second stakeholder. The diagnostic overhead exceeds what those deals return. Use the team's lighter qualification standard instead.
+
+Terminology: use the client's own labels for the eight dimensions and stages if they differ from the labels here. Declare the mapping once and use only those labels in output.
 
 ### Step 1: Segmentation gate
 
@@ -235,11 +239,3 @@ One saved artifact per run:
 - MUST treat bands as provisional until calibrated. NEVER let an uncalibrated band remove a deal from the forecast.
 - MUST NOT run the full framework on a deal below the complexity floor.
 - NEVER let outside jargon reach the rep. Use the client's labels.
-
-
-- Runs after a deal interaction and produces the next move. It does not score accounts for fit: use `icp-builder` and `account-tier-scoring`.
-- Does not forecast or set forecast categories. A forecasting skill is needed for that.
-- Does not write outreach sequences. The opening line is a sentence the rep sends, not a campaign.
-- Does not set discount or pricing policy.
-- Does not run the pipeline-wide inspection: use `pipeline-review`. This skill works on one complex deal at a time.
-- Mutual action plans and multi-threading are adjacent skills. Merge them later, and link here once they exist.

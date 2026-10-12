@@ -1,7 +1,7 @@
 ---
 name: competitive-white-space
-version: 1.1.0
-description: "Use for a competitive positioning review: which messages every competitor repeats (saturated), which nobody says (white space), and what positioning the company can own. Takes competitor URLs or names. Not a monitoring report (use competitive-intelligence) and not a single-company overview (use account-research-brief)."
+version: 1.2.0
+description: "Use when you need a competitive positioning review: which messages every competitor repeats (saturated), which nobody says (white space), and what positioning the company can own. Takes competitor URLs or names. Not a monitoring report (see `competitive-intelligence`) and not a single-company overview (see `account-research-brief`)."
 ---
 
 # Competitive white space
@@ -32,7 +32,7 @@ Route elsewhere when:
 2. **Research** each: homepage, about, product, pricing, case studies, and review-site presence.
 3. **Evaluate** through a fixed lens: positioning versus execution, technology versus services, audience fit, depth of support, switching friction, and whether the competitor identifies buying signals or works blind.
 4. **Messaging saturation map.** Group the claims every competitor makes. A claim made by three or more of the set is saturated. Saturated claims are not differentiators, even when they are true.
-5. **White space.** Find claims that no competitor makes, or makes weakly, that the company can make credibly. For each, check whether the company has proof. A white-space claim without proof is a hypothesis and is labelled that way.
+5. **White space.** Find claims that no competitor makes, or makes weakly, that the company can make credibly. For each, check whether the company has proof. A white-space claim without proof is a hypothesis and is labeled that way.
 6. **Positioning direction.** Build from the white space, not from the company's current messaging.
 7. **Pain points.** Tie each unique pain to a white-space gap.
 8. **Targeting.** Rank ICP segments by where the white space is most valuable.

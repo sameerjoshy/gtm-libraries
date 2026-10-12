@@ -1,7 +1,7 @@
 ---
 name: revops-revenue-planning
-version: 1.1.0
-description: "Use to build an annual or quarterly revenue plan, reconcile a bottoms-up capacity plan with a top-down finance target, version the plan of record, decide when to reforecast, and align FP&A with RevOps. Use when the forecast and the budget disagree, when a stretch target arrives without owners, or when the team asks when to start planning. Not for in-quarter forecasting mechanics (see revops-forecasting), GTM structure (see gtm-planning-org-design), or quota and commission design (see gtm-compensation)."
+version: 1.2.0
+description: "Use when building an annual or quarterly revenue plan, reconciling a bottoms-up capacity plan with a top-down finance target, versioning the plan of record, deciding when to reforecast, or aligning FP&A with RevOps. Use when the forecast and the budget disagree, when a stretch target arrives without owners, or when the team asks when to start planning. Not for in-quarter forecasting mechanics (see `revops-forecasting`), GTM structure (see `gtm-planning-org-design`), or quota and commission design (see `gtm-compensation`)."
 ---
 
 # Revenue planning
@@ -23,7 +23,6 @@ The core rule: start with what the team can produce, then decide what gap to clo
 - A reforecast is being discussed and nobody agrees on whether the trigger has fired.
 
 Route elsewhere when:
-
 - The question is weekly deal inspection or the in-quarter forecast call. Use `revops-forecasting`.
 - The question is the territory design or headcount model. Use `gtm-planning-org-design`.
 - The question is quota or commission. Use `gtm-compensation`.
@@ -36,6 +35,10 @@ Route elsewhere when:
 - The prior plan of record and every earlier version, kept for the audit trail.
 - The reforecast triggers agreed in advance.
 
+## Procedure
+
+Work through the planning calendar, then build bottoms-up, reconcile, set versions and governance, and reforecast on triggers.
+
 ### Core principles
 
 1. **Bottoms-up first, then top-down.** Build from current capacity and known pipeline. Finance adds ambition. Reconcile the gap with named scenarios, not by spreading a number across teams.
@@ -44,10 +47,6 @@ Route elsewhere when:
 4. **Stretch is a scenario, not a directive.** A target above bottoms-up becomes named scenarios with owners, assumptions, and dependencies. A stretch without owners is a wish.
 5. **Reforecast on triggers, not on mood.** Fixed windows plus explicit triggers. Continuous re-planning erodes ownership.
 6. **FP&A and RevOps decide jointly.** RevOps owns pipeline reality and capacity. FP&A owns financial implications. A forecast that does not reconcile across both is revised before it is approved.
-
-## Procedure
-
-Follow the planning calendar, then build bottoms-up, reconcile, set versions and governance, and reforecast on triggers.
 
 ### Planning calendar
 
@@ -60,7 +59,7 @@ A default twelve-week cycle for a calendar-year business, with phase lengths to 
 - **Phase 3, top-down and reconciliation (weeks 6 to 8).** Finance shares the top-down model. Run the reconciliation meeting. Revise the plan with scenarios, and model the cost of hiring and spend.
 - **Phase 4, validation (weeks 9 to 10).** Executive alignment. Validate assumptions against current pipeline. Lock the plan of record. Run sensitivity analysis and draft the board narrative.
 - **Phase 5, approval (weeks 11 to 12).** Board materials and presentation. Budget allocation to departments.
-- **Buffer.** Implementation: enablement, quota setting, and incentive finalisation.
+- **Buffer.** Implementation: enablement, quota setting, and incentive finalization.
 
 For a fiscal year that starts in a different month, shift the whole calendar by the difference. For example, a plan that goes live in April starts roughly three months earlier than a calendar-year plan.
 
@@ -181,9 +180,9 @@ Use benchmarks to ask questions, not to set targets.
 
 ### FP&A and RevOps collaboration
 
-RevOps is the pipeline operator: deal inspection, forecast categories, stage accuracy, sandbagging detection, and the weekly forecast call. FP&A is the financial modeller: cash, working capital, burn, expense budgets, and the board narrative.
+RevOps is the pipeline operator: deal inspection, forecast categories, stage accuracy, sandbagging detection, and the weekly forecast call. FP&A is the financial modeler: cash, working capital, burn, expense budgets, and the board narrative.
 
-**Joint decisions.** The plan of record is signed by both. Reforecasts are validated by both. Stretch scenarios are assessed for feasibility by RevOps and modelled financially by FP&A. The headcount plan has RevOps owning the capacity maths and FP&A owning cost allocation.
+**Joint decisions.** The plan of record is signed by both. Reforecasts are validated by both. Stretch scenarios are assessed for feasibility by RevOps and modeled financially by FP&A. The headcount plan has RevOps owning the capacity math and FP&A owning cost allocation.
 
 **Rhythm.** A thirty-minute weekly sync flags any material change in the forecast or pipeline, so surprises do not reach the board first. A quarterly reconciliation recalibrates top-down against bottoms-up, with assumptions debated openly and resolved on data.
 
@@ -218,7 +217,7 @@ Scoring: eight or more yes is strong discipline. Five to seven means process gap
 
 **"Finance gave us a stretch we do not believe."** Make each part of the stretch a named scenario with an owner and a dependency. If the scenarios do not close the gap, escalate with the specific bets required: "The market will not support this plan unless we make these three bets. We own two. The third depends on product. What is product committing to?"
 
-**"We reforecast monthly and it is chaos."** Set the cadence: quarterly minimum, monthly only where the business is highly volatile. Define the triggers with numbers. Expose which function is destabilising the process.
+**"We reforecast monthly and it is chaos."** Set the cadence: quarterly minimum, monthly only where the business is highly volatile. Define the triggers with numbers. Expose which function is destabilizing the process.
 
 ## Output
 

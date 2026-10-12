@@ -1,7 +1,7 @@
 ---
 name: brand-advocate-finder
-version: 1.1.0
-description: "Use to find and shortlist independent outside voices who could represent, endorse, or amplify a company in its field, such as advisers, former senior operators, and recognized authors. Screens for field credibility, independence, and reach, in that order, and shows which criteria are confirmed, likely, or unverified for each candidate. Not for finding customers or sales prospects. Advocates are never treated as a sales target."
+version: 1.2.0
+description: "Use when a company needs to find and shortlist independent outside voices who could represent, endorse, or amplify the brand in its field, such as advisers, former senior operators, and recognized authors. Screens for field credibility, independence, and reach, in that order, and shows which criteria are confirmed, likely, or unverified for each candidate. Not for finding customers or sales prospects (see `prospect-list-building`) or for paid influencer campaigns (see `creator-program-strategy`). Advocates are never treated as a sales target."
 ---
 
 # Brand advocate finder
@@ -17,7 +17,6 @@ Independent voices are worth more than a company's own posts, when they are cred
 - An existing advocate list needs checking.
 
 Route elsewhere when:
-
 - The question is customers or prospects. Use `prospect-list-building`.
 - The question is paid influencer campaigns. Use `creator-program-strategy`.
 

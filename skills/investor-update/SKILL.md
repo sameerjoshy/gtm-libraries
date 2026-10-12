@@ -1,7 +1,7 @@
 ---
 name: investor-update
-version: 1.1.0
-description: "Use when a founder, CEO, or CRO is writing to investors, board members, advisers, or prospective investors between meetings: a monthly or quarterly update, a pre-board note, a note about a miss, a fundraise update, or an answer to a diligence question. Opens with a say-do ledger of last period's commitments, reports the same metrics frame each time, leads with one headline, names wins, risks, and specific asks, and passes an honesty check before it is sent. Not for the board deck itself (see board-meeting-prep)."
+version: 1.2.0
+description: "Use when a founder, CEO, or CRO is writing to investors, board members, advisers, or prospective investors between meetings: a monthly or quarterly update, a pre-board note, a note about a miss, a fundraise update, or an answer to a diligence question. Opens with a say-do ledger of last period's commitments, reports the same metrics frame each time, leads with one headline, names wins, risks, and specific asks, and passes an honesty check before it is sent. Not for the board deck itself (see `board-meeting-prep`)."
 ---
 
 # Investor update

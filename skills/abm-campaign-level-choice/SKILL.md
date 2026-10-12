@@ -1,7 +1,7 @@
 ---
 name: abm-campaign-level-choice
-version: 1.1.0
-description: "Use to choose how to run an account-based paid campaign at the right level: one named account (1:1), a named list of about ten to twenty accounts (1:few), or a segment of many accounts (1:many). Sets whether to target by company list or by contact list, splits mixed lists into homogeneous segments so large accounts do not absorb the budget, checks how many of the list's accounts are actually reached, and caps frequency per account. Not for the budget arithmetic (see abm-strategy-planner) or for the choice of audience attributes (see paid-social-audience-strategy)."
+version: 1.2.0
+description: "Use when choosing how to run an account-based paid campaign at the right level: one named account (1:1), a named list of about ten to twenty accounts (1:few), or a segment of many accounts (1:many). Sets whether to target by company list or by contact list, splits mixed lists into homogeneous segments so large accounts do not absorb the budget, checks how many of the list's accounts are actually reached, and caps frequency per account. Not for the budget arithmetic (see `abm-strategy-planner`) or for the choice of audience attributes (see `paid-social-audience-strategy`)."
 ---
 
 # ABM campaign level choice

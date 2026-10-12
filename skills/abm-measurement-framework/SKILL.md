@@ -1,16 +1,14 @@
 ---
 name: abm-measurement-framework
-version: 1.1.0
-description: "Use when measuring account-based marketing success, setting ABM metrics by account stage, choosing an attribution model, or working out ABM ROI and cost per account. Method only, no client data. Not for the ABM plan or budget (see abm-strategy-planner) or an account audit (see linkedin-ads-audit)."
+version: 1.2.0
+description: "Use when measuring account-based marketing success, setting ABM metrics by account stage, choosing an attribution model, or working out ABM ROI and cost per account. Method only, no client data. Not for the ABM plan or budget (see `abm-strategy-planner`) or an account audit (see `linkedin-ads-audit`)."
 ---
 
 # ABM measurement framework
 
-Defines how to measure an account-based program. It is a method reference, used by the reporting and planning skills.
-
 ## Purpose
 
-Measure accounts moving through buying stages, not leads moving through a funnel. A program measured with lead metrics will be judged wrongly.
+Measure accounts moving through buying stages, not leads moving through a funnel. A program measured with lead metrics will be judged wrongly. This is a method reference used by the reporting and planning skills.
 
 ## When to use
 
@@ -80,7 +78,7 @@ A measurement plan with: the baseline table, targets by stage, the attribution m
 ## Quality bar
 
 - Every target has a baseline behind it.
-- Benchmarks shown are labelled as reference points from a named source, not as standards.
+- Benchmarks shown are labeled as reference points from a named source, not as standards.
 - Revenue claims separate exposure, influence, and attribution.
 - No single program's results are used as the benchmark for another.
 

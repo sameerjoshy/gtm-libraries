@@ -1,7 +1,7 @@
 ---
 name: creator-discovery-and-vetting
-version: 1.1.0
-description: "Use to find and vet B2B creators for a campaign, starting from the buyer rather than the follower count. Sets out five ways to find creators (mining engaged audiences, topic search on problem language, second-degree analysis, competitor sponsorships, and vetted marketplaces), and a vetting order that checks audience fit, engagement quality, consistency, and authentic voice before follower count is considered. Produces a shortlist with evidence for each creator. Not for the program strategy (see creator-program-strategy) or the price (see creator-rate-band)."
+version: 1.2.0
+description: "Use when finding and vetting B2B creators for a campaign, starting from the buyer rather than the follower count. Sets out five ways to find creators (mining engaged audiences, topic search on problem language, second-degree analysis, competitor sponsorships, and vetted marketplaces), and a vetting order that checks audience fit, engagement quality, consistency, and authentic voice before follower count is considered. Produces a shortlist with evidence for each creator. Not for the program strategy (see `creator-program-strategy`) or the price (see `creator-rate-band`)."
 ---
 
 # Creator discovery and vetting
@@ -17,7 +17,6 @@ Creators are easy to find and hard to judge. Follower count is the easiest numbe
 - A creator has been suggested and the team needs to know whether to pay them.
 
 Route elsewhere when:
-
 - The question is the strategy and tier. Use `creator-program-strategy`.
 - The question is the rate. Use `creator-rate-band`.
 
@@ -27,6 +26,8 @@ Route elsewhere when:
 - The problem language the buyer uses when searching.
 - Competitor or adjacent brands that have sponsored creators.
 - Any marketplace the team already uses.
+
+## Procedure
 
 ### Start with the buyer
 
@@ -50,7 +51,7 @@ Check in this order, and stop early if a creator fails a step:
 4. **Authentic voice.** Does the creator sound like a practitioner, and do they disagree with things sometimes? A creator who only praises is harder to trust with a sponsored post.
 5. **Follower count.** Consider last, as one input among the others.
 
-## Procedure
+### Sequence
 
 1. **Define the buyer** and the problem language.
 2. **Run the five discovery methods** and collect candidates.

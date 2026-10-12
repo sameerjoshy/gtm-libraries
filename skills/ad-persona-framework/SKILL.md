@@ -1,7 +1,7 @@
 ---
 name: ad-persona-framework
-version: 1.1.0
-description: "Use to turn an ICP segment into an ad persona: the description of the buyer in the terms an ad platform can actually target, covering demographic, firmographic, intent, consumption, and psychographic fields. Use when building targeting for a campaign, when audiences are generic and waste budget, or when user personas exist but have never been mapped to what the platform can target. Not for the copy written for the persona (see ad-copy-voice-of-customer)."
+version: 1.2.0
+description: "Use when turning an ICP segment into an ad persona: the description of the buyer in the terms an ad platform can actually target, covering demographic, firmographic, intent, consumption, and psychographic fields. Use when building targeting for a campaign, when audiences are generic and waste budget, or when user personas exist but have never been mapped to what the platform can target. Not for the copy written for the persona (see `ad-copy-voice-of-customer`)."
 ---
 
 # Ad persona framework

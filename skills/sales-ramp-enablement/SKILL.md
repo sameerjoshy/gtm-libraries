@@ -1,6 +1,6 @@
 ---
 name: sales-ramp-enablement
-version: 1.1.0
+version: 1.2.0
 description: "Use when new reps take too long to produce, capacity plans assume ramp that nobody measures, or certification is a formality. Designs rep ramp as an instrumented system: the ramp cost, a milestone-gated 30-60-90 with certification evidence, ramped-equivalent capacity, ramp-adjusted quota and draw, the enablement content system, and the manager cadence that catches a drifting ramp early. Not for the methodology itself (see sales-methodology) or the wider change program (see revops-change-management)."
 ---
 
@@ -87,7 +87,7 @@ The most expensive outcome is a rep who was never going to succeed and is found 
 
 - **One home.** The playbook, the call library, and the assets live in one place, with an owner and an update schedule. If there is no playbook, write one before the second week of training. Playbook foundations are covered in a separate skill.
 - **The call library is the curriculum.** Keep the best recordings for each stage, examples of weak calls with commentary, and the new rep's own calls reviewed against the library. Reps learn the standard from real calls more readily than from slides.
-- **Certification uses real material.** The pitch being certified is the one the best calls actually use. The objections being drilled come from the most recent top loss reasons. The ideal customer profile being memorised is the one the team scores against, not an aspirational version.
+- **Certification uses real material.** The pitch being certified is the one the best calls actually use. The objections being drilled come from the most recent top loss reasons. The ideal customer profile being memorized is the one the team scores against, not an aspirational version.
 - **Measure enablement by ramp outcomes.** Completion of training is an input. Time to first qualified opportunity, by hiring cohort, is the scoreboard.
 
 Check the age of the newest example in the call library. If the best example of a discovery call is two years old, the library is out of date.
@@ -108,6 +108,14 @@ For each hiring cohort, plot the leading indicators against the previous cohorts
 
 Review the cohort curve at each quarter-end. Changes to the program should be judged against it.
 
+### Diagnostic questions
+
+1. What did the last four hires cost in ramp months multiplied by loaded cost, and who is responsible for reducing that figure?
+2. Does the capacity model count heads or ramped-equivalents? Rebuild this year's plan with the ramp curve, and check whether the pipeline target still holds.
+3. What evidence moves a rep out of ramp today: a date, or scored certifications? Has a gate ever failed anyone?
+4. What is the time to first qualified opportunity for each hiring cohort, and is it improving?
+5. Where does a new rep go to hear what a strong discovery call sounds like, and how old is the newest example there?
+
 ## Output
 
 - The ramp cost per hire for the last four hires, with its components.
@@ -117,14 +125,6 @@ Review the cohort curve at each quarter-end. Changes to the program should be ju
 - The enablement system: the playbook owner, the call library, and the certification method.
 - The manager cadence and the monthly verdict template.
 - The cohort dashboard, with the leading indicators.
-
-## Diagnostic questions
-
-1. What did the last four hires cost in ramp months multiplied by loaded cost, and who is responsible for reducing that figure?
-2. Does the capacity model count heads or ramped-equivalents? Rebuild this year's plan with the ramp curve, and check whether the pipeline target still holds.
-3. What evidence moves a rep out of ramp today: a date, or scored certifications? Has a gate ever failed anyone?
-4. What is the time to first qualified opportunity for each hiring cohort, and is it improving?
-5. Where does a new rep go to hear what a strong discovery call sounds like, and how old is the newest example there?
 
 ## Quality bar
 

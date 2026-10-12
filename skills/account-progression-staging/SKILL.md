@@ -1,7 +1,7 @@
 ---
 name: account-progression-staging
-version: 1.1.0
-description: "Use to assign each account a single progression stage (unaware, aware, engaged, qualified, sales-ready, customer) from its full signal record, using rules that give the same result for the same inputs. Requires a buying group of several distinct contacts before an account can advance, so one enthusiastic user cannot fake momentum. Records each stage entry with its evidence, and shows whether an activity moved accounts forward, not just whether it produced clicks. Not for individual lead scoring (see account-tier-scoring)."
+version: 1.2.0
+description: "Use when assigning each account a single progression stage (unaware, aware, engaged, qualified, sales-ready, customer) from its full signal record, using rules that give the same result for the same inputs. Requires a buying group of several distinct contacts before an account can advance, so one enthusiastic user cannot fake momentum. Records each stage entry with its evidence, and shows whether an activity moved accounts forward, not just whether it produced clicks. Not for individual lead scoring (see `account-tier-scoring`)."
 ---
 
 # Account progression staging
@@ -59,3 +59,10 @@ Each account holds one stage at a time, and moves forward only on evidence:
 ## Quality bar
 
 Every stage has a rule and evidence that a reviewer can check. No account advances on one contact alone. The movement report shows a comparison group and sample sizes. Watch for stages assigned from a single loud contact, movement reported as a raw rate with no comparison, and thresholds changed without a record.
+
+## Rules
+
+- MUST apply the buying-group gate before an account can advance past "engaged."
+- MUST NOT advance an account on one contact alone, however strong the signal.
+- MUST record the rule and the evidence for every stage entry.
+- MUST report movement against a comparable group with sample sizes, never as a raw rate alone.

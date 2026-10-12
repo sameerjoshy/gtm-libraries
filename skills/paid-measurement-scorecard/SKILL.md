@@ -1,7 +1,7 @@
 ---
 name: paid-measurement-scorecard
-version: 1.1.0
-description: "Use to check whether a company's paid media measurement is good enough to judge spend, before any budget is scaled or any channel is cut. Scores five areas on a one-to-three scale (blended dashboard, channel dashboard, conversion tracking, web analytics, and an agreed attribution process), and treats weak measurement as a blocker to scaling. Not for the optimization rules once measurement is sound (see paid-optimization-signals)."
+version: 1.2.0
+description: "Use when checking whether a company's paid media measurement is good enough to judge spend, before any budget is scaled or any channel is cut. Scores five areas on a one-to-three scale (blended dashboard, channel dashboard, conversion tracking, web analytics, and an agreed attribution process), and treats weak measurement as a blocker to scaling. Not for the optimization rules once measurement is sound (see `paid-optimization-signals`)."
 ---
 
 # Paid measurement scorecard

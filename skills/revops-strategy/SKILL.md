@@ -1,7 +1,7 @@
 ---
 name: revops-strategy
-version: 1.1.0
-description: "Use when designing or repairing a B2B revenue engine's pipeline architecture. Covers stage contracts, separating new and expansion motions, a three-tier KPI set that links activity to revenue, data hygiene as a discipline, the ICP-to-messaging chain, the operating model between governance, enablement, and value loops, and tech stack decisions. Also use to push back on vanity metrics and to decide whether a new tool is justified. Not for finding the binding constraint (see revops-diagnostic) or building the ICP itself (see icp-builder)."
+version: 1.2.0
+description: "Use when designing or repairing a B2B revenue engine's pipeline architecture. Covers stage contracts, separating new and expansion motions, a three-tier KPI set that links activity to revenue, data hygiene as a discipline, the ICP-to-messaging chain, the operating model between governance, enablement, and value loops, and tech stack decisions. Use when pushing back on vanity metrics or deciding whether a new tool is justified. Not for finding the binding constraint (see `revops-diagnostic`) or building the ICP itself (see `icp-builder`)."
 ---
 
 # RevOps strategy and pipeline architecture
@@ -37,7 +37,7 @@ Work through the operating principles, then the pipeline, KPI, data and operatin
 ### Operating principles
 
 1. **Measure what creates signal, not noise.** Every metric needs a causal chain to revenue: metric, then behavior change, then revenue impact. If the chain cannot be drawn, the metric is vanity.
-2. **Process before technology.** Automating a broken process makes it break faster. The sequence is define, document, operationalise, then automate.
+2. **Process before technology.** Automating a broken process makes it break faster. The sequence is define, document, operationalize, then automate.
 3. **Data quality is a discipline.** Prevent bad data at entry, detect it early, and correct it before it compounds.
 4. **Align incentives, not dashboards.** Shared dashboards without shared definitions and accountability are theater. Marketing is judged on pipeline quality, sales on customer outcomes, and customer success on expansion and retention.
 5. **Separate motions.** New and expansion business, enterprise and SMB, and inbound and outbound each have their own stages, velocities, and economics. Blending them produces averages that describe nobody.
@@ -51,7 +51,7 @@ LEFT (acquisition):   Awareness > Education > Evaluation > Decision > Close
 RIGHT (retention):    Onboarding > Adoption > Expansion > Advocacy
 ```
 
-The model matters because post-sale revenue gets the same rigour as pre-sale pipeline. Where the business earns most of its growth from existing accounts, the right side is where most of the money is. Measure it as a funnel with its own stages.
+The model matters because post-sale revenue gets the same rigor as pre-sale pipeline. Where the business earns most of its growth from existing accounts, the right side is where most of the money is. Measure it as a funnel with its own stages.
 
 ### Stage contract
 
@@ -184,7 +184,15 @@ Evaluate the stack through two lenses.
 
 ### Flywheel
 
-Revenue systems compound in one direction or decay in the other. Systematise the capabilities that repeat: lead routing, deal scoring, forecast accuracy, handoffs. Each systematised capability frees capacity, which funds the next. The diagnostic question is whether growth is linear or compounding year on year. If linear, the flywheel is broken and needs redesign.
+Revenue systems compound in one direction or decay in the other. Systematize the capabilities that repeat: lead routing, deal scoring, forecast accuracy, handoffs. Each systematized capability frees capacity, which funds the next. The diagnostic question is whether growth is linear or compounding year on year. If linear, the flywheel is broken and needs redesign.
+
+### Diagnostic questions
+
+1. If pipeline doubled tomorrow, would revenue double? If not, where is the constraint?
+2. For each dashboard metric, can someone draw the chain to revenue in two sentences?
+3. How long do deals sit in each stage, and which stage holds the most time?
+4. Can every seller state the ideal customer and the reason to buy in one sentence?
+5. What share of the stack's capability is in use, and what is the cost of the tools reps do not use?
 
 ## Output
 
@@ -194,14 +202,6 @@ Revenue systems compound in one direction or decay in the other. Systematise the
 - The data hygiene rules: prevention, detection, correction.
 - The upstream chain status: is the ICP grounded, and is messaging consistent?
 - The stack decision, with the operational and activation lens applied.
-
-## Diagnostic questions
-
-1. If pipeline doubled tomorrow, would revenue double? If not, where is the constraint?
-2. For each dashboard metric, can someone draw the chain to revenue in two sentences?
-3. How long do deals sit in each stage, and which stage holds the most time?
-4. Can every seller state the ideal customer and the reason to buy in one sentence?
-5. What share of the stack's capability is in use, and what is the cost of the tools reps do not use?
 
 ## Quality bar
 

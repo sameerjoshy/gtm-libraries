@@ -1,7 +1,7 @@
 ---
 name: paid-audience-segment-diagnostic
-version: 1.1.0
-description: "Use when a team has demographic performance data for paid ads (results broken down by industry, country, company size, job title, function, and seniority) and needs to know who is engaging, which segments convert efficiently at an acceptable cost, and what to change. Requires a minimum volume per segment before any segment is judged, separates engagement from conversion, and ends with a short list of segment changes. Not for reach and frequency (see paid-audience-reach-diagnostic) or for choosing the offer (see paid-offer-strategy)."
+version: 1.2.0
+description: "Use when a team has demographic performance data for paid ads (results broken down by industry, country, company size, job title, function, and seniority) and needs to know who is engaging, which segments convert efficiently at an acceptable cost, and what to change. Requires a minimum volume per segment before any segment is judged, separates engagement from conversion, and ends with a short list of segment changes. Not for reach and frequency (see `paid-audience-reach-diagnostic`) or for choosing the offer (see `paid-offer-strategy`)."
 ---
 
 # Paid audience segment diagnostic

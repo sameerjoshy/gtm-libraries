@@ -1,7 +1,7 @@
 ---
 name: renewal-save-motion
-version: 1.1.0
-description: "Use when a customer renewal is at risk, or when a renewal falls inside 120 days. Runs a renewal clock from T-120 with a CLEAN, WATCH, or AT-RISK verdict at each checkpoint, names the failure mode before acting (value gap, adoption gap, champion loss, sponsor shift, or competitive displacement), applies commercial levers in a fixed order with the discount last, decides save or release explicitly, and reports save rate by failure mode. Starts from a risk flag raised by upstream detection. Not for expansion on healthy accounts, or for the full customer success organization design."
+version: 1.2.0
+description: "Use when a customer renewal is at risk, or when a renewal falls inside 120 days. Runs a renewal clock from T-120 with a CLEAN, WATCH, or AT-RISK verdict at each checkpoint, names the failure mode before acting (value gap, adoption gap, champion loss, sponsor shift, or competitive displacement), applies commercial levers in a fixed order with the discount last, decides save or release explicitly, and reports save rate by failure mode. Starts from a risk flag raised by upstream detection. Not for expansion on healthy accounts (see `expansion-revenue-architect`), or for the full customer success organization design (see `cs-operations`)."
 ---
 
 # Renewal save motion
@@ -93,6 +93,14 @@ Every loss, saved or released, gets an autopsy in the same loss-pattern library 
 - **Concession cost per saved dollar,** so the team can see whether service injection beats discounting on evidence.
 - **Gross revenue retention each quarter,** against the reference points in the source: a median near 90% and top-quartile above 95% for private SaaS, from industry surveys. Segment it the way the board does.
 
+### Diagnostic questions
+
+1. List the renewals due in the next 120 days. Who owns each one, by name, today?
+2. For your last five churns, on what date was the risk first visible in system data, and on what date did a person first act? The gap is the motion's real latency.
+3. In the last year, what share of saves led with a discount, and what did those accounts do at the following renewal?
+4. When a champion leaves a customer account, what happens automatically today? Is anything triggered?
+5. Can the team produce a value recap in the customer's own numbers for the top ten accounts within one day? If not, the value-gap play has nothing to work with.
+
 ## Output
 
 - The renewal calendar for the next 120 days, with each renewal's owner and verdict.
@@ -104,11 +112,3 @@ Every loss, saved or released, gets an autopsy in the same loss-pattern library 
 ## Quality bar
 
 Every renewal within 120 days has a named owner and a written verdict. There are no commercial surprises inside 60 days. Each save names its failure mode before a play is chosen, and the play matches the mode. The discount is the last lever, and each one is exchanged for something. Save rate is reported by failure mode. Watch for generic save plays, discounts offered first, renewals discovered in the last month, and a blended save rate that hides a weak segment.
-
-## Diagnostic questions
-
-1. List the renewals due in the next 120 days. Who owns each one, by name, today?
-2. For your last five churns, on what date was the risk first visible in system data, and on what date did a person first act? The gap is the motion's real latency.
-3. In the last year, what share of saves led with a discount, and what did those accounts do at the following renewal?
-4. When a champion leaves a customer account, what happens automatically today? Is anything triggered?
-5. Can the team produce a value recap in the customer's own numbers for the top ten accounts within one day? If not, the value-gap play has nothing to work with.

@@ -1,7 +1,7 @@
 ---
 name: move-gtm-diagnostic
-version: 1.1.0
-description: "Use to audit a go-to-market foundation before scaling or automating it. Works through four questions (Market, Operations, Velocity, Expansion), places the company in one of three fit stages (problem-market, product-market, platform-market), and returns a prioritized list of what to fix first. Use when a company wants a GTM health check, when growth has stalled, or before standing up a new outbound, inbound, or deal engine. This is a diagnosis, not a build. Not for a single channel plan (see demand-lifecycle-model)."
+version: 1.2.0
+description: "Use to audit a go-to-market foundation before scaling or automating it. Works through four questions (Market, Operations, Velocity, Expansion), places the company in one of three fit stages (problem-market, product-market, platform-market), and returns a prioritized list of what to fix first. Use when a company wants a GTM health check, when growth has stalled, or before standing up a new outbound, inbound, or deal engine. This is a diagnosis, not a build. Not for a single channel plan (see `demand-lifecycle-model`)."
 ---
 
 # MOVE GTM diagnostic

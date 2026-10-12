@@ -1,6 +1,6 @@
 ---
 name: post-launch-window
-version: 1.1.0
+version: 1.2.0
 description: "Use when a post is about to go live or has just gone live, and the question is what happens after publish. Covers a sponsored creator post, a founder announcement, a launch thread, a milestone update, or a customer story. Sets the pre-publish requirements (an interaction trigger, paid usage rights, attribution, a destination), a timed sequence from thirty minutes before publish to several days after, a numeric rule for when to put paid spend behind a post and when to stop, and a debrief. Not for choosing creators (see creator-discovery-and-vetting) or for drafting the sponsored copy (see creator-sponsored-post-drafting)."
 ---
 

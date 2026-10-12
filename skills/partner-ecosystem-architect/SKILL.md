@@ -1,7 +1,7 @@
 ---
 name: partner-ecosystem-architect
-version: 1.1.0
-description: "Use to decide whether and how a B2B SaaS company should build a partner ecosystem: what problem partners would solve in the revenue system, which partner types fit the motion and stage, whether the direct motion is ready to be multiplied, how ecosystem-led growth plays fit alongside outbound, inbound, and customer success, and what a 90-day partner plan looks like. Use when someone says partners should be the next motion, when a partner program is not producing, or when account mapping is being considered. Not for the operational mechanics (see partner-channel-operations)."
+version: 1.2.0
+description: "Use when deciding whether and how a B2B SaaS company should build a partner ecosystem: what problem partners would solve in the revenue system, which partner types fit the motion and stage, whether the direct motion is ready to be multiplied, how ecosystem-led growth plays fit alongside outbound, inbound, and customer success, and what a 90-day partner plan looks like. Triggers when someone says partners should be the next motion, when a partner program is not producing, or when account mapping is being considered. Not for the operational mechanics (see `partner-channel-operations`)."
 ---
 
 # Partner ecosystem architect
@@ -158,6 +158,14 @@ Start with the smallest motion that answers the question. A company with three p
 
 Use `partner-channel-operations` for the operating detail once the strategy is agreed.
 
+### Diagnostic questions
+
+1. Which problem would a partner solve that direct sales cannot, and how would you know it had been solved?
+2. Is the direct motion's forecast accurate enough to be multiplied?
+3. Which partners already refer deals informally, and what did those referrals produce?
+4. Who owns the program, and how many hours a week do they have for it?
+5. What partner-influenced revenue would you need to see in twelve months to call the program a success?
+
 ## Output
 
 - The diagnostic answers, with the recommendation: build, defer, or fix the direct motion first.
@@ -167,14 +175,6 @@ Use `partner-channel-operations` for the operating detail once the strategy is a
 - The account mapping process and cadence.
 - The attribution and economics rules, for the client to set.
 - The signal rules and the 90-day plan with targets.
-
-## Diagnostic questions
-
-1. Which problem would a partner solve that direct sales cannot, and how would you know it had been solved?
-2. Is the direct motion's forecast accurate enough to be multiplied?
-3. Which partners already refer deals informally, and what did those referrals produce?
-4. Who owns the program, and how many hours a week do they have for it?
-5. What partner-influenced revenue would you need to see in twelve months to call the program a success?
 
 ## Quality bar
 

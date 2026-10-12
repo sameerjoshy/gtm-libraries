@@ -1,7 +1,7 @@
 ---
 name: crm-migration-consolidation
-version: 1.1.0
-description: "Use when two or more CRM instances must be merged, when a company moves to a new CRM, or when a post-merger team has to decide whether to consolidate or run two systems side by side. Covers the consolidate-or-coexist decision, system of record per object, data harmonisation, deduplication and identity resolution, historical data, the ID crosswalk that makes rollback possible, rebuilding automations, re-pointing integrations, cutover and rollback, KPI re-baselining, GDPR carry-over, and the ARR tie-out to finance. Platform-neutral. For Salesforce configuration see revops-salesforce; for the wider post-merger plan see revops-change-management."
+version: 1.2.0
+description: "Use when two or more CRM instances must be merged, when a company moves to a new CRM, or when a post-merger team has to decide whether to consolidate or run two systems side by side. Covers the consolidate-or-coexist decision, system of record per object, data harmonization, deduplication and identity resolution, historical data, the ID crosswalk that makes rollback possible, rebuilding automations, re-pointing integrations, cutover and rollback, KPI re-baselining, GDPR carry-over, and the ARR tie-out to finance. Platform-neutral. For Salesforce configuration see `revops-salesforce`; for the wider post-merger plan see `revops-change-management`."
 ---
 
 # CRM migration and consolidation
@@ -74,7 +74,7 @@ Before any data moves, decide which system is the source of truth for each objec
 
 Write each decision down with its reason, and get it signed off by the revenue leader and finance.
 
-### Step 3: Harmonise the data models
+### Step 3: Harmonize the data models
 
 This is where most of the effort sits. Before migrating anything, agree the target model and map both sources into it.
 
@@ -193,7 +193,7 @@ Before cutover:
 2. Agree in writing how each metric will shift, and why. Example: "Contact count will fall because duplicates are removed. ARR should be unchanged, since both systems tracked the same deals."
 3. Share the impact summary with sales leadership, finance, and the board before cutover.
 
-After cutover, show the old and new dashboards side by side for a set period, with a note that the new numbers reflect deduplicated data. Freeze the metric definitions after the stabilisation period, and archive the old dashboards.
+After cutover, show the old and new dashboards side by side for a set period, with a note that the new numbers reflect deduplicated data. Freeze the metric definitions after the stabilization period, and archive the old dashboards.
 
 ### Step 12: Carry the GDPR obligations across
 
@@ -261,7 +261,7 @@ Planning range for the whole sequence: a few months for a small instance, and lo
 
 - The consolidate-or-coexist decision, with its reason and sign-off.
 - The system of record for each object, signed by the revenue leader and finance.
-- The harmonised data model: stage mapping, field mapping, formats, currency rule, and definitions.
+- The harmonized data model: stage mapping, field mapping, formats, currency rule, and definitions.
 - The deduplication plan: match keys, fuzzy-match thresholds tested on a sample, survivorship rules, and the hierarchy reconciliation.
 - The history strategy for each history type.
 - The ID crosswalk and the association test results.
@@ -273,7 +273,11 @@ Planning range for the whole sequence: a few months for a small instance, and lo
 - The ARR tie-out, before and after cutover.
 - The adoption plan and the post-cutover measures.
 
-## Anti-patterns
+## Quality bar
+
+Each object has one owner and one system. The migration decision is written down, with its reason. Every record can be traced from old ID to new ID. Automations are rebuilt and tested, not exported. Integrations have a register entry and a cutover step. ARR ties to finance before and after cutover, and any metric shift is explained in advance. Watch for consolidation with no decision, two systems writing the same object, unreconciled ARR, and adoption assumed rather than measured.
+
+### Anti-patterns
 
 | Anti-pattern | Symptom | Fix |
 |---|---|---|
@@ -287,6 +291,10 @@ Planning range for the whole sequence: a few months for a small instance, and lo
 | ARR not reconciled | A board-level number changes after cutover | Tie out to finance before and after |
 | Unprepared users | Reps keep the old system open and enter data in both | Training, a pilot, and a read-only source with a clear end date |
 
-## Quality bar
+## Rules
 
-Each object has one owner and one system. The migration decision is written down, with its reason. Every record can be traced from old ID to new ID. Automations are rebuilt and tested, not exported. Integrations have a register entry and a cutover step. ARR ties to finance before and after cutover, and any metric shift is explained in advance. Watch for consolidation with no decision, two systems writing the same object, unreconciled ARR, and adoption assumed rather than measured.
+- Nothing is written to the target system without a named approver. Stage the migration and the cutover; a human releases them.
+- Carry every legal obligation across, and confirm the GDPR points with counsel. This skill is not legal advice.
+- Never migrate personal data without a recorded lawful basis and, where it is missing, a flag for legal review.
+
+Before cutover, ask: who is the named approver releasing the migration?

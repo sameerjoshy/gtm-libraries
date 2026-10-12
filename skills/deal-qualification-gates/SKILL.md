@@ -1,7 +1,7 @@
 ---
 name: deal-qualification-gates
-version: 1.1.0
-description: "Use when a pipeline is full of deals that advance on optimism rather than buyer evidence. Scores the evidence quality behind each qualification dimension from 1 to 5, sets minimum totals and per-dimension floors for each stage, and enforces a qualify, downgrade, or kill verdict with a name and a date. Covers deal truth, not account fit (see icp-builder) and not deal speed (see deal-velocity). Its 1 to 5 scale is separate from the in-flight scoring in deal-blocker-maneuvers. Use one scale per team."
+version: 1.2.0
+description: "Use when a pipeline is full of deals that advance on optimism rather than buyer evidence. Scores the evidence quality behind each qualification dimension from 1 to 5, sets minimum totals and per-dimension floors for each stage, and enforces a qualify, downgrade, or kill verdict with a name and a date. Covers deal truth, not account fit (see `icp-builder`) and not deal speed (see `deal-velocity`). Its 1 to 5 scale is separate from the in-flight scoring in `deal-blocker-maneuvers`. Use one scale per team."
 ---
 
 # Deal qualification gates
@@ -25,8 +25,6 @@ Route elsewhere when:
 - The question is whether the company is the right fit at all. Use `icp-builder`.
 - The question is why a real deal is slow. Use `deal-velocity`.
 - A live, complex deal needs an in-flight read and a next move. Use `deal-blocker-maneuvers`.
-
-Scale rule: this skill's 1 to 5 scores and the -1 to +1 scores in `deal-blocker-maneuvers` must not be mixed in one forecast or one dashboard. Each is kept as its own labelled field. The team's deal health score is the 0 to 100 scale in `deal-velocity` (see DECISIONS.md).
 
 ## Inputs
 
@@ -101,7 +99,7 @@ Any floor in this skill is a starting value. Calibrate it per client using their
 - **Week 2:** install the gates for new stage transitions only. Existing deals are grandfathered, but flagged on the exception report.
 - **Week 4:** run the first qualify-or-kill review over the flagged backlog. Expect to remove a meaningful share of active pipeline. A 15 to 30% range is a starting point to check against the client's own data, not a target.
 
-## Diagnostic questions
+### Diagnostic questions
 
 Ask these before rollout, to see where the pipeline stands.
 
@@ -121,3 +119,12 @@ Ask these before rollout, to see where the pipeline stands.
 ## Quality bar
 
 Evidence scores rise with stage. Every score of 3 or higher points to something in the record: a quote, a transcript, or an email. No deal advances while a dimension is under its floor. Deals move backward when the evidence says so, and a downgrade is not treated as a failure. A pipeline that only ever moves forward is the sign that the gates are theater.
+
+## Rules
+
+- Never score a dimension from the rep's confidence. Every score of 3 or higher must point to evidence in the record.
+- Nothing is written to the deal record without human approval. Scores and verdicts are recommendations until an owner releases them.
+- Every verdict carries a named owner and a date. "Leave it and hope" is not a verdict.
+- Keep this skill's 1 to 5 scores separate from the -1 to +1 scores in `deal-blocker-maneuvers` and the 0 to 100 health score in `deal-velocity`. Each is its own labeled field; never mix or average them in one forecast or one dashboard.
+
+Before scores or stage changes reach the CRM, ask: who is the named approver releasing this?

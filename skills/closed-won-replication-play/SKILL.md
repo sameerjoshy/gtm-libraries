@@ -1,7 +1,7 @@
 ---
 name: closed-won-replication-play
-version: 1.1.0
-description: "Use the day a deal closes won to turn the win into pipeline while the story is fresh. Extracts the win profile, finds a fixed number of lookalike companies that are not already in the CRM, identifies the same persona as the winning champion at each, and drafts one outreach message per company from the deal owner, using an anonymised win reference. Nothing is sent without human approval. Not for the general ICP or list build (see prospect-list-building)."
+version: 1.2.0
+description: "Use when a deal closes won to turn the win into pipeline while the story is fresh. Extracts the win profile, finds a fixed number of lookalike companies that are not already in the CRM, identifies the same persona as the winning champion at each, and drafts one outreach message per company from the deal owner, using an anonymized win reference. Nothing is sent without human approval. Not for the general ICP or list build (see `prospect-list-building`)."
 ---
 
 # Closed-won replication play
@@ -28,7 +28,7 @@ Route elsewhere when:
 - The deal owner, who is the sender.
 - The existing customer list and open pipeline, to exclude.
 
-Fields that are missing are inferred where a reasonable inference exists, and the inference is labelled. Missing fields do not block the run.
+Fields that are missing are inferred where a reasonable inference exists, and the inference is labeled. Missing fields do not block the run.
 
 ## Procedure
 
@@ -40,7 +40,7 @@ Fields that are missing are inferred where a reasonable inference exists, and th
 6. **Note one specific detail** about each company or contact to make the message relevant.
 7. **Draft one message per company:**
    - Sender: the deal owner, in their voice.
-   - Win reference always anonymised: "we recently helped a company in [profile] do [outcome]". Never name the customer.
+   - Win reference always anonymized: "we recently helped a company in [profile] do [outcome]". Never name the customer.
    - Peer tone, not a pitch. One specific detail about the prospect.
    - Soft call to action: an offer to share more, not a request for a meeting.
    - Three to five sentences on LinkedIn. Slightly longer by email, but still short.
@@ -56,4 +56,4 @@ Fields that are missing are inferred where a reasonable inference exists, and th
 
 ## Quality bar
 
-The win reference is anonymised. Each lookalike is net-new and checked for fit. The persona matches the champion's role. No message reveals how the prospect was found. Nothing sends without approval. Watch for named customers in drafts, lookalikes that are existing accounts, and generic personas.
+The win reference is anonymized. Each lookalike is net-new and checked for fit. The persona matches the champion's role. No message reveals how the prospect was found. Nothing sends without approval. Watch for named customers in drafts, lookalikes that are existing accounts, and generic personas.
