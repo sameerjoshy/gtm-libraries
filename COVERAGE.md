@@ -6,7 +6,7 @@ Tracks every source skill from the two downloaded libraries, so that nothing is 
 
 - Source skills in the first library (`gtm-skills`): 404 SKILL.md files across the author folders below.
 - Source agent roles in the second library (`openclaw-skills`): 5. All five are merged into `agents/`.
-- Merged skills in `skills/`: 31.
+- Merged skills in `skills/`: 37.
 
 ## Status meanings
 
