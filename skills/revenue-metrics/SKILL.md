@@ -173,7 +173,7 @@ When call recording is in use, six measures give coaching signals:
 - **Customer story.** The buyer tells a personal or organisational story, at least once in the call.
 - **Interactivity.** Turns in the conversation at a steady pace, roughly every 30 to 60 seconds.
 - **Patience.** Time the rep waits after a question before answering. At least about three seconds.
-- **Discovery questions.** Eleven to fourteen per call is cited in the source. Below about eight suggests discovery is thin.
+- **Discovery questions.** Eleven to fourteen per call is a default to calibrate. Below about eight suggests discovery is thin.
 
 These are coaching signals, not scores. When AI agents conduct calls, separate their measures from the rep's, because the same measures mean different things for scripted calls.
 
