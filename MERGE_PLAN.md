@@ -142,3 +142,10 @@ Skills listed as merge next in sections 2 and 3 are being written in batches. Ch
   - yahav-fuchs advocate-voice-tuning: NOT a fold into brand-advocate-finder, because it is a voice-training task rather than advocate finding. Written as the new skill voice-calibration-from-samples.
 - Stale references fixed in brand-advocate-finder, call-followup-sweep, demand-lifecycle-model, marketing-ecosystem-diagnostic, gtm-planning-org-design, recent-discourse-sweep and lead-routing-design.
 - Still open: prospect-list-building states list hygiene is not merged (no skill exists for it). Remaining unclassified author sets (25 authors not cited in COVERAGE.md) are not yet reviewed.
+
+## Progress note: unclassified author sets (169 merged)
+
+- Written as new skills: warehouse-activation-sync (austin-hay reverse-etl-activation; gtm-data-architecture covers only the principle), signal-campaign-build (bojan-berisavljevic signal-to-campaign; signal-outbound-plays covers play choice only), partner-portfolio-analysis (brad-smith vc-portfolio-research).
+- Folded into email-deliverability: lucas-godtfredsen inbox-warm-up-ramp (per-mailbox ramp, pause rules, primary-domain rule). Source's warm-up network claim is not treated as evidence.
+- The plan's earlier "still pending" lines for the event, community and content sets are stale: those skills are written. Stale wording is superseded by this note and by the coverage ledger.
+- Still open: the Meta and Google Ads family sets, the remaining AI visibility sources (huxley-peckham, elad-hefetz), thebigasif patent-backed SEO quick wins, danni-chen launch and founder posts, pete-mientkiewicz lead magnet post, manny-medina pricing and credit sets, nylan-richard candidate sourcing and lookalike ranking, and amos-bar-joseph kill-the-wall-of-text.

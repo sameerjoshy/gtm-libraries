@@ -6,6 +6,7 @@ description: Use when emails land in spam, open rates drop, a domain or IP is bl
 sources:
   - "Email deliverability audit and rescue (MIT, Joshua Waldman): proactive audit versus active diagnosis, four pillars (infrastructure, data, content, traffic shape) in order, bounce thresholds and the distinction between soft and hard bounces, per-provider throttling, a week-over-week volume cap, classification of blocklisting, content filtering, broken authentication, and new-sender cases, monitoring thresholds"
   - "Cold email warm-up and rotation (MIT, Imad Badreddine): inbox warm-up ramp, multi-sender rotation, and warm-up for new mailboxes, restated as a single warm-up procedure"
+  - "Warm-up ramp per mailbox (MIT, Lucas Godtfredsen): the ramp set by each mailbox's own age rather than the campaign's, volume spread across more mailboxes rather than pushed through one, sending in the recipient's working hours, a plain first touch, the three numbers that pause a ramp, keeping cold volume off the primary domain, and showing the current cap and its reason to the user. The source's warming-network scoring is not treated as evidence of readiness"
   - "Removed: the named provider-specific tactics in the source's reference files, and the shared-pool and compliance-rail references, which are not used. Provider behaviour is described only as a reason to monitor per provider"
   - "Adapted for GTM-360: the 0.5 percent hard-bounce and 2 percent soft-bounce thresholds, the 0.3 percent complaint threshold, the 50 percent week-over-week volume cap, and the warm-up length are author defaults. Verify all of them against the sender's own data"
 ---
@@ -50,7 +51,12 @@ Route elsewhere when:
    - Content filtered at one provider: pause that provider for 24 to 48 hours, fix, and retest on an engaged segment.
    - Broken authentication: fix the records and wait for propagation before resuming.
    - New or damaged sender: warm up over about two to four weeks, starting with the most engaged recipients and increasing volume slowly.
-5. **Set the monitoring thresholds** that pause sending: bounce spikes, a complaint rate above about 0.3 percent, or one provider falling while the others hold.
+     - Set a daily cap for each mailbox that rises with that mailbox's own age, not the campaign's. As a default: a handful of sends in week one, roughly doubling each week, full volume at about four weeks. A mailbox added to a mature team starts at week one.
+     - Add volume through more mailboxes. Never push one mailbox past its cap.
+     - Keep cold volume off the domain the business depends on. Use a separate sending domain for it.
+     - Send within the recipient's working hours and on working days, and keep the first touch plain: no links, images, tracking or attachments until a human has replied.
+     - A warm-up network's score is not evidence that a real list can be mailed. Judge readiness on real replies and on the bounce and complaint figures.
+5. **Set the monitoring thresholds** that pause sending: bounce spikes, a complaint rate above about 0.3 percent, or one provider falling while the others hold. Show the current daily cap and the reason for it wherever the team sees sending. Do not raise a cap without stating what a cold mailbox at full volume risks.
 
 ## Output
 
