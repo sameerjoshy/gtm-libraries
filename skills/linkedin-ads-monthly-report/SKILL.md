@@ -24,7 +24,7 @@ Summarise what happened last month, compare it with the month before, say whethe
 
 The window is the last full calendar month, not the trailing 30 days. Confirm the reporting month with the user, since they may want a past month.
 
-## Steps
+## Procedure
 
 1. **Set dates.** Compute both months from today's date. State them on the report.
 2. **Pull totals** for both months: spend, impressions, clicks, CPC, CPM, CTR, pipeline, deals.
@@ -53,7 +53,7 @@ A self-contained HTML report, titled "[Company] LinkedIn Ads Report, [Month Year
 
 Chat summary: two or three sentences on the month.
 
-## Quality checks
+## Quality bar
 
 - The window is the full calendar month. Both months' boundaries are correct.
 - Charts render in the PDF. Use inline SVG, not a live charting library.

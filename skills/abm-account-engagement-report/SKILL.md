@@ -27,7 +27,7 @@ Answer three questions for a VP Marketing or CRO audience:
 - **Client context (ask first).** Ask: "Which client is this for? A company name or URL helps me set the ICP." If context exists in `context/client-*.md`, use it. If the user declines, run without ICP framing and say so on the dashboard.
 - **Optional:** search-term reports, CRM deal exports.
 
-## Steps
+## Procedure
 
 1. **Validate.** Require a Company Name column. Blank numeric cells become 0. Strip currency symbols and whitespace. Read the file with BOM handling. Map "N/A" industry or size to "Unknown". Log every row that fails and its reason.
 2. **Engagement flag.** Ignore the export's Engagement Level column when it is uniform (often every row says "Low"). Use actual behaviour instead: clicks at or above 1 counts as Engaged. Note this on the dashboard.
@@ -58,7 +58,7 @@ One self-contained HTML file named `[Client]_ABM_Account_Engagement_Dashboard.ht
 
 Chat summary, three to four sentences: funnel progression (accounts reached, in pipeline, at opportunity), the multi-channel finding, the most useful segment finding with its sample size, and one account-level insight.
 
-## Quality checks before delivery
+## Quality bar
 
 - Funnel stages are non-increasing.
 - Every unmatched pipeline company is listed.

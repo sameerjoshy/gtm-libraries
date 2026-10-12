@@ -33,7 +33,7 @@ Ask in small batches. Offer a default for each. Never block on a missing number.
 
 **Data order:** a live connector first, then the user's real figures, then the defaults above. Any figure that comes from a default must be labelled as a benchmark on the output.
 
-## Steps
+## Procedure
 
 1. **Interview** as above.
 2. **Research** the website: product, use cases, customers. Draft the ICP and jobs-to-be-done, and show them to the user to confirm.
@@ -47,7 +47,7 @@ Ask in small batches. Offer a default for each. Never block on a missing number.
 
 A self-contained HTML plan titled "[Company] LinkedIn ABM Strategy", with inline CSS and no external scripts, plus a PDF export of the same content. One campaign block per audience.
 
-## Quality checks
+## Quality bar
 
 - Revenue and ACV are on the same basis (both monthly, or both annual).
 - Each figure from a default is labelled as a benchmark.

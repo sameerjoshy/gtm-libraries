@@ -39,7 +39,7 @@ Keep reps' time on accounts that are both able to buy and showing a reason to ac
 6. Prior history: closed-lost deals, trials, prior meetings. Checked against the CRM, not from memory.
 7. The account's prior tier, score, and dated snapshot, if any.
 
-## Steps
+## Procedure
 
 ### Step 1: Gate check (runs before any scoring)
 
@@ -193,7 +193,7 @@ For each account in the run:
 
 For a batch: a summary count by tier and gate outcome, then the Gold accounts, then the open Unknowns.
 
-## Quality checks
+## Quality bar
 
 - Every tiered account passed the ICP gate and size gate, with the evidence recorded.
 - Size counts were verified where the enrichment count was in the risk band.

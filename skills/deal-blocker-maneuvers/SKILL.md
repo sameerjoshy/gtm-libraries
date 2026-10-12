@@ -41,7 +41,7 @@ Terminology: use the client's own labels for the eight dimensions and stages if 
 5. The last two interactions, and any stated next steps.
 6. The forecast owner, the person who must be told the same day when a deal breaches an escalation condition.
 
-## Steps
+## Procedure
 
 ### Step 1: Segmentation gate
 
@@ -202,7 +202,7 @@ One saved artifact per run:
 6. **Missing-information report:** each zero as a literal question addressed to a named person, with its lane.
 7. **Open questions:** anything the segmentation or provenance test could not settle.
 
-## Quality checks
+## Quality bar
 
 - Every score traces to a quote or a named source in the primary context.
 - No dimension was scored from the rep's summary, confidence, or assurance.

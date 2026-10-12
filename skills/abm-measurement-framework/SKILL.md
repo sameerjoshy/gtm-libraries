@@ -34,7 +34,7 @@ Measure accounts moving through buying stages, not leads moving through a funnel
 
 Stage thresholds such as 50 impressions and 5 clicks are defaults from the source. Set them per client and record the reason.
 
-## Steps
+## Procedure
 
 1. **Baseline first.** Before launch, record win rate, deal size, sales cycle, cost per opportunity, and pipeline per dollar from the CRM. Without a baseline, no uplift can be claimed.
 2. **Targets.** Set a target against each baseline measure, with a timeline.
@@ -71,7 +71,7 @@ Run two models side by side where possible, and report the difference.
 
 A measurement plan with: the baseline table, targets by stage, the attribution model chosen and why, the formulas used, the reporting cadence, and the maturity assessment.
 
-## Quality checks
+## Quality bar
 
 - Every target has a baseline behind it.
 - Benchmarks shown are labelled as reference points from a named source, not as standards.

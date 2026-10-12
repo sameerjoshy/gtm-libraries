@@ -43,7 +43,7 @@ Optional: customer interview notes, win/loss reasons, call transcripts, competit
 
 If fewer than ten closed deals are available, do not refine. Below that the signal is noise. Run discovery from the team interview and the named deals instead, and label the output as a hypothesis.
 
-## Steps
+## Procedure
 
 ### Step 1: Check the evidence and fill rates
 
@@ -140,7 +140,7 @@ Add a segment:
 
 Write the approved ICP to `context/icp.md` in the client's ICP format.
 
-## Quality checks
+## Quality bar
 
 - Every criterion is in exactly one category: fit, readiness, discovery, or disqualifier.
 - Every gate names its data source. No gate relies on a subjective rating.

@@ -72,7 +72,7 @@ Battlecard rules:
 - Periodic: a dated briefing file, with the memory updated.
 - Deal: a brief with a TL;DR, company snapshot, leadership and hiring, news, intent (if available), displacement angles (if context supplied), and key takeaways.
 
-## Quality checks
+## Quality bar
 
 - Every reported signal has an event date and a source.
 - A P1 signal from derivative coverage only is not reported.

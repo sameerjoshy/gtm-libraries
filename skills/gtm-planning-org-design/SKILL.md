@@ -41,7 +41,7 @@ Give leadership a motion decision, a territory and capacity model, a headcount a
 
 If historical data is missing, say so and mark every affected assumption as provisional.
 
-## Steps
+## Procedure
 
 ### Step 1: Choose the motion
 
@@ -221,7 +221,7 @@ Never run two new motions at the same time. Add the adjacent motion only when th
 9. **Scenarios and sensitivity:** base case, each investment, and the retention downside.
 10. **Open assumptions:** each provisional figure, its source, and who will confirm it.
 
-## Quality checks
+## Quality bar
 
 - The motion matches the deal size, buyer, and complexity.
 - The baseline is locked and sourced.

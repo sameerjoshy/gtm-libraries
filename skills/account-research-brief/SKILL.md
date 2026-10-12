@@ -26,7 +26,7 @@ Answer: why this account, why now, who to speak to, and what to ask. Anything th
 - **Target titles and record count.** Confirm both before pulling any people data.
 - **Optional:** existing CRM history, prior research reports. Check uploaded reports against live sources before using them. Third-party reports sometimes mix up companies with similar names or cite old news.
 
-## Steps
+## Procedure
 
 1. **Resolve** the identifier and confirm the entity.
 2. **Firmographics:** size, industry, headquarters, founding year, funding stage, description.
@@ -89,7 +89,7 @@ A quick version (purpose, buying committee, discovery questions, next actions) i
 
 Briefs are often forwarded. Show contact names as initials, emails as domain only, and phone numbers masked. The full detail stays in the CRM.
 
-## Quality checks
+## Quality bar
 
 - Every claim is tagged `sourced` or `inferred`.
 - Every SWOT point has a tag.

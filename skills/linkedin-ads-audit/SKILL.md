@@ -27,7 +27,7 @@ Find where money is wasted, which formats and accounts deserve more spend, and w
 
 If no data is available, stop and say so. Do not estimate or invent figures.
 
-## Steps
+## Procedure
 
 1. **Confirm the window.** Last 30 days against the 30 days before. State the dates used.
 2. **Check the ad count.** Compare ads running against the number the budget supports. Classify as too few, about right, or too many, using per-ad daily spend. Flag any ad below the delivery floor.
@@ -72,7 +72,7 @@ A self-contained HTML audit, titled "[Company] LinkedIn Ads Audit", with a PDF e
 
 Chat summary: two or three plain-English takeaways. The detail lives in the report.
 
-## Quality checks
+## Quality bar
 
 - Ads are classified by their real format field, not by campaign name.
 - Test or sandbox deals are removed before influence is counted.

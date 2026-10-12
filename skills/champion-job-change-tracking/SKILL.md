@@ -33,7 +33,7 @@ A champion who moves is warm pipeline: someone who already bought or used the pr
 - Cadence: weekly by default, monthly for lists under about 200.
 - Destination for the digest, and CRM write permission (on or off).
 
-## Steps
+## Procedure
 
 ### 1. Confirm the setup
 
@@ -103,7 +103,7 @@ Each run ends with a summary: champions checked, moves found, follow notes draft
 - A summary line: checked, moved, follow notes, flagged seats, rows needing review.
 - A CRM change proposal, awaiting approval.
 
-## Quality checks
+## Quality bar
 
 - Every "moved" verdict cites dated evidence.
 - No company match is made on a name alone.

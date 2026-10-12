@@ -38,7 +38,7 @@ Keep effort on the few signals that change a buying decision, and act on them in
 - For a fixed watchlist: the account list, with canonical domains.
 - For engagement signals: the engagement event, the content, and time on page or repeat-visit count where available.
 
-## Steps
+## Procedure
 
 ### A. Choose signals for a business
 
@@ -122,7 +122,7 @@ Depending on the step:
 - A timing plan: window, cold-after date, cadence, channel order, angle.
 - A watchlist: resolved accounts with classification, signal specification, stakeholder coverage plan, ranked queue with decisions.
 
-## Quality checks
+## Quality bar
 
 - Every signal has an event date taken from the event, not the article.
 - Irrelevant signals stop at the relevance gate with a reason.

@@ -24,7 +24,7 @@ Give a market number that a finance lead can check, and a company universe that 
 - **Contract value.** Median or trimmed mean of comparable closed-won deals, annualised. Never use a price-page maximum or an unlabelled range.
 - **Existing CRM export** (optional), to measure coverage.
 
-## Steps
+## Procedure
 
 1. **Freeze the ICP.** Write inclusion and exclusion rules before counting. Separate required filters from preferences, and note which filters each source can measure.
 2. **Enumerate companies.** Retrieve from a source that returns matching companies. Record the source, query date, filters applied, filters omitted, and any cap. A count alone is a count estimate, not a list.
@@ -51,7 +51,7 @@ Give a market number that a finance lead can check, and a company universe that 
 - A list of companies, one row per company, deduplicated on domain, with provenance columns.
 - Recommended next step: which segment to build a territory from first.
 
-## Quality checks
+## Quality bar
 
 - Each number names its source, date, unit, and main limitation.
 - Account, revenue, contact, and role coverage are never combined.

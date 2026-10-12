@@ -38,7 +38,7 @@ Give the team one documented system of record for each data point, one set of de
 5. Enrichment vendors in use and their contract scope.
 6. Named owners for each object and each rule. If none exist, that gap is the first finding.
 
-## Steps
+## Procedure
 
 ### Step 1: Set the system of record and data model
 
@@ -219,7 +219,7 @@ Maturity levels, as a self-assessment:
 6. Prevention backlog: each defect with its source, control, owner, and review date.
 7. Open questions requiring a named decision.
 
-## Quality checks
+## Quality bar
 
 - Every data point has one named system of record.
 - Every rule has an owner, a population, and a version.

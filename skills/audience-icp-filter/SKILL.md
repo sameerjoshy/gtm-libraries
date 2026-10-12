@@ -32,7 +32,7 @@ Turn a messy list into four labelled buckets, with a reason on every lead and co
 3. ICP answers (Step 3): seniority, functions, founder rule, geography and industry if the data supports them, and any outright exclusions.
 4. Optional: enrichment budget and approval.
 
-## Steps
+## Procedure
 
 ### Step 1: Coverage gate (always first)
 
@@ -172,7 +172,7 @@ Report the four bucket counts, which must sum to the input count. Then:
 
 Keep lead data in the client's workspace. Do not commit lead data to the library.
 
-## Quality checks
+## Quality bar
 
 - Coverage was measured before any ICP criterion was applied.
 - Every lead is in exactly one bucket, with a reason, and the totals equal the input count.

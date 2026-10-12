@@ -37,7 +37,7 @@ Before a forecast call, know which deals are stalled, regressing, thinly threade
 
 If the stage rules or the baseline are missing, say so in the report. Do not present defaults as the client's own data.
 
-## Steps
+## Procedure
 
 ### Step 1: Scope the review
 
@@ -173,7 +173,7 @@ End with the approval question. Write nothing to the CRM until the user approves
 5. Hygiene figures with denominators.
 6. The approval question.
 
-## Quality checks
+## Quality bar
 
 - Every flag cites its evidence: days, dates, counts.
 - Stage thresholds came from the client's rules, or the report says defaults were used.

@@ -33,7 +33,7 @@ Hiring shows where budget and attention are going. A team being built now is a t
 - The GTM patterns to watch, defined in advance.
 - Your own company's domain, to exclude your own postings.
 
-## Steps
+## Procedure
 
 ### 1. Pull postings from two scans, kept separate
 
@@ -96,7 +96,7 @@ After three to six weeks, read the ledger and digests: signals per week, share a
 - Per signal: an alert with the account, pattern, evidence, owner, and one line of meaning.
 - Per claim: a verification record showing the source checked and the result, or the reason for rejection.
 
-## Quality checks
+## Quality bar
 
 - Every hiring claim that reaches a score or message has a source on the target's own domain, or a name-and-domain-matched listing.
 - No alert covers a posting older than 14 days.

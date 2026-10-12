@@ -21,7 +21,7 @@ Turn competitive research into positioning and targeting choices. Every finding 
 - **Competitor URLs** (best), or names (the skill finds the sites), or a company URL plus "find competitors". Three to five competitors. More dilutes the analysis; fewer than three limits the patterns.
 - **Company context.** Ideally the output of `account-research-brief` or a company overview, so the white space can be tied to the company's own position.
 
-## Steps
+## Procedure
 
 1. **Identify** competitors if not supplied. Choose three to five with direct overlap with the target market.
 2. **Research** each: homepage, about, product, pricing, case studies, and review-site presence.
@@ -58,7 +58,7 @@ These matter because the document is read by people outside marketing.
 - Paraphrase competitors. Quote only briefly and sparingly.
 - Do not invent data. Write "Unknown" where a fact is missing.
 
-## Quality checks
+## Quality bar
 
 - Each white-space claim has a proof status: proven, partly proven, or hypothesis.
 - No saturated claim is presented as a differentiator.

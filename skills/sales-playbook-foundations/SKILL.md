@@ -39,7 +39,7 @@ Produce a playbook that is written, agreed, built from real calls and deals, and
 
 If targets, close rates, or ramp data are missing, leave those figures as explicit blanks to be filled, not invented.
 
-## Steps
+## Procedure
 
 ### Step 1: Frame the five P's
 
@@ -149,7 +149,7 @@ The test: could a rep who joins after the leader has left succeed from this docu
 5. **Operating rhythm:** owner, cadence, home, version, and review triggers.
 6. **Open questions:** each gap, who should answer it, and by when.
 
-## Quality checks
+## Quality bar
 
 - Every target shows its math.
 - Every ramp gate names its evidence, and its remediation path.
