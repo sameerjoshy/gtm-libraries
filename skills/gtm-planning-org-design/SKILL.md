@@ -249,7 +249,7 @@ Never run two new motions at the same time. Add the adjacent motion only when th
 
 ## Boundaries
 
-- Covers team structure, territories, capacity, and headcount. Compensation plans and quota design are a separate skill: `gtm-compensation`, once merged.
+- Covers team structure, territories, capacity, and headcount. Compensation plans and quota design are a separate skill: `gtm-compensation`.
 - Does not define the ICP. Use `icp-builder`.
 - Does not forecast bookings period by period or set forecast categories. A forecasting skill is needed for that.
 - Does not inspect the live pipeline. Use `pipeline-review`.

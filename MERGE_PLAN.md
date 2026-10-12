@@ -130,3 +130,15 @@ Skills listed as merge next in sections 2 and 3 are being written in batches. Ch
 - Counts: 164 directories in skills/ (five new skills in this batch, not six). Ledger regenerated: 57 of 82 authors cited.
 - Update: paid-automated-campaign-structure is now written (john-williams PMax asset-group source, generic form; two-week settling period is an author default). Count is 165. The "not yet written" line above is superseded by this update.
 - Correction: the earlier line "five new skills in this batch, not six" is wrong. This batch is six skills (five in the first commit, paid-automated-campaign-structure in the second). Merged count 159 -> 165.
+
+## Progress note: fold verification and library check (166 merged)
+
+- Planned folds checked against source and target text. Verdicts:
+  - gaetano-romeo linkedin-enterprise-ads-audit: folded into linkedin-ads-audit as an enterprise and ABM section. Thresholds are author defaults.
+  - justin-rowe linkedin-conversion-tracking: partly folded into conversion-feedback-to-ad-platforms (lookback window, view versus click reporting, reconciling definitions). Platform setup steps not folded.
+  - justin-rowe linkedin-audience-targeting-worksheet: partly folded into paid-social-audience-strategy (cold audience size, persona too small, situation buyers reached by message, expansion off). Official attribute lists and the worksheet format not folded.
+  - ivan-falco ads-writing-style: partly folded into content-authenticity-review (read-aloud test, rewrite rules). Banned-vocabulary list not reproduced, consistent with the rule against restating pattern lists.
+  - osnat-lidor ambassador-finder: folded into brand-advocate-finder (tiering, work-history check). The earlier fold claim is now verified.
+  - yahav-fuchs advocate-voice-tuning: NOT a fold into brand-advocate-finder, because it is a voice-training task rather than advocate finding. Written as the new skill voice-calibration-from-samples.
+- Stale references fixed in brand-advocate-finder, call-followup-sweep, demand-lifecycle-model, marketing-ecosystem-diagnostic, gtm-planning-org-design, recent-discourse-sweep and lead-routing-design.
+- Still open: prospect-list-building states list hygiene is not merged (no skill exists for it). Remaining unclassified author sets (25 authors not cited in COVERAGE.md) are not yet reviewed.

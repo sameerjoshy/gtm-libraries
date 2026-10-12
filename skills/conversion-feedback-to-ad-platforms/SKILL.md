@@ -5,6 +5,7 @@ status: draft-for-review
 description: Use when an ad platform is optimising for form fills rather than pipeline, and the team wants the platform to receive later funnel stages (marketing-qualified, opportunity, and closed-won) from the CRM through a server-side connection. Sets the event hierarchy by lifecycle stage, the choice between a native sync and a middleware route, the deduplication of browser and server events, and the match-quality check. Not for tracking conversions that happen on a third-party page (see off-domain-conversion-tracking).
 sources:
   - "Conversions API and funnel events for B2B paid social (MIT, Ivan Falco): the principle to optimise on qualified pipeline rather than form fills, the CRM lifecycle stages as the event source, one server event per lifecycle stage with a priority set in the platform, the deduplication of browser and server events, the preference order between a native CRM sync and middleware, and the match-quality threshold"
+  - "Conversion tracking and revenue attribution on a B2B paid platform (MIT, Justin Rowe): the lookback window set to the real sales cycle, last-touch attribution as the default and its effect on campaign comparison, view-through credit reported apart from click-through, and reconciling definitions before treating a gap between tools as a bug. Platform setup steps are not folded in"
   - "Removed: the named CRM, the named middleware, the named platform's event manager, and the example match-quality score. Compliance hashing is restated in general terms"
   - "Adapted for GTM-360: the stage list is the recommended hierarchy, and the match-quality threshold is an author default. The rule to hash personal data before it leaves the company is kept as a hard rule"
 ---
@@ -58,6 +59,9 @@ In the platform's event settings, rank the event the campaign should optimise fo
 5. **Hash personal data before it leaves the company,** in the format the platform specifies. Never send plain personal data to a third party.
 6. **Check match quality** in the platform after launch. A score of about six out of ten or more is a reasonable default floor. Below it, the match fields need work.
 7. **Confirm the loop.** Test that a stage change in the CRM appears as an event in the platform within the expected time.
+8. **Match the lookback window to the sales cycle.** A deal that closes after the window ends will not be credited. Set the window to the real cycle, not the default, and report the window beside every figure.
+9. **Report view-through and click-through separately.** Credit for people who saw an ad but did not click inflates awareness-heavy accounts. Show click-based results on their own when proving return.
+10. **Reconcile definitions before calling a gap a bug.** Platform, analytics and CRM counts differ because their attribution models, windows and identity matching differ. Agree the definitions first, then compare.
 
 ## Output
 

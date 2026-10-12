@@ -5,6 +5,7 @@ status: draft-for-review
 description: Use to find and shortlist independent outside voices who could represent, endorse, or amplify a company in its field, such as advisers, former senior operators, and recognised authors. Screens for field credibility, independence, and reach, in that order, and shows which criteria are confirmed, likely, or unverified for each candidate. Not for finding customers or sales prospects. Advocates are never treated as a sales target.
 sources:
   - "Ambassador finder (MIT, Osnat Lidor): sub-field clarification, public representative versus advisory role, explicit exclusions, layered sourcing with credibility signals first, the principle that credibility outranks reach, and a shortlist with each criterion marked confirmed, likely, or unverified"
+  - "Ambassador finder, additions (MIT, Osnat Lidor, second copy): the tiering of the shortlist into approach now, nurture, and pass, and the check of company size and type in the work history before the reach figure. Tier thresholds are author defaults"
   - "Removed: the named example platforms and the follower-count method, which cannot be verified from outside the platform. Reach is assessed from evidence the team can check"
   - "Adapted for GTM-360: the exclusion of competitors and existing partners, and the rule that advocates are never sales targets, are kept as hard rules"
 ---
@@ -24,7 +25,7 @@ Independent voices are worth more than a company's own posts, when they are cred
 Route elsewhere when:
 
 - The question is customers or prospects. Use `prospect-list-building`.
-- The question is paid influencer campaigns. Use the creator-marketing skill, once merged.
+- The question is paid influencer campaigns. Use `creator-programme-strategy`.
 
 ## Inputs
 
@@ -46,13 +47,14 @@ Route elsewhere when:
    - Independence: no current employment or paid relationship that would conflict, and no commercial tie to a competitor.
    - Reach: a visible audience, judged from evidence the team can check, such as published work, speaking, or audience data the candidate shares.
 5. **Mark each criterion** as confirmed, likely, or unverified. Do not mark a criterion confirmed on the basis of the candidate's own description.
-6. **Rank by credibility first.** A candidate with high reach and weak credibility stays lower on the list than one with strong credibility and modest reach.
+6. **Rank by credibility first.** A candidate with high reach and weak credibility stays lower on the list than one with strong credibility and modest reach. Read the size and type of companies in the work history before the reach figure. A large audience built only on small-company or solo work transfers little credibility to a buyer audience.
 7. **List the outstanding checks** for each candidate: independence, availability, past endorsements, and any conflicts found.
+8. **Tier the shortlist.** As author defaults: approach now for candidates with confirmed credibility and independence; nurture for those with likely credibility; pass for any candidate with a failed independence check or unverified credibility.
 
 ## Output
 
 - A shortlist, one row per candidate, with the criteria marked confirmed, likely, or unverified.
-- A one-line rationale for each candidate.
+- A one-line rationale for each candidate, and a tier: approach now, nurture, or pass.
 - The outstanding manual checks.
 - The exclusions applied.
 

@@ -23,7 +23,7 @@ After a busy week of customer calls, the follow-through is what decides deals, a
 
 Route elsewhere when:
 
-- A single booked meeting needs its follow-up. That is the post-meeting follow-through skill, which is not yet merged into this library.
+- A single booked meeting needs its follow-up. That is `post-meeting-follow-through`.
 - A warm reply needs its next touch. Use `stage-aware-follow-up`.
 
 ## Inputs

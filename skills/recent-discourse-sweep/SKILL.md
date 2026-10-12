@@ -24,7 +24,7 @@ A decision made on what people said last year, or on one loud thread, is a bad d
 
 Route elsewhere when:
 
-- The question is the company's own brand mentions. That is a monitoring question, not a sweep (brand mention monitoring is not yet merged).
+- The question is the company's own brand mentions. That is a monitoring question, not a sweep (see `brand-mention-monitor`).
 - The question is a single company's profile. Use `account-research-brief`.
 
 ## Inputs

@@ -28,7 +28,7 @@ Route elsewhere when:
 - The question is how to build the rules in a specific CRM. Use the CRM platform skill.
 - The question is how to enrich a lead before routing. Use `data-enrichment`.
 - The question is how to score a lead. Use `marketing-operations`.
-- The question is what happens after assignment. Use `revops-handoffs`.
+- The question is what happens after assignment. Use `revenue-handoffs`.
 
 ## Inputs
 

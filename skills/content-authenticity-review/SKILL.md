@@ -7,6 +7,7 @@ sources:
   - "Anti AI slop writing (MIT, Gali Firon) and human mannerisms (MIT, Gali Firon): the principle that machine tells come in two kinds, rhetorical moves that are wrong every time and ordinary words and structures that read fine once but cluster into a tell, each needing its own scan; the subtractive pass that strips the tells; and the rule to scan for each kind separately"
   - "Humanise AI-sounding content (MIT, Amith TK): the rewrite that keeps meaning and facts, the six patterns that give copy away, the requirement to lead with claims, attach evidence, and name a person as the actor, and the short list of what changed and what still needs a source"
   - "Content de-slop (MIT, Vesselin Malev): the same two-pass approach applied to a content fleet, restated for any content owner"
+  - "Writing bar for ad and marketing copy (MIT, Ivan Falco, writing style): the read-aloud test, leading with the point, numbers and named detail in place of adjectives, cutting words that do no work, and taking a clear position. The source's banned-vocabulary list is not reproduced, consistent with the decision not to restate pattern lists"
   - "Removed: the named example phrases, the pattern lists in full, and the checker tool. The patterns are described by category, not reproduced"
   - "Adapted for GTM-360: the rule that a rewrite must not add facts, statistics, or quotes the author did not supply is an author addition consistent with the library rule against invented figures"
 ---
@@ -54,6 +55,9 @@ Remove every rhetorical move. Then check for clusters of ordinary structures, an
 3. **Make a person the actor.** "Our team cut the review time" is better than "Efficiency was improved".
 4. **Write in connected prose.** Each paragraph follows from the one before, rather than being a list of slogans.
 5. **Keep the author's voice** from the supplied samples, and the house style if there is one.
+6. **Put the point first and take a position.** Where the author supplied a stance, state it plainly. Do not hedge a claim the author has already made.
+7. **Prefer a number or a named detail to an adjective,** where the author supplied one. Cut any word whose removal changes nothing.
+8. **Read it aloud.** If a knowledgeable person in the field would not say the sentence, rewrite it.
 
 ## Output
 

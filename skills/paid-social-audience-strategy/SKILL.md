@@ -5,6 +5,7 @@ status: draft-for-review
 description: Use to build audiences for B2B paid social campaigns, where the platform's own professional targeting is weak and the audience quality depends on the data the company feeds it. Sets out the customer research to do before any audience is built (why customers bought, what triggered the search, who else was involved), the seed data to use (CRM contacts, customer lists, and third-party segments), how to build lookalikes from the best customers rather than all customers, and the exclusions. Not for the campaign structure (see paid-social-campaign-structure) or the creative (see ad-creative-as-filter).
 sources:
   - "Audience strategy for B2B paid social on high-value SaaS (MIT, Ivan Falco): the core principle that the audience data decides results more than native professional targeting does, the customer interview questions before any audience is built, and the seed data used to match and to find lookalikes"
+  - "Audience sizing and targeting logic for B2B paid social (MIT, Justin Rowe, audience targeting worksheet): cold audiences that are too small stall and too large dilute, the step of moving a persona into account-based targeting when it cannot build a usable audience, the rule that situation-based buyers are reached by message rather than by a filter, and the default to keep broad expansion options off. The platform's official attribute lists and the worksheet format are not folded in"
   - "Removed: the cost-per-demo and pipeline proof points quoted in the source, which are not reproduced because no supporting data is shown, and the named platform and CRM products"
   - "Adapted for GTM-360: the rule to seed lookalikes from the best customers rather than the full customer list is an author addition. The exclusions rule (remove existing customers and employees from prospecting) is an author default"
 ---
@@ -62,6 +63,13 @@ The answers decide which job titles, company sizes, and situations go into the a
 - Remove existing customers from prospecting audiences, unless the campaign is for expansion.
 - Remove the company's own employees and known competitors.
 - Remove contacts who have already been through a closed-lost cycle within the period set by the team, unless the campaign is for re-engagement.
+
+## Sizing the audience and reaching situations
+
+- **Cold audience size.** As author defaults: an ideal of about 150,000 people. Under about 10,000, the audience stalls. Over about 500,000, it dilutes. Calibrate these to the account's own delivery.
+- **Persona too small.** If the primary persona builds to under about 25,000, move it into account-based targeting rather than broadening the audience to fill it.
+- **Situation-based buyers are reached by message.** A recent loss, a contract ending, a new mandate or a funding round cannot usually be filtered for. Reach them with a message that names the situation, and let people self-select. Use a third-party signal only as a proxy, and check its fit.
+- **Broad expansion options stay off** by default, so the platform does not spend on people outside the defined audience.
 
 ## Procedure
 

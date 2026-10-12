@@ -8,6 +8,7 @@ sources:
   - "LinkedIn ads 35-point audit (MIT, Justin Rowe), checklist coverage"
   - "LinkedIn ads CTR signal (MIT, Brianne Thomas), CTR decay signal"
   - "Google and Meta ads audits (MIT, Aditya Sriram), write-safety and read-only rule"
+  - "Enterprise LinkedIn ads audit (MIT, Gaetano Romeo): account-level linkage before reallocation, persona-level frequency, the cap on spend outside the target list, the non-buyer share of form submissions, and cost per acquired customer against contract margin. Thresholds are restated as author defaults, not the source's figures"
 ---
 
 # LinkedIn ads audit
@@ -38,6 +39,19 @@ If no data is available, stop and say so. Do not estimate or invent figures.
 8. **Decay.** Flag ads whose CTR fell for three consecutive weeks, or that fell below their format's pause threshold after 1,000 or more impressions. Requires weekly data.
 9. **Red and green flags.** Each item names the campaign, ad set, or ad, the metric, and the fix.
 10. **Accounts.** Top engaged accounts, accounts surging, accounts reached for the first time, and any account taking a disproportionate share of impressions. Suggest a cap only when one account's share is clearly out of line with the rest.
+
+## Enterprise and ABM checks (when a named account list exists)
+
+Run these in addition to the steps above. All thresholds are author defaults to calibrate against the account's own history.
+
+- **Account linkage comes first.** If ad engagement cannot be linked to CRM opportunities at account level, do not issue reallocation, bid, or creative-pause recommendations. Say that the linkage is missing, and recommend it.
+- **Reach by target account.** Share of the target account list with at least one impression in the window. Healthy at about 60% or more. Critical when under about 30% are reached while frequency rises.
+- **Frequency per persona.** Sum frequency across all active campaigns for each buyer persona. Campaign averages hide decision-makers exposed across several ad sets. A persona above about 10 impressions in 30 days, with engagement down more than about 25%, is fatigued. The fix is persona-level caps, not a lower total budget.
+- **Spend outside the list.** If more than about 20% of spend reaches accounts outside the ICP or target list, label it audience dilution, and recommend switching off broad delivery expansion options.
+- **Form quality.** If more than about 25% of form submissions come from non-buyer job titles or non-business email domains, the creative attracts curiosity, not purchase intent.
+- **Form against site request.** Lead-to-opportunity conversion on in-platform forms against website demo requests, on matching segments. Healthy at about 40% of the site rate or more. Critical below about 20%.
+- **Unit economics.** Media cost per acquired customer against gross-margin-adjusted contract value. Under about 20% with payback inside 12 months is healthy. Over about 35%, or payback beyond 18 months, fails.
+- **High cost per opportunity alone is not failure.** Compare exposed and unexposed accounts within the same deal stage and firmographic tier. If intent bias cannot be ruled out, mark the finding as an unproven hypothesis and escalate it for human review.
 
 ## Output
 
