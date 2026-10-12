@@ -78,3 +78,9 @@ Skills listed as merge next in sections 2 and 3 are being written in batches. Ch
 - Written: bridge-before-cold, recent-discourse-sweep, demand-lifecycle-model, post-meeting-follow-through, sales-hire-offer-close, investor-update.
 - Folded, not written (overlap with merged skills): persona-mapping-framework (covered by prospect-list-building and multi-threading-coach), prospect-to-pipeline (covered by cold-offer-architect and stage-aware-follow-up), outreach-execution (covered by sdr-outbound-rules and cold-email-preflight).
 - Still pending: gtm-philosophy (alex-vacca), inbound and LinkedIn signal handling (ariel-cohen), events and conference group (about 8 files), brand-mention-monitor (uri-knorovich), bench-strength-and-succession and leadership-development-diagnostic (jason-mesiarik), and the channel and content sets.
+
+## Progress note: leadership and brand batch (107 merged)
+
+- Written: gtm-operating-principles (from gtm-philosophy, renamed to avoid a clash with the existing GTM set), bench-strength-and-succession, leadership-development-diagnostic, brand-mention-monitor.
+- Still pending: ariel-cohen inbound and LinkedIn signal handling (one skill, read before writing), and the events and conference group (about 8 files, one skill).
+- Then: the channel and content sets (paid ads, creator, search and AI visibility, Reddit and community, newsletter and content).
