@@ -177,3 +177,10 @@ Skills listed as merge next in sections 2 and 3 are being written in batches. Ch
 - Covered by existing skills, checked by reading their sources and descriptions: meta-audience-strategy (paid-social-audience-strategy), meta-offer-strategy (paid-offer-strategy), meta-campaign-structure (paid-social-campaign-structure), meta-creative-strategy (ad-creative-as-filter and creative-fatigue-rotation).
 - Skipped, with reason: meta-api-reference (API schema reference, platform documentation, not a GTM method), meta-onboarding (credential setup flow for platform tooling), meta-reporting (scripts and output standards; reporting is covered by paid-measurement-scorecard), meta-b2b-overview (platform benchmarks that could not be verified; channel choice is covered by paid-channel-selection), meta-ads (routing skill for the source's own tooling).
 - Prospect-list-building: the "not yet merged" claim is corrected to point at revops-data-governance, which covers CRM cleanup and deduplication.
+
+## Progress note: LinkedIn ABM sources checked (184 merged)
+
+- linkedin-abm-1to1-few-many: written as abm-campaign-level-choice (levels, company versus contact lists, splitting mixed lists, per-account reach, frequency cap). Platform list minimums not restated; they must be checked against current platform rules.
+- ads-outbound-signaling-guide: written as ad-engagement-outbound-triggers (intent-named campaigns, stage thresholds, personalisation by topic, sequence, feedback loop, lift against cold baseline). Named tools and the API limitation not restated.
+- linkedin-ads-abm-guide: partly covered by abm-strategy-planner (budget formula). Ad formats, specs, benchmark tables and the tech stack are skipped as platform reference and unverified figures.
+- linkedin-ads-audience-guide: partly covered by paid-social-audience-strategy (sizing, exclusions, lookalikes). Platform targeting attribute guidance (job function against title, seniority and company size bands) is skipped as platform reference and is not restated.
