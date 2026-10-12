@@ -95,3 +95,8 @@ Skills listed as merge next in sections 2 and 3 are being written in batches. Ch
 
 - Written from the platform-neutral Ivan Falco ads set: paid-channel-selection, paid-campaign-plan, paid-budget-by-stage, ad-persona-framework, ad-copy-voice-of-customer, paid-measurement-scorecard, paid-optimisation-signals, paid-scaling-quadrant, creative-fatigue-rotation, lead-form-quality, paid-offer-strategy.
 - Still pending in paid ads: Meta-specific sets (ivan-falco meta-* family, advantage-plus, creating-campaigns-ads-audiences, meta-api-reference, meta-capi-and-events, meta-third-party-conversion-tracking), Google Ads sets (john-williams, ivan-falco google-ads), Google Ads and Meta audits (aditya-sriram), LinkedIn audit and targeting sets (justin-rowe, gaetano-romeo, ivan-falco linkedin-ads), and ivan-falco message-validation and ads-writing-style. Platform-specific sets are to be written in generic form, with the platform detail removed.
+
+## Progress note: paid search and paid social batch (132 merged)
+
+- Written, generic form: paid-search-budget-reallocation, paid-search-unit-economics, paid-search-quality-diagnosis, paid-account-change-safety (John Williams write-safety, extended to any paid account), conversion-feedback-to-ad-platforms, off-domain-conversion-tracking, paid-social-campaign-structure, paid-social-audience-strategy, paid-automation-controls, ad-creative-as-filter.
+- Not written: the john-williams pmax asset-group skill (platform-specific structure; to be written as a generic multi-format automated campaign skill in the next batch), the Meta creative-set and remaining Meta sub-skills that repeat the above, the audit skills (aditya-sriram, gaetano-romeo, justin-rowe), and the ads-writing-style and message-validation sets.
