@@ -6,7 +6,7 @@ Tracks every source skill from the two downloaded libraries, so that nothing is 
 
 - Source skills in the first library (`gtm-skills`): 404 SKILL.md files across the author folders below.
 - Source agent roles in the second library (`openclaw-skills`): 5. All five are merged into `agents/`.
-- Merged skills in `skills/`: 63.
+- Merged skills in `skills/`: 73.
 
 ## Status meanings
 
@@ -51,7 +51,7 @@ Per-author counts are a starting point, not a quality judgement. Merging is done
 | imad-badreddine | 4 | Not cited |
 | udi-cohen | 4 | Cited |
 | uri-knorovich | 4 | Not cited |
-| boaz-descalo | 3 | Not cited |
+| boaz-descalo | 3 | Cited |
 | gaetano-romeo | 3 | Not cited |
 | gal-tamir | 3 | Not cited |
 | huxley-peckham | 3 | Not cited |
@@ -60,13 +60,13 @@ Per-author counts are a starting point, not a quality judgement. Merging is done
 | manny-medina | 3 | Not cited |
 | shane-oconnor | 3 | Not cited |
 | aditya-sriram | 2 | Cited |
-| amit-rotstein | 2 | Not cited |
+| amit-rotstein | 2 | Cited |
 | amos-bar-joseph | 2 | Not cited |
 | brianne-thomas | 2 | Cited |
 | danni-chen | 2 | Not cited |
 | din-arbel | 2 | Cited |
 | gerrit-kesten | 2 | Not cited |
-| kevin-kd-dorsey | 2 | Not cited |
+| kevin-kd-dorsey | 2 | Cited |
 | sam-jacobs | 2 | Not cited |
 | .system | 1 | Not applicable (source tooling, not GTM) |
 | amith-tk | 1 | Not cited |
@@ -86,7 +86,7 @@ Per-author counts are a starting point, not a quality judgement. Merging is done
 | katya-tarapovskaia | 1 | Cited |
 | luke-shalom | 1 | Not cited |
 | maja-voje | 1 | Not cited |
-| monica-dinu | 1 | Not cited |
+| monica-dinu | 1 | Cited |
 | nikhil-mirza | 1 | Cited |
 | osnat-lidor | 1 | Not cited |
 | pete-mientkiewicz | 1 | Not cited |
