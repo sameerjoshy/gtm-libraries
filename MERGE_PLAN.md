@@ -129,3 +129,4 @@ Skills listed as merge next in sections 2 and 3 are being written in batches. Ch
 - Open reviews: yahav-fuchs advocate-voice-tuning against brand-advocate-finder; osnat-lidor ambassador-finder fold claim to verify; remaining unclassified author sets.
 - Counts: 164 directories in skills/ (five new skills in this batch, not six). Ledger regenerated: 57 of 82 authors cited.
 - Update: paid-automated-campaign-structure is now written (john-williams PMax asset-group source, generic form; two-week settling period is an author default). Count is 165. The "not yet written" line above is superseded by this update.
+- Correction: the earlier line "five new skills in this batch, not six" is wrong. This batch is six skills (five in the first commit, paid-automated-campaign-structure in the second). Merged count 159 -> 165.
