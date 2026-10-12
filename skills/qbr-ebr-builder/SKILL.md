@@ -6,6 +6,7 @@ description: Use to design and build customer business reviews that buyers atten
 sources:
   - "QBR and EBR builder (MIT, Rutger Katz / Neon Triforce): the two instruments and their audiences, segmentation by account tier, the three-panel review spine, stakeholder rules for the economic buyer and sponsor attendance, outputs and routing, anti-patterns, and the readiness conditions"
   - "Executive account brief (MIT, Ido Goldberg / Swan): the one-page brief structure, facts before narrative, buying committee with sentiment quoted from source, sourced risks, the required ask, pressure-test before delivery"
+  - "Renewal value receipt (MIT, Manny Medina): the three reporting categories (usage, performance, and value, of which only value closes renewals), the customer's own before-figure as the benchmark, a monthly receipt rather than a scramble at renewal, arithmetic the buyer can re-derive, computing value per account rather than averaging across accounts, and the rule that a value figure built on the vendor's estimates is labelled as an assumption. The source's example figures and named product are not restated"
   - "Removed as unverified: the median and top-quartile retention figures attributed to industry surveys, and the claim that review cadence is a controllable instrument with a measured effect. Validate against the client's own renewal cohort"
   - "Adapted for GTM-360: the 90 to 120 day EBR window, the segmentation tiers, and the review length are practice-based defaults. Thresholds for at-risk sponsors are defaults to calibrate"
 ---
@@ -78,6 +79,11 @@ Every review, quarterly or executive, follows the same spine. The depth differs 
 - Report outcomes, not activity. "Cut manual reconciliation time by a stated amount since March" lands better than "487 workflows run."
 - Include what did not improve. One acknowledged miss makes every claimed win believable. A review with no misses reads as marketing.
 - If the value recap cannot be built, that is a finding, not a formatting problem. Either instrumentation is missing, which needs fixing, or value is absent, which needs the save motion now rather than at renewal.
+- Report value, not usage or performance. Tasks run and uptime keep the product running, but only value figures carry a renewal. If the data is usage-shaped, convert it before use.
+- Take the "before" figure from the customer: the time or cost of each task before the product, and the rate the customer uses for the people who did the work. Use the units the customer already tracks. Where no benchmark was ever agreed, capture one now and label it as a new assumption.
+- Show the arithmetic: tasks resolved, the human-equivalent time they replace, the cost avoided, and the multiple of value to price. A buyer who can re-derive the number will defend it internally.
+- Compute value per account. Averages across accounts hide large differences in value.
+- Where value is measurable, a monthly one-page receipt is cheaper than a renewal scramble. Do not lead with the count of tasks completed alone. Activity is not value.
 
 **Panel 2: current state, honestly.** Adoption depth against plan, open issues with owners and dates, and a plain health verdict. Do not turn the internal health read into a greener version for the customer. Experienced buyers keep their own scorecard. The gap between the company's view and theirs is lost trust.
 
