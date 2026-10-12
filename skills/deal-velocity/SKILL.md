@@ -41,7 +41,7 @@ Pipeline velocity equals the number of opportunities, times the win rate, times 
 
 The numerator needs all three terms to rise. The denominator needs to fall. Four levers, each can be the constraint.
 
-Compounding: the levers multiply, so small gains add up. A 10% improvement in each of the four levers gives about 46% more velocity (1.1 to the fourth power is about 1.46). The source quotes 49% for the same case, which does not match the arithmetic. Use the calculation, not the quoted figure.
+Compounding: the levers multiply, so small gains add up. A 10% improvement in each of the four levers gives about 46% more velocity (1.1 to the fourth power is about 1.46). Use the calculation, not a rounded or quoted figure.
 
 ## Procedure
 
@@ -76,7 +76,7 @@ Apply the theory of constraints: fix one constraint at a time. Fixing a non-cons
 
 The reflex when a target is missed is to add pipeline. That is usually wrong. Pipeline with a low conversion rate can be made more valuable by removing its dead deals.
 
-Worked example from the source, in simplified form: 20 million of pipeline closes 4 million, a 20% conversion. Removing zombie deals leaves 15 million, which still closes 4 million, so the conversion rises to about 27%. Fixing handoffs and next steps on the clean pipeline can then lift closes to 5 million from the same 15 million. The target is hit without any extra pipeline.
+Worked example, in simplified form: 20 million of pipeline closes 4 million, a 20% conversion. Removing zombie deals leaves 15 million, which still closes 4 million, so the conversion rises to about 27%. Fixing handoffs and next steps on the clean pipeline can then lift closes to 5 million from the same 15 million. The target is hit without any extra pipeline.
 
 **Zombie criteria.** A deal is a zombie if it meets two or more of these:
 
@@ -94,7 +94,7 @@ Worked example from the source, in simplified form: 20 million of pipeline close
 - Push: a dated buyer action that will show whether the deal is alive.
 - Close: closed-lost with a reason recorded.
 
-The source states that closing is the right answer for about 60 to 70% of zombies, and that most managers close too few. Treat that share as a hypothesis to test against the client's own outcomes.
+Closing is often the right answer for a large share of zombie deals. Treat that share as a hypothesis to test against the client's own outcomes.
 
 **Prevention.** Run automated detection each day against the criteria above. Review the flagged deals each week in the manager's pipeline meeting. Run a deeper scrub each month in the manager one-to-ones, and a purge with leadership each quarter.
 
@@ -146,7 +146,7 @@ The health score is for triage and inspection. The first two scales score eviden
 
 ### Step 6: Treat single-threading as a risk
 
-Single-threaded deals are the most common and most preventable risk. The source cites that they slip more often, and that broader engagement improves win rates on larger deals. Those figures are vendor research, so treat them as direction, not measured effect.
+Single-threaded deals are the most common and most preventable risk. Those deals tend to slip more often, and broader engagement tends to improve win rates on larger deals. Treat this as direction, not measured effect.
 
 Multi-threading score, by the number of buyer contacts engaged in the last 30 days:
 
@@ -200,7 +200,7 @@ Automation can scale detection, scoring, and summary work. It needs a baseline f
 - Check that the automated score does not disagree systematically with the managers' judgement, and when it does, find out why.
 - Keep a human decision on any closed-lost or stage change.
 
-The source's percentage claims about AI accuracy and time savings are vendor figures and are not used here.
+
 
 ### Step 10: Scope a velocity programme when velocity is the constraint
 

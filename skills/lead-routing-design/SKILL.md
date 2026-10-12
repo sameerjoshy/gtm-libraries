@@ -137,7 +137,7 @@ Escalation runs in stages:
 2. **Twice the threshold, still no activity:** alert the manager, and create a review task.
 3. **Four times the threshold, still no activity:** reassign to a backup or the queue, alert operations, and record the breach.
 
-The source research on speed-to-lead is consistent in direction: contacting a hand-raiser within minutes converts better than contacting them after hours. The exact curve varies by industry and lead source, so set the client's own targets from their data.
+Research on speed-to-lead is consistent in direction: contacting a hand-raiser within minutes converts better than contacting them after hours. The exact curve varies by industry and lead source, so set the client's own targets from their data.
 
 ### Step 7: Consider AI-assisted routing only with controls
 

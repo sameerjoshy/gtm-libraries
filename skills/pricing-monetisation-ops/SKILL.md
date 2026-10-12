@@ -213,7 +213,7 @@ Before a renewal, prepare both options with their numbers: staying on the old pl
 - **Value-linked increase.** Pair the increase with a change that lowers the customer's cost, such as a more efficient feature. Show the net effect, with the arithmetic.
 - **Segmented increase.** Apply larger increases to customers who gain most from the product, and smaller or none to price-sensitive segments. This needs cohort analysis.
 
-**Notice.** Give customers at least 60 days' notice of any increase outside a contract that already sets it. Surprise increases drive churn. The source's figure on the effect of notice is not verified, so measure the effect in the client's own renewals.
+**Notice.** Give customers at least 60 days' notice of any increase outside a contract that already sets it. Surprise increases drive churn. The effect of notice on churn is not verified, so measure it in the client's own renewals.
 
 ### Step 10: Audit billing data quality each quarter
 

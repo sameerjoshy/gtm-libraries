@@ -38,8 +38,8 @@ Route elsewhere when:
    - Interested: the account has 5 or more ad clicks, or 10 or more engagements.
    - Considering: the account has booked a demo or started a trial.
    - Selecting: the account has an open deal in the pipeline.
-   The impression and engagement thresholds are the source's defaults, to calibrate.
-3. **Read the conversion arithmetic before quoting it.** At the source's default rates, roughly 2.5 percent of targeted accounts reach an open pipeline opportunity and about 0.6 percent close. A programme sized on those defaults produces far fewer deals than its target list suggests. State the implied opportunity and deal counts with the list size.
+   The impression and engagement thresholds are defaults, to calibrate.
+3. **Read the conversion arithmetic before quoting it.** Only a small share of targeted accounts reach an open pipeline opportunity, and fewer still close. A programme sized on the target list alone produces far fewer deals than the list suggests. State the implied opportunity and deal counts with the list size.
 4. **Select on four layers.** Each layer narrows the list and carries its own evidence.
    - Firmographic fit: size band, revenue or funding stage, industry, geography and business model.
    - Technographic signals: a competitor in use, a competitor missing a feature the team now has, a redundant tool combination, or a recent change in stack.

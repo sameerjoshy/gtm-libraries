@@ -39,7 +39,7 @@ Route elsewhere when:
    - Content engagers: downloaded content, watched video or attended a webinar in the last 60 to 90 days.
    - Company list, not yet engaged: known accounts with no engagement.
    - Buying committee: several contacts at the same account.
-   The windows are the source's defaults.
+   The windows are defaults.
 3. **Set the priority and the budget share.** As defaults, recent engagers take 30 to 40 percent of the monthly budget, page-specific visitors 25 to 30 percent, warm traffic 20 to 25 percent, content engagers 10 to 15 percent, and company-list accounts 5 to 10 percent. Adjust to the team's results.
 4. **Score depth of engagement.** Count touchpoints per account. One or two is light, and the message is awareness content. Three to five is moderate, and the message is solution content. Six to ten is heavy, and the message is conversion content. Ten or more is a hot account, and it goes to outreach with a direct offer.
 5. **Apply the recency and frequency matrix.** Recent engagers with five or more visits go to the sales development team as a priority. Recent engagers with one visit get nurture. Older accounts that were hot and have gone quiet get a win-back message. The matrix cuts are defaults.

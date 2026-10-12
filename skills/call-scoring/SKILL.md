@@ -44,7 +44,7 @@ Route elsewhere when:
    - Agenda set at the start.
    - Next steps agreed with dates.
    - Next meeting scheduled before the call ended.
-4. **Score against target bands.** Bands are defaults from the source and must be calibrated per client against their own won calls. Timing-based KPIs are marked unavailable when the transcript has no timestamps.
+4. **Score against target bands.** Bands are defaults and must be calibrated per client against their own won calls. Timing-based KPIs are marked unavailable when the transcript has no timestamps.
 5. **Separate two groups.** Conversation quality (questions, talk ratio, engagement) and forward motion (agenda, next steps, next meeting). Report them separately. A call that scores well on quality and poorly on motion is a finding: the rep ran a good conversation that went nowhere.
 
 ### Part B: Behaviour scorecard

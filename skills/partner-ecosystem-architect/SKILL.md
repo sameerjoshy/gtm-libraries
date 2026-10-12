@@ -107,7 +107,7 @@ Cadence: refresh the mapping monthly with the top five partners, fully each quar
 - **Attribution rules (defaults).** First registration wins, with a protection window of around 90 days. The partner must show active involvement, not just a connection. Tag at origin, not retrospectively. Enforce the tag in weekly deal review.
 - **Commission (default, to set by the client).** Full rate for sourced, a reduced rate for influenced. Partner commission rates vary widely, so set them from the client's margin and the tier, not from another company's programme.
 
-Economic benchmarks from the source are not reproduced here. Build the client's own baseline from their first four quarters of partner data.
+Economic benchmarks are not reproduced here. Build the client's own baseline from their first four quarters of partner data.
 
 ### Step 7: Set the signal-based decision rules
 

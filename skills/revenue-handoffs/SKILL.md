@@ -136,7 +136,7 @@ Start health scoring at go-live, not at the first steady-state review. Track the
 
 ### Step 5: Customer success back to sales (expansion)
 
-Expansion is usually cheaper to win than new business, but it has no owner unless one is named. The source's cost figures are historical and are not used as rules here.
+Expansion is usually cheaper to win than new business, but it has no owner unless one is named.
 
 Three expansion types. Choose the right one, because each has a different sales process:
 

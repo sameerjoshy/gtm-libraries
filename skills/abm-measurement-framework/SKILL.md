@@ -38,7 +38,7 @@ Route elsewhere when:
 | Pipeline | Accounts with an open opportunity | Influenced pipeline, accounts in pipeline |
 | Revenue | Closed-won from target accounts | Closed-won value, win rate |
 
-Stage thresholds such as 50 impressions and 5 clicks are defaults from the source. Set them per client and record the reason.
+Stage thresholds such as 50 impressions and 5 clicks are defaults. Set them per client and record the reason.
 
 ## Procedure
 

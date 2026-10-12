@@ -97,7 +97,7 @@ Without provenance, a bad field cannot be traced or removed.
 
 ### Step 6: Set re-enrichment cadences
 
-Enriched data decays. The source cites annual decay of about 22 to 30%, from vendor estimates. Measure the client's own rate by re-checking a sample.
+Enriched data decays. Enriched data decays over time. Measure the client's own rate by re-checking a sample.
 
 Starting cadences, to adjust once the decay rate is known:
 
@@ -122,9 +122,9 @@ Track, by provider and in total:
 Set alerts for:
 
 - Records past their re-enrichment window.
-- A match rate that falls below the agreed floor. The source uses 60% as an example.
-- Priority field coverage that falls below the agreed floor. The source uses 80% as an example.
-- Monthly cost above budget by more than a set margin. The source uses 20% as an example.
+- A match rate that falls below the agreed floor. A 60% floor is an example to set per client.
+- Priority field coverage that falls below the agreed floor. An 80% floor is an example to set per client.
+- Monthly cost above budget by more than a set margin. A 20% overrun margin is an example to set per client.
 
 These thresholds are starting points. Set them from the pilot.
 
@@ -157,13 +157,13 @@ Controls:
 
 Confirm each point with counsel. This is not legal advice.
 
-- **Legal basis.** Most business enrichment relies on legitimate interest, not consent. Before enriching at scale, write a short assessment covering three questions: why the processing is needed for a stated purpose, whether the purpose could be met without it, and what the effect is on the person. The source cites a 2024 court ruling on this test. Confirm its application with counsel.
+- **Legal basis.** Most business enrichment relies on legitimate interest, not consent. Before enriching at scale, write a short assessment covering three questions: why the processing is needed for a stated purpose, whether the purpose could be met without it, and what the effect is on the person. Confirm how this test applies with counsel.
 - **Minimisation.** Enrich only the fields used for the stated purpose.
 - **Erasure.** The company must be able to delete enriched data when a person asks.
 - **Transparency.** The privacy notice must say that third-party data sources are used.
 - **Providers.** Each provider needs a data processing agreement, and compliance with the relevant rules must be verified, not assumed.
-- **Notification.** When a contact's data is collected from a third party, the person generally has to be informed. The source sets the timing at one month, or at first contact if earlier. Where informing each person would take disproportionate effort, the rules allow an exception, which counsel should confirm.
-- **Penalties.** The source states a ceiling of 10 million euros or 2% of global turnover for this duty. Article 14 falls under the higher penalty tier in Article 83(5), which is 20 million euros or 4% of global turnover, whichever is higher. Confirm this with counsel before quoting any penalty figure.
+- **Notification.** When a contact's data is collected from a third party, the person generally has to be informed. The timing is one month, or at first contact if earlier. Where informing each person would take disproportionate effort, the rules allow an exception, which counsel should confirm.
+- **Penalties.** Article 14 falls under the higher penalty tier in Article 83(5), which is 20 million euros or 4% of global turnover, whichever is higher. Confirm this with counsel before quoting any penalty figure.
 
 Record each contact's notification date in the CRM, so that compliance can be shown in an audit.
 

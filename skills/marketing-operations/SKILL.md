@@ -107,12 +107,12 @@ Each side commits to something specific.
 
 Reading the acceptance rate:
 
-- A healthy acceptance rate sits roughly between 60 and 80%. The source's range.
+- A healthy acceptance rate sits roughly between 60 and 80%. Treat this as a default to calibrate.
 - Below 50%: the scoring is broken, or sales and marketing define the MQL differently.
 - Above 85%: the threshold is too low, and unqualified leads are passing.
 - Acceptance rises for niche products, and falls for high-value deals where the fit bar is stricter.
 
-Speed to first contact: target a median under four hours, from capture to first sales contact. The source's research on speed is older and mostly from a single study, so use it as direction. Measure the client's own figures.
+Speed to first contact: target a median under four hours, from capture to first sales contact. Treat this as direction only. Measure the client's own figures.
 
 If either side breaks the SLA, the cause is discussed on the record. If sales ignores MQLs, they recycle and the budget should move. If rejections exceed about 70%, the scoring is audited.
 
@@ -123,13 +123,13 @@ Not every rejected lead should be discarded.
 - **Disqualify (remove):** no budget for 12 months or more, a competitor in use and working, no role in buying, or a timeline beyond 18 months.
 - **Recycle (nurture):** not disqualified, just not now. Mark it as on nurture hold, contact it on a one- to two-week cadence, and re-score after 60 days. Re-activate it if engagement returns.
 
-The source cites reactivation of 8 to 15% within six months, when contact is tied to a trigger event. Treat that as a hypothesis, and measure it.
+Reactivation may be higher when contact is tied to a trigger event. Treat that as a hypothesis, and measure it.
 
 ### Step 7: Build the attribution model
 
 **Single-touch models mislead.** First-touch credits content and search and ignores the middle of the journey. Last-touch credits sales outreach and ignores awareness. Linear treats a first visit and the fifteenth visit as equal. None of them describes the truth alone.
 
-**Multi-touch model.** The W-shaped model in the source gives credit to four moments:
+**Multi-touch model.** The W-shaped model gives credit to four moments:
 
 - First touch: what brought the buyer in. Default share 30%.
 - Lead creation: what made them raise their hand. Default share 20%.
@@ -149,7 +149,7 @@ Sourced is usually a minority of pipeline, and influenced is usually a large maj
 
 **Standard UTM tags.** Use four: source (channel type), medium (media type), campaign (a structured identifier), and content (the variant). Limit the campaign values to a fixed number per quarter. Uncontrolled campaign values multiply quickly and make attribution unusable. Every touch should trace back to a budget line.
 
-**Dark funnel.** A share of pipeline has no tracked source: word of mouth, direct visits, and research that was never tracked. The source gives 25 to 45% as a practice estimate. Measure the client's own share, add a "how did you hear about us" field to forms, and check a sample of closed deals by asking the buyer.
+**Dark funnel.** A share of pipeline has no tracked source: word of mouth, direct visits, and research that was never tracked. Measure the client's own share, add a "how did you hear about us" field to forms, and check a sample of closed deals by asking the buyer.
 
 **Self-reported sources** are often wrong. A sales rep may claim a deal, though the contact was in a nurture sequence three weeks earlier. Use the multi-touch data, not the source field alone.
 
@@ -172,7 +172,7 @@ A campaign can look strong on volume and weak on quality. The layers exist so th
 
 Blend three measures: the historical return on each channel, the pipeline each channel contributes, and the strategic goals. Avoid putting most of the budget into one channel, because it creates concentration risk.
 
-The source's channel mix (outbound, inbound, paid, events and partners, product-led) is an example for one kind of company. Do not adopt it without the client's own return data.
+This channel mix (outbound, inbound, paid, events and partners, product-led) is an example for one kind of company. Do not adopt it without the client's own return data.
 
 ### Step 10: Use customer interviews as marketing input
 

@@ -99,7 +99,7 @@ Any floor in this skill is a starting value. Calibrate it per client using their
 
 - **Week 1:** score the current pipeline with no consequences. The distribution is the diagnostic. A healthy pipeline shows scores rising with stage. A hope-based pipeline shows late-stage deals with early-stage evidence.
 - **Week 2:** install the gates for new stage transitions only. Existing deals are grandfathered, but flagged on the exception report.
-- **Week 4:** run the first qualify-or-kill review over the flagged backlog. Expect to remove a meaningful share of active pipeline. The source reports 15 to 30%. Treat that as a range to check against the client's own data, not a target.
+- **Week 4:** run the first qualify-or-kill review over the flagged backlog. Expect to remove a meaningful share of active pipeline. A 15 to 30% range is a starting point to check against the client's own data, not a target.
 
 ## Diagnostic questions
 

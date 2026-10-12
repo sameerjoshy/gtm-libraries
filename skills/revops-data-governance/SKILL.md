@@ -147,7 +147,7 @@ Naming prefixes by owner, for example `rev_` for revenue operations core, `mktg_
 
 Creation workflow: document the purpose, owner, data type, source, and where it is used. Check whether an existing field already covers it. Approve or reject within an agreed period. Add it to the dictionary only after approval.
 
-Deprecation, from the source's practice-based timeline (adjust to team adoption and data volume):
+Deprecation, from a practice-based timeline (adjust to team adoption and data volume):
 1. Announce to affected teams, with the replacement field named, for about two weeks.
 2. Migrate the data and sample-check it: 100 percent migrated and verified before the next step. Allow four weeks or more.
 3. Hide the field from views, forms, and workflows, and keep it readable for reporting. Allow about two weeks. Extend to twelve months for high-risk fields such as revenue, dates, and identifiers.

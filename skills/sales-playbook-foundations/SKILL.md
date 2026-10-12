@@ -96,7 +96,7 @@ Each gate has three outcomes: pass, remediation with a named gap and a re-test d
 | Typical ACV | $10K to $100K | $50K+ | Under $10K | $25K+ | $10K to $50K | $10K to $100K |
 | Best phase | Full cycle | Full cycle | Qualification | Pitch and proposal | Discovery | Discovery |
 
-These ranges are guidance from the source, not benchmarks. Check them against the client's own deal data.
+These ranges are guidance, not benchmarks. Check them against the client's own deal data.
 
 Common pairings: SPICED with Challenger for mid-market SaaS that must qualify rigorously and teach something new; MEDDIC with SPIN for multi-meeting enterprise discovery; Gap Selling with SPICED where the buyer must feel the cost of inaction; BANT as a five-minute screen before a full discovery for high-volume inbound.
 

@@ -187,7 +187,7 @@ Use R.E.P.L.Y. as a structure for a first email, alongside the messaging framewo
 
 ## Diagnose in order: list, offer, copy
 
-When replies are low, diagnose in this order: list, then offer, then copy. As the source's default weighting, the list carries about 40 percent of reply performance, the offer about 40 percent, and the copy about 20 percent. These weights are the source's defaults, to calibrate with the team's own results.
+When replies are low, diagnose in this order: list, then offer, then copy. As a default weighting, the list carries about 40 percent of reply performance, the offer about 40 percent, and the copy about 20 percent. These weights are defaults, to calibrate with the team's own results.
 
 Copy is the lever writers control, so it is the one most often over-worked. A good list and a specific, believable offer carry more weight than clever wording. Confirm the sending infrastructure before judging the copy, because mail that lands in spam gets no replies however well it is written.
 

@@ -106,7 +106,7 @@ Build the company set first, then find people at those companies. Never start wi
 
 Use the source enumerations exactly as the tool defines them. Check enum-like filter values such as industry, location, and size band against the tool's own options before a search. Guessed values return zero results or silent errors.
 
-On sources: more than one source gives better coverage, but not in a linear way. One heuristic from the source puts one source at about 60% of the addressable market, two at about 85%, and three at about 92%. Treat these numbers as a hypothesis to test in your own market. The same provider with different filters is one source, not two.
+On sources: more than one source gives better coverage, but not in a linear way. Coverage gains from extra sources are not linear. Test the coverage of each source in your own market. The same provider with different filters is one source, not two.
 
 Choose the source type by what the list needs most. Record the type in the plan, not the tool name, since tools change.
 
@@ -128,7 +128,7 @@ Before any paid step, in code or formulas:
 4. **Cross-check the CRM.** Drop anything in an active sequence or a recent open opportunity. Duplicate touches damage deliverability.
 5. **Run a sniff test.** One short pass over names and domains: does this row plausibly fit the brief? It removes obvious noise cheaply.
 
-This step typically removes a large share of the pool, often 60 to 80% in the source's experience. That is the largest saving in the process. Skipping it and enriching the full pool is the most expensive mistake.
+This step typically removes a large share of the pool, often a large share of the pool. That is the largest saving in the process. Skipping it and enriching the full pool is the most expensive mistake.
 
 ### Step 6: Run AI research one question at a time
 
@@ -214,7 +214,7 @@ Both thresholds are defaults to calibrate per client.
 
 ## Reference figures
 
-These are working numbers from the sources. Verify each one for the client's market before relying on it.
+These are working numbers. Verify each one for the client's market before relying on it.
 
 - Sales Navigator returns at most about 2,500 results per search. Segment the search to get more.
 - Email addresses decay at roughly 22 to 30% a year. Re-verify any list older than about 30 days before use.

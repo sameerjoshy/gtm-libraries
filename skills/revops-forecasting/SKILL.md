@@ -139,7 +139,7 @@ Read the direction of a miss first:
 
 ## Slippage
 
-Deals slip. Apply a haircut to Best Case and Upside rather than trusting their face value. Set the slip rate from the client's own history. Industry research cited in the source puts the figure near 36% in 2025. Use it only as a comparison point.
+Deals slip. Apply a haircut to Best Case and Upside rather than trusting their face value. Set the slip rate from the client's own history.
 
 Example: if 36% slip, multiply Best Case by 0.64. Calibrate the slip rate before using the haircut in a number.
 
