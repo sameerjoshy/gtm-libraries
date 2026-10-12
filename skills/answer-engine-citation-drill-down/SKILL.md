@@ -23,7 +23,7 @@ AI answer engines cite sources, and those sources shape how a category is descri
 
 Route elsewhere when:
 
-- The question is the brand's visibility over time. Use answer-engine visibility tracking (not yet merged).
+- The question is the brand's visibility over time. Use `answer-engine-visibility-tracking`.
 - The question is a drop in organic clicks. Use `organic-decline-diagnosis`.
 
 ## Inputs

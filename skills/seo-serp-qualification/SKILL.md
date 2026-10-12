@@ -24,7 +24,7 @@ A keyword can look attractive on volume and still be impossible to win, because 
 Route elsewhere when:
 
 - The question is the order of topics that pass. Use `seo-topic-prioritisation`.
-- The question is finding topics. Use topic research (not yet merged).
+- The question is finding topics. Use `seo-topic-research`.
 
 ## Inputs
 

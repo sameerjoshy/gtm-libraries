@@ -23,7 +23,7 @@ A list of good SEO topics is not a plan. Building the hardest topics first stall
 
 Route elsewhere when:
 
-- The question is finding topics. Use topic research (not yet merged).
+- The question is finding topics. Use `seo-topic-research`.
 - The question is whether a keyword can be won in the search results. Use `seo-serp-qualification`.
 
 ## Inputs
