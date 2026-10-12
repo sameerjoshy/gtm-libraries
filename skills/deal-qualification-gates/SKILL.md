@@ -31,7 +31,7 @@ Route elsewhere when:
 - The question is why a real deal is slow. Use `deal-velocity`.
 - A live, complex deal needs an in-flight read and a next move. Use `deal-blocker-maneuvers`.
 
-Scale rule: this skill's 1 to 5 scores and the -1 to +1 scores in `deal-blocker-maneuvers` must not be mixed in one forecast or one dashboard. Pick one per team. If both are in use, label each clearly and keep them in separate fields.
+Scale rule: this skill's 1 to 5 scores and the -1 to +1 scores in `deal-blocker-maneuvers` must not be mixed in one forecast or one dashboard. Each is kept as its own labelled field. The team's deal health score is the 0 to 100 scale in `deal-velocity` (see DECISIONS.md).
 
 ## Inputs
 

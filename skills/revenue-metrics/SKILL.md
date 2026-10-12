@@ -167,7 +167,7 @@ Score six dimensions from 0 to 3 for each open deal:
 
 Total from 0 to 18. Treat 13 to 18 as healthy, 10 to 12 as watch, and 9 or below as at risk for intervention. The thresholds are the author's defaults. Calibrate them against the client's won and lost deals.
 
-Conflict to resolve: the library now has four deal-scoring scales. `deal-qualification-gates` uses 1 to 5 per dimension. `deal-blocker-maneuvers` uses -1 to +1. The six-dimension health score here uses 0 to 3. The `account-tier-scoring` skill uses signal weights. Pick one evidence scale per team, and do not average across them.
+Scale note: the team's deal health score is the 0 to 100 scale in `deal-velocity` (see DECISIONS.md). The 0 to 3 six-dimension score above is superseded as the health score, so do not report it alongside the 0 to 100 score. The gate scale (`deal-qualification-gates`), the blocker scale (`deal-blocker-maneuvers`), and the account signal weights (`account-tier-scoring`) each serve a different purpose and are not averaged with it.
 
 ### Step 11: Measure conversations, with care
 

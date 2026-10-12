@@ -149,14 +149,14 @@ Rules:
 
 ### Step 7: Tier and pick contacts
 
-Tiering, using the default in this skill:
+Tiering, using the library default, a 100-point ICP score: A at 90 to 100, B at 70 to 89, C at 50 to 69, and D under 50. Score each account on the fit criteria agreed for the client, then tier on the score. The pass-and-signal scheme below is the alternative, for use only if the client chooses it:
 
 - **A:** passes the ICP and has an active signal, such as funding, hiring, intent, or news.
 - **B:** passes the ICP, with no active signal.
 - **C:** partial fit, worth nurturing.
 - **D:** fails the ICP. Drop it.
 
-The source list-architect uses a 100-point ICP score instead, with A at 90 to 100, B at 70 to 89, C at 50 to 69, and D under 50. Pick one tiering scheme per client and use it everywhere. Do not mix a point score with a pass-and-signal rule in the same list.
+Do not mix the point score with the pass-and-signal rule in the same list. Pick one per client (see DECISIONS.md).
 
 Contacts per company, by motion:
 

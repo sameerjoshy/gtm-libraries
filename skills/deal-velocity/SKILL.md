@@ -126,7 +126,7 @@ A deal that cannot advance without its criteria is evidence that the system, not
 
 ### Step 5: Score deal health, and choose one scheme
 
-Health can be scored in several ways. This skill offers one option: six weighted dimensions, each scored, totalling 0 to 100.
+This is the library default for deal health: six weighted dimensions, each scored, totalling 0 to 100. Use it as the team's single health score (see DECISIONS.md).
 
 | Dimension | Weight | Scoring |
 |---|---|---|
@@ -139,7 +139,7 @@ Health can be scored in several ways. This skill offers one option: six weighted
 
 Bands: 80 to 100 healthy, on the standard cadence. 60 to 79 watch, coach at the next one-to-one. 40 to 59 at risk, intervene this week. Below 40 critical, triage now.
 
-**Conflict to resolve.** This library now has five deal-scoring schemes:
+**Other scales in this library, and what each is for.** They measure different things, so they stay as separate fields:
 
 1. `deal-qualification-gates`: 1 to 5 per dimension, with stage minimum totals.
 2. `deal-blocker-maneuvers`: -1 to +1 per dimension, with stage bands.
@@ -147,7 +147,7 @@ Bands: 80 to 100 healthy, on the standard cadence. 60 to 79 watch, coach at the 
 4. `account-tier-scoring`: signal weights, for accounts rather than deals.
 5. This skill: weighted 0 to 100.
 
-Choose one evidence scale for deal health per team, and do not average across them. The first two score evidence quality. This one scores activity and process. Use it for triage and inspection, and keep deal truth on the gate scale.
+The health score is for triage and inspection. The first two scales score evidence quality for stage and blocker decisions, so keep deal truth on the gate scale. Do not average any of them together, and do not report the 0 to 18 scale alongside this score.
 
 ### Step 6: Treat single-threading as a risk
 
