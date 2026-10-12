@@ -2,7 +2,7 @@
 name: account-tier-scoring
 version: 1.0.0
 status: draft-for-review
-description: Use to tier accounts for human attention (Bronze, Silver, Gold) by combining intent or engagement with deal potential, after a gate check against the ICP. Use when accounts are scored by feel, when high-scoring accounts turn out to be too small or lack a buyer, or when deciding when an account is ready to hand to sales. Produces a tier, a score breakdown with Met, Missed, or Uncertain per dimension, a confidence level, and a handover decision. Not for ABM dashboards or ICP definition.
+description: "Use to tier accounts for human attention (Bronze, Silver, Gold) by combining intent or engagement with deal potential, after a gate check against the ICP. Use when accounts are scored by feel, when high-scoring accounts turn out to be too small or lack a buyer, or when deciding when an account is ready to hand to sales. Produces a tier, a score breakdown with Met, Missed, or Uncertain per dimension, a confidence level, and a handover decision. Not for ABM dashboards or ICP definition."
 sources:
   - "Account tier scoring (MIT, Amos Bar-Joseph), gates before judgment, employee-count verification, enterprise persona gate, never-demote rule, prior-relationship floor with genuine-evaluation check, separate ACV potential assessment, memory snapshot, verified tag writes"
   - "Score and route (MIT, Ido Goldberg / Swan), intent-by-deal-size tier matrix, visibility bias, two-pass credit gate before enrichment, lazy decay with no batch rescore, change delta"

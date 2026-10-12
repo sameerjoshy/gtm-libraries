@@ -2,7 +2,7 @@
 name: meddpicc-gap-audit
 version: 1.0.0
 status: draft-for-review
-description: Use before a forecast call, a stage change, or after a new call or email that could change qualification. Maps MEDDPICC evidence (Metrics, Economic buyer, Decision criteria, Decision process, Paper process, Identify pain, Champion, Competition) from the call and email record, cites the exact line behind every mapping, flags reversals between calls, and reconciles against CRM values where they exist. Not for scoring call behaviour (see call-scoring) or for the evidence gates in deal-qualification-gates.
+description: "Use before a forecast call, a stage change, or after a new call or email that could change qualification. Maps MEDDPICC evidence (Metrics, Economic buyer, Decision criteria, Decision process, Paper process, Identify pain, Champion, Competition) from the call and email record, cites the exact line behind every mapping, flags reversals between calls, and reconciles against CRM values where they exist. Not for scoring call behaviour (see call-scoring) or for the evidence gates in deal-qualification-gates."
 sources:
   - "Deal MEDDPICC gap audit (MIT, Amit Rotstein): transcript-first mapping, quoted citation per component, chronological ordering with reversal detection, speaker-side check, CRM reconciliation with hard-conflict versus maturity-mismatch distinction, defensibility graded separately from favourability, confirmed risk versus data gap"
   - "Removed: named meeting and CRM tools, and the write-back workflow. Writing to a CRM stays a separate, human-approved step in this library"

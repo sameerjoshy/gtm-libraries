@@ -2,7 +2,7 @@
 name: reply-pull-gate
 version: 1.0.0
 status: draft-for-review
-description: Use to score a drafted outbound message before it is sent, and to write a cold or re-engagement touch that must earn a reply from someone who owes the sender nothing. Checks four moves (show the work, poke rather than pitch, one line that could only have been written this week, and writing to be forwarded), calibrates the ask to how well the sender knows the recipient, and returns SEND or SEND BACK with the named rewrite. Clean copy is treated as the minimum, not the goal. Not for the offer's design (see cold-offer-architect).
+description: "Use to score a drafted outbound message before it is sent, and to write a cold or re-engagement touch that must earn a reply from someone who owes the sender nothing. Checks four moves (show the work, poke rather than pitch, one line that could only have been written this week, and writing to be forwarded), calibrates the ask to how well the sender knows the recipient, and returns SEND or SEND BACK with the named rewrite. Clean copy is treated as the minimum, not the goal. Not for the offer's design (see cold-offer-architect)."
 sources:
   - "Reply pull gate (MIT, Nadav David): the one-line law that a cold recipient owes nothing, four moves with at least two required per touch (three for a first step in a sequence), the rung-based calibration of the ask, the SEND or SEND BACK verdict with the named missing move"
   - "Removed: the example copy and the named prospects in the source. The moves are restated as checks"

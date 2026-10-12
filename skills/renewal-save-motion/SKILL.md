@@ -2,7 +2,7 @@
 name: renewal-save-motion
 version: 1.0.0
 status: draft-for-review
-description: Use when a customer renewal is at risk, or when a renewal falls inside 120 days. Runs a renewal clock from T-120 with a CLEAN, WATCH, or AT-RISK verdict at each checkpoint, names the failure mode before acting (value gap, adoption gap, champion loss, sponsor shift, or competitive displacement), applies commercial levers in a fixed order with the discount last, decides save or release explicitly, and reports save rate by failure mode. Starts from a risk flag raised by upstream detection. Not for expansion on healthy accounts, or for the full customer success organisation design.
+description: "Use when a customer renewal is at risk, or when a renewal falls inside 120 days. Runs a renewal clock from T-120 with a CLEAN, WATCH, or AT-RISK verdict at each checkpoint, names the failure mode before acting (value gap, adoption gap, champion loss, sponsor shift, or competitive displacement), applies commercial levers in a fixed order with the discount last, decides save or release explicitly, and reports save rate by failure mode. Starts from a risk flag raised by upstream detection. Not for expansion on healthy accounts, or for the full customer success organisation design."
 sources:
   - "Renewal save motion (MIT, Rutger Katz / Neon Triforce), renewal clock with checkpoints, risk triage by failure mode, commercial levers in order, save-versus-release decision, scorekeeping by failure mode, signal-to-action lag"
   - "Retention benchmarks in the source (gross retention medians, acquisition-to-retention cost ratios) are industry survey figures from different years, context only"

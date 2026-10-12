@@ -2,7 +2,7 @@
 name: account-progression-staging
 version: 1.0.0
 status: draft-for-review
-description: Use to assign each account a single progression stage (unaware, aware, engaged, qualified, sales-ready, customer) from its full signal record, using rules that give the same result for the same inputs. Requires a buying group of several distinct contacts before an account can advance, so one enthusiastic user cannot fake momentum. Records each stage entry with its evidence, and shows whether an activity moved accounts forward, not just whether it produced clicks. Not for individual lead scoring (see account-tier-scoring).
+description: "Use to assign each account a single progression stage (unaware, aware, engaged, qualified, sales-ready, customer) from its full signal record, using rules that give the same result for the same inputs. Requires a buying group of several distinct contacts before an account can advance, so one enthusiastic user cannot fake momentum. Records each stage entry with its evidence, and shows whether an activity moved accounts forward, not just whether it produced clicks. Not for individual lead scoring (see account-tier-scoring)."
 sources:
   - "Account progression staging (MIT, Steve Armenti): single stage per account from the full signal stack, deterministic and auditable rules, buying-group gate requiring multiple distinct contacts, stage-entry events with evidence snapshot and time in prior stage, delta versus baseline for conversion and velocity, tunable thresholds"
   - "Removed: the named CRM and channel placeholders, and the example thresholds, which are replaced by defaults to calibrate"

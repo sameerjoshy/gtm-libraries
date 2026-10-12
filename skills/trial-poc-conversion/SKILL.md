@@ -2,7 +2,7 @@
 name: trial-poc-conversion
 version: 1.0.0
 status: draft-for-review
-description: Use when trials go nowhere, prospects want to test before buying, or evaluations expire without a verdict. Designs trials, POCs, and pilots as decision processes: picks the evaluation motion, contracts success criteria and the consequence before granting access, defines and instruments an activation milestone, runs a decision-forcing clock, and closes out expired evaluations as logged outcomes. Not for qualification (see deal-qualification-gates) or the procurement steps after a win (see procurement-navigation).
+description: "Use when trials go nowhere, prospects want to test before buying, or evaluations expire without a verdict. Designs trials, POCs, and pilots as decision processes: picks the evaluation motion, contracts success criteria and the consequence before granting access, defines and instruments an activation milestone, runs a decision-forcing clock, and closes out expired evaluations as logged outcomes. Not for qualification (see deal-qualification-gates) or the procurement steps after a win (see procurement-navigation)."
 sources:
   - "Trial and POC conversion (MIT, Rutger Katz / Neon Triforce): evaluation as a mutual project with an end date, choosing the motion per segment, the entry gate (criteria, then-what, owners, clock), activation-first design, midpoint readout, criteria-met and criteria-missed endings, zombie-trial hygiene"
   - "Removed as unverified: trial-to-paid ranges, activation-conversion splits, buyer-survey figures on ROI expectations and speed of deployment. These are replaced with the instruction to measure the client's own cohorts"

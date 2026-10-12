@@ -2,7 +2,7 @@
 name: citation-source-outreach
 version: 1.0.0
 status: draft-for-review
-description: Use when the sources that AI answers cite in a category are known and the brand is missing from them. Ranks target sources by how many category answers each one feeds, matches the ask to the source type, works the list like a pipeline, and re-measures the affected questions after each placement to prove the change. Not for choosing which content to build (see answer-engine-citation-drill-down) or for measuring visibility (see answer-engine-visibility-tracking). Never astroturfs community threads and never presents paid placements as organic mentions.
+description: "Use when the sources that AI answers cite in a category are known and the brand is missing from them. Ranks target sources by how many category answers each one feeds, matches the ask to the source type, works the list like a pipeline, and re-measures the affected questions after each placement to prove the change. Not for choosing which content to build (see answer-engine-citation-drill-down) or for measuring visibility (see answer-engine-visibility-tracking). Never astroturfs community threads and never presents paid placements as organic mentions."
 sources:
   - "Citation gap outreach (MIT, Huxley Peckham): ranking target sources by the answers they feed rather than by authority, the ask matched to each source type (listing, comparison page, community thread, publication), tracking each target as a row, re-measuring the affected questions after a placement, and the observation that answers quote specifics such as numbers and comparisons rather than adjectives"
   - "Removed: the named monitoring tool and the named source examples. The method is restated for any category"

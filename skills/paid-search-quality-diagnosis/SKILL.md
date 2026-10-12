@@ -2,7 +2,7 @@
 name: paid-search-quality-diagnosis
 version: 1.0.0
 status: draft-for-review
-description: Use when paid search keywords are expensive relative to competitors, ads are not showing as expected, or someone asks why ads are not showing without a budget explanation. Treats the keyword quality score as a diagnostic, not a target, breaks it into its three components (expected click-through rate, ad relevance, and landing page experience), weights the fix list by spend, and routes each below-average component to a different fix. Not for the budget envelope (see paid-search-budget-reallocation) or the forecast maths (see paid-search-unit-economics).
+description: "Use when paid search keywords are expensive relative to competitors, ads are not showing as expected, or someone asks why ads are not showing without a budget explanation. Treats the keyword quality score as a diagnostic, not a target, breaks it into its three components (expected click-through rate, ad relevance, and landing page experience), weights the fix list by spend, and routes each below-average component to a different fix. Not for the budget envelope (see paid-search-budget-reallocation) or the forecast maths (see paid-search-unit-economics)."
 sources:
   - "Quality score diagnosis and prioritisation (MIT, John Williams): quality score as a diagnostic rather than a KPI, the three components each rated below average, average, or above average, the weighting of the fix list by spend rather than by score, and the routing of each below-average component to a different cause and fix"
   - "Removed: the platform's report paths and column names, and the named bidding terms. The landing page fix routing is restated in general terms"

@@ -2,7 +2,7 @@
 name: community-post-preflight
 version: 1.0.0
 status: draft-for-review
-description: Use immediately before a brand posts anything, or shares a link, in an online community forum, to check whether the post is allowed and likely to stay up. Runs four checks in order (the community's rules, whether it is restricted or private, whether the link has been shared before, and the community's own posting norms), then gives a go or no-go verdict with the specific rule at issue and an alternative where one exists. Not for judging a comment's tone (see community-comment-safety).
+description: "Use immediately before a brand posts anything, or shares a link, in an online community forum, to check whether the post is allowed and likely to stay up. Runs four checks in order (the community's rules, whether it is restricted or private, whether the link has been shared before, and the community's own posting norms), then gives a go or no-go verdict with the specific rule at issue and an alternative where one exists. Not for judging a comment's tone (see community-comment-safety)."
 sources:
   - "Community post preflight (MIT, Yahav Fuchs), restated for community forums in general: the four checks in order (rules, community type, duplicate link, and the wiki's posting norms), the go or no-go verdict with its constraints, and the principle that a rule-quoting check is the cheapest insurance against the most expensive mistake"
   - "Removed: the platform's command reference and the named forum platform. The verdict format is kept"

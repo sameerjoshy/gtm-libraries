@@ -2,7 +2,7 @@
 name: bridge-before-cold
 version: 1.0.0
 status: draft-for-review
-description: Use before staging a prospect and before drafting any first touch, when a segment has gone quiet, and when deciding whether an account is genuinely cold. Walks a ranked ladder of bridges the team can verify (prior contact, past delivery, a reference, a network edge, a shared conversation, a shared event, a peer's reply, a dated trigger), stops at the first verified rung, and writes a one-line premise for each contact. A contact is declared cold only after the search fails. Not for the message itself (see reply-pull-gate or personalised-first-touch).
+description: "Use before staging a prospect and before drafting any first touch, when a segment has gone quiet, and when deciding whether an account is genuinely cold. Walks a ranked ladder of bridges the team can verify (prior contact, past delivery, a reference, a network edge, a shared conversation, a shared event, a peer's reply, a dated trigger), stops at the first verified rung, and writes a one-line premise for each contact. A contact is declared cold only after the search fails. Not for the message itself (see reply-pull-gate or personalised-first-touch)."
 sources:
   - "Bridge before cold (MIT, Nadav David): the one-line law that cold is what is left after the bridge search fails, the four lanes (inbound, postbound, bridgebound, cold) and what each licenses, the ranked bridge ladder walked top down with a dated, sourced fact at each rung, and the premise line as a checkable output"
   - "Removed: the reference file of floors and freshness windows, which is not used. Windows are restated as defaults"

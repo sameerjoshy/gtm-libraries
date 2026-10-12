@@ -2,7 +2,7 @@
 name: positioning-messaging-designer
 version: 1.0.0
 status: draft-for-review
-description: Use to turn an evidenced ICP into a positioning and messaging framework: the twelve positioning elements, one repeatable positioning line, a Use Case Messaging Canvas built from customers' own words, and the opposites method that writes the messaging from the contrast between old and new ways. Also covers testing the framework with real calls and rolling it out to sales. Use when messaging is inconsistent across channels, when positioning is vague, or when copy is being written before the positioning exists. Not for building the ICP (see icp-builder) or writing channel copy.
+description: "Use to turn an evidenced ICP into a positioning and messaging framework: the twelve positioning elements, one repeatable positioning line, a Use Case Messaging Canvas built from customers' own words, and the opposites method that writes the messaging from the contrast between old and new ways. Also covers testing the framework with real calls and rolling it out to sales. Use when messaging is inconsistent across channels, when positioning is vague, or when copy is being written before the positioning exists. Not for building the ICP (see icp-builder) or writing channel copy."
 sources:
   - "Positioning and messaging designer (MIT, Rutger Katz / Neon Triforce): the ICP to positioning to messaging to copy chain, the twelve positioning elements, six positioning line formulas, the Use Case Messaging Canvas, the opposites method, the three messaging tools, post-launch validation signals, the 30-second clarity test, the 30-day validation sprint, the sales rollout sequence, and the common mistakes"
   - "Removed as unverified: the buyer-time statistic from a 2018 analyst note used as a reason to simplify messaging (the principle is kept without the figure), the call-volume anecdote, the 'five decks in six months' norm, and the named sales-engagement and conversation-intelligence tools. The LLM-assisted sections are kept as practices to test, not as results"
@@ -123,7 +123,7 @@ Three tools work together.
 | Canvas | Where to put it (structure) | Copy outlines |
 | Opposites | How to say it (contrast) | Every headline, email, and talk track |
 
-The canvas feeds LinkedIn posts, website copy, sales decks, email sequences, and proposal templates. Old-way and new-way contrasts tend to work well in short-form content, but test that on the client's own audience before relying on it.
+The canvas feeds social posts, website copy, sales decks, email sequences, and proposal templates. Old-way and new-way contrasts tend to work well in short-form content, but test that on the client's own audience before relying on it.
 
 ### Step 5: Validate against real signals
 

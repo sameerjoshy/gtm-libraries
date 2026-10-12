@@ -2,7 +2,7 @@
 name: creator-discovery-and-vetting
 version: 1.0.0
 status: draft-for-review
-description: Use to find and vet B2B creators for a campaign, starting from the buyer rather than the follower count. Sets out five ways to find creators (mining engaged audiences, topic search on problem language, second-degree analysis, competitor sponsorships, and vetted marketplaces), and a vetting order that checks audience fit, engagement quality, consistency, and authentic voice before follower count is considered. Produces a shortlist with evidence for each creator. Not for the programme strategy (see creator-programme-strategy) or the price (see creator-rate-band).
+description: "Use to find and vet B2B creators for a campaign, starting from the buyer rather than the follower count. Sets out five ways to find creators (mining engaged audiences, topic search on problem language, second-degree analysis, competitor sponsorships, and vetted marketplaces), and a vetting order that checks audience fit, engagement quality, consistency, and authentic voice before follower count is considered. Produces a shortlist with evidence for each creator. Not for the programme strategy (see creator-programme-strategy) or the price (see creator-rate-band)."
 sources:
   - "Find and vet B2B creators (MIT, Thomas Marcelle): the principle of treating sourcing as an audience problem, the five discovery methods, and the vetting order that puts audience fit and engagement quality ahead of follower count"
   - "Removed: the named professional network's search features and the named creator marketplace. The marketplace is kept as a category"

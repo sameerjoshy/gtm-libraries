@@ -2,7 +2,7 @@
 name: gtm-planning-org-design
 version: 1.0.0
 status: draft-for-review
-description: Use for go-to-market planning, choosing a motion and touch model, territory design, bottoms-up capacity and headcount planning, revenue org structure, and the RevOps function's staffing. Use when the sales team structure does not fit the deal size, territories look unfair, a revenue target has no capacity behind it, or a hiring plan is being built. Produces a motion decision, territory and capacity model, headcount and hiring plan, and efficiency checks, with assumptions labelled. Not for comp plans, ICP definition, or forecasting.
+description: "Use for go-to-market planning, choosing a motion and touch model, territory design, bottoms-up capacity and headcount planning, revenue org structure, and the RevOps function's staffing. Use when the sales team structure does not fit the deal size, territories look unfair, a revenue target has no capacity behind it, or a hiring plan is being built. Produces a motion decision, territory and capacity model, headcount and hiring plan, and efficiency checks, with assumptions labelled. Not for comp plans, ICP definition, or forecasting."
 sources:
   - "GTM planning and org design (MIT, Rutger Katz / Neon Triforce), touch models by ACV and buyer, motion selection from product and buyer, growth-stage org patterns, territory models and sizing, team ratios, headcount model, ramp curves, efficiency ratios, expansion phases, retention math kept separate from acquisition math"
   - "RevOps org chart and team design (MIT, Rutger Katz / Neon Triforce), RevOps team size by stage, four role archetypes, hiring sequence, Systems Architect engagement modes"
@@ -262,6 +262,6 @@ Never run two new motions at the same time. Add the adjacent motion only when th
 - Does not define the ICP. Use `icp-builder`.
 - Does not forecast bookings period by period or set forecast categories. A forecasting skill is needed for that.
 - Does not inspect the live pipeline. Use `pipeline-review`.
-- Does not design the RevOps system or CRM configuration. Use `revops-data-governance` for data standards, and a platform skill for configuration.
+- Does not design the RevOps system or CRM configuration. Use `revops-data-governance` for data standards, and `revops-salesforce` for Salesforce configuration.
 - Does not set discount policy.
 - Does not write outreach or messaging.

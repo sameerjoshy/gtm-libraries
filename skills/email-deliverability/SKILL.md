@@ -2,7 +2,7 @@
 name: email-deliverability
 version: 1.0.0
 status: draft-for-review
-description: Use when emails land in spam, open rates drop, a domain or IP is blocklisted, a new sender needs to warm up, or a deliverability audit is wanted before volume is scaled. Produces either a severity-ranked audit of the sending setup or a root-cause diagnosis with a recovery plan and the thresholds to monitor. Covers infrastructure, data quality, content, and traffic shape. Not for the first cold campaign's launch checks (see cold-email-preflight).
+description: "Use when emails land in spam, open rates drop, a domain or IP is blocklisted, a new sender needs to warm up, or a deliverability audit is wanted before volume is scaled. Produces either a severity-ranked audit of the sending setup or a root-cause diagnosis with a recovery plan and the thresholds to monitor. Covers infrastructure, data quality, content, and traffic shape. Not for the first cold campaign's launch checks (see cold-email-preflight)."
 sources:
   - "Email deliverability audit and rescue (MIT, Joshua Waldman): proactive audit versus active diagnosis, four pillars (infrastructure, data, content, traffic shape) in order, bounce thresholds and the distinction between soft and hard bounces, per-provider throttling, a week-over-week volume cap, classification of blocklisting, content filtering, broken authentication, and new-sender cases, monitoring thresholds"
   - "Cold email warm-up and rotation (MIT, Imad Badreddine): inbox warm-up ramp, multi-sender rotation, and warm-up for new mailboxes, restated as a single warm-up procedure"

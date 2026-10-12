@@ -2,7 +2,7 @@
 name: cold-offer-architect
 version: 1.0.0
 status: draft-for-review
-description: Use before writing cold copy, or when cold outreach is not converting despite clean writing. Builds an offer as a complete value-for-value deal (specific outcome, believable mechanism, risk on the seller, low effort for the buyer, proof embedded) and scores it against an eight-criterion pass or fail gate. Covers cold email, cold DMs, and cold ads. Not for the copy, sequence, or list, which come after the offer passes.
+description: "Use before writing cold copy, or when cold outreach is not converting despite clean writing. Builds an offer as a complete value-for-value deal (specific outcome, believable mechanism, risk on the seller, low effort for the buyer, proof embedded) and scores it against an eight-criterion pass or fail gate. Covers cold email, cold DMs, and cold ads. Not for the copy, sequence, or list, which come after the offer passes."
 sources:
   - "Cold offer architect (MIT, Tanyo Gochev): fix order of market, offer, copy, list, then volume; offer versus opener; eight binary criteria with the rule that any failed criterion blocks shipping; proof embedded in the offer; value before any meeting ask; the forcing loop of architect, score, fix lowest, re-score"
   - "Removed: the amplification ladders and symptom table in the source's reference files, which this library does not reproduce. The criteria and the loop are restated here in the library's own wording"

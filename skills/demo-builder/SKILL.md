@@ -2,7 +2,7 @@
 name: demo-builder
 version: 1.0.0
 status: draft-for-review
-description: Use to build a demo script or live demo prep that starts with the outcome, reaches the mechanism early, shows two or three use cases, goes deep only when the buyer asks, and closes on one next step. Covers pre-recorded demos and live demos, with talk tracks, click paths, objection handles, and a post-demo debrief. Use when a demo is a feature tour, when a demo script is needed, or when a recording is to be made. Not for choosing which pains to demonstrate (see discovery-to-demo-bridge).
+description: "Use to build a demo script or live demo prep that starts with the outcome, reaches the mechanism early, shows two or three use cases, goes deep only when the buyer asks, and closes on one next step. Covers pre-recorded demos and live demos, with talk tracks, click paths, objection handles, and a post-demo debrief. Use when a demo is a feature tour, when a demo script is needed, or when a recording is to be made. Not for choosing which pains to demonstrate (see discovery-to-demo-bridge)."
 sources:
   - "B2B demo builder (MIT, Monica Dinu): outcome-first structure, six phases (outcome, magic, use cases, depth, close, debrief), tiered pre-work with a demo thesis, length defaults, the rule that every demonstrated capability must be on the capability list, realistic data, and the post-demo debrief rule that a repeated correction is a skill gap"
   - "Removed: named research sources cited in the source as the basis of the framework, which this library does not reproduce; reference file paths, which are replaced by inline structure"

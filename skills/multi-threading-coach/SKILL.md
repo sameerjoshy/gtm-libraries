@@ -2,7 +2,7 @@
 name: multi-threading-coach
 version: 1.0.0
 status: draft-for-review
-description: Use on a live deal that depends on one contact, when the champion has gone quiet, when nobody can name the decision-maker, or when the buying process is about to get bigger. Maps the buying committee, scores each contact on access (can you reach them) and influence (do they move the decision), flags single-thread risk, and produces a coalition plan with a reason and a talking point for each new thread. Not for blast outreach.
+description: "Use on a live deal that depends on one contact, when the champion has gone quiet, when nobody can name the decision-maker, or when the buying process is about to get bigger. Maps the buying committee, scores each contact on access (can you reach them) and influence (do they move the decision), flags single-thread risk, and produces a coalition plan with a reason and a talking point for each new thread. Not for blast outreach."
 sources:
   - "Multi-threading coach (MIT, Gal Aga), access and influence scoring, 2x2 priority quadrant, single-thread risk flag, champion-led introductions, persona talking points, re-check cadence"
   - "Contact mapping and multi-threading (MIT, Ido Goldberg / Swan): relationship-strength categories, former contacts who moved as the highest-value hook, role-gap flags at the top of the map, intro-first routing when a champion exists, and a 30-day engagement exclusion. Persona model and CRM tool names are replaced with generic steps"

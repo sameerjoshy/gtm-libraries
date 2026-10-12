@@ -2,18 +2,18 @@
 name: gtm-command-center
 version: 1.0.0
 status: draft-for-review
-description: Use when one GTM operator's work is spread across many tools and the day is spent switching between them. Builds one personal operating view that shows only the lanes the operator acts on, with one source of truth per lane, read-mostly, and a daily roll-up of what needs attention today. Includes a rule for keeping any shared view free of private working notes. Not for building a team dashboard of metrics (see revenue-metrics).
+description: "Use when one GTM operator's work is spread across many tools and the day is spent switching between them. Builds one personal operating view that shows only the lanes the operator acts on, with one source of truth per lane, read-mostly, and a daily roll-up of what needs attention today. Includes a rule for keeping any shared view free of private working notes. Not for building a team dashboard of metrics (see revenue-metrics)."
 sources:
   - "GTM command center (MIT, Gali Firon): cut the lanes to those where the operator takes action, one source of truth per lane with a mirror rather than a copy, read-mostly surface with only low-friction actions, a daily roll-up of what needs the operator today, and a clean-room separation between private working surface and any teammate-facing view"
   - "Removed: the references to specific tools, and the lane catalogue and data-contract files, which are not used"
   - "Adapted for GTM-360: the daily roll-up and the rule that a shared view carries no private notes or raw scores are kept as hard rules"
 ---
 
-# GTM command center
+# GTM command centre
 
 ## Purpose
 
-An operator who checks four tools to find out what to do today is losing time reconstructing their own day. A command center puts the lanes they act on in one place and shows what needs them now. Its value comes from what it leaves out. A surface that copies every tool becomes one more thing to keep in sync, and people go back to the tabs.
+An operator who checks four tools to find out what to do today is losing time reconstructing their own day. A command centre puts the lanes they act on in one place and shows what needs them now. Its value comes from what it leaves out. A surface that copies every tool becomes one more thing to keep in sync, and people go back to the tabs.
 
 ## When to use
 

@@ -2,7 +2,7 @@
 name: crm-migration-consolidation
 version: 1.0.0
 status: draft-for-review
-description: Use when two or more CRM instances must be merged, when a company moves to a new CRM, or when a post-merger team has to decide whether to consolidate or run two systems side by side. Covers the consolidate-or-coexist decision, system of record per object, data harmonisation, deduplication and identity resolution, historical data, the ID crosswalk that makes rollback possible, rebuilding automations, re-pointing integrations, cutover and rollback, KPI re-baselining, GDPR carry-over, and the ARR tie-out to finance. Platform-neutral. For Salesforce configuration see revops-salesforce; for the wider post-merger plan see revops-change-management.
+description: "Use when two or more CRM instances must be merged, when a company moves to a new CRM, or when a post-merger team has to decide whether to consolidate or run two systems side by side. Covers the consolidate-or-coexist decision, system of record per object, data harmonisation, deduplication and identity resolution, historical data, the ID crosswalk that makes rollback possible, rebuilding automations, re-pointing integrations, cutover and rollback, KPI re-baselining, GDPR carry-over, and the ARR tie-out to finance. Platform-neutral. For Salesforce configuration see revops-salesforce; for the wider post-merger plan see revops-change-management."
 sources:
   - "CRM migration and consolidation (MIT, Rutger Katz / Neon Triforce): consolidate-or-coexist decision, system of record per object, harmonisation layer, identity resolution with match keys and survivorship, historical data options, ID crosswalk, automation rebuild, integration audit and cutover sequence, rollback, reporting bridge, GDPR carry-over, ARR tie-out, adoption playbook, sequencing"
   - "Removed as unverified or vendor-sourced: the headline failure rate, cost multipliers for post-migration clean-up, contact decay and duplicate-rate percentages, deduplication effort estimates, the fuzzy-match coverage figure, training-return percentages, vendor and tool prices, the tool comparison table, and the 100-day PE playbook's quoted anecdote. Timelines are kept as planning ranges to validate, not as facts"
@@ -154,7 +154,7 @@ Do not try to export workflows from one system and import them into another. Tri
 
 ### Step 8: Audit and re-point the integrations
 
-Every system that touches the CRM must be listed and re-pointed to the target. Sales engagement tools, billing, enrichment, intent data, BI tools, finance connectors, email sync, Slack bots, and in-house apps all count.
+Every system that touches the CRM must be listed and re-pointed to the target. Sales engagement tools, billing, enrichment, intent data, BI tools, finance connectors, email sync, chat bots, and in-house apps all count.
 
 For each integration, record:
 

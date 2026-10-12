@@ -2,7 +2,7 @@
 name: outbound-cold-email
 version: 1.0.0
 status: draft-for-review
-description: Use when writing or reviewing a cold email or a multi-step cold sequence for a named account, contact, list, or signal. Picks the hook from the strongest real trigger, matches the org's voice, sets the sequence shape and cadence, applies a seven-point final gate, and stages every message for approval. Covers the deliverability limits that cap volume. Not for replies to existing threads (see reply-handling) or for LinkedIn and phone outreach.
+description: "Use when writing or reviewing a cold email or a multi-step cold sequence for a named account, contact, list, or signal. Picks the hook from the strongest real trigger, matches the org's voice, sets the sequence shape and cadence, applies a seven-point final gate, and stages every message for approval. Covers the deliverability limits that cap volume. Not for replies to existing threads (see reply-handling) or for LinkedIn and phone outreach."
 sources:
   - "Reach out (MIT, Ido Goldberg / Swan), hook ladder, signal never as opener, voice precedence, draft rules, cadence defaults, seven-point final gate, stage for approval"
   - "Cold email 4-sequence (MIT, Alex Vacca / Frontal), trigger opener, pain email, delegation ask, break-up, BTL and ATL length rules, timing"
@@ -27,7 +27,7 @@ Write cold email that a named person could only receive from you, that has a rea
 Route elsewhere when:
 
 - The contact has replied. Use `reply-handling`.
-- The request is for LinkedIn or a phone script. Those are separate motions.
+- The request is for a social message or a phone script. Those are separate motions.
 - The request is about inbox setup or domain health alone. That is an infrastructure task for the client's ops owner.
 
 ## Inputs

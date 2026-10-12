@@ -2,7 +2,7 @@
 name: newsletter-performance-report
 version: 1.0.0
 status: draft-for-review
-description: Use to build a performance report for a newsletter sponsor, client, or owner that a non-technical reader can understand in under a minute and still trust. Covers audience growth, open and click rates with their denominators stated, audience segmentation, a month-over-month summary, an engaged-reader list, per-issue measures, and a refresh pattern that keeps the narrative in step with the numbers. Not for writing the issues (see newsletter-issue-formats) or the sponsor's own pitch.
+description: "Use to build a performance report for a newsletter sponsor, client, or owner that a non-technical reader can understand in under a minute and still trust. Covers audience growth, open and click rates with their denominators stated, audience segmentation, a month-over-month summary, an engaged-reader list, per-issue measures, and a refresh pattern that keeps the narrative in step with the numbers. Not for writing the issues (see newsletter-issue-formats) or the sponsor's own pitch."
 sources:
   - "Newsletter performance report (MIT, Ryan Estes): the purpose of turning raw publication data into a readable report, the click-rate trap caused by using opens as the denominator, the audience growth and segmentation views, the month-over-month synopsis, the engaged-reader export, per-issue measures, and the pattern for keeping a report refreshed automatically without the narrative drifting from the numbers"
   - "Removed: the named newsletter platform, its API field names, the external sponsor client, and the tool-building notes. The trap and the report structure are restated for any publication platform"

@@ -2,7 +2,7 @@
 name: cs-operations
 version: 1.0.0
 status: draft-for-review
-description: Use when customers churn without warning, red accounts pile up, renewal conversations turn contentious, or expansion-ready accounts slip away. Designs the post-sale operating model: a five-dimension health score refreshed weekly, traffic-light triage into rescue or renewal-risk mode, the renewal timeline from T-120, event playbooks, coverage tiers, discount governance, churn autopsies, and the customer-to-product feedback loop. Tool-neutral. Not for expansion scoring and whitespace (see expansion-revenue-architect) or the Sales-to-CS handoff mechanics (see revenue-handoffs).
+description: "Use when customers churn without warning, red accounts pile up, renewal conversations turn contentious, or expansion-ready accounts slip away. Designs the post-sale operating model: a five-dimension health score refreshed weekly, traffic-light triage into rescue or renewal-risk mode, the renewal timeline from T-120, event playbooks, coverage tiers, discount governance, churn autopsies, and the customer-to-product feedback loop. Tool-neutral. Not for expansion scoring and whitespace (see expansion-revenue-architect) or the Sales-to-CS handoff mechanics (see revenue-handoffs)."
 sources:
   - "Customer success operations (MIT, Rutger Katz / Neon Triforce), four-pillar operating model, CS maturity stages, five-dimension health score and its weights, traffic-light bands, anti-patterns, renewal timeline T-120 to T+7, event-based playbooks, discount sunset governance, churn autopsy and feedback loop, cadence design"
   - "Vendor claims removed: platform feature lists, ML churn-accuracy and churn-reduction percentages, AI-agent productivity claims, vendor coverage ratios, dated survey medians, and a survey-tool shutdown note. Benchmarks are context only"
@@ -61,7 +61,7 @@ Score the current state with the maturity stages in Step 2.
 | Stage | Health scoring | Renewals | Expansion | Governance |
 |---|---|---|---|---|
 | Reactive | None. The team responds to churn. | Ad hoc, customer-led | Accidental | CS isolated, no feedback loops |
-| Defined | Manual, based on CSM judgment | A playbook starts about 60 days before expiry | Signals found inconsistently | A written handoff exists |
+| Defined | Manual, based on CSM judgement | A playbook starts about 60 days before expiry | Signals found inconsistently | A written handoff exists |
 | Proactive | A composite score, updated weekly, with alerts | Automated 90-day process with save plays | A scoring model and targeted outreach | Quarterly CS and product reviews |
 | Predictive | A calibrated model, checked against outcomes | Preventive interventions | Expansion scoring feeds the sales pipeline | Near-real-time feedback loops |
 

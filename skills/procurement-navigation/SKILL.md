@@ -2,7 +2,7 @@
 name: procurement-navigation
 version: 1.0.0
 status: draft-for-review
-description: Use when a verbally won deal enters security review, legal redlines, privacy terms, or vendor onboarding, and the close date keeps slipping at contract stage. Maps the buyer's gauntlet before the proposal, pre-builds the artifact pack for security, legal, and privacy, runs the reviews in parallel on a mutual close plan, and negotiates with procurement by trading concessions rather than giving them. Not for qualification (see sales-methodology) or discount approval (see deal-desk-operations).
+description: "Use when a verbally won deal enters security review, legal redlines, privacy terms, or vendor onboarding, and the close date keeps slipping at contract stage. Maps the buyer's gauntlet before the proposal, pre-builds the artifact pack for security, legal, and privacy, runs the reviews in parallel on a mutual close plan, and negotiates with procurement by trading concessions rather than giving them. Not for qualification (see sales-methodology) or discount approval (see deal-desk-operations)."
 sources:
   - "Procurement and security review navigation (MIT, Rutger Katz / Neon Triforce): mapping the gauntlet early, the standing artifact pack with owners and review dates, the mutual close plan, escalation through the sponsor, trading concessions, logging gauntlet duration by step"
   - "Removed as unverified: the win-rate figures by days to close and the benchmark attributed to a 2025 industry report. The point that long cycles hurt is kept as a hypothesis to measure on the client's own deals"

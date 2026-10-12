@@ -2,7 +2,7 @@
 name: organic-decline-diagnosis
 version: 1.0.0
 status: draft-for-review
-description: Use when B2B organic search traffic has fallen, to decide whether the loss is a healthy shift in how people consume answers (more answers shown without a click, while visibility holds) or a real threat to pipeline (visibility is falling too). Runs two stages: first compare impressions with clicks for identical queries, then split queries into brand, non-brand commercial, and non-brand informational, and correlate each with pipeline before routing the fix. Not for finding new topics (see seo-topic-research).
+description: "Use when B2B organic search traffic has fallen, to decide whether the loss is a healthy shift in how people consume answers (more answers shown without a click, while visibility holds) or a real threat to pipeline (visibility is falling too). Runs two stages: first compare impressions with clicks for identical queries, then split queries into brand, non-brand commercial, and non-brand informational, and correlate each with pipeline before routing the fix. Not for finding new topics (see seo-topic-research)."
 sources:
   - "Zero-click organic pipeline audit (MIT, Gaetano Romeo): the two-stage evaluation (visibility against click consumption, then intent segmentation with pipeline correlation), the labels Zero-Click Shift and Visibility Loss, and the routing of corrective action by intent-level metrics"
   - "Removed: the named analytics tools and the query export steps, which are replaced by general instructions. The thresholds for the labels are restated as defaults"

@@ -2,7 +2,7 @@
 name: abm-account-engagement-report
 version: 1.0.0
 status: draft-for-review
-description: Use when the user has account-level ad data (for example a LinkedIn rate accounts CSV) plus pipeline data and wants a client-facing ABM account engagement dashboard showing funnel progression, a scored account leaderboard, segment analysis, and an action plan. Not for a single-account brief (see account-research-brief) or a monthly report (see linkedin-ads-monthly-report).
+description: "Use when the user has account-level ad data (for example a platform rate accounts CSV) plus pipeline data and wants a client-facing ABM account engagement dashboard showing funnel progression, a scored account leaderboard, segment analysis, and an action plan. Not for a single-account brief (see account-research-brief) or a monthly report (see linkedin-ads-monthly-report)."
 sources:
   - "abm-account-engagement-report (MIT, Swan 2026), core structure and scoring"
   - "abm-engagement-scoring and abm-account-engagement-report variants (MIT, Justin Rowe and Rutger Katz), reporting and scoring method"

@@ -2,7 +2,7 @@
 name: off-domain-conversion-tracking
 version: 1.0.0
 status: draft-for-review
-description: Use when paid ads send people to a webinar, event, or registration page hosted on a third-party platform, and the ad platform needs to see the sign-up even though it happens off the company's domain. Sets out the problem (the sign-up is invisible to a pixel on the company's own site), the two decisions (where the conversion is tracked, and how it is passed back), and the checks that the signal arrives. Not for conversions on the company's own site (see conversion-feedback-to-ad-platforms).
+description: "Use when paid ads send people to a webinar, event, or registration page hosted on a third-party platform, and the ad platform needs to see the sign-up even though it happens off the company's domain. Sets out the problem (the sign-up is invisible to a pixel on the company's own site), the two decisions (where the conversion is tracked, and how it is passed back), and the checks that the signal arrives. Not for conversions on the company's own site (see conversion-feedback-to-ad-platforms)."
 sources:
   - "Off-domain conversion tracking for webinars and events (MIT, Ivan Falco): the problem of a sign-up that completes on a third-party platform, the two decisions (pixel in the platform versus confirmation page on the company's site), and the rule to confirm the signal reaches the ad platform before spend scales"
   - "Removed: the named event and webinar platforms, and their settings paths. The choice is restated as a general decision"

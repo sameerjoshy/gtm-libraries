@@ -2,7 +2,7 @@
 name: lead-routing-design
 version: 1.0.0
 status: draft-for-review
-description: Use when designing or fixing how inbound or outbound leads are assigned to reps: the routing decision order, the routing model (geographic, named account, round-robin, weighted, skills-based, load-balanced, or hybrid), speed-to-lead SLAs with escalation, account-based routing for existing accounts, and the quarterly routing audit. Covers strategy and logic, independent of CRM. For CRM build-out, use the platform skill. For scoring leads, see marketing operations.
+description: "Use when designing or fixing how inbound or outbound leads are assigned to reps: the routing decision order, the routing model (geographic, named account, round-robin, weighted, skills-based, load-balanced, or hybrid), speed-to-lead SLAs with escalation, account-based routing for existing accounts, and the quarterly routing audit. Covers strategy and logic, independent of CRM. For CRM build-out, see revops-salesforce for Salesforce configuration. For scoring leads, see marketing-operations."
 sources:
   - "Lead routing (MIT, Rutger Katz / Neon Triforce), six-question routing decision order with consent check first, routing models, round-robin and weighted round-robin with availability checks, territory design variables, speed-to-lead tiers with escalation timers, account-based routing, quarterly audit checklist, AI routing governance checkpoints"
   - "Speed-to-lead research cited in the source (MIT Sloan 2007, HBR 2011, and vendor reports) is for context only and is not used as a rule"
@@ -25,7 +25,7 @@ Routing decides who gets a lead, how fast, and with what context. A lead that si
 
 Route elsewhere when:
 
-- The question is how to build the rules in a specific CRM. Use the CRM platform skill.
+- The question is how to build the rules in a specific CRM. Use `revops-salesforce` for Salesforce, or `revops-tech-stack` for other CRMs.
 - The question is how to enrich a lead before routing. Use `data-enrichment`.
 - The question is how to score a lead. Use `marketing-operations`.
 - The question is what happens after assignment. Use `revenue-handoffs`.

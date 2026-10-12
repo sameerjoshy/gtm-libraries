@@ -2,7 +2,7 @@
 name: gtm-compensation
 version: 1.0.0
 status: draft-for-review
-description: Use when designing, auditing, or explaining sales and customer success compensation: OTE and pay mix, quota setting, commission accelerators and decelerators, SPIFs, clawbacks, ramp, and rollout of a new plan. Gives the plan structure, a health check, and benchmark ranges to calibrate per client. Covers how to pay people, not org design or capacity planning (see gtm-planning-org-design). Not legal or tax advice.
+description: "Use when designing, auditing, or explaining sales and customer success compensation: OTE and pay mix, quota setting, commission accelerators and decelerators, SPIFs, clawbacks, ramp, and rollout of a new plan. Gives the plan structure, a health check, and benchmark ranges to calibrate per client. Covers how to pay people, not org design or capacity planning (see gtm-planning-org-design). Not legal or tax advice."
 sources:
   - "GTM compensation design (MIT, Rutger Katz / Neon Triforce), AE, SDR, CSM, and leader OTE structures, pay mix, accelerator ladder, decelerators, ramp, quota methodology and pipeline coverage check, SPIF rules, clawback rules, health check, rollout sequence, mid-year change rules, underperformer rule, EU pay transparency considerations"
   - "Benchmark ranges in the source are vendor survey and practice-based figures, labelled as starting points and to be replaced with the client's own market data"

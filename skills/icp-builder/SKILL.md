@@ -2,7 +2,7 @@
 name: icp-builder
 version: 1.0.0
 status: draft-for-review
-description: Use to build, validate, refine, or add to an ideal customer profile (ICP), including segments, personas, and the gate-based qualification rule that decides which accounts are in. Use when the ICP is too broad, too vague, or was written before revenue arrived, or when a new segment needs defining. Derives the profile from closed-won revenue where data exists, and produces a matrix that two people can apply the same way. Account tiering and list filtering have their own skills. Not for scoring a list already on file (see audience-icp-filter) or tiering accounts (see account-tier-scoring).
+description: "Use to build, validate, refine, or add to an ideal customer profile (ICP), including segments, personas, and the gate-based qualification rule that decides which accounts are in. Use when the ICP is too broad, too vague, or was written before revenue arrived, or when a new segment needs defining. Derives the profile from closed-won revenue where data exists, and produces a matrix that two people can apply the same way. Account tiering and list filtering have their own skills. Not for scoring a list already on file (see audience-icp-filter) or tiering accounts (see account-tier-scoring)."
 sources:
   - "ICP matrix builder (MIT, Tanyo Gochev), default-deny gates, cheapest-first order, exclusion log, closed-won anchor, falsifiable matrix"
   - "Won-deal ICP finder (MIT, Erwann Lefevre), value-populated deal selection, revenue-share clustering, whale rule, archetype count and minimum company count, source coverage"

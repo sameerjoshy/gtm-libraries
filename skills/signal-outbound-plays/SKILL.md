@@ -2,7 +2,7 @@
 name: signal-outbound-plays
 version: 1.0.0
 status: draft-for-review
-description: Use to choose a signal-based outbound play: a reason to contact a prospect that is tied to an observable event, such as a new hire, a departure, a role that signals priority, a review that names a problem, or a new follower. Gives eleven plays, each with its signal, its timing, and its value-first angle, and a rule for when each play should not be used. Not for detecting signals in depth (see signal-detection-and-timing).
+description: "Use to choose a signal-based outbound play: a reason to contact a prospect that is tied to an observable event, such as a new hire, a departure, a role that signals priority, a review that names a problem, or a new follower. Gives eleven plays, each with its signal, its timing, and its value-first angle, and a rule for when each play should not be used. Not for detecting signals in depth (see signal-detection-and-timing)."
 sources:
   - "11 GTM plays (MIT, Alex Vacca / Frontal): eleven signal plays with the signal, the best timing, and the approach (new team members, skills targeting, role targeting, industry research, resources for new practitioners, leaving employees, missing role, negative reviews, AI-generated ideas, real-time visitor follow-up, inbound followers)"
   - "Removed: named tool workflows and vendor-specific visitor-follow-up steps. The timing windows are kept as defaults to test"

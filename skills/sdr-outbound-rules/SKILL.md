@@ -2,7 +2,7 @@
 name: sdr-outbound-rules
 version: 1.0.0
 status: draft-for-review
-description: Use to train SDRs on cold outbound writing and to review drafts against a fixed checklist: word count, one call to action, a trigger or personalisation, specific proof, tone by offer type, and a choice among eight approved messaging frameworks. Use when outbound quality is inconsistent, when drafts need rewriting against the rules, or when a team needs a shared standard. Not for the offer itself (see cold-offer-architect).
+description: "Use to train SDRs on cold outbound writing and to review drafts against a fixed checklist: word count, one call to action, a trigger or personalisation, specific proof, tone by offer type, and a choice among eight approved messaging frameworks. Use when outbound quality is inconsistent, when drafts need rewriting against the rules, or when a team needs a shared standard. Not for the offer itself (see cold-offer-architect)."
 sources:
   - "SDR outbound rules (MIT, Alex Vacca / Frontal): length and call-to-action rules, eight messaging frameworks (before and after, pattern interrupt, ask before pitch, upfront value, do the math, comparison with similar companies, neutral insight, typical problems by role), tone by offer type, good and bad email markers, pre-send review checklist"
   - "Removed: the sample prompts and the links to other skills in the source's catalogue. The personalisation input list is kept as a checklist"

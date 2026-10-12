@@ -2,7 +2,7 @@
 name: prospect-list-building
 version: 1.0.0
 status: draft-for-review
-description: Use when building a prospect list of companies, contacts, or both, for outbound, ABM, or a signal-based motion. Sizes the audience before any full pull, writes the column plan and the ICP pass rule before running it, removes most rows with free checks before any paid enrichment, runs AI research one narrow question at a time, and only activates a list after the user approves its size and cost. Not for scoring existing accounts (see account-tier-scoring) or for verifying an existing list (see list-hygiene).
+description: "Use when building a prospect list of companies, contacts, or both, for outbound, ABM, or a signal-based motion. Sizes the audience before any full pull, writes the column plan and the ICP pass rule before running it, removes most rows with free checks before any paid enrichment, runs AI research one narrow question at a time, and only activates a list after the user approves its size and cost. Not for scoring existing accounts (see account-tier-scoring) or for verifying an existing list (see list-hygiene)."
 sources:
   - "Build list (MIT, Ido Goldberg / Swan), column ladder with cost tiers and run-when gates, lock the brief, size first, free elimination before enrichment, AI research as one question per column, pilot on ten rows, companies before people, email waterfall, activation with approval, anti-patterns"
   - "List architect (MIT, Alex Vacca / Frontal, contributor Ivan Falco), ICP scoring with a 100-point scale, sourcing and qualification sequence, Sales Navigator segmentation at the search result cap, decay and re-verification rules"
@@ -155,7 +155,7 @@ Rules:
 
 - Run research only on rows that passed `icp_pass`. Never run it on the full pool.
 - Pilot on ten rows first. If 80% or more come back unclear, the question is wrong. Rewrite it before scaling.
-- Use the cheapest model that can answer. Save the stronger model for judgment calls such as ICP fit.
+- Use the cheapest model that can answer. Save the stronger model for judgement calls such as ICP fit.
 - Always write a fallback value, so an unreachable site does not break the column.
 
 ### Step 7: Tier and pick contacts

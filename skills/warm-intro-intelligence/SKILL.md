@@ -2,7 +2,7 @@
 name: warm-intro-intelligence
 version: 1.0.0
 status: draft-for-review
-description: Use when a rep wants warm introduction paths into a target company or a named contact. Identifies the strongest available paths through the company's own network (employees, customers, partners, investors, advisers, and past call notes), labels each path's confidence honestly, and returns the paths for the rep to decide on. Decision support only: never contacts anyone and never writes to the CRM. Not for drafting the ask to the connector (see multi-threading-coach for the routing logic).
+description: "Use when a rep wants warm introduction paths into a target company or a named contact. Identifies the strongest available paths through the company's own network (employees, customers, partners, investors, advisers, and past call notes), labels each path's confidence honestly, and returns the paths for the rep to decide on. Decision support only: never contacts anyone and never writes to the CRM. Not for drafting the ask to the connector (see multi-threading-coach for the routing logic)."
 sources:
   - "Warm intro intelligence (MIT, Din Arbel): input resolution (named contact, persona, or company only), persona priority by ICP segment, up to three target contacts, bridge nodes across the company's own network, evidence-based confidence labels, rep decides every step"
   - "Removed: the platform-specific node registry, the customer-list and partner-object identifiers, and the internal roster build instructions. The method is restated as a generic network-mapping procedure"

@@ -2,7 +2,7 @@
 name: answer-engine-citation-drill-down
 version: 1.0.0
 status: draft-for-review
-description: Use when a team wants to know which content shapes AI-generated answers in its category, why a competitor is cited in comparison answers, and where content effort should go to earn mentions. Works top-down in three levels: the domains that co-occur with the brand in AI answers, the specific pages driving those citations, and the full answers themselves. Ends in a ranked hit-list of content patterns and the places the brand can plausibly earn a mention. Not for tracking the brand's visibility over time (see answer-engine-visibility-tracking).
+description: "Use when a team wants to know which content shapes AI-generated answers in its category, why a competitor is cited in comparison answers, and where content effort should go to earn mentions. Works top-down in three levels: the domains that co-occur with the brand in AI answers, the specific pages driving those citations, and the full answers themselves. Ends in a ranked hit-list of content patterns and the places the brand can plausibly earn a mention. Not for tracking the brand's visibility over time (see answer-engine-visibility-tracking)."
 sources:
   - "AEO citation drill-down (MIT, Yahav Fuchs): the three-level investigation (domains, then URLs, then full answers), the rule never to stop at the domain level, the classification of co-occurring domains by type (review platform, competitor, news, or community), and the output of a ranked content hit-list"
   - "Removed: the named AI answer engines, the named monitoring tool, and the example citation counts in the source. The method is restated for any answer engine"

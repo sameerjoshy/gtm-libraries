@@ -2,7 +2,7 @@
 name: paid-budget-by-stage
 version: 1.0.0
 status: draft-for-review
-description: Use to split a paid budget across demand stages (create, capture, accelerate or activate, revive, and expand) and to shift the split as spend grows. Sets out what each stage needs in audience size, return timeline, and difficulty, works from the stages with the quickest return toward the slowest, and states how product-led and sales-led companies usually weight the split. Not for the stage definitions themselves (see demand-lifecycle-model) or for the channel choice (see paid-channel-selection).
+description: "Use to split a paid budget across demand stages (create, capture, accelerate or activate, revive, and expand) and to shift the split as spend grows. Sets out what each stage needs in audience size, return timeline, and difficulty, works from the stages with the quickest return toward the slowest, and states how product-led and sales-led companies usually weight the split. Not for the stage definitions themselves (see demand-lifecycle-model) or for the channel choice (see paid-channel-selection)."
 sources:
   - "Budget allocation by stage (MIT, Ivan Falco): the strategic-bet framing, the stage investment table (budget required, return timeline, and difficulty for each stage), the working order from the quickest-return stages toward create, and the observation that product-led companies spread budget across create and capture while sales-led companies weight toward account-focused stages"
   - "Removed: the two fictional company examples and their dollar figures. The illustrative allocations are not reproduced"

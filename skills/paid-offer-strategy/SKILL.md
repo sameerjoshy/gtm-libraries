@@ -2,7 +2,7 @@
 name: paid-offer-strategy
 version: 1.0.0
 status: draft-for-review
-description: Use when choosing or writing the offer a paid campaign promotes, so that cold B2B traffic will take the next step. Explains the no-brainer test (high perceived value and low perceived effort), the two ways to communicate value (say who it is for and what it does, then make the reader want it), the match between offer strength and funnel stage, and the rule that a free offer still has to be sold. Not for the copy itself (see ad-copy-voice-of-customer) or for the stage budget (see paid-budget-by-stage).
+description: "Use when choosing or writing the offer a paid campaign promotes, so that cold B2B traffic will take the next step. Explains the no-brainer test (high perceived value and low perceived effort), the two ways to communicate value (say who it is for and what it does, then make the reader want it), the match between offer strength and funnel stage, and the rule that a free offer still has to be sold. Not for the copy itself (see ad-copy-voice-of-customer) or for the stage budget (see paid-budget-by-stage)."
 sources:
   - "Offers strategy guide (MIT, Ivan Falco): the no-brainer definition (high perceived value with high likelihood of attainment), the principle that every ad promotes an offer and the best one depends on stage, the two ways to communicate value (clarity and a compelling reason to act), and the example offers by stage"
   - "Removed: the example offers that name specific schools, courses, and programmes, and the example copy that names real organisations. The stage examples are restated generically"

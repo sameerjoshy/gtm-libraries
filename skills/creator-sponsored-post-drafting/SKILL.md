@@ -2,7 +2,7 @@
 name: creator-sponsored-post-drafting
 version: 1.0.0
 status: draft-for-review
-description: Use to draft or review a sponsored post that a creator will publish about a B2B product, so that it reads as a practitioner's recommendation rather than an advertisement. Sets out the four-part structure (hook, story, resolution, call to action), the credibility signals that make the story land, the call-to-action patterns, and the anti-patterns that make an audience recognise an ad. Use before any sponsored post goes to the creator. Not for choosing the creator (see creator-discovery-and-vetting).
+description: "Use to draft or review a sponsored post that a creator will publish about a B2B product, so that it reads as a practitioner's recommendation rather than an advertisement. Sets out the four-part structure (hook, story, resolution, call to action), the credibility signals that make the story land, the call-to-action patterns, and the anti-patterns that make an audience recognise an ad. Use before any sponsored post goes to the creator. Not for choosing the creator (see creator-discovery-and-vetting)."
 sources:
   - "Write a B2B sponsored post (MIT, Thomas Marcelle): the four-layer structure (hook in the first line, story, resolution with one measured outcome, call to action), the four credibility signals in the story (a specific detail, a specific number, a failed attempt before the fix, and a stake inside the creator's organisation), and the five anti-patterns that make an audience read a post as an ad"
   - "Removed: the click-through multiples, the character truncation figure as a fixed rule, the example sentences that name a product, and the named post format. The structure is kept"

@@ -2,7 +2,7 @@
 name: sales-ramp-enablement
 version: 1.0.0
 status: draft-for-review
-description: Use when new reps take too long to produce, capacity plans assume ramp that nobody measures, or certification is a formality. Designs rep ramp as an instrumented system: the ramp cost, a milestone-gated 30-60-90 with certification evidence, ramped-equivalent capacity, ramp-adjusted quota and draw, the enablement content system, and the manager cadence that catches a drifting ramp early. Not for the methodology itself (see sales-methodology) or the wider change programme (see revops-change-management).
+description: "Use when new reps take too long to produce, capacity plans assume ramp that nobody measures, or certification is a formality. Designs rep ramp as an instrumented system: the ramp cost, a milestone-gated 30-60-90 with certification evidence, ramped-equivalent capacity, ramp-adjusted quota and draw, the enablement content system, and the manager cadence that catches a drifting ramp early. Not for the methodology itself (see sales-methodology) or the wider change programme (see revops-change-management)."
 sources:
   - "Sales ramp and enablement (MIT, Rutger Katz / Neon Triforce): ramp cost formula, ramped-equivalent capacity, ramp-adjusted quota, the evidence-gated 30-60-90 arc with three gate outcomes, enablement as a system with a call library, measuring enablement by ramp outcomes, the manager cadence"
   - "Removed as unverified: average ramp durations for SDRs and AEs, the structured-versus-unstructured multiplier, and the figures from industry compilations published without a unified method. The shape of the ramp curve is kept, and the client's own cohort figures replace them"

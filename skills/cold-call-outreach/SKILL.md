@@ -2,7 +2,7 @@
 name: cold-call-outreach
 version: 1.0.0
 status: draft-for-review
-description: Use when building, reviewing, or training on phone outreach to prospects: an opening script, a no-show call, a voicemail, or objection handling. Keeps every script to a short, permission-based opener with a real trigger and a specific ask, requires approved proof points, and applies consent and do-not-call rules before any call. Not for email or LinkedIn.
+description: "Use when building, reviewing, or training on phone outreach to prospects: an opening script, a no-show call, a voicemail, or objection handling. Keeps every script to a short, permission-based opener with a real trigger and a specific ask, requires approved proof points, and applies consent and do-not-call rules before any call. Not for email or a social message."
 sources:
   - "Cold call scripts (MIT, Alex Vacca / Frontal), five-step one-minute opener (pattern interrupt, permission, relevance, social proof, open question), no-show script, voicemail under 20 seconds"
   - "SDR outbound rules (MIT, Alex Vacca / Frontal), review checklist and tone by offer type, applied to call scripts as the same writing rules"
@@ -24,7 +24,7 @@ A cold call is the most interrupting form of outreach, so it has to earn the nex
 
 Route elsewhere when:
 
-- The work is email or LinkedIn: use `outbound-cold-email` or `linkedin-outreach`.
+- The work is email or a social message: use `outbound-cold-email` or `linkedin-outreach`.
 - The prospect has already replied or been on a call: use `reply-handling` or the deal process.
 
 ## Inputs

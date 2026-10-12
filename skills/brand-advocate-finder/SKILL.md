@@ -2,7 +2,7 @@
 name: brand-advocate-finder
 version: 1.0.0
 status: draft-for-review
-description: Use to find and shortlist independent outside voices who could represent, endorse, or amplify a company in its field, such as advisers, former senior operators, and recognised authors. Screens for field credibility, independence, and reach, in that order, and shows which criteria are confirmed, likely, or unverified for each candidate. Not for finding customers or sales prospects. Advocates are never treated as a sales target.
+description: "Use to find and shortlist independent outside voices who could represent, endorse, or amplify a company in its field, such as advisers, former senior operators, and recognised authors. Screens for field credibility, independence, and reach, in that order, and shows which criteria are confirmed, likely, or unverified for each candidate. Not for finding customers or sales prospects. Advocates are never treated as a sales target."
 sources:
   - "Ambassador finder (MIT, Osnat Lidor): sub-field clarification, public representative versus advisory role, explicit exclusions, layered sourcing with credibility signals first, the principle that credibility outranks reach, and a shortlist with each criterion marked confirmed, likely, or unverified"
   - "Ambassador finder, additions (MIT, Osnat Lidor, second copy): the tiering of the shortlist into approach now, nurture, and pass, and the check of company size and type in the work history before the reach figure. Tier thresholds are author defaults"

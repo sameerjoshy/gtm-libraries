@@ -2,7 +2,7 @@
 name: abm-measurement-framework
 version: 1.0.0
 status: draft-for-review
-description: Use when measuring account-based marketing success, setting ABM metrics by account stage, choosing an attribution model, or working out ABM ROI and cost per account. Method only, no client data. Not for the ABM plan or budget (see abm-strategy-planner) or an account audit (see linkedin-ads-audit).
+description: "Use when measuring account-based marketing success, setting ABM metrics by account stage, choosing an attribution model, or working out ABM ROI and cost per account. Method only, no client data. Not for the ABM plan or budget (see abm-strategy-planner) or an account audit (see linkedin-ads-audit)."
 sources:
   - "ABM measurement framework (MIT, Ivan Falco, Frontal), stage metrics, attribution, ROI formulas"
 ---

@@ -2,7 +2,7 @@
 name: seo-content-format-selection
 version: 1.0.0
 status: draft-for-review
-description: Use to choose the right content format for each surviving SEO topic, such as a comparison or alternatives page, a product landing page, or a guide, and to group related keywords into one page. Format drives the page's purpose, structure, call to action, and how it ranks, so the search results for each topic should decide it. Also flags site-architecture changes that a new page would need. Not for topic research (see seo-topic-research) or the build order (see seo-topic-prioritisation).
+description: "Use to choose the right content format for each surviving SEO topic, such as a comparison or alternatives page, a product landing page, or a guide, and to group related keywords into one page. Format drives the page's purpose, structure, call to action, and how it ranks, so the search results for each topic should decide it. Also flags site-architecture changes that a new page would need. Not for topic research (see seo-topic-research) or the build order (see seo-topic-prioritisation)."
 sources:
   - "Topic shaping (MIT, Sam Dunning): the principle that not every keyword becomes a blog post, that format determines purpose, structure, call to action, and ranking mechanics, that the search results should lead the decision, and the grouping of related keywords with architecture flags"
   - "Removed: the command invocation, the named keyword clustering tool, and the example format lists tied to a named client"

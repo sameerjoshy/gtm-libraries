@@ -2,7 +2,7 @@
 name: investor-update
 version: 1.0.0
 status: draft-for-review
-description: Use when a founder, CEO, or CRO is writing to investors, board members, advisers, or prospective investors between meetings: a monthly or quarterly update, a pre-board note, a note about a miss, a fundraise update, or an answer to a diligence question. Opens with a say-do ledger of last period's commitments, reports the same metrics frame each time, leads with one headline, names wins, risks, and specific asks, and passes an honesty check before it is sent. Not for the board deck itself (see board-meeting-prep).
+description: "Use when a founder, CEO, or CRO is writing to investors, board members, advisers, or prospective investors between meetings: a monthly or quarterly update, a pre-board note, a note about a miss, a fundraise update, or an answer to a diligence question. Opens with a say-do ledger of last period's commitments, reports the same metrics frame each time, leads with one headline, names wins, risks, and specific asks, and passes an honesty check before it is sent. Not for the board deck itself (see board-meeting-prep)."
 sources:
   - "Investor update (MIT, Jason Mesiarik): the doctrine that every update either adds to or subtracts from the evidence behind the founder's word, the sequence of audience and register, a say-do ledger with true status marks, numbers before words in a fixed metrics frame, a single headline, wins, risks with actions, and answerable asks"
   - "Removed: the reference files on structure, the ledger, and the metrics frame, which are not used. The status set is restated in this library's own terms"

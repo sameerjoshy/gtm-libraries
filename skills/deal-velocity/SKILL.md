@@ -2,11 +2,11 @@
 name: deal-velocity
 version: 1.0.0
 status: draft-for-review
-description: Use when deals stall at specific stages, sales cycles run longer than the segment allows, or the pipeline is large but little closes. Diagnoses which lever of the velocity equation is binding (qualification, stage progression, volume, deal size, or zombie deals), sets stage exit criteria that reflect buyer actions, flags and triages zombie deals, and installs a weekly inspection rhythm. Treats slow deals as a speed problem, after deal truth has been checked by deal-qualification-gates. Not for scoring whether a deal is real.
+description: "Use when deals stall at specific stages, sales cycles run longer than the segment allows, or the pipeline is large but little closes. Diagnoses which lever of the velocity equation is binding (qualification, stage progression, volume, deal size, or zombie deals), sets stage exit criteria that reflect buyer actions, flags and triages zombie deals, and installs a weekly inspection rhythm. Treats slow deals as a speed problem, after deal truth has been checked by deal-qualification-gates. Not for scoring whether a deal is real."
 sources:
   - "Deal velocity engineer (MIT, Rutger Katz / Neon Triforce), pipeline velocity equation and binding-constraint diagnosis, pipeline deflation, zombie criteria and triage, stage exit criteria based on buyer actions, deal health dimensions, multi-threading discipline, mutual action plan rules, signal-to-action rules, 90-day programme structure"
   - "Benchmarks and statistics in the source come from vendor research and composite surveys, of mixed vintage. They are context only, and each must be checked against the client's own data before use"
-  - "Adapted for GTM-360: platform-specific configuration steps removed (see the platform skills, when added); a fifth deal-scoring scheme flagged as a conflict; the weighted health score kept as one option for a team to choose"
+  - "Adapted for GTM-360: platform-specific configuration steps removed (platform-specific steps are out of scope); a fifth deal-scoring scheme flagged as a conflict; the weighted health score kept as one option for a team to choose"
 ---
 
 # Deal velocity

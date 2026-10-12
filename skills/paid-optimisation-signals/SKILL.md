@@ -2,7 +2,7 @@
 name: paid-optimisation-signals
 version: 1.0.0
 status: draft-for-review
-description: Use when deciding which paid media metrics justify action, when to pause an ad, and how to tell a real result from noise. Separates leading signals (fast) from lagging signals (slow), sets breakeven cost formulas from deal size and conversion rate, applies a non-performer rule and a maintenance rule, and keeps an experiment log with a hypothesis, priority, and documented result for each test. Not for the measurement set-up (see paid-measurement-scorecard) or for creative fatigue (see creative-fatigue-rotation).
+description: "Use when deciding which paid media metrics justify action, when to pause an ad, and how to tell a real result from noise. Separates leading signals (fast) from lagging signals (slow), sets breakeven cost formulas from deal size and conversion rate, applies a non-performer rule and a maintenance rule, and keeps an experiment log with a hypothesis, priority, and documented result for each test. Not for the measurement set-up (see paid-measurement-scorecard) or for creative fatigue (see creative-fatigue-rotation)."
 sources:
   - "Optimisation signals and testing rules (MIT, Ivan Falco): the leading and lagging distinction, the signals by stage, the breakeven cost formulas, the non-performer and maintenance pause rules, the proxy-metric criteria, the experiment backlog and sprint structure with a hypothesis format, the RICE prioritisation, and the warning against testing for its own sake"
   - "Removed: the named tracking spreadsheet and the notification tool. The example figures are kept only as labelled illustrations"

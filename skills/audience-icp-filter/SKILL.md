@@ -2,7 +2,7 @@
 name: audience-icp-filter
 version: 1.0.0
 status: draft-for-review
-description: Use when a list of people already exists (event or webinar attendees, registrants, a CRM export, a prospecting export, a community list) and someone needs to know who on it fits the ICP before anyone is contacted. Produces every lead in one of four buckets (match, review, no match, excluded) with a reason for each, removes the client's own colleagues and competitors, and reconciles every count to the input. Not for building a list from scratch or for scoring accounts.
+description: "Use when a list of people already exists (event or webinar attendees, registrants, a CRM export, a prospecting export, a community list) and someone needs to know who on it fits the ICP before anyone is contacted. Produces every lead in one of four buckets (match, review, no match, excluded) with a reason for each, removes the client's own colleagues and competitors, and reconciles every count to the input. Not for building a list from scratch or for scoring accounts."
 sources:
   - "Audience ICP filter (MIT, Erwann Lefevre), coverage gate before ICP questions, deterministic pass then semantic queue review, four buckets with reconciliation, exclusion doctrine across identity fields, seniority and function taxonomy, multilingual titles, case-sensitive patterns, adjudication with reasons"
   - "ICP (MIT, Ido Goldberg / Swan), the rule that no team member hand-sorts a list and that a large review bucket is a diagnosis, not a deliverable"

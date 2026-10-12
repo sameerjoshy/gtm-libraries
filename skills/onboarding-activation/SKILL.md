@@ -2,7 +2,7 @@
 name: onboarding-activation
 version: 1.0.0
 status: draft-for-review
-description: Use when customers sign and then stall, go-live takes months, or the gap between signed and successful is where accounts quietly die. Defines an activation event, carries the buying evidence across the signature, drives a 30-60-90 activation arc with milestone gates, detects stalls while they are cheap, and graduates accounts into steady state with a value baseline. Onboarding ends at first realised value, not at go-live. Not for Sales-to-CS handoff mechanics (see revenue-handoffs) or CS health scoring (see cs-operations).
+description: "Use when customers sign and then stall, go-live takes months, or the gap between signed and successful is where accounts quietly die. Defines an activation event, carries the buying evidence across the signature, drives a 30-60-90 activation arc with milestone gates, detects stalls while they are cheap, and graduates accounts into steady state with a value baseline. Onboarding ends at first realised value, not at go-live. Not for Sales-to-CS handoff mechanics (see revenue-handoffs) or CS health scoring (see cs-operations)."
 sources:
   - "Onboarding to first value (MIT, Rutger Katz / Neon Triforce), activation as an event, evidence carried across the signature, 30-60-90 gate structure, three stall signals and their responses, graduation criteria, diagnostic questions"
   - "External retention and trial-conversion figures in the source are removed or treated as context. The link between activation and retention is a hypothesis this skill asks the client to test on its own renewal data"

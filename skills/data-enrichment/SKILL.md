@@ -2,7 +2,7 @@
 name: data-enrichment
 version: 1.0.0
 status: draft-for-review
-description: Use when inbound leads arrive without the fields needed to score, route, or segment them, or when a target list or CRM lacks firmographic or contact data. Maps the coverage gap field by field, chooses between a single provider and a waterfall across providers, sets re-enrichment cadences and quality gates, and sets the legal conditions for enrichment in Europe. Not for choosing a specific vendor on the strength of its marketing; that needs a pilot on the client's own data.
+description: "Use when inbound leads arrive without the fields needed to score, route, or segment them, or when a target list or CRM lacks firmographic or contact data. Maps the coverage gap field by field, chooses between a single provider and a waterfall across providers, sets re-enrichment cadences and quality gates, and sets the legal conditions for enrichment in Europe. Not for choosing a specific vendor on the strength of its marketing; that needs a pilot on the client's own data."
 sources:
   - "Data enrichment (MIT, Rutger Katz / Neon Triforce), field priorities and use cases, waterfall strategy, real-time, batch, and event-driven patterns, provenance fields, freshness cadences, coverage metrics and quality alerts, failed-enrichment queue, cost controls, legitimate interest assessment, notification duties in Europe"
   - "Provider names, prices, database sizes, match rates, and accuracy guarantees in the source are vendor claims. They are removed. The pilot method replaces them"

@@ -2,7 +2,7 @@
 name: revops-forecasting
 version: 1.0.0
 status: draft-for-review
-description: Use when the revenue forecast is consistently wrong, when the team cannot predict its quarter number, when deals slip unexpectedly, or when a forecast call needs to inspect deals rather than read status. Sets forecast categories with written validation rules, reconciles the number from at least two independent methods, measures accuracy by rep and segment, checks pipeline coverage against win rate, and wires forecast breaches into an operating cadence. Not for deal truth scoring (see deal-qualification-gates).
+description: "Use when the revenue forecast is consistently wrong, when the team cannot predict its quarter number, when deals slip unexpectedly, or when a forecast call needs to inspect deals rather than read status. Sets forecast categories with written validation rules, reconciles the number from at least two independent methods, measures accuracy by rep and segment, checks pipeline coverage against win rate, and wires forecast breaches into an operating cadence. Not for deal truth scoring (see deal-qualification-gates)."
 sources:
   - "Revenue forecasting (MIT, Rutger Katz / Neon Triforce), category-based forecasting with validation rules, conservative/expected/optimistic roll-up, triangulation of methods, the forecast call structure, accuracy formula and diagnosis, pipeline coverage from win rate, slippage haircut, evidence-based inputs, breach rules, revenue-type differences"
   - "Benchmark figures and probability weights in the source are vendor-reported or author defaults. They are labelled as starting points and must be calibrated per client before use"
@@ -78,7 +78,7 @@ The 90, 50, and 20 weights are author defaults. Calibrate them from the client's
 
 ## Method 2: Stage-weighted pipeline
 
-Weighted pipeline is the sum of deal value multiplied by the historical win probability at each deal's current stage. It removes rep judgment, so it works as a check on Method 1. Use the client's own stage conversion history. Segment it, and do not borrow an industry rate.
+Weighted pipeline is the sum of deal value multiplied by the historical win probability at each deal's current stage. It removes rep judgement, so it works as a check on Method 1. Use the client's own stage conversion history. Segment it, and do not borrow an industry rate.
 
 ## Method 3: Historical run-rate
 
@@ -196,4 +196,4 @@ Severity levels, from informational to executive escalation, are set per client.
 
 ## Quality bar
 
-Categories have written definitions, and every rep applies them the same way. The quarter number comes from at least two methods that are reconciled, not one judgment call. Forecast calls inspect changed deals and red flags, not the full pipeline. Accuracy is measured every quarter, and it drives the next fix. Watch for Commit used as a hope category, coverage quoted with no win rate behind it, and a forecast that only ever goes up.
+Categories have written definitions, and every rep applies them the same way. The quarter number comes from at least two methods that are reconciled, not one judgement call. Forecast calls inspect changed deals and red flags, not the full pipeline. Accuracy is measured every quarter, and it drives the next fix. Watch for Commit used as a hope category, coverage quoted with no win rate behind it, and a forecast that only ever goes up.

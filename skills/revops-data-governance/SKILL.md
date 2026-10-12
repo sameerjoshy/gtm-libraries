@@ -2,7 +2,7 @@
 name: revops-data-governance
 version: 1.0.0
 status: draft-for-review
-description: Use when CRM data is unreliable, reports do not match across teams, fields have no owners, duplicates or integration drift are causing routing or forecast errors, or a bulk cleanup is being considered. Covers the system of record and data dictionary, measurable health scoring, reviewable and approved cleanup, enrichment rules, field and definition governance, and controls that stop defects returning. Not a CRM configuration guide, and not a forecast (see revops-forecasting).
+description: "Use when CRM data is unreliable, reports do not match across teams, fields have no owners, duplicates or integration drift are causing routing or forecast errors, or a bulk cleanup is being considered. Covers the system of record and data dictionary, measurable health scoring, reviewable and approved cleanup, enrichment rules, field and definition governance, and controls that stop defects returning. Not a CRM configuration guide, and not a forecast (see revops-forecasting)."
 sources:
   - "Revenue data governance (MIT, Rutger Katz / Neon Triforce), data model mapped to the customer journey, field naming prefixes, creation and deprecation workflows, five quality dimensions, system-of-record and sync rules, enrichment governance modes, definitions governance, maturity levels, AI agent write controls"
   - "Governed CRM cleanup (MIT, Ryan Iyengar), snapshot baseline, operation-level change plan, human approval by operation id, stale re-read before write, post-run reconciliation, prevention backlog"
@@ -113,7 +113,7 @@ Represent every proposed change as one reviewable operation:
 - confidence, reversibility, and impact radius
 - whether a human decision is required
 
-Separate deterministic corrections from judgment calls. Missing owners, unclear duplicate survivors, disputed lifecycle stages, and inferred values always require a named human decision.
+Separate deterministic corrections from judgement calls. Missing owners, unclear duplicate survivors, disputed lifecycle stages, and inferred values always require a named human decision.
 
 Prioritize in this order:
 1. Changes that stop ongoing corruption.

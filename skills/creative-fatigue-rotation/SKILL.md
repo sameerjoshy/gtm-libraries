@@ -2,7 +2,7 @@
 name: creative-fatigue-rotation
 version: 1.0.0
 status: draft-for-review
-description: Use to detect when a paid ad creative is losing effect and to rotate it on a schedule, for B2B paid campaigns. Sets out the warning signals (frequency, click-through decline, rising cost per thousand impressions, and low relevance diagnostics), frequency thresholds by campaign type, a weekly detection routine with a classification for each ad, typical creative lifespans, and a rotation mix. Not for writing new creative (see ad-copy-voice-of-customer).
+description: "Use to detect when a paid ad creative is losing effect and to rotate it on a schedule, for B2B paid campaigns. Sets out the warning signals (frequency, click-through decline, rising cost per thousand impressions, and low relevance diagnostics), frequency thresholds by campaign type, a weekly detection routine with a classification for each ad, typical creative lifespans, and a rotation mix. Not for writing new creative (see ad-copy-voice-of-customer)."
 sources:
   - "Creative fatigue detection (MIT, Ivan Falco) and creative cadence operating system (MIT, Ivan Falco, read in part): the signals in order of urgency, the frequency thresholds by campaign type, the typical creative lifespans, the weekly detection routine with its classification (healthy, warning, urgent, depleted), and the 50/30/20 rotation mix of proven winners, iterations, and new concepts"
   - "Removed: the platform-specific report names and column labels, and the platform-specific relevance diagnostic names, which are replaced by generic descriptions"

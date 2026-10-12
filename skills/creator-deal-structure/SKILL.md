@@ -2,7 +2,7 @@
 name: creator-deal-structure
 version: 1.0.0
 status: draft-for-review
-description: Use to decide how to pay a creator for a B2B campaign: a flat fee or a performance-based fee per qualified click. Sets the rule that a flat fee buys a message and a per-click fee buys pipeline, explains how the risk of weak results moves between the two, defines a qualified click so a performance deal is fair, and shows the unit-economics check for each option. Not for estimating a creator's rate from their posts (see creator-rate-band) or for the negotiation reply (see creator-negotiation).
+description: "Use to decide how to pay a creator for a B2B campaign: a flat fee or a performance-based fee per qualified click. Sets the rule that a flat fee buys a message and a per-click fee buys pipeline, explains how the risk of weak results moves between the two, defines a qualified click so a performance deal is fair, and shows the unit-economics check for each option. Not for estimating a creator's rate from their posts (see creator-rate-band) or for the negotiation reply (see creator-negotiation)."
 sources:
   - "Creator deal pricing, flat fee versus cost per click (MIT, Thomas Marcelle): the one-line rule (pay flat when buying a message, pay per click when buying pipeline), the illustration of how the same flat fee produces very different cost per click depending on outcome, the point that a flat fee caps upside and a per-click fee caps downside, and the qualified-click definition that makes a performance deal fair"
   - "Removed: the network's per-click price ranges, the paid-ads comparison figures, and the creator-reach multiples, none of which are reproduced. The worked example is restated with placeholder numbers"

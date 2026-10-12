@@ -2,7 +2,7 @@
 name: signal-detection-and-timing
 version: 1.0.0
 status: draft-for-review
-description: Use to decide which buying signals to track for a business, to interpret a fired signal (relevance, meaning, strength, confidence, why-now), and to decide when and how to act on it (window, cadence, channel). Covers website-based signal plans, fixed watchlists, and website or content engagement. Hiring and champion job-change signals have their own skills. Not for choosing a ready play (see signal-outbound-plays).
+description: "Use to decide which buying signals to track for a business, to interpret a fired signal (relevance, meaning, strength, confidence, why-now), and to decide when and how to act on it (window, cadence, channel). Covers website-based signal plans, fixed watchlists, and website or content engagement. Hiring and champion job-change signals have their own skills. Not for choosing a ready play (see signal-outbound-plays)."
 sources:
   - "Signal interpreter (MIT, Din Arbel), relevance gate, strength versus confidence, why-now discipline, open-question cap, no side effects"
   - "Signal sourcer (MIT, Alex Vacca / Frontal), signal families, tiers, detection tools"

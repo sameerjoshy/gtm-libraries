@@ -2,7 +2,7 @@
 name: seo-topic-prioritisation
 version: 1.0.0
 status: draft-for-review
-description: Use to turn a shaped list of SEO topics into a build order. Scores each topic on six dimensions (commercial intent, fit with the ideal customer, feasibility of ranking, effort, leverage from existing authority, and adjacency to existing wins), sorts topics into three tiers, and puts quick wins first so the content roadmap proves itself early. Use when a team asks what to build first. Not for finding topics (see seo-topic-research) or for checking a single keyword's ranking reality (see seo-serp-qualification).
+description: "Use to turn a shaped list of SEO topics into a build order. Scores each topic on six dimensions (commercial intent, fit with the ideal customer, feasibility of ranking, effort, leverage from existing authority, and adjacency to existing wins), sorts topics into three tiers, and puts quick wins first so the content roadmap proves itself early. Use when a team asks what to build first. Not for finding topics (see seo-topic-research) or for checking a single keyword's ranking reality (see seo-serp-qualification)."
 sources:
   - "Topic prioritisation (MIT, Sam Dunning): the six scoring dimensions (commercial intent, ICP alignment, ranking feasibility, effort, authority leverage, and adjacency to wins), the three tiers, the rule that quick wins come first, and the point that the order of the list matters as much as its contents"
   - "Removed: the command invocation, the named analytics tool and its volume and difficulty outputs, and the pipeline phase numbering. The scoring scales are restated as a method"

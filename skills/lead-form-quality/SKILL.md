@@ -2,7 +2,7 @@
 name: lead-form-quality
 version: 1.0.0
 status: draft-for-review
-description: Use when a paid campaign collects leads through an in-platform lead form, to stop cheap leads that sales cannot use. Explains the social-amnesia problem (people who submit without remembering why, then deny knowing the company), sets form-type and friction choices, requires a work email, and adds one to three qualification questions. Use alongside the decision on whether a landing page would perform better. Not for the landing page itself or for the offer (see paid-offer-strategy).
+description: "Use when a paid campaign collects leads through an in-platform lead form, to stop cheap leads that sales cannot use. Explains the social-amnesia problem (people who submit without remembering why, then deny knowing the company), sets form-type and friction choices, requires a work email, and adds one to three qualification questions. Use alongside the decision on whether a landing page would perform better. Not for the landing page itself or for the offer (see paid-offer-strategy)."
 sources:
   - "Lead form optimisation for B2B paid campaigns (MIT, Ivan Falco): the trade-off between lead forms and landing pages, the social-amnesia problem and its fix through intentional friction, the choice between a volume form and a higher-intent form, the work-email requirement with its reason, and the rule on custom qualification questions (one to three, multiple choice)"
   - "Removed: the platform's field names and screen paths, and the named personal-email providers, which are replaced by a general description"

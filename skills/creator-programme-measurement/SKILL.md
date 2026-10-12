@@ -2,7 +2,7 @@
 name: creator-programme-measurement
 version: 1.0.0
 status: draft-for-review
-description: Use to measure and report the return on a B2B creator programme in a way a finance reviewer can check. Sets the attribution window for creator-sourced traffic (longer than paid ads), the view-through effect that direct-response habits miss, the separation of creator traffic from other channels, the funnel from spend to closed-won, the payback calculation, and the week-one leading indicators. Not for the strategy (see creator-programme-strategy) or the paid channel measures (see paid-measurement-scorecard).
+description: "Use to measure and report the return on a B2B creator programme in a way a finance reviewer can check. Sets the attribution window for creator-sourced traffic (longer than paid ads), the view-through effect that direct-response habits miss, the separation of creator traffic from other channels, the funnel from spend to closed-won, the payback calculation, and the week-one leading indicators. Not for the strategy (see creator-programme-strategy) or the paid channel measures (see paid-measurement-scorecard)."
 sources:
   - "Measure creator marketing ROI (MIT, Thomas Marcelle): the observation that creator content converts on a longer timeline than direct-response measurement assumes, the attribution fixes (a longer window, measuring view-through lift, and keeping creator clicks out of the organic bucket), the funnel from spend through qualified clicks to closed-won with a behavioural click definition, and the payback and leading-indicator approach"
   - "Removed: the benchmark click-through and time-to-conversion figures from the source, and the network-specific reference points. Windows and lift ranges are restated as defaults to calibrate"

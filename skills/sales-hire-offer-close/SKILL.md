@@ -2,7 +2,7 @@
 name: sales-hire-offer-close
 version: 1.0.0
 status: draft-for-review
-description: Use when a hiring manager is about to make an offer to a sales, marketing, customer success, or other go-to-market hire and wants it accepted without a fall-off. Confirms the candidate would accept before any number is put forward, sizes the gap on total package, prices up to three offer structures, rehearses the response to a counter-offer, and sets a dated notice-period plan through to the start date. Ends with one yes or no decision for a person. Not for the candidate-assessment scorecard (see sales-hire-scorecard).
+description: "Use when a hiring manager is about to make an offer to a sales, marketing, customer success, or other go-to-market hire and wants it accepted without a fall-off. Confirms the candidate would accept before any number is put forward, sizes the gap on total package, prices up to three offer structures, rehearses the response to a counter-offer, and sets a dated notice-period plan through to the start date. Ends with one yes or no decision for a person. Not for the candidate-assessment scorecard (see sales-hire-scorecard)."
 sources:
   - "Sales hire offer close (MIT, Justin Blij): the rule never to make an offer that has not been trial-closed, the two ways offers die (an information gap and an unmanaged risk), a close-ready gate, sizing the gap on total package, up to three structures priced on cost, signal, and risk, trial-close wording, counter-offer risk with a defence plan and resignation rehearsal, and a dated notice-period plan"
   - "Removed: the applicant tracking and calendar integrations, and the reference checklist. The package basis is stated as a general concept"

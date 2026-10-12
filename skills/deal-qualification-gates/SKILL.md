@@ -2,7 +2,7 @@
 name: deal-qualification-gates
 version: 1.0.0
 status: draft-for-review
-description: Use when a pipeline is full of deals that advance on optimism rather than buyer evidence. Scores the evidence quality behind each qualification dimension from 1 to 5, sets minimum totals and per-dimension floors for each stage, and enforces a qualify, downgrade, or kill verdict with a name and a date. Covers deal truth, not account fit (see icp-builder) and not deal speed (see deal-velocity). Its 1 to 5 scale is separate from the in-flight scoring in deal-blocker-maneuvers. Use one scale per team.
+description: "Use when a pipeline is full of deals that advance on optimism rather than buyer evidence. Scores the evidence quality behind each qualification dimension from 1 to 5, sets minimum totals and per-dimension floors for each stage, and enforces a qualify, downgrade, or kill verdict with a name and a date. Covers deal truth, not account fit (see icp-builder) and not deal speed (see deal-velocity). Its 1 to 5 scale is separate from the in-flight scoring in deal-blocker-maneuvers. Use one scale per team."
 sources:
   - "Deal qualification gates (MIT, Rutger Katz / Neon Triforce), evidence-quality scale 1 to 5, SPICED dimensions and mappings, stage gates with totals and per-dimension floors, critical-event forcing question, qualify-or-kill verdicts, rollout order"
   - "Benchmark figures in the source (vendor research, see the provenance note below) are cited for context only and are not used in any rule"

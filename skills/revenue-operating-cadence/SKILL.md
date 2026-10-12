@@ -2,7 +2,7 @@
 name: revenue-operating-cadence
 version: 1.0.0
 status: draft-for-review
-description: Use to design or fix the revenue meeting system: the rhythm from daily pulse to board meeting, what each meeting decides and who attends, the data each one needs and who builds it, the board deck structure, the anti-patterns that waste meetings, and an asynchronous version for distributed teams. Covers meeting structure and inputs, not forecast methodology (see revops-forecasting) or metric definitions (see revenue-metrics).
+description: "Use to design or fix the revenue meeting system: the rhythm from daily pulse to board meeting, what each meeting decides and who attends, the data each one needs and who builds it, the board deck structure, the anti-patterns that waste meetings, and an asynchronous version for distributed teams. Covers meeting structure and inputs, not forecast methodology (see revops-forecasting) or metric definitions (see revenue-metrics)."
 sources:
   - "Revenue operating cadence (MIT, Rutger Katz / Neon Triforce), data pyramid, seven questions for every meeting, daily pulse, weekly pipeline review and forecast roll-up, bi-weekly funnel review, monthly business review, quarterly review and board deck structure, data inputs by ceremony, anti-patterns, asynchronous cadence and decision logging"
   - "Platform and vendor references in the source (reverse ETL, AI coaching products, 2026 platform features) are removed as tool-specific and not part of the method"

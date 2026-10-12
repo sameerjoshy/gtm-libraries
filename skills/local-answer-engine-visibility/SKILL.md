@@ -2,7 +2,7 @@
 name: local-answer-engine-visibility
 version: 1.0.0
 status: draft-for-review
-description: Use when a business serves specific towns, suburbs or service areas and needs to know where AI answer engines recommend it. Tests each served area separately in buyer phrasing, records map-pack presence and written-answer presence as separate signals, and produces a ranked gap map of the areas where rivals are named instead. Not for overall brand visibility (see answer-engine-visibility-tracking) or for the citation sources behind answers (see citation-source-outreach).
+description: "Use when a business serves specific towns, suburbs or service areas and needs to know where AI answer engines recommend it. Tests each served area separately in buyer phrasing, records map-pack presence and written-answer presence as separate signals, and produces a ranked gap map of the areas where rivals are named instead. Not for overall brand visibility (see answer-engine-visibility-tracking) or for the citation sources behind answers (see citation-source-outreach)."
 sources:
   - "Local AI visibility (MIT, Huxley Peckham): the town-by-town matrix in buyer phrasing, the warning that head-city results predict nothing about nearby areas, recording map-pack and written-answer presence separately because they move for different reasons, the gap map ranked by demand with rivals named, and the visibility cliff where one competitor dominates a few areas"
   - "Removed: the named engines and the named local listing platform. Demand is ranked by any measure the team has, with population as a proxy, and the source's named data tools are not restated"

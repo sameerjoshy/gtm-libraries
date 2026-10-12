@@ -2,7 +2,7 @@
 name: bench-strength-and-succession
 version: 1.0.0
 status: draft-for-review
-description: Use when a CEO, CRO, sales leader, board, or investor needs to know whether the team could survive the loss of a key person, who is ready to step up, and what to do about the gaps. Produces a bench scorecard for critical roles with single points of failure, an evidence-based performance and potential view, a readiness call for each successor, interim cover and development plans, and a talent review run with bias controls. Not for one leader's development plan (see leadership-development-diagnostic).
+description: "Use when a CEO, CRO, sales leader, board, or investor needs to know whether the team could survive the loss of a key person, who is ready to step up, and what to do about the gaps. Produces a bench scorecard for critical roles with single points of failure, an evidence-based performance and potential view, a readiness call for each successor, interim cover and development plans, and a talent review run with bias controls. Not for one leader's development plan (see leadership-development-diagnostic)."
 sources:
   - "Bench strength and succession (MIT, Jason Mesiarik): the doctrine that succession asks who can do the next job and bench strength proves it before the vacancy, the test for a critical role (losing its holder puts a quarter's number, a top customer, or a key capability at risk within ninety days), the four potential signals, the readiness categories, independent pre-scoring in the talent review, and the rule that an outside hire faces a higher evidence bar"
   - "Removed: the reference files on the scorecard, potential and readiness, and the talent review, which are not used. The named bench-scoring method is restated as plain steps"

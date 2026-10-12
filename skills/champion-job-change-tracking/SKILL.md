@@ -2,7 +2,7 @@
 name: champion-job-change-tracking
 version: 1.0.0
 status: draft-for-review
-description: Use to track when past buyers, power users, or key contacts at customers or prospects change jobs. Confirms each move against hard identifiers (domain, LinkedIn page), follows the mover into the new company, flags any vacated seat at the old account, and proposes CRM changes for approval. Not for general contact cleanup or for finding new prospects by persona.
+description: "Use to track when past buyers, power users, or key contacts at customers or prospects change jobs. Confirms each move against hard identifiers (domain, profile page), follows the mover into the new company, flags any vacated seat at the old account, and proposes CRM changes for approval. Not for general contact cleanup or for finding new prospects by persona."
 sources:
   - "Track champion job changes (MIT, Sung Jo), FOLLOW and BACKFILL plays, verdict logic, domain-based comparison"
   - "Track contact job changes (MIT, Jorge Macias), CRM refresh, propose-then-confirm writes, opt-out rules, name validation"
@@ -36,7 +36,7 @@ Route elsewhere when:
 
 ## Inputs
 
-- Champion list, from a CRM export, an existing table, or a saved segment. Minimum: name, company domain, and LinkedIn URL, or an email to resolve one.
+- Champion list, from a CRM export, an existing table, or a saved segment. Minimum: name, company domain, and profile URL, or an email to resolve one.
 - Definition of a champion: past buyer, power user, or deal contact on a closed-won account. Do not widen the list without saying so.
 - ICP filter for the follow play: industry, size, region.
 - Cadence: weekly by default, monthly for lists under about 200.
@@ -51,7 +51,7 @@ Check that the data and enrichment tools work, and confirm the workspace with th
 ### 2. Resolve the current employer
 
 In this order, using the first method that gives an answer:
-1. LinkedIn URL on file: pull the profile.
+1. profile URL on file: pull the profile.
 2. No URL: search by name and last known company, then validate the match.
 3. Email lookup last, since coverage is weakest.
 

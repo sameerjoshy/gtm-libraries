@@ -2,7 +2,7 @@
 name: marketing-operations
 version: 1.0.0
 status: draft-for-review
-description: Use to make marketing accountable for pipeline: shared lifecycle definitions, dual-axis lead scoring (fit and engagement) with quarterly calibration and governed versions, the marketing-to-sales handoff SLA with rejection reasons, lead recycling, attribution (sourced, influenced, and a multi-touch model), campaign and UTM taxonomy, and the maturity path. Use when sales says leads are poor or revenue cannot be attributed to campaigns. Covers marketing operations, not brand, creative, or ICP methodology (see icp-builder), and not the CRM build (see the platform skills).
+description: "Use to make marketing accountable for pipeline: shared lifecycle definitions, dual-axis lead scoring (fit and engagement) with quarterly calibration and governed versions, the marketing-to-sales handoff SLA with rejection reasons, lead recycling, attribution (sourced, influenced, and a multi-touch model), campaign and UTM taxonomy, and the maturity path. Use when sales says leads are poor or revenue cannot be attributed to campaigns. Covers marketing operations, not brand, creative, or ICP methodology (see icp-builder), and not the CRM build (see the platform skills)."
 sources:
   - "Marketing operations (MIT, Rutger Katz / Neon Triforce), lead lifecycle stages, dual-axis scoring with weekly decay, quarterly calibration with holdout, scoring versioning and rollback, MQL to SQL SLA and rejection categories, lead routing models, lead recycling, W-shaped attribution, sourced and influenced definitions, UTM governance, dark funnel, shared definitions, maturity levels"
   - "Percentages and external statistics in the source (acceptance benchmarks, channel mixes, dark-funnel shares, vendor and survey figures) are treated as starting points or context only. The AI-scoring case study is removed as an unverified anecdote"
@@ -143,7 +143,7 @@ The source cites reactivation of 8 to 15% within six months, when contact is tie
 
 These shares are an author default. Test them against the client's own deals, and document the choice.
 
-Example: a LinkedIn ad (first touch), blog reads (middle, no credit under W-shape), a webinar that produced the MQL (lead creation), an email nurture sequence that created the opportunity (opportunity creation), and a retargeted ad before the close at 95,000. Credit under the default shares: 28,500 to the LinkedIn ad, 19,000 to the webinar, 28,500 to the email nurture, and 19,000 to the retargeting ad. Blog reads get nothing, which is a known limit of this model.
+Example: a paid social ad (first touch), blog reads (middle, no credit under W-shape), a webinar that produced the MQL (lead creation), an email nurture sequence that created the opportunity (opportunity creation), and a retargeted ad before the close at 95,000. Credit under the default shares: 28,500 to the LinkedIn ad, 19,000 to the webinar, 28,500 to the email nurture, and 19,000 to the retargeting ad. Blog reads get nothing, which is a known limit of this model.
 
 **Two definitions, both needed.**
 

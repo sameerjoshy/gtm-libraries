@@ -2,7 +2,7 @@
 name: sales-playbook-foundations
 version: 1.0.0
 status: draft-for-review
-description: Use when a sales team has no written playbook, success lives in one leader's head, onboarding is inconsistent, or reps ramp too slowly. Produces a playbook skeleton in five sections (People, Prospect, Problem, Process, Product), a fully drafted People section covering expectations, standards, ramp, and stories, and a process section that names the methodology and qualification gates. Not for individual deal coaching or CRM configuration.
+description: "Use when a sales team has no written playbook, success lives in one leader's head, onboarding is inconsistent, or reps ramp too slowly. Produces a playbook skeleton in five sections (People, Prospect, Problem, Process, Product), a fully drafted People section covering expectations, standards, ramp, and stories, and a process section that names the methodology and qualification gates. Not for individual deal coaching or CRM configuration."
 sources:
   - "Sales playbook foundations (MIT, Kevin Dorsey), five P's in order with People first, People section (expectations with the math shown, promotion and termination criteria, standards of excellence with signature, goals, stories and records), build from real calls, operating rhythm with owner and cadence"
   - "Rep ramp system (MIT, Rutger Katz / Neon Triforce), ramp math with ramped-equivalent capacity, evidence-gated 30-60-90 milestones with remediation outcomes, manager cadence, leading indicators from week one"

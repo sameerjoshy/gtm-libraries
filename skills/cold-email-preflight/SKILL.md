@@ -2,7 +2,7 @@
 name: cold-email-preflight
 version: 1.0.0
 status: draft-for-review
-description: Use in the hour before a cold email campaign goes live. Runs a checklist covering domain authentication, list verification, copy risk, day-one volume, and written kill-switch thresholds, then produces a launch or hold decision and the monitoring rules for the first week. Not for writing the copy or the sequence (see outbound-cold-email).
+description: "Use in the hour before a cold email campaign goes live. Runs a checklist covering domain authentication, list verification, copy risk, day-one volume, and written kill-switch thresholds, then produces a launch or hold decision and the monitoring rules for the first week. Not for writing the copy or the sequence (see outbound-cold-email)."
 sources:
   - "Cold email pre-flight check (MIT, Imad Badreddine): authentication checks as a hard hold, list verification before launch, copy risk pass with no links in the first message, volume ramp, kill-switch thresholds set in writing before the first send, first-week daily watch"
   - "Adapted for GTM-360: the ramp across the first week, the watch rules, and the thresholds are author defaults to calibrate per sending domain and list"

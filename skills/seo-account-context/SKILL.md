@@ -2,7 +2,7 @@
 name: seo-account-context
 version: 1.0.0
 status: draft-for-review
-description: Use before any SEO or content keyword work for a company, to build one confirmed account intelligence document: what the company sells, who it sells to, what it wants to sell more of, and what already works. Gathers the onboarding form, the live website, sales call notes, and client communications into one picture, and asks for confirmation before any keyword research starts. Not for choosing topics (see seo-topic-research).
+description: "Use before any SEO or content keyword work for a company, to build one confirmed account intelligence document: what the company sells, who it sells to, what it wants to sell more of, and what already works. Gathers the onboarding form, the live website, sales call notes, and client communications into one picture, and asks for confirmation before any keyword research starts. Not for choosing topics (see seo-topic-research)."
 sources:
   - "Business context ingestion (MIT, Sam Dunning): the principle that keyword output without account understanding is disconnected from commercial reality, the request for a single set of inputs gathered once, and the account intelligence document as the basis for every later phase"
   - "Removed: the named keyword and site-data tool, the named call-transcript and communications sources, and the command invocation. Input sources are restated as categories"

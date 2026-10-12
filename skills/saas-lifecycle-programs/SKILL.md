@@ -2,7 +2,7 @@
 name: saas-lifecycle-programs
 version: 1.0.0
 status: draft-for-review
-description: Use to design, audit, or rebuild the messaging a subscription product sends across the customer journey, from activation and onboarding to adoption, retention, expansion, failed-payment recovery, and win-back. Starts by checking whether the events and attributes the messaging needs are tracked and reach the messaging platform, then ranks findings by leverage, or produces a staged build roadmap with the trigger, touches, and data prerequisites for each programme. Not for the customer success motion itself (see cs-operations).
+description: "Use to design, audit, or rebuild the messaging a subscription product sends across the customer journey, from activation and onboarding to adoption, retention, expansion, failed-payment recovery, and win-back. Starts by checking whether the events and attributes the messaging needs are tracked and reach the messaging platform, then ranks findings by leverage, or produces a staged build roadmap with the trigger, touches, and data prerequisites for each programme. Not for the customer success motion itself (see cs-operations)."
 sources:
   - "SaaS lifecycle programs (MIT, Tanyo Gochev): audit the data layer before any campaign, the eight-stage journey map from acquisition to resurrection, a minimum viable set of programmes, the principle that retention is the foundation, and a findings report ranked by leverage"
   - "Removed: the example sequences and the figures attached to the source's examples. The stage map is restated as this library's own list"

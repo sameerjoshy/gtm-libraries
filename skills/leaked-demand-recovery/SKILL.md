@@ -2,7 +2,7 @@
 name: leaked-demand-recovery
 version: 1.0.0
 status: draft-for-review
-description: Use to recover demand that was paid for and then lost between systems: a chat or form lead who never booked, a demo request with no meeting, a call with no follow-up, an inbound reply never answered, a trial that ended quietly, or a closed-lost deal whose blocker has since changed. Builds the candidate list from capture systems, verifies each drop against two independent sources, sets the right voice from history, and drafts one recovery message per confirmed drop for human approval. Not for warm-reply cadence (see stage-aware-follow-up) or closed-lost re-engagement campaigns (see closed-lost-revival).
+description: "Use to recover demand that was paid for and then lost between systems: a chat or form lead who never booked, a demo request with no meeting, a call with no follow-up, an inbound reply never answered or a trial that ended quietly. Builds the candidate list from capture systems, verifies each drop against two independent sources, sets the right voice from history, and drafts one recovery message per confirmed drop for human approval. Not for warm-reply cadence (see stage-aware-follow-up) or closed-lost re-engagement campaigns (see closed-lost-revival)."
 sources:
   - "Leaked demand recovery (MIT, Eliezer Cohen): build candidates from capture systems rather than the CRM, two-system verification as a hard gate, history before voice, hard disqualifiers before fit scoring, one drafted message per confirmed drop, failed-gate candidates kept visible"
   - "Removed: the reference files and the named capture tools. The seam list is restated as generic categories"
