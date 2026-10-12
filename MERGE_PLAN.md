@@ -164,3 +164,9 @@ Skills listed as merge next in sections 2 and 3 are being written in batches. Ch
 - Skipped: thebigasif patent-backed-seo-quick-wins. Its receipts are patent IDs and leaked API fields from an external evidence map that is not in the library and cannot be verified here. Per the rule against inventing or approximating receipts, the skill is not restated.
 - Source figures not restated: market salary and outsourcing figures, vendor price points, post performance counts, and the patent evidence map.
 - Still open: the Meta and Google Ads family sets (ivan-falco meta-* and google-ads, advantage-plus, meta-capi and related sets), and any uncited author sets not yet classified. COVERAGE.md's uncited list is the check for the second.
+
+## Status correction: remaining work after batch two (180 merged)
+
+- Ivan Falco's ads sources are mostly covered by paid skills that cite him by name (ad-copy-voice-of-customer, ad-persona-framework, creative-fatigue-rotation, lead-form-quality, paid-campaign-plan, paid-channel-selection, paid-measurement-scorecard, paid-offer-strategy, paid-optimisation-signals, paid-scaling-quadrant, paid-social-campaign-structure, paid-social-audience-strategy and others). Those coverage claims are from the citations, not a line-by-line read.
+- Not yet verified line by line: the Meta reference set (meta-ads-operating-system, meta-setup-and-tracking, meta-reporting, meta-onboarding, meta-api-reference, meta-b2b-overview, meta-optimization-playbook, meta-creative-strategy, meta-offer-strategy, meta-audience-strategy, meta-campaign-structure) and the LinkedIn ABM sets (linkedin-abm-1to1-few-many, linkedin-ads-abm-guide, linkedin-ads-audience-guide, ads-outbound-signaling-guide). Each needs a read against its target before it is recorded as covered.
+- Authors with no citation in COVERAGE.md are classified in the notes above (folded, covered, or skipped), with one deliberate skip: thebigasif.
