@@ -90,3 +90,8 @@ Skills listed as merge next in sections 2 and 3 are being written in batches. Ch
 - Written: inbound-demo-request-triage (handle-demo-request), linkedin-signal-triage (profile-view, connection-request, DM classifier, post-engagement, and influencer-engager handlers, one skill), event-attendee-prep (event room intelligence), event-logistics-planning (booking links, personal plan, shared calendar, one skill).
 - The events group was split into two skills, and the signal group into one, because the attendee dossier and the logistics workflow have different inputs and outputs.
 - Still pending: the channel and content sets (paid ads, creator and influencer, search and AI visibility, Reddit and community, newsletter and content).
+
+## Progress note: paid ads batch 1 (122 merged)
+
+- Written from the platform-neutral Ivan Falco ads set: paid-channel-selection, paid-campaign-plan, paid-budget-by-stage, ad-persona-framework, ad-copy-voice-of-customer, paid-measurement-scorecard, paid-optimisation-signals, paid-scaling-quadrant, creative-fatigue-rotation, lead-form-quality, paid-offer-strategy.
+- Still pending in paid ads: Meta-specific sets (ivan-falco meta-* family, advantage-plus, creating-campaigns-ads-audiences, meta-api-reference, meta-capi-and-events, meta-third-party-conversion-tracking), Google Ads sets (john-williams, ivan-falco google-ads), Google Ads and Meta audits (aditya-sriram), LinkedIn audit and targeting sets (justin-rowe, gaetano-romeo, ivan-falco linkedin-ads), and ivan-falco message-validation and ads-writing-style. Platform-specific sets are to be written in generic form, with the platform detail removed.
