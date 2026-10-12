@@ -8,7 +8,7 @@ Private starting point for GTM-360 operating libraries. Designed to be copied pe
 |---|---|---|---|
 | `definitions/` | Agreed meanings of metrics and stages | GTM-360 | Draft |
 | `context/` | Company, ICP, and client facts that skills read | GTM-360 | Draft |
-| `skills/` | Executable GTM skills (SKILL.md + assets), 42 merged | GTM-360 | Draft for review |
+| `skills/` | Executable GTM skills (SKILL.md + assets), 45 merged | GTM-360 | Draft for review |
 | `agents/` | GTM agent role definitions (Scout, Writer, Rep, Closer, Mission Control) with approval gates | GTM-360 | Draft for review |
 | `evals/` | Test cases with expected outputs | GTM-360 | Placeholder (not yet populated) |
 | `runs/` | Log of eval runs by date, skill version, context version | GTM-360 | Empty |
