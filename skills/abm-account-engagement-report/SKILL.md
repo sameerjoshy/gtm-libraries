@@ -70,7 +70,7 @@ Chat summary, three to four sentences: funnel progression (accounts reached, in 
 - Segment figures show account counts.
 - Revenue is not summed across exposure, influence, and attribution.
 
-## Boundaries
+## Rules
 
 - Covers one dashboard for one client. For monthly recap reporting use `linkedin-ads-monthly-report`. For a diagnostic fix list use `linkedin-ads-audit`.
 - Do not present scoring weights as industry benchmarks.

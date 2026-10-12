@@ -203,7 +203,7 @@ End with the approval question. Write nothing to the CRM until the user approves
 - MUST NOT present vendor benchmarks as industry standards. Label the source and its date.
 - NEVER forecast in this skill. Forecast methodology is a separate skill.
 
-## Boundaries
+## Rules
 
 - Inspects and flags the live pipeline. Does not produce the forecast or its commit and best-case categories: a forecast skill is needed for that.
 - Does not configure the CRM, its stages, or its fields. Data governance is covered by `revops-data-governance`.

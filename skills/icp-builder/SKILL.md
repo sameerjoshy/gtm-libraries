@@ -171,7 +171,7 @@ Write the approved ICP to `context/icp.md` in the client's ICP format.
 - NEVER claim causation from correlation in output.
 - NEVER state a benchmark or threshold as an industry standard unless the source is cited.
 
-## Boundaries
+## Rules
 
 - Defines and refines the ICP and its personas. It does not score or tier individual accounts across a list: use `account-tier-scoring`.
 - Does not filter an existing lead list: use the list-filtering skill.

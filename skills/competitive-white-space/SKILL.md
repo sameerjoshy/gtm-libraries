@@ -70,7 +70,7 @@ These matter because the document is read by people outside marketing.
 - Every takeaway changes a message or a target.
 - No jargon from the banned list appears.
 
-## Boundaries
+## Rules
 
 - Positioning and messaging only. For monitoring over time, use `competitive-intelligence`.
 - Competitor claims are as stated on their sites. Verify any performance claim before using it in the company's messaging.

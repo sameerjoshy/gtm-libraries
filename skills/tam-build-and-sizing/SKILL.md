@@ -64,7 +64,7 @@ Route elsewhere when:
 - If verified in-TAM accounts already exceed the estimate, revise the estimate upward rather than forcing the count down.
 - No ETA is projected from fewer than three comparable snapshots.
 
-## Boundaries
+## Rules
 
 - Sizing and enumeration only. Contact finding and email verification come after the list is approved.
 - Contract value is the input to revenue sizing. Do not guess it.

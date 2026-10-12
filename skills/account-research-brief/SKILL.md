@@ -100,7 +100,7 @@ Briefs are often forwarded. Show contact names as initials, emails as domain onl
 - Tenure under six months is flagged as a timing signal.
 - Any date already in the past that should still be in the future is flagged for checking.
 
-## Boundaries
+## Rules
 
 - One account at a time. Portfolio ICP and scoring work go to `icp-builder` and `account-tier-scoring`.
 - Not a content piece. Outreach is limited to one draft per brief.

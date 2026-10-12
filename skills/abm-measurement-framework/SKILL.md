@@ -84,6 +84,6 @@ A measurement plan with: the baseline table, targets by stage, the attribution m
 - Revenue claims separate exposure, influence, and attribution.
 - No single programme's results are used as the benchmark for another.
 
-## Boundaries
+## Rules
 
 - Method only. Dashboards go to `abm-account-engagement-report`. Plans go to `abm-strategy-planner`.

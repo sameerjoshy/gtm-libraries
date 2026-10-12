@@ -19,3 +19,7 @@ Team-wide defaults for this library. Each one is a default. A client's copy of t
 - Thresholds, weights, and bands are defaults. Calibrate them against the client's won and lost deals before relying on them.
 - Do not average scores from different scales. Keep each in its own labelled field.
 - A change to a default is made here first, then applied to the skills that cite it.
+
+## Skill format
+
+Every skill has these sections, in this order: Purpose, When to use, Inputs, Procedure, Output, Quality bar. A Rules section is optional. Where a skill has one, it comes after Quality bar and holds only the hard rules that the Quality bar does not already state.

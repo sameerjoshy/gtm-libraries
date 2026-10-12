@@ -236,7 +236,7 @@ One saved artifact per run:
 - MUST NOT run the full framework on a deal below the complexity floor.
 - NEVER let outside jargon reach the rep. Use the client's labels.
 
-## Boundaries
+## Rules
 
 - Runs after a deal interaction and produces the next move. It does not score accounts for fit: use `icp-builder` and `account-tier-scoring`.
 - Does not forecast or set forecast categories. A forecasting skill is needed for that.

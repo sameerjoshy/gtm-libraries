@@ -64,7 +64,7 @@ Chat summary: two or three sentences on the month.
 - No pipeline figure appears without CRM data.
 - Every grade has its benchmark next to it.
 
-## Boundaries
+## Rules
 
 - Reporting only. Use `linkedin-ads-audit` for a fix list of the last 30 days.
 - Schedule this on the first of each month only if the user asks.

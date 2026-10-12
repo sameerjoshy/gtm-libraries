@@ -108,7 +108,7 @@ After three to six weeks, read the ledger and digests: signals per week, share a
 - Mention-scan hits never appear as a watched account's own hiring.
 - Quiet runs are reported as quiet only after the source has been checked.
 
-## Boundaries
+## Rules
 
 - Detection and classification only. This skill never drafts, queues, or sends outreach.
 - Champion and contact moves belong to `champion-job-change-tracking`.

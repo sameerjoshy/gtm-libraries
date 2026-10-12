@@ -118,7 +118,7 @@ Each run ends with a summary: champions checked, moves found, follow notes draft
 - No CRM write or outreach has happened without approval.
 - No account has been duplicated under a different name or domain.
 
-## Boundaries
+## Rules
 
 - Champions and contacts already in the CRM only. For finding new people by persona, use the list-building skill.
 - Not a general CRM cleanup or whole-list email re-verification.

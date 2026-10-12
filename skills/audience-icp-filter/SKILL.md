@@ -205,7 +205,7 @@ Keep lead data in the client's workspace. Do not commit lead data to the library
 - NEVER treat junk company values as employers.
 - NEVER commit lead or personal data to the repo.
 
-## Boundaries
+## Rules
 
 - Filters an existing list. Does not build lists from scratch: use the list-building skill when it is added.
 - Defines the ICP criteria. Does not write them: use `icp-builder`.

@@ -133,7 +133,7 @@ Depending on the step:
 - Benchmark figures found in source material (reply rates, conversion multiples) come from vendor claims and are not used as targets until tested against your own data.
 - No message refers to how the person was found.
 
-## Boundaries
+## Rules
 
 - Hiring signals: use `hiring-signal-tracking`, which also holds the verification gate for hiring claims.
 - Champion and contact job changes: use `champion-job-change-tracking`.

@@ -175,7 +175,7 @@ The test: could a rep who joins after the leader has left succeed from this docu
 - MUST assign an owner and an update cadence before the playbook ships.
 - NEVER let the playbook be fully outsourced. The leader stays heavily involved.
 
-## Boundaries
+## Rules
 
 - Writes the playbook as a document. Does not coach individual deals: use the deal-review and deal-qualification skills.
 - Does not configure CRM fields or stages. Use a platform-specific CRM skill, or the `revops-data-governance` skill for data standards.

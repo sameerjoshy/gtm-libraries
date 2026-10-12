@@ -251,7 +251,7 @@ Never run two new motions at the same time. Add the adjacent motion only when th
 - MUST show the investment and the capacity it adds before recommending a hire or a new motion.
 - NEVER treat a provisional assumption as confirmed in the output.
 
-## Boundaries
+## Rules
 
 - Covers team structure, territories, capacity, and headcount. Compensation plans and quota design are a separate skill: `gtm-compensation`.
 - Does not define the ICP. Use `icp-builder`.

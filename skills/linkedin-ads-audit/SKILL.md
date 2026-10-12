@@ -83,7 +83,7 @@ Chat summary: two or three plain-English takeaways. The detail lives in the repo
 - Small accounts get a proportionate audit. Do not run an impression-hog analysis on two ads.
 - Pass and fail marks are plain text, not emoji.
 
-## Boundaries
+## Rules
 
 - Diagnostic only. For a monthly recap, use `linkedin-ads-monthly-report`. For a new plan, use `abm-strategy-planner`.
 - Benchmarks are reference points that vary by source. Show their source and date on the report.

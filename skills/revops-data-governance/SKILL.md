@@ -253,7 +253,7 @@ Maturity levels, as a self-assessment:
 - MUST NOT give legal advice. Route privacy questions to counsel.
 - NEVER present the practice-based targets, weights, or thresholds as industry standards.
 
-## Boundaries
+## Rules
 
 - Defines governance, scoring, and cleanup method. Does not configure a specific CRM's properties, workflows, or permissions. That needs a platform-specific skill.
 - Does not inspect deals for risk in a live pipeline: use `pipeline-review`. This skill fixes the data that review depends on.

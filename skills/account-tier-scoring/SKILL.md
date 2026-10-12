@@ -223,7 +223,7 @@ For a batch: a summary count by tier and gate outcome, then the Gold accounts, t
 - NEVER promote an account on anonymous or third-party signals alone where an enterprise gate applies.
 - NEVER enrich or draft outreach for Bronze or Non-ICP accounts.
 
-## Boundaries
+## Rules
 
 - Tiers individual accounts for attention. It does not define the ICP: use `icp-builder`.
 - Does not build the ABM engagement dashboard or its composite score for client reports: use `abm-account-engagement-report`. That score ranks accounts for a report. This skill makes the decision about attention and handover.

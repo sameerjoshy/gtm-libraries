@@ -59,7 +59,7 @@ A self-contained HTML plan titled "[Company] LinkedIn ABM Strategy", with inline
 - Budget allocation percentages sum to 100 at each budget level.
 - No budget is gated on CTR. CTR does not drive the budget math.
 
-## Boundaries
+## Rules
 
 - Planning only. For auditing existing spend, use `linkedin-ads-audit`.
 - Do not present defaults as market data.

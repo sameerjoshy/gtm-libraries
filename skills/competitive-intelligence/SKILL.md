@@ -88,7 +88,7 @@ Battlecard rules:
 - Contact names are shown as initials in any shared brief.
 - Nothing is sent to a distribution list until the user approves the destination.
 
-## Boundaries
+## Rules
 
 - Monitoring and deal prep only. For positioning and messaging gaps, use `competitive-white-space`.
 - Do not present a speculation about a competitor's plans as a signal. Label it as a hypothesis.
