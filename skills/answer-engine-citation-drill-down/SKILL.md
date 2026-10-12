@@ -1,6 +1,6 @@
 ---
 name: answer-engine-citation-drill-down
-version: 1.0.0
+version: 1.1.0
 description: "Use when a team wants to know which content shapes AI-generated answers in its category, why a competitor is cited in comparison answers, and where content effort should go to earn mentions. Works top-down in three levels: the domains that co-occur with the brand in AI answers, the specific pages driving those citations, and the full answers themselves. Ends in a ranked hit-list of content patterns and the places the brand can plausibly earn a mention. Not for tracking the brand's visibility over time (see answer-engine-visibility-tracking)."
 ---
 
@@ -27,25 +27,25 @@ Route elsewhere when:
 - The brand's list of competitors.
 - Any content the brand already publishes, with its URLs.
 
-## Level one: domains
+### Level one: domains
 
 1. List the domains that co-occur with the brand in the answers, with the number of citations each receives.
 2. Classify each domain by type: review platform, competitor, news, community, or the brand itself.
 3. Read the shape. A review platform appearing across many answers about the brand tells the team which kind of property owns the category's reputation.
 
-## Level two: pages
+### Level two: pages
 
 1. For the top domains, list the specific pages cited.
 2. Note the page type and the claim each page supports in the answer.
 3. Identify the pages the brand could plausibly earn a mention on, and the pages it could influence through its own content.
 
-## Level three: full answers
+### Level three: full answers
 
 1. Read the full answers in which a competitor is cited but the brand is not.
 2. Note what the cited pages say that the brand's pages do not.
 3. Note the question the answer was responding to, and whether the brand has a page that answers it.
 
-## The hit-list
+### The hit-list
 
 Rank the content patterns by how often they appear across the answers. A pattern is recommended only if it appears in several answers, not one. For each recommended pattern, state:
 - the pattern,

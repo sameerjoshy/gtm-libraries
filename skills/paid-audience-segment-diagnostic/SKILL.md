@@ -1,6 +1,6 @@
 ---
 name: paid-audience-segment-diagnostic
-version: 1.0.0
+version: 1.1.0
 description: "Use when a team has demographic performance data for paid ads (results broken down by industry, country, company size, job title, function, and seniority) and needs to know who is engaging, which segments convert efficiently at an acceptable cost, and what to change. Requires a minimum volume per segment before any segment is judged, separates engagement from conversion, and ends with a short list of segment changes. Not for reach and frequency (see paid-audience-reach-diagnostic) or for choosing the offer (see paid-offer-strategy)."
 ---
 
@@ -31,7 +31,7 @@ Route elsewhere when:
 
 ## Procedure
 
-1. **Set the minimum volume.** Exclude any segment below it from judgement. A segment with a handful of conversions is noise, not a finding. Report excluded segments as untested.
+1. **Set the minimum volume.** Exclude any segment below it from judgment. A segment with a handful of conversions is noise, not a finding. Report excluded segments as untested.
 2. **Separate engagement from conversion.** For each segment, compare click-through rate with conversion rate. A segment with strong engagement and weak conversion is an engagement finding, not a success.
 3. **Judge cost against the acceptable figure.** Mark each qualifying segment as efficient, acceptable, or expensive, against the business's cost limit.
 4. **Look across the six dimensions.** A pattern that appears in several dimensions, such as one seniority band converting well in several industries, is stronger than a single high result.

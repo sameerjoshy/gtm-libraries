@@ -1,14 +1,14 @@
 ---
 name: sdr-outbound-rules
-version: 1.0.0
-description: "Use to train SDRs on cold outbound writing and to review drafts against a fixed checklist: word count, one call to action, a trigger or personalisation, specific proof, tone by offer type, and a choice among eight approved messaging frameworks. Use when outbound quality is inconsistent, when drafts need rewriting against the rules, or when a team needs a shared standard. Not for the offer itself (see cold-offer-architect)."
+version: 1.1.0
+description: "Use to train SDRs on cold outbound writing and to review drafts against a fixed checklist: word count, one call to action, a trigger or personalization, specific proof, tone by offer type, and a choice among eight approved messaging frameworks. Use when outbound quality is inconsistent, when drafts need rewriting against the rules, or when a team needs a shared standard. Not for the offer itself (see cold-offer-architect)."
 ---
 
 # SDR outbound rules
 
 ## Purpose
 
-SDR outbound fails in predictable ways: long emails, several asks in one message, vague claims, and a corporate tone that readers skip. This skill gives every SDR the same standard, a set of frameworks to choose from, and a checklist to run before any message is sent. The rules are a floor for quality. They do not replace judgement about the prospect.
+SDR outbound fails in predictable ways: long emails, several asks in one message, vague claims, and a corporate tone that readers skip. This skill gives every SDR the same standard, a set of frameworks to choose from, and a checklist to run before any message is sent. The rules are a floor for quality. They do not replace judgment about the prospect.
 
 ## When to use
 
@@ -39,10 +39,10 @@ Route elsewhere when:
 - No bullet points in a cold email.
 - One call to action. Clear, direct, respectful of time, and scheduling-oriented where possible.
 
-**Personalisation**
+**Personalization**
 
 - Use at least one of: a trigger, a specific detail about the company, or a role-specific problem.
-- Every personalisation must be true and checkable. Never invent a detail to sound relevant.
+- Every personalization must be true and checkable. Never invent a detail to sound relevant.
 
 **Proof**
 
@@ -52,10 +52,10 @@ Route elsewhere when:
 **Tone by offer type**
 
 - Consultative services: calm, strategic, a trusted adviser.
-- Accelerator or programme: friendly, curious, approachable.
+- Accelerator or program: friendly, curious, approachable.
 - Outbound cold: a clear pattern interrupt, short and direct, never aggressive.
 
-## The eight frameworks
+### The eight frameworks
 
 Choose one per email. Do not mix two in one message.
 
@@ -75,7 +75,7 @@ Choose one per email. Do not mix two in one message.
 3. Run the pre-send checklist:
    - Under ninety words?
    - One call to action?
-   - Trigger or personalisation included, and true?
+   - Trigger or personalization included, and true?
    - Proof specific, with numbers where used?
    - Tone right for the offer type?
    - No buzzwords, and no fake enthusiasm?
@@ -90,4 +90,4 @@ Choose one per email. Do not mix two in one message.
 
 ## Quality bar
 
-Every draft is within the length rule, has one call to action, and carries a true personalisation. Proof is specific or absent. The framework is named. Watch for drafts over a hundred and fifty words, several asks in one message, and invented details.
+Every draft is within the length rule, has one call to action, and carries a true personalization. Proof is specific or absent. The framework is named. Watch for drafts over a hundred and fifty words, several asks in one message, and invented details.

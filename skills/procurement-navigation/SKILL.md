@@ -1,6 +1,6 @@
 ---
 name: procurement-navigation
-version: 1.0.0
+version: 1.1.0
 description: "Use when a verbally won deal enters security review, legal redlines, privacy terms, or vendor onboarding, and the close date keeps slipping at contract stage. Maps the buyer's gauntlet before the proposal, pre-builds the artifact pack for security, legal, and privacy, runs the reviews in parallel on a mutual close plan, and negotiates with procurement by trading concessions rather than giving them. Not for qualification (see sales-methodology) or discount approval (see deal-desk-operations)."
 ---
 
@@ -25,7 +25,7 @@ Route elsewhere when:
 - The question is whether the deal is qualified. Use `sales-methodology`.
 - The question is the discount to offer. Use `deal-desk-operations`.
 - The question is the evaluation before the win. Use `trial-poc-conversion`.
-- The question is the pricing model. Use `pricing-monetisation-ops`.
+- The question is the pricing model. Use `pricing-monetization-ops`.
 
 ## Inputs
 

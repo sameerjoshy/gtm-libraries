@@ -1,6 +1,6 @@
 ---
 name: reply-pull-gate
-version: 1.0.0
+version: 1.1.0
 description: "Use to score a drafted outbound message before it is sent, and to write a cold or re-engagement touch that must earn a reply from someone who owes the sender nothing. Checks four moves (show the work, poke rather than pitch, one line that could only have been written this week, and writing to be forwarded), calibrates the ask to how well the sender knows the recipient, and returns SEND or SEND BACK with the named rewrite. Clean copy is treated as the minimum, not the goal. Not for the offer's design (see cold-offer-architect)."
 ---
 

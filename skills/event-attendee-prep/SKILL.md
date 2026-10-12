@@ -1,6 +1,6 @@
 ---
 name: event-attendee-prep
-version: 1.0.0
+version: 1.1.0
 description: "Use one to three days before a face-to-face event (a conference, a dinner, a booth, a talk) when a registration or attendee export exists and the question is who to talk to. Maps each registrant to a company, joins the list against the live CRM, verifies each person's title and employer, sizes and qualifies each company, identifies the buying committee for accounts worth pursuing, and produces a phone-readable dossier with one account per page, warm accounts first, each card showing who the buyer is, whether they are in the room, and the one-line opening. Not for scheduling the event's logistics (see event-logistics-planning)."
 ---
 

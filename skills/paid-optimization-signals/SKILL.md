@@ -1,10 +1,10 @@
 ---
-name: paid-optimisation-signals
-version: 1.0.0
+name: paid-optimization-signals
+version: 1.1.0
 description: "Use when deciding which paid media metrics justify action, when to pause an ad, and how to tell a real result from noise. Separates leading signals (fast) from lagging signals (slow), sets breakeven cost formulas from deal size and conversion rate, applies a non-performer rule and a maintenance rule, and keeps an experiment log with a hypothesis, priority, and documented result for each test. Not for the measurement set-up (see paid-measurement-scorecard) or for creative fatigue (see creative-fatigue-rotation)."
 ---
 
-# Paid optimisation signals
+# Paid optimization signals
 
 ## Purpose
 
@@ -29,9 +29,9 @@ Route elsewhere when:
 - The thresholds the team uses for action, where they are set.
 - Any new metric proposed as a reason to act, with its source.
 
-## Leading and lagging signals
+### Leading and lagging signals
 
-- **Leading** signals arrive within a month. Use them for quick optimisation.
+- **Leading** signals arrive within a month. Use them for quick optimization.
 - **Lagging** signals arrive over more than a month. Use them for the directional truth about whether the spend pays back.
 
 Signals by stage, as defaults:
@@ -46,7 +46,7 @@ Signals by stage, as defaults:
 
 The key is choosing leading signals that actually move the lagging ones. Expect to change them as the data builds up.
 
-## Breakeven costs
+### Breakeven costs
 
 Breakeven cost per lead = average deal size × lead-to-won conversion rate.
 Illustration: a $3,000 deal and a 10% lead-to-won rate give a breakeven cost per lead of $300.
@@ -56,14 +56,14 @@ Illustration: $300 × 5% gives a breakeven cost per click of $15.
 
 Use the company's own figures. The illustrations are not benchmarks.
 
-## Pause rules
+### Pause rules
 
 1. **Non-performer rule.** Applies at any time. Pause a new ad that has spent two to three times the target cost per lead with no conversions. Example: target $300, spend of $600 to $900 with no conversions, pause.
 2. **Maintenance rule.** Applies after seven to fourteen days, depending on volume. Pause an older ad whose cost per lead is one and a half to two times target. Example: target $300, current $450 to $600, pause.
 
 These rules are not statistically significant. They are repeatable, easy to follow, and they stop emotional decisions. Say so when the rules are presented.
 
-## Proxy metrics
+### Proxy metrics
 
 A proxy metric is a leading signal that stands in for a lagging outcome. A good proxy is stated as: the percentage of customers or users who do at least a minimum action within a set period.
 
@@ -77,11 +77,11 @@ A good proxy is:
 
 First show the proxy correlates with the outcome. Only then treat it as causal.
 
-## Experiment log
+### Experiment log
 
 - Keep a backlog of ideas and a sprint of approved experiments.
 - Write each hypothesis as: if we do X, then we believe Y, as measured by Z.
-- Prioritise with RICE: reach, impact, confidence, and effort, each scored one to five, with effort scored so that lower effort scores higher.
+- Prioritize with RICE: reach, impact, confidence, and effort, each scored one to five, with effort scored so that lower effort scores higher.
 - Record each completed experiment: what was tested, the result (success, failure, or inconclusive), the learnings, the budget spent, and the channel and creative used.
 - Avoid the activity trap: test to learn, not for the sake of testing. Build each test on the documented learnings.
 

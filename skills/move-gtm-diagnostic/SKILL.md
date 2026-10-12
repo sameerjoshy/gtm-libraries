@@ -1,7 +1,7 @@
 ---
 name: move-gtm-diagnostic
-version: 1.0.0
-description: "Use to audit a go-to-market foundation before scaling or automating it. Works through four questions (Market, Operations, Velocity, Expansion), places the company in one of three fit stages (problem-market, product-market, platform-market), and returns a prioritised list of what to fix first. Use when a company wants a GTM health check, when growth has stalled, or before standing up a new outbound, inbound, or deal engine. This is a diagnosis, not a build. Not for a single channel plan (see demand-lifecycle-model)."
+version: 1.1.0
+description: "Use to audit a go-to-market foundation before scaling or automating it. Works through four questions (Market, Operations, Velocity, Expansion), places the company in one of three fit stages (problem-market, product-market, platform-market), and returns a prioritized list of what to fix first. Use when a company wants a GTM health check, when growth has stalled, or before standing up a new outbound, inbound, or deal engine. This is a diagnosis, not a build. Not for a single channel plan (see demand-lifecycle-model)."
 ---
 
 # MOVE GTM diagnostic
@@ -20,7 +20,7 @@ Most GTM failures are not caused by a weak product. They come from a motion that
 Route elsewhere when:
 
 - The question is the ICP itself. Use `icp-builder`.
-- The question is the organisation design. Use `gtm-planning-org-design`.
+- The question is the organization design. Use `gtm-planning-org-design`.
 - The question is the operating cadence. Use `revenue-operating-cadence`.
 
 ## Inputs
@@ -30,7 +30,7 @@ Route elsewhere when:
 - Win rate, retention, and sales cycle length.
 - The current motion: who generates demand, who sells, and who retains.
 
-## The fit stages
+### The fit stages
 
 Place the company in exactly one stage. Companies routinely place themselves too high.
 
@@ -49,14 +49,14 @@ Classify using the signals above. If the evidence conflicts, choose the earlier 
 3. **Operations.** Does every team use the same stage definitions, the same data, and the same handoffs? Who owns the process from first touch to renewal?
 4. **Velocity.** Where do deals slow down? Compare stage-by-stage conversion and time in each stage. A bottleneck is the place to look before adding volume.
 5. **Expansion.** Do existing customers grow, and who is accountable for that growth? If customer success is not part of the revenue plan, expansion is probably left to chance.
-6. **Prioritise the fixes.** For each weakness, state the evidence, the cost of leaving it, and the smallest change that would test a fix. Order by the stage: at stage 1, market and operations come first. At stage 2, velocity and expansion. Do not start a new engine until the weakness it would depend on is fixed.
+6. **Prioritize the fixes.** For each weakness, state the evidence, the cost of leaving it, and the smallest change that would test a fix. Order by the stage: at stage 1, market and operations come first. At stage 2, velocity and expansion. Do not start a new engine until the weakness it would depend on is fixed.
 7. **State what not to scale.** Name the motion that should stay small until the fix is proven.
 
 ## Output
 
 - The stage, with the evidence.
 - The four-part assessment, each with a rating, the evidence behind it, and the main weakness.
-- A prioritised fix list, with the test for each fix.
+- A prioritized fix list, with the test for each fix.
 - A list of motions to hold back from scaling.
 
 ## Quality bar

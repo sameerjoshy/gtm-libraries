@@ -1,6 +1,6 @@
 ---
 name: revops-salesforce
-version: 1.0.0
+version: 1.1.0
 description: "Use to design, audit, or fix a Salesforce org for revenue operations: the object model and record types, field governance, automation architecture (one entry point per object, Flow over legacy tools), the opportunity stage model with forecast categories and validation rules, forecasting setup, territory and assignment design, dashboards by audience, data quality with duplicate rules, integrations with a system of record for each object, and change control across sandboxes. Salesforce-specific. Not for the method of forecasting (see revops-forecasting), the CRM-neutral strategy (see revenue-metrics and revenue-operating-cadence), or migrating between CRMs (see crm-migration-consolidation)."
 ---
 
@@ -33,7 +33,7 @@ Route elsewhere when:
 
 ## Inputs
 
-- Org details: the edition, the number of users and licences, and the sandboxes available.
+- Org details: the edition, the number of users and licenses, and the sandboxes available.
 - A list of objects in use, with custom fields, record types, and page layouts.
 - Every active automation: flows, legacy Process Builders and Workflow Rules, Apex triggers, and scheduled jobs.
 - Validation rules, duplicate and matching rules, and assignment rules.
@@ -180,7 +180,7 @@ Check the API limits for the org before adding an integration that polls or writ
 
 Salesforce offers AI features for scoring, summaries, and next-step suggestions. Before relying on any of them:
 
-- Check the licence and edition, since many AI features are sold separately.
+- Check the license and edition, since many AI features are sold separately.
 - Pilot on the client's own data, with the team's current forecast as the comparison, for a fixed period.
 - Measure whether the feature improves the forecast or saves time, and compare the result with the team's own baseline.
 - Keep a human decision on any customer-visible action. AI scoring that drives material decisions about accounts may need human review under data protection rules, including GDPR Article 22 in Europe. Confirm with counsel.

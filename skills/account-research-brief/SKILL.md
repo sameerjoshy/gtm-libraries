@@ -1,6 +1,6 @@
 ---
 name: account-research-brief
-version: 1.0.0
+version: 1.1.0
 description: "Use before a first meeting, an ABM push, or a territory review, when a single named account needs a sourced brief for the seller. Covers firmographics, positioning, buying committee, live signals, and discovery questions, with every claim tagged as sourced or inferred. Single account only; for portfolio ICP work see icp-builder."
 ---
 
@@ -42,7 +42,7 @@ Route elsewhere when:
 10. **Next actions:** three to five, each naming a person, the channel, and the timing. Draft one short outreach message for the first action.
 11. **Summary:** the strongest fit, the biggest risk, and the fastest route to a proof point.
 
-## Depth and routing
+### Depth and routing
 
 Pick the depth from the ask. Most asks need a short read. Scale up only when the user signals depth, or when the stakes justify it, such as board prep or executive outreach.
 
@@ -87,7 +87,7 @@ A markdown file named `account-brief-<company>-<YYYY-MM-DD>.md`, with these sect
 
 A quick version (purpose, buying committee, discovery questions, next actions) is available on request.
 
-## Privacy in shared briefs
+### Privacy in shared briefs
 
 Briefs are often forwarded. Show contact names as initials, emails as domain only, and phone numbers masked. The full detail stays in the CRM.
 

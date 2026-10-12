@@ -1,6 +1,6 @@
 ---
 name: call-pull-diagnosis
-version: 1.0.0
+version: 1.1.0
 description: "Use when a sales call, discovery call, demo or pitch transcript needs a diagnosis of why it did or did not move forward. Tests whether the buyer had a real pull, meaning a project that was unavoidable now with options that have limitations, then checks whether the seller tested that pull, fitted the pitch to it, and what to change. Every claim needs a quote or a flagged absence. Not for scoring a call against a rubric (see call-scoring) or for the post-call follow-up (see call-followup-sweep)."
 ---
 
@@ -29,7 +29,7 @@ Route elsewhere when:
 
 ## Procedure
 
-1. **Read the whole transcript before writing anything.** Analyse once, with the full context in mind.
+1. **Read the whole transcript before writing anything.** Analyze once, with the full context in mind.
 2. **Layer 1: did the buyer pull?** Give a yes or no, with the quote that decides it. This comes first, because the rest depends on it.
 3. **Layer 2: was the buyer's pull visible in the call?** List every project the buyer raised, even briefly, in the buyer's own words. Select the one that best fits the three tests: a project the buyer is trying to do (P), why it is unavoidable right now (U), and the options they have tried or considered, each with the limitation that made it fail (L and L). Write the pull as bullets, with a quote on every claim. Then state the smallest supply that would have resolved the named limitation, in terms that do not name the seller.
 4. **Layer 3: how did the seller perform?** Check whether the seller tested the pull, whether the pitch addressed the buyer's named project, whether it resolved the named limitations, and whether it was small enough to fit the situation. Quote each point, or flag the absence.

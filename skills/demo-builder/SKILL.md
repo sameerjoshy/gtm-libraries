@@ -1,6 +1,6 @@
 ---
 name: demo-builder
-version: 1.0.0
+version: 1.1.0
 description: "Use to build a demo script or live demo prep that starts with the outcome, reaches the mechanism early, shows two or three use cases, goes deep only when the buyer asks, and closes on one next step. Covers pre-recorded demos and live demos, with talk tracks, click paths, objection handles, and a post-demo debrief. Use when a demo is a feature tour, when a demo script is needed, or when a recording is to be made. Not for choosing which pains to demonstrate (see discovery-to-demo-bridge)."
 ---
 
@@ -22,7 +22,7 @@ Route elsewhere when:
 - The question is which pains to prove and what to cut. Use `discovery-to-demo-bridge`.
 - The question is the product's positioning. Use `positioning-messaging-designer`.
 
-## Inputs (required before scripting)
+## Inputs
 
 1. Product and the full list of capabilities. Never demonstrate a capability that is not on the list.
 2. Audience: role, seniority, buying stage, and technical level.

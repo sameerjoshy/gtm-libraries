@@ -1,6 +1,6 @@
 ---
 name: off-domain-conversion-tracking
-version: 1.0.0
+version: 1.1.0
 description: "Use when paid ads send people to a webinar, event, or registration page hosted on a third-party platform, and the ad platform needs to see the sign-up even though it happens off the company's domain. Sets out the problem (the sign-up is invisible to a pixel on the company's own site), the two decisions (where the conversion is tracked, and how it is passed back), and the checks that the signal arrives. Not for conversions on the company's own site (see conversion-feedback-to-ad-platforms)."
 ---
 
@@ -8,7 +8,7 @@ description: "Use when paid ads send people to a webinar, event, or registration
 
 ## Purpose
 
-A paid campaign for a webinar or event often sends people to a registration page that belongs to another platform. The sign-up completes there, so the company's own pixel never sees it. The ad platform then optimises on clicks it cannot connect to registrations. This skill sets how the sign-up is captured and passed back.
+A paid campaign for a webinar or event often sends people to a registration page that belongs to another platform. The sign-up completes there, so the company's own pixel never sees it. The ad platform then optimizes on clicks it cannot connect to registrations. This skill sets how the sign-up is captured and passed back.
 
 ## When to use
 
@@ -25,10 +25,10 @@ Route elsewhere when:
 
 - The third-party platform used for registration, and whether it supports the ad platform's pixel.
 - The company's landing page, and the link that sends visitors to the registration page.
-- The conversion the campaign should optimise for: registration, attendance, or a later stage.
+- The conversion the campaign should optimize for: registration, attendance, or a later stage.
 - Any confirmation page the company controls.
 
-## The problem
+### The problem
 
 1. A visitor lands on the company's page, with campaign tracking parameters attached.
 2. The visitor clicks through to the registration page on another platform.
@@ -36,7 +36,7 @@ Route elsewhere when:
 
 Without a fix, the platform sees the click and not the registration.
 
-## Two decisions
+### Two decisions
 
 **1. Where the conversion is tracked.**
 - **Pixel on the registration platform,** where the platform supports it and the company can add its pixel there. This is the most direct signal, because the sign-up is seen where it happens.
@@ -46,7 +46,7 @@ Without a fix, the platform sees the click and not the registration.
 
 ## Procedure
 
-1. **Name the conversion** the campaign will optimise for.
+1. **Name the conversion** the campaign will optimize for.
 2. **Choose the tracking location** using the two options above.
 3. **Set the registration platform** to fire the pixel or redirect to the confirmation page.
 4. **Test the signal.** Register a test sign-up and confirm it appears in the ad platform's event view within the expected time, with the campaign's tracking parameters attached.

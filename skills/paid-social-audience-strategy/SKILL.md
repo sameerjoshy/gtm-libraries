@@ -1,6 +1,6 @@
 ---
 name: paid-social-audience-strategy
-version: 1.0.0
+version: 1.1.0
 description: "Use to build audiences for B2B paid social campaigns, where the platform's own professional targeting is weak and the audience quality depends on the data the company feeds it. Sets out the customer research to do before any audience is built (why customers bought, what triggered the search, who else was involved), the seed data to use (CRM contacts, customer lists, and third-party segments), how to build lookalikes from the best customers rather than all customers, and the exclusions. Not for the campaign structure (see paid-social-campaign-structure) or the creative (see ad-creative-as-filter)."
 ---
 
@@ -8,7 +8,7 @@ description: "Use to build audiences for B2B paid social campaigns, where the pl
 
 ## Purpose
 
-Professional targeting on consumer social platforms is limited, so B2B paid social depends on the data the company supplies. The platform can find more people like the ones supplied, but only if the supplied data describes the right buyers. This skill sets the research to do first and the data to supply, so the platform's matching works in the company's favour.
+Professional targeting on consumer social platforms is limited, so B2B paid social depends on the data the company supplies. The platform can find more people like the ones supplied, but only if the supplied data describes the right buyers. This skill sets the research to do first and the data to supply, so the platform's matching works in the company's favor.
 
 ## When to use
 
@@ -29,7 +29,7 @@ Route elsewhere when:
 - Third-party data segments available for the platform, if any.
 - Customer interviews or call notes that show why people bought.
 
-## Step one: research before building
+### Step one: research before building
 
 Before any audience is built, answer these from customer interviews and call notes:
 - Why did they buy, and what problem were they trying to solve?
@@ -39,26 +39,26 @@ Before any audience is built, answer these from customer interviews and call not
 
 The answers decide which job titles, company sizes, and situations go into the audience.
 
-## Step two: choose the seed data
+### Step two: choose the seed data
 
 - **CRM contacts that match the ICP** are the most direct seed. Match them by title and firm, then remove any that do not fit.
 - **Customers at the top of the value range** are better seeds than the full customer list, because a lookalike built from every customer copies the weakest ones too.
 - **Third-party segments** can supplement the seed, but check their fit against the ICP before using them.
 
-## Step three: build the audiences
+### Step three: build the audiences
 
 1. **Matched audience** from the CRM contacts, after the fit filter.
 2. **Lookalike audiences** from the top-value customers, at a narrow match level first. Widen only after the narrow audience is tested.
 3. **Interest and title audiences** from the research in step one, as a comparison group.
 4. **Broad audience** as a control, to show whether the defined audiences add anything.
 
-## Step four: set the exclusions
+### Step four: set the exclusions
 
 - Remove existing customers from prospecting audiences, unless the campaign is for expansion.
 - Remove the company's own employees and known competitors.
 - Remove contacts who have already been through a closed-lost cycle within the period set by the team, unless the campaign is for re-engagement.
 
-## Sizing the audience and reaching situations
+### Sizing the audience and reaching situations
 
 - **Cold audience size.** As author defaults: an ideal of about 150,000 people. Under about 10,000, the audience stalls. Over about 500,000, it dilutes. Calibrate these to the account's own delivery.
 - **Persona too small.** If the primary persona builds to under about 25,000, move it into account-based targeting rather than broadening the audience to fill it.

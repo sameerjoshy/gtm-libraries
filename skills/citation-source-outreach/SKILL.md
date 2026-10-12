@@ -1,6 +1,6 @@
 ---
 name: citation-source-outreach
-version: 1.0.0
+version: 1.1.0
 description: "Use when the sources that AI answers cite in a category are known and the brand is missing from them. Ranks target sources by how many category answers each one feeds, matches the ask to the source type, works the list like a pipeline, and re-measures the affected questions after each placement to prove the change. Not for choosing which content to build (see answer-engine-citation-drill-down) or for measuring visibility (see answer-engine-visibility-tracking). Never astroturfs community threads and never presents paid placements as organic mentions."
 ---
 

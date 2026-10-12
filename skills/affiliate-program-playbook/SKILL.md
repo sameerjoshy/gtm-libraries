@@ -1,24 +1,24 @@
 ---
-name: affiliate-programme-playbook
-version: 1.0.0
-description: "Use when building or fixing a B2B SaaS affiliate programme, whether starting from nothing or repairing one that is live but drives little revenue. Covers partner personas built from the buyer's journey, a commission set from an allowable acquisition cost, cookie windows, a gated application, outbound recruitment of partners, a short onboarding sequence, activation through a launch challenge, development of the top partners, and a regular audit that removes fraud. Built on the view that programmes win on partner quality and activation, not on sign-up volume. Not for creator sponsorships (see creator-programme-strategy)."
+name: affiliate-program-playbook
+version: 1.1.0
+description: "Use when building or fixing a B2B SaaS affiliate program, whether starting from nothing or repairing one that is live but drives little revenue. Covers partner personas built from the buyer's journey, a commission set from an allowable acquisition cost, cookie windows, a gated application, outbound recruitment of partners, a short onboarding sequence, activation through a launch challenge, development of the top partners, and a regular audit that removes fraud. Built on the view that programs win on partner quality and activation, not on sign-up volume. Not for creator sponsorships (see creator-program-strategy)."
 ---
 
-# Affiliate programme playbook
+# Affiliate program playbook
 
 ## Purpose
 
-An affiliate programme can have a thousand sign-ups and produce almost no revenue. The usual failure is recruiting people who have a link but no reason to use it, then paying them without activating them. This skill sets the whole system, from who the partners should be to how the programme is audited, so that partners become a revenue channel.
+An affiliate program can have a thousand sign-ups and produce almost no revenue. The usual failure is recruiting people who have a link but no reason to use it, then paying them without activating them. This skill sets the whole system, from who the partners should be to how the program is audited, so that partners become a revenue channel.
 
 ## When to use
 
-- A B2B SaaS company is starting an affiliate programme.
-- A live programme has sign-ups but little revenue.
+- A B2B SaaS company is starting an affiliate program.
+- A live program has sign-ups but little revenue.
 - A team is deciding what commission to pay and on what terms.
 
 Route elsewhere when:
 
-- The question is paying creators for sponsored content. Use `creator-programme-strategy`.
+- The question is paying creators for sponsored content. Use `creator-program-strategy`.
 - The question is channel partners that resell the product. Use `partner-channel-operations`.
 - The question is the partner ecosystem architecture. Use `partner-ecosystem-architect`.
 
@@ -28,13 +28,13 @@ Route elsewhere when:
 - Expected retention, for the commission arithmetic.
 - The buyer's journey, and the voices the buyer already trusts.
 - The cookie window the buyer's decision needs, and the terms the company is willing to state.
-- The current partner list and sign-up data, if a programme is already live.
+- The current partner list and sign-up data, if a program is already live.
 
-## The thesis
+### The thesis
 
-Affiliates are people, not links. A programme wins when each partner is recruited for fit, onboarded, trained, and given a reason to show up. Sign-up volume is a poor measure of success.
+Affiliates are people, not links. A program wins when each partner is recruited for fit, onboarded, trained, and given a reason to show up. Sign-up volume is a poor measure of success.
 
-## The system, in order
+### The system, in order
 
 1. **Ideal partner personas.** Reverse-engineer the buyer's journey to find where the buyer already trusts a voice: a newsletter, a community, a consultant, a peer. Each persona is a type of partner who reaches buyers at one point in the journey.
 2. **Commission structure.** Set the commission from the allowable acquisition cost: the most the company can pay to acquire a customer and still make the economics work. The partner's share must stay under that limit at the expected deal size and retention. Show the arithmetic.
@@ -66,4 +66,4 @@ Affiliates are people, not links. A programme wins when each partner is recruite
 
 ## Quality bar
 
-Commission is set from the allowable acquisition cost, with the arithmetic shown. Applications are screened against the personas. Partners are onboarded before they are paid for activity. Top partners get development. Audits remove fraud. Watch for a programme judged on sign-ups, commission set without the arithmetic, and no audit after launch.
+Commission is set from the allowable acquisition cost, with the arithmetic shown. Applications are screened against the personas. Partners are onboarded before they are paid for activity. Top partners get development. Audits remove fraud. Watch for a program judged on sign-ups, commission set without the arithmetic, and no audit after launch.

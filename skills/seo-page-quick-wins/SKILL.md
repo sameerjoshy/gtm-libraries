@@ -1,6 +1,6 @@
 ---
 name: seo-page-quick-wins
-version: 1.0.0
+version: 1.1.0
 description: "Use to find the two or three quick wins worth doing now on a single page whose SEO status is unclear, with each win tied to a stated ranking mechanism and a checkable reference. Starts from a direction the operator already holds, reads the page the way a search system weighs it, ranks candidate wins by effort against impact, and drops any win that cannot be traced. Not for choosing topics (see seo-topic-research) or for checking whether a keyword can be won (see seo-serp-qualification)."
 ---
 

@@ -1,6 +1,6 @@
 ---
 name: gtm-compensation
-version: 1.0.0
+version: 1.1.0
 description: "Use when designing, auditing, or explaining sales and customer success compensation: OTE and pay mix, quota setting, commission accelerators and decelerators, SPIFs, clawbacks, ramp, and rollout of a new plan. Gives the plan structure, a health check, and benchmark ranges to calibrate per client. Covers how to pay people, not org design or capacity planning (see gtm-planning-org-design). Not legal or tax advice."
 ---
 
@@ -8,12 +8,12 @@ description: "Use when designing, auditing, or explaining sales and customer suc
 
 ## Purpose
 
-Compensation is a behaviour system. Every pound or euro of variable pay tells people what the company values. A plan that pays for bookings when the company needs retention will get bookings and poor retention. Design the plan from the company's stage and strategy first, then the numbers.
+Compensation is a behavior system. Every pound or euro of variable pay tells people what the company values. A plan that pays for bookings when the company needs retention will get bookings and poor retention. Design the plan from the company's stage and strategy first, then the numbers.
 
 ## When to use
 
 - Designing a new plan, or the change to an existing one.
-- Auditing a plan that is not producing the behaviour the company needs.
+- Auditing a plan that is not producing the behavior the company needs.
 - Benchmarking an OTE, a pay mix, or a quota.
 - Planning the rollout of a change.
 
@@ -25,18 +25,18 @@ Route elsewhere when:
 ## Inputs
 
 - Company stage, and the GTM motion (new business, expansion, renewal, or a mix).
-- The behaviour the company needs to change, stated plainly.
+- The behavior the company needs to change, stated plainly.
 - Role, level, and location of each person in scope.
 - Attainment history: how many reps reach plan, and how the spread looks.
 - Quota and territory data: pipeline coverage and historical conversion by segment.
 - The CRM fields that can reliably attribute a metric. Anything not in the CRM cannot go in the plan.
 - Employment and tax context for each country the team works in. Involve local counsel where needed.
 
-## Core principles
+### Core principles
 
 1. **Keep it simple.** If a rep cannot estimate their earnings in their head, the plan is too complex. Aim for two or three components at most.
 2. **Match the plan to the stage.** Early-stage companies need hunters who close what moves, so the weight is on new business. Growth-stage companies need efficiency, so add quality gates. Mature companies need retention, so weight toward net retention and expansion.
-3. **Pay only for what you can measure.** Every metric in the plan needs a clean CRM source. Reps optimise for what they can see and ignore what they cannot.
+3. **Pay only for what you can measure.** Every metric in the plan needs a clean CRM source. Reps optimize for what they can see and ignore what they cannot.
 4. **Variable pay has to vary.** If most reps land between 90% and 110% of quota every quarter, the plan has no teeth. A healthy spread has top performers well above target, average performers near it, and underperformers clearly below it.
 5. **Review once a year and change sparingly.** Mid-year changes destroy trust. Make changes at the start of the fiscal year, unless the business reality has changed.
 
@@ -44,7 +44,7 @@ Route elsewhere when:
 
 Design in this order: role architecture, benchmark ranges, quota setting, SPIFs and clawbacks. Then run the health check and the rollout.
 
-## Role architecture
+### Role architecture
 
 ### Account executives
 
@@ -138,7 +138,7 @@ Avoid a large personal quota for managers. A manager carrying 30% or more of a p
 
 Pay managers on the team's whole performance. Three reps at 150% and five at 60% is poor management, even if the average hits plan.
 
-## Benchmark ranges
+### Benchmark ranges
 
 Use these as starting points only. They vary with geography, stage, deal complexity, and hiring market. Replace them with the client's own market data, from a benchmark database or a custom survey, every 12 to 18 months.
 
@@ -173,7 +173,7 @@ Western European ranges run about 15 to 30% below US levels for equivalent roles
 | Director | €120K to €160K | €170K to €240K |
 | VP of sales | €140K to €200K | €210K to €320K |
 
-## Quota setting
+### Quota setting
 
 Top-down allocation:
 
@@ -199,9 +199,9 @@ Common quota errors:
 - Flat quarterly quotas where the business is seasonal. If Q4 is historically 35% of annual revenue, the Q4 quota should reflect that.
 - Full quota for a rep still ramping.
 
-## SPIFs and clawbacks
+### SPIFs and clawbacks
 
-SPIFs are short-term incentives for a specific behaviour, such as entering a new segment, adopting a new product, or clearing the end of a quarter. Rules:
+SPIFs are short-term incentives for a specific behavior, such as entering a new segment, adopting a new product, or clearing the end of a quarter. Rules:
 
 - Run for 30 days at most.
 - Use simple, clear qualification criteria.
@@ -218,7 +218,7 @@ Clawbacks reduce commission when a customer churns within a defined window, usua
 - Claw back variable pay only, never base salary.
 - Check enforceability in each country. Some jurisdictions restrict commission clawbacks. Confirm with local employment counsel.
 
-## Health check
+### Health check
 
 Audit a plan against these questions:
 
@@ -228,7 +228,7 @@ Audit a plan against these questions:
 - **Competitiveness:** is OTE within the market range for role, level, and geography? Are ramp and draw terms competitive for hiring?
 - **Sustainability:** can the company afford payouts at 120% of attainment? Does the quota-to-OTE ratio fit the unit economics? Does the plan still work if revenue is up, down, or flat?
 
-## Rollout
+### Rollout
 
 Before rollout, 60 to 90 days ahead:
 
@@ -256,7 +256,7 @@ Mid-year changes are allowed only when the business has changed, such as a marke
 
 Underperformers: if someone is tracking below 80% of quota by month two of the quarter, escalate now, not in month four. Ask whether the person is capable, or whether the quota or the plan is creating the problem. A comp plan does not fix a capability gap. Management does. Use comp as a diagnostic, not a cure.
 
-## EU considerations
+### EU considerations
 
 The source flags the EU Pay Transparency Directive, with a transposition deadline of 7 June 2026 and reporting obligations for larger employers. Points to confirm with local counsel, not to rely on from this skill:
 
@@ -279,4 +279,4 @@ Ask about team geography and cross-border tax early. Compensation cannot be desi
 
 ## Quality bar
 
-A good plan pays for the behaviour the company needs, is simple enough to check on paper, spreads payouts so that performance shows, and is paid out accurately. Watch for plans that pay on activity, quotas set by rule of thumb, clawbacks applied retroactively, and benchmark ranges quoted without their source.
+A good plan pays for the behavior the company needs, is simple enough to check on paper, spreads payouts so that performance shows, and is paid out accurately. Watch for plans that pay on activity, quotas set by rule of thumb, clawbacks applied retroactively, and benchmark ranges quoted without their source.

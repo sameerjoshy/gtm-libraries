@@ -1,6 +1,6 @@
 ---
 name: exec-readable-summary
-version: 1.0.0
+version: 1.1.0
 description: "Use when work is going from one person to another who did not make it, such as a report, plan, analysis, memo, research or a raw AI answer, and it must be reviewed in seconds. Produces a page with a ten-second top (the verdict, the ask, and at most three numbers), a two-minute body in the shape that fits the content, and folded evidence. Every number carries its source, and the sender reviews and signs the page before it is forwarded. Not for a deck (see the slides type) or for a formal document with a fixed template."
 ---
 

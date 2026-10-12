@@ -1,6 +1,6 @@
 ---
 name: closed-lost-revival
-version: 1.0.0
+version: 1.1.0
 description: "Use for a quarterly revival sweep over pipeline the company already paid to create: closed-lost deals, proposals that went quiet, champions who changed jobs, and contacts who engaged and then went silent. Applies hard gates, requires dated evidence before any draft, names each loss pattern against a library, and ships one capped campaign per quarter for human approval. Revives only accounts that engaged and then disengaged. Not for cold contacts who never replied (those go to prospecting), and not for live threads still inside a cadence."
 ---
 
@@ -82,7 +82,7 @@ Each lane has gates. A lead that fails a gate is skipped immediately.
   - Ghosted: interest, then nothing.
   - Objection pending: "let us think about it", then nothing.
   - Timing miss: "circle back after an event" that never happened.
-  - Changed landscape: a reorganisation, a freeze, or a role change in the middle of the conversation.
+  - Changed landscape: a reorganization, a freeze, or a role change in the middle of the conversation.
 
 ### Step 3: Name the loss pattern
 

@@ -1,6 +1,6 @@
 ---
 name: local-answer-engine-visibility
-version: 1.0.0
+version: 1.1.0
 description: "Use when a business serves specific towns, suburbs or service areas and needs to know where AI answer engines recommend it. Tests each served area separately in buyer phrasing, records map-pack presence and written-answer presence as separate signals, and produces a ranked gap map of the areas where rivals are named instead. Not for overall brand visibility (see answer-engine-visibility-tracking) or for the citation sources behind answers (see citation-source-outreach)."
 ---
 
@@ -30,7 +30,7 @@ Route elsewhere when:
 ## Procedure
 
 1. **Build the area matrix.** List every served area. Phrase each test question the way a local buyer would type it: the service and the place, in plain words. Ask each question per area and per engine.
-2. **Do not generalise from one area.** Results in the head city say little about the suburb next door. Answer engines build local answers from thin, local evidence, so presence can change from one postcode to the next.
+2. **Do not generalize from one area.** Results in the head city say little about the suburb next door. Answer engines build local answers from thin, local evidence, so presence can change from one postcode to the next.
 3. **Record map-pack presence and written-answer presence separately.** The map pack follows profile completeness, reviews and proximity. The written answer follows mentions, citations and content. A business can hold one and not the other, and each needs different work.
 4. **Build the gap map.** For each area and engine where the business is absent, record which rivals are named, in the engine's own words, with the answer quoted.
 5. **Rank the gaps by demand.** Use the team's demand data where it exists, and population where it does not. Say which measure was used.

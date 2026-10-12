@@ -1,6 +1,6 @@
 ---
 name: signal-detection-and-timing
-version: 1.0.0
+version: 1.1.0
 description: "Use to decide which buying signals to track for a business, to interpret a fired signal (relevance, meaning, strength, confidence, why-now), and to decide when and how to act on it (window, cadence, channel). Covers website-based signal plans, fixed watchlists, and website or content engagement. Hiring and champion job-change signals have their own skills. Not for choosing a ready play (see signal-outbound-plays)."
 ---
 
@@ -43,7 +43,7 @@ Route elsewhere when:
 ### A. Choose signals for a business
 
 1. Extract from the company's site: what it sells, who buys, and what has to change in an account for it to be needed now.
-2. Turn each why-now into a signal you can observe. Group by family: people moves, company moves, competitive engagement, social or behavioural activity, and technology changes (a tool added or dropped).
+2. Turn each why-now into a signal you can observe. Group by family: people moves, company moves, competitive engagement, social or behavioral activity, and technology changes (a tool added or dropped).
 3. Rank by fit, intent strength, and volume. Keep three to five. Drop anything that is undetectable, low-volume, or really inbound.
 
 ### B. Interpret a fired signal
@@ -78,7 +78,7 @@ Treat these as starting points to calibrate against your own reply and conversio
    - **Act-now:** short, sharp intent, such as a visit to a pricing or demo page.
    - **Ramp:** a window that opens over weeks, such as a new leader settling in.
 2. Set the window from the event date:
-   - High-intent behavioural signals: reach out within about 24 to 48 hours. Cold within days.
+   - High-intent behavioral signals: reach out within about 24 to 48 hours. Cold within days.
    - New leadership or role change: the useful window tends to open two to four weeks in and run into the second month.
    - Hiring, funding, or expansion: days to weeks. Anchor to a real deadline if the event names one.
 3. Match cadence and channel order: tight and multi-touch for act-now; patient and value-first for ramp.

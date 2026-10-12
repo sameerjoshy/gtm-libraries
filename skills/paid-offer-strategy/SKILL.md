@@ -1,6 +1,6 @@
 ---
 name: paid-offer-strategy
-version: 1.0.0
+version: 1.1.0
 description: "Use when choosing or writing the offer a paid campaign promotes, so that cold B2B traffic will take the next step. Explains the no-brainer test (high perceived value and low perceived effort), the two ways to communicate value (say who it is for and what it does, then make the reader want it), the match between offer strength and funnel stage, and the rule that a free offer still has to be sold. Not for the copy itself (see ad-copy-voice-of-customer) or for the stage budget (see paid-budget-by-stage)."
 ---
 
@@ -29,7 +29,7 @@ Route elsewhere when:
 - Click-through and sign-up rates for earlier offers, where they exist.
 - A few real buyers who can test the offer before scale.
 
-## The no-brainer test
+### The no-brainer test
 
 A no-brainer offer has high perceived value and a high likelihood that the person will take it, with little sense of commitment. Test each offer on both:
 
@@ -38,11 +38,11 @@ A no-brainer offer has high perceived value and a high likelihood that the perso
 
 Marketers almost always overestimate how valuable their offer looks to a stranger. Test the offer with a few real buyers before scaling spend on it.
 
-## Offer types
+### Offer types
 
 Every paid ad promotes an offer. Common types for B2B: a demo, a product tour, a free trial, a guide or template, a checklist, a short educational video, a webinar, an event, a calculator or assessment, and a community. The right one depends on the stage.
 
-## Two ways to communicate value
+### Two ways to communicate value
 
 **1. Be clear.** Answer three questions in the copy:
 - Who is this for?
@@ -57,11 +57,11 @@ Stronger example: "Founders learn how to raise and manage private equity in six 
 
 Weak example: "Break into private equity with our certificate."
 
-Stronger example: "Join founders who have raised their first round with the programme's method."
+Stronger example: "Join founders who have raised their first round with the program's method."
 
 Do not invent outcomes or numbers. Use only results the company can show.
 
-## Offer strength and stage
+### Offer strength and stage
 
 - **Create** (building awareness and trust): low-commitment offers. Education, a guide, a short video, a community.
 - **Capture** (turning interest into conversations): medium offers. A demo, a trial, a template that solves a visible problem.

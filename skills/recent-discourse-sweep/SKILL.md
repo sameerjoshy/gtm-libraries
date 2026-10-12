@@ -1,6 +1,6 @@
 ---
 name: recent-discourse-sweep
-version: 1.0.0
+version: 1.1.0
 description: "Use when a decision depends on what the market said about a company, product, category, or person inside a dated window, such as before a first touch, a renewal call, or a positioning bet. Lists the venues first, reads each one and records whether it returned results, came back empty, or was never reached, dates every item, and produces a sourced synthesis with a coverage report. Not for a brand's own mentions and reputation (see brand-mention-monitor) or for one company's profile (see account-research-brief)."
 ---
 

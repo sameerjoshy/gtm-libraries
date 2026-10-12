@@ -1,6 +1,6 @@
 ---
 name: content-authenticity-review
-version: 1.0.0
+version: 1.1.0
 description: "Use when a B2B draft (a post, email, page, case study, article, or executive piece) is correct but reads as machine-written and needs to sound like a person. Runs two passes: a subtractive pass that removes rhetorical moves which never help a reader, and a rewrite pass that puts claims first, attaches evidence, and makes a person the actor, then returns the rewrite with a list of changes and the claims that still need a source. Not for the first draft (see the writing skills) or for email subject lines (see email-subject-and-copy-review)."
 ---
 
@@ -29,7 +29,7 @@ Route elsewhere when:
 - Any house style or voice guide.
 - The facts the author can supply: claims, figures, and quotes that are approved.
 
-## Two kinds of tell
+### Two kinds of tell
 
 Scan for each kind separately:
 
@@ -40,11 +40,11 @@ Scan for each kind separately:
 
 Run pass one, then pass two, in order. Pass one removes the tells. Pass two rewrites what is left.
 
-## Pass one: subtract
+### Pass one: subtract
 
 Remove every rhetorical move. Then check for clusters of ordinary structures, and vary them. Do not change meaning or facts in this pass.
 
-## Pass two: rewrite
+### Pass two: rewrite
 
 1. **Lead with the claim.** The first sentence says what the piece is about.
 2. **Attach evidence to each claim.** Use only the facts the author supplied. If a claim has no evidence, mark it.

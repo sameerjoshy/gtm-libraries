@@ -1,6 +1,6 @@
 ---
 name: brand-mention-monitor
-version: 1.0.0
+version: 1.1.0
 description: "Use when a team needs to know what people are saying about its brand across social, news, forums, and review sites, for a routine weekly sweep, a launch watch, or a \"something feels off\" check. Resolves brand variants, picks a source profile for the audience, scores each mention on reach, velocity, sentiment, and risk-topic match, dedupes against earlier runs, and buckets each mention into Crisis, Watch, Engage, or Log with an owner and a response window. Not for a discourse read on a topic (see recent-discourse-sweep) or for one company's profile (see account-research-brief)."
 ---
 
@@ -48,7 +48,7 @@ Route elsewhere when:
    - risk-topic match: legal, safety, outage, executive conduct, or misinformation.
    Composite (default weights): reach × 0.30 + velocity × 0.30 + the higher of risk sentiment and risk-topic match × 0.25 + opportunity × 0.15.
 7. **Apply the velocity gate.** Hourly growth needs two measurements. On a first pass with no baseline, score only observable proxies (pickup across platforms, press pickup of a social post, absolute engagement at crisis scale) and label velocity "estimated". Upgrade it on a second pass.
-8. **Dedupe against the previous run.** Keep a running record per brand. Fingerprint each mention by its normalised URL, platform, and published date. Split the feed into net-new, returning with a changed score, and already known and unchanged. Lead the report with that split. Persist the new fingerprints after the run, and carry Crisis and Watch items forward until someone marks them handled.
+8. **Dedupe against the previous run.** Keep a running record per brand. Fingerprint each mention by its normalized URL, platform, and published date. Split the feed into net-new, returning with a changed score, and already known and unchanged. Lead the report with that split. Persist the new fingerprints after the run, and carry Crisis and Watch items forward until someone marks them handled.
 9. **Assign one tier per mention:**
 
 | Tier | Composite score | Action | Suggested owner | Response window |

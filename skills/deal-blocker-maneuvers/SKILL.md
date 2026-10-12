@@ -1,6 +1,6 @@
 ---
 name: deal-blocker-maneuvers
-version: 1.0.0
+version: 1.1.0
 description: "Use after a meaningful interaction on a complex, multi-stakeholder deal (a call, a stakeholder meeting, a procurement exchange) when the question is what to run next, not what is missing. Scores the deal's qualification from primary evidence only, reads it against the stage it is in, identifies the single worst blocker, and produces a two-cycle maneuver with a trigger, pre-mortem, verbatim opener, branches, and explicit abort criteria. Not for transactional or high-velocity deals."
 ---
 
@@ -31,7 +31,7 @@ Route elsewhere when:
 - **Unknowns clustered behind one person are the warning.** Three or more zeros behind a single stakeholder means the deal has one source, however good the total looks.
 - **Do not blend divergent stakeholders.** If the parties want different things, score them separately.
 
-## Scope
+### Scope
 
 Built for enterprise and complex deals: several stakeholders, a real evaluation, third parties or procurement in the path, and a cycle of months. Do not run the full framework on transactional deals, or deals that close in under about 30 days with no second stakeholder. The diagnostic overhead exceeds what those deals return. Use the team's lighter qualification standard instead.
 
@@ -65,14 +65,14 @@ Eight dimensions: metrics, economic buyer, decision criteria, decision process, 
 
 Where an accepted dimension conflicts with newer evidence, say so and cite both sides. Do not overwrite it quietly.
 
-**Mapping a different rubric.** Some assessments use two axes: how well evidenced a dimension is, and whether the answer favours you. Map them in this order, never by feel:
+**Mapping a different rubric.** Some assessments use two axes: how well evidenced a dimension is, and whether the answer favors you. Map them in this order, never by feel:
 
 | Incoming | Maps to |
 |---|---|
-| Well evidenced, favourable | +1 |
+| Well evidenced, favorable | +1 |
 | Well evidenced, neutral or adequate | +0.5 |
-| Well evidenced, actively unfavourable, a condition that kills the deal unaddressed | -1 |
-| Well evidenced, unfavourable but survivable | +0.5 |
+| Well evidenced, actively unfavorable, a condition that kills the deal unaddressed | -1 |
+| Well evidenced, unfavorable but survivable | +0.5 |
 | Asserted without evidence, any direction | 0 |
 | Explicitly flagged as a gap | 0 |
 
@@ -82,16 +82,16 @@ The per-dimension criteria in Step 2a govern wherever the detail allows. The tab
 
 - **Metrics.** +1: the economic decision-maker has confirmed that a specific number achieves an outcome they own, in a case jointly agreed. +0.5: a target is known but treated as a nice-to-have, and is operational rather than tied to the financials. 0: no target stated. -1: the buyer cannot say what happens if the target is missed, or the conversation is anchored on a pilot budget disconnected from any larger outcome. A number the buyer is measured on is not the same as a number their business depends on.
 - **Economic buyer.** +1: direct, substantive interaction with the person who releases the money, who stated the priority in their own words. +0.5: known, but every interaction is filtered through a subordinate. 0: cannot name the approver at this size. -1: identified, and actively blocked. The line between friction and blocker is passive versus active. "We haven't got to them yet" is friction. "You don't need to talk to her" is a blocker, and reps often record it as friction because it arrives politely.
-- **Decision criteria.** +1: explicit, and they favour capabilities you hold and competitors do not, and you helped shape them. +0.5: generic criteria any credible vendor meets, or criteria you only learned. 0: unknown. -1: written around a competitor's strengths, or a constraint you cannot meet. Discovering criteria is not the same as influencing them.
+- **Decision criteria.** +1: explicit, and they favor capabilities you hold and competitors do not, and you helped shape them. +0.5: generic criteria any credible vendor meets, or criteria you only learned. 0: unknown. -1: written around a competitor's strengths, or a constraint you cannot meet. Discovering criteria is not the same as influencing them.
 - **Decision process.** +1: every step, approval, and timeline is documented and confirmed by someone inside the account. +0.5: a verbal outline nobody has validated. 0: not mapped. -1: stalled with no restart date, or you are excluded from steps you should be in.
-- **Third parties and paper process.** Covers partners, agencies, resellers, integrators, procurement, legal, and security review. +1: every external party is identified, their role is clear, and none blocks delivery. +0.5: involved, but timelines or incentives are unclear. 0: no visibility at all. -1: actively blocking, deprioritising, or gating the timeline. Read incentives, not intentions. A friendly partner who earns nothing from the integration is a blocker with good manners.
+- **Third parties and paper process.** Covers partners, agencies, resellers, integrators, procurement, legal, and security review. +1: every external party is identified, their role is clear, and none blocks delivery. +0.5: involved, but timelines or incentives are unclear. 0: no visibility at all. -1: actively blocking, deprioritizing, or gating the timeline. Read incentives, not intentions. A friendly partner who earns nothing from the integration is a blocker with good manners.
 - **Implicated pain and initiative.** +1: a funded, time-bound initiative with executive sponsorship, and slipping it has a named cost. +0.5: pain acknowledged, but no deadline or initiative. 0: unknown what prompted the evaluation. -1: no real pain, or not big enough to beat the other things competing for the budget. Doing nothing for two more quarters costs the buyer nothing, and this is where no-decision losses are decided.
 - **Champion.** +1: proven. Advocates internally without prompting, has shared information you did not ask for, and has influenced an outcome at least once. +0.5: unproven. Friendly and responsive, but has never sold on your behalf. 0: absent. There is no -1. A contact with no influence, or who has misled you, was never a champion. Score them 0 and the next action becomes finding one. A +0.5 that has sat at +0.5 for months deserves a re-test: what has this person actually done for you since the last run?
-- **Competition.** Include the status quo, which wins most often. +1: preferred or sole-sourced, with differentiation the buyer can say back to you. +0.5: a fair evaluation with identified advantages. 0: you do not know who else is being considered. -1: undifferentiated, a competitor is favoured, or the criteria are written against you.
+- **Competition.** Include the status quo, which wins most often. +1: preferred or sole-sourced, with differentiation the buyer can say back to you. +0.5: a fair evaluation with identified advantages. 0: you do not know who else is being considered. -1: undifferentiated, a competitor is favored, or the criteria are written against you.
 
 Total range: -7 to +8.
 
-**Relevance test for a dimension that does not apply.** Score it +1 only where its absence is confirmed and favourable (for example, no third parties in the path, verified), and record why. Where it is merely not visible, it is 0. "No procurement involvement" and "nobody has mentioned procurement" are different, and the difference is often a quarter.
+**Relevance test for a dimension that does not apply.** Score it +1 only where its absence is confirmed and favorable (for example, no third parties in the path, verified), and record why. Where it is merely not visible, it is 0. "No procurement involvement" and "nobody has mentioned procurement" are different, and the difference is often a quarter.
 
 ### Step 3: Read the score against the stage
 
@@ -185,7 +185,7 @@ Re-run at the review cadence. Default: after every meaningful interaction, and a
 
 **Writes to the deal record** need explicit human approval, field by field. The artifact is a recommendation, not an update.
 
-## Calibration
+### Calibration
 
 The bands above are defaults. Calibrate them before they affect a forecast.
 
@@ -236,7 +236,6 @@ One saved artifact per run:
 - MUST NOT run the full framework on a deal below the complexity floor.
 - NEVER let outside jargon reach the rep. Use the client's labels.
 
-## Rules
 
 - Runs after a deal interaction and produces the next move. It does not score accounts for fit: use `icp-builder` and `account-tier-scoring`.
 - Does not forecast or set forecast categories. A forecasting skill is needed for that.

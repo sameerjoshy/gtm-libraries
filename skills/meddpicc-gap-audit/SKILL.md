@@ -1,7 +1,7 @@
 ---
 name: meddpicc-gap-audit
-version: 1.0.0
-description: "Use before a forecast call, a stage change, or after a new call or email that could change qualification. Maps MEDDPICC evidence (Metrics, Economic buyer, Decision criteria, Decision process, Paper process, Identify pain, Champion, Competition) from the call and email record, cites the exact line behind every mapping, flags reversals between calls, and reconciles against CRM values where they exist. Not for scoring call behaviour (see call-scoring) or for the evidence gates in deal-qualification-gates."
+version: 1.1.0
+description: "Use before a forecast call, a stage change, or after a new call or email that could change qualification. Maps MEDDPICC evidence (Metrics, Economic buyer, Decision criteria, Decision process, Paper process, Identify pain, Champion, Competition) from the call and email record, cites the exact line behind every mapping, flags reversals between calls, and reconciles against CRM values where they exist. Not for scoring call behavior (see call-scoring) or for the evidence gates in deal-qualification-gates."
 ---
 
 # MEDDPICC gap audit
@@ -35,17 +35,17 @@ Route elsewhere when:
 3. **Check the speaker's side.** A seller describing their own product is not evidence of the buyer's pain or criteria. Discard or re-flag any mapping that fails this check.
 4. **Map each component with a quote.** A paraphrase is not a citation. Quote the line or lines that support each mapping.
 5. **Flag reversals.** If a budget confirmed earlier is now unconfirmed, cite both statements. Added detail that does not conflict is enrichment, not a reversal.
-6. **Grade each component on two axes.** Defensible: a real citation exists, not a restated field. Favourable: the answer is good for the deal. A well-cited "no budget confirmed" is defensible and is a confirmed risk, not a data gap.
+6. **Grade each component on two axes.** Defensible: a real citation exists, not a restated field. Favorable: the answer is good for the deal. A well-cited "no budget confirmed" is defensible and is a confirmed risk, not a data gap.
 7. **Reconcile against the CRM, if values were supplied.** Where the CRM is blank and the source speaks to the component, that is a fillable gap with its citation attached. Where they disagree, name the type of disagreement: a hard conflict (a number or a name) is different from a maturity mismatch (a status the source does not support). Apply the defensibility test to the CRM entry too. If no CRM values were supplied, say so.
 8. **Stop at the next action.** Name the one or two gaps that matter most at this stage and who could close each one.
 
-## Stage weighting
+### Stage weighting
 
 Weight gaps by stage. Before a forecast, the economic buyer, decision process, and paper process carry the most weight, because a deal without them cannot be forecast. Early discovery can tolerate open paper process. Say which weighting you applied.
 
 ## Output
 
-- A table with one row per component: status, the cited evidence, its date and speaker, and whether it is defensible and favourable.
+- A table with one row per component: status, the cited evidence, its date and speaker, and whether it is defensible and favorable.
 - Reversals, with both quotes.
 - Confirmed risks and data gaps, listed separately.
 - Reconciliation against CRM values, if supplied, with conflict type named.

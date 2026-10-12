@@ -1,10 +1,10 @@
 ---
-name: seo-topic-prioritisation
-version: 1.0.0
+name: seo-topic-prioritization
+version: 1.1.0
 description: "Use to turn a shaped list of SEO topics into a build order. Scores each topic on six dimensions (commercial intent, fit with the ideal customer, feasibility of ranking, effort, leverage from existing authority, and adjacency to existing wins), sorts topics into three tiers, and puts quick wins first so the content roadmap proves itself early. Use when a team asks what to build first. Not for finding topics (see seo-topic-research) or for checking a single keyword's ranking reality (see seo-serp-qualification)."
 ---
 
-# SEO topic prioritisation
+# SEO topic prioritization
 
 ## Purpose
 
@@ -28,7 +28,7 @@ Route elsewhere when:
 - The ideal customer profile.
 - The site's existing content and which pages already perform.
 
-## The six dimensions
+### The six dimensions
 
 Score each topic from one to five on each dimension:
 
@@ -39,7 +39,7 @@ Score each topic from one to five on each dimension:
 5. **Authority leverage.** How much the site's existing pages on related topics help this one.
 6. **Adjacency to wins.** How close the topic is to content that already performs.
 
-## Tiers
+### Tiers
 
 - **Tier 1:** high commercial intent, strong fit, realistic ranking, and modest effort. Build first.
 - **Tier 2:** worthwhile but with higher effort or weaker ranking prospects. Build once Tier 1 is live.

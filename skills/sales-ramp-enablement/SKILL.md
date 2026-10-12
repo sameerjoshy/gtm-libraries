@@ -1,7 +1,7 @@
 ---
 name: sales-ramp-enablement
-version: 1.0.0
-description: "Use when new reps take too long to produce, capacity plans assume ramp that nobody measures, or certification is a formality. Designs rep ramp as an instrumented system: the ramp cost, a milestone-gated 30-60-90 with certification evidence, ramped-equivalent capacity, ramp-adjusted quota and draw, the enablement content system, and the manager cadence that catches a drifting ramp early. Not for the methodology itself (see sales-methodology) or the wider change programme (see revops-change-management)."
+version: 1.1.0
+description: "Use when new reps take too long to produce, capacity plans assume ramp that nobody measures, or certification is a formality. Designs rep ramp as an instrumented system: the ramp cost, a milestone-gated 30-60-90 with certification evidence, ramped-equivalent capacity, ramp-adjusted quota and draw, the enablement content system, and the manager cadence that catches a drifting ramp early. Not for the methodology itself (see sales-methodology) or the wider change program (see revops-change-management)."
 ---
 
 # Sales ramp and enablement
@@ -27,7 +27,7 @@ Route elsewhere when:
 - The question is the methodology used in discovery. Use `sales-methodology`.
 - The question is the forecast model. Use `revops-forecasting`.
 - The question is the playbook content itself. Playbook foundations sit in a separate skill (`sales-playbook-foundations`).
-- The question is the change programme for the whole team. Use `revops-change-management`.
+- The question is the change program for the whole team. Use `revops-change-management`.
 
 ## Inputs
 
@@ -42,7 +42,7 @@ Route elsewhere when:
 
 ### Step 1: Put the ramp cost in the revenue model
 
-Ramp cost per hire is the months to full productivity multiplied by the loaded cost plus the quota coverage the rep does not yet carry. Calculate it for the last four hires. This figure justifies the rest of the programme, so present it to finance and sales leadership.
+Ramp cost per hire is the months to full productivity multiplied by the loaded cost plus the quota coverage the rep does not yet carry. Calculate it for the last four hires. This figure justifies the rest of the program, so present it to finance and sales leadership.
 
 Track the components separately:
 
@@ -69,7 +69,7 @@ Use stepped targets across the ramp. Match the draw or guarantee to the steps, s
 
 A default arc for a mid-market account executive. Compress or extend it by motion, and keep the gate logic.
 
-**By day 30, certified on the story.** The rep can run a first-call pitch and a discovery conversation to the standard, scored against the call rubric on real or role-play calls. The score comes from a reviewer, not the rep's self-assessment. The rep knows the ideal customer profile, the top reasons deals are lost (taken from the win and loss programme, not from anecdote), and the qualification bar.
+**By day 30, certified on the story.** The rep can run a first-call pitch and a discovery conversation to the standard, scored against the call rubric on real or role-play calls. The score comes from a reviewer, not the rep's self-assessment. The rep knows the ideal customer profile, the top reasons deals are lost (taken from the win and loss program, not from anecdote), and the qualification bar.
 
 **By day 60, certified on the motion.** The rep runs discovery on live calls with a manager or peer listening. The rep has created qualified opportunities that pass the evidence gates. Leading indicators are tracked from week one: time to first meeting booked, time to first qualified opportunity, and call quality scores.
 
@@ -106,7 +106,7 @@ A ramp plan without this cadence is a list of milestones with no one checking th
 
 For each hiring cohort, plot the leading indicators against the previous cohorts: first meeting, first qualified opportunity, first win. A cohort that falls behind the curve should trigger a review of the onboarding, not only of the individual rep.
 
-Review the cohort curve at each quarter-end. Changes to the programme should be judged against it.
+Review the cohort curve at each quarter-end. Changes to the program should be judged against it.
 
 ## Output
 

@@ -1,6 +1,6 @@
 ---
 name: paid-budget-by-stage
-version: 1.0.0
+version: 1.1.0
 description: "Use to split a paid budget across demand stages (create, capture, accelerate or activate, revive, and expand) and to shift the split as spend grows. Sets out what each stage needs in audience size, return timeline, and difficulty, works from the stages with the quickest return toward the slowest, and states how product-led and sales-led companies usually weight the split. Not for the stage definitions themselves (see demand-lifecycle-model) or for the channel choice (see paid-channel-selection)."
 ---
 
@@ -30,7 +30,7 @@ Route elsewhere when:
 - The market size and the number of accounts in the ICP.
 - Any historical return data by stage.
 
-## Stage investment profile
+### Stage investment profile
 
 These are default characteristics. Replace them with the company's own data as it builds up.
 

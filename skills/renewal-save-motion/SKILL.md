@@ -1,7 +1,7 @@
 ---
 name: renewal-save-motion
-version: 1.0.0
-description: "Use when a customer renewal is at risk, or when a renewal falls inside 120 days. Runs a renewal clock from T-120 with a CLEAN, WATCH, or AT-RISK verdict at each checkpoint, names the failure mode before acting (value gap, adoption gap, champion loss, sponsor shift, or competitive displacement), applies commercial levers in a fixed order with the discount last, decides save or release explicitly, and reports save rate by failure mode. Starts from a risk flag raised by upstream detection. Not for expansion on healthy accounts, or for the full customer success organisation design."
+version: 1.1.0
+description: "Use when a customer renewal is at risk, or when a renewal falls inside 120 days. Runs a renewal clock from T-120 with a CLEAN, WATCH, or AT-RISK verdict at each checkpoint, names the failure mode before acting (value gap, adoption gap, champion loss, sponsor shift, or competitive displacement), applies commercial levers in a fixed order with the discount last, decides save or release explicitly, and reports save rate by failure mode. Starts from a risk flag raised by upstream detection. Not for expansion on healthy accounts, or for the full customer success organization design."
 ---
 
 # Renewal save motion
@@ -21,7 +21,7 @@ Entry condition: this skill runs on an account that is already flagged. Detectio
 Route elsewhere when:
 
 - The account is healthy and the question is expansion. Use `expansion-revenue-architect`, if it is in use, or the expansion process. The two motions do not run on the same account at the same time.
-- The question is how the whole customer success team is organised. Use `cs-operations`.
+- The question is how the whole customer success team is organized. Use `cs-operations`.
 - The question is which accounts are at risk across the base. Use the health scanning process. This skill starts where that process ends.
 
 ## Inputs
@@ -46,7 +46,7 @@ Every renewal runs the same clock, whatever its health. Healthy accounts pass ea
 | T-60 | Commercial terms on the table for CLEAN and recovered accounts. No surprises after T-60. If the price is changing, the customer should have heard it by now. |
 | T-30 | Signature logistics only. If substantive objections first appear here, the motion failed earlier. Record that as the lesson, not as a late save. |
 
-Renewal risk shows up in behaviour, such as declining logins, abandoned features, and a silent sponsor, well before it is spoken. If the company first learns of the risk within 60 days of renewal, the detection layer is the real problem. That rule of thumb is practice-based.
+Renewal risk shows up in behavior, such as declining logins, abandoned features, and a silent sponsor, well before it is spoken. If the company first learns of the risk within 60 days of renewal, the detection layer is the real problem. That rule of thumb is practice-based.
 
 ### Step 2: Name the failure mode before acting
 
@@ -55,7 +55,7 @@ A save play aimed at the wrong failure mode speeds up the churn. Classify the ac
 1. **Value gap.** The customer uses the product but cannot show that it is worth the money. The missing piece is an impact story in their own numbers. Save play: build a value recap from their system data, and walk the economic buyer through it, not only the daily users.
 2. **Adoption gap.** They have stopped using it, or never fully started. The question is whether the problem still exists for them. Save play: narrow to the one workflow that hurt when they bought, relaunch that workflow only. Re-onboarding everything convinces no one.
 3. **Champion loss.** The person who championed the product has left, and contact has gone quiet. Treat this as a new sale into the same account. Save play: find out who inherited the problem, and brief them as a stranger inheriting a paid solution. They do not owe the company continuity. Also refer the departed champion to the revival process (`closed-lost-revival`). One event, two plays.
-4. **Sponsor shift.** A reorganisation, a new executive, or a change of strategy has moved the decision elsewhere. Save play: an executive-level re-anchor on the new agenda. A feature demo cannot fix a political change.
+4. **Sponsor shift.** A reorganization, a new executive, or a change of strategy has moved the decision elsewhere. Save play: an executive-level re-anchor on the new agenda. A feature demo cannot fix a political change.
 5. **Competitive displacement.** An alternative is being actively considered. Save play: a case for switching costs, plus a roadmap commitment with a date, delivered by someone senior. If the company discovers this at T-30, assume it is negotiating an exit, and aim for a dignified exit that keeps the door open.
 
 ### Step 3: Apply the commercial levers in order
@@ -86,7 +86,7 @@ A released account gets a clean exit, a data handover, and a standing re-entry p
 
 Every loss, saved or released, gets an autopsy in the same loss-pattern library used by `closed-lost-revival`. Record the failure mode, the first detectable signal, and the number of days between that signal and the first action. The library is how the next quarter's saves start earlier.
 
-## Scorekeeping
+### Scorekeeping
 
 - **Save rate by failure mode,** never blended. A 60% save rate on value gaps and a 10% rate on competitive displacement are two different businesses, and a blended figure hides both.
 - **Signal-to-action lag:** the days from the first risk signal to the first human action. This is the number the motion exists to shrink.

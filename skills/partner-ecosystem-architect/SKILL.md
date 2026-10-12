@@ -1,14 +1,14 @@
 ---
 name: partner-ecosystem-architect
-version: 1.0.0
-description: "Use to decide whether and how a B2B SaaS company should build a partner ecosystem: what problem partners would solve in the revenue system, which partner types fit the motion and stage, whether the direct motion is ready to be multiplied, how ecosystem-led growth plays fit alongside outbound, inbound, and customer success, and what a 90-day partner plan looks like. Use when someone says partners should be the next motion, when a partner programme is not producing, or when account mapping is being considered. Not for the operational mechanics (see partner-channel-operations)."
+version: 1.1.0
+description: "Use to decide whether and how a B2B SaaS company should build a partner ecosystem: what problem partners would solve in the revenue system, which partner types fit the motion and stage, whether the direct motion is ready to be multiplied, how ecosystem-led growth plays fit alongside outbound, inbound, and customer success, and what a 90-day partner plan looks like. Use when someone says partners should be the next motion, when a partner program is not producing, or when account mapping is being considered. Not for the operational mechanics (see partner-channel-operations)."
 ---
 
 # Partner ecosystem architect
 
 ## Purpose
 
-Partner programmes fail when they start with "let's recruit partners" rather than "what job does a partner do in our revenue system?" The answer decides the partner type, the economics, the enablement investment, and the timeline. This skill makes that answer explicit before anything is built.
+Partner programs fail when they start with "let's recruit partners" rather than "what job does a partner do in our revenue system?" The answer decides the partner type, the economics, the enablement investment, and the timeline. This skill makes that answer explicit before anything is built.
 
 Partners multiply what the company already does. If the direct motion is unpredictable, partners bring more unpredictable deals. So the first question is whether the direct engine works well enough to be multiplied.
 
@@ -17,7 +17,7 @@ This skill covers strategy and design. For the operational mechanics (registrati
 ## When to use
 
 - Someone proposes partners as the next growth motion.
-- A partner programme exists, but its purpose was never written down.
+- A partner program exists, but its purpose was never written down.
 - The company is deciding between partner types, or between a partner motion and more direct capacity.
 - Account mapping with partners is being considered as a sales tool.
 - A 90-day ecosystem plan is needed.
@@ -41,11 +41,11 @@ Route elsewhere when:
 
 ### Step 1: Answer the five diagnostic questions
 
-1. **What problem does a partner solve?** Pick one primary: distribution (cannot reach the market directly), credibility (buyers trust a third party), delivery capacity (cannot implement or support at scale), new market (geography, vertical, or segment), or ecosystem stickiness (integrations that raise switching cost). If none fits, do not start a programme.
+1. **What problem does a partner solve?** Pick one primary: distribution (cannot reach the market directly), credibility (buyers trust a third party), delivery capacity (cannot implement or support at scale), new market (geography, vertical, or segment), or ecosystem stickiness (integrations that raise switching cost). If none fits, do not start a program.
 2. **What is the current motion?** Self-serve points to technology partners and integrations. Sales-assisted points to referral and co-selling partners. Enterprise points to systems integrators and consulting partners with co-delivery. Channel-heavy points to resellers, value-added resellers, and managed service providers.
-3. **What is the stage?** Below about €5M ARR, run three to five informal partnerships and no programme. Around €5M to €15M, add a formal referral programme and a first partner hire. Around €15M to €50M, build a tiered programme with co-selling operations. Above about €50M, run an ecosystem-led growth strategy with account mapping at scale and a partner organisation. These bands are defaults.
+3. **What is the stage?** Below about €5M ARR, run three to five informal partnerships and no program. Around €5M to €15M, add a formal referral program and a first partner hire. Around €15M to €50M, build a tiered program with co-selling operations. Above about €50M, run an ecosystem-led growth strategy with account mapping at scale and a partner organization. These bands are defaults.
 4. **Does the direct motion work first?** If forecast accuracy is poor, deal stages are inconsistent, or win rates are unknown, fix the direct motion first. Partners will bring more of whatever the sales process already produces.
-5. **Who owns it?** A programme without a dedicated owner tends to stall within six months. From about €15M ARR, the owner should be a partner manager, not someone for whom partners are one task among many.
+5. **Who owns it?** A program without a dedicated owner tends to stall within six months. From about €15M ARR, the owner should be a partner manager, not someone for whom partners are one task among many.
 
 If question 4 fails, the recommendation is to fix the direct motion, not to recruit partners.
 
@@ -53,11 +53,11 @@ If question 4 fails, the recommendation is to fix the direct motion, not to recr
 
 | ARR stage | Partner motion | Investment (default) | Time to first revenue (default) |
 |---|---|---|---|
-| Below €5M | Informal referrals. Three to five warm relationships. No programme. | Founder time | Not yet measurable |
-| €5M to €15M | Formal referral programme. First partner hire. Five to ten partners. | One person | Around 90 to 120 days to a first partner-sourced deal |
-| €15M to €50M | Tiered programme, co-selling, account mapping. Fifteen to thirty partners. | Two to three people | Three to six months to pipeline, six to twelve to meaningful revenue |
-| €50M to €150M | Ecosystem strategy, a partner organisation, thirty to a hundred partners. | Five or more people | Ongoing; partner revenue becomes a planned share of the target |
-| Above €150M | Ecosystem-led growth across the company. Nearbound as an overlay on every motion. | A partner organisation | Partners are a core revenue motion |
+| Below €5M | Informal referrals. Three to five warm relationships. No program. | Founder time | Not yet measurable |
+| €5M to €15M | Formal referral program. First partner hire. Five to ten partners. | One person | Around 90 to 120 days to a first partner-sourced deal |
+| €15M to €50M | Tiered program, co-selling, account mapping. Fifteen to thirty partners. | Two to three people | Three to six months to pipeline, six to twelve to meaningful revenue |
+| €50M to €150M | Ecosystem strategy, a partner organization, thirty to a hundred partners. | Five or more people | Ongoing; partner revenue becomes a planned share of the target |
+| Above €150M | Ecosystem-led growth across the company. Nearbound as an overlay on every motion. | A partner organization | Partners are a core revenue motion |
 
 ### Step 3: Choose the partner type by motion
 
@@ -95,7 +95,7 @@ Account mapping answers the question: which of my target accounts does this part
 1. **Prepare the data.** Export active customers (name, contract value, segment, health), active pipeline (name, stage, value, close date), and target accounts (ICP fit but not yet in pipeline). Remove duplicates first. Many partner submissions turn out to be existing customers.
 2. **Share securely.** Use a privacy-preserving account overlap service, or a manual exchange for the first few partners. Share only the segments both sides have agreed.
 3. **Map the overlaps.** Three types. Prospect-customer: your target is their customer (the warmest introduction). Customer-customer: a shared customer (a co-expansion opportunity). Prospect-prospect: both are targeting it (coordinate outreach).
-4. **Prioritise.** Rank by your deal stage (active pipeline above target list), the depth of the partner's relationship (champion access above casual contact), the combined contract value, and the ICP match for both sides.
+4. **Prioritize.** Rank by your deal stage (active pipeline above target list), the depth of the partner's relationship (champion access above casual contact), the combined contract value, and the ICP match for both sides.
 5. **Activate.** Ask for a specific introduction, not "can you introduce me to company X." Give the partner context they can use. Record the introduction in the CRM. Follow up within 48 hours.
 6. **Measure.** Track the funnel from introduction requested, to introduction made, to meeting booked, to pipeline, to closed won. Conversion by partner shows which partners produce pipeline and which produce noise.
 
@@ -105,7 +105,7 @@ Cadence: refresh the mapping monthly with the top five partners, fully each quar
 
 - **Track two categories and report them separately.** Sourced: the partner originated the opportunity and the first meeting came from them. Influenced: the direct team originated it and the partner actively helped it along.
 - **Attribution rules (defaults).** First registration wins, with a protection window of around 90 days. The partner must show active involvement, not just a connection. Tag at origin, not retrospectively. Enforce the tag in weekly deal review.
-- **Commission (default, to set by the client).** Full rate for sourced, a reduced rate for influenced. Partner commission rates vary widely, so set them from the client's margin and the tier, not from another company's programme.
+- **Commission (default, to set by the client).** Full rate for sourced, a reduced rate for influenced. Partner commission rates vary widely, so set them from the client's margin and the tier, not from another company's program.
 
 Economic benchmarks are not reproduced here. Build the client's own baseline from their first four quarters of partner data.
 
@@ -122,13 +122,13 @@ Connect partner metrics to the operating cadence, so that problems trigger a nam
 | Direct and partner reps work the same account | Registration conflict alert | Resolve within 48 hours | Partner manager and sales manager |
 | New integration goes live | Product release | Enable partners on it and co-market within 30 days | Partner manager and product |
 
-### Step 8: Run the 90-day programme
+### Step 8: Run the 90-day program
 
 **Weeks 1 to 4: strategy and foundation.**
 - Week 1: score current partner maturity, list every existing partnership (formal and informal), identify partners already referring deals, and check whether the direct motion is ready.
 - Week 2: answer the five diagnostic questions, define the partner types needed, write the ideal partner profile (see `partner-channel-operations`), and set six-month and twelve-month targets.
 - Week 3: design the tiers, the economics, and the attribution rules. Define the partner data needed in the CRM.
-- Week 4: identify the first five partners, prioritising those already referring informally. Create a minimum enablement pack (one-pager, ICP guide, registration form). Sign the first three agreements. Run the first mapping session with the top two partners.
+- Week 4: identify the first five partners, prioritizing those already referring informally. Create a minimum enablement pack (one-pager, ICP guide, registration form). Sign the first three agreements. Run the first mapping session with the top two partners.
 
 Output: a partner ecosystem blueprint with strategy, architecture, economics, and the first five partners.
 
@@ -152,7 +152,7 @@ Success targets (defaults):
 | First registered deal | Not applicable | Within 60 days | Five or more registered deals |
 | Accounts mapped with top partners | None | Top two | Top five |
 
-## Choosing how far to go
+### Choosing how far to go
 
 Start with the smallest motion that answers the question. A company with three partners should make those three succeed before recruiting more. Case studies from a few successful partners make the next recruitment easier than a larger list of inactive ones. Scale only what has produced pipeline at small size.
 
@@ -173,9 +173,9 @@ Use `partner-channel-operations` for the operating detail once the strategy is a
 1. Which problem would a partner solve that direct sales cannot, and how would you know it had been solved?
 2. Is the direct motion's forecast accurate enough to be multiplied?
 3. Which partners already refer deals informally, and what did those referrals produce?
-4. Who owns the programme, and how many hours a week do they have for it?
-5. What partner-influenced revenue would you need to see in twelve months to call the programme a success?
+4. Who owns the program, and how many hours a week do they have for it?
+5. What partner-influenced revenue would you need to see in twelve months to call the program a success?
 
 ## Quality bar
 
-The strategy names the job partners do, the stage fits the investment, and the direct motion has been checked first. The 90-day plan has owners and measures. Watch for recruitment before a job is defined, benchmark percentages used as targets, partners recruited faster than they can be enabled, and a programme with no owner.
+The strategy names the job partners do, the stage fits the investment, and the direct motion has been checked first. The 90-day plan has owners and measures. Watch for recruitment before a job is defined, benchmark percentages used as targets, partners recruited faster than they can be enabled, and a program with no owner.

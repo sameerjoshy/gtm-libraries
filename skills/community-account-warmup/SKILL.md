@@ -1,7 +1,7 @@
 ---
 name: community-account-warmup
-version: 1.0.0
-description: "Use when a brand account on an online community forum is new or has little standing, and the team wants it credible before any promotional activity. Sets out a warm-up ladder in which the share of promotional activity is earned step by step through contribution milestones, starting with zero product mentions, spreading across communities, and favouring active threads. Use before any promotion is planned for a new account. Not for monitoring an account that is already active (see community-account-health)."
+version: 1.1.0
+description: "Use when a brand account on an online community forum is new or has little standing, and the team wants it credible before any promotional activity. Sets out a warm-up ladder in which the share of promotional activity is earned step by step through contribution milestones, starting with zero product mentions, spreading across communities, and favoring active threads. Use before any promotion is planned for a new account. Not for monitoring an account that is already active (see community-account-health)."
 ---
 
 # Community account warmup
@@ -28,7 +28,7 @@ Route elsewhere when:
 - The rules of each target community, including any eligibility milestones.
 - The promotion the team plans, to check against the ladder.
 
-## The promotional ladder
+### The promotional ladder
 
 Promotional share is earned, not chosen. Defaults, to calibrate for each forum:
 
@@ -42,10 +42,10 @@ Promotional share is earned, not chosen. Defaults, to calibrate for each forum:
 
 Standing is measured by the forum's own signals of contribution, such as accepted or upvoted contributions, not by the team's sense of how good the account is. Some forums also set eligibility milestones for certain communities. Check each community's rules before promoting in it.
 
-## Warm-up method
+### Warm-up method
 
 1. **Contribute with zero product mentions.** Every comment is about the topic and the post in front of it.
-2. **Favour active threads.** Early comments on threads that are gaining attention collect more standing for the same effort.
+2. **Favor active threads.** Early comments on threads that are gaining attention collect more standing for the same effort.
 3. **Spread across communities.** Do not contribute to one community alone, because a single-community history looks like a promotion account.
 4. **Keep the ladder.** Move up a level only when the forum's signals show the account has earned it.
 5. **Record each milestone** with its date, so the team can show when the account became eligible.

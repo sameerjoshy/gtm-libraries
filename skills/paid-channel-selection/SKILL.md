@@ -1,6 +1,6 @@
 ---
 name: paid-channel-selection
-version: 1.0.0
+version: 1.1.0
 description: "Use when choosing which paid channels to test for a B2B offer, or when a team is spreading spend across too many channels. Groups paid channels into five families (paid social, paid search, review-listing sites, programmatic, and sponsorships), scores each against four criteria (targeting depth, media cost, reach to the ICP, and policy fit), and sequences the channels by budget and buying motion. Not for the campaign plan (see paid-campaign-plan) or the spend split across stages (see paid-budget-by-stage)."
 ---
 
@@ -30,7 +30,7 @@ Route elsewhere when:
 - The sales motion: product-led, sales-led, or a mix.
 - Any policy restrictions the category faces.
 
-## The five channel families
+### The five channel families
 
 | Family | What it is | Typical role |
 |---|---|---|
@@ -40,7 +40,7 @@ Route elsewhere when:
 | Programmatic | Display, audio, connected TV, and native placements across the open web | Broad awareness, weak targeting for B2B |
 | Sponsorships | Direct deals with influencers, newsletters, events, and podcasts | Credibility with a defined audience |
 
-## Four criteria
+### Four criteria
 
 Score each shortlisted channel on:
 

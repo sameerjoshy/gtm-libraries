@@ -1,6 +1,6 @@
 ---
 name: multi-threading-coach
-version: 1.0.0
+version: 1.1.0
 description: "Use on a live deal that depends on one contact, when the champion has gone quiet, when nobody can name the decision-maker, or when the buying process is about to get bigger. Maps the buying committee, scores each contact on access (can you reach them) and influence (do they move the decision), flags single-thread risk, and produces a coalition plan with a reason and a talking point for each new thread. Not for blast outreach."
 ---
 
@@ -24,7 +24,7 @@ Do not run this on an unqualified deal. Coalition work on a deal with no validat
 
 ## Inputs
 
-Collect these before scoring. Where something is unknown, write `[CONFIRM WITH CHAMPION]` and make it a coalition task. Only the buyer knows their own organisation.
+Collect these before scoring. Where something is unknown, write `[CONFIRM WITH CHAMPION]` and make it a coalition task. Only the buyer knows their own organization.
 
 - Deal context: company, stage, value if known, and the outcome the buyer wants.
 - Every stakeholder you know of: name, role, and how you know them (champion, economic buyer, users, IT or RevOps, security, legal, procurement, finance, executive sponsor).
@@ -74,7 +74,7 @@ Place each contact on the access by influence grid:
 - **High access, high influence:** your backers. Protect them and equip them to sell internally.
 - **Low access, high influence:** the priority gap. These people decide and you cannot reliably reach them. Closing this gap is the core of the plan.
 - **High access, low influence:** useful for intelligence and introductions. They cannot close the deal alone. Do not count their enthusiasm as progress.
-- **Low access, low influence:** deprioritise.
+- **Low access, low influence:** deprioritize.
 
 Flag single-thread risk explicitly when every high-access contact is one person, or when every high-influence person sits in the low-access column. Name the consequence: "If [champion] goes quiet, we have no thread to the economic buyer."
 

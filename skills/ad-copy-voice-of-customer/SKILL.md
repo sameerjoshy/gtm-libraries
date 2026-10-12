@@ -1,6 +1,6 @@
 ---
 name: ad-copy-voice-of-customer
-version: 1.0.0
+version: 1.1.0
 description: "Use when writing paid ad copy for B2B campaigns, so that headlines and body text use the buyer's own words instead of the product's marketing language. Sets out the rule to gather voice-of-customer language first, a ranked list of sources for it, the difference between describing a feature and describing a change in the buyer's daily work, and headline formulas to test. Not for the persona (see ad-persona-framework) or for the offer (see paid-offer-strategy)."
 ---
 
@@ -29,13 +29,13 @@ Route elsewhere when:
 - The offer, and the single action the ad asks for.
 - The channel's character limits, if known.
 
-## Rule one: write from the customer's words
+### Rule one: write from the customer's words
 
 Brand language describes features: "real-time visibility across all business units". Customer language describes the change in daily work: "I used to spend six to eight hours a week on reporting. Now it takes fifteen minutes." Customer language wins because it mirrors what the buyer already thinks and feels.
 
 Before writing a line of copy, gather the buyer's own language. Do not write from the product page.
 
-## Sources, ranked
+### Sources, ranked
 
 1. **Direct customer language:** reviews on software listing sites, which describe the problem before and the outcome after.
 2. **Discovery call notes and transcripts:** how prospects describe the problem before they know the solution. Unfiltered and the most useful.
@@ -45,7 +45,7 @@ Before writing a line of copy, gather the buyer's own language. Do not write fro
 
 For each source, record the before state (what was painful), the after state (what changed), and the exact phrase.
 
-## Headline formulas to test
+### Headline formulas to test
 
 Use these as starting points. Write three or more headlines per formula and test them against each other:
 

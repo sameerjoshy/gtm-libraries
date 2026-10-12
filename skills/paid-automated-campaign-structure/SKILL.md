@@ -1,6 +1,6 @@
 ---
 name: paid-automated-campaign-structure
-version: 1.0.0
+version: 1.1.0
 description: "Use to structure or troubleshoot an automated paid campaign that serves across the platform's inventory from a set of asset groups and audience signals. Covers splitting asset groups by product line or segment, filling every asset slot with a deliberately chosen real video, judging new groups only after a settling period, and guarding against the automated campaign cannibalising brand search that a dedicated campaign already covers at a better cost. Not for search-only campaigns (see paid-search-budget-reallocation) or for the account-wide audit (see paid-account-audit)."
 ---
 
@@ -50,4 +50,4 @@ Route elsewhere when:
 
 ## Quality bar
 
-Every group maps to one product or segment. Every group has a deliberate video. No group is judged inside its settling period. Brand cannibalisation is checked wherever a dedicated brand campaign exists. Watch for one group covering the whole catalogue, auto-generated video accepted by default, and a group restructured on its first few days.
+Every group maps to one product or segment. Every group has a deliberate video. No group is judged inside its settling period. Brand cannibalisation is checked wherever a dedicated brand campaign exists. Watch for one group covering the whole catalog, auto-generated video accepted by default, and a group restructured on its first few days.

@@ -1,6 +1,6 @@
 ---
 name: account-progression-staging
-version: 1.0.0
+version: 1.1.0
 description: "Use to assign each account a single progression stage (unaware, aware, engaged, qualified, sales-ready, customer) from its full signal record, using rules that give the same result for the same inputs. Requires a buying group of several distinct contacts before an account can advance, so one enthusiastic user cannot fake momentum. Records each stage entry with its evidence, and shows whether an activity moved accounts forward, not just whether it produced clicks. Not for individual lead scoring (see account-tier-scoring)."
 ---
 
@@ -28,7 +28,7 @@ Route elsewhere when:
 - The stage definitions and the thresholds, as the team agrees them.
 - Stage history, if the team already keeps it.
 
-## Stages
+### Stages
 
 Each account holds one stage at a time, and moves forward only on evidence:
 

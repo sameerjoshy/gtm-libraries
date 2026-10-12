@@ -1,6 +1,6 @@
 ---
 name: paid-social-campaign-structure
-version: 1.0.0
+version: 1.1.0
 description: "Use to structure paid social campaigns for B2B high-value offers in three phases. Phase one validates which audiences produce qualified leads, using separate budgets per audience with the same ads in every audience. Phase two tests creative concepts inside the winning audience with a shared budget. Phase three moves to automation once the inputs are proven. Covers the validation criteria (judged in the CRM, not the ad platform), the consolidation rules, and the minimum test length. Not for the audiences themselves (see paid-social-audience-strategy) or for the automation settings (see paid-automation-controls)."
 ---
 
@@ -30,7 +30,7 @@ Route elsewhere when:
 - The CRM fields for title match, firmographic match, and lead-to-qualified conversion.
 - The total budget for the test.
 
-## Phase 1: audience validation
+### Phase 1: audience validation
 
 **Purpose:** find which audience sources produce qualified leads, before spending on creative testing.
 
@@ -49,17 +49,17 @@ Route elsewhere when:
 
 **Simpler alternative:** test only two ad sets, broad against interest-based, for two to four weeks, and keep the better one.
 
-## Phase 2: creative scaling
+### Phase 2: creative scaling
 
 **Purpose:** scale the proven audience by testing creative concepts inside it.
 
-**Structure:** one campaign for the winning audience, with one ad set per creative concept. Each concept has three to four variations. The budget is shared across the concepts, so the platform can favour the strongest.
+**Structure:** one campaign for the winning audience, with one ad set per creative concept. Each concept has three to four variations. The budget is shared across the concepts, so the platform can favor the strongest.
 
 **Rules:**
 - Test concepts, not single ads, so the result reflects an angle rather than one execution.
 - Keep the audience fixed while the concepts are tested.
 
-## Phase 3: automation
+### Phase 3: automation
 
 Move to automated delivery only after both the audience and the creative are proven. See `paid-automation-controls` for the rules.
 

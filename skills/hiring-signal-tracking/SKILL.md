@@ -1,6 +1,6 @@
 ---
 name: hiring-signal-tracking
-version: 1.0.0
+version: 1.1.0
 description: "Use to watch job postings as buying signals across target accounts, and to verify any hiring claim before it is used as fact in a score, alert, message, or account note. Detects and classifies hiring patterns, and blocks hiring claims that cannot be confirmed at the company's own source. Detection and classification only, never outreach. Not for outreach (see signal-outbound-plays) or champion job changes (see champion-job-change-tracking)."
 ---
 

@@ -1,6 +1,6 @@
 ---
 name: voice-calibration-from-samples
-version: 1.0.0
+version: 1.1.0
 description: "Use when AI-drafted replies or posts do not sound like the person who will sign them, or get product facts wrong. Teaches the voice by having the person rewrite a handful of real drafts in their own words, extracts the differences as written voice guidelines, and grounds drafts in a small, current knowledge base for one product. Covers review of the extracted guidelines and the refresh after releases. Not for choosing which threads to answer (see community-channel-research) or for the content review of finished copy (see content-authenticity-review)."
 ---
 
@@ -33,7 +33,7 @@ Route elsewhere when:
 
 Part one teaches the voice by rewriting. Part two grounds the facts. Do part one before part two.
 
-## Part one: teach the voice by rewriting
+### Part one: teach the voice by rewriting
 
 1. **Draft from the source, not from the sample.** For each of about five source items, the machine drafts a reply first. The person then rewrites it the way they would actually say it. If the person already approves a draft, record the approval.
 2. **Rewrite on first thought.** The first phrasing the person reaches for is the signal. Polished phrasing hides it.
@@ -46,7 +46,7 @@ Part one teaches the voice by rewriting. Part two grounds the facts. Do part one
    - comment structure, such as opening with empathy, a question, or a statement.
 5. **Review the extraction by hand.** Extraction misses things. Edit the guidelines, and add what the person says they would never write.
 
-## Part two: ground the facts
+### Part two: ground the facts
 
 1. **Build one knowledge base per product.** Keep it to the material a reader's question needs: overview, differentiators, specific features, real use cases, current pricing, and common questions. A tight set of about five pages on one product works better than a large dump.
 2. **Leave out what does not carry text.** Images and image-only slides are not read, so the text around them is what counts. Leave out raw code and internal operating documents.

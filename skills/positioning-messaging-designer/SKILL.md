@@ -1,6 +1,6 @@
 ---
 name: positioning-messaging-designer
-version: 1.0.0
+version: 1.1.0
 description: "Use to turn an evidenced ICP into a positioning and messaging framework: the twelve positioning elements, one repeatable positioning line, a Use Case Messaging Canvas built from customers' own words, and the opposites method that writes the messaging from the contrast between old and new ways. Also covers testing the framework with real calls and rolling it out to sales. Use when messaging is inconsistent across channels, when positioning is vague, or when copy is being written before the positioning exists. Not for building the ICP (see icp-builder) or writing channel copy."
 ---
 
@@ -39,7 +39,7 @@ Route elsewhere when:
 
 If there are no customer interviews or deal notes, the first task is to collect them. Do not write positioning from the founders' description alone.
 
-## The chain
+### The chain
 
 ```
 ICP + evidence  →  positioning  →  messaging framework  →  copy in every channel
@@ -96,7 +96,7 @@ The canvas is the core deliverable. It has two sides, the old way and the new wa
 
 If a line does not come from customer evidence, it does not belong on the left.
 
-**Centre: the job and the person.**
+**Center: the job and the person.**
 - **Use case.** The specific job or outcome.
 - **Persona.** Who in the buying group benefits, with title and context.
 
@@ -180,7 +180,7 @@ Positioning is useful only if the sales team uses it consistently. Roll out in f
 
 **When a rep says the positioning does not work.** Ask which deal it failed on. Review the recording together. In most cases the positioning was sound, but the rep did not lead with it. The fix is practice, not a new positioning. If the customers genuinely do not share the alternative, re-check the evidence in Step 1 and test with five prospects before changing the framework.
 
-## Common mistakes
+### Common mistakes
 
 1. **Positioning before evidence.** Guessing instead of listening. Go back to the interviews.
 2. **Filling the right side first.** The company's narrative overwrites the customer's reality. Always start from the old way.
@@ -188,7 +188,7 @@ Positioning is useful only if the sales team uses it consistently. Roll out in f
 4. **Breaking the opposites.** The new way does not clearly contrast with the old way. Every right-side element should be a direct reversal.
 5. **Producing a document instead of a system.** The canvas should be a working reference the team uses on calls, not a deck that gathers dust.
 
-## Evidence and narrative checks
+### Evidence and narrative checks
 
 Before choosing a positioning, check the evidence. Ask why buyers actually switched to the company, and what stopped the ones who did not. A positioning that the switching evidence does not support is a hypothesis.
 

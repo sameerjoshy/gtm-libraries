@@ -1,6 +1,6 @@
 ---
 name: roi-business-case
-version: 1.0.0
+version: 1.1.0
 description: "Use when a live deal needs a business case the buyer will believe: going into procurement, finance review, or executive sign-off, when a champion needs an internal case, or when a single optimistic ROI figure is drawing scepticism. Builds a one-page case with worst, average, and best scenarios, each tied to the buyer's root-cause problem and their own baselines, with every assumption visible. Not for the discovery-to-demo plan (see discovery-to-demo-bridge)."
 ---
 
@@ -22,7 +22,7 @@ Do not build the case on a problem whose impact cannot be grounded in the buyer'
 Route elsewhere when:
 
 - The question is which pains to demonstrate in the demo. Use `discovery-to-demo-bridge`.
-- The question is the pricing or packaging itself. Use `pricing-monetisation-ops`.
+- The question is the pricing or packaging itself. Use `pricing-monetization-ops`.
 
 ## Inputs
 

@@ -1,6 +1,6 @@
 ---
 name: crm-migration-consolidation
-version: 1.0.0
+version: 1.1.0
 description: "Use when two or more CRM instances must be merged, when a company moves to a new CRM, or when a post-merger team has to decide whether to consolidate or run two systems side by side. Covers the consolidate-or-coexist decision, system of record per object, data harmonisation, deduplication and identity resolution, historical data, the ID crosswalk that makes rollback possible, rebuilding automations, re-pointing integrations, cutover and rollback, KPI re-baselining, GDPR carry-over, and the ARR tie-out to finance. Platform-neutral. For Salesforce configuration see revops-salesforce; for the wider post-merger plan see revops-change-management."
 ---
 
@@ -12,7 +12,7 @@ Moving or merging CRM instances fails mostly for reasons that are not technical:
 
 ## When to use
 
-- Two CRM instances are being merged, usually after an acquisition or a reorganisation.
+- Two CRM instances are being merged, usually after an acquisition or a reorganization.
 - A company is moving from one CRM to another.
 - A post-merger team must decide between consolidating and running two systems.
 - Duplicate accounts and contacts are blocking reporting.
@@ -47,18 +47,18 @@ Start with the business question, not the platform. Consolidation is costly and 
 - A single go-to-market motion, with one territory model, one pipeline, and one pricing approach, serves both businesses.
 - Leadership needs one version of ARR, net retention, and board reporting across all revenue.
 - Data flows one way reliably, and the automations can be rebuilt once.
-- Both organisations report to one P&L with aligned incentives.
+- Both organizations report to one P&L with aligned incentives.
 
 **Coexist when:**
 
 - Each business runs its own sales motion, customers, and forecast, and wants to keep that independence.
 - One system is clearly better for its use case, and switching costs more than it saves. For example, one business sells complex enterprise deals and the other sells high-volume small deals.
 - The businesses integrate at finance and reporting only, not in daily workflow.
-- The organisation accepts the cost of two systems, reconciliation work, and the risk that reporting lags reality.
+- The organization accepts the cost of two systems, reconciliation work, and the risk that reporting lags reality.
 
 Coexistence still needs an integration layer. Plan the identity layer (one view of each customer), the finance layer (one ARR figure), and the reporting layer (one KPI set with two sources).
 
-Timelines for full consolidation are often quoted at 12 to 18 months for large organisations. Treat that as a range to test against the client's size and complexity, not a fixed plan.
+Timelines for full consolidation are often quoted at 12 to 18 months for large organizations. Treat that as a range to test against the client's size and complexity, not a fixed plan.
 
 ### Step 2: Set the system of record for each object
 
@@ -83,13 +83,13 @@ This is where most of the effort sits. Before migrating anything, agree the targ
 - **Property types and formats.** One system may store phone numbers as free text, and another as a restricted format. Choose the target format, and transform the source data to match.
 - **Dependent fields.** Fields that only appear when another field has a certain value need their logic designed once for the target.
 - **Currency.** Decide whether all ARR is held in one reporting currency with conversion at a stated rate, or whether each deal keeps its original currency. Finance must be able to reconcile whichever is chosen.
-- **Definitions.** A term such as "marketing qualified lead" must mean the same thing in both organisations, or the adoption problem comes back after cutover. See `lead-routing-design` and `marketing-operations` for the definitions.
+- **Definitions.** A term such as "marketing qualified lead" must mean the same thing in both organizations, or the adoption problem comes back after cutover. See `lead-routing-design` and `marketing-operations` for the definitions.
 
 Common mistakes:
 
 - Planning to clean the data after cutover. Post-cutover clean-up is usually more expensive than the same work done before it. Clean the source first.
 - Keeping every field because someone might use it. Consolidation is the moment to remove custom fields nobody reads. Audit each one, and retire the unused ones.
-- Migrating raw data with its problems intact, such as email typos, phone numbers without country codes, and company names with stray spaces. Standardise the source data, not just the target schema.
+- Migrating raw data with its problems intact, such as email typos, phone numbers without country codes, and company names with stray spaces. Standardize the source data, not just the target schema.
 
 ### Step 4: Deduplicate and resolve identity
 
@@ -140,7 +140,7 @@ Test the associations end to end in a sandbox before cutover. Check that each co
 Automations do not transfer between systems. Each one has to be documented, rebuilt, and tested in the target. This is often the largest hidden effort, and it is easy to underestimate.
 
 - **Inventory.** Document every live automation in the source: purpose, trigger, actions, and frequency.
-- **Prioritise.** Rebuild lead routing and scoring first, because they drive adoption. Rebuild nurture and renewal logic second.
+- **Prioritize.** Rebuild lead routing and scoring first, because they drive adoption. Rebuild nurture and renewal logic second.
 - **Test.** Build and test in a sandbox with sample data. Run the old and new logic side by side for a period, and compare their outputs. If routing gives different owners, find out why before cutover.
 - **Retire.** Turn off old automations only after the new ones have run stably, for one to two weeks.
 
@@ -201,7 +201,7 @@ Consolidation does not remove the obligations attached to the data. Check these 
 
 - **Opt-outs.** Every marketing opt-out in the source must be carried over as a suppression, and tested in the target. Export the opt-outs, import them, and check that no marketing goes to those contacts.
 - **Lawful basis.** Each contact should have a recorded basis for processing, such as consent, contract, or legitimate interest. Carry the basis across. Where it is missing, flag the record for legal review before migrating it.
-- **Evidence of consent.** Where consent is the basis, the organisation must be able to demonstrate it. Carry the consent source and date with the record. Consent that cannot be shown is a compliance gap.
+- **Evidence of consent.** Where consent is the basis, the organization must be able to demonstrate it. Carry the consent source and date with the record. Consent that cannot be shown is a compliance gap.
 - **Notice for enriched data.** Where contact data was enriched from a third party, the notice obligations under GDPR Article 14 may apply. Decide before cutover whether to notify the contacts, or to leave the enriched fields out of the migration. Confirm the timing with counsel.
 - **Objections.** An objection to direct marketing must stop that processing immediately. Import each objection as a suppression, and check that the target respects it.
 - **Transfers and retention.** Where data moves to a system in another jurisdiction, document the transfer mechanism. Set one retention period for the merged data, and record it. Confirm the data-processing agreements for both systems cover the merged flow.
@@ -219,22 +219,22 @@ Before cutover, reconcile active ARR in the source systems to the finance record
 
 Resolve the gap before migrating. Repeat the tie-out within 48 hours after cutover. ARR is board-facing, so any mismatch needs to be explained at once.
 
-For multi-entity organisations, also agree the entity mapping for each deal, and how intercompany deals are recorded.
+For multi-entity organizations, also agree the entity mapping for each deal, and how intercompany deals are recorded.
 
 ### Step 14: Run adoption as a workstream
 
-Users from two organisations arrive with two sets of habits. If the merged system adds friction, adoption falls and data quality follows.
+Users from two organizations arrive with two sets of habits. If the merged system adds friction, adoption falls and data quality follows.
 
 | Phase | Timing | Actions | Owner |
 |---|---|---|---|
 | Awareness | Eight weeks before cutover | Explain why the change is happening, and what it means for each team | Leadership and RevOps |
 | Design | Six weeks before | Involve reps in the workflow, the picklist mapping, and the dashboard layout | RevOps and sales champions |
-| Training | Four weeks before | Role-based training for each job, with a sandbox to practise in | RevOps and sales enablement |
+| Training | Four weeks before | Role-based training for each job, with a sandbox to practice in | RevOps and sales enablement |
 | Pilot | Two weeks before | Two or three teams work in the new system alongside the old, and issues are fixed | Pilot teams and RevOps |
 | Cutover | Day zero | Everyone moves over. Source read-only, except for lookups | RevOps and IT |
 | Hypercare | Weeks one and two | Daily check-ins with sales leaders. Broken workflows fixed the same day | RevOps and team leads |
 | Reinforcement | Weeks three to eight | Short refreshers on specific features, recognition for good data habits | Sales enablement and leadership |
-| Normalisation | Months two to three | The merged system is the only one in use. The source is archived or closed | RevOps |
+| Normalization | Months two to three | The merged system is the only one in use. The source is archived or closed | RevOps |
 
 Track these after cutover: login frequency, activity logging per rep, field completion, forecast-entry accuracy, and support tickets. If any measure stays low for two weeks or more, take action. Options include more training, redesigning the workflow, or considering a rollback.
 
@@ -246,14 +246,14 @@ Work through these in order. Each step depends on the one before.
 
 1. Audit both instances: objects, fields, pipelines, automations, integrations, users, and data volumes.
 2. Define the target: consolidate or coexist, system of record per object, object model, and KPI definitions.
-3. Clean the source data: deduplicate and standardise both instances.
+3. Clean the source data: deduplicate and standardize both instances.
 4. Map the fields: document every source field, agree the target name and type, and write each transformation rule.
 5. Build the target in a sandbox: properties, pipelines, stages, automations, and integrations.
 6. Test-migrate a representative sample, for example a few thousand accounts and contacts and a few hundred opportunities. Check counts, associations, and a sample of records. Iterate on the mapping until the sample is right.
 7. Plan the cutover: the window, the freeze, the parallel run, and the rollback.
 8. Run the cutover: migrate, deduplicate, create the crosswalk, reconcile, and re-point the integrations.
 9. Run hypercare for two weeks.
-10. Normalise and retire the source. Start the recurring data-quality cadence.
+10. Normalize and retire the source. Start the recurring data-quality cadence.
 
 Planning range for the whole sequence: a few months for a small instance, and longer for a large or multi-entity one. Validate the range against the client's own audit.
 

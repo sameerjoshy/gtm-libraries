@@ -1,6 +1,6 @@
 ---
 name: marketing-operations
-version: 1.0.0
+version: 1.1.0
 description: "Use to make marketing accountable for pipeline: shared lifecycle definitions, dual-axis lead scoring (fit and engagement) with quarterly calibration and governed versions, the marketing-to-sales handoff SLA with rejection reasons, lead recycling, attribution (sourced, influenced, and a multi-touch model), campaign and UTM taxonomy, and the maturity path. Use when sales says leads are poor or revenue cannot be attributed to campaigns. Covers marketing operations, not brand, creative, or ICP methodology (see icp-builder), and not the CRM build (see the platform skills)."
 ---
 
@@ -57,7 +57,7 @@ Mixing "is this the right customer" with "are they interested now" produces scor
 
 **Fit score (account level, 0 to 100).** Company size, geography, industry match, technology signals, and growth-stage fit.
 
-**Engagement score (behaviour level, 0 to 100).** Website visits, email clicks (not opens), depth of content consumed, event attendance, and trial activation where a trial exists.
+**Engagement score (behavior level, 0 to 100).** Website visits, email clicks (not opens), depth of content consumed, event attendance, and trial activation where a trial exists.
 
 Example rule: an MQL is a fit score of at least 40 and an engagement score of at least 30. These are starting values to test, not standards.
 

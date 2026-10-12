@@ -1,7 +1,7 @@
 ---
 name: gtm-data-architecture
-version: 1.0.0
-description: "Use to design the data layer behind revenue operations for a team that is not made of data engineers. Covers warehouse-centred architecture, transformation layers, the three queries every RevOps lead should read, reverse activation of computed scores, identity resolution, a unified customer health score, staged roadmap, and data readiness for AI agents. Use when the CRM cannot answer cross-system questions, when metrics differ between teams, or before any AI agent is pointed at customer data. Not for CRM data quality rules (see revops-data-governance) or vendor selection (see revops-tech-stack)."
+version: 1.1.0
+description: "Use to design the data layer behind revenue operations for a team that is not made of data engineers. Covers warehouse-centered architecture, transformation layers, the three queries every RevOps lead should read, reverse activation of computed scores, identity resolution, a unified customer health score, staged roadmap, and data readiness for AI agents. Use when the CRM cannot answer cross-system questions, when metrics differ between teams, or before any AI agent is pointed at customer data. Not for CRM data quality rules (see revops-data-governance) or vendor selection (see revops-tech-stack)."
 ---
 
 # GTM data architecture
@@ -141,7 +141,7 @@ Build three core marts first:
 
 Start with staging (cleaned raw data), then the marts, then tests and documentation. Tests should enforce the data gates that matter: a stage exit requirement, a required source on every score, and an auditable stage history.
 
-Standard tooling for the transformation layer is dbt Cloud for most teams and self-managed dbt Core for highly technical organisations. The choice is a vendor decision, see `revops-tech-stack`.
+Standard tooling for the transformation layer is dbt Cloud for most teams and self-managed dbt Core for highly technical organizations. The choice is a vendor decision, see `revops-tech-stack`.
 
 ### Step 5: Activate computed values back into the tools
 
@@ -191,7 +191,7 @@ A six to twelve month path, adjusted to the team's size and data:
 
 **Phase 4, AI readiness and governance (weeks 25 to 52).** Complete identity resolution. Build the unified health score. Add data contracts, audit trails, and a documented process for handling deletion requests. Only then consider agent integration. Milestone: decisions can be traced, and governance runs without manual effort where possible.
 
-Staffing guide: a small team can run the early phases with part of one analyst's time. Mid-sized teams need a data engineer and an analytics engineer. Enterprise-scale agent programmes need a governance lead on top. Counts are planning assumptions.
+Staffing guide: a small team can run the early phases with part of one analyst's time. Mid-sized teams need a data engineer and an analytics engineer. Enterprise-scale agent programs need a governance lead on top. Counts are planning assumptions.
 
 ## Anti-patterns
 
@@ -203,7 +203,7 @@ Staffing guide: a small team can run the early phases with part of one analyst's
 
 **Data quality later.** The warehouse goes live and bad data is accepted, with the promise to fix it later. Fix: define the gates early, as stage exit tests and required fields that must be present before a lead can route.
 
-## Regulatory checks for counsel
+### Regulatory checks for counsel
 
 These are points for counsel to confirm, not legal advice.
 
@@ -213,7 +213,7 @@ These are points for counsel to confirm, not legal advice.
 - **Data portability.** The EU Data Act (Regulation (EU) 2023/2854) gives business customers rights to access and port their data in some cases. Keep the warehouse schema export-friendly.
 - **Residency.** Where data must stay in one jurisdiction, confirm the warehouse region and vendor sub-processors before setup, not after.
 
-## How to use this skill
+### How to use this skill
 
 **"We are choosing a data platform for GTM."** Pick the pattern from the stage (Step 1 and Step 2). Then see `revops-tech-stack` for the vendor decision.
 

@@ -1,6 +1,6 @@
 ---
 name: seo-account-context
-version: 1.0.0
+version: 1.1.0
 description: "Use before any SEO or content keyword work for a company, to build one confirmed account intelligence document: what the company sells, who it sells to, what it wants to sell more of, and what already works. Gathers the onboarding form, the live website, sales call notes, and client communications into one picture, and asks for confirmation before any keyword research starts. Not for choosing topics (see seo-topic-research)."
 ---
 
@@ -32,7 +32,7 @@ Ask once, in one message, for whatever is available:
 
 Gather everything in one pass. Do not ask for the same thing twice.
 
-## The account intelligence document
+### The account intelligence document
 
 Write one document with these sections:
 

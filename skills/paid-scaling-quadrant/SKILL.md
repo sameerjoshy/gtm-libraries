@@ -1,7 +1,7 @@
 ---
 name: paid-scaling-quadrant
-version: 1.0.0
-description: "Use to decide how to scale paid spend when a campaign is working, based on whether the constraint is budget or effort. Plots four levers on two axes (audiences, geography, ads, and objectives and bids), maps each to a situation (no budget and time to test, budget but no time, and so on), and sets the order for pulling them. Not for setting the first budget (see paid-budget-by-stage) or for diagnosing a campaign that is not working (see paid-optimisation-signals)."
+version: 1.1.0
+description: "Use to decide how to scale paid spend when a campaign is working, based on whether the constraint is budget or effort. Plots four levers on two axes (audiences, geography, ads, and objectives and bids), maps each to a situation (no budget and time to test, budget but no time, and so on), and sets the order for pulling them. Not for setting the first budget (see paid-budget-by-stage) or for diagnosing a campaign that is not working (see paid-optimization-signals)."
 ---
 
 # Paid scaling quadrant
@@ -19,7 +19,7 @@ description: "Use to decide how to scale paid spend when a campaign is working, 
 
 Route elsewhere when:
 
-- The question is whether the campaign works at all. Use `paid-optimisation-signals`.
+- The question is whether the campaign works at all. Use `paid-optimization-signals`.
 - The question is whether measurement is good enough to scale on. Use `paid-measurement-scorecard`.
 - The question is the total budget and its split. Use `paid-budget-by-stage`.
 
@@ -30,14 +30,14 @@ Route elsewhere when:
 - The team's capacity to build new campaigns.
 - Whether measurement is reliable enough to scale on.
 
-## The two axes
+### The two axes
 
 - **Effort** runs left to right. Low effort means scaling a single campaign. High effort means scaling across campaigns and markets.
 - **Budget** runs bottom to top. Low budget means little new money. High budget means more money to put into existing campaigns.
 
 Scaling vertically means raising budgets on campaigns that already work. Scaling horizontally means building new campaigns to reach more people.
 
-## The four levers
+### The four levers
 
 | Quadrant | Position | Lever |
 |---|---|---|
@@ -46,7 +46,7 @@ Scaling vertically means raising budgets on campaigns that already work. Scaling
 | Ads | Low budget, low effort | Improve creative and messaging, test new ad formats |
 | Objectives and bids | Low budget, high effort | Change the campaign objective or bid strategy to lower the cost per result |
 
-## Scenarios
+### Scenarios
 
 **No budget, and time to test.** Work the bottom quadrants. Improve the ads, and test different objectives or bid strategies to lower cost. Better ads or cheaper results free up budget, which then becomes more volume.
 

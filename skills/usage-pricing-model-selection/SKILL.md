@@ -1,7 +1,7 @@
 ---
 name: usage-pricing-model-selection
-version: 1.0.0
-description: "Use to choose or defend a pricing model for a product that does work on the buyer's behalf, such as an automated agent, a workflow tool or an assistant. Compares four models (per agent or seat, per action, per workflow, per outcome) by the product's breadth, workload predictability, attribution, and the budget it displaces, recommends one or a hybrid, and sets price anchors against the cost of the work done another way rather than against compute. Not for billing operations (see pricing-monetisation-ops) or for credit schedules (see credit-based-packaging)."
+version: 1.1.0
+description: "Use to choose or defend a pricing model for a product that does work on the buyer's behalf, such as an automated agent, a workflow tool or an assistant. Compares four models (per agent or seat, per action, per workflow, per outcome) by the product's breadth, workload predictability, attribution, and the budget it displaces, recommends one or a hybrid, and sets price anchors against the cost of the work done another way rather than against compute. Not for billing operations (see pricing-monetization-ops) or for credit schedules (see credit-based-packaging)."
 ---
 
 # Usage pricing model selection
@@ -17,7 +17,7 @@ A product that works on the buyer's behalf can be priced by seat, by use, by wor
 
 Route elsewhere when:
 
-- The question is how usage is metered and invoiced. Use `pricing-monetisation-ops`.
+- The question is how usage is metered and invoiced. Use `pricing-monetization-ops`.
 - The question is the credit schedule once a model is chosen. Use `credit-based-packaging`.
 
 ## Inputs

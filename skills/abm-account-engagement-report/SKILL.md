@@ -1,6 +1,6 @@
 ---
 name: abm-account-engagement-report
-version: 1.0.0
+version: 1.1.0
 description: "Use when the user has account-level ad data (for example a platform rate accounts CSV) plus pipeline data and wants a client-facing ABM account engagement dashboard showing funnel progression, a scored account leaderboard, segment analysis, and an action plan. Not for a single-account brief (see account-research-brief) or a monthly report (see linkedin-ads-monthly-report)."
 ---
 
@@ -20,7 +20,7 @@ Answer three questions for a VP Marketing or CRO audience:
 - A client needs an account-level dashboard that shows which accounts are progressing, where signals appear in more than one channel, and which segments engage.
 
 Route elsewhere when:
-- The question is planning the programme. Use `abm-strategy-planner`.
+- The question is planning the program. Use `abm-strategy-planner`.
 - The question is the measurement method. Use `abm-measurement-framework`.
 
 ## Inputs
@@ -33,7 +33,7 @@ Route elsewhere when:
 ## Procedure
 
 1. **Validate.** Require a Company Name column. Blank numeric cells become 0. Strip currency symbols and whitespace. Read the file with BOM handling. Map "N/A" industry or size to "Unknown". Log every row that fails and its reason.
-2. **Engagement flag.** Ignore the export's Engagement Level column when it is uniform (often every row says "Low"). Use actual behaviour instead: clicks at or above 1 counts as Engaged. Note this on the dashboard.
+2. **Engagement flag.** Ignore the export's Engagement Level column when it is uniform (often every row says "Low"). Use actual behavior instead: clicks at or above 1 counts as Engaged. Note this on the dashboard.
 3. **Match pipeline to accounts.** Exact case-insensitive match first, then partial match. List every unmatched pipeline company. Do not drop it silently.
 4. **Multi-channel.** An account present in two or more pipeline sources is multi-channel. These are the strongest signals and lead the dashboard.
 5. **Funnel.** Count unique accounts at each stage: Reached (every account in the export), Engaged (1+ clicks), Lead, MQL, Opportunity. An account at several stages counts once, at its highest stage. The stage counts must be non-increasing from top to bottom. If they are not, stop and report the error.
@@ -57,7 +57,7 @@ One self-contained HTML file named `[Client]_ABM_Account_Engagement_Dashboard.ht
 4. Leaderboard: tabs for All, Pipeline Only, and Ad Engaged Only.
 5. Segments: clicks by industry and size, impressions against clicks, CTR by size, with a one-line insight.
 6. Heatmap, with a note on where engagement is thin.
-7. Action plan: one card per stage (Opportunity, MQL, Lead, Ad Engaged), targeting optimisation, and signal-tool levers. Name real accounts and keywords from the data. Do not write generic advice.
+7. Action plan: one card per stage (Opportunity, MQL, Lead, Ad Engaged), targeting optimization, and signal-tool levers. Name real accounts and keywords from the data. Do not write generic advice.
 
 Chat summary, three to four sentences: funnel progression (accounts reached, in pipeline, at opportunity), the multi-channel finding, the most useful segment finding with its sample size, and one account-level insight.
 

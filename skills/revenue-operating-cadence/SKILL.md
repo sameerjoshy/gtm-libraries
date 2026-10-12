@@ -1,6 +1,6 @@
 ---
 name: revenue-operating-cadence
-version: 1.0.0
+version: 1.1.0
 description: "Use to design or fix the revenue meeting system: the rhythm from daily pulse to board meeting, what each meeting decides and who attends, the data each one needs and who builds it, the board deck structure, the anti-patterns that waste meetings, and an asynchronous version for distributed teams. Covers meeting structure and inputs, not forecast methodology (see revops-forecasting) or metric definitions (see revenue-metrics)."
 ---
 
@@ -129,7 +129,7 @@ RevOps builds the data foundation. The CEO or CRO owns the narrative.
 | Meetings without a pre-read | Fifteen minutes of every meeting spent reading slides | Send slides 24 hours ahead. Questions already answered on slide two go back to the reader. |
 | Reviews without actions | Decisions made Monday, forgotten by Wednesday | Log every action with an owner, a date, and a success measure. Review the log at the start of the next meeting. |
 | Forecast as negotiation | "I'll commit to 95% but it could be 110%" makes the forecast useless | Keep the forecast analytical. Commit, best case, and at-risk are data, not bargaining positions. |
-| Dashboard theatre | Forty metrics shown, five matter, the board is confused | Three to five metrics per meeting. Each number must connect to a decision. |
+| Dashboard theater | Forty metrics shown, five matter, the board is confused | Three to five metrics per meeting. Each number must connect to a decision. |
 | Cadence without accountability | Actions slip and priorities are not priorities | Name the owner, publish the date, review at the next meeting, and escalate what is not done. |
 | Unvalidated activity data | Everything above the base is unreliable | Audit the CRM each month, as in Step 1. |
 

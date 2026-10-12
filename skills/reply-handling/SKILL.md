@@ -1,6 +1,6 @@
 ---
 name: reply-handling
-version: 1.0.0
+version: 1.1.0
 description: "Use when a prospect has replied to an outbound sequence and you need to decide what to do next. Classifies the reply into one of six intent buckets, drafts the matching response or stop action, and records the outcome in the CRM after approval. Never sends on its own. For batches of more than about five replies, classifies first and then works one bucket at a time. Not for writing the first sequence (see outbound-cold-email)."
 ---
 
@@ -68,7 +68,7 @@ Only after the user approves the draft or the stop action:
 
 - **Unsubscribe:** stop the sequence. Set the do-not-contact flag the org uses. Add a note recording the reason.
 - **Wrong person with a named contact:** find or create the new contact. Link them to the company. Add a note on the original contact recording the referral.
-- **Interested or objection:** add a note summarising the reply in one or two lines. Move the lifecycle stage if it has changed, for example from lead to opportunity. Create a follow-up task for the owner.
+- **Interested or objection:** add a note summarizing the reply in one or two lines. Move the lifecycle stage if it has changed, for example from lead to opportunity. Create a follow-up task for the owner.
 - **All buckets:** update the company record if the reply reveals new facts, such as a use case, the current vendor, or timing.
 
 For a batch of more than about five replies, prepare all CRM updates as one set, show the set for approval, and write them together.

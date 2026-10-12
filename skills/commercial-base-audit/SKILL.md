@@ -1,6 +1,6 @@
 ---
 name: commercial-base-audit
-version: 1.0.0
+version: 1.1.0
 description: "Use when a percentage in a commercial term is being set, questioned, or is producing a number nobody expected, such as sales commission, revenue share, affiliate or creator payouts, channel margin, agency or referral fees, or rebates. Finds what the percentage multiplies, identifies the condition under which two competing bases diverge, quantifies the gap per unit and at scale, and works backwards when a payout misses its model. Not for designing the pay plan (see gtm-compensation) or for approving a discount (see deal-desk-operations)."
 ---
 
@@ -33,7 +33,7 @@ Route elsewhere when:
 
 ## Procedure
 
-1. **Find the multiplicand.** Name the noun the percentage applies to: bookings, billings, recognised revenue or cash collected; list price or price paid; order total or product subtotal; gross or net spend; first-year, total or collected contract value. Read the clause. Do not assume an industry default.
+1. **Find the multiplicand.** Name the noun the percentage applies to: bookings, billings, recognized revenue or cash collected; list price or price paid; order total or product subtotal; gross or net spend; first-year, total or collected contract value. Read the clause. Do not assume an industry default.
 2. **Test the definition.** A base is undefined unless the clause states where it sits relative to fees, tax and refunds. Where it is undefined, name both readings and price the gap. Where it is defined, confirm it in one sentence and move on.
 3. **Find the divergence condition.** Name the event under which the competing bases differ, such as a discount, a refund, non-payment, early cancellation, a returned item or a change in platform fees. Compute both bases at that event.
 4. **Quantify.** State the per-unit gap as a rate, for example each unit of discount costs one amount on one base and another on the other. Multiply by the affected volume where it is known. The scaled exposure decides whether the clause is worth reopening.

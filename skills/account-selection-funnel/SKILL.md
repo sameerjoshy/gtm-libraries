@@ -1,19 +1,19 @@
 ---
 name: account-selection-funnel
-version: 1.0.0
-description: "Use to decide how many target accounts an account-based programme needs for a revenue goal, how to stage accounts from identified to selecting, and which firmographic, technographic, CRM and lookalike criteria choose the accounts. Works backwards from the revenue target to the account count, then builds the list from layered criteria. Not for the campaign level (see abm-campaign-level-choice) or the stage metrics used to report on the programme (see abm-measurement-framework)."
+version: 1.1.0
+description: "Use to decide how many target accounts an account-based program needs for a revenue goal, how to stage accounts from identified to selecting, and which firmographic, technographic, CRM and lookalike criteria choose the accounts. Works backwards from the revenue target to the account count, then builds the list from layered criteria. Not for the campaign level (see abm-campaign-level-choice) or the stage metrics used to report on the program (see abm-measurement-framework)."
 ---
 
 # Account selection funnel
 
 ## Purpose
 
-An account-based programme starts with accounts, not leads. Every pound or dollar of ad spend and every rep hour goes to the accounts that were chosen. This skill sizes the account list from the revenue goal, sets the stages an account moves through, and chooses accounts on layered evidence.
+An account-based program starts with accounts, not leads. Every pound or dollar of ad spend and every rep hour goes to the accounts that were chosen. This skill sizes the account list from the revenue goal, sets the stages an account moves through, and chooses accounts on layered evidence.
 
 ## When to use
 
 - A revenue target has to be turned into a number of accounts to target.
-- An account list is being built or rebuilt for a programme.
+- An account list is being built or rebuilt for a program.
 - A team is reporting that the list is too large, too small, or the wrong shape for the goal.
 
 Route elsewhere when:
@@ -39,7 +39,7 @@ Route elsewhere when:
    - Considering: the account has booked a demo or started a trial.
    - Selecting: the account has an open deal in the pipeline.
    The impression and engagement thresholds are defaults, to calibrate.
-3. **Read the conversion arithmetic before quoting it.** Only a small share of targeted accounts reach an open pipeline opportunity, and fewer still close. A programme sized on the target list alone produces far fewer deals than the list suggests. State the implied opportunity and deal counts with the list size.
+3. **Read the conversion arithmetic before quoting it.** Only a small share of targeted accounts reach an open pipeline opportunity, and fewer still close. A program sized on the target list alone produces far fewer deals than the list suggests. State the implied opportunity and deal counts with the list size.
 4. **Select on four layers.** Each layer narrows the list and carries its own evidence.
    - Firmographic fit: size band, revenue or funding stage, industry, geography and business model.
    - Technographic signals: a competitor in use, a competitor missing a feature the team now has, a redundant tool combination, or a recent change in stack.

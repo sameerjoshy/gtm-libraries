@@ -1,6 +1,6 @@
 ---
 name: founder-post-triggers
-version: 1.0.0
+version: 1.1.0
 description: "Use when a founder has no results to point to and needs something to publish, or wants to know what to write before launch. Gives twenty-four things that have already happened in the business and are publishable, in five categories (customer evidence, numbers, decisions and reversals, the product as demonstration, and position), a rule for choosing one play and holding it, opening lines for the lowest-effort post, and a pre-publish check that requires a first-hand fact. Not for the timing of a post once written (see post-launch-window) or for a company announcement (see newsletter-issue-formats)."
 ---
 
@@ -27,7 +27,7 @@ Route elsewhere when:
 - The one topic the founder will hold most posts inside.
 - The audience the founder serves, in their own words.
 
-## The triggers
+### The triggers
 
 **Customer evidence**
 1. The surprising sentence: a customer line that changed your view. Quote it exactly.
@@ -68,7 +68,7 @@ Route elsewhere when:
 1. **Read the founder's recent activity** and pick the triggers that match it.
 2. **Choose one play and hold it.** Four plays suit different aims: publish real numbers (triggers 7 to 11); content on an audience's pain (triggers 1 to 6 and 24); showing the product at work (triggers 17 to 20); aligning position (triggers 21 to 23). Plays combine badly, so pick one.
 3. **Hold most output inside one topic.** As a default, about seventy percent.
-4. **Write the opening line** from a stock form, then add one sentence of real judgement, such as "this matches what we see with our own users" or "the part everyone skips".
+4. **Write the opening line** from a stock form, then add one sentence of real judgment, such as "this matches what we see with our own users" or "the part everyone skips".
 5. **Run the pre-publish check:**
    - it contains one first-hand fact: a quote, a number or a reversal;
    - someone who read the same articles could not have written it;

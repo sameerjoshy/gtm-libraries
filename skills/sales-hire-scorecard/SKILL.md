@@ -1,6 +1,6 @@
 ---
 name: sales-hire-scorecard
-version: 1.0.0
+version: 1.1.0
 description: "Use before interviews start for a sales, customer success, or other go-to-market hire, and again after each interview. Writes the motion of the seat, builds six to eight motion-fit criteria that the team ranks and weights, assigns each criterion an interview question and an owner with anchored 1 to 4 scoring, then scores candidates on evidence from what they did, not where they worked. Ends with a ranked summary and one yes or no decision for a human. Not for compensation design (see gtm-compensation)."
 ---
 
@@ -35,12 +35,12 @@ Route elsewhere when:
 2. **Choose six to eight criteria** that a mismatch would make the hire fail. Drop anything a capable person learns in their first month.
 3. **Force-rank the criteria** with no ties. The hiring manager decides the order. Spread 100 points across them in rank order. Mark up to two as must-haves. The team running the hire owns the weights.
 4. **Assign one primary question and one follow-up per criterion,** and one interviewer who owns each. No criterion goes unasked, and none is asked three times.
-5. **Anchor the scoring.** Define what a 1, 2, 3, and 4 look like for each criterion, using observable behaviour.
+5. **Anchor the scoring.** Define what a 1, 2, 3, and 4 look like for each criterion, using observable behavior.
 6. **Agree the scorecard** with the whole panel before the first interview.
 
 ### Score (after each interview)
 
-7. **Score each criterion 1 to 4** from the answer. Quote or summarise the evidence. Mark a criterion unobserved if the interview did not cover it.
+7. **Score each criterion 1 to 4** from the answer. Quote or summarize the evidence. Mark a criterion unobserved if the interview did not cover it.
 8. **Judge on what they did.** Ask how they sold, to whom, and at what deal size, before asking where. A rep who sold into inbound demand for a well-known product and one who built pipeline for an unknown product have different skills, and the scorecard should show which one matches the seat.
 9. **Rank the candidates** on weighted scores. Show the evidence beside each score.
 10. **End with one decision per candidate** for the hiring manager: yes or no. The score informs the decision. It does not make it.

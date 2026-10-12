@@ -1,6 +1,6 @@
 ---
 name: abm-retargeting-segments
-version: 1.0.0
+version: 1.1.0
 description: "Use to segment and sequence retargeting for known target accounts, by recency and depth of engagement, with a priority order and a monthly budget split by segment. Covers the buying committee as a retargeting segment, the recency and frequency matrix, the engagement depth scores, and the setup of audiences before any campaign runs. Not for the campaign level (see abm-campaign-level-choice) or for the audience attributes (see linkedin-audience-targeting)."
 ---
 
@@ -12,7 +12,7 @@ Retargeting for a known account is not the same as retargeting a website visitor
 
 ## When to use
 
-- A programme has target accounts that have engaged and then stalled.
+- A program has target accounts that have engaged and then stalled.
 - Retargeting is running as one undifferentiated audience and needs segments.
 - A team is deciding how to split a monthly retargeting budget.
 

@@ -1,6 +1,6 @@
 ---
 name: account-tier-scoring
-version: 1.0.0
+version: 1.1.0
 description: "Use to tier accounts for human attention (Bronze, Silver, Gold) by combining intent or engagement with deal potential, after a gate check against the ICP. Use when accounts are scored by feel, when high-scoring accounts turn out to be too small or lack a buyer, or when deciding when an account is ready to hand to sales. Produces a tier, a score breakdown with Met, Missed, or Uncertain per dimension, a confidence level, and a handover decision. Not for ABM dashboards or ICP definition."
 ---
 
@@ -223,7 +223,6 @@ For a batch: a summary count by tier and gate outcome, then the Gold accounts, t
 - NEVER promote an account on anonymous or third-party signals alone where an enterprise gate applies.
 - NEVER enrich or draft outreach for Bronze or Non-ICP accounts.
 
-## Rules
 
 - Tiers individual accounts for attention. It does not define the ICP: use `icp-builder`.
 - Does not build the ABM engagement dashboard or its composite score for client reports: use `abm-account-engagement-report`. That score ranks accounts for a report. This skill makes the decision about attention and handover.

@@ -1,6 +1,6 @@
 ---
 name: revenue-metrics
-version: 1.0.0
+version: 1.1.0
 description: "Use to define, calculate, and diagnose revenue metrics: the funnel and its conversion rates, pipeline velocity and its four levers, CAC, LTV, payback, NRR and GRR, Rule of 40, burn multiple, and cohorts. Provides the diagnostic sequence for when revenue is off track, the breakout method, and a cascade of scorecards by role. Covers what to measure and how to read it, not forecasting (see revops-forecasting) or meeting cadence (see the operating cadence skill)."
 ---
 
@@ -69,7 +69,7 @@ The four levers, each with a diagnostic question:
 
 ### Step 3: Calculate unit economics
 
-**Customer acquisition cost.** Total sales and marketing cost divided by new customers. Fully loaded, it includes sales compensation and benefits, marketing programmes and headcount, the SDR team, sales engineering, the allocated cost of revenue operations, and sales tools. Segment it: inbound against outbound, enterprise against SMB, and new business against expansion. Expansion acquisition should cost materially less than new-business acquisition.
+**Customer acquisition cost.** Total sales and marketing cost divided by new customers. Fully loaded, it includes sales compensation and benefits, marketing programs and headcount, the SDR team, sales engineering, the allocated cost of revenue operations, and sales tools. Segment it: inbound against outbound, enterprise against SMB, and new business against expansion. Expansion acquisition should cost materially less than new-business acquisition.
 
 **Lifetime value.** Average revenue per account, times gross margin, times the average customer lifetime. The lifetime is one divided by the annual churn rate. For example, 30,000 at 80% margin with 10% annual churn gives 240,000.
 
@@ -119,7 +119,7 @@ Track payback by cohort as well. If newer cohorts have lower acquisition cost, o
 
 When revenue is off track, check these in order, and stop at the first one that explains the miss.
 
-1. **Volume.** Is enough entering the funnel? If not, the problem is demand generation: programmes, SDR output, and inbound channel health.
+1. **Volume.** Is enough entering the funnel? If not, the problem is demand generation: programs, SDR output, and inbound channel health.
 2. **Conversion.** Are the stages converting at the expected rate? Find the stage that breaks. Marketing-qualified to sales-qualified points to scoring or handoff. Sales-qualified to opportunity points to qualification. Opportunity to won points to the sales process or competition.
 3. **Value.** Are deal sizes holding? Look at the trend, the discount rate, and the product mix. Falling values usually mean price pressure, the wrong segment mix, over-discounting, or narrower product selling.
 4. **Velocity.** Is the pipeline moving at the expected pace? Look at days in each stage, cycle length, and stalled deals. Slowing usually means procurement delays, too many stakeholders, incomplete discovery, or no compelling event.
@@ -170,7 +170,7 @@ When call recording is in use, six measures give coaching signals:
 
 - **Talk ratio.** The rep's share of speaking time. A typical target is 40 to 60%. Above 60% usually means the rep is pitching, not discovering.
 - **Longest monologue.** Under about two and a half minutes.
-- **Customer story.** The buyer tells a personal or organisational story, at least once in the call.
+- **Customer story.** The buyer tells a personal or organizational story, at least once in the call.
 - **Interactivity.** Turns in the conversation at a steady pace, roughly every 30 to 60 seconds.
 - **Patience.** Time the rep waits after a question before answering. At least about three seconds.
 - **Discovery questions.** Eleven to fourteen per call is a default to calibrate. Below about eight suggests discovery is thin.

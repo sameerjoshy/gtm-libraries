@@ -1,6 +1,6 @@
 ---
 name: closed-won-replication-play
-version: 1.0.0
+version: 1.1.0
 description: "Use the day a deal closes won to turn the win into pipeline while the story is fresh. Extracts the win profile, finds a fixed number of lookalike companies that are not already in the CRM, identifies the same persona as the winning champion at each, and drafts one outreach message per company from the deal owner, using an anonymised win reference. Nothing is sent without human approval. Not for the general ICP or list build (see prospect-list-building)."
 ---
 

@@ -1,6 +1,6 @@
 ---
 name: sales-playbook-foundations
-version: 1.0.0
+version: 1.1.0
 description: "Use when a sales team has no written playbook, success lives in one leader's head, onboarding is inconsistent, or reps ramp too slowly. Produces a playbook skeleton in five sections (People, Prospect, Problem, Process, Product), a fully drafted People section covering expectations, standards, ramp, and stories, and a process section that names the methodology and qualification gates. Not for individual deal coaching or CRM configuration."
 ---
 
@@ -60,7 +60,7 @@ Work through four blocks.
 
 **Expectations.** Set the daily, weekly, and monthly rhythm: activity, call reviews, trainings, team meetings, and key targets. Break every target into its math. Example: a $100K quarterly target at an average deal size of $10K needs 10 deals. At a 25 percent close rate, that is 40 qualified opportunities. If inbound and SDR support cover 35, the rep must self-source 5. A rep should be able to re-derive their number from these inputs. Then set the promotion and termination criteria, both known from day one.
 
-**Standards of excellence.** Define the behaviours the team holds itself to. These are separate from the company values on the wall. Values are what you believe. Standards are how you behave. For each standard, define it, give a real example from the team, and end with a signature page where each person commits to uphold it. The signature is what a hard conversation later refers back to.
+**Standards of excellence.** Define the behaviors the team holds itself to. These are separate from the company values on the wall. Values are what you believe. Standards are how you behave. For each standard, define it, give a real example from the team, and end with a signature page where each person commits to uphold it. The signature is what a hard conversation later refers back to.
 
 **Goals.** New hires set personal goals with their manager, so the manager can align what the person is trying to achieve with the support the company gives.
 
@@ -113,7 +113,7 @@ Verdicts on a date for every below-gate deal: re-qualify (named person, named da
 
 Link the full gate design to the `deal-qualification-gates` skill when it is added to the library.
 
-**Coach with the methodology.** The weekly deal review uses three to five deals per rep, prioritising stuck deals, near-term closes, and large deals. Ask methodology questions, not status questions. Score each deal with the rep present. Agree one next action per deal, not three.
+**Coach with the methodology.** The weekly deal review uses three to five deals per rep, prioritizing stuck deals, near-term closes, and large deals. Ask methodology questions, not status questions. Score each deal with the rep present. Agree one next action per deal, not three.
 
 **Keep the fields few.** Start with five to seven critical fields in the CRM. Add more only after the first set is habit. Twenty fields per deal will end adoption.
 
@@ -175,7 +175,6 @@ The test: could a rep who joins after the leader has left succeed from this docu
 - MUST assign an owner and an update cadence before the playbook ships.
 - NEVER let the playbook be fully outsourced. The leader stays heavily involved.
 
-## Rules
 
 - Writes the playbook as a document. Does not coach individual deals: use the deal-review and deal-qualification skills.
 - Does not configure CRM fields or stages. Use a platform-specific CRM skill, or the `revops-data-governance` skill for data standards.

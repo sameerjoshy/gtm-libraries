@@ -1,6 +1,6 @@
 ---
 name: event-logistics-planning
-version: 1.0.0
+version: 1.1.0
 description: "Use to set up the scheduling and calendar side of a conference for a participant or a team. Covers booking links with event dates, venue time zone, buffers, and host model (personal, collective, or round-robin); a personal or team itinerary that resolves overlapping sessions, booth shifts, dinners, and travel without blocking everyone for every session; and a shared reference calendar built from the official agenda with duplicate-safe updates. Not for the attendee dossier (see event-attendee-prep)."
 ---
 
@@ -52,14 +52,14 @@ Ask only for facts that change the result: the official source, the dates, the t
 2. **Protect the fixed commitments first:** speaking slots, booth shifts, travel, and confirmed meetings.
 3. **Choose among overlapping sessions** by the person's stated priorities. Keep unresolved choices as options until the person selects one.
 4. **Add optional sessions and networking time** last, and leave gaps between commitments.
-5. **Reuse original invitations** for dinners and meetings. Do not create a personal copy of a commitment that already exists. If a placeholder conflicts with an organiser update, propose updating the mapped placeholder and keep the source trail.
+5. **Reuse original invitations** for dinners and meetings. Do not create a personal copy of a commitment that already exists. If a placeholder conflicts with an organizer update, propose updating the mapped placeholder and keep the source trail.
 6. **Leave unknown session times unresolved.** Do not invent blocks.
 
 ### C. Shared reference calendar
 
 1. **Inspect the destination and prior imports** before creating anything. Prefer an authorised existing calendar where it serves the purpose.
-2. **Normalise each session** with its source identifier, title, date, start and end, time zone, room, speaker, source link, and confidence. Keep concurrent sessions. This is a reference calendar, not one person's itinerary.
-3. **Prefer explicit organiser updates** over stale listings. Keep a change log.
+2. **Normalize each session** with its source identifier, title, date, start and end, time zone, room, speaker, source link, and confidence. Keep concurrent sessions. This is a reference calendar, not one person's itinerary.
+3. **Prefer explicit organizer updates** over stale listings. Keep a change log.
 4. **Do not copy private notes** into shared descriptions.
 5. **Separate a private team calendar from a publicly shared one.** Check the sharing permissions match the intended readers.
 6. **Make updates duplicate-safe** by matching on source identifier, not title.

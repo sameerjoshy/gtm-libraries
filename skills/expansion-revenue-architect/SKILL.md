@@ -1,7 +1,7 @@
 ---
 name: expansion-revenue-architect
-version: 1.0.0
-description: "Use to diagnose and build the expansion engine for B2B SaaS: fix gross retention first, then design the expansion motion (ownership by deal size, the CS-to-Sales handback, whitespace analysis across five dimensions, a readiness score with action bands), signal rules wired into the cadence, and a 90-day net revenue retention programme. Use when NRR is below target, GRR is below about 90%, expansion is accidental, or CS does not own revenue. Not for CS operations or health scoring (see cs-operations), pricing mechanics (see pricing-monetisation-ops), or handoff mechanics (see revenue-handoffs)."
+version: 1.1.0
+description: "Use to diagnose and build the expansion engine for B2B SaaS: fix gross retention first, then design the expansion motion (ownership by deal size, the CS-to-Sales handback, whitespace analysis across five dimensions, a readiness score with action bands), signal rules wired into the cadence, and a 90-day net revenue retention program. Use when NRR is below target, GRR is below about 90%, expansion is accidental, or CS does not own revenue. Not for CS operations or health scoring (see cs-operations), pricing mechanics (see pricing-monetization-ops), or handoff mechanics (see revenue-handoffs)."
 ---
 
 # Expansion revenue architecture
@@ -24,7 +24,7 @@ Route elsewhere when:
 
 - The question is the health score, renewal timeline, or CS coverage. Use `cs-operations`.
 - The question is the handoff mechanics. Use `revenue-handoffs`.
-- The question is pricing structure or metering. Use `pricing-monetisation-ops`.
+- The question is pricing structure or metering. Use `pricing-monetization-ops`.
 - The question is metric definitions. Use `revenue-metrics`.
 
 ## Inputs
@@ -49,7 +49,7 @@ Use gross retention as the first filter:
 | Below 85% | Critical. Product fit or onboarding is failing. | Stop investing in expansion. Run churn autopsies on the last ten churned accounts. Fix product, onboarding, or ICP tightness. |
 | 85 to 90% | Concerning. Churn is hidden by expansion. | Identify the top three churn drivers and fix the largest. Work on health scoring, the renewal process, and champion management. |
 | 90 to 95% | Healthy. Ready to layer expansion. | Start the expansion architecture: signals, whitespace, and the handback. |
-| Above 95% | Strong. Expansion is the growth lever. | Maximise expansion velocity, coverage, and product-led expansion. |
+| Above 95% | Strong. Expansion is the growth lever. | Maximize expansion velocity, coverage, and product-led expansion. |
 
 These bands are practice-based defaults. Check them against the client's segment and deal size.
 
@@ -71,7 +71,7 @@ Net retention equals gross retention plus expansion. Once gross retention is at 
 - A value metric that scales with customer success, such as seats, usage, or records processed.
 - Tier thresholds with clear upgrade triggers.
 - Automated alerts as usage nears plan limits.
-- In-app upgrade prompts at a set utilisation level, such as 80%.
+- In-app upgrade prompts at a set utilization level, such as 80%.
 - Annual price escalation written into contracts, sized to what the client can defend.
 
 Do not recommend a pricing model because a benchmark says it raises NRR. Check whether the client's product has a metric that grows with value.
@@ -118,7 +118,7 @@ For medium and large expansions, use this sequence:
 4. **CS stays involved through close,** which keeps the relationship continuous and avoids the "you sold us and disappeared" reaction.
 5. **CS owns post-expansion onboarding.** New features follow the same activation rigour as a new customer.
 
-Credit model: decide and write down how sourced and closed revenue are credited. CS sourcing should be credited, and sales should be credited for the close. If expansion pipeline is not sourced by CS, the system is not working. Record the credit rule as a design decision, because it changes behaviour.
+Credit model: decide and write down how sourced and closed revenue are credited. CS sourcing should be credited, and sales should be credited for the close. If expansion pipeline is not sourced by CS, the system is not working. Record the credit rule as a design decision, because it changes behavior.
 
 ### Step 5: Map whitespace across five dimensions
 
@@ -132,7 +132,7 @@ Map it per account across five dimensions:
 - Features in use, against those that solve their problems.
 - Stakeholders engaged, against the decision-makers involved.
 
-For each dimension, score current penetration from 0 to 100, then average the five scores into a total. Low penetration means high whitespace. Prioritise accounts by whitespace, health, and contract timing together. Multiplying the three is one heuristic, not a proven method, and the client should test whether it ranks accounts sensibly. Present the result in business reviews as a joint growth plan.
+For each dimension, score current penetration from 0 to 100, then average the five scores into a total. Low penetration means high whitespace. Prioritize accounts by whitespace, health, and contract timing together. Multiplying the three is one heuristic, not a proven method, and the client should test whether it ranks accounts sensibly. Present the result in business reviews as a joint growth plan.
 
 Run this for the top 20 accounts first.
 
@@ -171,7 +171,7 @@ A signal that fires must have an owner and a deadline. Use these defaults:
 | Segment NRR falls below target | Strategic review: churn or lack of expansion? | CS leader and CRO | Monthly strategy review |
 | Segment GRR falls below 90% | Pause expansion focus and diagnose retention | CEO and CRO | Quarterly reset |
 
-### Step 8: Run the 90-day NRR programme
+### Step 8: Run the 90-day NRR program
 
 When NRR needs improving, run three phases:
 
@@ -203,7 +203,7 @@ Advocacy adds second-order revenue through references, referrals, and case studi
 AI-assisted tools can scan call notes and transcripts for expansion language, and some platforms score next-best actions. Two conditions apply:
 
 - Start with a small pilot on the top 20 to 50 accounts, and compare the signals it finds with what CSMs find manually.
-- Keep a human decision before any customer-visible action. Expansion scoring that drives material decisions about how an account is treated may need human review under data protection rules, including GDPR Article 22 in Europe. Where scores only feed a CSM's own judgement, the review is built in. Document the lawful basis for processing engagement data, typically legitimate interest with a balancing test, and check with counsel.
+- Keep a human decision before any customer-visible action. Expansion scoring that drives material decisions about how an account is treated may need human review under data protection rules, including GDPR Article 22 in Europe. Where scores only feed a CSM's own judgment, the review is built in. Document the lawful basis for processing engagement data, typically legitimate interest with a balancing test, and check with counsel.
 
 Platform features and vendor claims about AI are not evidence of what will work for this client. Decide on the pilot's results.
 
@@ -216,7 +216,7 @@ Platform features and vendor claims about AI are not evidence of what will work 
 - The whitespace template and the first top-20 map.
 - The readiness score, its weights, and the action bands.
 - The signal rules, with owners and forums.
-- The 90-day programme, with the baseline and the targets.
+- The 90-day program, with the baseline and the targets.
 
 ## Quality bar
 

@@ -1,6 +1,6 @@
 ---
 name: abm-strategy-planner
-version: 1.0.0
+version: 1.1.0
 description: "Use when someone wants an ABM strategy or plan, a LinkedIn ABM campaign plan, a budget and audience plan for account-based marketing, or needs to know how many ads or campaigns their budget supports. Builds a funnel-based plan from stated goals and economics. Not for measuring results (see abm-measurement-framework) or for choosing the campaign level (see abm-campaign-level-choice)."
 ---
 
@@ -14,10 +14,10 @@ Produce a plan a finance lead can check. Every number traces back to a stated in
 
 ## When to use
 
-- A LinkedIn account-based programme needs a funnel-based plan with budget, campaign structure and a launch checklist.
+- A LinkedIn account-based program needs a funnel-based plan with budget, campaign structure and a launch checklist.
 
 Route elsewhere when:
-- The question is reporting on a running programme. Use `abm-account-engagement-report`.
+- The question is reporting on a running program. Use `abm-account-engagement-report`.
 - The question is how to define the measures. Use `abm-measurement-framework`.
 
 ## Inputs
@@ -26,7 +26,7 @@ Ask in small batches. Offer a default for each. Never block on a missing number.
 
 1. Company website. Research it yourself. Do not ask the user to describe the product.
 2. ABM revenue goal, and whether it is monthly (MRR) or annual (ARR).
-3. Average contract value (ACV). Normalise to match the goal's basis.
+3. Average contract value (ACV). Normalize to match the goal's basis.
 4. Close rate, qualified to closed-won. Default 15%.
 5. Qualification rate, demo to qualified. Default 75%.
 6. Landing-page conversion, visit to booked demo or form. Default 0.8%.

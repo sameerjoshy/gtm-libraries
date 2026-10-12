@@ -1,6 +1,6 @@
 ---
 name: bench-strength-and-succession
-version: 1.0.0
+version: 1.1.0
 description: "Use when a CEO, CRO, sales leader, board, or investor needs to know whether the team could survive the loss of a key person, who is ready to step up, and what to do about the gaps. Produces a bench scorecard for critical roles with single points of failure, an evidence-based performance and potential view, a readiness call for each successor, interim cover and development plans, and a talent review run with bias controls. Not for one leader's development plan (see leadership-development-diagnostic)."
 ---
 

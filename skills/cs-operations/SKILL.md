@@ -1,6 +1,6 @@
 ---
 name: cs-operations
-version: 1.0.0
+version: 1.1.0
 description: "Use when customers churn without warning, red accounts pile up, renewal conversations turn contentious, or expansion-ready accounts slip away. Designs the post-sale operating model: a five-dimension health score refreshed weekly, traffic-light triage into rescue or renewal-risk mode, the renewal timeline from T-120, event playbooks, coverage tiers, discount governance, churn autopsies, and the customer-to-product feedback loop. Tool-neutral. Not for expansion scoring and whitespace (see expansion-revenue-architect) or the Sales-to-CS handoff mechanics (see revenue-handoffs)."
 ---
 
@@ -26,7 +26,7 @@ Route elsewhere when:
 - The question is how a closed deal passes to CS. Use `revenue-handoffs`.
 - The question is onboarding to first value. Use `onboarding-activation`.
 - The question is the metric definitions for GRR and NRR. Use `revenue-metrics`.
-- The question is pricing and discount policy. Pricing governance sits in a separate skill (`pricing-monetisation-ops`).
+- The question is pricing and discount policy. Pricing governance sits in a separate skill (`pricing-monetization-ops`).
 
 ## Inputs
 
@@ -55,7 +55,7 @@ Score the current state with the maturity stages in Step 2.
 | Stage | Health scoring | Renewals | Expansion | Governance |
 |---|---|---|---|---|
 | Reactive | None. The team responds to churn. | Ad hoc, customer-led | Accidental | CS isolated, no feedback loops |
-| Defined | Manual, based on CSM judgement | A playbook starts about 60 days before expiry | Signals found inconsistently | A written handoff exists |
+| Defined | Manual, based on CSM judgment | A playbook starts about 60 days before expiry | Signals found inconsistently | A written handoff exists |
 | Proactive | A composite score, updated weekly, with alerts | Automated 90-day process with save plays | A scoring model and targeted outreach | Quarterly CS and product reviews |
 | Predictive | A calibrated model, checked against outcomes | Preventive interventions | Expansion scoring feeds the sales pipeline | Near-real-time feedback loops |
 
@@ -68,7 +68,7 @@ Use a composite score from 0 to 100, built from five weighted dimensions. Defaul
 | Dimension | Default weight | What it measures |
 |---|---|---|
 | Product usage | 35% | Login frequency, feature adoption, depth of use, and trend |
-| Relationship | 25% | Executive sponsor engaged, survey response, meeting cadence, and breadth of users across the organisation |
+| Relationship | 25% | Executive sponsor engaged, survey response, meeting cadence, and breadth of users across the organization |
 | Support | 18% | Ticket volume trend, severity, resolution time, and satisfaction |
 | Commercial | 17% | Contract value trend, payment history, and expansion conversations |
 | Outcomes | 5% | Achievement of the stated goals, value realised, and milestone completion |
@@ -214,7 +214,7 @@ Automation notifies and recommends. The CSM remains accountable for the customer
 - The churn autopsy and feedback loop, with owners and cadence.
 - The weekly, monthly, and quarterly review agendas.
 
-## Key metrics
+### Key metrics
 
 Set targets from the client's own baseline after one quarter of measurement. The figures below are starting points, not standards.
 
@@ -233,7 +233,7 @@ Set targets from the client's own baseline after one quarter of measurement. The
 
 Industry medians for these metrics vary widely by segment and deal size. Do not quote them to the client as targets without checking against their own segment.
 
-## Diagnostic
+### Diagnostic
 
 Count the yes answers across five areas:
 
@@ -250,7 +250,7 @@ Read the score as a guide. Fix the weakest area first, because the areas depend 
 - 14 to 19 yes: Proactive. Build the predictive models and rebalance coverage.
 - 20 to 25 yes: Predictive. Tune the models, and add automation with human review.
 
-## How to use this skill
+### How to use this skill
 
 - **"We keep losing customers and don't know why":** build the health score, and run churn autopsies on the last ten churned accounts. Patterns usually show within four weeks.
 - **"The CS team is overloaded":** a coverage problem. Build the three tiers. Stop high-touching accounts that do not need it.

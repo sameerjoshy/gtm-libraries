@@ -1,7 +1,7 @@
 ---
 name: creator-sponsored-post-drafting
-version: 1.0.0
-description: "Use to draft or review a sponsored post that a creator will publish about a B2B product, so that it reads as a practitioner's recommendation rather than an advertisement. Sets out the four-part structure (hook, story, resolution, call to action), the credibility signals that make the story land, the call-to-action patterns, and the anti-patterns that make an audience recognise an ad. Use before any sponsored post goes to the creator. Not for choosing the creator (see creator-discovery-and-vetting)."
+version: 1.1.0
+description: "Use to draft or review a sponsored post that a creator will publish about a B2B product, so that it reads as a practitioner's recommendation rather than an advertisement. Sets out the four-part structure (hook, story, resolution, call to action), the credibility signals that make the story land, the call-to-action patterns, and the anti-patterns that make an audience recognize an ad. Use before any sponsored post goes to the creator. Not for choosing the creator (see creator-discovery-and-vetting)."
 ---
 
 # Creator sponsored post drafting
@@ -18,7 +18,7 @@ A sponsored post succeeds when it reads like a practitioner describing what work
 
 Route elsewhere when:
 
-- The question is the brief or the strategy. Use `creator-programme-strategy`.
+- The question is the brief or the strategy. Use `creator-program-strategy`.
 - The question is choosing the creator. Use `creator-discovery-and-vetting`.
 - The question is the wording of the company's own ads. Use `ad-copy-voice-of-customer`.
 
@@ -29,20 +29,20 @@ Route elsewhere when:
 - The call to action the campaign needs.
 - The disclosure the platform and the jurisdiction require.
 
-## The four-part structure
+### The four-part structure
 
 1. **Hook (the first line).** Stop the reader with something concrete, specific, or surprising. Feeds cut off the text after a short length, so the first line must work alone. Works: a specific claim about the creator's own week. Fails: a rhetorical question, a generic claim, or a brand name as the opener.
 2. **Story.** The creator's lived experience of the problem and the attempt to fix it. A good story contains four signals:
    - a specific detail, such as a time or routine,
    - a specific number from the creator's own work,
    - a failed attempt before the fix, which makes the story more credible,
-   - a stake inside the creator's organisation, such as a question from their own manager.
+   - a stake inside the creator's organization, such as a question from their own manager.
 3. **Resolution.** The product, in one or two sentences, with one measured outcome. Only the outcome the company has supplied and the creator has approved may appear.
 4. **Call to action.** One clear next step. Patterns that work are a specific question to the reader, a link to a relevant resource, or an invitation to compare notes. Avoid a generic "learn more".
 
 ## Anti-patterns
 
-An audience recognises an advertisement by these signs, so avoid them:
+An audience recognizes an advertisement by these signs, so avoid them:
 - an opener that names the brand,
 - claims with no story behind them,
 - a list of product features,

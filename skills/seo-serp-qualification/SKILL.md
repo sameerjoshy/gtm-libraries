@@ -1,7 +1,7 @@
 ---
 name: seo-serp-qualification
-version: 1.0.0
-description: "Use to check whether a keyword candidate can be won, by looking at what actually ranks for it, before any content is commissioned. Assesses intent clarity, the content format that the results reward, the competitive landscape, and whether the gaps are beatable, then gives each keyword a QUALIFY, CONDITIONAL, or KILL verdict with its reason. Many topics should die at this step. Not for prioritising the topics that pass (see seo-topic-prioritisation)."
+version: 1.1.0
+description: "Use to check whether a keyword candidate can be won, by looking at what actually ranks for it, before any content is commissioned. Assesses intent clarity, the content format that the results reward, the competitive landscape, and whether the gaps are beatable, then gives each keyword a QUALIFY, CONDITIONAL, or KILL verdict with its reason. Many topics should die at this step. Not for prioritizing the topics that pass (see seo-topic-prioritization)."
 ---
 
 # SEO SERP qualification
@@ -18,7 +18,7 @@ A keyword can look attractive on volume and still be impossible to win, because 
 
 Route elsewhere when:
 
-- The question is the order of topics that pass. Use `seo-topic-prioritisation`.
+- The question is the order of topics that pass. Use `seo-topic-prioritization`.
 - The question is finding topics. Use `seo-topic-research`.
 
 ## Inputs
@@ -27,14 +27,14 @@ Route elsewhere when:
 - The company's proposition and the page that would answer each query.
 - The date of the check.
 
-## The four checks
+### The four checks
 
 1. **Intent clarity.** Do the results agree on what the searcher wants: a definition, a comparison, a product page, a how-to? If the results mix intents, the query is unclear, and the page must choose one.
 2. **Rewarded format.** What format do the top results use: a long guide, a tool, a list, a comparison, a video? A page in a different format will struggle unless the format change is a deliberate advantage.
 3. **Competitive landscape.** Who ranks? If the top results are dominated by very large sites with no obvious weakness, a new page is unlikely to displace them soon.
 4. **Beatable gaps.** Are there weak results: old pages, thin content, or pages that do not match the intent well? A gap that the company can fill with a better answer is what makes a topic worth pursuing.
 
-## Verdicts
+### Verdicts
 
 - **QUALIFY:** intent is clear, the format is achievable, and there are beatable gaps. Proceed.
 - **CONDITIONAL:** worth pursuing only if one stated condition holds, such as a format the company can produce, or a supporting page that already exists. State the condition.

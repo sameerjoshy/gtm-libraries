@@ -1,6 +1,6 @@
 ---
 name: revops-forecasting
-version: 1.0.0
+version: 1.1.0
 description: "Use when the revenue forecast is consistently wrong, when the team cannot predict its quarter number, when deals slip unexpectedly, or when a forecast call needs to inspect deals rather than read status. Sets forecast categories with written validation rules, reconciles the number from at least two independent methods, measures accuracy by rep and segment, checks pipeline coverage against win rate, and wires forecast breaches into an operating cadence. Not for deal truth scoring (see deal-qualification-gates)."
 ---
 
@@ -43,7 +43,7 @@ Route elsewhere when:
 
 Apply the methods in order, then reconcile them. Then run the cadence, accuracy, slippage, coverage and breach rules.
 
-## Method 1: Category-based forecasting
+### Method 1: Category-based forecasting
 
 Each deal is placed in one category by the rep and validated by management.
 
@@ -75,19 +75,19 @@ Plain test: **if the rep cannot explain their Commit deal in two minutes, it is 
 
 The 90, 50, and 20 weights are author defaults. Calibrate them from the client's own closed deals by category before using them in a board number. A wide gap between the conservative and optimistic figures means deal qualification needs work, not the arithmetic.
 
-## Method 2: Stage-weighted pipeline
+### Method 2: Stage-weighted pipeline
 
-Weighted pipeline is the sum of deal value multiplied by the historical win probability at each deal's current stage. It removes rep judgement, so it works as a check on Method 1. Use the client's own stage conversion history. Segment it, and do not borrow an industry rate.
+Weighted pipeline is the sum of deal value multiplied by the historical win probability at each deal's current stage. It removes rep judgment, so it works as a check on Method 1. Use the client's own stage conversion history. Segment it, and do not borrow an industry rate.
 
-## Method 3: Historical run-rate
+### Method 3: Historical run-rate
 
 Project from past patterns: a simple run-rate, a trend-adjusted run-rate, or a seasonal one. It suits renewal and expansion revenue far better than variable new business.
 
-## Method 4: Bottom-up capacity
+### Method 4: Bottom-up capacity
 
 Calculate what the team should produce, working from quota to deals to opportunities to meetings, adjusted for ramp. It is for annual planning and sanity checks, and it shows whether a gap is a capacity problem or a forecasting problem.
 
-## Forecast cadence and the forecast call
+### Forecast cadence and the forecast call
 
 A weekly rhythm keeps the forecast current:
 
@@ -112,7 +112,7 @@ Managers should listen for these red flags:
 - A next step that is a status update, not a buyer action.
 - A deal that changed category without a stated reason.
 
-## Accuracy
+### Accuracy
 
 Forecast accuracy for a period is:
 
@@ -137,13 +137,13 @@ Read the direction of a miss first:
 - **Consistent under-forecasting:** reps are sandbagging, expansion is not captured, or late inbound is not in the forecast. Fix the capture and the incentives.
 - **High variance:** deal volume is low, deal sizes are lumpy, or stage definitions differ between people. Fix the stage definitions, then the sizing.
 
-## Slippage
+### Slippage
 
 Deals slip. Apply a haircut to Best Case and Upside rather than trusting their face value. Set the slip rate from the client's own history.
 
 Example: if 36% slip, multiply Best Case by 0.64. Calibrate the slip rate before using the haircut in a number.
 
-## Pipeline coverage
+### Pipeline coverage
 
 Coverage is qualified pipeline divided by the revenue target. It is a leading indicator of whether the target is reachable.
 
@@ -161,7 +161,7 @@ Coverage by revenue type:
 - Expansion: 2.5 to 3x, using account health and usage as leading indicators.
 - Renewal: a run-rate baseline at the client's gross retention, with named at-risk exceptions.
 
-## Evidence-based inputs
+### Evidence-based inputs
 
 The forecast should not depend only on rep-entered CRM fields. Build each deal's read from several sources, and treat the CRM field as the last of them:
 
@@ -172,7 +172,7 @@ The forecast should not depend only on rep-entered CRM fields. Build each deal's
 
 If a category disagrees with the evidence beneath it, the evidence wins, and the category owner explains the difference on the forecast call. If the client uses evidence scores (see `deal-qualification-gates`), use them to validate Commit. For example: a Commit requires its critical event and decision-process scores to be at or above the client's threshold.
 
-## Breach rules
+### Breach rules
 
 Connect forecast signals to actions, so that each breach has an owner and a deadline. Starting thresholds, to calibrate:
 
@@ -195,4 +195,4 @@ Severity levels, from informational to executive escalation, are set per client.
 
 ## Quality bar
 
-Categories have written definitions, and every rep applies them the same way. The quarter number comes from at least two methods that are reconciled, not one judgement call. Forecast calls inspect changed deals and red flags, not the full pipeline. Accuracy is measured every quarter, and it drives the next fix. Watch for Commit used as a hope category, coverage quoted with no win rate behind it, and a forecast that only ever goes up.
+Categories have written definitions, and every rep applies them the same way. The quarter number comes from at least two methods that are reconciled, not one judgment call. Forecast calls inspect changed deals and red flags, not the full pipeline. Accuracy is measured every quarter, and it drives the next fix. Watch for Commit used as a hope category, coverage quoted with no win rate behind it, and a forecast that only ever goes up.

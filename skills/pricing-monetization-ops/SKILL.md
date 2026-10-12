@@ -1,14 +1,14 @@
 ---
-name: pricing-monetisation-ops
-version: 1.0.0
+name: pricing-monetization-ops
+version: 1.1.0
 description: "Use when consumption, usage, outcome, or hybrid pricing needs reliable operations: bill shock is hurting renewals, metering and billing disagree, overages, minimums, or credits are applied inconsistently, a per-seat to usage migration threatens revenue reporting, or variable revenue will not reconcile. Covers the five layers (metering, rating, invoicing, collections, reconciliation), the contract structures a billing engine must handle, the data-quality audit, migration and price-change playbooks, and the data protection points. Not for discount approval (see deal-desk-operations) or pricing strategy and packaging design."
 ---
 
-# Pricing and monetisation operations
+# Pricing and monetization operations
 
 ## Purpose
 
-Pricing strategy decides what the customer pays for. Monetisation operations makes that work in practice: each usage event is counted once, against the right customer, rated under the contract, invoiced with proof, collected, and recognised correctly.
+Pricing strategy decides what the customer pays for. Monetization operations makes that work in practice: each usage event is counted once, against the right customer, rated under the contract, invoiced with proof, collected, and recognized correctly.
 
 The main risk is that a usage model looks simple in the pricing page and becomes complicated in the billing engine. One broken layer, such as duplicate events or a customer mapping that lags, produces wrong invoices, which produce bill shock, churn, and a month-end close that nobody can finish.
 
@@ -50,7 +50,7 @@ Every consumption model runs on five layers. Assess each one before changing any
 | Rating | What does this customer owe under their contract? | Wrong tier boundary, missing minimum, credits not applied |
 | Invoicing | What did we bill, and can we prove it? | Line items with no source record, no contract reference |
 | Collections | Did they pay, and what happens if not? | Failed charges retried endlessly, or never chased |
-| Reconciliation | What revenue should be recognised, and why? | Revenue and invoices differ with no explanation |
+| Reconciliation | What revenue should be recognized, and why? | Revenue and invoices differ with no explanation |
 
 Bad metering produces wrong invoices. Wrong invoices produce churn from bill shock. Missing audit trails produce distrust from finance. Start with the layer that fails most often, which is usually metering.
 
@@ -141,9 +141,9 @@ Work to a fixed calendar, and keep the order:
 | Invoice delivery | Days five to seven | Send to the customer and the accounting system |
 | Collections | Days eight to thirty | Chase against terms. Send reminders if overdue |
 | Revenue posting | Days fifteen to twenty-five | Post revenue under the agreed recognition policy |
-| Month-end reconciliation | Last day of the month | Match invoiced and recognised revenue. Investigate variance |
+| Month-end reconciliation | Last day of the month | Match invoiced and recognized revenue. Investigate variance |
 
-Two rules follow. Do not send invoices until metering is final. Do not close the books with unexplained differences between invoiced and recognised revenue.
+Two rules follow. Do not send invoices until metering is final. Do not close the books with unexplained differences between invoiced and recognized revenue.
 
 ### Step 6: Set collections rules
 
@@ -158,18 +158,18 @@ Variable invoices are harder for customers to predict. A customer who expects a 
 
 ### Step 7: Reconcile revenue under the recognition standard
 
-Under ASC 606 in the US, and IFRS 15 internationally, variable consideration is estimated, recognised as the service is delivered, and revised when actuals differ. For a large base of consumption contracts, the estimates change every month.
+Under ASC 606 in the US, and IFRS 15 internationally, variable consideration is estimated, recognized as the service is delivered, and revised when actuals differ. For a large base of consumption contracts, the estimates change every month.
 
 **Worked example, corrected.** A contract has a base fee of $10,000 a month, plus $0.01 per API call above 10 million calls. The estimate is 2 million extra calls, so the estimate is $30,000 a month. In April, actual calls are 15 million, so the overage is $50,000 and the true total is $60,000.
 
-- April recognised on the estimate: $30,000.
+- April recognized on the estimate: $30,000.
 - April actual: $60,000.
 - The difference of $30,000 is a change in estimate, to be assessed by the accountants for the period it arose in, and possibly for correction. It is not nil.
 - From May, the revised estimate of 15 million calls a month gives $60,000 a month, if usage continues at that level.
 
 Confirm the treatment with the auditors before relying on it. The estimate method, the constraint on variable consideration, and any catch-up treatment are accounting judgements.
 
-**The billing-centric approach.** Many companies simplify by billing for actual usage in the period, and recognising the invoiced amount in that period. This avoids forecasting variable amounts, and ties revenue to what was billed. Confirm with the auditors that it matches the pattern in which the service is delivered, and that any practical expedient they accept applies to the contracts. Do not assume it is compliant.
+**The billing-centric approach.** Many companies simplify by billing for actual usage in the period, and recognizing the invoiced amount in that period. This avoids forecasting variable amounts, and ties revenue to what was billed. Confirm with the auditors that it matches the pattern in which the service is delivered, and that any practical expedient they accept applies to the contracts. Do not assume it is compliant.
 
 **Reconciliation routine.** At month end, sum the invoices sent in the period, compare the result with the revenue posted in the ledger, and investigate any difference above a small agreed tolerance. Record each adjustment with its reason, and report prior-period corrections separately.
 

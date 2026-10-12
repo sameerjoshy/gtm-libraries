@@ -1,6 +1,6 @@
 ---
 name: category-of-one-positioning
-version: 1.0.0
+version: 1.1.0
 description: "Use when a founder or expertise-led business looks interchangeable in its market, is price-shopped against cheaper options, and is described in the same words as competitors. Builds a category-of-one positioning package from the buyer's own words, covering a reframed problem (old way against new way), the process the business actually runs, named expertise, and category language the market can attribute to it. Not for the general positioning build (see positioning-messaging-designer) or for a competitor scan (see competitive-white-space)."
 ---
 

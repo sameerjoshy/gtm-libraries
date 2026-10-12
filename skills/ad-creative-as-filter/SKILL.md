@@ -1,6 +1,6 @@
 ---
 name: ad-creative-as-filter
-version: 1.0.0
+version: 1.1.0
 description: "Use when planning paid social creative for a B2B offer, where the creative itself decides who the platform shows the ads to. Sets out a method to list the buyer situations the ideal customer faces, to choose angles that attract the right people and repel the wrong ones, to mine organic content and customer conversations for proven angles, and to plan the mix of angles to test. Not for the words of the ad (see ad-copy-voice-of-customer) or for fatigue on live creative (see creative-fatigue-rotation)."
 ---
 
@@ -30,13 +30,13 @@ Route elsewhere when:
 - Support tickets that drive upgrades or churn.
 - Organic content from the last twelve months, with its engagement.
 
-## Step one: list the buyer situations
+### Step one: list the buyer situations
 
 List fifteen to twenty-five specific situations the ideal customer is in. Each situation is a specific trigger, not a general category. For example, "a new manager inheriting a team with no pipeline visibility" is a situation. "Sales productivity" is a category.
 
 Each situation becomes a candidate angle. More situations give more angles to test. Teams that test three or four generic concepts usually find nothing. Teams that test many specific situations are more likely to find the two or three that resonate with in-market buyers.
 
-## Step two: check organic winners first
+### Step two: check organic winners first
 
 Before writing new ads, audit the last twelve months of organic content:
 - the posts with the most engagement, comments, and saves,
@@ -45,7 +45,7 @@ Before writing new ads, audit the last twelve months of organic content:
 
 A theme that already worked organically is a strong candidate for paid creative.
 
-## Step three: choose the angles
+### Step three: choose the angles
 
 For each candidate situation, ask:
 - Would a non-buyer read this and move on? If so, the angle is filtering correctly.
@@ -54,7 +54,7 @@ For each candidate situation, ask:
 
 Keep the angles that pass all three.
 
-## Step four: plan the test mix
+### Step four: plan the test mix
 
 - Test a small set of angles at a time, one variable per test.
 - Give each angle a hypothesis: which buyer it should attract, and how the team will judge it on qualified outcomes.

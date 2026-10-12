@@ -1,6 +1,6 @@
 ---
 name: audience-icp-filter
-version: 1.0.0
+version: 1.1.0
 description: "Use when a list of people already exists (event or webinar attendees, registrants, a CRM export, a prospecting export, a community list) and someone needs to know who on it fits the ICP before anyone is contacted. Produces every lead in one of four buckets (match, review, no match, excluded) with a reason for each, removes the client's own colleagues and competitors, and reconciles every count to the input. Not for building a list from scratch or for scoring accounts."
 ---
 
@@ -205,11 +205,10 @@ Keep lead data in the client's workspace. Do not commit lead data to the library
 - NEVER treat junk company values as employers.
 - NEVER commit lead or personal data to the repo.
 
-## Rules
 
 - Filters an existing list. Does not build lists from scratch: use the list-building skill when it is added.
 - Defines the ICP criteria. Does not write them: use `icp-builder`.
 - Tiers accounts for attention: use `account-tier-scoring`.
 - Does not find email addresses or enrich for deliverability. That is a separate tool and budget decision.
 - Does not write outreach or sequences.
-- The method requires a deterministic classification script with the same reconciliation and refusal behaviour. The reference implementation is not in this library. Build or install one per client before running Step 5.
+- The method requires a deterministic classification script with the same reconciliation and refusal behavior. The reference implementation is not in this library. Build or install one per client before running Step 5.

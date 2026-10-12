@@ -1,18 +1,18 @@
 ---
 name: conversion-feedback-to-ad-platforms
-version: 1.0.0
-description: "Use when an ad platform is optimising for form fills rather than pipeline, and the team wants the platform to receive later funnel stages (marketing-qualified, opportunity, and closed-won) from the CRM through a server-side connection. Sets the event hierarchy by lifecycle stage, the choice between a native sync and a middleware route, the deduplication of browser and server events, and the match-quality check. Not for tracking conversions that happen on a third-party page (see off-domain-conversion-tracking)."
+version: 1.1.0
+description: "Use when an ad platform is optimizing for form fills rather than pipeline, and the team wants the platform to receive later funnel stages (marketing-qualified, opportunity, and closed-won) from the CRM through a server-side connection. Sets the event hierarchy by lifecycle stage, the choice between a native sync and a middleware route, the deduplication of browser and server events, and the match-quality check. Not for tracking conversions that happen on a third-party page (see off-domain-conversion-tracking)."
 ---
 
 # Conversion feedback to ad platforms
 
 ## Purpose
 
-An ad platform optimises for whatever conversion it is told about. If it is told only about form fills, it finds people who fill in forms, many of whom never become customers. Sending later funnel stages back, from the CRM, lets the platform learn which audiences reach pipeline. This skill sets how that feedback is built and checked.
+An ad platform optimizes for whatever conversion it is told about. If it is told only about form fills, it finds people who fill in forms, many of whom never become customers. Sending later funnel stages back, from the CRM, lets the platform learn which audiences reach pipeline. This skill sets how that feedback is built and checked.
 
 ## When to use
 
-- The platform optimises for leads, but sales reports that the leads do not progress.
+- The platform optimizes for leads, but sales reports that the leads do not progress.
 - Paid campaigns are judged on cost per lead while the business judges on cost per opportunity.
 - A CRM holds reliable stage data that the ad platform cannot see.
 
@@ -29,7 +29,7 @@ Route elsewhere when:
 - The contact fields available for matching, such as email, phone, and the platform's click identifier.
 - The choice of connection route: native sync, middleware, or a custom backend.
 
-## Event hierarchy
+### Event hierarchy
 
 Send one server event per lifecycle stage the business cares about:
 
@@ -37,14 +37,14 @@ Send one server event per lifecycle stage the business cares about:
 |---|---|---|
 | Lead | A contact enters the first form or demo request | Volume at the top of the funnel |
 | Marketing-qualified lead | The contact becomes qualified | Qualified intent |
-| Opportunity | A deal is created | Pipeline, a strong optimisation target |
-| Customer | A deal is closed-won | Revenue, best for value optimisation |
+| Opportunity | A deal is created | Pipeline, a strong optimization target |
+| Customer | A deal is closed-won | Revenue, best for value optimization |
 
-In the platform's event settings, rank the event the campaign should optimise for above browser page views and other events.
+In the platform's event settings, rank the event the campaign should optimize for above browser page views and other events.
 
 ## Procedure
 
-1. **Name the optimisation target.** Choose the stage whose volume is high enough to learn from and whose quality matters most. Opportunity is often the right choice for B2B. Lead is often too broad.
+1. **Name the optimization target.** Choose the stage whose volume is high enough to learn from and whose quality matters most. Opportunity is often the right choice for B2B. Lead is often too broad.
 2. **Send each stage from the CRM**, so the stage data is the source of truth, and not a copy typed in by hand.
 3. **Run the browser pixel and the server events together,** with a shared event identifier, so the platform counts each conversion once. Check the deduplication rate after launch.
 4. **Choose the route:**
@@ -59,10 +59,10 @@ In the platform's event settings, rank the event the campaign should optimise fo
 
 ## Output
 
-- The event hierarchy, with the optimisation target named.
+- The event hierarchy, with the optimization target named.
 - The connection route, with the reason.
 - The deduplication and match-quality checks, and their results.
 
 ## Quality bar
 
-The optimisation target is a stage, not a form fill. Each event comes from a CRM stage change. Browser and server events share an identifier. Personal data is hashed before sending. Watch for a campaign that optimises for leads while the business reports on opportunities, server events that double count, and plain personal data sent to a third party.
+The optimization target is a stage, not a form fill. Each event comes from a CRM stage change. Browser and server events share an identifier. Personal data is hashed before sending. Watch for a campaign that optimizes for leads while the business reports on opportunities, server events that double count, and plain personal data sent to a third party.

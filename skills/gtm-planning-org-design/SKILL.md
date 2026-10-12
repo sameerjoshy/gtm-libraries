@@ -1,6 +1,6 @@
 ---
 name: gtm-planning-org-design
-version: 1.0.0
+version: 1.1.0
 description: "Use for go-to-market planning, choosing a motion and touch model, territory design, bottoms-up capacity and headcount planning, revenue org structure, and the RevOps function's staffing. Use when the sales team structure does not fit the deal size, territories look unfair, a revenue target has no capacity behind it, or a hiring plan is being built. Produces a motion decision, territory and capacity model, headcount and hiring plan, and efficiency checks, with assumptions labelled. Not for comp plans, ICP definition, or forecasting."
 ---
 
@@ -69,8 +69,8 @@ Check the choice with three questions:
 Hybrid motions are normal above roughly $10M ARR. Keep each motion operationally separate, with its own funnel, metrics, and team.
 
 By growth stage:
-- Early (under about $5M ARR): founder-led sales, moving to the first AE hires. The motion is still being discovered. Do not over-specialise.
-- Scale-up ($5M to $50M): specialise SDR, AE, and customer success. Formalise stages and playbooks. Motion choice is most expensive to get wrong here.
+- Early (under about $5M ARR): founder-led sales, moving to the first AE hires. The motion is still being discovered. Do not over-specialize.
+- Scale-up ($5M to $50M): specialize SDR, AE, and customer success. Formalise stages and playbooks. Motion choice is most expensive to get wrong here.
 - Growth ($50M and above): multi-segment, multi-motion. Focus on territory and coverage efficiency.
 
 ### Step 2: Segment the business and lock the baseline
@@ -88,7 +88,7 @@ Use separate retention and acquisition math:
 Principles:
 1. **Equal opportunity, not equal accounts.** Territories should offer roughly equal earning potential, weighted by addressable market, not account count.
 2. **Start simple, add complexity as data improves.** First pass: geographic. Second pass: named accounts for enterprise, geographic for mid-market. Third pass: vertical overlays.
-3. **Minimise disruption.** Territory changes break relationships. Design so territories can scale by splitting, not by reshuffling each year.
+3. **Minimize disruption.** Territory changes break relationships. Design so territories can scale by splitting, not by reshuffling each year.
 
 Models:
 - **Geographic:** for mid-market and below, where volume matters. Watch for unequal market density.
@@ -170,7 +170,7 @@ Four archetypes, never confused: a generalist manager (connective tissue, never 
 
 Systems architect engagement comes in three modes: advisory at any stage, especially during platform launches; fractional when the team is junior; FTE when the team has 3 to 6 or more RevOps people, 10 or more integrated tools, and architecture decisions are a weekly bottleneck.
 
-Structure evolves in four stages: siloed (ops reports to department heads), departmental (one RevOps manager, organised by function), functional (systems team and insights team, the critical transition), and evolved (enablement joins, cross-functional product-style teams).
+Structure evolves in four stages: siloed (ops reports to department heads), departmental (one RevOps manager, organized by function), functional (systems team and insights team, the critical transition), and evolved (enablement joins, cross-functional product-style teams).
 
 ### Step 6: Build the headcount and hiring plan
 
@@ -190,7 +190,7 @@ Fully-loaded cost per head: on-target earnings multiplied by roughly 1.3 to 1.5,
 Use the client's own data first. Published figures below are external and unverified.
 
 - **GTM efficiency ratio:** total GTM spend divided by net new ARR. A common reading: under 1.0 is excellent, 1.0 to 1.5 is good, 1.5 to 2.0 is concerning, above 2.0 is broken.
-- **Magic number:** net new ARR divided by prior-quarter GTM spend. A common reading: above 1.5 means under-investing, 1.0 to 1.5 is efficient, 0.5 to 1.0 needs optimisation, below 0.5 means cut spend and diagnose.
+- **Magic number:** net new ARR divided by prior-quarter GTM spend. A common reading: above 1.5 means under-investing, 1.0 to 1.5 is efficient, 0.5 to 1.0 needs optimization, below 0.5 means cut spend and diagnose.
 - **CAC payback:** CAC divided by (ARR times gross margin), in months. A common reading: under 12 for strong, 8 to 12 for SMB targets, 12 to 18 for mid-market, 18 to 24 for enterprise. Above 24 is a concern unless lifetime value is very high.
 - **Sustainability check:** for each motion, CAC should be under about 20 percent of the lifetime revenue of the customers it acquires. A payback above 24 months means the motion can destroy value even while it grows ARR.
 
@@ -251,7 +251,6 @@ Never run two new motions at the same time. Add the adjacent motion only when th
 - MUST show the investment and the capacity it adds before recommending a hire or a new motion.
 - NEVER treat a provisional assumption as confirmed in the output.
 
-## Rules
 
 - Covers team structure, territories, capacity, and headcount. Compensation plans and quota design are a separate skill: `gtm-compensation`.
 - Does not define the ICP. Use `icp-builder`.

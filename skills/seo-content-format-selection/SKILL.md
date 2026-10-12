@@ -1,7 +1,7 @@
 ---
 name: seo-content-format-selection
-version: 1.0.0
-description: "Use to choose the right content format for each surviving SEO topic, such as a comparison or alternatives page, a product landing page, or a guide, and to group related keywords into one page. Format drives the page's purpose, structure, call to action, and how it ranks, so the search results for each topic should decide it. Also flags site-architecture changes that a new page would need. Not for topic research (see seo-topic-research) or the build order (see seo-topic-prioritisation)."
+version: 1.1.0
+description: "Use to choose the right content format for each surviving SEO topic, such as a comparison or alternatives page, a product landing page, or a guide, and to group related keywords into one page. Format drives the page's purpose, structure, call to action, and how it ranks, so the search results for each topic should decide it. Also flags site-architecture changes that a new page would need. Not for topic research (see seo-topic-research) or the build order (see seo-topic-prioritization)."
 ---
 
 # SEO content format selection
@@ -19,7 +19,7 @@ Writing a blog post for every keyword is a common mistake. A comparison search w
 Route elsewhere when:
 
 - The question is finding topics. Use `seo-topic-research`.
-- The question is the build order. Use `seo-topic-prioritisation`.
+- The question is the build order. Use `seo-topic-prioritization`.
 
 ## Inputs
 
@@ -27,7 +27,7 @@ Route elsewhere when:
 - The site's existing pages and navigation.
 - The product description and its main call to action.
 
-## Formats
+### Formats
 
 - **Alternatives page:** for searches that name a competitor or ask for alternatives. Structure: a fair comparison, when each option suits, and a call to action for the company's product.
 - **Comparison page:** for searches that set two or more options against each other.

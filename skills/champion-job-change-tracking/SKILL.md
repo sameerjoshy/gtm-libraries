@@ -1,6 +1,6 @@
 ---
 name: champion-job-change-tracking
-version: 1.0.0
+version: 1.1.0
 description: "Use to track when past buyers, power users, or key contacts at customers or prospects change jobs. Confirms each move against hard identifiers (domain, profile page), follows the mover into the new company, flags any vacated seat at the old account, and proposes CRM changes for approval. Not for general contact cleanup or for finding new prospects by persona."
 ---
 
@@ -55,7 +55,7 @@ Validate the returned name against the contact. On mismatch, mark "could not ver
 
 ### 3. Compare, deterministically
 
-- Normalise both domains and compare them. Do not compare company names.
+- Normalize both domains and compare them. Do not compare company names.
 - Find the current role. Use its start date for ranking.
 - Assign one verdict: **current**, **moved**, or **could not verify**.
 - For "moved", record the evidence and dates.

@@ -1,6 +1,6 @@
 ---
 name: revops-data-governance
-version: 1.0.0
+version: 1.1.0
 description: "Use when CRM data is unreliable, reports do not match across teams, fields have no owners, duplicates or integration drift are causing routing or forecast errors, or a bulk cleanup is being considered. Covers the system of record and data dictionary, measurable health scoring, reviewable and approved cleanup, enrichment rules, field and definition governance, and controls that stop defects returning. Not a CRM configuration guide, and not a forecast (see revops-forecasting)."
 ---
 
@@ -97,7 +97,7 @@ Prevent duplicates at creation: check on email for contacts, and fuzzy name and 
 
 Snapshot before proposing changes. Define each audit check as an explicit rule (population, condition, severity, evidence). Cover duplicates, ownership gaps, stale pipeline, critical-field completeness, stage conformance, and integration drift.
 
-Count findings by object, rule, owner, source, and age. Separate isolated bad records from systematic failures caused by imports, forms, integrations, or team behaviour. Systematic failures get a source control, not a record-by-record fix.
+Count findings by object, rule, owner, source, and age. Separate isolated bad records from systematic failures caused by imports, forms, integrations, or team behavior. Systematic failures get a source control, not a record-by-record fix.
 
 Represent every proposed change as one reviewable operation:
 - record type and stable identifier
@@ -107,7 +107,7 @@ Represent every proposed change as one reviewable operation:
 - confidence, reversibility, and impact radius
 - whether a human decision is required
 
-Separate deterministic corrections from judgement calls. Missing owners, unclear duplicate survivors, disputed lifecycle stages, and inferred values always require a named human decision.
+Separate deterministic corrections from judgment calls. Missing owners, unclear duplicate survivors, disputed lifecycle stages, and inferred values always require a named human decision.
 
 Prioritize in this order:
 1. Changes that stop ongoing corruption.
@@ -253,7 +253,6 @@ Maturity levels, as a self-assessment:
 - MUST NOT give legal advice. Route privacy questions to counsel.
 - NEVER present the practice-based targets, weights, or thresholds as industry standards.
 
-## Rules
 
 - Defines governance, scoring, and cleanup method. Does not configure a specific CRM's properties, workflows, or permissions. That needs a platform-specific skill.
 - Does not inspect deals for risk in a live pipeline: use `pipeline-review`. This skill fixes the data that review depends on.

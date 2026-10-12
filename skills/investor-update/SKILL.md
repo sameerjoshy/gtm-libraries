@@ -1,6 +1,6 @@
 ---
 name: investor-update
-version: 1.0.0
+version: 1.1.0
 description: "Use when a founder, CEO, or CRO is writing to investors, board members, advisers, or prospective investors between meetings: a monthly or quarterly update, a pre-board note, a note about a miss, a fundraise update, or an answer to a diligence question. Opens with a say-do ledger of last period's commitments, reports the same metrics frame each time, leads with one headline, names wins, risks, and specific asks, and passes an honesty check before it is sent. Not for the board deck itself (see board-meeting-prep)."
 ---
 
@@ -33,13 +33,13 @@ Route elsewhere when:
 
 1. **Set the audience and register.** Existing investors, the full board, advisers, prospective investors, or a diligence answer. The audience sets the length and tone.
 2. **Open with the say-do ledger.** Restate each commitment from last period exactly as it was written. Mark each one with a true status: done, partial, missed, changed, blocked, or dropped. Do not rewrite history. A missed commitment marked missed is more credible than one quietly removed.
-3. **Give the numbers before the words.** Use the agreed metrics frame, in the same order each time: outcomes, leading indicators, and cash position with burn and runway. Show actual, plan, prior period, and the variance. Where a favourable number has an unfavourable one beside it, show both.
+3. **Give the numbers before the words.** Use the agreed metrics frame, in the same order each time: outcomes, leading indicators, and cash position with burn and runway. Show actual, plan, prior period, and the variance. Where a favorable number has an unfavorable one beside it, show both.
 4. **Write one headline.** One sentence that carries the update and that an investor could repeat accurately to a colleague. One thesis per update.
 5. **Build the body.** Wins first, ordered by importance, stated as facts. Then risks, each with what is being done about it. Then a short look ahead.
 6. **Make the asks answerable.** One to three asks, each specific: who, what, and by when. An ask such as "any ideas welcome" cannot be answered.
 7. **Run the honesty check** before sending:
    - Does every commitment have a true status?
-   - Is every favourable number shown beside its unfavourable counterpart?
+   - Is every favorable number shown beside its unfavorable counterpart?
    - Does the headline match the numbers?
    - Is every risk paired with an action?
    - Would the founder be comfortable if an investor compared this with the last update?
@@ -51,4 +51,4 @@ Route elsewhere when:
 
 ## Quality bar
 
-Every commitment from the last update appears with a true status. Numbers appear before narrative, in the agreed frame, with plan and variance. The headline is one thesis. Each risk has an action. Asks are specific. Watch for missed commitments left out, favourable numbers shown alone, and asks that cannot be answered.
+Every commitment from the last update appears with a true status. Numbers appear before narrative, in the agreed frame, with plan and variance. The headline is one thesis. Each risk has an action. Asks are specific. Watch for missed commitments left out, favorable numbers shown alone, and asks that cannot be answered.

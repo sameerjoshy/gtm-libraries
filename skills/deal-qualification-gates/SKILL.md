@@ -1,6 +1,6 @@
 ---
 name: deal-qualification-gates
-version: 1.0.0
+version: 1.1.0
 description: "Use when a pipeline is full of deals that advance on optimism rather than buyer evidence. Scores the evidence quality behind each qualification dimension from 1 to 5, sets minimum totals and per-dimension floors for each stage, and enforces a qualify, downgrade, or kill verdict with a name and a date. Covers deal truth, not account fit (see icp-builder) and not deal speed (see deal-velocity). Its 1 to 5 scale is separate from the in-flight scoring in deal-blocker-maneuvers. Use one scale per team."
 ---
 
@@ -10,7 +10,7 @@ description: "Use when a pipeline is full of deals that advance on optimism rath
 
 CRM stages record where a deal is. They rarely record how well the team knows what it claims about the deal. A conversation gets logged as a deal, the stage moves forward on hope, and the forecast inherits the fiction. This skill adds a second axis: a score for the quality of the evidence behind each qualification dimension, with minimum scores before a deal can advance.
 
-This is a gate system, not an extra set of fields. Gates change behaviour. Fields do not.
+This is a gate system, not an extra set of fields. Gates change behavior. Fields do not.
 
 ## When to use
 
@@ -39,7 +39,7 @@ Scale rule: this skill's 1 to 5 scores and the -1 to +1 scores in `deal-blocker-
 
 Apply the evidence-quality scale first, then the dimensions, then the stage gates. Deployment and rollout come after the gates are agreed.
 
-## The evidence-quality scale
+### The evidence-quality scale
 
 Score each dimension from 1 to 5. The scale grades evidence, not the rep's confidence.
 
@@ -53,7 +53,7 @@ Score each dimension from 1 to 5. The scale grades evidence, not the rep's confi
 
 The step that matters most is from 2 to 3: from "the rep believes it" to "the buyer said it and the record shows where." A pipeline where most dimensions sit at 2 is a mood, not a forecast.
 
-## The dimensions
+### The dimensions
 
 The default lens is SPICED, scored across six dimensions:
 
@@ -66,7 +66,7 @@ The default lens is SPICED, scored across six dimensions:
 
 The total is out of 30. If the team uses MEDDICC or BANT, keep the same scale and the same gates, and swap the dimensions. The framework gives the vocabulary. The gates make it a system.
 
-## The stage gates
+### The stage gates
 
 Minimum total score and per-dimension floor for each transition, for the six-dimension, 30-point model.
 
@@ -84,7 +84,7 @@ Two enforcement rules:
 
 Any floor in this skill is a starting value. Calibrate it per client using their own closed-won and closed-lost deals before it drives a forecast. A stage gate that is set too high empties the pipeline. One set too low lets the fiction back in.
 
-## Deployment
+### Deployment
 
 1. **CRM:** one property per dimension (the 1 to 5 score), plus a computed total shown beside the account's fit tier. Deal health is the fit tier combined with the evidence total, on one screen.
 2. **Enforcement:** validate stage transitions where the CRM supports it. Otherwise, run a weekly exception report that lists every deal sitting in a stage its evidence does not support, with the missing dimensions named.
@@ -95,7 +95,7 @@ Any floor in this skill is a starting value. Calibrate it per client using their
 4. **Scoring hygiene:** score when the evidence arrives, after calls, or from transcripts. Do not batch the scores from memory on a Friday. If an AI agent processes call transcripts, the dimension scores belong in that pipeline, because the transcript is the evidence.
 5. **Expect resistance for about two weeks.** The gates are not an audit of the rep. They protect calendars from deals that were never going to close.
 
-## Rollout
+### Rollout
 
 - **Week 1:** score the current pipeline with no consequences. The distribution is the diagnostic. A healthy pipeline shows scores rising with stage. A hope-based pipeline shows late-stage deals with early-stage evidence.
 - **Week 2:** install the gates for new stage transitions only. Existing deals are grandfathered, but flagged on the exception report.
@@ -120,4 +120,4 @@ Ask these before rollout, to see where the pipeline stands.
 
 ## Quality bar
 
-Evidence scores rise with stage. Every score of 3 or higher points to something in the record: a quote, a transcript, or an email. No deal advances while a dimension is under its floor. Deals move backward when the evidence says so, and a downgrade is not treated as a failure. A pipeline that only ever moves forward is the sign that the gates are theatre.
+Evidence scores rise with stage. Every score of 3 or higher points to something in the record: a quote, a transcript, or an email. No deal advances while a dimension is under its floor. Deals move backward when the evidence says so, and a downgrade is not treated as a failure. A pipeline that only ever moves forward is the sign that the gates are theater.

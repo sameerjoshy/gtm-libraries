@@ -1,14 +1,14 @@
 ---
 name: saas-lifecycle-programs
-version: 1.0.0
-description: "Use to design, audit, or rebuild the messaging a subscription product sends across the customer journey, from activation and onboarding to adoption, retention, expansion, failed-payment recovery, and win-back. Starts by checking whether the events and attributes the messaging needs are tracked and reach the messaging platform, then ranks findings by leverage, or produces a staged build roadmap with the trigger, touches, and data prerequisites for each programme. Not for the customer success motion itself (see cs-operations)."
+version: 1.1.0
+description: "Use to design, audit, or rebuild the messaging a subscription product sends across the customer journey, from activation and onboarding to adoption, retention, expansion, failed-payment recovery, and win-back. Starts by checking whether the events and attributes the messaging needs are tracked and reach the messaging platform, then ranks findings by leverage, or produces a staged build roadmap with the trigger, touches, and data prerequisites for each program. Not for the customer success motion itself (see cs-operations)."
 ---
 
-# SaaS lifecycle programmes
+# SaaS lifecycle programs
 
 ## Purpose
 
-Lifecycle messaging is only as good as the events behind it. Most lifecycle problems are not missing campaigns. The events are not tracked, they are tracked inconsistently, or they never reach the messaging platform, so the programme quietly sends the wrong message to the wrong people. This skill checks the data first, then designs or audits the programmes against the customer journey.
+Lifecycle messaging is only as good as the events behind it. Most lifecycle problems are not missing campaigns. The events are not tracked, they are tracked inconsistently, or they never reach the messaging platform, so the program quietly sends the wrong message to the wrong people. This skill checks the data first, then designs or audits the programs against the customer journey.
 
 ## When to use
 
@@ -21,7 +21,7 @@ Route elsewhere when:
 
 - The question is the customer success motion. Use `cs-operations`.
 - The question is the product's own onboarding. Use `onboarding-activation`.
-- The question is the price or plan design. Use `pricing-monetisation-ops`.
+- The question is the price or plan design. Use `pricing-monetization-ops`.
 
 ## Inputs
 
@@ -32,7 +32,7 @@ Route elsewhere when:
 
 ## Procedure
 
-1. **Audit the data layer first.** For each message the programme would need, confirm the trigger event exists, is populated, is consistent, and reaches the messaging platform. Name every gap. If the pipes are broken, the first deliverable is fixing them, stated plainly, even when the request was for a campaign.
+1. **Audit the data layer first.** For each message the program would need, confirm the trigger event exists, is populated, is consistent, and reaches the messaging platform. Name every gap. If the pipes are broken, the first deliverable is fixing them, stated plainly, even when the request was for a campaign.
 2. **Read the retention curve before prescribing anything.** A curve that flattens means retained users are a stable base to build on. A curve that keeps falling means the first priority is retention, not acquisition messaging.
 3. **Place the user journey on the eight stages:**
    1. Acquisition: signup, setting expectations, first login.
@@ -45,16 +45,16 @@ Route elsewhere when:
    8. Resurrection: reactivating dormant users, saving cancellations, and recovering failed payments.
 4. **Start with the minimum viable set:** activation, onboarding, trial conversion if there is a trial, failed-payment recovery, and win-back. Add expansion and advocacy once these work.
 5. **For an audit,** rank findings by leverage: the revenue or retention at stake, against the effort to fix. Show the evidence for each.
-6. **For a build,** produce a roadmap in stages. For each programme, give the trigger, the number and timing of touches, the data it depends on, and the check that shows it is working.
-7. **Define the success measure** for each programme before it runs, such as activation rate, trial conversion, or recovered payments.
+6. **For a build,** produce a roadmap in stages. For each program, give the trigger, the number and timing of touches, the data it depends on, and the check that shows it is working.
+7. **Define the success measure** for each program before it runs, such as activation rate, trial conversion, or recovered payments.
 
 ## Output
 
 - The data-layer findings, first, with each gap and its fix.
 - The retention reading and what it implies.
-- The journey map, with the stage of each programme marked.
+- The journey map, with the stage of each program marked.
 - An audit ranked by leverage, or a staged roadmap with triggers, touches, data prerequisites, and success measures.
 
 ## Quality bar
 
-The data layer is checked before any programme is designed. Each programme names its trigger and its data source. The retention curve is read before prescriptions. Success is measured before launch. Watch for campaigns built on untracked events, win-back flows with no data behind them, and lifecycle programmes designed for an acquisition problem that is really a retention problem.
+The data layer is checked before any program is designed. Each program names its trigger and its data source. The retention curve is read before prescriptions. Success is measured before launch. Watch for campaigns built on untracked events, win-back flows with no data behind them, and lifecycle programs designed for an acquisition problem that is really a retention problem.

@@ -1,6 +1,6 @@
 ---
 name: data-enrichment
-version: 1.0.0
+version: 1.1.0
 description: "Use when inbound leads arrive without the fields needed to score, route, or segment them, or when a target list or CRM lacks firmographic or contact data. Maps the coverage gap field by field, chooses between a single provider and a waterfall across providers, sets re-enrichment cadences and quality gates, and sets the legal conditions for enrichment in Europe. Not for choosing a specific vendor on the strength of its marketing; that needs a pilot on the client's own data."
 ---
 
@@ -41,7 +41,7 @@ Before choosing a provider, measure what is missing. Take a sample of 100 to 500
 Priority of fields, as a starting point:
 
 - **Priority 1, needed to route or score:** company size, industry, annual revenue, headquarters location, website domain, job title.
-- **Priority 2, needed to personalise or qualify:** company description, technologies used, funding stage and date, seniority, department, direct phone.
+- **Priority 2, needed to personalize or qualify:** company description, technologies used, funding stage and date, seniority, department, direct phone.
 - **Priority 3, nice to have:** social profiles.
 
 Enrich only the fields the company actually uses. Enriching fields that are never read adds cost and legal exposure without benefit.
@@ -77,7 +77,7 @@ Decide go or no-go on the pilot's numbers. A provider that performs well in one 
 
 - A lead reaches the marketing-qualified stage: full enrichment.
 - An opportunity is created: re-enrich the account, because the data may have changed.
-- An account is marked as a target: full firmographic, technology, and organisation data.
+- An account is marked as a target: full firmographic, technology, and organization data.
 - A contact joins an opportunity: check title, phone, and email are still current.
 - The annual account review: full refresh.
 
@@ -158,7 +158,7 @@ Controls:
 Confirm each point with counsel. This is not legal advice.
 
 - **Legal basis.** Most business enrichment relies on legitimate interest, not consent. Before enriching at scale, write a short assessment covering three questions: why the processing is needed for a stated purpose, whether the purpose could be met without it, and what the effect is on the person. Confirm how this test applies with counsel.
-- **Minimisation.** Enrich only the fields used for the stated purpose.
+- **Minimization.** Enrich only the fields used for the stated purpose.
 - **Erasure.** The company must be able to delete enriched data when a person asks.
 - **Transparency.** The privacy notice must say that third-party data sources are used.
 - **Providers.** Each provider needs a data processing agreement, and compliance with the relevant rules must be verified, not assumed.

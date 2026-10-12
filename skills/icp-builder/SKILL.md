@@ -1,6 +1,6 @@
 ---
 name: icp-builder
-version: 1.0.0
+version: 1.1.0
 description: "Use to build, validate, refine, or add to an ideal customer profile (ICP), including segments, personas, and the gate-based qualification rule that decides which accounts are in. Use when the ICP is too broad, too vague, or was written before revenue arrived, or when a new segment needs defining. Derives the profile from closed-won revenue where data exists, and produces a matrix that two people can apply the same way. Account tiering and list filtering have their own skills. Not for scoring a list already on file (see audience-icp-filter) or tiering accounts (see account-tier-scoring)."
 ---
 
@@ -171,7 +171,6 @@ Write the approved ICP to `context/icp.md` in the client's ICP format.
 - NEVER claim causation from correlation in output.
 - NEVER state a benchmark or threshold as an industry standard unless the source is cited.
 
-## Rules
 
 - Defines and refines the ICP and its personas. It does not score or tier individual accounts across a list: use `account-tier-scoring`.
 - Does not filter an existing lead list: use the list-filtering skill.

@@ -1,6 +1,6 @@
 ---
 name: pipeline-review
-version: 1.0.0
+version: 1.1.0
 description: "Use when reviewing a live pipeline for coverage, stage aging, and risk before a forecast call or a recurring pipeline check-in. Flags stalled, regressed, under-threaded, or at-risk deals with cited evidence, recommends one action per issue, and reconciles the weekly pipeline movement. Not a forecast (see revops-forecasting), and not CRM data rules (see revops-data-governance)."
 ---
 
@@ -140,7 +140,7 @@ Report these as portfolio figures, with their denominators:
 - Share of open value that is stale by stage.
 - Share of open deals with fewer than 3 engaged contacts.
 
-Name any pattern that appears across several deals, such as one owner with most of the stale deals, or one stage where deals repeatedly stall. A pattern in the team's behaviour is more useful than a list of individual flags.
+Name any pattern that appears across several deals, such as one owner with most of the stale deals, or one stage where deals repeatedly stall. A pattern in the team's behavior is more useful than a list of individual flags.
 
 Pipeline quality scores combining engagement, threading, decision-maker access, time in stage, next steps, and trend are useful as an operational composite. Their weights are not published research. Set them from the client's own outcomes before using them to rank deals.
 
@@ -203,7 +203,6 @@ End with the approval question. Write nothing to the CRM until the user approves
 - MUST NOT present vendor benchmarks as industry standards. Label the source and its date.
 - NEVER forecast in this skill. Forecast methodology is a separate skill.
 
-## Rules
 
 - Inspects and flags the live pipeline. Does not produce the forecast or its commit and best-case categories: a forecast skill is needed for that.
 - Does not configure the CRM, its stages, or its fields. Data governance is covered by `revops-data-governance`.

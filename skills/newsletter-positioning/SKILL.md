@@ -1,6 +1,6 @@
 ---
 name: newsletter-positioning
-version: 1.0.0
+version: 1.1.0
 description: "Use when a newsletter, or a B2B content series that works like one, needs a clear value proposition and a name before it launches. Interviews the owner for the reader, the problem, and the reason to subscribe, writes a value proposition from a fixed formula, then generates names across distinct strategic categories and tests each against the proposition. Not for the subscriber welcome sequence (see newsletter-subscriber-onboarding) or the landing page copy beyond the proposition."
 ---
 

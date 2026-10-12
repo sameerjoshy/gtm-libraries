@@ -1,6 +1,6 @@
 ---
 name: mutual-action-plan-builder
-version: 1.0.0
+version: 1.1.0
 description: "Use on a live deal when the buyer needs a shared path to value, not a seller's close plan. Trigger it when the champion asks for next steps, before scoping, POC, security, or procurement, after a slip or a stall with no written timeline, or when no one can name who owns each decision gate. Drafts a co-created Mutual Action Plan with a buyer-voice value summary, the full buying committee, a timeline anchored to the buyer's own driver, and milestones written as buyer evidence, not seller activity. Do not run it on a deal whose need and value are not yet validated. Not for pipeline hygiene (see pipeline-review)."
 ---
 
@@ -56,7 +56,7 @@ List every stakeholder in the purchase decision, not only the champion. For each
 - Current stance: supportive, neutral, skeptical, blocker, or unknown.
 - What this person needs to say yes, and what buyer evidence would show they are on board.
 
-You usually influence a committee, not a single person. Unknown names become `[CONFIRM WITH CHAMPION]` items. Confirming them is a buyer task, because only the buyer knows their own organisation.
+You usually influence a committee, not a single person. Unknown names become `[CONFIRM WITH CHAMPION]` items. Confirming them is a buyer task, because only the buyer knows their own organization.
 
 ### Step 3: Write milestones as buyer evidence, not seller activity
 

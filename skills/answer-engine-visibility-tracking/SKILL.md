@@ -1,6 +1,6 @@
 ---
 name: answer-engine-visibility-tracking
-version: 1.0.0
+version: 1.1.0
 description: "Use to measure how a brand appears in AI-generated answers over time, and to trust or challenge the score that results. Sets a baseline by seeding the questions buyers actually ask an AI answer engine, in the buyer's words, across the engines and countries that matter, and tracks mentions, ranking against competitors, and the citation sources behind them. Includes an audit that traces any headline visibility score down to the individual answers behind it before the score is explained. Not for choosing which content to build (see answer-engine citation drill-down)."
 ---
 
@@ -28,7 +28,7 @@ Route elsewhere when:
 - The engines and countries that matter to the business.
 - The period for the baseline.
 
-## Set the baseline
+### Set the baseline
 
 1. **Define the brand, its competitors, and its topics.** Competitor comparison is the readout that tends to matter most to leaders.
 2. **Seed the prompts.** Write questions the way buyers ask them: "best option for this problem", "option A versus option B", "how do I solve this". Use buyer language, not the category's marketing language. Create them per topic, and spread them across the target engines and countries.
@@ -39,7 +39,7 @@ Route elsewhere when:
 3. **Fix the prompt set.** Record the date and freeze the set. Change prompts only with a dated note, so trends are not created by changing the questions.
 4. **Read the baseline:** which brands are mentioned, for which prompts, on which engines, and where the brand ranks against competitors.
 
-## Track over time
+### Track over time
 
 - Run the fixed set on a regular schedule.
 - Record, per engine and per country: whether the brand is mentioned, its position against competitors, and the sentiment of the mention.
@@ -49,7 +49,7 @@ Route elsewhere when:
 - Show the results as a grid of prompts against engines, with the aggregate on top. The grid shows which prompts are won, which are contested, and which engine disagrees with the rest.
 - Read movement with care. A change from none of three to three of three is movement. A wobble at the margin is noise. If the prompt set has to change, mark a break in the series and restate the baseline. Never join the old and new sets into one line.
 
-## Audit a score before explaining it
+### Audit a score before explaining it
 
 When a visibility score moves, or a number needs proof, decompose it. Never explain a movement from the headline figure alone.
 

@@ -1,6 +1,6 @@
 ---
 name: acquired-brand-gtm-integration
-version: 1.0.0
+version: 1.1.0
 description: "Use immediately after acquiring a product or brand, before combining websites, customer records, pipelines, messaging, analytics, or campaigns. Sets the integration boundary from the deal thesis, maps the existing demand system, assigns a brand posture to each customer-facing surface, segments records by relationship and permission before any merge, protects live demand during consolidation, and sequences reversible changes. Not for the deal itself or the legal integration."
 ---
 
@@ -25,7 +25,7 @@ Route elsewhere when:
 ## Inputs
 
 - The acquisition thesis in one sentence: distribution, product expansion, market entry, customer access, talent, or brand equity.
-- The domains, websites, forms, booking paths, pricing pages, email programmes, partner listings, reviews, and paid campaigns of both businesses.
+- The domains, websites, forms, booking paths, pricing pages, email programs, partner listings, reviews, and paid campaigns of both businesses.
 - The CRM, the marketing database, and the billing system, with their owners.
 - Any contract or consent terms that govern how customer and contact data can be used.
 

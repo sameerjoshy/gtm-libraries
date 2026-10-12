@@ -1,6 +1,6 @@
 ---
 name: paid-search-unit-economics
-version: 1.0.0
+version: 1.1.0
 description: "Use when someone asks what a paid search number implies before committing spend: a budget projection, a target cost per acquisition or return on spend, an impression-share opportunity, a break-even figure, or a \"what would happen if\" question. Works from numbers the team already has, derives the core rates (cost per acquisition, return on spend, click-through rate, cost per click, conversion rate), chains them forward explicitly, and shows the distance to target and a sensitivity check. No live account access is needed. Not for diagnosing a live account (see paid-search-quality-diagnosis)."
 ---
 
@@ -21,7 +21,7 @@ Route elsewhere when:
 
 - The question is why a live campaign is underperforming. Use `paid-search-quality-diagnosis`.
 - The question is where to move money inside the account. Use `paid-search-budget-reallocation`.
-- The question is the cost per lead break-even for a campaign. Use `paid-optimisation-signals`.
+- The question is the cost per lead break-even for a campaign. Use `paid-optimization-signals`.
 
 ## Inputs
 
@@ -30,7 +30,7 @@ Route elsewhere when:
 - The target, if one exists: cost per acquisition or return on spend.
 - The planning horizon, daily or monthly.
 
-## The five core rates
+### The five core rates
 
 Derive these first and state which inputs each came from:
 

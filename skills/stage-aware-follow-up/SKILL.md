@@ -1,6 +1,6 @@
 ---
 name: stage-aware-follow-up
-version: 1.0.0
+version: 1.1.0
 description: "Use when a live deal needs its next touch and the move is not obvious: a prospect replied warmly but never booked, a call happened and the thread went quiet, an agreement is out and unsigned, a meeting was missed, or the deal has gone cold. Identifies the deal's stage, then produces the next message with a direct booking ask where one is needed, and the date and hook of the touch after it. Not for the first cold touch (see outbound-cold-email)."
 ---
 
@@ -29,7 +29,7 @@ Route elsewhere when:
 - The current stage, or the facts needed to place the deal in one.
 - Anything promised in the last exchange, and any asset the prospect asked for.
 
-## Stages and cadence (defaults)
+### Stages and cadence (defaults)
 
 | Stage | Situation | Touch rhythm |
 |---|---|---|

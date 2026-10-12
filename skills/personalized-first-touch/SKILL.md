@@ -1,10 +1,10 @@
 ---
-name: personalised-first-touch
-version: 1.0.0
-description: "Use to write one personalised first message for a contact who has a reason to be approached, using research into what the contact has said, shared, or done, and their company's current events. Chooses a personalisation bucket and a hook (a verbatim reference for high-value prospects, a conceptual reference for volume), and checks that the contact is still in the role before writing. Not for choosing which contacts to approach (see prospect-list-building) or for the offer (see cold-offer-architect)."
+name: personalized-first-touch
+version: 1.1.0
+description: "Use to write one personalized first message for a contact who has a reason to be approached, using research into what the contact has said, shared, or done, and their company's current events. Chooses a personalization bucket and a hook (a verbatim reference for high-value prospects, a conceptual reference for volume), and checks that the contact is still in the role before writing. Not for choosing which contacts to approach (see prospect-list-building) or for the offer (see cold-offer-architect)."
 ---
 
-# Personalised first touch
+# Personalized first touch
 
 ## Purpose
 
@@ -26,7 +26,7 @@ Route elsewhere when:
 - The contact's name, company, and email or profile.
 - What the team sells, in one sentence.
 - The trigger, if one is known.
-- The deal size band, which sets how much personalisation the message should carry.
+- The deal size band, which sets how much personalization the message should carry.
 
 ## Procedure
 

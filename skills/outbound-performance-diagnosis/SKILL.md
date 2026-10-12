@@ -1,6 +1,6 @@
 ---
 name: outbound-performance-diagnosis
-version: 1.0.0
+version: 1.1.0
 description: "Use when an outbound campaign is underperforming and the cause is not obvious: replies have dropped, meetings have dried up, a sequence that worked has stopped, or the numbers look fine but nothing closes. Works through the funnel layers in a fixed order (delivery, engagement, replies, quality), stops at the first broken layer, and produces one diagnosis with its evidence and one next change. Not for writing the copy itself (see outbound-cold-email)."
 ---
 

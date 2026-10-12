@@ -1,6 +1,6 @@
 ---
 name: prospect-list-building
-version: 1.0.0
+version: 1.1.0
 description: "Use when building a prospect list of companies, contacts, or both, for outbound, ABM, or a signal-based motion. Sizes the audience before any full pull, writes the column plan and the ICP pass rule before running it, removes most rows with free checks before any paid enrichment, runs AI research one narrow question at a time, and only activates a list after the user approves its size and cost. Not for scoring existing accounts (see account-tier-scoring) or for verifying an existing list (see list-hygiene)."
 ---
 
@@ -72,7 +72,7 @@ INPUT (free preview)
   domain, name, employee band, industry, geography, professional profile URL
 
 FREE ELIMINATION (no cost, code or formula)
-  dedupe by normalised domain
+  dedupe by normalized domain
   hard re-filter on geography and size band
   exclude accounts already in an active sequence or open opportunity
   cheap name and domain sniff test: plausibly fits the brief?
@@ -122,7 +122,7 @@ Choose the source type by what the list needs most. Record the type in the plan,
 
 Before any paid step, in code or formulas:
 
-1. **Dedupe** by normalised domain: strip the `www.` prefix and lowercase.
+1. **Dedupe** by normalized domain: strip the `www.` prefix and lowercase.
 2. **Re-apply hard thresholds.** A preview band such as "11 to 50" does not prove "more than 20". Re-apply the threshold, or send the row to enrichment to confirm it.
 3. **Check geography precision.** A state match is not a city match. If the brief asks for a city, flag state-level rows for enrichment instead of passing them.
 4. **Cross-check the CRM.** Drop anything in an active sequence or a recent open opportunity. Duplicate touches damage deliverability.
@@ -149,7 +149,7 @@ Rules:
 
 - Run research only on rows that passed `icp_pass`. Never run it on the full pool.
 - Pilot on ten rows first. If 80% or more come back unclear, the question is wrong. Rewrite it before scaling.
-- Use the cheapest model that can answer. Save the stronger model for judgement calls such as ICP fit.
+- Use the cheapest model that can answer. Save the stronger model for judgment calls such as ICP fit.
 - Always write a fallback value, so an unreachable site does not break the column.
 
 ### Step 7: Tier and pick contacts
@@ -181,7 +181,7 @@ Phone enrichment only for A-tier, and only if the motion includes calls.
 
 ### Step 9: Dedupe, show cost, then activate
 
-- Dedupe companies by normalised domain.
+- Dedupe companies by normalized domain.
 - Dedupe people by verified email, falling back to the profile URL.
 - Cross-check the CRM again, to remove contacts already in active sequences.
 - Show the user the list size, the tier breakdown, the completeness of each column, and the estimated cost. Wait for explicit approval.
@@ -190,7 +190,7 @@ Phone enrichment only for A-tier, and only if the motion includes calls.
 
 The task is not complete until the list is saved or the user explicitly drops it. Do not end on "shall I go ahead?" with no list created.
 
-## Data quality and the pre-campaign checklist
+### Data quality and the pre-campaign checklist
 
 Rank each contact by the strongest data it has:
 
@@ -212,7 +212,7 @@ Before any campaign launches, check:
 
 Both thresholds are defaults to calibrate per client.
 
-## Reference figures
+### Reference figures
 
 These are working numbers. Verify each one for the client's market before relying on it.
 
@@ -231,7 +231,7 @@ For each list build:
 - The tier breakdown and the cost estimate.
 - The saved list, or the reason it was not saved.
 
-## Universal rules
+### Universal rules
 
 1. No paid column runs without `icp_pass = true`.
 2. Size before sourcing.

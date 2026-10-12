@@ -1,6 +1,6 @@
 ---
 name: paid-audience-reach-diagnostic
-version: 1.0.0
+version: 1.1.0
 description: "Use to judge whether paid ads are reaching a target audience or account list well enough and often enough, using penetration (share of the list reached) and frequency (average impressions per reached person). Always reads frequency over a ninety-day basis, judges warm and cold audiences by different measures, separates a saturated pool from a narrow source, and turns each verdict into a specific fix. Use when someone asks whether they are over-serving, whether the audience is too small, or how often people see an ad. Not for who converts (see paid-audience-segment-diagnostic)."
 ---
 
@@ -29,14 +29,14 @@ Route elsewhere when:
 - The size of each audience pool, and the total addressable audience for each, such as all site visitors in the window or the full account list.
 - The funnel stage and placement format for each campaign.
 
-## Definitions
+### Definitions
 
 - **Penetration** is the share of the target audience reached at all: unique people or accounts reached divided by the total addressable audience. It answers how much of the list has been touched.
 - **Frequency** is the average number of impressions per reached person over a window. It answers how often each person sees the ad.
 
 ## Procedure
 
-1. **Normalise the window.** Convert any shorter window to a ninety-day basis before judging it. Do not compare a seven-day figure with a ninety-day band.
+1. **Normalize the window.** Convert any shorter window to a ninety-day basis before judging it. Do not compare a seven-day figure with a ninety-day band.
 2. **Classify each audience by role:**
    - warm or retargeting,
    - cold prospecting,

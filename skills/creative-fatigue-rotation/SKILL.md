@@ -1,6 +1,6 @@
 ---
 name: creative-fatigue-rotation
-version: 1.0.0
+version: 1.1.0
 description: "Use to detect when a paid ad creative is losing effect and to rotate it on a schedule, for B2B paid campaigns. Sets out the warning signals (frequency, click-through decline, rising cost per thousand impressions, and low relevance diagnostics), frequency thresholds by campaign type, a weekly detection routine with a classification for each ad, typical creative lifespans, and a rotation mix. Not for writing new creative (see ad-copy-voice-of-customer)."
 ---
 
@@ -12,7 +12,7 @@ An ad that worked in the first week often stops working by the fourth. The audie
 
 ## When to use
 
-- A weekly paid optimisation review is due.
+- A weekly paid optimization review is due.
 - Cost per result is rising with no change in the offer or targeting.
 - A campaign has been running unchanged for several weeks.
 - A creative refresh needs planning.
@@ -20,7 +20,7 @@ An ad that worked in the first week often stops working by the fourth. The audie
 Route elsewhere when:
 
 - The question is writing the new creative. Use `ad-copy-voice-of-customer`.
-- The question is the pause rules for cost per lead. Use `paid-optimisation-signals`.
+- The question is the pause rules for cost per lead. Use `paid-optimization-signals`.
 - The question is measurement set-up. Use `paid-measurement-scorecard`.
 
 ## Inputs
@@ -30,7 +30,7 @@ Route elsewhere when:
 - Relevance diagnostics, where the platform reports them.
 - The current creative inventory and the age of each asset.
 
-## Signals, in order of urgency
+### Signals, in order of urgency
 
 | Signal | Default threshold | Urgency |
 |---|---|---|
@@ -40,7 +40,7 @@ Route elsewhere when:
 | Any relevance diagnostic rated below average | Quality issue | Warning |
 | Cost per result rising with stable targeting | Likely fatigue, after other causes ruled out | Monitor |
 
-## Frequency thresholds
+### Frequency thresholds
 
 Frequency is the average number of times one person has seen the ad.
 
@@ -52,7 +52,7 @@ Frequency is the average number of times one person has seen the ad.
 
 Account-based audiences tolerate more repetition because they are small and the message is intentional. Even so, returns fall past five or six impressions per person per week.
 
-## Creative lifespans
+### Creative lifespans
 
 Typical lifespans, as defaults:
 
@@ -65,7 +65,7 @@ Typical lifespans, as defaults:
 
 B2B audiences are smaller, so frequency builds faster, but they also give each ad less attention. For most B2B campaigns, plan a refresh every 14 to 21 days.
 
-## Weekly detection routine
+### Weekly detection routine
 
 1. **Pull frequency** for each ad over the last seven and fourteen days, and flag any above the threshold for its campaign type.
 2. **Compare click-through rate** this week with the previous two weeks. A fall of 15 to 20% or more suggests fatigue. If click-through is steady but frequency is rising, schedule a refresh within seven days.
@@ -80,7 +80,7 @@ B2B audiences are smaller, so frequency builds faster, but they also give each a
 | Urgent | Frequency above threshold, click-through down 20% or more, relevance falling | Replace within 24 to 48 hours |
 | Depleted | Running four weeks or more, frequency above 5.0, results well below baseline | Pause. Do not iterate. The concept is exhausted. |
 
-## Rotation mix
+### Rotation mix
 
 Keep the active creative library split:
 - **50%** proven winners, currently performing and being scaled,

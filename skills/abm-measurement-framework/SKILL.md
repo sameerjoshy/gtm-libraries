@@ -1,21 +1,21 @@
 ---
 name: abm-measurement-framework
-version: 1.0.0
+version: 1.1.0
 description: "Use when measuring account-based marketing success, setting ABM metrics by account stage, choosing an attribution model, or working out ABM ROI and cost per account. Method only, no client data. Not for the ABM plan or budget (see abm-strategy-planner) or an account audit (see linkedin-ads-audit)."
 ---
 
 # ABM measurement framework
 
-Defines how to measure an account-based programme. It is a method reference, used by the reporting and planning skills.
+Defines how to measure an account-based program. It is a method reference, used by the reporting and planning skills.
 
 ## Purpose
 
-Measure accounts moving through buying stages, not leads moving through a funnel. A programme measured with lead metrics will be judged wrongly.
+Measure accounts moving through buying stages, not leads moving through a funnel. A program measured with lead metrics will be judged wrongly.
 
 ## When to use
 
-- A programme's measurement is being defined before launch or reviewed mid-flight.
-- A team is judging an account-based programme with lead metrics and needs account-level measures.
+- A program's measurement is being defined before launch or reviewed mid-flight.
+- A team is judging an account-based program with lead metrics and needs account-level measures.
 
 Route elsewhere when:
 - The question is the dashboard for a client. Use `abm-account-engagement-report`.
@@ -26,9 +26,9 @@ Route elsewhere when:
 - Target account list, with a match status for each account.
 - Ad and engagement data at account level.
 - Pipeline and closed-won data at account and opportunity level.
-- Programme spend.
+- Program spend.
 
-## Stage model
+### Stage model
 
 | Stage | Definition | Primary measure |
 |---|---|---|
@@ -49,9 +49,9 @@ Stage thresholds such as 50 impressions and 5 clicks are defaults. Set them per 
 5. **Measure pipeline and revenue** with multi-touch attribution at account level. Choose the model using the table below.
 6. **Calculate efficiency:** pipeline per dollar, cost per engaged account, cost per pipeline account, blended cost per new customer, lifetime value to cost.
 7. **Set the reporting cadence:** campaign dashboard (live), account progression (weekly), pipeline influence (fortnightly), executive summary (monthly or quarterly).
-8. **Check the maturity level** the team is at (basic, intermediate, advanced, optimised) and list what is missing before reporting on revenue.
+8. **Check the maturity level** the team is at (basic, intermediate, advanced, optimized) and list what is missing before reporting on revenue.
 
-## Attribution choice
+### Attribution choice
 
 | Model | Suitable for ABM | Reason |
 |---|---|---|
@@ -63,14 +63,14 @@ Stage thresholds such as 50 impressions and 5 clicks are defaults. Set them per 
 
 Run two models side by side where possible, and report the difference.
 
-## Formulas
+### Formulas
 
 - Account reach = accounts with 50 or more impressions divided by target accounts.
 - Engagement rate = engaged accounts divided by aware accounts.
-- Pipeline per dollar = pipeline value divided by programme spend.
-- ABM ROI = (revenue from ABM accounts minus programme cost) divided by programme cost.
-- Cost per engaged account = programme spend divided by engaged accounts.
-- Cost per pipeline account = programme spend divided by accounts in pipeline.
+- Pipeline per dollar = pipeline value divided by program spend.
+- ABM ROI = (revenue from ABM accounts minus program cost) divided by program cost.
+- Cost per engaged account = program spend divided by engaged accounts.
+- Cost per pipeline account = program spend divided by accounts in pipeline.
 - Pipeline velocity = (opportunities x win rate x average deal size) divided by sales cycle length in days.
 
 ## Output
@@ -82,7 +82,7 @@ A measurement plan with: the baseline table, targets by stage, the attribution m
 - Every target has a baseline behind it.
 - Benchmarks shown are labelled as reference points from a named source, not as standards.
 - Revenue claims separate exposure, influence, and attribution.
-- No single programme's results are used as the benchmark for another.
+- No single program's results are used as the benchmark for another.
 
 ## Rules
 

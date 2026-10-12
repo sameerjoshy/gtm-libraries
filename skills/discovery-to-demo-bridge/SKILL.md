@@ -1,6 +1,6 @@
 ---
 name: discovery-to-demo-bridge
-version: 1.0.0
+version: 1.1.0
 description: "Use in the gap between a discovery call and the demo that follows, when discovery surfaced several pains and the rep must decide what to show and what to cut. Quantifies each pain in the buyer's own numbers, ties it to a root cause, maps the demo moment that proves the fix, and produces a Why This Demo plan with an explicit cut list. Use when a demo risks becoming a feature tour, or a previous demo caused indigestion. Not for the demo's script and talk track (see demo-builder)."
 ---
 
@@ -37,15 +37,15 @@ Missing numbers are marked `[CONFIRM WITH BUYER]` and become a pre-demo task. Th
 ## Procedure
 
 1. **List the pains** in the buyer's words. Rank by cost and by how central each is to the outcome they described. Build the demo around two or three, at most.
-2. **Quantify each pain.** Convert it to a cost the buyer recognises, with the arithmetic on one line. Keep the figure conservative and auditable. An unquantified pain goes to the cut list.
+2. **Quantify each pain.** Convert it to a cost the buyer recognizes, with the arithmetic on one line. Keep the figure conservative and auditable. An unquantified pain goes to the cut list.
 3. **Name the root cause** for each quantified pain: the mechanism that produces it, not the symptom. "Deals stall" is a symptom. A root cause is something a product change can actually fix.
 4. **Map one demo moment per root cause.** Show the single screen or action that proves the fix. Prefer a moment that shows the outcome over one that shows a feature.
-5. **Build the cut list.** Every feature not tied to a prioritised root cause is cut, with the reason. Keep it visible so the rep can defend the omission.
+5. **Build the cut list.** Every feature not tied to a prioritized root cause is cut, with the reason. Keep it visible so the rep can defend the omission.
 6. **Write the Why This Demo plan.** Open with the buyer's pain and its cost, then the proof sequence, then what is deliberately left out and where it can be shown later if asked.
 
 ## Output
 
-- The prioritised pain list with quantified cost, arithmetic shown, and sources.
+- The prioritized pain list with quantified cost, arithmetic shown, and sources.
 - Root cause per pain.
 - Demo moment per root cause, in running order.
 - The cut list with one-line reasons.

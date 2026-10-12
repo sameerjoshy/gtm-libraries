@@ -1,6 +1,6 @@
 ---
 name: revops-tech-stack
-version: 1.0.0
+version: 1.1.0
 description: "Use to decide what the revenue technology stack should contain, to audit a stack that has grown without a plan, to evaluate a tool or decide build versus buy, and to decide where AI tools fit given the company's process and data maturity. Works capability by capability, not tool by tool, and sizes the stack to the company's stage. Use when the team says there are too many tools, the tools do not talk to each other, or someone wants to buy an AI tool. Not for strategy framing (see revops-strategy) or CRM data governance (see revops-data-governance)."
 ---
 
@@ -30,7 +30,7 @@ Route elsewhere when:
 ## Inputs
 
 - Inventory of every tool: owner, annual cost including admin time, users, and stated purpose.
-- Usage data by user and by month, pulled from the tools, not from licence counts.
+- Usage data by user and by month, pulled from the tools, not from license counts.
 - The list of integrations and data flows, and the last time each one failed.
 - The GTM process map, or at least the stages and handoffs.
 - Company stage: ARR, number of GTM staff, number of segments, and the plan for the next year.
@@ -45,7 +45,7 @@ Replace "we need a sales engagement tool" with the capabilities behind it: autom
 Three reasons this matters:
 
 1. Tools overlap. The CRM's built-in sequencing may cover most of what a dedicated engagement tool does. The dedicated tool then adds cost and complexity for a modest gain. Check before buying.
-2. Capabilities depend on each other. Call intelligence is only valuable if its insights reach the CRM, coaching, and the process. The capability is changed rep behaviour, not recording calls.
+2. Capabilities depend on each other. Call intelligence is only valuable if its insights reach the CRM, coaching, and the process. The capability is changed rep behavior, not recording calls.
 3. Stage changes the answer. A small team with a handful of reps does not need an enterprise account-based platform. A larger team across several segments may. Tools should follow the stage.
 
 ### Step 2: Map the core and intelligence layers
@@ -70,7 +70,7 @@ Each capability has one rule: it must integrate with the CRM, or it becomes shel
 3. **Process before platform.** Define the process, then select the tool that supports it. Buying a tool to discover the process produces a process shaped like the tool.
 4. **Integration cost is real.** Every new tool adds maintenance. Budget for integration work each year as a share of tool spend (a default to calibrate). If the tool cannot integrate with the CRM, do not buy it.
 5. **Stage-appropriate complexity.** Do not build a stack for a company three times the size. Do not run a large company's stack on a small company's setup.
-6. **Automate the data, not the judgement.** Automate capture, sync, enrichment, and routing. Automate a decision only after the decision logic has been run by hand and proven.
+6. **Automate the data, not the judgment.** Automate capture, sync, enrichment, and routing. Automate a decision only after the decision logic has been run by hand and proven.
 7. **Composable beats suite only when integration is affordable.** An 80% suite solution often beats a 100% best-of-breed tool once integration effort is counted.
 
 ### Step 4: Size to stage
@@ -96,10 +96,10 @@ The most useful use of the stack is insight. Find out which customers are worth 
 
 Place each tool on two axes: how well it delivers a capability the business needs, and how much value that capability creates.
 
-- **Core platform (high fit, high value).** Keep. Maximise usage. Invest in training and integration.
-- **Optimise (high fit, low use).** The tool works but people do not use it. Fix adoption through training, process, or configuration.
+- **Core platform (high fit, high value).** Keep. Maximize usage. Invest in training and integration.
+- **Optimize (high fit, low use).** The tool works but people do not use it. Fix adoption through training, process, or configuration.
 - **Question (needed capability, poor delivery).** Decide whether the tool or the process is failing. Fix the configuration first, then evaluate alternatives.
-- **Cut (low fit, low value).** Remove it. Count the full cost: licence, admin time, context switching, and data fragmentation. Redirect the budget.
+- **Cut (low fit, low value).** Remove it. Count the full cost: license, admin time, context switching, and data fragmentation. Redirect the budget.
 
 Shelfware is the most common finding. A tool with under half of its licensed users active each month is underused, as a default to calibrate.
 
@@ -109,14 +109,14 @@ Score four dimensions. The weights are defaults.
 
 - **Capability fit (40%).** Does it close a named gap? Does it replace a tool or add one?
 - **Integration quality (25%).** How deep and reliable is the native CRM integration, and what does it cost to maintain?
-- **Total cost of ownership (20%).** Licence, implementation, integration, training, admin, and switching cost, divided by the users who get value from it.
+- **Total cost of ownership (20%).** License, implementation, integration, training, admin, and switching cost, divided by the users who get value from it.
 - **Vendor viability (15%).** Funding, customer base, roadmap, and market position. A strong tool from a vendor that may not last is a liability.
 
 Do not decide on a demo. Ask the vendor who will make the tool work in the first ninety days. Green signs: a named implementation person, a hands-on onboarding of thirty to sixty days, a first workflow built with the client and handed over. Red signs: documentation and a ticket queue as the whole implementation plan, self-serve onboarding with no human support, and claims that setup takes an afternoon. AI tools need configuration, data, and iteration. A vendor that will not commit people to the first quarter does not believe its own product works without them.
 
 ### Step 8: Decide build or buy
 
-Buy by default for GTM tools. RevOps is not a software development function, and the maintenance of custom tools usually costs more than the licence.
+Buy by default for GTM tools. RevOps is not a software development function, and the maintenance of custom tools usually costs more than the license.
 
 Build only when all three hold:
 - No vendor can do the capability well enough.
@@ -125,7 +125,7 @@ Build only when all three hold:
 
 Build where the company's method differs from what vendors assume, or where the signal is internal and proprietary. Buy the commodity layers: outbound automation, call recording, enrichment, meeting scheduling, and native CRM scoring.
 
-## AI in the stack
+### AI in the stack
 
 ### Maturity model
 
@@ -154,7 +154,7 @@ Rule: if three or more prerequisites are missing, the company is not ready for A
 
 ### Where AI fits in the bowtie
 
-- **Awareness and education.** ICP scoring, intent aggregation, enrichment, chat qualification, email personalisation, and lead routing. Typically needs stage 2 or above.
+- **Awareness and education.** ICP scoring, intent aggregation, enrichment, chat qualification, email personalization, and lead routing. Typically needs stage 2 or above.
 - **Selection and mutual commit.** Conversation intelligence, pipeline scoring, qualification copilots, and AI-assisted forecasting. Typically stage 2 to 3.
 - **Onboarding and retention.** Success plans, early health signals, renewal risk, and sentiment analysis. Stage 2 to 3.
 - **Expansion.** Upsell scoring, usage signals, and reference mining. Stage 3 or above.
@@ -187,7 +187,7 @@ When a rep or an agent needs institutional knowledge (playbooks, call recordings
 
 Chunking quality limits retrieval accuracy more than the choice of embedding model. Design the chunking strategy first, then choose tools. In regulated or EU-based operations, the choice between managed and self-hosted options is a compliance decision, and it belongs with counsel and the security team, not with the sales team.
 
-## Composability
+### Composability
 
 Assess the stack against four tests for every vendor or build decision:
 
@@ -207,7 +207,7 @@ Capability audit across five layers:
 
 Custom software can be a differentiator. Competitors can buy the same products, but internal tools built on the company's method are harder to copy. Treat custom development as an investment with an owner and a maintenance budget, not as a free shortcut.
 
-## Stack audit: the annual review
+### Stack audit: the annual review
 
 1. **Inventory.** Every tool, owner, cost, user count, and purpose, including hidden costs: admin time, integration upkeep, and training.
 2. **Usage.** Actual active use from the tools' own data.

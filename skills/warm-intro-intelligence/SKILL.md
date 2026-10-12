@@ -1,6 +1,6 @@
 ---
 name: warm-intro-intelligence
-version: 1.0.0
+version: 1.1.0
 description: "Use when a rep wants warm introduction paths into a target company or a named contact. Identifies the strongest available paths through the company's own network (employees, customers, partners, investors, advisers, and past call notes), labels each path's confidence honestly, and returns the paths for the rep to decide on. Decision support only: never contacts anyone and never writes to the CRM. Not for drafting the ask to the connector (see multi-threading-coach for the routing logic)."
 ---
 

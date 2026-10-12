@@ -1,7 +1,7 @@
 ---
 name: linkedin-ads-audit
-version: 1.0.0
-description: "Use when someone wants to review, grade, or improve their own LinkedIn ad results, ABM programme, or spend over the last 30 days, for example \"audit my LinkedIn ads\", \"why is my CPC high\", \"which format is working\", \"are my ads decaying\". Produces a graded report with a prioritised fix list. Not for planning a new campaign."
+version: 1.1.0
+description: "Use when someone wants to review, grade, or improve their own LinkedIn ad results, ABM program, or spend over the last 30 days, for example \"audit my LinkedIn ads\", \"why is my CPC high\", \"which format is working\", \"are my ads decaying\". Produces a graded report with a prioritized fix list. Not for planning a new campaign."
 ---
 
 # LinkedIn ads audit
@@ -42,7 +42,7 @@ If no data is available, stop and say so. Do not estimate or invent figures.
 9. **Red and green flags.** Each item names the campaign, ad set, or ad, the metric, and the fix.
 10. **Accounts.** Top engaged accounts, accounts surging, accounts reached for the first time, and any account taking a disproportionate share of impressions. Suggest a cap only when one account's share is clearly out of line with the rest.
 
-## Enterprise and ABM checks (when a named account list exists)
+### Enterprise and ABM checks (when a named account list exists)
 
 Run these in addition to the steps above. All thresholds are author defaults to calibrate against the account's own history.
 

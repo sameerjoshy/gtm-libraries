@@ -1,6 +1,6 @@
 ---
 name: linkedin-outreach
-version: 1.0.0
+version: 1.1.0
 description: "Use when planning or reviewing LinkedIn outreach to named prospects, including connection requests, direct messages, and InMail. Sets safe volume and warm-up, applies the success rules before launch, enforces message length and the no-pitch-in-the-request rule, and provides a recovery plan for a restricted account. Not for email (see outbound-cold-email) or replies to existing threads (see reply-handling)."
 ---
 
@@ -126,7 +126,7 @@ Do not launch until every item is ticked.
 5. Engage with other people's content.
 6. Reintroduce outreach slowly, starting from the warm-up stage.
 
-## Common mistakes
+### Common mistakes
 
 - A pitch in the connection request. Save the pitch for the message after acceptance.
 - A generic first message. Refer to something specific and real about the person.

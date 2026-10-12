@@ -1,6 +1,6 @@
 ---
 name: creator-rate-band
-version: 1.0.0
+version: 1.1.0
 description: "Use to price a B2B thought-leadership creator from what their content actually does, not from follower count. Weights recent post performance by engagement type, cross-checks the result against a cost-per-thousand-impressions anchor, and produces an initial, budget, and maximum rate band to open a negotiation from. Use for a creator the team knows or a cold creator being priced for the first time. Not for the deal structure (see creator-deal-structure) or the reply to pushback (see creator-negotiation)."
 ---
 

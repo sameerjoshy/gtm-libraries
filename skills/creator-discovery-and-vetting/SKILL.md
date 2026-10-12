@@ -1,7 +1,7 @@
 ---
 name: creator-discovery-and-vetting
-version: 1.0.0
-description: "Use to find and vet B2B creators for a campaign, starting from the buyer rather than the follower count. Sets out five ways to find creators (mining engaged audiences, topic search on problem language, second-degree analysis, competitor sponsorships, and vetted marketplaces), and a vetting order that checks audience fit, engagement quality, consistency, and authentic voice before follower count is considered. Produces a shortlist with evidence for each creator. Not for the programme strategy (see creator-programme-strategy) or the price (see creator-rate-band)."
+version: 1.1.0
+description: "Use to find and vet B2B creators for a campaign, starting from the buyer rather than the follower count. Sets out five ways to find creators (mining engaged audiences, topic search on problem language, second-degree analysis, competitor sponsorships, and vetted marketplaces), and a vetting order that checks audience fit, engagement quality, consistency, and authentic voice before follower count is considered. Produces a shortlist with evidence for each creator. Not for the program strategy (see creator-program-strategy) or the price (see creator-rate-band)."
 ---
 
 # Creator discovery and vetting
@@ -18,7 +18,7 @@ Creators are easy to find and hard to judge. Follower count is the easiest numbe
 
 Route elsewhere when:
 
-- The question is the strategy and tier. Use `creator-programme-strategy`.
+- The question is the strategy and tier. Use `creator-program-strategy`.
 - The question is the rate. Use `creator-rate-band`.
 
 ## Inputs
@@ -28,19 +28,19 @@ Route elsewhere when:
 - Competitor or adjacent brands that have sponsored creators.
 - Any marketplace the team already uses.
 
-## Start with the buyer
+### Start with the buyer
 
 Define the buyer first: the role titles, the seniority, and the topics they care about. Then work backwards to who they read. A creator who speaks to the buyer's problem is more useful than one who has the buyer's job title but does not discuss the problem.
 
-## Five ways to find creators
+### Five ways to find creators
 
 1. **Mine engaged audiences.** Take the people who comment on the last twenty relevant posts in the space. They already engage with the topic, and some of them are creators.
 2. **Search on problem language.** Search narrow phrases that describe the buyer's problem, rather than the category name. Note who posts on those topics consistently.
-3. **Analyse second degrees.** Look at who the strong creators in the space engage with. Smaller accounts with sharp commentary often outperform larger names.
+3. **Analyze second degrees.** Look at who the strong creators in the space engage with. Smaller accounts with sharp commentary often outperform larger names.
 4. **Read competitor sponsorships.** Public sponsored posts show which creators already reach the target market.
 5. **Use a vetted marketplace.** Filter by topic and audience. Marketplaces are useful for booking, but they do not replace the vetting below.
 
-## Vetting order
+### Vetting order
 
 Check in this order, and stop early if a creator fails a step:
 

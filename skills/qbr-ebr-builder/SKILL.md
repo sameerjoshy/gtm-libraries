@@ -1,6 +1,6 @@
 ---
 name: qbr-ebr-builder
-version: 1.0.0
+version: 1.1.0
 description: "Use to design and build customer business reviews that buyers attend: the quarterly operational review for users and the executive business review for the economic buyer, with the value recap in the customer's own numbers as the central artefact. Includes a pre-meeting executive account brief for the seller. Use when reviews are a feature parade, when the economic buyer has stopped attending, when renewal value has to be proved from scratch, or before a sponsor sync. Not for internal meeting design (see revenue-operating-cadence) or for the intervention itself when a review finds risk (see renewal-save-motion)."
 ---
 
@@ -33,7 +33,7 @@ Route elsewhere when:
 - The account's contract value, renewal date, and segment.
 - The customer's agreed success baseline, from onboarding or the last review. If none exists, that is the first finding.
 - The customer's own system data: usage, outcomes measured in their terms, and tickets.
-- The contacts: the economic buyer, the executive sponsor, the programme owner, and the daily users, with attendance history for each.
+- The contacts: the economic buyer, the executive sponsor, the program owner, and the daily users, with attendance history for each.
 - The most recent internal health read for the account.
 - The open actions from the last review, and whether the customer completed them.
 
@@ -45,10 +45,10 @@ Two instruments, not one blended review.
 
 | | Quarterly review (operational) | Executive business review (executive) |
 |---|---|---|
-| Audience | Daily users and the programme owner | Economic buyer and executive sponsor |
+| Audience | Daily users and the program owner | Economic buyer and executive sponsor |
 | Rhythm | Quarterly, or asynchronous for smaller accounts | One or two a year, timed 90 to 120 days before renewal |
 | Question | Is the product working, and used well? | Was it worth the money, and what should it do next? |
-| Centre of gravity | Adoption, blockers, and the roadmap of use | Value recap in their numbers, strategic alignment, and the roadmap of outcomes |
+| Center of gravity | Adoption, blockers, and the roadmap of use | Value recap in their numbers, strategic alignment, and the roadmap of outcomes |
 | Typical failure | A feature parade | Skipping it because "the users are happy" |
 
 The executive review is timed before the renewal because, by the time a renewal conversation starts, an unengaged economic buyer has already formed a view from hallway talk. The executive review is where that view is formed deliberately.
@@ -86,7 +86,7 @@ Every review, quarterly or executive, follows the same spine. The depth differs 
 
 - **The economic buyer attends the executive review, or the review moves.** A review without them is a rehearsal. Getting them there is the sponsor's job, agreed in the success plan, not a calendar surprise.
 - **Treat attendance drift as a signal.** A sponsor who attended two reviews and skipped the third has told you something the health read has not yet caught. Feed it to risk triage.
-- **A new stakeholder restarts the relationship at their starting point.** After a reorganisation or a new executive, run a compressed look-back, and do not assume they carry any of the prior context.
+- **A new stakeholder restarts the relationship at their starting point.** After a reorganization or a new executive, run a compressed look-back, and do not assume they carry any of the prior context.
 
 ### Step 5: Prepare the executive account brief
 
@@ -103,8 +103,8 @@ THE PICTURE (three sentences)
   What they are trying to do, why now, why us.
 
 BUYING COMMITTEE
-  Name, title, sentiment in one word, with the quote or behaviour behind it.
-  Sentiment is never stated without a quote or a specific behaviour.
+  Name, title, sentiment in one word, with the quote or behavior behind it.
+  Sentiment is never stated without a quote or a specific behavior.
 
 WHERE WE ARE (three to five bullets)
   The last meaningful contact and its outcome.

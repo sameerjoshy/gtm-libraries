@@ -1,7 +1,7 @@
 ---
 name: ad-engagement-outbound-triggers
-version: 1.0.0
-description: "Use to turn engagement with account-based ads into outbound triggers. Structures campaigns so that engagement reveals intent, sets stage thresholds that decide when a sales development rep should act, defines what the alert contains, personalises outreach to the topic the account engaged with rather than the channel, sequences the ads and the outbound over the first twelve weeks, feeds sales learning back into the ads, and measures the lift against the team's own cold baseline. Not for the choice of campaign level (see abm-campaign-level-choice) or for general signal detection (see signal-detection-and-timing)."
+version: 1.1.0
+description: "Use to turn engagement with account-based ads into outbound triggers. Structures campaigns so that engagement reveals intent, sets stage thresholds that decide when a sales development rep should act, defines what the alert contains, personalizes outreach to the topic the account engaged with rather than the channel, sequences the ads and the outbound over the first twelve weeks, feeds sales learning back into the ads, and measures the lift against the team's own cold baseline. Not for the choice of campaign level (see abm-campaign-level-choice) or for general signal detection (see signal-detection-and-timing)."
 ---
 
 # Ad engagement outbound triggers
@@ -40,7 +40,7 @@ Route elsewhere when:
    The qualitative data is what makes the outreach relevant.
 3. **Set stage thresholds** that decide when an account moves from ad awareness to active interest. As defaults: five or more clicks, or ten or more engagements, moves an account to interested. Accounts that have only seen ads are not handed to sales.
 4. **Define the alert.** Send the rep the account name and profile link, its fit score and tier, the intent tags, the change in engagement over the recent window, the key contacts, and a suggested angle based on the campaign it engaged with.
-5. **Personalise to the topic, not the channel.** Refer to the subject the account showed interest in, such as a comparison, a feature area or a case study. Never tell a buyer that they clicked an ad. Lead with their problem, and keep the message short, because the ad has already warmed them.
+5. **Personalize to the topic, not the channel.** Refer to the subject the account showed interest in, such as a comparison, a feature area or a case study. Never tell a buyer that they clicked an ad. Lead with their problem, and keep the message short, because the ad has already warmed them.
 6. **Sequence the motion over about twelve weeks:**
    - weeks one to four: awareness ads only, with no outreach;
    - weeks four to eight: interested accounts trigger outreach, and ads move towards solution content;
@@ -60,7 +60,7 @@ Route elsewhere when:
 - The campaign naming and intent structure.
 - The stage thresholds and the owner of each stage.
 - The alert format, with an example for one account.
-- The outreach sequence, with the personalisation for each intent.
+- The outreach sequence, with the personalization for each intent.
 - The sequence timeline and the feedback loop to the ads.
 - The measurement against the cold baseline, with the lift shown.
 

@@ -1,6 +1,6 @@
 ---
 name: candidate-sourcing-and-ranking
-version: 1.0.0
+version: 1.1.0
 description: "Use when a hiring manager or founder needs to source candidates for an open role, but the brief is incomplete, over-titled, or likely to produce a noisy list. Diagnoses the role's real scope against the company's stage, sets must-haves apart from transferable evidence, previews the market before any paid lookup, ranks candidates in three evidence-based tiers, and returns a shortlist the hiring team can defend. Not for offer and close (see sales-hire-offer-close) or for scoring interviews (see sales-hire-scorecard)."
 ---
 

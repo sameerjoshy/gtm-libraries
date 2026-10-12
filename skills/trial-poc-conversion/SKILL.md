@@ -1,6 +1,6 @@
 ---
 name: trial-poc-conversion
-version: 1.0.0
+version: 1.1.0
 description: "Use when trials go nowhere, prospects want to test before buying, or evaluations expire without a verdict. Designs trials, POCs, and pilots as decision processes: picks the evaluation motion, contracts success criteria and the consequence before granting access, defines and instruments an activation milestone, runs a decision-forcing clock, and closes out expired evaluations as logged outcomes. Not for qualification (see deal-qualification-gates) or the procurement steps after a win (see procurement-navigation)."
 ---
 
@@ -81,7 +81,7 @@ Expired and silent evaluations inflate the pipeline and waste outreach.
 - Re-entry happens through a fresh trigger, under the revival process (`closed-lost-revival`), not through "checking in on your trial".
 - Never count un-activated evaluations in the weighted pipeline at the same probability as activated ones. The gap between them is usually the strongest single signal an evaluation-stage deal carries. Use the client's own split, not an external figure.
 
-### Step 6: Measure the programme
+### Step 6: Measure the program
 
 Track each evaluation with these fields:
 

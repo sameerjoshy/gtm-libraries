@@ -22,4 +22,4 @@ Team-wide defaults for this library. Each one is a default. A client's copy of t
 
 ## Skill format
 
-Every skill has these sections, in this order: Purpose, When to use, Inputs, Procedure, Output, Quality bar. A Rules section is optional. Where a skill has one, it comes after Quality bar and holds only the hard rules that the Quality bar does not already state.
+The canonical format and house voice live in `STYLE.md`. In short: every skill has Purpose, When to use (with a "Route elsewhere when:" list), Inputs, Procedure, Output, Quality bar, and an optional Rules section, in that order. Only `Principles`, `Diagnostic questions`, and `Anti-patterns` are allowed as extra top-level sections; everything else is a subsection. A skill has exactly one `Rules` section. Skills are written in American English.

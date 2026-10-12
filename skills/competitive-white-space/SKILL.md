@@ -1,6 +1,6 @@
 ---
 name: competitive-white-space
-version: 1.0.0
+version: 1.1.0
 description: "Use for a competitive positioning review: which messages every competitor repeats (saturated), which nobody says (white space), and what positioning the company can own. Takes competitor URLs or names. Not a monitoring report (use competitive-intelligence) and not a single-company overview (use account-research-brief)."
 ---
 
@@ -52,7 +52,7 @@ A document titled "[Company] Competitive White Space", with these sections in or
 8. Messaging hooks by buying stage
 9. Key takeaways (five to eight bullets)
 
-## Writing rules
+### Writing rules
 
 These matter because the document is read by people outside marketing.
 

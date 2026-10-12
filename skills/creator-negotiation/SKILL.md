@@ -1,6 +1,6 @@
 ---
 name: creator-negotiation
-version: 1.0.0
+version: 1.1.0
 description: "Use when a creator pushes back on a rate or terms for a B2B campaign and the team needs a reply that holds a position. Takes the creator's counter-offer and the team's original offer, checks them against the rate band, and gives three ranked options (hold, reshape, or accept with conditions), each with its reasoning and a ready-to-send draft. Not for estimating the rate in the first place (see creator-rate-band)."
 ---
 
