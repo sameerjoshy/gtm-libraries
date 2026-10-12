@@ -30,7 +30,7 @@ Route elsewhere when:
 
 - The question is the health score, renewal timeline, or CS coverage. Use `cs-operations`.
 - The question is the handoff mechanics. Use `revenue-handoffs`.
-- The question is pricing structure or metering. Use `pricing-monetisation-ops`, which is not yet in this library.
+- The question is pricing structure or metering. Use `pricing-monetisation-ops`.
 - The question is metric definitions. Use `revenue-metrics`.
 
 ## Inputs

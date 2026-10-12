@@ -32,7 +32,7 @@ Route elsewhere when:
 - The question is how a closed deal passes to CS. Use `revenue-handoffs`.
 - The question is onboarding to first value. Use `onboarding-activation`.
 - The question is the metric definitions for GRR and NRR. Use `revenue-metrics`.
-- The question is pricing and discount policy. Pricing governance sits in a separate skill (`pricing-monetisation-ops`, not yet in this library).
+- The question is pricing and discount policy. Pricing governance sits in a separate skill (`pricing-monetisation-ops`).
 
 ## Inputs
 
