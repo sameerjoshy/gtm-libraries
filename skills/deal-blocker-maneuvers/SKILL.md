@@ -5,7 +5,7 @@ status: draft-for-review
 description: Use after a meaningful interaction on a complex, multi-stakeholder deal (a call, a stakeholder meeting, a procurement exchange) when the question is what to run next, not what is missing. Scores the deal's qualification from primary evidence only, reads it against the stage it is in, identifies the single worst blocker, and produces a two-cycle maneuver with a trigger, pre-mortem, verbatim opener, branches, and explicit abort criteria. Not for transactional or high-velocity deals.
 sources:
   - "Deal blocker maneuvers (MIT, Nikhil Mirza), primary-evidence scoring, eight dimensions with -1 to +1 evidence thresholds, champion dimension with no -1, stage bands with expectation and hard floor, unknown-cluster override, stall rule, two-cycle observe-orient-decide-act maneuver, pre-mortem, go/no-go checklist, abort criteria, calibration procedure from closed deals"
-  - "Mutual action plan and multi-threading sources (MIT, Gal Aga), noted as adjacent skills for later merge; not used here"
+  - "Mutual action plan and multi-threading sources (MIT, Gal Aga), merged separately as multi-threading-coach and mutual-action-plan-builder; the maneuver method here is independent of them"
 ---
 
 # Deal blocker maneuvers
