@@ -84,3 +84,9 @@ Skills listed as merge next in sections 2 and 3 are being written in batches. Ch
 - Written: gtm-operating-principles (from gtm-philosophy, renamed to avoid a clash with the existing GTM set), bench-strength-and-succession, leadership-development-diagnostic, brand-mention-monitor.
 - Still pending: ariel-cohen inbound and LinkedIn signal handling (one skill, read before writing), and the events and conference group (about 8 files, one skill).
 - Then: the channel and content sets (paid ads, creator, search and AI visibility, Reddit and community, newsletter and content).
+
+## Progress note: signal and events batch (111 merged)
+
+- Written: inbound-demo-request-triage (handle-demo-request), linkedin-signal-triage (profile-view, connection-request, DM classifier, post-engagement, and influencer-engager handlers, one skill), event-attendee-prep (event room intelligence), event-logistics-planning (booking links, personal plan, shared calendar, one skill).
+- The events group was split into two skills, and the signal group into one, because the attendee dossier and the logistics workflow have different inputs and outputs.
+- Still pending: the channel and content sets (paid ads, creator and influencer, search and AI visibility, Reddit and community, newsletter and content).
