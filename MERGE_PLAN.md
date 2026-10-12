@@ -149,3 +149,9 @@ Skills listed as merge next in sections 2 and 3 are being written in batches. Ch
 - Folded into email-deliverability: lucas-godtfredsen inbox-warm-up-ramp (per-mailbox ramp, pause rules, primary-domain rule). Source's warm-up network claim is not treated as evidence.
 - The plan's earlier "still pending" lines for the event, community and content sets are stale: those skills are written. Stale wording is superseded by this note and by the coverage ledger.
 - Still open: the Meta and Google Ads family sets, the remaining AI visibility sources (huxley-peckham, elad-hefetz), thebigasif patent-backed SEO quick wins, danni-chen launch and founder posts, pete-mientkiewicz lead magnet post, manny-medina pricing and credit sets, nylan-richard candidate sourcing and lookalike ranking, and amos-bar-joseph kill-the-wall-of-text.
+
+## Progress note: AI visibility remainder (171 merged)
+
+- Folded into answer-engine-visibility-tracking: huxley-peckham ai-visibility-sampling (repeat asks, majority vote, presence tiers, grid, break-in-series rule) and elad-hefetz ai-visibility-prompt-research (brand held back to the final pass, provenance tags, isolated branded set). The named platform and assistants are not restated.
+- Written as new skills: citation-source-outreach (huxley-peckham citation-gap-outreach) and local-answer-engine-visibility (huxley-peckham local-ai-visibility).
+- Still open: thebigasif patent-backed-seo-quick-wins, danni-chen founder-post-triggers-24 and launch-window-mechanics, pete-mientkiewicz viral lead magnet post, manny-medina ai-pricing-model-picker, credit-packaging and roi-proof-generator, nylan-richard candidate-sourcing-and-ranking, people-lookalike-ranking and account-org-mapping, amos-bar-joseph kill-the-wall-of-text, and the Meta and Google Ads family sets.

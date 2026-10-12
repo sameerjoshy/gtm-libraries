@@ -6,7 +6,7 @@ Tracks every source skill from the two downloaded libraries, so that nothing is 
 
 - Source skills in the first library (`gtm-skills`): 404 SKILL.md files across the author folders below.
 - Source agent roles in the second library (`openclaw-skills`): 5. All five are merged into `agents/`.
-- Merged skills in `skills/`: 169.
+- Merged skills in `skills/`: 171.
 
 ## Status meanings
 
@@ -54,7 +54,7 @@ Per-author counts are a starting point, not a quality judgement. Merging is done
 | boaz-descalo | 3 | Cited |
 | gaetano-romeo | 3 | Cited |
 | gal-tamir | 3 | Not cited |
-| huxley-peckham | 3 | Not cited |
+| huxley-peckham | 3 | Cited |
 | justin-blij | 3 | Cited |
 | lucas-godtfredsen | 3 | Cited |
 | manny-medina | 3 | Not cited |
@@ -79,7 +79,7 @@ Per-author counts are a starting point, not a quality judgement. Merging is done
 | dima-bilous | 1 | Not cited |
 | dusan-vystrcil | 1 | Cited |
 | dyanesh-perumal | 1 | Not cited |
-| elad-hefetz | 1 | Not cited |
+| elad-hefetz | 1 | Cited |
 | eliezer-cohen | 1 | Cited |
 | jorge-macias | 1 | Cited |
 | joshua-waldman | 1 | Cited |
