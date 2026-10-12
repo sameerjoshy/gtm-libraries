@@ -52,6 +52,10 @@ Route elsewhere when:
 5. **Reforecast on triggers, not on mood.** Fixed windows plus explicit triggers. Continuous re-planning erodes ownership.
 6. **FP&A and RevOps decide jointly.** RevOps owns pipeline reality and capacity. FP&A owns financial implications. A forecast that does not reconcile across both is revised before it is approved.
 
+## Procedure
+
+Follow the planning calendar, then build bottoms-up, reconcile, set versions and governance, and reforecast on triggers.
+
 ## Planning calendar
 
 Build backwards from the fixed date: board approval, or the date the plan must be in market. Compressed cycles can shorten data gathering and validation. They should not shorten reconciliation.

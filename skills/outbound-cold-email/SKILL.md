@@ -10,6 +10,9 @@ sources:
   - "Email metrics and benchmarks (MIT, Alex Vacca / Frontal), reply-rate baselines by outreach type, deliverability warning thresholds"
   - "SDR outbound rules (MIT, Alex Vacca / Frontal), the eight messaging frameworks, tone by offer type"
   - "Adapted for GTM-360: CRM and sequence-tool calls generalised, vendor benchmarks labelled as starting points to calibrate per client, no invented proof points or customers"
+  - "Give-first cold email (MIT, Dima Bilous): the rule that the reply must cost the prospect nothing, the choice between an awareness email and a call email, and selling the free step rather than a high-ticket engagement"
+  - "Outreach messaging (MIT, Maja Voje): the R.E.P.L.Y. structure of relevance, empathy, payoff, low-friction ask and you-focus, with the you-to-we check"
+  - "B2B cold email copywriting (MIT, Tim Yakubson): the order of diagnosis from list to offer to copy, the default weighting of each as author defaults, and deliverability before copy"
 ---
 
 # Outbound cold email
@@ -172,6 +175,32 @@ Diagnose by symptom:
 | Opens, no replies | Weak relevance | More specific hook, shorter copy |
 | Replies, no meetings | Unclear or weak ask | Smaller, clearer ask |
 | High unsubscribes | Wrong audience or too much volume | Narrow the list, reduce frequency |
+
+## Give-first rule
+
+The reply must cost the prospect nothing. A first email earns a reply in one of two ways: it delivers value up front, or the offer is so good that saying yes is the only thing left to do. Anything that asks the prospect to work first, such as imagining the value, choosing a time or acting before receiving, lowers the reply rate.
+
+Pick the goal first. For awareness, send the value and end, with no ask. For a call, send the value before the call, so the call is a walkthrough rather than a pitch.
+
+If the real offer is high-ticket, sell the free step, not the engagement. Naming a large price in a first email puts it in the prospect's head before any value has landed. The outcome to sell is what the free step delivers, such as a finding, a mini tool or a finished artifact.
+
+The calls to action this rules out include a bare request for a quick call, an offer of a custom document nobody has seen value from, and any call to action that needs more than a yes.
+
+## Email structure option: R.E.P.L.Y.
+
+Use R.E.P.L.Y. as a structure for a first email, alongside the messaging frameworks above. Name the structure in the output, as with the frameworks.
+
+- R, relevance: open with why this reaches the person today. A real signal, such as a hire, funding, a launch or content they posted, beats a general opener.
+- E, empathy: name the specific pain in the words the persona would use. Take the words from voice-of-customer answers.
+- P, payoff: deliver something useful inside the email, such as an insight, a benchmark, a resource or a small audit. This is the heart of the email.
+- L, low-friction ask: one small, reversible next step. Usually one call to action.
+- Y, you-focused: count sentences about the reader against sentences about the sender. If "we" and "our" outweigh "you" and "your", rewrite.
+
+## Diagnose in order: list, offer, copy
+
+When replies are low, diagnose in this order: list, then offer, then copy. As the source's default weighting, the list carries about 40 percent of reply performance, the offer about 40 percent, and the copy about 20 percent. These weights are the source's defaults, to calibrate with the team's own results.
+
+Copy is the lever writers control, so it is the one most often over-worked. A good list and a specific, believable offer carry more weight than clever wording. Confirm the sending infrastructure before judging the copy, because mail that lands in spam gets no replies however well it is written.
 
 ## Output
 

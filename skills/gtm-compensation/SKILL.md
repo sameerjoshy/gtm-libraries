@@ -45,6 +45,10 @@ Route elsewhere when:
 4. **Variable pay has to vary.** If most reps land between 90% and 110% of quota every quarter, the plan has no teeth. A healthy spread has top performers well above target, average performers near it, and underperformers clearly below it.
 5. **Review once a year and change sparingly.** Mid-year changes destroy trust. Make changes at the start of the fiscal year, unless the business reality has changed.
 
+## Procedure
+
+Design in this order: role architecture, benchmark ranges, quota setting, SPIFs and clawbacks. Then run the health check and the rollout.
+
 ## Role architecture
 
 ### Account executives

@@ -36,6 +36,10 @@ Route elsewhere when:
 - The tooling in place, and any process it automates.
 - The segments the business runs: new and expansion, enterprise and SMB, inbound and outbound.
 
+## Procedure
+
+Work through the operating principles, then the pipeline, KPI, data and operating-model sections in turn.
+
 ## Operating principles
 
 1. **Measure what creates signal, not noise.** Every metric needs a causal chain to revenue: metric, then behaviour change, then revenue impact. If the chain cannot be drawn, the metric is vanity.

@@ -43,6 +43,10 @@ Part 1 plans the change: impact, stakeholders, communication, transition. Part 2
 
 Two established frameworks anchor the work. Kotter's eight-step model addresses the organisation: urgency, a guiding coalition, a vision, a volunteer army, removing barriers, short-term wins, sustaining momentum, and institutionalising the change. Prosci's ADKAR addresses the individual: awareness, desire, knowledge, ability, and reinforcement. ADKAR's diagnostic value is matching the intervention to the barrier. Training someone who does not want to change, or who lacks the desire, is wasted effort.
 
+## Procedure
+
+Part 1 plans the change. Part 2 makes it stick. A small change may need only Part 1.
+
 ## Part 1: Plan the change
 
 ### Impact analysis

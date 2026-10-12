@@ -7,6 +7,7 @@ sources:
   - "Positioning and messaging designer (MIT, Rutger Katz / Neon Triforce): the ICP to positioning to messaging to copy chain, the twelve positioning elements, six positioning line formulas, the Use Case Messaging Canvas, the opposites method, the three messaging tools, post-launch validation signals, the 30-second clarity test, the 30-day validation sprint, the sales rollout sequence, and the common mistakes"
   - "Removed as unverified: the buyer-time statistic from a 2018 analyst note used as a reason to simplify messaging (the principle is kept without the figure), the call-volume anecdote, the 'five decks in six months' norm, and the named sales-engagement and conversation-intelligence tools. The LLM-assisted sections are kept as practices to test, not as results"
   - "Adapted for GTM-360: the rollout week structure, the seven-of-ten adoption target, the three-minute discovery target, and the 30-day sprint are author defaults. The twelve element definitions are restated here, since this library does not include the reference file the source points to"
+  - "Positioning and messaging (MIT, Chris Rodde): the evidence stage, asking why buyers switched and what stopped the others, and the narrative stage, asking what changed that makes the problem urgent; evidence comes before the positioning decision"
 ---
 
 # Positioning and messaging designer
@@ -192,6 +193,12 @@ Positioning is useful only if the sales team uses it consistently. Roll out in f
 3. **Using polished words instead of customer words.** The messaging stops resonating. Use the language the customers used.
 4. **Breaking the opposites.** The new way does not clearly contrast with the old way. Every right-side element should be a direct reversal.
 5. **Producing a document instead of a system.** The canvas should be a working reference the team uses on calls, not a deck that gathers dust.
+
+## Evidence and narrative checks
+
+Before choosing a positioning, check the evidence. Ask why buyers actually switched to the company, and what stopped the ones who did not. A positioning that the switching evidence does not support is a hypothesis.
+
+After the messaging is drafted, test the narrative. Ask what has changed in the world that makes the problem urgent now. A message with no change behind it reads as generic, however clear the wording.
 
 ## Output
 

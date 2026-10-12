@@ -7,6 +7,7 @@ sources:
   - "Cold call scripts (MIT, Alex Vacca / Frontal), five-step one-minute opener (pattern interrupt, permission, relevance, social proof, open question), no-show script, voicemail under 20 seconds"
   - "SDR outbound rules (MIT, Alex Vacca / Frontal), review checklist and tone by offer type, applied to call scripts as the same writing rules"
   - "Adapted for GTM-360: placeholders replace the sample company and its invented result, a compliance step is added before any call, approval required for every script"
+  - "Pre-call script (MIT, Dyanesh Perumal): preparing a script for one named prospect from the account research, the checks on prior contact and warm routes, the stop conditions, and the two-to-three-minute meeting-selling call with every line traced to a researched fact"
 ---
 
 # Cold call outreach
@@ -103,6 +104,16 @@ Check each script against this list.
 - [ ] No buzzwords, no invented claims, no fake enthusiasm?
 - [ ] Compliance check in Step 1 completed?
 - [ ] Would a busy person keep listening after the first sentence?
+
+## One named prospect
+
+Use this section when a rep is calling one named person, not a list. Before writing the script, load the account research, the contact's role, and the measure the contact was hired to move.
+
+Check the CRM for prior contact. A logged earlier call makes this a follow-up: acknowledge the last conversation, lead with something new, and do not restart the pitch. Check for a warm route, such as a referral, a mutual connection, a prior touch or an event. A warm route leads the opener, and nothing else competes with it.
+
+If the contact is marked not interested, or already sits in an open opportunity, stop and confirm with the rep before writing anything.
+
+The call runs two to three minutes and sells the meeting, not the product. Keep discovery-grade questions out of the script. Every line of the script should trace to a fact from the research. If the prospect cannot answer why you and why now within the first twenty seconds, the call is a cold read that wastes a rare live connection.
 
 ## Output
 

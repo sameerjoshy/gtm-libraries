@@ -7,6 +7,7 @@ sources:
   - "RevOps diagnostic frameworks (MIT, Rutger Katz / Neon Triforce): three-layer revenue system model, symptom-to-constraint mapping, IFA diagnostic, six stages of check, quick triage decision tree, per-motion layer check, A3-lite, five whys, DACI, the constraint principle, integration architecture stages, AI maturity levels"
   - "Removed as unverified: the '94% of problems are system issues' figure, the 2026 AI adoption percentages, platform feature and deprecation claims, and vendor-specific readiness checklists. The system model is kept as a framing device, not as evidence"
   - "Adapted for GTM-360: the crisis thresholds, integration counts, and the AI maturity bands are defaults to calibrate with the client. Regulatory points on AI use in employee-facing decisions are flagged for counsel"
+  - "Revenue engine maturity diagnostic (MIT, Scott Wueschinski): the rule that a revenue engine runs at the level of its weakest dimension, and the evidence-first scoring of each dimension, where a capability that cannot be shown is not credited. The five-level scale is not added here, because the marketing maturity grading already covers maturity"
 ---
 
 # RevOps diagnostic
@@ -190,6 +191,10 @@ The usual pattern is a central system with many point-to-point integrations arou
 Constraint check: if the client is at Level 1 and the data is poor, the constraint is data and governance, not AI adoption. Fix those first.
 
 Where AI influences decisions about employees, such as territory allocation or performance-related scoring, record the use and take counsel's view on transparency and consultation obligations before go-live. These are points for counsel, not legal advice.
+
+## Weakest-dimension rule
+
+A revenue engine runs at the level of its weakest dimension. Before adding effort, automation or headcount, find the dimension that limits the rest. Score each dimension on evidence: ask to see the artifact behind it, such as the ICP document, the scoring model, a live sequence, a duplicate count or the notes from the last review. A capability that cannot be shown is not credited.
 
 ## Output
 

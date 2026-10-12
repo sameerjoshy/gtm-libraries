@@ -34,6 +34,10 @@ Route elsewhere when:
 - **Mode.** Periodic briefing, or deal brief. For a deal brief, the deal context is required: displacement, renewal defence, or general prep.
 - **Memory.** A per-competitor file of signals already reported, used for deduplication. Created on first run.
 
+## Procedure
+
+Choose the mode first, then follow its section. Use the periodic briefing for a regular report, the deal brief for a live deal, and the battlecard for a standing reference.
+
 ## Periodic briefing
 
 1. **Choose the mode.** Full, if the last run was more than 14 days ago or this is the first run (window: 14 days). Quick, if last run was within 14 days (window: since last run, minimum 7 days). If a report already exists for today, ask before re-running.

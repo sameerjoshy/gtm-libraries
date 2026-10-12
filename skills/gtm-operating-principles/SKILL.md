@@ -36,6 +36,10 @@ Route elsewhere when:
 - The team's current playbook or templates, if any.
 - Results by rep, where available, to compare what top performers do.
 
+## Procedure
+
+Apply the six principles first, then the multi-channel pattern, then the mindsets.
+
 ## The six principles
 
 1. **Copy what top performers do.** Study the best reps' sequences, calls, and habits, then turn them into a standard the rest of the team can run. Do not start from a template the best reps never used.

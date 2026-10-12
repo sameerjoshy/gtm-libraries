@@ -34,6 +34,10 @@ Route elsewhere when:
 - Access to search demand data, through whatever tool the team uses.
 - The company's existing pages and their performance.
 
+## Procedure
+
+Work through steps one to six in order. Each step uses the output of the one before.
+
 ## Step one: extract opportunities
 
 Turn the account picture into content opportunity angles. These are business angles, not keywords. Sources of opportunity:

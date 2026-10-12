@@ -44,6 +44,10 @@ Scan for each kind separately:
 1. **Rhetorical moves.** Patterns that serve the writer and never the reader. Examples in kind: a setup sentence that promises a point, a stacked list of three adjectives, a closing line that restates the opening. These are wrong every time they appear, so remove them.
 2. **Ordinary structures in clusters.** Common words and forms that read fine once but signal a machine when they repeat across a piece. Examples in kind: a run of sentences of the same length, identical paragraph shapes, and a habit of hedging every claim. Remove them where they cluster, not where they appear once.
 
+## Procedure
+
+Run pass one, then pass two, in order. Pass one removes the tells. Pass two rewrites what is left.
+
 ## Pass one: subtract
 
 Remove every rhetorical move. Then check for clusters of ordinary structures, and vary them. Do not change meaning or facts in this pass.

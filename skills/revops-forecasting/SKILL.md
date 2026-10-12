@@ -44,6 +44,10 @@ Route elsewhere when:
 - Qualification evidence for each deal, from `deal-qualification-gates`.
 - Pipeline coverage targets, and the segment definitions (enterprise and SMB, inbound and outbound, new and expansion).
 
+## Procedure
+
+Apply the methods in order, then reconcile them. Then run the cadence, accuracy, slippage, coverage and breach rules.
+
 ## Method 1: Category-based forecasting
 
 Each deal is placed in one category by the rep and validated by management.

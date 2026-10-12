@@ -35,6 +35,10 @@ Route elsewhere when:
 - The reading or material available to curate that week.
 - Past issues, so the format stays consistent.
 
+## Procedure
+
+Choose a format, build the issue structure, then follow the production process. Use the post and idea sections when they apply.
+
 ## The five roundup formats
 
 - **Link roundup:** the best articles or posts from the week, each with a short comment on why it matters.

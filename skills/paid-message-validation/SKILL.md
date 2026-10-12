@@ -34,6 +34,10 @@ Route elsewhere when:
 - Qualified conversations from the campaign, with the ad each one came from logged.
 - The sales team's ability to score each conversation.
 
+## Procedure
+
+Run the four phases in order: launch, score the conversations, rank by quality, then scale what passes.
+
 ## Phase one: launch
 
 1. **Create one message per buyer situation.** Each situation is a different angle. Three to five ads per situation, in different formats, test the same angle.

@@ -35,6 +35,10 @@ Route elsewhere when:
 - The destination the traffic will reach.
 - The account's own recent average engagement, for the baseline.
 
+## Procedure
+
+Work through the pre-publish steps first, then the sequence, then the amplification decision.
+
 ## Before publish
 
 1. **Build the post to invite a reply.** A neutral summary earns scrolling. A stated position, an open question, or a claim someone would want to correct earns replies, and replies carry the most weight. This is not a call for provocation.

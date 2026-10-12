@@ -34,6 +34,10 @@ Route elsewhere when:
 - The product's current overview, differentiators, feature specifics, pricing, and common questions.
 - The most recent release notes, so the knowledge base is current.
 
+## Procedure
+
+Part one teaches the voice by rewriting. Part two grounds the facts. Do part one before part two.
+
 ## Part one: teach the voice by rewriting
 
 1. **Draft from the source, not from the sample.** For each of about five source items, the machine drafts a reply first. The person then rewrites it the way they would actually say it. If the person already approves a draft, record the approval.

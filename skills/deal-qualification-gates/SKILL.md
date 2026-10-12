@@ -40,6 +40,10 @@ Scale rule: this skill's 1 to 5 scores and the -1 to +1 scores in `deal-blocker-
 - The open pipeline with each deal's stage, value, close date, and the evidence in the record (call notes, transcripts, emails, the buyer's own figures).
 - The account tier for each deal, from the ICP work, so that deal health can be read against fit.
 
+## Procedure
+
+Apply the evidence-quality scale first, then the dimensions, then the stage gates. Deployment and rollout come after the gates are agreed.
+
 ## The evidence-quality scale
 
 Score each dimension from 1 to 5. The scale grades evidence, not the rep's confidence.
