@@ -117,5 +117,5 @@ Skills listed as merge next in sections 2 and 3 are being written in batches. Ch
 ## Progress note: SEO research and answer-engine batch (159 merged)
 
 - Written: seo-account-context (business context ingestion), seo-topic-research (the seven-phase pipeline, with opportunity extraction, keyword validation, and business fit filter folded in), seo-content-format-selection (topic shaping), answer-engine-visibility-tracking (visibility tracking and the score audit).
-- Folded: the sam-dunning business-fit-filter, opportunity-extraction, and keyword-validation skills into seo-topic-research; the yahav aeo-score-audit into answer-engine-visibility-tracking; the yahav advocate-voice-tuning into brand-advocate-finder (already merged, same voice-tuning job).
+- Folded: the sam-dunning business-fit-filter, opportunity-extraction, and keyword-validation skills into seo-topic-research; the yahav aeo-score-audit into answer-engine-visibility-tracking. The yahav advocate-voice-tuning source is not yet reviewed against brand-advocate-finder; it remains open.
 - Still pending: the ryan-estes newsletter performance report, the Performance Max generic structure, the paid ads audit sets (aditya-sriram, gaetano-romeo, justin-rowe), the ads writing-style and message-validation sets, and any remaining author-level sets not yet classified.
