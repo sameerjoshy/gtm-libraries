@@ -6,6 +6,7 @@ description: Use when building a prospect list of companies, contacts, or both, 
 sources:
   - "Build list (MIT, Ido Goldberg / Swan), column ladder with cost tiers and run-when gates, lock the brief, size first, free elimination before enrichment, AI research as one question per column, pilot on ten rows, companies before people, email waterfall, activation with approval, anti-patterns"
   - "List architect (MIT, Alex Vacca / Frontal, contributor Ivan Falco), ICP scoring with a 100-point scale, sourcing and qualification sequence, Sales Navigator segmentation at the search result cap, decay and re-verification rules"
+  - "List building tips and lead sources guide (MIT, Alex Vacca / Frontal): data-quality hierarchy, source selection by need, pre-campaign checklist, common mistakes. Efficiency timings, provider comparisons, and tool-specific templates are dropped as unverified or vendor-specific"
   - "Adapted for GTM-360: platform-specific tool names replaced with generic steps; tiering conflict between the two sources resolved by stating one default; provider coverage and decay figures labelled as heuristics to test"
 ---
 
@@ -24,7 +25,7 @@ A list is a table in which each column costs something and removes some rows. Bu
 Route elsewhere when:
 
 - The question is how to score accounts already on file. Use `account-tier-scoring`.
-- The question is whether an existing list is clean. Use `list-hygiene`.
+- The question is whether an existing list is clean. This is list hygiene, which is not yet merged into this library. Use the free elimination and dedupe steps above on the existing list in the meantime.
 - The question is which accounts are worth a named ABM investment. Use `abm-strategy-planner`.
 
 ## Inputs
@@ -113,6 +114,16 @@ Use the source enumerations exactly as the tool defines them. Check enum-like fi
 
 On sources: more than one source gives better coverage, but not in a linear way. One heuristic from the source puts one source at about 60% of the addressable market, two at about 85%, and three at about 92%. Treat these numbers as a hypothesis to test in your own market. The same provider with different filters is one source, not two.
 
+Choose the source type by what the list needs most. Record the type in the plan, not the tool name, since tools change.
+
+| Need | Primary source type | Backup |
+|---|---|---|
+| Volume | Broad contact database | Native search in the enrichment tool |
+| Precision on role and seniority | Professional network search | Verified contact database |
+| Lookalikes of best customers | Firmographic lookalike tool | Enrichment with tech-stack filters |
+| Local or SMB | Local business directory | Broad database with a location filter |
+| Niche vertical | Industry directory or association list | Broad database with keyword filters |
+
 ### Step 5: Run the free elimination pass
 
 Before any paid step, in code or formulas:
@@ -185,6 +196,28 @@ Phone enrichment only for A-tier, and only if the motion includes calls.
 
 The task is not complete until the list is saved or the user explicitly drops it. Do not end on "shall I go ahead?" with no list created.
 
+## Data quality and the pre-campaign checklist
+
+Rank each contact by the strongest data it has:
+
+1. Verified email.
+2. Direct phone number, where calls are part of the motion.
+3. Recent activity signal.
+4. ICP fit confirmed by research, not inferred from title.
+5. Company enrichment complete.
+
+Before any campaign launches, check:
+
+- [ ] Bounce rate on the sent or sampled segment is under 2% (default).
+- [ ] Email coverage is at least 70% of the list (default). Below that, the problem is the source, not the outreach.
+- [ ] ICP criteria are verified on the rows that will be sent.
+- [ ] Recent signals are tagged where the motion uses them.
+- [ ] Duplicates are removed.
+- [ ] Competitor customers are flagged and excluded.
+- [ ] The do-not-contact list is checked.
+
+Both thresholds are defaults to calibrate per client.
+
 ## Reference figures
 
 These are working numbers from the sources. Verify each one for the client's market before relying on it.
@@ -226,6 +259,9 @@ For each list build:
 - Putting several questions into one research prompt.
 - Ending the task on a question with no list saved.
 - Quietly building a list that contradicts the ICP.
+- Relying on one source for all coverage.
+- Over-filtering, which shrinks the market before anyone has seen it, or under-filtering, which sends outreach to poor fits.
+- Skipping verification before sending, which damages deliverability.
 
 ## Quality bar
 

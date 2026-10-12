@@ -6,7 +6,7 @@ Tracks every source skill from the two downloaded libraries, so that nothing is 
 
 - Source skills in the first library (`gtm-skills`): 404 SKILL.md files across the author folders below.
 - Source agent roles in the second library (`openclaw-skills`): 5. All five are merged into `agents/`.
-- Merged skills in `skills/`: 59.
+- Merged skills in `skills/`: 63.
 
 ## Status meanings
 
@@ -29,79 +29,79 @@ Per-author counts are a starting point, not a quality judgement. Merging is done
 | tanyo-gochev | 11 | Cited |
 | justin-rowe | 10 | Cited |
 | thomas-marcelle | 9 | Not cited |
-| sam-dunning | 8 | Not cited |
 | ryan-iyengar | 8 | Cited |
-| jeremy-hurst | 7 | Not cited |
+| sam-dunning | 8 | Not cited |
 | gali-firon | 7 | Not cited |
-| vesselin-malev | 6 | Not cited |
+| jeremy-hurst | 7 | Not cited |
 | nylan-richard | 6 | Not cited |
-| yoni-tserruya | 5 | Cited |
-| thomas-maitre | 5 | Cited |
-| peter-cools | 5 | Cited |
-| omer-levy | 5 | Not cited |
-| nadav-david | 5 | Not cited |
-| maxwell-nimmo | 5 | Not cited |
-| john-williams | 5 | Not cited |
-| jason-mesiarik | 5 | Not cited |
+| vesselin-malev | 6 | Not cited |
 | erwann-lefevre | 5 | Cited |
-| uri-knorovich | 4 | Not cited |
-| udi-cohen | 4 | Cited |
-| imad-badreddine | 4 | Not cited |
-| gal-aga | 4 | Cited |
-| emilia-korczynska | 4 | Cited |
-| amir-baldiga | 4 | Cited |
+| jason-mesiarik | 5 | Not cited |
+| john-williams | 5 | Not cited |
+| maxwell-nimmo | 5 | Not cited |
+| nadav-david | 5 | Not cited |
+| omer-levy | 5 | Not cited |
+| peter-cools | 5 | Cited |
+| thomas-maitre | 5 | Cited |
+| yoni-tserruya | 5 | Cited |
 | alon-goldenberg | 4 | Cited |
-| shane-oconnor | 3 | Not cited |
-| manny-medina | 3 | Not cited |
-| lucas-godtfredsen | 3 | Not cited |
-| justin-blij | 3 | Not cited |
-| huxley-peckham | 3 | Not cited |
-| gal-tamir | 3 | Not cited |
-| gaetano-romeo | 3 | Not cited |
+| amir-baldiga | 4 | Cited |
+| emilia-korczynska | 4 | Cited |
+| gal-aga | 4 | Cited |
+| imad-badreddine | 4 | Not cited |
+| udi-cohen | 4 | Cited |
+| uri-knorovich | 4 | Not cited |
 | boaz-descalo | 3 | Not cited |
-| sam-jacobs | 2 | Not cited |
-| kevin-kd-dorsey | 2 | Not cited |
-| gerrit-kesten | 2 | Not cited |
-| din-arbel | 2 | Cited |
-| danni-chen | 2 | Not cited |
-| brianne-thomas | 2 | Cited |
-| amos-bar-joseph | 2 | Not cited |
-| amit-rotstein | 2 | Not cited |
+| gaetano-romeo | 3 | Not cited |
+| gal-tamir | 3 | Not cited |
+| huxley-peckham | 3 | Not cited |
+| justin-blij | 3 | Not cited |
+| lucas-godtfredsen | 3 | Not cited |
+| manny-medina | 3 | Not cited |
+| shane-oconnor | 3 | Not cited |
 | aditya-sriram | 2 | Cited |
-| victor-moen | 1 | Not cited |
-| tim-yakubson | 1 | Not cited |
-| thebigasif | 1 | Not cited |
-| sung-jo | 1 | Cited |
-| steve-armenti | 1 | Not cited |
-| scott-wueschinski | 1 | Not cited |
-| sangram-vajre | 1 | Not cited |
-| sabahudin-murtic | 1 | Cited |
-| ryan-estes | 1 | Not cited |
-| roman-palii | 1 | Not cited |
-| rob-snyder | 1 | Not cited |
-| peter-borkovich | 1 | Cited |
-| pete-mientkiewicz | 1 | Not cited |
-| osnat-lidor | 1 | Not cited |
-| nikhil-mirza | 1 | Cited |
-| monica-dinu | 1 | Not cited |
-| maja-voje | 1 | Not cited |
-| luke-shalom | 1 | Not cited |
-| katya-tarapovskaia | 1 | Cited |
-| joshua-waldman | 1 | Not cited |
-| jorge-macias | 1 | Cited |
-| eliezer-cohen | 1 | Not cited |
-| elad-hefetz | 1 | Not cited |
-| dyanesh-perumal | 1 | Not cited |
-| dusan-vystrcil | 1 | Cited |
-| dima-bilous | 1 | Not cited |
-| dave-engel | 1 | Not cited |
-| chris-rodde | 1 | Not cited |
-| brian-carroll | 1 | Cited |
-| brad-smith | 1 | Not cited |
-| bojan-berisavljevic | 1 | Not cited |
-| austin-hay | 1 | Not cited |
-| amith-tk | 1 | Not cited |
+| amit-rotstein | 2 | Not cited |
+| amos-bar-joseph | 2 | Not cited |
+| brianne-thomas | 2 | Cited |
+| danni-chen | 2 | Not cited |
+| din-arbel | 2 | Cited |
+| gerrit-kesten | 2 | Not cited |
+| kevin-kd-dorsey | 2 | Not cited |
+| sam-jacobs | 2 | Not cited |
 | .system | 1 | Not applicable (source tooling, not GTM) |
+| amith-tk | 1 | Not cited |
+| austin-hay | 1 | Not cited |
+| bojan-berisavljevic | 1 | Not cited |
+| brad-smith | 1 | Not cited |
+| brian-carroll | 1 | Cited |
+| chris-rodde | 1 | Not cited |
+| dave-engel | 1 | Not cited |
+| dima-bilous | 1 | Not cited |
+| dusan-vystrcil | 1 | Cited |
+| dyanesh-perumal | 1 | Not cited |
+| elad-hefetz | 1 | Not cited |
+| eliezer-cohen | 1 | Not cited |
+| jorge-macias | 1 | Cited |
+| joshua-waldman | 1 | Not cited |
+| katya-tarapovskaia | 1 | Cited |
+| luke-shalom | 1 | Not cited |
+| maja-voje | 1 | Not cited |
+| monica-dinu | 1 | Not cited |
+| nikhil-mirza | 1 | Cited |
+| osnat-lidor | 1 | Not cited |
+| pete-mientkiewicz | 1 | Not cited |
+| peter-borkovich | 1 | Cited |
+| rob-snyder | 1 | Not cited |
+| roman-palii | 1 | Not cited |
+| ryan-estes | 1 | Not cited |
+| sabahudin-murtic | 1 | Cited |
+| sangram-vajre | 1 | Not cited |
+| scott-wueschinski | 1 | Not cited |
+| steve-armenti | 1 | Not cited |
+| sung-jo | 1 | Cited |
+| thebigasif | 1 | Not cited |
+| tim-yakubson | 1 | Not cited |
+| victor-moen | 1 | Not cited |
 
 ## Matching limit
 

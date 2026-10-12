@@ -2,11 +2,12 @@
 name: competitive-intelligence
 version: 1.0.0
 status: draft-for-review
-description: Use to track what named competitors are doing (funding, leadership, hiring, launches, partnerships), in a dated briefing that reports only new signals, or to prepare a competitor brief for a specific deal such as a displacement or renewal defence. Not for positioning or messaging analysis, which is competitive-white-space.
+description: Use to track what named competitors are doing (funding, leadership, hiring, launches, partnerships), in a dated briefing that reports only new signals, to prepare a competitor brief for a specific deal such as a displacement or renewal defence, or to create or update a six-section battlecard. Not for positioning or messaging analysis, which is competitive-white-space.
 sources:
   - "Competitor monitoring (MIT, Alon Goldenberg), date verification, dedup memory, signal validation, quiet-period rule"
   - "Competitor intel (MIT, Yoni Tserruya), deal-context framing, displacement angles"
   - "Competitive intelligence radar (MIT, Sabahudin Murtic), monitoring cadence"
+  - "Battlecard (MIT, Ido Goldberg / Swan): six-section format, evidence rule for strengths and weaknesses, rumour labelling, date-stamping, one-page length. Knowledge-store tool names and the traffic-estimate step are removed"
 ---
 
 # Competitive intelligence
@@ -42,6 +43,29 @@ Tell the team what changed at each competitor since the last report. Stale news 
 3. **Pull:** firmographics, news from the last 90 days, leadership moves, hiring by function (a surge is an investment signal, a gap is a weakness signal), and customer intent signals where a data source offers them.
 4. **Triage against the deal context.** For displacement, a leadership departure outranks a launch. For renewal defence, a new feature outranks routine hiring.
 5. **Displacement angles** (three to five), only if the user has supplied their own product context. Each angle names a specific signal happening at the competitor now, a way to use it, and one discovery question that brings it out without stating it.
+
+## Battlecard
+
+Use when a team needs a standing competitor reference for live deals, not a dated report. Create one from scratch, or update an existing one by keeping what is still true and revising only what has gone stale.
+
+1. Confirm the competitor's name and primary domain. Load any existing notes first.
+2. Gather a small number of high-signal facts: the headline value proposition, the target customer, named customers from a case-study page, recent leadership, funding and partnership moves, and hiring by function. Do not pull everything.
+3. Write six sections, in this order:
+   - One-line description: what they sell and to whom.
+   - Where they win: three to five genuine strengths. Do not strawman.
+   - Where they lose: three to five weaknesses, each evidenced.
+   - Common objections: "objection → response", three to six entries, each response under thirty words.
+   - Win conditions: buyer profile, deal size, technical or regional factors where we win.
+   - Where to push in a deal: demo emphasis, pricing posture, proof points.
+4. Date-stamp it. Competitive facts go stale quickly.
+5. Save it to the team's shared competitive knowledge, and return it to the user.
+
+Battlecard rules:
+
+- Every strength and weakness has a source. A rumoured point is labelled as reported, with where it was reported.
+- Do not include legally sensitive claims, such as "their product is insecure", without a citation.
+- Keep it to about one page (roughly 600 words).
+- If the competitor has almost no public footprint, say so. The team may be preparing for a rival that rarely appears in deals, and should check that before investing in a card.
 
 ## Output
 

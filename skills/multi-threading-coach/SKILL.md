@@ -5,6 +5,7 @@ status: draft-for-review
 description: Use on a live deal that depends on one contact, when the champion has gone quiet, when nobody can name the decision-maker, or when the buying process is about to get bigger. Maps the buying committee, scores each contact on access (can you reach them) and influence (do they move the decision), flags single-thread risk, and produces a coalition plan with a reason and a talking point for each new thread. Not for blast outreach.
 sources:
   - "Multi-threading coach (MIT, Gal Aga), access and influence scoring, 2x2 priority quadrant, single-thread risk flag, champion-led introductions, persona talking points, re-check cadence"
+  - "Contact mapping and multi-threading (MIT, Ido Goldberg / Swan): relationship-strength categories, former contacts who moved as the highest-value hook, role-gap flags at the top of the map, intro-first routing when a champion exists, and a 30-day engagement exclusion. Persona model and CRM tool names are replaced with generic steps"
   - "Adapted for GTM-360 with the library's evidence rules: no invented names or relationships, [CONFIRM WITH CHAMPION] markers, and approval before any outreach"
 ---
 
@@ -49,6 +50,15 @@ List everyone involved in the decision, not only the people you like talking to.
 
 If you know a role exists but not who holds it, write `[CONFIRM WITH CHAMPION]`. The champion supplies the name. You do not guess it.
 
+Record each person's relationship state, because each implies a different next move:
+
+- **Current contact with history:** still at the account, with prior exchanges.
+- **Former contact still at the account:** a relationship that has gone quiet.
+- **Former contact who moved:** often the highest-value hook in the map. A champion from a lost or stalled deal who now works at another target account is frequently the warmest route in.
+- **Net-new, no history:** flag it. The next move should reflect that there is no relationship.
+
+Never drop a former contact because they have left. Check where they work now. Put role gaps at the top of the map, not at the end.
+
 ### Step 2: Score access and influence
 
 Score every contact on two separate dimensions. Use High, Medium, or Low. Be honest. Inflated access scores are how reps mistake a dead deal for a live one.
@@ -81,6 +91,12 @@ For each stakeholder worth engaging, write one concrete move.
 - **Each thread:** one or two lines of talking point, framed around what that person cares about. Security cares about risk and review burden. Finance cares about return and scenarios. The executive sponsor cares about the strategic outcome. Users care about their day getting easier. Do not reuse one pitch for everyone.
 - **Backers:** give high-access, high-influence champions the case to sell internally. Do not just lean on them.
 - **Sequence:** the order to open threads, and which threads depend on an introduction landing first.
+
+Routing rules:
+
+- With an engaged champion, default to the introduction route. Contacting the economic buyer directly, bypassing the champion, can damage a late-stage deal.
+- Do not suggest a contact who has been engaged in the last 30 days. Check the engagement record first.
+- If the deal is single-threaded and the one contact has gone silent, that is a stalled-deal problem, not a threading problem. Route it to stalled-deal recovery rather than this skill.
 
 Never invent a stakeholder's name, a priority, or a relationship you do not have. A plan built on imagined access convinces a rep that a dead deal is alive.
 

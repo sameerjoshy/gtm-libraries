@@ -8,6 +8,7 @@ sources:
   - "Account intelligence (MIT, Yoni Tserruya), purpose-first framing and triage"
   - "Company recon (MIT, Justin Rowe), fast single-company read and strategic observations"
   - "Account research brief (MIT, Amir Baldiga), evidence versus inference tagging and identity check"
+  - "Company research routing (MIT, Ido Goldberg / Swan): facet routing by ask, depth selection, cheap-before-expensive order, estimate labelling, never invent quotes or financials. Platform tool names and the sub-page structure are replaced with generic steps"
 ---
 
 # Account research brief
@@ -38,6 +39,35 @@ Answer: why this account, why now, who to speak to, and what to ask. Anything th
 9. **Discovery questions:** strategic (three to five) and tactical (three to five). Each must be something only the buyer can answer.
 10. **Next actions:** three to five, each naming a person, the channel, and the timing. Draft one short outreach message for the first action.
 11. **Summary:** the strongest fit, the biggest risk, and the fastest route to a proof point.
+
+## Depth and routing
+
+Pick the depth from the ask. Most asks need a short read. Scale up only when the user signals depth, or when the stakes justify it, such as board prep or executive outreach.
+
+- A quick fit check ("is this account a fit?"): one paragraph, with the answer first.
+- A standard brief: the steps above at summary level.
+- A full dossier for a senior meeting: all the steps in full.
+
+Over-researching a question a sentence could answer is the most common failure.
+
+Choose the facet that matches the ask:
+
+| Ask | Focus |
+|---|---|
+| What does the company do | Firmographics and positioning |
+| Who to speak to | Buying committee |
+| What is happening now | Live signals, last 90 days |
+| How they sell | Go-to-market motion and pricing posture |
+| Digital footprint | Domain, traffic, search presence |
+| Money and ownership | Funding, ownership, runway |
+| Tools they run | Technology stack |
+| Competitor mentions | Where the account talks about rivals |
+
+Cheap before expensive: check the CRM and prior briefs first, then free public sources such as the company's own site and news, then paid enrichment only where a real gap remains.
+
+Inferred figures (estimated revenue, motion type, runway) are marked "estimated" or "appears to be", and never stated as fact. Quotes appear only where they occur in a source. Never invent a quote, a priority, or a financial figure.
+
+Write any durable fact the research surfaces (financial state, stack, motion) to the account record, so the next person inherits it.
 
 ## Output
 
