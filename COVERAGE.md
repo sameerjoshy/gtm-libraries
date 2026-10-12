@@ -6,7 +6,7 @@ Tracks every source skill from the two downloaded libraries, so that nothing is 
 
 - Source skills in the first library (`gtm-skills`): 404 SKILL.md files across the author folders below.
 - Source agent roles in the second library (`openclaw-skills`): 5. All five are merged into `agents/`.
-- Merged skills in `skills/`: 145.
+- Merged skills in `skills/`: 155.
 
 ## Status meanings
 
@@ -23,18 +23,18 @@ Per-author counts are a starting point, not a quality judgement. Merging is done
 | rutger-katz | 43 | Cited |
 | alex-vacca | 37 | Cited |
 | ido-goldberg | 19 | Cited |
-| daniel-bustamante | 15 | Not cited |
+| daniel-bustamante | 15 | Cited |
 | ariel-cohen | 13 | Cited |
 | yahav-fuchs | 12 | Cited |
 | tanyo-gochev | 11 | Cited |
 | justin-rowe | 10 | Cited |
 | thomas-marcelle | 9 | Cited |
 | ryan-iyengar | 8 | Cited |
-| sam-dunning | 8 | Not cited |
+| sam-dunning | 8 | Cited |
 | gali-firon | 7 | Cited |
 | jeremy-hurst | 7 | Cited |
 | nylan-richard | 6 | Not cited |
-| vesselin-malev | 6 | Not cited |
+| vesselin-malev | 6 | Cited |
 | erwann-lefevre | 5 | Cited |
 | jason-mesiarik | 5 | Cited |
 | john-williams | 5 | Cited |
@@ -52,7 +52,7 @@ Per-author counts are a starting point, not a quality judgement. Merging is done
 | udi-cohen | 4 | Cited |
 | uri-knorovich | 4 | Cited |
 | boaz-descalo | 3 | Cited |
-| gaetano-romeo | 3 | Not cited |
+| gaetano-romeo | 3 | Cited |
 | gal-tamir | 3 | Not cited |
 | huxley-peckham | 3 | Not cited |
 | justin-blij | 3 | Cited |
@@ -69,7 +69,7 @@ Per-author counts are a starting point, not a quality judgement. Merging is done
 | kevin-kd-dorsey | 2 | Cited |
 | sam-jacobs | 2 | Cited |
 | .system | 1 | Not applicable (source tooling, not GTM) |
-| amith-tk | 1 | Not cited |
+| amith-tk | 1 | Cited |
 | austin-hay | 1 | Not cited |
 | bojan-berisavljevic | 1 | Not cited |
 | brad-smith | 1 | Not cited |

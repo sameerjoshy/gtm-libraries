@@ -106,3 +106,10 @@ Skills listed as merge next in sections 2 and 3 are being written in batches. Ch
 - Written: creator-programme-strategy, creator-deal-structure, creator-rate-band, creator-negotiation, creator-discovery-and-vetting, creator-sponsored-post-drafting, creator-programme-measurement (creator set); community-channel-research, community-post-preflight, community-comment-safety, community-account-warmup, community-account-health (community set, generic forum form); affiliate-programme-playbook (affiliate set, read in part).
 - Folded, not written: the ambassador-finder (covered by brand-advocate-finder), the creator benchmark skill (covered by creator-rate-band), and the Reddit attribution and brand-mention triage (covered by brand-mention-monitor and attribution skills).
 - Still pending: the newsletter and content set, the search and AI visibility set (including the answer-engine visibility tracking), the remaining paid ads audit and Performance Max skills, and the ads writing-style and message-validation sets.
+
+## Progress note: newsletter, content and SEO batch (155 merged)
+
+- Written: newsletter-positioning, newsletter-subscriber-onboarding, newsletter-issue-formats (includes the 52-idea and post-to-issue sources), email-subject-and-copy-review (includes the pain-is-the-pitch rewrite), campaign-benchmark-verdict, content-authenticity-review (anti-slop, humanise and de-slop sources, one skill), seo-topic-prioritisation, seo-serp-qualification, organic-decline-diagnosis (zero-click audit), answer-engine-citation-drill-down.
+- Folded, not written: tanyo-gochev email-sequence into saas-lifecycle-programs (same job: behaviour-triggered lifecycle flows).
+- Not yet written, referenced as plain text: seo-topic research (sam-dunning business context, research pipeline, topic shaping, keyword validation) and answer-engine visibility tracking (yahav aeo-visibility-tracking).
+- Still pending: the remaining SEO research sources, the answer-engine visibility tracking skill, the ryan-estes newsletter report, the remaining paid ads sources (Performance Max generic form, audits, writing style, message validation).
