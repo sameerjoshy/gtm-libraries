@@ -6,7 +6,7 @@ Tracks every source skill from the two downloaded libraries, so that nothing is 
 
 - Source skills in the first library (`gtm-skills`): 404 SKILL.md files across the author folders below.
 - Source agent roles in the second library (`openclaw-skills`): 5. All five are merged into `agents/`.
-- Merged skills in `skills/`: 97.
+- Merged skills in `skills/`: 103.
 
 ## Status meanings
 
@@ -32,7 +32,7 @@ Per-author counts are a starting point, not a quality judgement. Merging is done
 | ryan-iyengar | 8 | Cited |
 | sam-dunning | 8 | Not cited |
 | gali-firon | 7 | Cited |
-| jeremy-hurst | 7 | Not cited |
+| jeremy-hurst | 7 | Cited |
 | nylan-richard | 6 | Not cited |
 | vesselin-malev | 6 | Not cited |
 | erwann-lefevre | 5 | Cited |

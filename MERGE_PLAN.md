@@ -72,3 +72,9 @@ Recommendation: include ads, creator, search and AI visibility, and events only 
 ## Progress note
 
 Skills listed as merge next in sections 2 and 3 are being written in batches. Check `skills/` and `COVERAGE.md` for what is merged. Items written so far: call-scoring, meddpicc-gap-audit, discovery-to-demo-bridge, roi-business-case, demo-builder, objection-mining, outbound-performance-diagnosis, cold-offer-architect, call-followup-sweep, stage-aware-follow-up, competitor-connection-displacement, closed-won-replication-play, leaked-demand-recovery, warm-intro-intelligence, rfp-response, sales-hire-scorecard, board-meeting-prep, founder-led-sales, acquired-brand-gtm-integration, move-gtm-diagnostic, account-progression-staging, sdr-outbound-rules, signal-outbound-plays, cold-email-preflight, email-deliverability, market-finder, personalised-first-touch, brand-advocate-finder, profitable-efficient-growth, saas-lifecycle-programs, gtm-command-center, marketing-ecosystem-diagnostic, reply-pull-gate, earned-autonomy.
+
+## Progress note: sales batch 4 (103 merged)
+
+- Written: bridge-before-cold, recent-discourse-sweep, demand-lifecycle-model, post-meeting-follow-through, sales-hire-offer-close, investor-update.
+- Folded, not written (overlap with merged skills): persona-mapping-framework (covered by prospect-list-building and multi-threading-coach), prospect-to-pipeline (covered by cold-offer-architect and stage-aware-follow-up), outreach-execution (covered by sdr-outbound-rules and cold-email-preflight).
+- Still pending: gtm-philosophy (alex-vacca), inbound and LinkedIn signal handling (ariel-cohen), events and conference group (about 8 files), brand-mention-monitor (uri-knorovich), bench-strength-and-succession and leadership-development-diagnostic (jason-mesiarik), and the channel and content sets.
