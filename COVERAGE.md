@@ -6,7 +6,7 @@ Tracks every source skill from the two downloaded libraries, so that nothing is 
 
 - Source skills in the first library (`gtm-skills`): 404 SKILL.md files across the author folders below.
 - Source agent roles in the second library (`openclaw-skills`): 5. All five are merged into `agents/`.
-- Merged skills in `skills/`: 81.
+- Merged skills in `skills/`: 89.
 
 ## Status meanings
 
@@ -48,9 +48,9 @@ Per-author counts are a starting point, not a quality judgement. Merging is done
 | amir-baldiga | 4 | Cited |
 | emilia-korczynska | 4 | Cited |
 | gal-aga | 4 | Cited |
-| imad-badreddine | 4 | Not cited |
+| imad-badreddine | 4 | Cited |
 | udi-cohen | 4 | Cited |
-| uri-knorovich | 4 | Not cited |
+| uri-knorovich | 4 | Cited |
 | boaz-descalo | 3 | Cited |
 | gaetano-romeo | 3 | Not cited |
 | gal-tamir | 3 | Not cited |
@@ -65,7 +65,7 @@ Per-author counts are a starting point, not a quality judgement. Merging is done
 | brianne-thomas | 2 | Cited |
 | danni-chen | 2 | Not cited |
 | din-arbel | 2 | Cited |
-| gerrit-kesten | 2 | Not cited |
+| gerrit-kesten | 2 | Cited |
 | kevin-kd-dorsey | 2 | Cited |
 | sam-jacobs | 2 | Not cited |
 | .system | 1 | Not applicable (source tooling, not GTM) |
@@ -82,7 +82,7 @@ Per-author counts are a starting point, not a quality judgement. Merging is done
 | elad-hefetz | 1 | Not cited |
 | eliezer-cohen | 1 | Cited |
 | jorge-macias | 1 | Cited |
-| joshua-waldman | 1 | Not cited |
+| joshua-waldman | 1 | Cited |
 | katya-tarapovskaia | 1 | Cited |
 | luke-shalom | 1 | Not cited |
 | maja-voje | 1 | Not cited |
@@ -95,9 +95,9 @@ Per-author counts are a starting point, not a quality judgement. Merging is done
 | roman-palii | 1 | Not cited |
 | ryan-estes | 1 | Not cited |
 | sabahudin-murtic | 1 | Cited |
-| sangram-vajre | 1 | Not cited |
+| sangram-vajre | 1 | Cited |
 | scott-wueschinski | 1 | Not cited |
-| steve-armenti | 1 | Not cited |
+| steve-armenti | 1 | Cited |
 | sung-jo | 1 | Cited |
 | thebigasif | 1 | Not cited |
 | tim-yakubson | 1 | Not cited |
