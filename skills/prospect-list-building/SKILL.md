@@ -25,7 +25,7 @@ A list is a table in which each column costs something and removes some rows. Bu
 Route elsewhere when:
 
 - The question is how to score accounts already on file. Use `account-tier-scoring`.
-- The question is whether an existing list is clean. This is list hygiene, which is not yet merged into this library. Use the free elimination and dedupe steps above on the existing list in the meantime.
+- The question is whether an existing list or CRM is clean, and how to clean it. Use `revops-data-governance`. For removing duplicates before enrichment, use the dedupe steps above.
 - The question is which accounts are worth a named ABM investment. Use `abm-strategy-planner`.
 
 ## Inputs
