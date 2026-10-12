@@ -19,6 +19,15 @@ Defines who the client sells to, turns that definition into rules a list can be 
 
 Produce an ICP that is a decision rule, not a description. Every criterion is either a gate with a named data source or a labelled assumption. The output tells the team who to exclude as clearly as who to target, and it predicts the client's own past wins.
 
+## When to use
+
+- A client needs an ideal customer profile that works as a decision rule for qualifying accounts.
+- The ICP needs refining against closed-won and closed-lost deals.
+
+Route elsewhere when:
+- A list already exists and must be sorted against the ICP. Use `audience-icp-filter`.
+- Accounts already in the CRM need tiers. Use `account-tier-scoring`.
+
 ## Principles
 
 - **Revenue first, deck second.** The profile is derived from what paid, then checked against near-misses and late losses. A profile written before the revenue arrived is a hypothesis until it has been tested against the ledger.

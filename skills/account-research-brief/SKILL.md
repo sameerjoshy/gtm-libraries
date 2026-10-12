@@ -19,6 +19,15 @@ Produces a one-account brief an AE can use in a meeting. Every claim is tagged a
 
 Answer: why this account, why now, who to speak to, and what to ask. Anything that does not help the seller act is left out.
 
+## When to use
+
+- An account executive needs a one-account brief before a meeting or a decision.
+- The question is why this account, why now, who to speak to, and what to ask.
+
+Route elsewhere when:
+- Many accounts need placing in tiers. Use `account-tier-scoring`.
+- A contact list needs sorting against the ICP. Use `audience-icp-filter`.
+
 ## Inputs
 
 - **Account identifier.** Use the company's domain or URL slug, not its display name. Display-name matching returns near-matches, and researching the wrong company is worse than researching nothing. If there is no confident match, stop and report the ambiguity.

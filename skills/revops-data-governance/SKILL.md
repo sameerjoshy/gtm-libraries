@@ -18,6 +18,15 @@ Makes CRM data trustworthy enough to report on, route from, and forecast with. M
 
 Give the team one documented system of record for each data point, one set of definitions, a health score that can be reproduced, and a cleanup that can be reviewed, reversed, and verified. Prevention comes first, then detection, then correction.
 
+## When to use
+
+- CRM data is too untrustworthy to report on, route from or forecast with, and needs measuring, cleaning under review and preventing from recurring.
+- Owners, definitions or systems of record for key data points are unclear.
+
+Route elsewhere when:
+- The question is the forecast method. Use `revops-forecasting`.
+- The question is the team's wider operating model. Use `revops-strategy`.
+
 ## Principles
 
 - **Define before measuring, measure before cleaning.** A cleanup without a baseline cannot show it worked.

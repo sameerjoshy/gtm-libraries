@@ -28,6 +28,13 @@ Route elsewhere when:
 - The question is the pause rules for cost per lead. Use `paid-optimisation-signals`.
 - The question is measurement set-up. Use `paid-measurement-scorecard`.
 
+## Inputs
+
+- Daily results per ad over the last several weeks: frequency, click-through, cost per thousand impressions and cost per result.
+- The baseline click-through for each campaign.
+- Relevance diagnostics, where the platform reports them.
+- The current creative inventory and the age of each asset.
+
 ## Signals, in order of urgency
 
 | Signal | Default threshold | Urgency |

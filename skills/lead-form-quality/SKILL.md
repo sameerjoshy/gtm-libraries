@@ -28,6 +28,13 @@ Route elsewhere when:
 - The question is measurement of lead quality over time. Use `paid-measurement-scorecard`.
 - The question is the follow-up after a lead arrives. Use `inbound-demo-request-triage` for demo requests or `reply-handling` for replies.
 
+## Inputs
+
+- The platform and form type in use, and the fields it collects.
+- Lead records with their email type, job title and company, and any sales feedback on them.
+- The offer the form promises.
+- The landing-page conversion rate for the same audience, if a landing page exists.
+
 ## The social-amnesia problem
 
 Lead forms fill in automatically from the person's profile and submit in a couple of seconds. The person may not register what they signed up for. When sales calls, the prospect says they do not remember giving their details and asks where the company found them. This is the main quality problem with B2B lead forms.

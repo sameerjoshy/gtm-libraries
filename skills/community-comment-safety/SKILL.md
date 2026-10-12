@@ -27,6 +27,13 @@ Route elsewhere when:
 - The question is which community to take part in. Use `community-channel-research`.
 - The question is whether an account is ready to comment. Use `community-account-warmup`.
 
+## Inputs
+
+- The draft comment and the thread it responds to.
+- The community's rules and its self-promotion policy.
+- Recent comments from the same account, to check for repeated shapes across threads.
+- The account's standing, from the warm-up check.
+
 ## The six-point check
 
 1. **Community rules.** Does the comment comply with the rules the community states?

@@ -20,6 +20,23 @@ The change fails because the implementation ignored how people adopt change. A c
 
 The identity shift to design for: from "we trained them" to "we changed how they operate." Training is an input. Behaviour change is the output. Design for the output.
 
+## When to use
+
+- A RevOps change (a territory, comp plan, process or system) has been approved and now has to change how people actually work.
+- Training has been run, and the team has not adopted the new method.
+
+Route elsewhere when:
+- The question is compensation design. Use `gtm-compensation`.
+- The question is the pipeline architecture itself. Use `revops-strategy`.
+
+## Inputs
+
+- The change, its scope, and the date it has to take effect.
+- The teams, roles and individuals affected, and who loses something in the change.
+- What the current system measures, shows, reviews and pays for, to test the behaviour audit.
+- The systems, reporting definitions and dashboards the change touches.
+- The transition budget and any revenue risk during the productivity dip.
+
 ## Skill structure
 
 Part 1 plans the change: impact, stakeholders, communication, transition. Part 2 makes it stick: behaviour design, coaching, reinforcement, and energy. Both are required for any high-impact change. For a small change, Part 1 may be enough.

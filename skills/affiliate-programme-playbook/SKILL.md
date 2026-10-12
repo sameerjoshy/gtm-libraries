@@ -28,6 +28,14 @@ Route elsewhere when:
 - The question is channel partners that resell the product. Use `partner-channel-operations`.
 - The question is the partner ecosystem architecture. Use `partner-ecosystem-architect`.
 
+## Inputs
+
+- The product, its price and average deal size, and the most the company can pay to acquire a customer.
+- Expected retention, for the commission arithmetic.
+- The buyer's journey, and the voices the buyer already trusts.
+- The cookie window the buyer's decision needs, and the terms the company is willing to state.
+- The current partner list and sign-up data, if a programme is already live.
+
 ## The thesis
 
 Affiliates are people, not links. A programme wins when each partner is recruited for fit, onboarded, trained, and given a reason to show up. Sign-up volume is a poor measure of success.

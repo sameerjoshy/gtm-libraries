@@ -37,6 +37,13 @@ Route elsewhere when:
 4. **The forecast call manages risk.** Its purpose is to find deals at risk, move resources to committed deals, and check pipeline generation. A call where reps read out updates has no purpose.
 5. **Measure accuracy by rep, segment, and quarter.** Patterns of who over-forecasts and who under-forecasts are themselves actionable.
 
+## Inputs
+
+- Forecast against outcome by period, rep and segment, from past quarters.
+- Deal records with their category, stage, close date and last activity.
+- Qualification evidence for each deal, from `deal-qualification-gates`.
+- Pipeline coverage targets, and the segment definitions (enterprise and SMB, inbound and outbound, new and expansion).
+
 ## Method 1: Category-based forecasting
 
 Each deal is placed in one category by the rep and validated by management.

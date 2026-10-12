@@ -30,6 +30,13 @@ Route elsewhere when:
 - The question is whether the text reads as machine-written. Use `content-authenticity-review`.
 - The question is the reader's pain in depth. Use `ad-copy-voice-of-customer` for customer language.
 
+## Inputs
+
+- The email's intent, and its audience.
+- The draft subject line and body.
+- Open rates and reply rates for earlier emails, where they exist, to judge the alternatives.
+- Any real deadline the email can state. Without one, no urgency is written.
+
 ## Subject lines
 
 Match the subject to the email's intent. Write five to ten options, each using a different trigger:

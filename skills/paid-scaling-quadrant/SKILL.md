@@ -28,6 +28,13 @@ Route elsewhere when:
 - The question is whether measurement is good enough to scale on. Use `paid-measurement-scorecard`.
 - The question is the total budget and its split. Use `paid-budget-by-stage`.
 
+## Inputs
+
+- The campaign's results and whether they are stable.
+- The team's budget available for new money.
+- The team's capacity to build new campaigns.
+- Whether measurement is reliable enough to scale on.
+
 ## The two axes
 
 - **Effort** runs left to right. Low effort means scaling a single campaign. High effort means scaling across campaigns and markets.

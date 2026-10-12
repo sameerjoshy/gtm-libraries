@@ -27,6 +27,13 @@ Route elsewhere when:
 - The question is the stage budget. Use `paid-budget-by-stage`.
 - The question is the form that collects the sign-up. Use `lead-form-quality`.
 
+## Inputs
+
+- The audience and the stage the campaign addresses.
+- The offer under consideration, and the step it asks for.
+- Click-through and sign-up rates for earlier offers, where they exist.
+- A few real buyers who can test the offer before scale.
+
 ## The no-brainer test
 
 A no-brainer offer has high perceived value and a high likelihood that the person will take it, with little sense of commitment. Test each offer on both:

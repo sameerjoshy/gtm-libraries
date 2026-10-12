@@ -18,6 +18,24 @@ Revenue is a production line. Marketing, sales, and customer success are station
 
 This skill sets out how to structure the pipeline, the metrics, the data, and the tooling so that the line can be measured and improved. It answers "how should this engine be built?" For the question "what is limiting it right now?", use `revops-diagnostic` first.
 
+## When to use
+
+- A team is designing or redesigning how the pipeline, metrics, data and tooling fit together.
+- Stage contracts need defining across marketing, sales and customer success.
+
+Route elsewhere when:
+- The question is what is limiting the engine right now. Use `revops-diagnostic`.
+- The question is data cleanup under review. Use `revops-data-governance`.
+- The question is forecast method. Use `revops-forecasting`.
+
+## Inputs
+
+- The current pipeline stages, with their entry and exit rules where they exist.
+- The metrics in use, and the decision each one informs.
+- The data sources in use, and who owns each.
+- The tooling in place, and any process it automates.
+- The segments the business runs: new and expansion, enterprise and SMB, inbound and outbound.
+
 ## Operating principles
 
 1. **Measure what creates signal, not noise.** Every metric needs a causal chain to revenue: metric, then behaviour change, then revenue impact. If the chain cannot be drawn, the metric is vanity.

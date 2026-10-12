@@ -17,6 +17,16 @@ Inspects the live pipeline, finds the deals that need attention, and gives one c
 
 Before a forecast call, know which deals are stalled, regressing, thinly threaded, or carrying dates and amounts that cannot be trusted, and what to do about each. Make the pipeline movement add up week to week. Stay on the inspection. Forecast methodology and CRM configuration are separate jobs.
 
+## When to use
+
+- A forecast call is coming, and the team needs to know which live deals are stalled, regressing or thinly threaded.
+- Each flagged deal needs one concrete next action.
+
+Route elsewhere when:
+- The question is the forecast method. Use `revops-forecasting`.
+- The question is data quality in the CRM. Use `revops-data-governance`.
+- A single complex deal is stuck. Use `deal-blocker-maneuvers`.
+
 ## Principles
 
 - **Evidence beside every flag.** A flag reads "Stalled: last activity 26 days ago, stage Proposal". Never a vague "looks at risk".

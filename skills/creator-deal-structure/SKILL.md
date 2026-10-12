@@ -27,6 +27,13 @@ Route elsewhere when:
 - The question is the reply to a counter-offer. Use `creator-negotiation`.
 - The question is measuring the return. Use `creator-programme-measurement`.
 
+## Inputs
+
+- The creator's proposed fee, and the expected number of clicks from the post.
+- The campaign goal: a message, or qualified traffic.
+- The definition of a qualified click, and the tracking that will count it.
+- The unit economics: the cost per click and deal value the structure has to work within.
+
 ## The rule
 
 **Pay flat when you are buying a message. Pay per click when you are buying pipeline.**

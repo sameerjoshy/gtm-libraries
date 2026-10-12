@@ -17,6 +17,15 @@ Works out whether the revenue team is built for the product, the buyer, and the 
 
 Give leadership a motion decision, a territory and capacity model, a headcount and hiring plan, and efficiency checks, all built from stated assumptions that someone can challenge. The plan should show what the team can produce at its current productivity, what each investment adds, and when hiring must start to be productive on time.
 
+## When to use
+
+- Leadership needs to check whether the revenue team is built for the product, the buyer and the stage.
+- A revenue target needs its capacity, headcount and hiring timing tested before it is accepted.
+
+Route elsewhere when:
+- The question is the planning calendar and forecast. Use `revops-revenue-planning`.
+- The question is compensation design. Use `gtm-compensation`.
+
 ## Principles
 
 - **Match the motion to the sale.** The touch model follows deal size, buyer seniority, and decision complexity. A high-touch team on a small deal does not pay back. A self-serve motion on a large complex deal leaves money on the table.

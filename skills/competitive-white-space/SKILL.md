@@ -16,6 +16,15 @@ Shows what the market says, what it does not say, and where the company can take
 
 Turn competitive research into positioning and targeting choices. Every finding must change what the company says or who it targets.
 
+## When to use
+
+- The team needs to find claims no competitor makes, and turn them into positioning and targeting choices.
+- Competitor messaging looks alike and the team needs to know where it can stand apart.
+
+Route elsewhere when:
+- The question is a dated change at a competitor. Use `competitive-intelligence`.
+- The question is the company's own one-account research. Use `account-research-brief`.
+
 ## Inputs
 
 - **Competitor URLs** (best), or names (the skill finds the sites), or a company URL plus "find competitors". Three to five competitors. More dilutes the analysis; fewer than three limits the patterns.

@@ -27,6 +27,14 @@ Route elsewhere when:
 - The question is the paid channel measures. Use `paid-measurement-scorecard`.
 - The question is the forecast of creator pipeline. Use `paid-search-unit-economics` for the arithmetic.
 
+## Inputs
+
+- Creator posts and their dates, with each creator's tracking link or code.
+- Spend per creator and in total.
+- The CRM funnel from click to closed-won, with a field that marks creator-sourced records.
+- A holdout or before-and-after baseline, to measure view-through lift.
+- The attribution window, set before the data is read.
+
 ## Fix the attribution first
 
 Correcting three things often changes reported return substantially without any change in spend:

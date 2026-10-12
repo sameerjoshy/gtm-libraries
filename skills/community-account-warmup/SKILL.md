@@ -26,6 +26,13 @@ Route elsewhere when:
 - The question is an account that is already active and has moderation signals. Use `community-account-health`.
 - The question is a particular post. Use `community-post-preflight`.
 
+## Inputs
+
+- The account's age and existing contribution history.
+- The forum's own contribution signals for standing, such as accepted or upvoted posts.
+- The rules of each target community, including any eligibility milestones.
+- The promotion the team plans, to check against the ladder.
+
 ## The promotional ladder
 
 Promotional share is earned, not chosen. Defaults, to calibrate for each forum:

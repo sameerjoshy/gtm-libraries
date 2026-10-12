@@ -18,6 +18,15 @@ Writes down what good looks like for the sales team, so the playbook works when 
 
 Produce a playbook that is written, agreed, built from real calls and deals, and owned. Put people first, because people are the ones who run the plays. Show the math behind every target. Make ramp and qualification evidence explicit, so promotion, termination, and onboarding decisions do not depend on memory.
 
+## When to use
+
+- The sales team needs a written playbook that works without the leader present, built from real calls and deals.
+- A new rep needs to succeed from the document alone, and the team needs one agreed standard.
+
+Route elsewhere when:
+- The question is hiring, offer or close decisions for a sales role. Use `sales-hire-offer-close`.
+- The question is succession of leaders. Use `bench-strength-and-succession`.
+
 ## Principles
 
 - **Write it down.** A playbook in someone's head is not a playbook.

@@ -28,6 +28,13 @@ Route elsewhere when:
 - The question is which buying signals to track in general. Use `signal-detection-and-timing`.
 - The question is an inbound demo request from the website. Use `inbound-demo-request-triage`.
 
+## Inputs
+
+- The signal and the actor: name, title, employer and company domain.
+- The team's own CRM record of the actor, and any earlier processing in the same window.
+- The list of team members and company domains, to exclude internal activity.
+- The fit rules the team uses for decision-makers and companies.
+
 ## Signal strength
 
 Rank the signals before routing:

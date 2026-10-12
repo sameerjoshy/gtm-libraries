@@ -28,6 +28,13 @@ Route elsewhere when:
 - The question is the buyer's readiness signals. Use `signal-detection-and-timing`.
 - The question is the account list. Use `prospect-list-building`.
 
+## Inputs
+
+- The current spend and activity by programme, to map against the five stages.
+- The measure each programme reports, or a note that it has none.
+- The customer base, with renewal and expansion data, and the list of closed-lost opportunities.
+- The channels in use or proposed, and where each is expected to sit.
+
 ## The five stages
 
 1. **Create.** Build brand affinity and trust with people who are unaware or only aware of the problem. Offers: useful education and thought leadership. Measure: cost per engagement with that content, and blended cost per opportunity.

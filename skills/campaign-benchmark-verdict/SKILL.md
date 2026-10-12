@@ -27,6 +27,13 @@ Route elsewhere when:
 - The question is how to measure. Use `paid-measurement-scorecard`.
 - The question is which optimisation to make. Use `paid-optimisation-signals`.
 
+## Inputs
+
+- The number to judge, with its metric, denominator and period.
+- The team's own history for a comparable campaign: same channel, audience, offer and season.
+- Any target set before the results were known.
+- External averages, used only as a rough guide and labelled as such.
+
 ## The three comparison layers
 
 Use them in this order:

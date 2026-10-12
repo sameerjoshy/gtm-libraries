@@ -17,6 +17,15 @@ Produces a defensible market size and a company list, with each number's source 
 
 Give a market number that a finance lead can check, and a company universe that can be filtered into a campaign without cleaning.
 
+## When to use
+
+- A finance lead needs a defensible market size, with its source and limits stated.
+- A company universe is needed that can be filtered into a campaign without cleaning.
+
+Route elsewhere when:
+- The ICP itself is not yet defined. Use `icp-builder`.
+- An existing list needs sorting against the ICP. Use `audience-icp-filter`.
+
 ## Inputs
 
 - **ICP definition.** Industry, company size, geography, business model, disqualifiers. Ask for the minimum (industry, size, geography) if missing.

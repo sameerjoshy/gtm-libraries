@@ -16,6 +16,15 @@ Sorts an existing list against the ICP so that nobody is contacted by mistake, t
 
 Turn a messy list into four labelled buckets, with a reason on every lead and counts that add back to the input. The output is safe to act on: colleagues and competitors are out, real buyers are in, and the small set of genuinely unclear leads is short enough for a person to decide in minutes.
 
+## When to use
+
+- An existing lead list must be sorted against the ICP into labelled buckets, with a reason for every lead.
+- A team needs to exclude colleagues and competitors safely before outreach.
+
+Route elsewhere when:
+- The ICP is not yet defined. Use `icp-builder`.
+- The list is being built from scratch. Use `prospect-list-building`.
+
 ## Principles
 
 - **Measure before asking.** Check what the list actually contains before proposing ICP criteria. A geography filter on a list with empty location fields filters nothing. It just sends everyone to review and calls that a result.

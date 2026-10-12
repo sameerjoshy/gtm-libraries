@@ -28,6 +28,14 @@ Route elsewhere when:
 - The question is one team's performance diagnosis. Use `leadership-development-diagnostic` or `outbound-performance-diagnosis`.
 - The question is which signals to act on. Use `signal-detection-and-timing`.
 
+## Inputs
+
+- The segment or quarter the strategy covers.
+- The team's current outbound results and the channels it uses.
+- The buying signals the team already tracks.
+- The team's current playbook or templates, if any.
+- Results by rep, where available, to compare what top performers do.
+
 ## The six principles
 
 1. **Copy what top performers do.** Study the best reps' sequences, calls, and habits, then turn them into a standard the rest of the team can run. Do not start from a template the best reps never used.

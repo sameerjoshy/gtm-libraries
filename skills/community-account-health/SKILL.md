@@ -28,6 +28,13 @@ Route elsewhere when:
 - The question is a particular post. Use `community-post-preflight`.
 - The question is a brand mention that needs triage. Use `brand-mention-monitor`.
 
+## Inputs
+
+- Moderator messages and removal notices for the account, with dates.
+- The communities the account has joined.
+- The rules of each community where the account posts.
+- The account's recent posting history.
+
 ## Read the signals
 
 Scan the account's messages from moderators daily, and classify each one:

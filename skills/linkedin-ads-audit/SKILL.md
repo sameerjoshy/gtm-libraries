@@ -19,6 +19,15 @@ Grades a company's own LinkedIn ad performance over the last 30 days against ben
 
 Find where money is wasted, which formats and accounts deserve more spend, and which ads are decaying. Report what the data shows, and say when it cannot show something.
 
+## When to use
+
+- A company wants a grade of its own LinkedIn ad performance over the last 30 days, with a ranked fix list.
+- Spend needs reallocating between formats, or ads need checking for decay.
+
+Route elsewhere when:
+- The question is the last full month's recap. Use `linkedin-ads-monthly-report`.
+- The question is the whole paid account across platforms. Use `paid-account-audit`.
+
 ## Inputs
 
 - **Ad performance export or live connector** covering the last 30 days, and the previous 30 days for trend comparison. Needed fields: spend, impressions, clicks, landing-page clicks, ad format, ad name, campaign name, date.

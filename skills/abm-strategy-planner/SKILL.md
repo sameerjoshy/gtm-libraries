@@ -16,6 +16,14 @@ Turns a short interview plus research into a funnel-based ABM plan with budget, 
 
 Produce a plan a finance lead can check. Every number traces back to a stated input, and every assumption is labelled.
 
+## When to use
+
+- A LinkedIn account-based programme needs a funnel-based plan with budget, campaign structure and a launch checklist.
+
+Route elsewhere when:
+- The question is reporting on a running programme. Use `abm-account-engagement-report`.
+- The question is how to define the measures. Use `abm-measurement-framework`.
+
 ## Inputs
 
 Ask in small batches. Offer a default for each. Never block on a missing number.

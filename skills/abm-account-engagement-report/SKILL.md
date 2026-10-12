@@ -20,6 +20,14 @@ Answer three questions for a VP Marketing or CRO audience:
 2. Where do buying signals appear in more than one channel?
 3. Which segments are engaging, and which are spending without response?
 
+## When to use
+
+- A client needs an account-level dashboard that shows which accounts are progressing, where signals appear in more than one channel, and which segments engage.
+
+Route elsewhere when:
+- The question is planning the programme. Use `abm-strategy-planner`.
+- The question is the measurement method. Use `abm-measurement-framework`.
+
 ## Inputs
 
 - **Rate accounts CSV (required, or pipeline data required).** Expected columns: Company Name, Website, Industry, Company Size, Headquarters, Clicks, Impressions, Cost, CPC, Engagement Level, Conversions, Leads, Influenced Revenue. Any signal tool export that matches these fields works.

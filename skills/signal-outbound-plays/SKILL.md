@@ -27,6 +27,13 @@ Route elsewhere when:
 - The question is a hiring signal. Use `hiring-signal-tracking`.
 - The question is a champion who has moved. Use `champion-job-change-tracking`.
 
+## Inputs
+
+- The signal for each prospect: what happened, and when.
+- The play that matches the signal, and its timing window.
+- The prospect's role and company, to check the angle fits.
+- Any reason the play should not be used, such as a sensitive event or a recent contact.
+
 ## The plays
 
 | Play | Signal | Timing (default) | Angle |

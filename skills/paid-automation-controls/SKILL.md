@@ -27,6 +27,13 @@ Route elsewhere when:
 - The question is the audience data. Use `paid-social-audience-strategy`.
 - The question is the lead form design. Use `lead-form-quality`.
 
+## Inputs
+
+- The campaign's current setup: which layers are manual and which are automated.
+- The creative assets supplied, and the conversion events sent back to the platform.
+- The lagging outcome the team judges by, such as qualified pipeline.
+- Lead records from the platform's forms, for checking quality.
+
 ## What changes under automation
 
 Targeting inputs such as audiences, lookalikes, and interests become suggestions. The platform expands beyond them when it predicts better results. The levers that remain with the team are:

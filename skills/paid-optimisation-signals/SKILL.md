@@ -27,6 +27,13 @@ Route elsewhere when:
 - The question is when a creative is tired. Use `creative-fatigue-rotation`.
 - The question is how far to scale. Use `paid-scaling-quadrant`.
 
+## Inputs
+
+- Leading and lagging results by stage, with dates.
+- The experiment history: what changed, when, and what it did.
+- The thresholds the team uses for action, where they are set.
+- Any new metric proposed as a reason to act, with its source.
+
 ## Leading and lagging signals
 
 - **Leading** signals arrive within a month. Use them for quick optimisation.

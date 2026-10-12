@@ -15,6 +15,15 @@ Defines how to measure an account-based programme. It is a method reference, use
 
 Measure accounts moving through buying stages, not leads moving through a funnel. A programme measured with lead metrics will be judged wrongly.
 
+## When to use
+
+- A programme's measurement is being defined before launch or reviewed mid-flight.
+- A team is judging an account-based programme with lead metrics and needs account-level measures.
+
+Route elsewhere when:
+- The question is the dashboard for a client. Use `abm-account-engagement-report`.
+- The question is the plan and budget. Use `abm-strategy-planner`.
+
 ## Inputs
 
 - Target account list, with a match status for each account.

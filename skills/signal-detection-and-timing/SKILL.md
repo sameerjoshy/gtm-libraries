@@ -22,6 +22,16 @@ Chooses which signals to track, interprets a fired signal, and decides when to a
 
 Keep effort on the few signals that change a buying decision, and act on them inside the window they stay useful. Most signals are noise. A signal that is not interpreted, dated, and checked for fit is an alert, not a lead.
 
+## When to use
+
+- A team needs to choose which public or first-party signals to track for outreach.
+- A signal has fired and needs interpreting, dating and checking for fit before anyone acts.
+
+Route elsewhere when:
+- The question is which ready play to run for a specific event. Use `signal-outbound-plays`.
+- The question is a champion who has changed employer. Use `champion-job-change-tracking`.
+- The question is hiring patterns in particular. Use `hiring-signal-tracking`.
+
 ## Principles
 
 - **Start from the buyer's why-now, not a menu of signal types.** Ask what has to become true in an account for this offer to matter now. Then find the public, observable proxy for that change.

@@ -26,6 +26,13 @@ Route elsewhere when:
 - The question is whether a comment's tone is safe. Use `community-comment-safety`.
 - The question is which communities to join. Use `community-channel-research`.
 
+## Inputs
+
+- The post or link to be shared, and the community it goes to.
+- The community's rules, its type (public, restricted or private), and its wiki or pinned posts.
+- The submission history of the link, to check for duplicates.
+- Any campaign schedule the post belongs to.
+
 ## The four checks, in order, every time
 
 1. **Rules.** Read the community's rules in full. A rule violation gets a post removed at once, and repeat removals flag the account.

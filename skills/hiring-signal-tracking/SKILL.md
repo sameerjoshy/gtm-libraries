@@ -18,6 +18,15 @@ Watches job postings for buying patterns, and verifies every hiring claim at the
 
 Hiring shows where budget and attention are going. A team being built now is a tooling decision being made this quarter. But research tools often attribute another company's job postings to the target, so a hiring claim is not usable until it is confirmed. Both halves belong in one skill.
 
+## When to use
+
+- Job postings at target accounts may show where budget and attention are moving.
+- A hiring claim needs to be verified at the company's own source before anyone acts on it.
+
+Route elsewhere when:
+- The question is which signals to combine into an outreach play. Use `signal-detection-and-timing`.
+- The question is a champion who has moved employer. Use `champion-job-change-tracking`.
+
 ## Principles
 
 - **Verify before use.** A hiring claim counts only when confirmed from the target company's own source. Web research summaries are not enough.

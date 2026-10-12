@@ -16,6 +16,15 @@ Turns a complex deal's qualification into one saved artifact the rep can act on:
 
 Tell the rep what to do next week on a deal that is stuck, has gone quiet, or is about to be forecast. Stop it from being scored on optimism. Make the next move specific enough to run, and the stopping point clear enough that the rep will actually stop.
 
+## When to use
+
+- A complex, multi-stakeholder deal is stuck, has gone quiet, or is about to be forecast.
+- A rep needs one named blocker, one two-cycle move and clear abort criteria for next week.
+
+Route elsewhere when:
+- The question is the qualification standard for the whole deal. Use `deal-qualification-gates`.
+- The question is the agreed plan with the buyer. Use `mutual-action-plan-builder`.
+
 ## Principles
 
 - **Primary evidence only.** Score what the buyer said or wrote. Never the rep's summary, confidence, or assurance that the economic buyer is engaged.

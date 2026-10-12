@@ -27,6 +27,13 @@ Route elsewhere when:
 - The question is how to detect signals in the first place. Use `signal-detection-and-timing`.
 - The question is the wording of a single cold email. Use `outbound-cold-email`.
 
+## Inputs
+
+- The offer, and the operational problem it solves.
+- Candidate signals for the target accounts, with the evidence for each.
+- Any existing outbound list, and whether each row has evidence behind it.
+- Access to the evidence for each account, so another person can inspect it.
+
 ## Procedure
 
 ### Stage one: prove the signal

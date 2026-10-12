@@ -35,6 +35,14 @@ Route elsewhere when:
 - The question is the territory design or headcount model. Use `gtm-planning-org-design`.
 - The question is quota or commission. Use `gtm-compensation`.
 
+## Inputs
+
+- Capacity data: ramped-equivalent reps, their productivity and their pipeline.
+- Finance's target and the ambition behind it.
+- Market opportunity sizing for the segments in scope.
+- The prior plan of record and every earlier version, kept for the audit trail.
+- The reforecast triggers agreed in advance.
+
 ## Core principles
 
 1. **Bottoms-up first, then top-down.** Build from current capacity and known pipeline. Finance adds ambition. Reconcile the gap with named scenarios, not by spreading a number across teams.

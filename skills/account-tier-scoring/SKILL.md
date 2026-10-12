@@ -18,6 +18,15 @@ Places each account in a tier that tells the team how much human attention it de
 
 Keep reps' time on accounts that are both able to buy and showing a reason to act. Stop small accounts reaching the queue on one loud signal, and stop large accounts being dismissed for a quiet month. Produce a tier, a breakdown, and a handover decision that two people would reach the same way.
 
+## When to use
+
+- Accounts need tiers that set how much rep attention each one deserves now.
+- Handover decisions need a checkable reason, with the signals and caps shown.
+
+Route elsewhere when:
+- The ICP itself is being defined. Use `icp-builder`.
+- One account needs a meeting brief. Use `account-research-brief`.
+
 ## Principles
 
 - **Gates before scores.** An account that fails the ICP gate, the size floor, or an exclusion is not tiered. A high intent score never rescues a failed gate.

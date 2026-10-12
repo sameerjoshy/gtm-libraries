@@ -18,6 +18,15 @@ Tracks competitor moves with dated, verified signals, and produces either a peri
 
 Tell the team what changed at each competitor since the last report. Stale news presented as new is the main failure mode, so event dates are checked against the source, and quiet periods are reported as quiet.
 
+## When to use
+
+- The team needs a dated briefing on what has changed at its competitors since the last report.
+- A live deal needs a brief on a named competitor, or a standing battlecard is needed.
+
+Route elsewhere when:
+- The question is where the market leaves room for a position. Use `competitive-white-space`.
+- The question is the deal's qualification. Use `deal-qualification-gates`.
+
 ## Inputs
 
 - **Competitor list.** Confirmed by the user before the first run. Never research a list the user has not approved. If the user does not have one, propose three to five from searches on "[company] competitors", "vs" and "alternatives", then confirm.

@@ -27,6 +27,13 @@ Route elsewhere when:
 - The question is which metrics justify action once measurement works. Use `paid-optimisation-signals`.
 - The question is the attribution model in depth. Use `revenue-metrics`.
 
+## Inputs
+
+- The paid channels in use, and the dashboards that report on them.
+- The conversion tracking in place for each channel.
+- The CRM records of paid-sourced leads, with their stages.
+- The owner and reporting cadence for each dashboard.
+
 ## The five questions
 
 Score each from one to three. Be honest. A score is a description of what exists, not what is planned.

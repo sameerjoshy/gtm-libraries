@@ -16,6 +16,14 @@ Produces a stakeholder-ready recap of last month, with the month-over-month comp
 
 Summarise what happened last month, compare it with the month before, say whether the budget was well spent, and list the actions for next month.
 
+## When to use
+
+- A stakeholder needs a recap of last full calendar month, with the month-over-month comparison and next steps.
+
+Route elsewhere when:
+- The question is a 30-day grade with a fix list. Use `linkedin-ads-audit`.
+- The question is the account-based programme's measurement. Use `abm-measurement-framework`.
+
 ## Inputs
 
 - Ad performance for the last full calendar month and the month before. Use explicit start and end dates for both.

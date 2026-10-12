@@ -16,6 +16,15 @@ Watches the people who already know the product, follows them when they move, an
 
 A champion who moves is warm pipeline: someone who already bought or used the product, now inside a new account, often with a window in which tooling decisions are open. Each move creates two actions. **Follow** the mover to the new company. **Backfill** the vacated seat at the old account, which is also a relationship risk.
 
+## When to use
+
+- Past buyers, power users or deal contacts have changed employer, and the team needs to follow them and backfill the seat they left.
+- A champion list needs a regular check against current employers.
+
+Route elsewhere when:
+- The question is which signals to detect for outreach in general. Use `signal-detection-and-timing`.
+- The question is hiring patterns at target accounts. Use `hiring-signal-tracking`.
+
 ## Principles
 
 - **Compare on domains, never on company names.** Names vary ("Acme Ltd" vs "Acme"). Domains do not.

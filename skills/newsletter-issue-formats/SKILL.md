@@ -28,6 +28,13 @@ Route elsewhere when:
 - The question is the subject line. Use `email-subject-and-copy-review`.
 - The question is the newsletter's positioning. Use `newsletter-positioning`.
 
+## Inputs
+
+- The newsletter's audience and the series format chosen.
+- The owner's own posts or social content, for turning into issues.
+- The reading or material available to curate that week.
+- Past issues, so the format stays consistent.
+
 ## The five roundup formats
 
 - **Link roundup:** the best articles or posts from the week, each with a short comment on why it matters.
