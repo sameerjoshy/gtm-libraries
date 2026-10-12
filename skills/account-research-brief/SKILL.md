@@ -2,7 +2,7 @@
 name: account-research-brief
 version: 1.0.0
 status: draft-for-review
-description: Use before a first meeting, an ABM push, or a territory review, when a single named account needs a sourced brief for the seller. Covers firmographics, positioning, buying committee, live signals, and discovery questions, with every claim tagged as sourced or inferred. Single account only, not portfolio ICP work.
+description: Use before a first meeting, an ABM push, or a territory review, when a single named account needs a sourced brief for the seller. Covers firmographics, positioning, buying committee, live signals, and discovery questions, with every claim tagged as sourced or inferred. Single account only; for portfolio ICP work see icp-builder.
 sources:
   - "Account intelligence analyst (MIT, Katya Tarapovskaia), buying committee map and briefing modes"
   - "Account intelligence (MIT, Yoni Tserruya), purpose-first framing and triage"

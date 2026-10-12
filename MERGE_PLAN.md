@@ -184,3 +184,11 @@ Skills listed as merge next in sections 2 and 3 are being written in batches. Ch
 - ads-outbound-signaling-guide: written as ad-engagement-outbound-triggers (intent-named campaigns, stage thresholds, personalisation by topic, sequence, feedback loop, lift against cold baseline). Named tools and the API limitation not restated.
 - linkedin-ads-abm-guide: partly covered by abm-strategy-planner (budget formula). Ad formats, specs, benchmark tables and the tech stack are skipped as platform reference and unverified figures.
 - linkedin-ads-audience-guide: partly covered by paid-social-audience-strategy (sizing, exclusions, lookalikes). Platform targeting attribute guidance (job function against title, seniority and company size bands) is skipped as platform reference and is not restated.
+
+## Review pass over the whole library (184 merged)
+
+- Overlap: descriptions compared pairwise by shared terms. The highest pair scores 0.26, so no two skills share a description closely enough to count as duplicates. The closest pairs (monthly report and audit, demand lifecycle and budget by stage, cold email and LinkedIn outreach, the two community comment skills) cover distinct tasks, and each already routes to the other.
+- Routing: fifteen descriptions did not name a route elsewhere. Each now does.
+- Structure: post-launch-window was missing its Output and Quality bar sections, and now has them. About forty older skills use different section names from the template (for example, no "When to use" heading). They were left as written, since their structure is intentional, and reformatting them blind would risk their content.
+- Checks: no em dashes, no unresolved skill references (the three remaining backticked terms in account-tier-scoring are tier labels), and no description over the length limit.
+- Not reviewed in depth: the body quality of each older skill beyond structure and overlap. That needs a per-skill read and is the remaining review work.

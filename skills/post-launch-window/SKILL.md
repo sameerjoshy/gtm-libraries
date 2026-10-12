@@ -92,6 +92,17 @@ A stated trigger turns the decision into a rule. Without one, spend follows what
 - [ ] The destination exists
 - [ ] The author has the first hour free
 
+## Output
+
+- The pre-publish checklist result, with any item left open and why.
+- The timed sequence for the post, with the owner of each action.
+- The amplification decision at six to eight hours, with the trigger or stop condition that applied.
+- The debrief, covering reach, reply quality, and the attribution read.
+
+## Quality bar
+
+Every item on the pre-publish check is confirmed before publish. Amplification follows a stated trigger, never a preference. The author is free for the first hour. Watch for a post with no reply-inviting position, a link placed in the body, spend behind a post below its own baseline, and an original edited after publish.
+
 ## Rules
 
 - The author answers comments personally in the first hour.

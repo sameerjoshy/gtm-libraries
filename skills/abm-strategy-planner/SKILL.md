@@ -2,7 +2,7 @@
 name: abm-strategy-planner
 version: 1.0.0
 status: draft-for-review
-description: Use when someone wants an ABM strategy or plan, a LinkedIn ABM campaign plan, a budget and audience plan for account-based marketing, or needs to know how many ads or campaigns their budget supports. Builds a funnel-based plan from stated goals and economics.
+description: Use when someone wants an ABM strategy or plan, a LinkedIn ABM campaign plan, a budget and audience plan for account-based marketing, or needs to know how many ads or campaigns their budget supports. Builds a funnel-based plan from stated goals and economics. Not for measuring results (see abm-measurement-framework) or for choosing the campaign level (see abm-campaign-level-choice).
 sources:
   - "LinkedIn ABM strategy planner (MIT, Emilia Korczynska, ZenABM), funnel and budget formulas"
   - "ABM measurement framework (Ivan Falco, Frontal), stage metrics used for targets"

@@ -2,7 +2,7 @@
 name: tam-build-and-sizing
 version: 1.0.0
 status: draft-for-review
-description: Use to size a total addressable market and turn it into a company list with honest coverage. Covers the ICP definition, company enumeration with provenance, TAM, SAM, and SOM, revenue sizing with a confirmed contract value, and coverage of the existing CRM. Companies first; contacts are a later stage.
+description: Use to size a total addressable market and turn it into a company list with honest coverage. Covers the ICP definition, company enumeration with provenance, TAM, SAM, and SOM, revenue sizing with a confirmed contract value, and coverage of the existing CRM. Companies first; contacts are a later stage. Not for the ICP definition on its own (see icp-builder) or account research (see account-research-brief).
 sources:
   - "Build and fill a TAM (MIT, Ryan Iyengar), governed batches, coverage burn-up, rules on capped results"
   - "TAM builder (MIT, Tanyo Gochev), companies-first stage, root-domain dedup, saturation logging, unknown tier"
