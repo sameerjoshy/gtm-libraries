@@ -6,7 +6,7 @@ Tracks every source skill from the two downloaded libraries, so that nothing is 
 
 - Source skills in the first library (`gtm-skills`): 404 SKILL.md files across the author folders below.
 - Source agent roles in the second library (`openclaw-skills`): 5. All five are merged into `agents/`.
-- Merged skills in `skills/`: 89.
+- Merged skills in `skills/`: 97.
 
 ## Status meanings
 
@@ -39,7 +39,7 @@ Per-author counts are a starting point, not a quality judgement. Merging is done
 | jason-mesiarik | 5 | Cited |
 | john-williams | 5 | Not cited |
 | maxwell-nimmo | 5 | Not cited |
-| nadav-david | 5 | Not cited |
+| nadav-david | 5 | Cited |
 | omer-levy | 5 | Not cited |
 | peter-cools | 5 | Cited |
 | thomas-maitre | 5 | Cited |
@@ -67,7 +67,7 @@ Per-author counts are a starting point, not a quality judgement. Merging is done
 | din-arbel | 2 | Cited |
 | gerrit-kesten | 2 | Cited |
 | kevin-kd-dorsey | 2 | Cited |
-| sam-jacobs | 2 | Not cited |
+| sam-jacobs | 2 | Cited |
 | .system | 1 | Not applicable (source tooling, not GTM) |
 | amith-tk | 1 | Not cited |
 | austin-hay | 1 | Not cited |
@@ -88,7 +88,7 @@ Per-author counts are a starting point, not a quality judgement. Merging is done
 | maja-voje | 1 | Not cited |
 | monica-dinu | 1 | Cited |
 | nikhil-mirza | 1 | Cited |
-| osnat-lidor | 1 | Not cited |
+| osnat-lidor | 1 | Cited |
 | pete-mientkiewicz | 1 | Not cited |
 | peter-borkovich | 1 | Cited |
 | rob-snyder | 1 | Not cited |

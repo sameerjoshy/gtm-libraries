@@ -68,3 +68,7 @@ Recommendation: include ads, creator, search and AI visibility, and events only 
 - Skipped: about 10.
 - Merge next: about 50 new skills.
 - Scope decision: about 130 channel and content skills.
+
+## Progress note
+
+Skills listed as merge next in sections 2 and 3 are being written in batches. Check `skills/` and `COVERAGE.md` for what is merged. Items written so far: call-scoring, meddpicc-gap-audit, discovery-to-demo-bridge, roi-business-case, demo-builder, objection-mining, outbound-performance-diagnosis, cold-offer-architect, call-followup-sweep, stage-aware-follow-up, competitor-connection-displacement, closed-won-replication-play, leaked-demand-recovery, warm-intro-intelligence, rfp-response, sales-hire-scorecard, board-meeting-prep, founder-led-sales, acquired-brand-gtm-integration, move-gtm-diagnostic, account-progression-staging, sdr-outbound-rules, signal-outbound-plays, cold-email-preflight, email-deliverability, market-finder, personalised-first-touch, brand-advocate-finder, profitable-efficient-growth, saas-lifecycle-programs, gtm-command-center, marketing-ecosystem-diagnostic, reply-pull-gate, earned-autonomy.
