@@ -1,12 +1,7 @@
 ---
 name: post-meeting-follow-through
 version: 1.0.0
-status: draft-for-review
 description: "Use to make every external sales meeting produce its follow-through in a fixed sequence: pull the meeting record, check the account and its stage, classify the meeting outcome, record the meeting for metrics without double-counting, route the deal decision to a person, and draft a follow-up in the owner's voice for approval. Designed for one person taking many external meetings, so follow-up quality and CRM hygiene do not depend on memory. Not for the sweep of a whole week's calls (see call-followup-sweep)."
-sources:
-  - "Post-meeting execution (MIT, Jeremy Hurst): the two-phase workflow (deal decision, then follow-up), non-blocking errors for memory, enrichment, and CRM writes, a missing meeting record as the only blocking failure, an account enrichment step with an estimated deal size, the metrics log with a rule against counting an auto-created deal as a prior meeting, and the review post where the owner decides"
-  - "Removed: the named meeting-note, CRM, and chat tools, the template placeholders, and the voice-guide and lead-scoring sub-skills. The method is restated as a generic sequence"
-  - "Adapted for GTM-360: the deal-size threshold for full sales treatment is an author default. The rule that a drafted follow-up is never sent without approval is kept as a hard rule"
 ---
 
 # Post-meeting follow-through

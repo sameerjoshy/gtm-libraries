@@ -1,12 +1,7 @@
 ---
 name: lead-routing-design
 version: 1.0.0
-status: draft-for-review
 description: "Use when designing or fixing how inbound or outbound leads are assigned to reps: the routing decision order, the routing model (geographic, named account, round-robin, weighted, skills-based, load-balanced, or hybrid), speed-to-lead SLAs with escalation, account-based routing for existing accounts, and the quarterly routing audit. Covers strategy and logic, independent of CRM. For CRM build-out, see revops-salesforce for Salesforce configuration. For scoring leads, see marketing-operations."
-sources:
-  - "Lead routing (MIT, Rutger Katz / Neon Triforce), six-question routing decision order with consent check first, routing models, round-robin and weighted round-robin with availability checks, territory design variables, speed-to-lead tiers with escalation timers, account-based routing, quarterly audit checklist, AI routing governance checkpoints"
-  - "Speed-to-lead research cited in the source (MIT Sloan 2007, HBR 2011, and vendor reports) is for context only and is not used as a rule"
-  - "Adapted for GTM-360: vendor tool landscape removed, AI conversion-lift claims removed as unverified, consent-first ordering kept, build-versus-buy thresholds labelled as practice-based"
 ---
 
 # Lead routing design

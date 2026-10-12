@@ -1,13 +1,7 @@
 ---
 name: call-scoring
 version: 1.0.0
-status: draft-for-review
 description: "Use to score a sales call and turn the score into coaching. Covers two complementary views: nine conversation KPIs computed from the transcript (talk ratio, question rate, longest monologue, next steps, and similar), and a behaviour scorecard per conversation type (prospecting, discovery, demo, pricing, close) scored 1 to 5 with cited evidence. Use when coaching is vague, reps and managers grade calls differently, or a transcript needs grading. Not for qualification of the deal itself (see meddpicc-gap-audit)."
-sources:
-  - "Call KPI scoring (MIT, Amit Rotstein): nine timing and quality KPIs, call-type classification, per-side aggregation for multi-person calls, recomputation from raw transcript rather than trusting a connected system's numbers, separation of conversation quality from forward motion"
-  - "Call scorecards (MIT, Kevin KD Dorsey): behaviour scorecards per key conversation, 10 to 15 items to start, chunked practice aimed at the lowest-scoring section, cited evidence per item"
-  - "Removed: the specific target bands for the nine KPIs are kept as defaults only and marked for calibration per client; named conversation-intelligence tools removed"
-  - "Adapted for GTM-360: scoring bands, the one-role-play-per-rep-per-week cadence, and the 10 to 15 item starting size are author defaults"
 ---
 
 # Call scoring

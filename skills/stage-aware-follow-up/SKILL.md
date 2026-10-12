@@ -1,11 +1,7 @@
 ---
 name: stage-aware-follow-up
 version: 1.0.0
-status: draft-for-review
 description: "Use when a live deal needs its next touch and the move is not obvious: a prospect replied warmly but never booked, a call happened and the thread went quiet, an agreement is out and unsigned, a meeting was missed, or the deal has gone cold. Identifies the deal's stage, then produces the next message with a direct booking ask where one is needed, and the date and hook of the touch after it. Not for the first cold touch (see outbound-cold-email)."
-sources:
-  - "Stage-aware follow-up (MIT, Tanyo Gochev): six stages with touch cadence, the warm-reply stage as where pipeline is lost, every touch doing two jobs (new reason plus ask), banned soft asks, hot buyers sent the booking link, no-shows treated as hot, no breakups, silent demotion to nurture, the next-touch line on every draft"
-  - "Adapted for GTM-360: the stage table and cadence day counts are author defaults; the seven-touch cap inside a stage is kept as a default"
 ---
 
 # Stage-aware follow-up

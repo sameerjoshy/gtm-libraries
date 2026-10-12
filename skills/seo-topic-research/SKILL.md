@@ -1,12 +1,7 @@
 ---
 name: seo-topic-research
 version: 1.0.0
-status: draft-for-review
 description: "Use when a B2B or SaaS site needs an SEO content roadmap grounded in commercial reality, so that organic search brings pipeline rather than traffic from the wrong audience. Runs the research in order: extract content opportunities from the account picture, validate them against real search demand, qualify each keyword against the results, filter for commercial fit (pipeline potential, ICP match, honest product fit, client alignment, and whether a page is new, an update, or a cannibalisation risk), shape each survivor into a content format, and prioritise into a build order. Uses seo-serp-qualification and seo-topic-prioritisation for the last two steps. Not for account intake (see seo-account-context)."
-sources:
-  - "SEO topic research pipeline (MIT, Sam Dunning), with its standalone phases: opportunity extraction (every angle traced to a named signal from calls, communications, or data), keyword validation (demand checked per opportunity with seed patterns, output as a candidate pool), business fit filter (five gates, including net-new versus update versus cannibalisation), and the principle that traffic for the wrong audience is a cost, not a win"
-  - "Removed: the named keyword tool and its metrics, the command invocations, the phase numbering, and the example domain. Format shaping is covered by seo-content-format-selection; qualification and prioritisation by their merged skills"
-  - "Adapted for GTM-360: the five fit gates are restated in plain terms. The rule that every opportunity cites its signal is kept from the source"
 ---
 
 # SEO topic research

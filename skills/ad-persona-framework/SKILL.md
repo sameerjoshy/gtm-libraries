@@ -1,12 +1,7 @@
 ---
 name: ad-persona-framework
 version: 1.0.0
-status: draft-for-review
 description: "Use to turn an ICP segment into an ad persona: the description of the buyer in the terms an ad platform can actually target, covering demographic, firmographic, intent, consumption, and psychographic fields. Use when building targeting for a campaign, when audiences are generic and waste budget, or when user personas exist but have never been mapped to what the platform can target. Not for the copy written for the persona (see ad-copy-voice-of-customer)."
-sources:
-  - "Ad persona framework (MIT, Ivan Falco): the distinction between an ad persona and a user persona, the template components (demographic, firmographic, intent, consumption, and psychographic fields with goals, challenges, thinking, hearing, and seeing), and the rule that an ad persona must map to targeting the platform can use"
-  - "Removed: the named listing sites and review platforms used as examples, and the named keyword research tool. These are replaced by categories"
-  - "Adapted for GTM-360: the rule that an ad persona lists only fields the platform can target, and that the rest is for copy, is an author addition"
 ---
 
 # Ad persona framework

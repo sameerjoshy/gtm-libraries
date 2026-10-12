@@ -1,12 +1,7 @@
 ---
 name: paid-automated-campaign-structure
 version: 1.0.0
-status: draft-for-review
 description: "Use to structure or troubleshoot an automated paid campaign that serves across the platform's inventory from a set of asset groups and audience signals. Covers splitting asset groups by product line or segment, filling every asset slot with a deliberately chosen real video, judging new groups only after a settling period, and guarding against the automated campaign cannibalising brand search that a dedicated campaign already covers at a better cost. Not for search-only campaigns (see paid-search-budget-reallocation) or for the account-wide audit (see paid-account-audit)."
-sources:
-  - "Automated campaign asset group structure and hygiene (MIT, John Williams): splitting asset groups by product or segment before any other fix, filling every asset slot, replacing auto-generated video with a deliberate choice, giving new or changed groups a real settling period, watching brand cannibalisation, and reading search term insights for negative candidates"
-  - "Removed: the named platform, its campaign and asset-type names, its rating labels, the interface route for negatives, and the external repository credit line. Asset-type names are described generically"
-  - "Adapted for GTM-360: the two-week settling period is an author default, not the source's figure, and is to be calibrated per account. The rule that the team names a replacement candidate for each weak asset is an author addition"
 ---
 
 # Paid automated campaign structure

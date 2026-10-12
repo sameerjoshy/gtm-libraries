@@ -1,12 +1,7 @@
 ---
 name: ad-engagement-outbound-triggers
 version: 1.0.0
-status: draft-for-review
 description: "Use to turn engagement with account-based ads into outbound triggers. Structures campaigns so that engagement reveals intent, sets stage thresholds that decide when a sales development rep should act, defines what the alert contains, personalises outreach to the topic the account engaged with rather than the channel, sequences the ads and the outbound over the first twelve weeks, feeds sales learning back into the ads, and measures the lift against the team's own cold baseline. Not for the choice of campaign level (see abm-campaign-level-choice) or for general signal detection (see signal-detection-and-timing)."
-sources:
-  - "LinkedIn ads and outbound signalling (MIT, Ivan Falco): ad engagement as a signal layer that identifies intent before a form is filled, campaign names that encode the intent, quantitative and qualitative engagement data, the stage thresholds for handing an account to a rep, the alert contents, the personalisation framework by intent, the multi-touch timing, the rule never to reference a click, the sequencing from awareness to pipeline, the feedback loop from sales to the ads, and the measures of signal quality"
-  - "Removed: the named engagement-tracking tool, the named CRM and its property names, the named chat tool and its alert format, the example company, and the platform's API limitation notes, which change. Tool steps are described as a generic pipeline"
-  - "Adapted for GTM-360: the stage thresholds (five or more clicks, or ten or more engagements) and the outreach timing are the source's defaults, kept as defaults to calibrate. The rule that a rep never tells a buyer that an ad was clicked is kept as a hard rule. Lift is measured against the team's own cold baseline, not a benchmark"
 ---
 
 # Ad engagement outbound triggers

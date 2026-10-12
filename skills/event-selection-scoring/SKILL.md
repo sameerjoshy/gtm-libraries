@@ -1,12 +1,7 @@
 ---
 name: event-selection-scoring
 version: 1.0.0
-status: draft-for-review
 description: "Use to choose which conferences, trade shows or vendor events a company should attend, exhibit at or sponsor next. Locks the buyer classification first, then scores each event on relevance, decision-maker access and engagement mode, applies a bonus only for organiser-run matchmaking, and returns a short tiered list. Not for preparing a team for an event already chosen (see event-attendee-prep) or for the logistics of attending (see event-logistics-planning)."
-sources:
-  - "Conference recommendation (MIT, Dave Engel): the buyer-classification step that decides where buyers stand, the discovery categories and the aim for breadth, the famous-event audit, the 40, 40 and 20 scoring with tiers, the organiser-run matchmaking bonus, the cross-client check, the two-sentence description, and the review of outcomes after attendance"
-  - "Removed: the named events, vendors, organisers and matchmaking programmes, the named tools, and the setup script. Event names were not verified and are not restated"
-  - "Adapted for GTM-360: the tier cut-offs (80 and 70), the fifteen-event default cap and the ten-point bonus are the source's defaults, kept as author defaults to calibrate. The rule that budget is never scored is kept as a hard rule"
 ---
 
 # Event selection scoring

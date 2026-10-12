@@ -1,12 +1,7 @@
 ---
 name: paid-scaling-quadrant
 version: 1.0.0
-status: draft-for-review
 description: "Use to decide how to scale paid spend when a campaign is working, based on whether the constraint is budget or effort. Plots four levers on two axes (audiences, geography, ads, and objectives and bids), maps each to a situation (no budget and time to test, budget but no time, and so on), and sets the order for pulling them. Not for setting the first budget (see paid-budget-by-stage) or for diagnosing a campaign that is not working (see paid-optimisation-signals)."
-sources:
-  - "The scaling quadrant (MIT, Ivan Falco): the two axes (effort for horizontal scaling across campaigns, budget for vertical scaling of existing campaigns), the four quadrants (audiences, geography, ads, and objectives and bids), and the two scenarios of no budget with time to test and budget with no time to test"
-  - "Removed: the third and later scenarios, which are not in the portion of the source read for this skill, and the named platform terms for each lever"
-  - "Adapted for GTM-360: the rule to scale only a campaign that has passed the measurement check is an author addition"
 ---
 
 # Paid scaling quadrant

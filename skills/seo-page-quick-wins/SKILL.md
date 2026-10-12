@@ -1,12 +1,7 @@
 ---
 name: seo-page-quick-wins
 version: 1.0.0
-status: draft-for-review
 description: "Use to find the two or three quick wins worth doing now on a single page whose SEO status is unclear, with each win tied to a stated ranking mechanism and a checkable reference. Starts from a direction the operator already holds, reads the page the way a search system weighs it, ranks candidate wins by effort against impact, and drops any win that cannot be traced. Not for choosing topics (see seo-topic-research) or for checking whether a keyword can be won (see seo-serp-qualification)."
-sources:
-  - "Patent-backed SEO quick wins (MIT, Thebigasif): starting from a direction the operator brings, reading the page the way a ranking system weighs it, requiring a receipt for each win, distinguishing what a source proves from what it does not, and returning the top three ranked by effort against impact"
-  - "Removed: the named patents and leaked field identifiers, the reference file that listed them, and the examples. None was verified for this library, so none is restated. Each reference must be checked against its primary source before it is cited"
-  - "Adapted for GTM-360: the cap of three and the rule that every win needs a checkable receipt are kept as hard rules. The rule that a reference which does not resolve is dropped is kept"
 ---
 
 # SEO page quick wins

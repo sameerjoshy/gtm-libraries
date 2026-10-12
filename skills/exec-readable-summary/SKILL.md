@@ -1,12 +1,7 @@
 ---
 name: exec-readable-summary
 version: 1.0.0
-status: draft-for-review
 description: "Use when work is going from one person to another who did not make it, such as a report, plan, analysis, memo, research or a raw AI answer, and it must be reviewed in seconds. Produces a page with a ten-second top (the verdict, the ask, and at most three numbers), a two-minute body in the shape that fits the content, and folded evidence. Every number carries its source, and the sender reviews and signs the page before it is forwarded. Not for a deck (see the slides type) or for a formal document with a fixed template."
-sources:
-  - "Kill the wall of text (MIT, Amos Bar-Joseph): the three layers (a ten-second top, a two-minute body and on-demand evidence), the rule that a recipient who reads only the top must know the answer and the next action, the questions asked before building, choosing the shape of the page from the content, plain short sentences with absolute dates and one named owner per action, a draft banner on the first version, a pre-publish check that tags numbers as sourced, calculated or assumed, a review loop, and a sign-off that the sender must give"
-  - "Removed: the named writing standard, the named page template and its reference files, and the named scripts. The three layers, the review loop and the sign-off are kept in general terms"
-  - "Adapted for GTM-360: the read-time rule (top plus the longest section, at about 200 words a minute, with more than three minutes meaning more cuts) is the source's, kept as a default. The rule that no number appears without a source is kept as a hard rule"
 ---
 
 # Exec-readable summary

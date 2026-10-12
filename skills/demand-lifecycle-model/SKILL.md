@@ -1,12 +1,7 @@
 ---
 name: demand-lifecycle-model
 version: 1.0.0
-status: draft-for-review
 description: "Use to plan a B2B go-to-market programme across the whole buyer lifecycle, not only up to conversion. Sets out five stages (create, capture, accelerate or activate, revive, expand), the awareness level each stage addresses, the offer and the measure for each, and a check that every programme has a job at a named stage. Use when planning demand programmes, when budget is spread with no stage logic, or when a channel is judged only on first conversion. Not for an individual campaign's setup (see `paid-campaign-plan`)."
-sources:
-  - "Demand lifecycle (MIT, Ivan Falco): five stages from create through to expand, replacing a funnel that plans only to conversion, with each stage's outcome, awareness level, offer, and measure, and the use of awareness levels to match messages to where the buyer is"
-  - "Removed: the named paid-social and search tactics per stage, which belong to the channel skills, and the book reference for awareness levels. Awareness levels are restated in this library's own wording"
-  - "Adapted for GTM-360: the measures per stage are author defaults to calibrate against the company's own cohorts"
 ---
 
 # Demand lifecycle model

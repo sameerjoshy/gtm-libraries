@@ -1,13 +1,7 @@
 ---
 name: cold-call-outreach
 version: 1.0.0
-status: draft-for-review
 description: "Use when building, reviewing, or training on phone outreach to prospects: an opening script, a no-show call, a voicemail, or objection handling. Keeps every script to a short, permission-based opener with a real trigger and a specific ask, requires approved proof points, and applies consent and do-not-call rules before any call. Not for email or a social message."
-sources:
-  - "Cold call scripts (MIT, Alex Vacca / Frontal), five-step one-minute opener (pattern interrupt, permission, relevance, social proof, open question), no-show script, voicemail under 20 seconds"
-  - "SDR outbound rules (MIT, Alex Vacca / Frontal), review checklist and tone by offer type, applied to call scripts as the same writing rules"
-  - "Adapted for GTM-360: placeholders replace the sample company and its invented result, a compliance step is added before any call, approval required for every script"
-  - "Pre-call script (MIT, Dyanesh Perumal): preparing a script for one named prospect from the account research, the checks on prior contact and warm routes, the stop conditions, and the two-to-three-minute meeting-selling call with every line traced to a researched fact"
 ---
 
 # Cold call outreach

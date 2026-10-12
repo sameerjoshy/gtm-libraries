@@ -1,12 +1,7 @@
 ---
 name: roi-business-case
 version: 1.0.0
-status: draft-for-review
 description: "Use when a live deal needs a business case the buyer will believe: going into procurement, finance review, or executive sign-off, when a champion needs an internal case, or when a single optimistic ROI figure is drawing scepticism. Builds a one-page case with worst, average, and best scenarios, each tied to the buyer's root-cause problem and their own baselines, with every assumption visible. Not for the discovery-to-demo plan (see discovery-to-demo-bridge)."
-sources:
-  - "ROI business case (MIT, Gal Aga): range of outcomes rather than one figure, worst case as a deliberately conservative floor, explicit assumptions the reader can re-run, root-cause anchor, buyer baselines over industry averages, total investment over the term, and pre-handling the inflated-numbers objection"
-  - "Removed: illustrative figures from the source example. The source's sample scenario numbers are not reproduced"
-  - "Adapted for GTM-360: the rule that a case with no real baseline does not proceed, and the [CONFIRM WITH BUYER] marker, follow the library evidence rule"
 ---
 
 # ROI business case

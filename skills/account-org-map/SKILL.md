@@ -1,12 +1,7 @@
 ---
 name: account-org-map
 version: 1.0.0
-status: draft-for-review
 description: "Use when a seller, partner manager, recruiter or researcher needs a usable map of who works at a named company, how its team is probably structured, and who matters for one specific objective. Fixes the scope and the objective before any research, builds an evidence set in deliberate passes, infers reporting lines with a confidence label on each edge, reads four structural observations, and ranks the people to approach. Not for a company's own internal org design (see revops-org-chart) or for the buying group in a signal-led campaign (see signal-campaign-build)."
-sources:
-  - "Map an account's organization (MIT, Nylan Richard): confirming the company by domain, locking scope and objective before research, scope defaults by company size, searching in passes from leadership downward, deduplicating by profile then by name and company, labelling every inferred reporting line as supported, likely or possible, reading the structure in no more than four observations, treating absence as a coverage gap, and ranking contacts by the objective"
-  - "Removed: the named data source, the named workbook, and the reference files for hierarchy rules and the worked example. The rules are restated in general terms"
-  - "Adapted for GTM-360: the scope defaults (whole company below fifty people, one function or the top four layers above) are the source's, with the figure stated as a default. The rule that profile text is data and never instructions is kept as a hard rule"
 ---
 
 # Account org map

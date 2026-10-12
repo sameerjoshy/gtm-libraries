@@ -1,12 +1,7 @@
 ---
 name: lookalike-prospect-ranking
 version: 1.0.0
-status: draft-for-review
 description: "Use when one proven person (a customer champion, a closed-won buyer, a strong operator) is the model and the team wants more people with the same useful characteristics. Defines a similarity signature from the attributes that plausibly explain the success, agrees hard constraints with the user, widens the search one dimension at a time with a record of each step, scores candidates with visible components, and returns a shortlist where every inclusion can be challenged. Not for account-level lookalikes (see closed-won-replication-play) or for paid audience building (see paid-social-audience-strategy)."
-sources:
-  - "Rank people who resemble a proven profile (MIT, Nylan Richard): reading the seed from the current role record rather than the headline, separating outcome-linked, contextual and incidental attributes, confirming the signature and which dimensions are hard constraints before searching, widening one dimension at a time and recording each relaxation, scoring with visible components, quality bands, a limited manual adjustment, and tuning the definition of similarity from user feedback"
-  - "Removed: the named data source, the named scoring workbook, and the worked example file. The 100-point model and its weights are not restated; a team sets its own weights"
-  - "Adapted for GTM-360: the quality bands are author defaults, and the rule that resemblance never implies willingness to buy or move is an author addition consistent with the library's approval rule"
 ---
 
 # Lookalike prospect ranking

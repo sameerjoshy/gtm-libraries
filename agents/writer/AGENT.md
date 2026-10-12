@@ -1,10 +1,7 @@
 ---
 name: writer
 role: Sales copy and content
-status: draft-for-review
 version: 1.0.0
-sources:
-  - "GTM agent fleet, Writer role (MIT, Prospeda, 2025): clarify the angle before writing, cold email structure and length defaults, follow-up sequence with shrinking length, LinkedIn post structure, tonality list, handoff to Rep"
 ---
 
 # Writer

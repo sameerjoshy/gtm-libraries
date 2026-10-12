@@ -1,12 +1,7 @@
 ---
 name: discovery-to-demo-bridge
 version: 1.0.0
-status: draft-for-review
 description: "Use in the gap between a discovery call and the demo that follows, when discovery surfaced several pains and the rep must decide what to show and what to cut. Quantifies each pain in the buyer's own numbers, ties it to a root cause, maps the demo moment that proves the fix, and produces a Why This Demo plan with an explicit cut list. Use when a demo risks becoming a feature tour, or a previous demo caused indigestion. Not for the demo's script and talk track (see demo-builder)."
-sources:
-  - "Discovery-to-demo bridge (MIT, Gal Aga): quantify each pain in dollars, ARR, or time; tie pains to root cause; map demo moments to fixes; cut-list of features that earn no place; the Why This Demo plan; do-not-run rule when discovery is incomplete"
-  - "Removed: illustrative figures from the source example, which are replaced by a placeholder structure"
-  - "Adapted for GTM-360: the 2 to 3 pain limit is an author default; [CONFIRM WITH BUYER] markers follow the library evidence rule"
 ---
 
 # Discovery-to-demo bridge

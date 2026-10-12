@@ -1,12 +1,7 @@
 ---
 name: win-loss-program
 version: 1.0.0
-status: draft-for-review
 description: "Use when CRM loss reasons are not trusted, competitive losses go unexplained, or positioning and product decisions rest on rep-reported fields. Sets up a standing win-loss programme with three evidence lanes: mining the record of every decided deal, interviewing buyers after the decision (both wins and losses), and periodic customer group sessions. Codes the causes against one driver taxonomy and routes the findings to positioning, enablement, and qualification. Rep-reported reasons are treated as opinion; buyer-reported reasons are treated as evidence."
-sources:
-  - "Win-loss program (MIT, Rutger Katz / Neon Triforce), three evidence lanes (transcript and thread mining, buyer interviews, customer arena), interview protocol and neutral interviewer rule, customer arena composition and listening rule, double-sided harvest, driver taxonomy, quarterly cross-functional readout, self-audit against CRM loss fields"
-  - "Win rate figure cited in the source (vendor benchmark, 2025) is context only; interview timing windows are practice-based"
-  - "Adapted for GTM-360: provenance file named in the source is not in this library and is not relied on; the customer arena is described in neutral terms"
 ---
 
 # Win-loss programme

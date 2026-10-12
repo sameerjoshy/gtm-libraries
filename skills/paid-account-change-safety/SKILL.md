@@ -1,12 +1,7 @@
 ---
 name: paid-account-change-safety
 version: 1.0.0
-status: draft-for-review
 description: "Use when an AI agent or automation is about to make a write change to a live paid media account (pausing a campaign, changing a bid or budget, adding negative terms, editing conversion tracking, or launching a campaign). Classifies each change by blast radius, defaults to propose-only, sets explicit limits for the low-risk band, requires a preview and a confirmation for anything executed, and records proof that a change ran. Use it so that a claimed success is backed by a verified change. Not for read-only analysis of an account."
-sources:
-  - "Write safety for AI agents on paid search accounts (MIT, John Williams): classifying requests by blast radius (read-only, low-risk, account-level), defaulting to propose-only with authorisation limited to the action just approved, the low-risk band limits (bid moves within about twenty percent, negatives only against clear waste, no whole-campaign pauses, no budget swings past about twenty percent, and conversion tracking and billing never touched without separate approval), and the requirement that a change be previewed, confirmed, and provably executed"
-  - "Removed: the platform's API names and the named automation tools. The reasoning on why a hallucinated success message is a trust failure is kept as a principle"
-  - "Adapted for GTM-360: the limits are author defaults for a team starting out. The rule that a change is not reported as done until it has been read back from the account is an author addition"
 ---
 
 # Paid account change safety

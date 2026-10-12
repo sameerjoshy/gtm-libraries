@@ -1,12 +1,7 @@
 ---
 name: revops-forecasting
 version: 1.0.0
-status: draft-for-review
 description: "Use when the revenue forecast is consistently wrong, when the team cannot predict its quarter number, when deals slip unexpectedly, or when a forecast call needs to inspect deals rather than read status. Sets forecast categories with written validation rules, reconciles the number from at least two independent methods, measures accuracy by rep and segment, checks pipeline coverage against win rate, and wires forecast breaches into an operating cadence. Not for deal truth scoring (see deal-qualification-gates)."
-sources:
-  - "Revenue forecasting (MIT, Rutger Katz / Neon Triforce), category-based forecasting with validation rules, conservative/expected/optimistic roll-up, triangulation of methods, the forecast call structure, accuracy formula and diagnosis, pipeline coverage from win rate, slippage haircut, evidence-based inputs, breach rules, revenue-type differences"
-  - "Benchmark figures and probability weights in the source are vendor-reported or author defaults. They are labelled as starting points and must be calibrated per client before use"
-  - "Adapted for GTM-360: platform-specific AI product claims removed, reference-file lookups replaced with the procedure itself, platform-agnostic"
 ---
 
 # Revenue forecasting

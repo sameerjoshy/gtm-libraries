@@ -1,18 +1,7 @@
 ---
 name: outbound-cold-email
 version: 1.0.0
-status: draft-for-review
 description: "Use when writing or reviewing a cold email or a multi-step cold sequence for a named account, contact, list, or signal. Picks the hook from the strongest real trigger, matches the org's voice, sets the sequence shape and cadence, applies a seven-point final gate, and stages every message for approval. Covers the deliverability limits that cap volume. Not for replies to existing threads (see reply-handling) or for LinkedIn and phone outreach."
-sources:
-  - "Reach out (MIT, Ido Goldberg / Swan), hook ladder, signal never as opener, voice precedence, draft rules, cadence defaults, seven-point final gate, stage for approval"
-  - "Cold email 4-sequence (MIT, Alex Vacca / Frontal), trigger opener, pain email, delegation ask, break-up, BTL and ATL length rules, timing"
-  - "Cold email strategist (MIT, Alex Vacca / Frontal, contributor Ivan Falco), value prop changes between emails, plain text, one CTA, deliverability limits (per-inbox volume, domain count, warmup, verification, bounce ceiling)"
-  - "Email metrics and benchmarks (MIT, Alex Vacca / Frontal), reply-rate baselines by outreach type, deliverability warning thresholds"
-  - "SDR outbound rules (MIT, Alex Vacca / Frontal), the eight messaging frameworks, tone by offer type"
-  - "Adapted for GTM-360: CRM and sequence-tool calls generalised, vendor benchmarks labelled as starting points to calibrate per client, no invented proof points or customers"
-  - "Give-first cold email (MIT, Dima Bilous): the rule that the reply must cost the prospect nothing, the choice between an awareness email and a call email, and selling the free step rather than a high-ticket engagement"
-  - "Outreach messaging (MIT, Maja Voje): the R.E.P.L.Y. structure of relevance, empathy, payoff, low-friction ask and you-focus, with the you-to-we check"
-  - "B2B cold email copywriting (MIT, Tim Yakubson): the order of diagnosis from list to offer to copy, the default weighting of each as author defaults, and deliverability before copy"
 ---
 
 # Outbound cold email

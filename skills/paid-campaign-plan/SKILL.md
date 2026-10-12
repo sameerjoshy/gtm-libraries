@@ -1,12 +1,7 @@
 ---
 name: paid-campaign-plan
 version: 1.0.0
-status: draft-for-review
 description: "Use to plan a paid campaign end to end before anything is launched, so that objectives, channels and budget, targeting, creative, and measurement are fixed in advance. Sets out the four elements every plan needs, a naming convention that makes later reporting possible, and the choice between doing the setup in-house and outsourcing it. Not for choosing the channel (see paid-channel-selection) or for the creative copy (see ad-copy-voice-of-customer)."
-sources:
-  - "Campaign planning and execution (MIT, Ivan Falco): the four essential elements of a campaign plan (names and objectives, channels and budget, locations and targeting, creative and copy), the naming convention built from region, stage, awareness, objective, and persona, and the DIY and outsourced execution options with the advice on bulk import for large campaign counts"
-  - "Removed: the named platforms, the bulk-import tool names, and the freelance marketplace names. The naming convention is kept as a pattern"
-  - "Adapted for GTM-360: the naming pattern is a recommendation, and the example values are illustrative. The rule to lock the plan before launch is a hard rule in this library"
 ---
 
 # Paid campaign plan

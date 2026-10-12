@@ -1,10 +1,7 @@
 ---
 name: rep
 role: Outreach and engagement
-status: draft-for-review
 version: 1.0.0
-sources:
-  - "GTM agent fleet, Rep role (MIT, Prospeda, 2025): outreach execution, objection diagnosis before response, follow-up cadence and persistence limits, call and voicemail structure, handoff to Closer"
 ---
 
 # Rep

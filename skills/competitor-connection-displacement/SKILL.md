@@ -1,11 +1,7 @@
 ---
 name: competitor-connection-displacement
 version: 1.0.0
-status: draft-for-review
 description: "Use to find prospects who are actively evaluating the category, by looking at people who have just connected with a named competitor. Qualifies those connections against the ICP, removes existing pipeline, scores each remaining prospect on net-new status, decision power, and freshness, and writes a problem-first angle for each. Not for competitive teardowns or battlecards (see competitive-intelligence)."
-sources:
-  - "Competitor connection displacement (MIT, Peter Cools): ICP qualification before outreach, exclusion of existing pipeline, displaceability scoring on net-new, decision power, and freshness, angle anchored on the buyer's problem, rule against referencing how the prospect was found"
-  - "Adapted for GTM-360: the one-to-five rank and the same-week window are author defaults. The rule that the angle never mentions the competitor connection is kept as a hard rule on privacy and trust"
 ---
 
 # Competitor connection displacement

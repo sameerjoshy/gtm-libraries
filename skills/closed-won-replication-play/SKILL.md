@@ -1,12 +1,7 @@
 ---
 name: closed-won-replication-play
 version: 1.0.0
-status: draft-for-review
 description: "Use the day a deal closes won to turn the win into pipeline while the story is fresh. Extracts the win profile, finds a fixed number of lookalike companies that are not already in the CRM, identifies the same persona as the winning champion at each, and drafts one outreach message per company from the deal owner, using an anonymised win reference. Nothing is sent without human approval. Not for the general ICP or list build (see prospect-list-building)."
-sources:
-  - "Closed-won replication play (MIT, Ariel Cohen): win profile extraction, lookalike search with exclusion of existing customers and pipeline, persona matching to the champion, anonymised win references, peer tone, soft call to action, batch review before anything sends"
-  - "Removed: the CRM-specific automation steps and the task-queue routing, which are platform details rather than method"
-  - "Adapted for GTM-360: the default of five lookalikes per win, the broaden-one-criterion-at-a-time rule, and the three to five sentence length are author defaults"
 ---
 
 # Closed-won replication play

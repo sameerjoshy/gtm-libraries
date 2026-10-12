@@ -1,13 +1,7 @@
 ---
 name: sales-methodology
 version: 1.0.0
-status: draft-for-review
 description: "Use to choose and operationalise a sales methodology: SPICED for recurring-revenue discovery and qualification, MEDDIC or MEDDPICC for complex enterprise deals, BANT as a first screen only, and Challenger, SPIN, or Gap Selling as selling styles. Covers the discovery call structure, the discovery score as one field per deal, stage gates, CRM properties, deal-review coaching, rep onboarding, the discount conversation, and how the methodology connects to the pipeline. Use when reps skip discovery, deals reach proposal unqualified, or the framework lives in a deck and not in the CRM. Not for the health score (see deal-velocity) or change management across the whole revenue team (see revops-change-management)."
-sources:
-  - "Sales methodology implementation (MIT, Rutger Katz / Neon Triforce): SPICED elements and 0-3 scoring, CRM properties and stage gates, coaching prompts, customer-cluster routing, discovery call timings, MEDDIC and MEDDPICC scoring, BANT limitations, Challenger, SPIN, Gap Selling, the selection guide, discount negotiation playbook, pipeline management model, stakeholder roles, AI-assisted scoring with override guardrails"
-  - "Removed as unverified or vendor-sourced: multi-threading and win-rate figures from call-analytics platforms, talk-ratio findings, framework uplift percentages, the survey and history claims about framework origins, the platform capability claims, and the cold-email and consent rules by country (replaced by a counsel point)"
-  - "Corrected: a framework score is one scale per team, and SPICED's 0-15 total is recorded in DECISIONS.md as a discovery score. It is not the health score and is not summed with it"
-  - "Adapted for GTM-360: the stage thresholds, the discovery call timings, and the coaching cadence are author defaults to calibrate. Persona and reference detail from the source is summarised here; full persona playbooks are not carried over"
 ---
 
 # Sales methodology

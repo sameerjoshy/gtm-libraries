@@ -1,12 +1,7 @@
 ---
 name: community-channel-research
 version: 1.0.0
-status: draft-for-review
 description: "Use to find and vet the online community forums where a brand could take part, such as topic subforums on a large discussion site. Searches on the problem language buyers use rather than the category name, checks each community's size, type, posting rules, and what its top posts look like, judges fit from the content rather than the size, and produces a shortlist with the rules that constrain posting in each. Not for checking a single post before it goes live (see community-post-preflight)."
-sources:
-  - "Community channel research (MIT, Yahav Fuchs), restated for community forums in general: searching on problem language rather than the category name, inspecting each candidate's size, community type, posting rules, and recent content, judging fit by whether people ask the questions the product answers, checking the community's own wiki or pinned rules for posting norms, and delivering a shortlist with reasons to skip the rest"
-  - "Removed: the platform's search commands and reference file of commands, and the named forum platform. The procedure is restated for any community forum"
-  - "Adapted for GTM-360: the rule to vet five candidates before adding more is an author default. The rule that the team, not the research, decides what enters tracking is kept"
 ---
 
 # Community channel research

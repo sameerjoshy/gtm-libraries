@@ -1,12 +1,7 @@
 ---
 name: pipeline-review
 version: 1.0.0
-status: draft-for-review
 description: "Use when reviewing a live pipeline for coverage, stage aging, and risk before a forecast call or a recurring pipeline check-in. Flags stalled, regressed, under-threaded, or at-risk deals with cited evidence, recommends one action per issue, and reconciles the weekly pipeline movement. Not a forecast (see revops-forecasting), and not CRM data rules (see revops-data-governance)."
-sources:
-  - "Pipeline review (MIT, Ido Goldberg / Swan), slice of 20 deals, per-deal flags with evidence, lightest action first, action cap of 10 to 15, approval before any CRM write"
-  - "Pipeline signal review (MIT, Udi Cohen), risk ranking High, Medium, Low, contact-in-seat check, buying-group coverage gaps, 30-day activity gap, news and negative signals"
-  - "Pipeline visibility (MIT, Rutger Katz / Neon Triforce), stage exit criteria, historical stage baseline, stale thresholds by stage, close-date overdue handling, weekly pipeline waterfall, pipeline quality dimensions, reconciliation of movement"
 ---
 
 # Pipeline review

@@ -1,12 +1,7 @@
 ---
 name: founder-led-sales
 version: 1.0.0
-status: draft-for-review
 description: "Use when a product has users but no paying customers, when the founder has not yet sold, or when deals stall on \"let me think about it\". Sets out the motion the founder runs personally for the first ten to twenty deals: start with the most engaged existing users, run discovery, demonstrate the buyer's own use case, equip the champion to sell internally, and close every conversation with a next step and a date. Not for building a sales team once the motion works (see sales-playbook-foundations)."
-sources:
-  - "Founder-led sales (MIT, Shane O'Connor): the founder runs the first deals personally, the four elements of a real deal (champion, buyer, pain with a cost, trigger), starting from engaged users, discovery with the customer talking most of the time, demonstrating the customer's use case, business-case framing for the buyer, arming the champion, and a next step with a date on every call"
-  - "Removed: the pricing examples and tool-specific references in the source"
-  - "Adapted for GTM-360: the ten to twenty first deals before hiring, and the talk-listen split in discovery, are author defaults"
 ---
 
 # Founder-led sales

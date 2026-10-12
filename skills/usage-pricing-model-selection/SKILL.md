@@ -1,12 +1,7 @@
 ---
 name: usage-pricing-model-selection
 version: 1.0.0
-status: draft-for-review
 description: "Use to choose or defend a pricing model for a product that does work on the buyer's behalf, such as an automated agent, a workflow tool or an assistant. Compares four models (per agent or seat, per action, per workflow, per outcome) by the product's breadth, workload predictability, attribution, and the budget it displaces, recommends one or a hybrid, and sets price anchors against the cost of the work done another way rather than against compute. Not for billing operations (see pricing-monetisation-ops) or for credit schedules (see credit-based-packaging)."
-sources:
-  - "AI pricing model picker (MIT, Manny Medina): profiling the product on breadth of responsibility, workload predictability, attribution and autonomy, and the budget displaced, the four-model comparison with its fit and risks, the rule of thumb for seat, outcome and hybrid models, anchoring on the cost of the work done another way rather than on compute, and the failure modes of token pricing, unmeasured outcomes, and seat pricing that shrinks with success"
-  - "Removed: the named example companies and their prices, the market salary and outsourcing figures quoted in the source, and the named framework source. The model comparison is kept in general terms; no market figure is restated"
-  - "Adapted for GTM-360: the rule that a recommendation must name the model chosen and why each other model loses is kept as a hard rule. The hybrid shape (subscription floor with a usage layer) is described as a common pattern, not a verified rate"
 ---
 
 # Usage pricing model selection

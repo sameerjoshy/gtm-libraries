@@ -1,12 +1,7 @@
 ---
 name: gtm-operating-principles
 version: 1.0.0
-status: draft-for-review
 description: "Use when setting outbound strategy, training a sales team, or establishing the fundamentals a go-to-market motion runs on. States six operating principles (copy what top performers do, diagnose before prescribing, act on signals, keep the market open, lead with the buyer's problem, segment before personalising), a multi-channel sequencing pattern, and the mindsets on personalisation, volume, timing, and messaging. Use it as the reference that other execution skills apply. Not for the daily execution rules (see sdr-outbound-rules) or for one diagnosis (see the diagnostic skills)."
-sources:
-  - "GTM philosophy (MIT, Alex Vacca): six fundamental principles, a diagnostic framework for team performance (behaviours, individual, process, skill, and the leader's own part), the signal-based outreach stance, the principle that a market is not exhausted by one angle, the lead-with-pain test, and the segment-and-convert rule against over-personalisation"
-  - "Removed: the vendor case studies, the named customer examples, the revenue attributed to a single campaign, the reply-rate comparisons, and the named tools and channels that appear in the source as examples. The multi-channel table is restated as a generic pattern"
-  - "Adapted for GTM-360: the timing windows (new-role signals in the first six weeks, act on site visits within a day or two, wait a few weeks after funding announcements) are author defaults to calibrate against the team's own response data. Heat-scoring thresholds are defaults"
 ---
 
 # GTM operating principles

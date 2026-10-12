@@ -1,13 +1,7 @@
 ---
 name: gtm-data-architecture
 version: 1.0.0
-status: draft-for-review
 description: "Use to design the data layer behind revenue operations for a team that is not made of data engineers. Covers warehouse-centred architecture, transformation layers, the three queries every RevOps lead should read, reverse activation of computed scores, identity resolution, a unified customer health score, staged roadmap, and data readiness for AI agents. Use when the CRM cannot answer cross-system questions, when metrics differ between teams, or before any AI agent is pointed at customer data. Not for CRM data quality rules (see revops-data-governance) or vendor selection (see revops-tech-stack)."
-sources:
-  - "GTM data architecture (MIT, Rutger Katz / Neon Triforce): the warehouse-centred reference architecture, the three operator queries, ELT over ETL, versioned transformations, reverse activation with reconciliation, identity resolution, the unified health score, the stage patterns, the phased roadmap, the anti-patterns, and when not to go warehouse-native"
-  - "Removed as unverified: the cost and speed claims attributed to a data institute and a data vendor, the 50% enterprise migration figure, the composable vendor growth rate, the 'Hightouch synced 7.3 trillion records' figure, the CAC reduction and conversion uplift ranges, and the identity-matching accuracy anecdote"
-  - "Corrected: the source cited a directive number for the EU Data Act that does not match the regulation (Regulation (EU) 2023/2854 is the Data Act). The source cited a GDPR notification window of one month for enrichment, which is kept as the statutory default for counsel to confirm. Deletion timing is also for counsel"
-  - "Adapted for GTM-360: the stage size bands, the freshness targets (under two hours for activation, under one percent reconciliation variance), and the roadmap durations are author defaults to calibrate"
 ---
 
 # GTM data architecture

@@ -1,13 +1,7 @@
 ---
 name: revops-strategy
 version: 1.0.0
-status: draft-for-review
 description: "Use when designing or repairing a B2B revenue engine's pipeline architecture. Covers stage contracts, separating new and expansion motions, a three-tier KPI set that links activity to revenue, data hygiene as a discipline, the ICP-to-messaging chain, the operating model between governance, enablement, and value loops, and tech stack decisions. Also use to push back on vanity metrics and to decide whether a new tool is justified. Not for finding the binding constraint (see revops-diagnostic) or building the ICP itself (see icp-builder)."
-sources:
-  - "RevOps strategy and pipeline architecture (MIT, Rutger Katz / Neon Triforce): bow tie model, stage contract template, separate motions, velocity over volume, three-tier KPI architecture, the iron rule for activity metrics, data hygiene system, ICP-to-messaging chain, vanity metric reframes, stack evaluation lenses, consolidation bias, stack evolution"
-  - "Removed as unverified: median and top-quartile CAC payback, LTV:CAC, NRR, and win-rate benchmarks; coverage-to-quota percentages; AI forecast variance and churn reduction figures; reverse ETL vendor counts; tool-count and savings figures; the 'compounding flywheel' efficiency range; the 'winner-takes-all' claim. Benchmarks are replaced with the instruction to calibrate against the client's own history"
-  - "Corrected: the source's section on AI-era pipeline architecture described the coverage formula as 1 divided by win rate. That is correct only if deals are created at the same rate they are won and the target is set in the same period. The formula is kept, with that condition stated"
-  - "Adapted for GTM-360: stage contract fields, the SLA and red-flag structure, and the vanity-metric scripts are author defaults for the client to adopt or replace"
 ---
 
 # RevOps strategy and pipeline architecture

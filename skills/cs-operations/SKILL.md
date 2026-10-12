@@ -1,13 +1,7 @@
 ---
 name: cs-operations
 version: 1.0.0
-status: draft-for-review
 description: "Use when customers churn without warning, red accounts pile up, renewal conversations turn contentious, or expansion-ready accounts slip away. Designs the post-sale operating model: a five-dimension health score refreshed weekly, traffic-light triage into rescue or renewal-risk mode, the renewal timeline from T-120, event playbooks, coverage tiers, discount governance, churn autopsies, and the customer-to-product feedback loop. Tool-neutral. Not for expansion scoring and whitespace (see expansion-revenue-architect) or the Sales-to-CS handoff mechanics (see revenue-handoffs)."
-sources:
-  - "Customer success operations (MIT, Rutger Katz / Neon Triforce), four-pillar operating model, CS maturity stages, five-dimension health score and its weights, traffic-light bands, anti-patterns, renewal timeline T-120 to T+7, event-based playbooks, discount sunset governance, churn autopsy and feedback loop, cadence design"
-  - "Vendor claims removed: platform feature lists, ML churn-accuracy and churn-reduction percentages, AI-agent productivity claims, vendor coverage ratios, dated survey medians, and a survey-tool shutdown note. Benchmarks are context only"
-  - "GDPR Article 22 note retained as a point for counsel, not legal advice. Platform-specific references removed"
-  - "Adapted for GTM-360: weights, bands, thresholds and cadences are author defaults to calibrate against the client's own churn outcomes"
 ---
 
 # Customer success operations

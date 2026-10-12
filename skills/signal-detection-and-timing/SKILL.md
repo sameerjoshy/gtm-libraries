@@ -1,17 +1,7 @@
 ---
 name: signal-detection-and-timing
 version: 1.0.0
-status: draft-for-review
 description: "Use to decide which buying signals to track for a business, to interpret a fired signal (relevance, meaning, strength, confidence, why-now), and to decide when and how to act on it (window, cadence, channel). Covers website-based signal plans, fixed watchlists, and website or content engagement. Hiring and champion job-change signals have their own skills. Not for choosing a ready play (see signal-outbound-plays)."
-sources:
-  - "Signal interpreter (MIT, Din Arbel), relevance gate, strength versus confidence, why-now discipline, open-question cap, no side effects"
-  - "Signal sourcer (MIT, Alex Vacca / Frontal), signal families, tiers, detection tools"
-  - "Buying signals ranked (MIT, Alex Vacca / Frontal), purchase correlation ranking"
-  - "Website to signals (MIT, Peter Cools), why-now to observable proxy, 3 to 5 detectable signals"
-  - "Signal timing (MIT, Peter Cools), decay profile and outreach window"
-  - "ABM signal watchlist (MIT, Ryan Iyengar), canonical account identity, watch/research/exclude"
-  - "Trigger-based outbound (MIT, Ryan Iyengar), send/nurture/skip decision and outcome learning"
-  - "Visitor radar (MIT, Ido Goldberg / Swan), engagement strength tiers and response timing"
 ---
 
 # Signal detection and timing

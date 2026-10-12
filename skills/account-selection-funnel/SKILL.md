@@ -1,12 +1,7 @@
 ---
 name: account-selection-funnel
 version: 1.0.0
-status: draft-for-review
 description: "Use to decide how many target accounts an account-based programme needs for a revenue goal, how to stage accounts from identified to selecting, and which firmographic, technographic, CRM and lookalike criteria choose the accounts. Works backwards from the revenue target to the account count, then builds the list from layered criteria. Not for the campaign level (see abm-campaign-level-choice) or the stage metrics used to report on the programme (see abm-measurement-framework)."
-sources:
-  - "Account selection framework (MIT, Ivan Falco): the principle that ABM starts with accounts, the reverse calculation from revenue target through deal count, close and qualification rates to the number of target accounts, the stage definitions from identified to selecting, the four layers of selection (firmographic, technographic, CRM intelligence and lookalike modelling), and the list-building sequence that starts from a defined ICP"
-  - "Removed: the named enrichment and technographic data providers, the named CRM and its fields, the example revenue figures, and the platform audience floors. Conversion rates in the source are kept as author defaults only"
-  - "Adapted for GTM-360: the stage conversion rates and the resulting account count are the source's defaults, kept as defaults to calibrate with the team's own history. The rule to show the arithmetic before a number is quoted is an author addition"
 ---
 
 # Account selection funnel

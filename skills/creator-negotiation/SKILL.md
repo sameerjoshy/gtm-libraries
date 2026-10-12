@@ -1,12 +1,7 @@
 ---
 name: creator-negotiation
 version: 1.0.0
-status: draft-for-review
 description: "Use when a creator pushes back on a rate or terms for a B2B campaign and the team needs a reply that holds a position. Takes the creator's counter-offer and the team's original offer, checks them against the rate band, and gives three ranked options (hold, reshape, or accept with conditions), each with its reasoning and a ready-to-send draft. Not for estimating the rate in the first place (see creator-rate-band)."
-sources:
-  - "Negotiate creator rate (MIT, Maxwell Nimmo): responding from a position rather than reacting, three ranked responses (hold, reshape, accept with conditions), each grounded in a rate anchor, and the inputs to gather first (the creator's message, the original offer, the rate band, and how much the team wants the creator)"
-  - "Removed: the named tools for pulling rate and budget records. The sample reply wording from the source is not reproduced"
-  - "Adapted for GTM-360: the rule that a concession is always traded for something (scope, timing, usage rights, or exclusivity) is an author addition consistent with the source's conditional acceptance option"
 ---
 
 # Creator negotiation

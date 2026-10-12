@@ -1,12 +1,7 @@
 ---
 name: market-finder
 version: 1.0.0
-status: draft-for-review
 description: "Use to map every business of one type in one geography, for territory planning, market sizing, or building an account universe. Also audits an existing account list against fresh discovery, showing which accounts match, which were found only by discovery, and which were on the list but not found, with a coverage figure. Produces a deduplicated, source-linked inventory with a confidence rating per entity. Not for monitoring named competitors over time or for deep research on one company (see account-research-brief)."
-sources:
-  - "Market finder (MIT, Uri Knorovich): mode detection between discovery and audit, scoping to business type and geography, quick-scan versus comprehensive depth, three-way comparison in audit mode (matched, discovered only, reference only) with a coverage score, mandatory source link per entity, never running an audit against an imagined list"
-  - "Removed: the vertical presets and per-metro query patterns in the source's reference file, and the named data sources, which are replaced by a generic source-selection step"
-  - "Adapted for GTM-360: quick scan is the default depth; the top-five enrichment and verification limit in quick scan is an author default"
 ---
 
 # Market finder

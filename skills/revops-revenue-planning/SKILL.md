@@ -1,14 +1,7 @@
 ---
 name: revops-revenue-planning
 version: 1.0.0
-status: draft-for-review
 description: "Use to build an annual or quarterly revenue plan, reconcile a bottoms-up capacity plan with a top-down finance target, version the plan of record, decide when to reforecast, and align FP&A with RevOps. Use when the forecast and the budget disagree, when a stretch target arrives without owners, or when the team asks when to start planning. Not for in-quarter forecasting mechanics (see revops-forecasting), GTM structure (see gtm-planning-org-design), or quota and commission design (see gtm-compensation)."
-sources:
-  - "Revenue planning (MIT, Rutger Katz / Neon Triforce): bottoms-up first then top-down, three separate questions, three-version plan governance, stretch as named scenarios, planning calendar, reconciliation meeting structure, reforecast triggers and locked versus flexible parameters, the ten-question planning diagnostic, FP&A and RevOps joint model"
-  - "Corrected: the source's expansion example (2.2M x 92% x 1.12) computes to about 2.27M, not 2.87M. The source's named-pipeline probability-weighted total computes to about 223.5K, not 243K. Both are fixed here"
-  - "Corrected: the source sets the coverage trigger at 3x in one place and 2.5x in another. This skill uses one rule: coverage is compared with the required multiple, which is 1 divided by the historical win rate"
-  - "Removed as unverified: the benchmark attribution to a 2025 sales-data report, forecast accuracy figures attributed to a research firm, quota-attainment medians, and the AI forecasting and AI SDR cost figures. Calibrate against the client's own history"
-  - "Adapted for GTM-360: reforecast trigger thresholds, the calendar phase lengths, and the materiality threshold are defaults to set with the client's finance team"
 ---
 
 # Revenue planning

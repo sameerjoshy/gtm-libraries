@@ -1,13 +1,7 @@
 ---
 name: revops-change-management
 version: 1.0.0
-status: draft-for-review
 description: "Use to plan and land a revenue change (a new process, comp plan, territory design, CRM migration, methodology, or AI tool) so that behaviour changes and stays changed. Covers impact analysis, stakeholder strategy, traffic-light communication, transition design, enablement that reinforces over time, adoption measurement, and the specific risks of rolling out AI in revenue teams. Use when training happened and nothing changed, when people push back, or when adoption stalls. Not for the wider GTM org redesign (see gtm-planning-org-design)."
-sources:
-  - "RevOps change management (MIT, Rutger Katz / Neon Triforce): impact analysis, the behaviour formula, stakeholder grid, traffic-light classification, communication sequence, transition principles, readiness scoring, one-variable-at-a-time, coaching principles, reverse salient, organisational energy, AI rollout phases, AI adoption measurement, AI readiness scoring"
-  - "Frameworks cited as published: Kotter's eight-step model (1996) and Prosci ADKAR (2003). The RevOps-specific application is the author's"
-  - "Removed as unverified: the forgetting-curve percentages, the productivity-dip range presented as research, the AI churn and failure rates, the SaaStr operator figures, the generational adoption and trust percentages, the BCG resource split, the Prosci survey figure, the shadow-AI breach statistics, the 'top performers' comp figures, and named anecdotes with outcomes. The concepts are kept; the numbers are removed"
-  - "Adapted for GTM-360: the traffic-light rules, readiness bands, the productivity-dip planning assumption, and the AI rollout durations are author defaults to calibrate per client. The EU works council and AI Act points are flagged for counsel and are not legal advice"
 ---
 
 # RevOps change management

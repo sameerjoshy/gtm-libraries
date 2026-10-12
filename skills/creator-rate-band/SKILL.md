@@ -1,12 +1,7 @@
 ---
 name: creator-rate-band
 version: 1.0.0
-status: draft-for-review
 description: "Use to price a B2B thought-leadership creator from what their content actually does, not from follower count. Weights recent post performance by engagement type, cross-checks the result against a cost-per-thousand-impressions anchor, and produces an initial, budget, and maximum rate band to open a negotiation from. Use for a creator the team knows or a cold creator being priced for the first time. Not for the deal structure (see creator-deal-structure) or the reply to pushback (see creator-negotiation)."
-sources:
-  - "Estimate creator rate (MIT, Maxwell Nimmo): pricing from recent post performance rather than follower count, a weighted-engagement model, a cross-check against a cost-per-thousand-impressions anchor, the output of an initial, budget, and maximum band, the optional calibration from past closed deals, and the step to gather inputs before estimating"
-  - "Removed: the weighting multiples and the market rate figures in the source, which are replaced by a method to calibrate. The connector options are restated as optional data sources"
-  - "Adapted for GTM-360: the weighting of engagement types (comments and shares counted above reactions) is an author default to calibrate against the team's own closed deals. The rule to keep the maximum band below the campaign ceiling is an author addition"
 ---
 
 # Creator rate band

@@ -1,14 +1,7 @@
 ---
 name: qbr-ebr-builder
 version: 1.0.0
-status: draft-for-review
 description: "Use to design and build customer business reviews that buyers attend: the quarterly operational review for users and the executive business review for the economic buyer, with the value recap in the customer's own numbers as the central artefact. Includes a pre-meeting executive account brief for the seller. Use when reviews are a feature parade, when the economic buyer has stopped attending, when renewal value has to be proved from scratch, or before a sponsor sync. Not for internal meeting design (see revenue-operating-cadence) or for the intervention itself when a review finds risk (see renewal-save-motion)."
-sources:
-  - "QBR and EBR builder (MIT, Rutger Katz / Neon Triforce): the two instruments and their audiences, segmentation by account tier, the three-panel review spine, stakeholder rules for the economic buyer and sponsor attendance, outputs and routing, anti-patterns, and the readiness conditions"
-  - "Executive account brief (MIT, Ido Goldberg / Swan): the one-page brief structure, facts before narrative, buying committee with sentiment quoted from source, sourced risks, the required ask, pressure-test before delivery"
-  - "Renewal value receipt (MIT, Manny Medina): the three reporting categories (usage, performance, and value, of which only value closes renewals), the customer's own before-figure as the benchmark, a monthly receipt rather than a scramble at renewal, arithmetic the buyer can re-derive, computing value per account rather than averaging across accounts, and the rule that a value figure built on the vendor's estimates is labelled as an assumption. The source's example figures and named product are not restated"
-  - "Removed as unverified: the median and top-quartile retention figures attributed to industry surveys, and the claim that review cadence is a controllable instrument with a measured effect. Validate against the client's own renewal cohort"
-  - "Adapted for GTM-360: the 90 to 120 day EBR window, the segmentation tiers, and the review length are practice-based defaults. Thresholds for at-risk sponsors are defaults to calibrate"
 ---
 
 # QBR and EBR builder

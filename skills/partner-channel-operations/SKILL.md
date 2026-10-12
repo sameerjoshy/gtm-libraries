@@ -1,12 +1,7 @@
 ---
 name: partner-channel-operations
 version: 1.0.0
-status: draft-for-review
 description: "Use to run the operational plumbing of a partner or channel programme: choosing partner types and tiers, defining an ideal partner profile, deal registration and conflict rules, partner onboarding and enablement, co-sell motions, attribution of sourced versus influenced revenue, partner health scoring, and the review cadence. Use when partners are signed but not producing, when partner and direct reps fight over accounts, or when partner revenue cannot be reported. Not for deciding whether to build a partner motion at all (see partner-ecosystem-architect)."
-sources:
-  - "Partner channel operations (MIT, Rutger Katz / Neon Triforce): partner type matrix, ideal partner profile scoring, three-tier programme structure, deal registration process and conflict rules, CRM properties for partner deals, onboarding sequence, enablement content matrix, co-sell motions, sourced versus influenced attribution, partner health scoring, review cadence, maturity levels, common pitfalls"
-  - "Removed as unverified: all benchmark statistics attributed to research reports and vendor studies (win-rate uplift, cycle-length, deal-size, churn, programme ROI, CAC, activation and retention rates, and the share of programmes under fifty partners), the platform and tool prices and rankings, the market-moves list, and the EU compliance grades. Replace with the client's own partner data"
-  - "Adapted for GTM-360: tier thresholds, commission ranges, registration windows, SLA hours, and health-score weights are author defaults. Commission and revenue-share terms are for the client's finance and legal teams to set"
 ---
 
 # Partner channel operations

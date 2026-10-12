@@ -1,13 +1,7 @@
 ---
 name: linkedin-outreach
 version: 1.0.0
-status: draft-for-review
 description: "Use when planning or reviewing LinkedIn outreach to named prospects, including connection requests, direct messages, and InMail. Sets safe volume and warm-up, applies the success rules before launch, enforces message length and the no-pitch-in-the-request rule, and provides a recovery plan for a restricted account. Not for email (see outbound-cold-email) or replies to existing threads (see reply-handling)."
-sources:
-  - "LinkedIn limits and warm-up (MIT, Alex Vacca / Frontal), daily and monthly volume ceilings, warm-up stages, red flags, account health indicators, recovery from restriction"
-  - "LinkedIn key success factors (MIT, Alex Vacca / Frontal), seven rules: stay within limits, target active users, short messages, lead magnet, human-like pacing, audience timezone, message when online; pre-launch checklist; common mistakes"
-  - "Reach out (MIT, Ido Goldberg / Swan), LinkedIn register rules: say who you are in the first line, drop the proof point and hard numbers, a DM has no room for warm-up observations"
-  - "Adapted for GTM-360: volume ceilings labelled as planning values to verify against current platform terms, benchmarks labelled as starting points, no invented results"
 ---
 
 # LinkedIn outreach

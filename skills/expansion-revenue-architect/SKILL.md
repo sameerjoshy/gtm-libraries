@@ -1,13 +1,7 @@
 ---
 name: expansion-revenue-architect
 version: 1.0.0
-status: draft-for-review
 description: "Use to diagnose and build the expansion engine for B2B SaaS: fix gross retention first, then design the expansion motion (ownership by deal size, the CS-to-Sales handback, whitespace analysis across five dimensions, a readiness score with action bands), signal rules wired into the cadence, and a 90-day net revenue retention programme. Use when NRR is below target, GRR is below about 90%, expansion is accidental, or CS does not own revenue. Not for CS operations or health scoring (see cs-operations), pricing mechanics (see pricing-monetisation-ops), or handoff mechanics (see revenue-handoffs)."
-sources:
-  - "Expansion revenue architecture (MIT, Rutger Katz / Neon Triforce), GRR-first principle, GRR bands and lever map, five NRR levers, ownership model by expansion size, CS-to-Sales handback steps, whitespace methodology, expansion readiness score and action bands, signal rules, 90-day NRR programme, usage-based pricing discussion, time-to-value, advocacy"
-  - "Removed as unverified or vendor-sourced: valuation-uplift claims, NRR ranges by pricing model, in-app conversion benchmarks, usage-based pricing NRR and growth figures from a 2023 study, AI-platform pricing and capability claims, and survey medians presented as targets. Context only where kept"
-  - "Corrected: the source's worked example of the cost of a 102% versus 115% NRR gap is removed because it depends on undisclosed assumptions. A method for building the calculation is given instead"
-  - "Adapted for GTM-360: score weights, bands and thresholds are author defaults. Data protection points are flagged for counsel. Reference files in the source are not in this library and are not relied on"
 ---
 
 # Expansion revenue architecture

@@ -1,12 +1,7 @@
 ---
 name: event-attendee-prep
 version: 1.0.0
-status: draft-for-review
 description: "Use one to three days before a face-to-face event (a conference, a dinner, a booth, a talk) when a registration or attendee export exists and the question is who to talk to. Maps each registrant to a company, joins the list against the live CRM, verifies each person's title and employer, sizes and qualifies each company, identifies the buying committee for accounts worth pursuing, and produces a phone-readable dossier with one account per page, warm accounts first, each card showing who the buyer is, whether they are in the room, and the one-line opening. Not for scheduling the event's logistics (see event-logistics-planning)."
-sources:
-  - "Event room intelligence (MIT, Ariel Cohen): the timing window of one to three days before the event, mapping every registrant to a company, joining against the live CRM rather than a stale export, verifying each person's title and employer before use, sizing and funding each company, hand-authoring the buying committee for accounts worth hunting, and the phone-readable dossier with one account per page and a five-second read per card"
-  - "Removed: the named CRM, the profile lookup services, the PDF rendering tool, the template placeholders, and the card-anatomy reference. The dossier structure is restated generically"
-  - "Adapted for GTM-360: the one-to-three-day window, the rule that a card must be readable in five seconds, and the warm-first ordering are author defaults"
 ---
 
 # Event attendee prep

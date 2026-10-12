@@ -1,11 +1,7 @@
 ---
 name: champion-job-change-tracking
 version: 1.0.0
-status: draft-for-review
 description: "Use to track when past buyers, power users, or key contacts at customers or prospects change jobs. Confirms each move against hard identifiers (domain, profile page), follows the mover into the new company, flags any vacated seat at the old account, and proposes CRM changes for approval. Not for general contact cleanup or for finding new prospects by persona."
-sources:
-  - "Track champion job changes (MIT, Sung Jo), FOLLOW and BACKFILL plays, verdict logic, domain-based comparison"
-  - "Track contact job changes (MIT, Jorge Macias), CRM refresh, propose-then-confirm writes, opt-out rules, name validation"
 ---
 
 # Champion job change tracking

@@ -1,13 +1,7 @@
 ---
 name: prospect-list-building
 version: 1.0.0
-status: draft-for-review
 description: "Use when building a prospect list of companies, contacts, or both, for outbound, ABM, or a signal-based motion. Sizes the audience before any full pull, writes the column plan and the ICP pass rule before running it, removes most rows with free checks before any paid enrichment, runs AI research one narrow question at a time, and only activates a list after the user approves its size and cost. Not for scoring existing accounts (see account-tier-scoring) or for verifying an existing list (see list-hygiene)."
-sources:
-  - "Build list (MIT, Ido Goldberg / Swan), column ladder with cost tiers and run-when gates, lock the brief, size first, free elimination before enrichment, AI research as one question per column, pilot on ten rows, companies before people, email waterfall, activation with approval, anti-patterns"
-  - "List architect (MIT, Alex Vacca / Frontal, contributor Ivan Falco), ICP scoring with a 100-point scale, sourcing and qualification sequence, Sales Navigator segmentation at the search result cap, decay and re-verification rules"
-  - "List building tips and lead sources guide (MIT, Alex Vacca / Frontal): data-quality hierarchy, source selection by need, pre-campaign checklist, common mistakes. Efficiency timings, provider comparisons, and tool-specific templates are dropped as unverified or vendor-specific"
-  - "Adapted for GTM-360: platform-specific tool names replaced with generic steps; tiering conflict between the two sources resolved by stating one default; provider coverage and decay figures labelled as heuristics to test"
 ---
 
 # Prospect list building

@@ -1,12 +1,7 @@
 ---
 name: linkedin-audience-targeting
 version: 1.0.0
-status: draft-for-review
 description: "Use to size, target and maintain a LinkedIn audience for B2B campaigns. Covers audience size by funnel stage, the job title or job function choice, seniority and company size splits, company and contact list targeting, the exclusions to apply, and the rules that keep audience expansion and the network placements off. Not for the campaign structure or budget (see abm-strategy-planner) or for retargeting segments across channels (see abm-retargeting-segments)."
-sources:
-  - "LinkedIn ads audience strategy (MIT, Ivan Falco): cold audience sizes by funnel stage, the consequences of audiences that are too tight or too broad, the choice between job title and job function targeting, seniority and company size splits, company and contact list targeting and their match rates, the exclusion priority order, the rule to keep audience expansion and the network placements off, lookalike rules, retargeting audience windows, and the audience splits for scale"
-  - "Removed: the named enrichment tools, the example titles and the example audience estimates, and the cross-channel details that depend on one search platform. The platform thresholds are kept as the platform states them at the time of the source, and must be checked before use"
-  - "Adapted for GTM-360: the stage sizes, the seniority rules, the 500-employee split point and the budget shares are the source's defaults, kept as defaults to calibrate. The platform minimums are labelled as platform rules to verify before each build"
 ---
 
 # LinkedIn audience targeting

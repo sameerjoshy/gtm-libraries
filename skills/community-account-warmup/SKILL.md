@@ -1,12 +1,7 @@
 ---
 name: community-account-warmup
 version: 1.0.0
-status: draft-for-review
 description: "Use when a brand account on an online community forum is new or has little standing, and the team wants it credible before any promotional activity. Sets out a warm-up ladder in which the share of promotional activity is earned step by step through contribution milestones, starting with zero product mentions, spreading across communities, and favouring active threads. Use before any promotion is planned for a new account. Not for monitoring an account that is already active (see community-account-health)."
-sources:
-  - "Community account warmup (MIT, Yahav Fuchs), restated for community forums in general: the principle that promotional density is earned, the ladder of promotional share against standing milestones, the warm-up method (contribution with no product mentions first, prioritising active threads, spreading across communities), and the observation that promotion from a new account is among the fastest ways to get flagged"
-  - "Removed: the platform's standing thresholds and eligibility milestones, which are specific to one forum. The ladder is restated with generic standing levels, and the platform's own figures are not reproduced"
-  - "Adapted for GTM-360: the standing levels and promotional shares are author defaults and must be calibrated against each forum's own rules. The rule that the team sets when promotion starts is an author addition"
 ---
 
 # Community account warmup

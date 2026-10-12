@@ -1,11 +1,7 @@
 ---
 name: objection-mining
 version: 1.0.0
-status: draft-for-review
 description: "Use when the same pushback keeps arriving and nobody has recorded it. Mines call recordings, reply threads, and lost-deal notes for recurring objections, classifies each one (timing, budget, authority, trust, fit, competition), ranks them by observed frequency with real quotes, and names the upstream place each should be answered so it stops arriving. Not for handling one live objection on a call (see the demo or call-scoring skills)."
-sources:
-  - "Objection mining (MIT, Tanyo Gochev): six objection categories with what each usually means, timing objections as deferrals, the rule that soft refusals do not end follow-up, the rule that a direct opt-out is honoured immediately and permanently, pre-handling upstream rather than on calls, ranking by frequency"
-  - "Adapted for GTM-360: the opt-out rule is kept as a hard rule and extended to suppression across all sequences; the catalogue format and frequency ranking are author additions"
 ---
 
 # Objection mining

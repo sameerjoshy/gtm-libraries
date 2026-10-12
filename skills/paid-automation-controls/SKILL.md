@@ -1,12 +1,7 @@
 ---
 name: paid-automation-controls
 version: 1.0.0
-status: draft-for-review
 description: "Use when deciding whether and how to let an ad platform automate targeting, placements, creative, and budget for a B2B lead campaign, or when a manual campaign is being compared with an automated one. Explains how automation changes the levers (creative and conversion data matter more than targeting inputs), the layers a platform may automate, what to keep constrained, when manual control still wins, and the B2B lead-quality features to switch on. Not for the campaign structure in the testing phases (see paid-social-campaign-structure)."
-sources:
-  - "Automated delivery for B2B SaaS on paid social (MIT, Ivan Falco): the shift from manual targeting to creative and conversion data as the main levers, the four layers a platform may automate (audience, placements, creative, and full campaign automation), the B2B lead features (work email validation, phone verification, and lead filtering), and the view that targeting inputs become suggestions rather than limits"
-  - "Removed: the named platform products and their launch dates, the platform's cost claims, and the product names for each layer, which are replaced by generic layer descriptions"
-  - "Adapted for GTM-360: the rule to automate only after the audience and creative are proven is an author addition consistent with the three-phase structure. The threshold at which manual control is kept is an author default"
 ---
 
 # Paid automation controls

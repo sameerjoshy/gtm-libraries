@@ -1,12 +1,7 @@
 ---
 name: sales-hire-scorecard
 version: 1.0.0
-status: draft-for-review
 description: "Use before interviews start for a sales, customer success, or other go-to-market hire, and again after each interview. Writes the motion of the seat, builds six to eight motion-fit criteria that the team ranks and weights, assigns each criterion an interview question and an owner with anchored 1 to 4 scoring, then scores candidates on evidence from what they did, not where they worked. Ends with a ranked summary and one yes or no decision for a human. Not for compensation design (see gtm-compensation)."
-sources:
-  - "Sales hire scorecard (MIT, Justin Blij): build mode and score mode, the principle of scoring the motion rather than the employer's brand, diagnostic questions before the first build, force-ranked and weighted criteria with the team owning the weights, one owned question per criterion, anchored scoring, trial mode before writes, human decision"
-  - "Removed: the applicant tracking and notes tool integrations, and the reference factor library. The criteria are restated as generic motion-fit factors"
-  - "Adapted for GTM-360: the six to eight criteria, the 100-point weighting, and the trial mode for the first role are author defaults"
 ---
 
 # Sales hire scorecard

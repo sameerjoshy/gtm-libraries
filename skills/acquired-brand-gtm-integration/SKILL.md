@@ -1,12 +1,7 @@
 ---
 name: acquired-brand-gtm-integration
 version: 1.0.0
-status: draft-for-review
 description: "Use immediately after acquiring a product or brand, before combining websites, customer records, pipelines, messaging, analytics, or campaigns. Sets the integration boundary from the deal thesis, maps the existing demand system, assigns a brand posture to each customer-facing surface, segments records by relationship and permission before any merge, protects live demand during consolidation, and sequences reversible changes. Not for the deal itself or the legal integration."
-sources:
-  - "Acquired-brand GTM integration (MIT, Gerrit Kesten): acquisition thesis as the test for every change, demand-system inventory with owner, system of record, and rollback path per asset, brand posture per surface (retain, endorse, absorb, retire), segmentation of people by relationship and permission before deduplication, protection of high-intent paths before consolidation, reversible staged sequence"
-  - "Removed: the reference decision matrix file, which is not used"
-  - "Adapted for GTM-360: the four-posture model is restated as a per-surface decision; the rule that a shared email does not make records interchangeable is kept as a hard rule for data and consent"
 ---
 
 # Acquired-brand GTM integration

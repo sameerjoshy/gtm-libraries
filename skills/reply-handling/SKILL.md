@@ -1,11 +1,7 @@
 ---
 name: reply-handling
 version: 1.0.0
-status: draft-for-review
 description: "Use when a prospect has replied to an outbound sequence and you need to decide what to do next. Classifies the reply into one of six intent buckets, drafts the matching response or stop action, and records the outcome in the CRM after approval. Never sends on its own. For batches of more than about five replies, classifies first and then works one bucket at a time. Not for writing the first sequence (see outbound-cold-email)."
-sources:
-  - "Handle reply (MIT, Ido Goldberg / Swan), six intent buckets with signals and next actions, referral as highest-leverage outcome, unsubscribe only on explicit intent, note on every classified reply, batch triage"
-  - "Adapted for GTM-360: CRM and sequence-tool calls generalised to any CRM, voice matched to the org's approved examples, no send without approval"
 ---
 
 # Reply handling

@@ -1,12 +1,7 @@
 ---
 name: paid-social-campaign-structure
 version: 1.0.0
-status: draft-for-review
 description: "Use to structure paid social campaigns for B2B high-value offers in three phases. Phase one validates which audiences produce qualified leads, using separate budgets per audience with the same ads in every audience. Phase two tests creative concepts inside the winning audience with a shared budget. Phase three moves to automation once the inputs are proven. Covers the validation criteria (judged in the CRM, not the ad platform), the consolidation rules, and the minimum test length. Not for the audiences themselves (see paid-social-audience-strategy) or for the automation settings (see paid-automation-controls)."
-sources:
-  - "Campaign structure for B2B paid social, high-value SaaS (MIT, Ivan Falco): the three phases (separate budgets per audience for validation, shared budget for creative scaling, automated delivery later), the single-variable rule that the same ads run in every audience while the audience is tested, the validation criteria taken from the CRM (title and firmographic match, lead-to-qualified conversion, cost per qualified lead, and sales call quality), the two-to-four week minimum test, and the rule to turn off automatic audience expansion during validation"
-  - "Removed: the named platform's budget and audience setting names, the named creative formats, and the twelve-month roadmap, which is not restated"
-  - "Adapted for GTM-360: the two-to-four week minimum and the rule to judge audiences in the CRM are kept. The phase labels are generic"
 ---
 
 # Paid social campaign structure

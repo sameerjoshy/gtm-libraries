@@ -1,12 +1,7 @@
 ---
 name: linkedin-signal-triage
 version: 1.0.0
-status: draft-for-review
 description: "Use to turn LinkedIn activity around a team member into routed, scored signals, covering profile views, inbound connection requests, direct-message conversations, post comments and reactions, and engagement with a product-focused influencer post. Resolves each actor, applies dedup, internal, relationship, and fit gates, scores active signals more strongly than passive ones, writes to the CRM only for fully resolved and fit-matched actors, and proposes a next move for a human to approve. Never sends outreach. Not for writing the outreach itself (see linkedin-outreach) or for general buying-signal tracking (see signal-detection-and-timing)."
-sources:
-  - "LinkedIn signal handling (MIT, Ariel Cohen, covering the profile-view, connection-request, DM-classifier, post-engagement, and influencer-engager handlers): the rule that an inbound connection request is an active first-party signal and scores differently from a passive profile view, the gate sequence (dedup, internal, relationship, fit), the rule that the CRM is written only for fully resolved, fit-matched actors, the repeat-engager escalation, the lone-reaction light touch, the verification that an influencer post is about the product before capture, and the rule that replies and sends stay with a human"
-  - "Removed: the named webhook providers, enrichment and scraping services, chat channels, CRM names, the template placeholders, and the sub-skill references. Each handler is restated as a step in one sequence"
-  - "Adapted for GTM-360: the active-versus-passive weighting, the repeat-engagement threshold, and the lone-reaction treatment are author defaults. Calibrate against the team's conversion data"
 ---
 
 # LinkedIn signal triage

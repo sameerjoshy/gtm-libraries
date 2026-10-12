@@ -1,12 +1,7 @@
 ---
 name: recent-discourse-sweep
 version: 1.0.0
-status: draft-for-review
 description: "Use when a decision depends on what the market said about a company, product, category, or person inside a dated window, such as before a first touch, a renewal call, or a positioning bet. Lists the venues first, reads each one and records whether it returned results, came back empty, or was never reached, dates every item, and produces a sourced synthesis with a coverage report. Not for a brand's own mentions and reputation (see brand-mention-monitor) or for one company's profile (see account-research-brief)."
-sources:
-  - "Recent discourse sweep (MIT, Nadav David): the one-line law that a sweep is only as honest as its coverage report, fixed window and venue list before searching, clean topic strings as routing keys, three recorded states per venue (read with results, read and empty, never reached), dating every item and dropping what falls outside the window, ranking by engagement with the dissent noted"
-  - "Removed: the reference files on query plans and coverage diagnosis, which are not used. The named platforms are replaced by venue categories"
-  - "Adapted for GTM-360: the default window of thirty days is an author default"
 ---
 
 # Recent discourse sweep

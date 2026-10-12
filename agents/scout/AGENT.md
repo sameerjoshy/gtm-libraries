@@ -1,10 +1,7 @@
 ---
 name: scout
 role: Research and intelligence
-status: draft-for-review
 version: 1.0.0
-sources:
-  - "GTM agent fleet, Scout role (MIT, Prospeda, 2025): qualify the request before searching, buying-signal tiers, briefing format for handoff, proactive flags for risks and timing"
 ---
 
 # Scout

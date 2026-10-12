@@ -1,12 +1,7 @@
 ---
 name: marketing-ecosystem-diagnostic
 version: 1.0.0
-status: draft-for-review
 description: "Use when someone asks where the company should spend marketing effort, which channel is working, or what the gaps in the marketing motion are. Grades the B2B marketing motion against a 22-motion maturity checklist across five pillars (create, capture, connect, convert, compound), each graded L0 to L3 on evidence, and produces a maturity score, a spend-by-funnel view, and exactly three next moves. Not for running an ads campaign (see `paid-campaign-plan`)."
-sources:
-  - "Marketing ecosystem diagnostic (MIT, Justin Rowe): 22 motions across five pillars, graded L0 to L3 with evidence beating claims, an owner tag per motion, a maturity score, a spend-by-funnel investment map, and exactly three next moves"
-  - "Removed: the named signal tool and the vendor links in the source. The motion list is restated as a generic checklist"
-  - "Adapted for GTM-360: the scoring rule (average across motions), the three-move limit, and the L0 to L3 scale are kept from the source as defaults. Spend figures must come from the company's own records"
 ---
 
 # Marketing ecosystem diagnostic

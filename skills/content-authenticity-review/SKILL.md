@@ -1,15 +1,7 @@
 ---
 name: content-authenticity-review
 version: 1.0.0
-status: draft-for-review
 description: "Use when a B2B draft (a post, email, page, case study, article, or executive piece) is correct but reads as machine-written and needs to sound like a person. Runs two passes: a subtractive pass that removes rhetorical moves which never help a reader, and a rewrite pass that puts claims first, attaches evidence, and makes a person the actor, then returns the rewrite with a list of changes and the claims that still need a source. Not for the first draft (see the writing skills) or for email subject lines (see email-subject-and-copy-review)."
-sources:
-  - "Anti AI slop writing (MIT, Gali Firon) and human mannerisms (MIT, Gali Firon): the principle that machine tells come in two kinds, rhetorical moves that are wrong every time and ordinary words and structures that read fine once but cluster into a tell, each needing its own scan; the subtractive pass that strips the tells; and the rule to scan for each kind separately"
-  - "Humanise AI-sounding content (MIT, Amith TK): the rewrite that keeps meaning and facts, the six patterns that give copy away, the requirement to lead with claims, attach evidence, and name a person as the actor, and the short list of what changed and what still needs a source"
-  - "Content de-slop (MIT, Vesselin Malev): the same two-pass approach applied to a content fleet, restated for any content owner"
-  - "Writing bar for ad and marketing copy (MIT, Ivan Falco, writing style): the read-aloud test, leading with the point, numbers and named detail in place of adjectives, cutting words that do no work, and taking a clear position. The source's banned-vocabulary list is not reproduced, consistent with the decision not to restate pattern lists"
-  - "Removed: the named example phrases, the pattern lists in full, and the checker tool. The patterns are described by category, not reproduced"
-  - "Adapted for GTM-360: the rule that a rewrite must not add facts, statistics, or quotes the author did not supply is an author addition consistent with the library rule against invented figures"
 ---
 
 # Content authenticity review

@@ -1,12 +1,7 @@
 ---
 name: post-launch-window
 version: 1.0.0
-status: draft-for-review
 description: "Use when a post is about to go live or has just gone live, and the question is what happens after publish. Covers a sponsored creator post, a founder announcement, a launch thread, a milestone update, or a customer story. Sets the pre-publish requirements (an interaction trigger, paid usage rights, attribution, a destination), a timed sequence from thirty minutes before publish to several days after, a numeric rule for when to put paid spend behind a post and when to stop, and a debrief. Not for choosing creators (see creator-discovery-and-vetting) or for drafting the sponsored copy (see creator-sponsored-post-drafting)."
-sources:
-  - "Launch window mechanics (MIT, Danni Chen): the view that feeds test a post with a small first audience before widening it, the requirement that the draft invite a reply, paid usage rights and attribution written into the agreement before publish, a destination ready for the traffic, the ranking of interaction types by their value, the timed sequence from thirty minutes before to days after, the author answering every comment in the first hour, the numeric amplification trigger against the account's own baseline and the stop conditions, and the rules against coordinated engagement and against editing after publish"
-  - "Removed: the named platform's ranking mechanics and weightings, the named reference files, and the named measurement tools. Interaction types are kept in general terms, and no platform weighting is restated"
-  - "Adapted for GTM-360: the first-hour reply target, the one-point-five to two times baseline trigger, the thirty percent cost-per-action stop, and the sentiment gates are the source's defaults, kept as author defaults to calibrate. The rule that the trigger and the stop are set in numbers before spend is kept as a hard rule"
 ---
 
 # Post launch window

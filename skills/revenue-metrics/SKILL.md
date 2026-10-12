@@ -1,12 +1,7 @@
 ---
 name: revenue-metrics
 version: 1.0.0
-status: draft-for-review
 description: "Use to define, calculate, and diagnose revenue metrics: the funnel and its conversion rates, pipeline velocity and its four levers, CAC, LTV, payback, NRR and GRR, Rule of 40, burn multiple, and cohorts. Provides the diagnostic sequence for when revenue is off track, the breakout method, and a cascade of scorecards by role. Covers what to measure and how to read it, not forecasting (see revops-forecasting) or meeting cadence (see the operating cadence skill)."
-sources:
-  - "Revenue performance metrics (MIT, Rutger Katz / Neon Triforce), funnel stages and conversion rates, pipeline velocity formula and levers, unit economics formulas, retention metrics, revenue composition, Rule of 40, burn multiple, growth by stage, diagnostic sequence, breakout analysis, cohorts, role-based scorecards, deal health dimensions, conversation metrics, predictability tests"
-  - "Benchmark tables in the source are drawn from vendor surveys, podcasts, and practice estimates of mixed vintage. They are context only. Each one must be checked against the client's own data before it is used as a target"
-  - "Adapted for GTM-360: one formula error corrected (NRR-based LTV breaks when NRR is at or above 100%); a fourth deal-scoring scale flagged as a conflict; AI-product and AI-agent metrics kept as cautions, not targets"
 ---
 
 # Revenue metrics

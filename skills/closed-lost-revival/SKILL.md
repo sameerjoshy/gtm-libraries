@@ -1,12 +1,7 @@
 ---
 name: closed-lost-revival
 version: 1.0.0
-status: draft-for-review
 description: "Use for a quarterly revival sweep over pipeline the company already paid to create: closed-lost deals, proposals that went quiet, champions who changed jobs, and contacts who engaged and then went silent. Applies hard gates, requires dated evidence before any draft, names each loss pattern against a library, and ships one capped campaign per quarter for human approval. Revives only accounts that engaged and then disengaged. Not for cold contacts who never replied (those go to prospecting), and not for live threads still inside a cadence."
-sources:
-  - "Closed-lost revival (MIT, Rutger Katz / Neon Triforce), three revival lanes (closed-lost and proposal-gone-quiet, champion job changes, engaged-then-quiet threads), hard gates, evidence before drafting, opener posture, loss-pattern library, quarterly campaign compression with a cap of 5 to 15 accounts, current-offer rule, human approval contract, next-touch timings"
-  - "Benchmark and rate figures in the source (win rates, post-proposal win rates, champion movement) are vendor or industry estimates, context only"
-  - "Adapted for GTM-360: an anecdote about a single vendor's pipeline result removed as unverified; champion-move detection cross-referenced to champion-job-change-tracking; the human approval rule kept as a hard requirement"
 ---
 
 # Closed-lost revival

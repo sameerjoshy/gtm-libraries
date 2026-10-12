@@ -1,12 +1,7 @@
 ---
 name: paid-message-validation
 version: 1.0.0
-status: draft-for-review
 description: "Use to find which paid ad messages actually produce valuable pipeline, not just cheap clicks or leads. Launches one message per buyer situation with equal budgets, scores the first qualified conversations on urgency, budget, and fit, ranks each ad by its average quality score rather than cost per lead or click-through, and scales only the messages that pass. Use when platform metrics say an ad is a winner but sales says the leads are poor. Not for the creative angles (see ad-creative-as-filter) or the offer (see paid-offer-strategy)."
-sources:
-  - "Message validation and ad scaling (MIT, Ivan Falco): the rule that platform metrics such as cost per lead and click-through do not show revenue quality, the buyer-situation list as the source of ad angles, equal-budget launch per situation, the scoring of the first qualified conversations on urgency, budget, and fit (zero to three each), ranking ads by average quality score, and scaling only validated winners"
-  - "Removed: the platform-specific campaign mechanics, the named example company and its illustrative figures, and the example scores in the source table, which are not reproduced"
-  - "Adapted for GTM-360: the scoring scale and the first twenty qualified conversations are the source's method, kept as defaults. The rule that a vanity winner is reported as a vanity winner, not a failure of the creative, is an author addition"
 ---
 
 # Paid message validation

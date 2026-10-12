@@ -1,11 +1,7 @@
 ---
 name: mutual-action-plan-builder
 version: 1.0.0
-status: draft-for-review
 description: "Use on a live deal when the buyer needs a shared path to value, not a seller's close plan. Trigger it when the champion asks for next steps, before scoping, POC, security, or procurement, after a slip or a stall with no written timeline, or when no one can name who owns each decision gate. Drafts a co-created Mutual Action Plan with a buyer-voice value summary, the full buying committee, a timeline anchored to the buyer's own driver, and milestones written as buyer evidence, not seller activity. Do not run it on a deal whose need and value are not yet validated. Not for pipeline hygiene (see pipeline-review)."
-sources:
-  - "Mutual action plan builder (MIT, Gal Aga), co-created MAP, buyer-evidence milestones, work backward from buyer timeline, owners and dates on both sides, co-creation framing, review cadence, failure modes"
-  - "Adapted for GTM-360 with the library's evidence rules: no invented stakeholders, dates, or quotes; [CONFIRM] and [TBD] markers; approval before the plan is sent to the buyer"
 ---
 
 # Mutual action plan builder

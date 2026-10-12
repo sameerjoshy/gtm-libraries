@@ -1,12 +1,7 @@
 ---
 name: paid-measurement-scorecard
 version: 1.0.0
-status: draft-for-review
 description: "Use to check whether a company's paid media measurement is good enough to judge spend, before any budget is scaled or any channel is cut. Scores five areas on a one-to-three scale (blended dashboard, channel dashboard, conversion tracking, web analytics, and an agreed attribution process), and treats weak measurement as a blocker to scaling. Not for the optimisation rules once measurement is sound (see paid-optimisation-signals)."
-sources:
-  - "Measurement scorecard and dashboard setup (MIT, Ivan Falco): the five scored questions (blended dashboard, channel dashboard, conversion tracking, web analytics, and attribution), the one-to-three scale for each, the test that a basic question should take minutes rather than many reports, and the honesty instruction to score truthfully"
-  - "Removed: the named analytics product and the named dashboards. Offline conversion tracking is kept as a category"
-  - "Adapted for GTM-360: the rule that any score of one blocks scaling spend, and the rule that the attribution process must be written down, are author additions"
 ---
 
 # Paid measurement scorecard

@@ -1,12 +1,7 @@
 ---
 name: ad-creative-as-filter
 version: 1.0.0
-status: draft-for-review
 description: "Use when planning paid social creative for a B2B offer, where the creative itself decides who the platform shows the ads to. Sets out a method to list the buyer situations the ideal customer faces, to choose angles that attract the right people and repel the wrong ones, to mine organic content and customer conversations for proven angles, and to plan the mix of angles to test. Not for the words of the ad (see ad-copy-voice-of-customer) or for fatigue on live creative (see creative-fatigue-rotation)."
-sources:
-  - "Creative strategy for B2B paid social, high-value SaaS (MIT, Ivan Falco): creative as targeting, because engagement with an ad signals to the platform who to show it to; the step to list fifteen to twenty-five buyer situations before any creative is made; the step to check organic winners first; and the sources for situations (customer interviews, sales call recordings, support tickets, and community discussions)"
-  - "Removed: the worked example list of situations for a named product type, which is replaced by a generic instruction to build the list from the company's own sources. The named content channels are replaced by categories"
-  - "Adapted for GTM-360: the target of fifteen to twenty-five situations is the source's recommendation, kept as a default. The rule to judge angles by the qualified outcome is an author addition"
 ---
 
 # Ad creative as filter

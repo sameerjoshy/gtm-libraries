@@ -1,13 +1,7 @@
 ---
 name: competitive-intelligence
 version: 1.0.0
-status: draft-for-review
 description: "Use to track what named competitors are doing (funding, leadership, hiring, launches, partnerships), in a dated briefing that reports only new signals, to prepare a competitor brief for a specific deal such as a displacement or renewal defence, or to create or update a six-section battlecard. Not for positioning or messaging analysis, which is competitive-white-space."
-sources:
-  - "Competitor monitoring (MIT, Alon Goldenberg), date verification, dedup memory, signal validation, quiet-period rule"
-  - "Competitor intel (MIT, Yoni Tserruya), deal-context framing, displacement angles"
-  - "Competitive intelligence radar (MIT, Sabahudin Murtic), monitoring cadence"
-  - "Battlecard (MIT, Ido Goldberg / Swan): six-section format, evidence rule for strengths and weaknesses, rumour labelling, date-stamping, one-page length. Knowledge-store tool names and the traffic-estimate step are removed"
 ---
 
 # Competitive intelligence

@@ -1,12 +1,7 @@
 ---
 name: marketing-operations
 version: 1.0.0
-status: draft-for-review
 description: "Use to make marketing accountable for pipeline: shared lifecycle definitions, dual-axis lead scoring (fit and engagement) with quarterly calibration and governed versions, the marketing-to-sales handoff SLA with rejection reasons, lead recycling, attribution (sourced, influenced, and a multi-touch model), campaign and UTM taxonomy, and the maturity path. Use when sales says leads are poor or revenue cannot be attributed to campaigns. Covers marketing operations, not brand, creative, or ICP methodology (see icp-builder), and not the CRM build (see the platform skills)."
-sources:
-  - "Marketing operations (MIT, Rutger Katz / Neon Triforce), lead lifecycle stages, dual-axis scoring with weekly decay, quarterly calibration with holdout, scoring versioning and rollback, MQL to SQL SLA and rejection categories, lead routing models, lead recycling, W-shaped attribution, sourced and influenced definitions, UTM governance, dark funnel, shared definitions, maturity levels"
-  - "Percentages and external statistics in the source (acceptance benchmarks, channel mixes, dark-funnel shares, vendor and survey figures) are treated as starting points or context only. The AI-scoring case study is removed as an unverified anecdote"
-  - "Adapted for GTM-360: the W-shaped weights are an author default; the decay half-life and rollback thresholds are defaults to test; the SPICED fit matrix and the campaign taxonomy references are not in this library and are not relied on"
 ---
 
 # Marketing operations

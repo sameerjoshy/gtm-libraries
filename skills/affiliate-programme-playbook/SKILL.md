@@ -1,13 +1,7 @@
 ---
 name: affiliate-programme-playbook
 version: 1.0.0
-status: draft-for-review
 description: "Use when building or fixing a B2B SaaS affiliate programme, whether starting from nothing or repairing one that is live but drives little revenue. Covers partner personas built from the buyer's journey, a commission set from an allowable acquisition cost, cookie windows, a gated application, outbound recruitment of partners, a short onboarding sequence, activation through a launch challenge, development of the top partners, and a regular audit that removes fraud. Built on the view that programmes win on partner quality and activation, not on sign-up volume. Not for creator sponsorships (see creator-programme-strategy)."
-sources:
-  - "B2B affiliate program playbook (MIT, Victor Moen): the thesis that affiliates are people rather than links and that programmes win on recruitment and activation, the sequence from ideal partner personas through commission structure, cookie windows, gated application, recruitment, onboarding, launch activation, partner development, and audits with fraud removal, and the commission rule based on allowable acquisition cost"
-  - "Read in part: the full sequence was partly read. Sections on the specific commission arithmetic and the fraud checks were not read in full, and are restated here only as principles to be completed from the source by the team"
-  - "Removed: the named affiliate network and tracking tools, and the example commission figures. The arithmetic is restated as a method"
-  - "Adapted for GTM-360: the rule that commission is set so that the partner's share stays below the allowable acquisition cost is kept as the principle. Audit cadence of twice a year is the source's suggestion, kept as a default"
 ---
 
 # Affiliate programme playbook

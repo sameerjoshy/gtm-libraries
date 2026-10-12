@@ -1,13 +1,7 @@
 ---
 name: deal-desk-operations
 version: 1.0.0
-status: draft-for-review
 description: "Use when reps hold too much pricing authority, discounts vary widely by region or rep, approvals stall deals, or margin is leaking without anyone seeing it. Designs the discount approval matrix by depth and deal size, a margin floor, a strategic exception lane with a 30-day review, a three-stage quote workflow with turnaround targets, discount tracking with expiry, governance of usage and outcome deals, and the metrics that show whether the desk is helping or slowing deals. Not for list pricing or packaging strategy (see pricing-monetisation-ops) or renewal positioning (see cs-operations)."
-sources:
-  - "Deal desk operations (MIT, Rutger Katz / Neon Triforce): triggers for building a desk, discount authority bands, margin floor, deal-size overrides, strategic value lane, three-stage quote workflow, discount tracking requirements, renewal cohorts, expiry enforcement, usage and outcome deal governance, metrics, maturity levels, anti-patterns"
-  - "Removed as unverified or vendor-sourced: margin-leakage percentages, cycle-time reduction claims, the cost of each hour of quote delay, the quote-turnaround benchmark attributed to a vendor, usage-based adoption trends, and the vendor and survey figures. Targets are kept as defaults to test"
-  - "Corrected: the source's Netherlands cold-email exception is removed. Member-state rules on unsolicited electronic marketing vary and are a point for counsel"
-  - "Adapted for GTM-360: bands, SLAs, scoring scales and metric targets are author defaults. Calibrate them against the client's own margin and win data"
 ---
 
 # Deal desk operations

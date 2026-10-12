@@ -1,12 +1,7 @@
 ---
 name: seo-serp-qualification
 version: 1.0.0
-status: draft-for-review
 description: "Use to check whether a keyword candidate can be won, by looking at what actually ranks for it, before any content is commissioned. Assesses intent clarity, the content format that the results reward, the competitive landscape, and whether the gaps are beatable, then gives each keyword a QUALIFY, CONDITIONAL, or KILL verdict with its reason. Many topics should die at this step. Not for prioritising the topics that pass (see seo-topic-prioritisation)."
-sources:
-  - "SERP qualification (MIT, Sam Dunning): the principle that keyword volume and difficulty figures are not enough without reading the results, the four checks (intent clarity, rewarded format, competitive landscape, and beatable gaps), and the three verdicts QUALIFY, CONDITIONAL, and KILL with a reason for each"
-  - "Removed: the command invocation, the named keyword tool and its outputs, and the pipeline phase numbering"
-  - "Adapted for GTM-360: the rule that a conditional verdict states the one condition that would change it is an author addition. The rule to record the date of the check is an author default"
 ---
 
 # SEO SERP qualification

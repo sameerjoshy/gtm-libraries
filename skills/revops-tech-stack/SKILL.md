@@ -1,13 +1,7 @@
 ---
 name: revops-tech-stack
 version: 1.0.0
-status: draft-for-review
 description: "Use to decide what the revenue technology stack should contain, to audit a stack that has grown without a plan, to evaluate a tool or decide build versus buy, and to decide where AI tools fit given the company's process and data maturity. Works capability by capability, not tool by tool, and sizes the stack to the company's stage. Use when the team says there are too many tools, the tools do not talk to each other, or someone wants to buy an AI tool. Not for strategy framing (see revops-strategy) or CRM data governance (see revops-data-governance)."
-sources:
-  - "Revenue tech stack architecture (MIT, Rutger Katz / Neon Triforce): capability-first principle, core and intelligence layers, value engineering from customer lifecycle value, capability-value matrix, golden rules, stage-based sizing, GTM AI maturity model, AI readiness checklist, the 90/10 build-buy rule, the tool evaluation framework, the vendor forward-deployment test, composability tests, AI knowledge stack"
-  - "Removed as unverified: stack cost ranges and per-token prices, vendor counts and tool-count ranges by stage, vendor pricing matrices, vendor review summaries, the 'integration debt as a percentage of tool cost' figure, the 20-agent case, and vendor tables that are dated by pricing changes. Use the client's own invoices and current vendor quotes"
-  - "Corrected: the source described GDPR lawful-basis and processor requirements as stage prerequisites; they are kept as checks, with the legal reading left to counsel. Several Salesforce and HubSpot platform claims were removed because they change with product releases"
-  - "Adapted for GTM-360: the evaluation weights (40, 25, 20, 15), the stage bands, and the usage threshold for underused tools are author defaults to calibrate per client"
 ---
 
 # Revenue tech stack architecture

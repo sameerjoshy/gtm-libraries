@@ -1,12 +1,7 @@
 ---
 name: revenue-handoffs
 version: 1.0.0
-status: draft-for-review
 description: "Use when revenue leaks between teams: leads go dark after handover to sales, promises made before signature disappear, implementation loses momentum, or nobody owns expansion. Designs the handoff protocol for each transition in the revenue bow tie (marketing to sales, sales to implementation, implementation to customer success, customer success back to sales), with an owner, a context packet, an SLA, and leading indicators for each. Not for routing rules (see lead-routing-design) or for tool build-out."
-sources:
-  - "Design revenue handoffs (MIT, Rutger Katz / Neon Triforce), five-node bow tie, context packet per transition, SLA targets and speed-to-lead tiers, promise and commitment log, go-live readiness conditions, three expansion types with the new-buying-group test, ownership thresholds by contract value, leading indicators of failure, quality scorecard"
-  - "Speed-to-lead and expansion figures cited in the source are from vendor and research reports, labelled as context only and not used as rules"
-  - "Adapted for GTM-360: tool names, prices, and platform build steps removed; the reference files named in the source are not in this library and are not relied on; contract-value thresholds labelled as examples to set per client"
 ---
 
 # Revenue handoffs

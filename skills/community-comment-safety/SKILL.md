@@ -1,12 +1,7 @@
 ---
 name: community-comment-safety
 version: 1.0.0
-status: draft-for-review
 description: "Use to review or write a comment that touches a brand in an online community forum, before it is posted. Runs a six-point check (the community's rules, its self-promotion policy, relevance to what the post actually says, authenticity, tone, and spam-filter risk), switches to a value-first mode where self-promotion is restricted, and sets the rule that a failed comment gets one rewrite before it is dropped. Use it because forum moderation punishes patterns, not just single posts. Not for choosing a community (see community-channel-research) or for pre-posting rule checks (see community-post-preflight)."
-sources:
-  - "Community comment safety (MIT, Yahav Fuchs), restated for community forums in general: the six-point check, the natural-mention mode for restricted self-promotion (stripping product references and external links and leading with expertise), the two-strikes rule (one rewrite, then skip), and the observation that moderation and spam systems react to patterns across comments"
-  - "Removed: the platform's account-level terms and the named forum platform. The check is restated for any community forum"
-  - "Adapted for GTM-360: the rule that the brand's employees disclose their affiliation where the community requires it is an author addition consistent with the six-point check. The two-strikes rule is kept from the source"
 ---
 
 # Community comment safety

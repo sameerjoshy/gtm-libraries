@@ -1,12 +1,7 @@
 ---
 name: call-followup-sweep
 version: 1.0.0
-status: draft-for-review
 description: "Use when a day or a week of customer calls has happened and the follow-through is owed but unwritten. Asks for the window, reads each call, extracts the commitments (especially the seller's own unshipped promises), triages which calls earn an email, and returns one draft per account that earns one, a list of calls that earn none with reasons, and an ageing report of open promises. Produces drafts only and never sends. Not for the sequence after a booked meeting (see stage-aware-follow-up)."
-sources:
-  - "Call follow-up sweep (MIT, Boaz Descalo): window question before any reading, commitment extraction from both sides, triage that subtracts most calls, one draft per account, draft patterns by call shape, a 150-word cap with three action items, report ordering led by aged commitments, drafts-only rule"
-  - "Removed: the source's reference files, which are not used. Writing rules are restated in this library's own terms"
-  - "Adapted for GTM-360: the 150-word cap, the three-action limit, and the three-business-day ageing threshold are author defaults"
 ---
 
 # Call follow-up sweep

@@ -1,14 +1,7 @@
 ---
 name: email-deliverability
 version: 1.0.0
-status: draft-for-review
 description: "Use when emails land in spam, open rates drop, a domain or IP is blocklisted, a new sender needs to warm up, or a deliverability audit is wanted before volume is scaled. Produces either a severity-ranked audit of the sending setup or a root-cause diagnosis with a recovery plan and the thresholds to monitor. Covers infrastructure, data quality, content, and traffic shape. Not for the first cold campaign's launch checks (see cold-email-preflight)."
-sources:
-  - "Email deliverability audit and rescue (MIT, Joshua Waldman): proactive audit versus active diagnosis, four pillars (infrastructure, data, content, traffic shape) in order, bounce thresholds and the distinction between soft and hard bounces, per-provider throttling, a week-over-week volume cap, classification of blocklisting, content filtering, broken authentication, and new-sender cases, monitoring thresholds"
-  - "Cold email warm-up and rotation (MIT, Imad Badreddine): inbox warm-up ramp, multi-sender rotation, and warm-up for new mailboxes, restated as a single warm-up procedure"
-  - "Warm-up ramp per mailbox (MIT, Lucas Godtfredsen): the ramp set by each mailbox's own age rather than the campaign's, volume spread across more mailboxes rather than pushed through one, sending in the recipient's working hours, a plain first touch, the three numbers that pause a ramp, keeping cold volume off the primary domain, and showing the current cap and its reason to the user. The source's warming-network scoring is not treated as evidence of readiness"
-  - "Removed: the named provider-specific tactics in the source's reference files, and the shared-pool and compliance-rail references, which are not used. Provider behaviour is described only as a reason to monitor per provider"
-  - "Adapted for GTM-360: the 0.5 percent hard-bounce and 2 percent soft-bounce thresholds, the 0.3 percent complaint threshold, the 50 percent week-over-week volume cap, and the warm-up length are author defaults. Verify all of them against the sender's own data"
 ---
 
 # Email deliverability

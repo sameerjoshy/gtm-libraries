@@ -1,12 +1,7 @@
 ---
 name: newsletter-issue-formats
 version: 1.0.0
-status: draft-for-review
 description: "Use to plan and write the recurring issues of a newsletter, especially a weekly curated roundup. Covers the five roundup formats (links, lessons, tools, content, and a hybrid), the rule that each curated item carries the owner's own take, the structure of a scannable issue, a single closing call to action, and a repeatable production process. Also covers turning a social post into a newsletter issue and generating a year of issue ideas. Not for the welcome sequence (see newsletter-subscriber-onboarding) or the subject line (see email-subject-and-copy-review)."
-sources:
-  - "Weekly roundup email and newsletter format (MIT, Daniel Bustamante): the roundup formats (link, lesson, tool, content, and hybrid), the value of curation with the owner's commentary on each item, the scannable issue structure with a clear intro, curated items, and a call to action, the conversion of a post into an issue, and the generation of an issue-idea list"
-  - "Removed: the template wording, the named newsletter examples, and the specific idea lists. The idea-list method is restated as a process"
-  - "Adapted for GTM-360: the rule that every curated item carries an original comment, and that links without commentary are not published, is an author addition. The one-call-to-action rule is kept from the source's structure"
 ---
 
 # Newsletter issue formats

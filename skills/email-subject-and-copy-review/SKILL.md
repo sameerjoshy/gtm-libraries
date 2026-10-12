@@ -1,14 +1,7 @@
 ---
 name: email-subject-and-copy-review
 version: 1.0.0
-status: draft-for-review
 description: "Use to write or improve the subject line and body of a B2B marketing or newsletter email. Generates subject lines from named psychological triggers (curiosity, urgency, pain, authority, results, contrarian, value, action, empowerment, story, trend, and quick win), reviews the body against a checklist of copy rules (direct address, a hook that gets to the point, skimmable structure, a single contextual call to action, a closing line for the reader who skips to the end), and rewrites vague pain statements into specific ones. Not for the whole sequence (see saas-lifecycle-programs) or for detecting machine-sounding prose (see content-authenticity-review)."
-sources:
-  - "Email subject line generator (MIT, Daniel Bustamante): the principle that subject lines are high-leverage, the psychological trigger categories for matching a subject to an email's intent, and the output of several variations with preview text"
-  - "Email copy optimiser (MIT, Daniel Bustamante): the copy checks on intro hook, direct address, mobile formatting, skimmability, a closing line, contextual calls to action, and paragraph structure"
-  - "Pain is the pitch rewriter (MIT, Daniel Bustamante): the step that finds generic sections and rewrites them with specific pain, given three alternatives per section"
-  - "Removed: the library of one hundred named frameworks, the named marketers and their quotations, and the example rewrites, none of which are reproduced"
-  - "Adapted for GTM-360: the rule not to invent statistics or customer details in any rewrite, and the rule that a rewrite must still be true of the product, are author additions"
 ---
 
 # Email subject and copy review

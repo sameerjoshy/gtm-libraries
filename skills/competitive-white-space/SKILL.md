@@ -1,11 +1,7 @@
 ---
 name: competitive-white-space
 version: 1.0.0
-status: draft-for-review
 description: "Use for a competitive positioning review: which messages every competitor repeats (saturated), which nobody says (white space), and what positioning the company can own. Takes competitor URLs or names. Not a monitoring report (use competitive-intelligence) and not a single-company overview (use account-research-brief)."
-sources:
-  - "Competitive white space (MIT, Justin Rowe), saturation map, white space, plain-language writing rules"
-  - "Competitor positioning (MIT, Alon Goldenberg), positioning versus execution lens"
 ---
 
 # Competitive white space

@@ -1,11 +1,7 @@
 ---
 name: outbound-performance-diagnosis
 version: 1.0.0
-status: draft-for-review
 description: "Use when an outbound campaign is underperforming and the cause is not obvious: replies have dropped, meetings have dried up, a sequence that worked has stopped, or the numbers look fine but nothing closes. Works through the funnel layers in a fixed order (delivery, engagement, replies, quality), stops at the first broken layer, and produces one diagnosis with its evidence and one next change. Not for writing the copy itself (see outbound-cold-email)."
-sources:
-  - "Outbound performance diagnosis (MIT, Tanyo Gochev): layered funnel review in fixed order, stop at the first broken layer, opens treated as diagnostic rather than as result, reply rate read against opens, positive versus total replies, one change at a time, sample-size discipline"
-  - "Adapted for GTM-360: layer thresholds (for example, a drop of more than about a fifth per step as sequence fatigue) are author defaults to calibrate per sending domain and list. Open-tracking caveats are kept as a rule of thumb, not a benchmark"
 ---
 
 # Outbound performance diagnosis

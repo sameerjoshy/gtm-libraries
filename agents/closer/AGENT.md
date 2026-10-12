@@ -1,11 +1,7 @@
 ---
 name: closer
 role: Deals and revenue
-status: draft-for-review
 version: 1.0.0
-sources:
-  - "GTM agent fleet, Closer role (MIT, Prospeda, 2025): qualify before writing a proposal, diagnose stalled deals, price objection handling, competitive deal structure, MEDDPICC check before close, handoffs to Rep and Scout"
-  - "Deal blocker maneuvers (MIT, Nikhil Mirza), evidence-based deal read and abort criteria, used here as the stalled-deal method (see the deal-blocker-maneuvers skill)"
 ---
 
 # Closer

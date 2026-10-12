@@ -1,12 +1,7 @@
 ---
 name: creator-programme-strategy
 version: 1.0.0
-status: draft-for-review
 description: "Use to build a B2B creator marketing strategy from the ideal customer to booked creators: map the audience, choose the creator tier that balances credibility, reach, and cost per qualified lead, allocate the budget across creators, and design the brief. Use when a team is deciding whether to run creator marketing at all, which tier to start with, or how to split a creator budget. Not for sourcing or vetting individual creators (see creator-discovery-and-vetting) or for pricing a deal (see creator-deal-structure)."
-sources:
-  - "Build influencer marketing strategy (MIT, Thomas Marcelle): the expertise-curve model (credibility and cost per qualified lead across creator tiers, with mid-tier expert creators as the usual sweet spot for B2B), the sequence from ICP to audience mapping, tier selection, budget allocation, and brief design, and the setup questions on ICP, deal size, sales cycle, and existing creator relationships"
-  - "Removed: the named activation platform, the vendor's own description, and the follower-count bands and cost curves in the source table, which are replaced by qualitative tiers. The tier table is restated without figures"
-  - "Adapted for GTM-360: the rule to start with a small number of mid-tier creators and test before scaling is an author default"
 ---
 
 # Creator programme strategy

@@ -1,12 +1,7 @@
 ---
 name: abm-retargeting-segments
 version: 1.0.0
-status: draft-for-review
 description: "Use to segment and sequence retargeting for known target accounts, by recency and depth of engagement, with a priority order and a monthly budget split by segment. Covers the buying committee as a retargeting segment, the recency and frequency matrix, the engagement depth scores, and the setup of audiences before any campaign runs. Not for the campaign level (see abm-campaign-level-choice) or for the audience attributes (see linkedin-audience-targeting)."
-sources:
-  - "ABM retargeting framework (MIT, Ivan Falco): the difference between account-based retargeting and display retargeting, the core segments and their time windows, the segment priority and budget split, the engagement depth scores, the recency and frequency matrix, the buying committee as a segment, and the rule to set up audiences before launch"
-  - "Removed: the named platform audience types and their minimum sizes as stated for one platform, the named CRM and enrichment tools, and the platform's setup instructions. The audience types are kept in general terms"
-  - "Adapted for GTM-360: the segment budget shares, the touchpoint bands and the recency windows are the source's defaults, kept as defaults to calibrate. The rule that audiences are set up before launch is kept as a hard rule"
 ---
 
 # ABM retargeting segments

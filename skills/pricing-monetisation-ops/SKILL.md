@@ -1,13 +1,7 @@
 ---
 name: pricing-monetisation-ops
 version: 1.0.0
-status: draft-for-review
 description: "Use when consumption, usage, outcome, or hybrid pricing needs reliable operations: bill shock is hurting renewals, metering and billing disagree, overages, minimums, or credits are applied inconsistently, a per-seat to usage migration threatens revenue reporting, or variable revenue will not reconcile. Covers the five layers (metering, rating, invoicing, collections, reconciliation), the contract structures a billing engine must handle, the data-quality audit, migration and price-change playbooks, and the data protection points. Not for discount approval (see deal-desk-operations) or pricing strategy and packaging design."
-sources:
-  - "Consumption billing and revenue operations (MIT, Rutger Katz / Neon Triforce): five-layer monetisation stack, metering flow and idempotency, customer mapping, six contract structures, rating algorithm, gotcha table, invoice structure and quality checklist, timing and reconciliation, migration approaches, price-increase tactics, billing data-quality audit, GDPR considerations"
-  - "Removed as vendor-sourced or unverified: named platforms and their prices, market-size and adoption figures, a vendor's per-conversation price, the churn-reduction figure for proactive communication, and the survey on unexpected charges. The billing platform checklist is kept as criteria"
-  - "Corrected: the source's ASC 606 example has a catch-up of $0 where the arithmetic gives $30,000. Its 'recognise on invoice date' rule is presented as a practice to confirm with auditors, not a compliance rule. The Schrems II point is restated as a transfer question for counsel"
-  - "Adapted for GTM-360: thresholds (dunning days, cohort uplifts, audit tolerances) are defaults. Platform-selection rules of thumb are labelled to validate"
 ---
 
 # Pricing and monetisation operations

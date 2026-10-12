@@ -1,13 +1,7 @@
 ---
 name: crm-migration-consolidation
 version: 1.0.0
-status: draft-for-review
 description: "Use when two or more CRM instances must be merged, when a company moves to a new CRM, or when a post-merger team has to decide whether to consolidate or run two systems side by side. Covers the consolidate-or-coexist decision, system of record per object, data harmonisation, deduplication and identity resolution, historical data, the ID crosswalk that makes rollback possible, rebuilding automations, re-pointing integrations, cutover and rollback, KPI re-baselining, GDPR carry-over, and the ARR tie-out to finance. Platform-neutral. For Salesforce configuration see revops-salesforce; for the wider post-merger plan see revops-change-management."
-sources:
-  - "CRM migration and consolidation (MIT, Rutger Katz / Neon Triforce): consolidate-or-coexist decision, system of record per object, harmonisation layer, identity resolution with match keys and survivorship, historical data options, ID crosswalk, automation rebuild, integration audit and cutover sequence, rollback, reporting bridge, GDPR carry-over, ARR tie-out, adoption playbook, sequencing"
-  - "Removed as unverified or vendor-sourced: the headline failure rate, cost multipliers for post-migration clean-up, contact decay and duplicate-rate percentages, deduplication effort estimates, the fuzzy-match coverage figure, training-return percentages, vendor and tool prices, the tool comparison table, and the 100-day PE playbook's quoted anecdote. Timelines are kept as planning ranges to validate, not as facts"
-  - "Corrected: the source's GDPR Article 14 timing is stated as a point for counsel. Article 7 requires that consent can be demonstrated, which is restated as a requirement"
-  - "Adapted for GTM-360: the illustrative figures in the worked examples are invented for teaching and must be replaced with the client's own numbers"
 ---
 
 # CRM migration and consolidation

@@ -1,12 +1,7 @@
 ---
 name: founder-post-triggers
 version: 1.0.0
-status: draft-for-review
 description: "Use when a founder has no results to point to and needs something to publish, or wants to know what to write before launch. Gives twenty-four things that have already happened in the business and are publishable, in five categories (customer evidence, numbers, decisions and reversals, the product as demonstration, and position), a rule for choosing one play and holding it, opening lines for the lowest-effort post, and a pre-publish check that requires a first-hand fact. Not for the timing of a post once written (see post-launch-window) or for a company announcement (see newsletter-issue-formats)."
-sources:
-  - "Founder post triggers (MIT, Danni Chen): the premise that credibility comes from the specificity of the problem rather than the size of the wins, twenty-four publishable triggers in five categories, the play selector that holds one play at a time, the opening lines for the lowest-effort tier, the pre-publish check, and the rules to anchor every post in a first-hand event, hold most output inside one topic, and never publish a number the author cannot stand behind"
-  - "Removed: the named reference files for plays and the first four weeks, and the example prompts. The triggers are restated in general terms and are not tied to any company"
-  - "Adapted for GTM-360: the seventy percent topic share is the source's guidance, kept as a default. The rule that any number must be defensible unedited is kept as a hard rule"
 ---
 
 # Founder post triggers

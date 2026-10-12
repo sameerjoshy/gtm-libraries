@@ -1,12 +1,7 @@
 ---
 name: ad-copy-voice-of-customer
 version: 1.0.0
-status: draft-for-review
 description: "Use when writing paid ad copy for B2B campaigns, so that headlines and body text use the buyer's own words instead of the product's marketing language. Sets out the rule to gather voice-of-customer language first, a ranked list of sources for it, the difference between describing a feature and describing a change in the buyer's daily work, and headline formulas to test. Not for the persona (see ad-persona-framework) or for the offer (see paid-offer-strategy)."
-sources:
-  - "Ad copywriting (MIT, Ivan Falco): the rule to write from the customer's mouth rather than from the brand's marketing language, the contrast between feature language and transformation language, the ranked sources of voice-of-customer data (direct customer language, then discovery notes, then testimonials and similar), and the headline formulas and visual direction the source describes"
-  - "Removed: the platform-specific format rules and the visual design specifics, which belong to the channel skills. The named review sites are replaced by a category"
-  - "Adapted for GTM-360: the ranking of voice-of-customer sources is the source's ordering restated. The rule that each variant is tested against a single changed element is an author addition"
 ---
 
 # Ad copy from the customer's voice

@@ -1,12 +1,7 @@
 ---
 name: profitable-efficient-growth
 version: 1.0.0
-status: draft-for-review
 description: "Use when a founder, revenue leader, or finance lead is planning for the year, preparing for a board or a raise, deciding whether to spend more on acquisition or fix the model first, or asks about unit economics such as CAC payback, net revenue retention, burn multiple, or magic number. Builds an efficiency scorecard from the company's own numbers, grades each metric against stated default thresholds, diagnoses whether growth is efficient or leaking, and suggests how to split the next dollar of go-to-market spend. Not for the pricing model itself (see pricing-monetisation-ops)."
-sources:
-  - "Profitable efficient growth (MIT, Sam Jacobs): the rebuttal to growth at any cost, unit economics as the filter for whether to scale or optimise, the efficiency scorecard across lifetime value to acquisition cost, payback, net revenue retention, rule of 40, magic number, and burn multiple, and the tranche approach to splitting go-to-market spend across proven, probable, and experimental uses"
-  - "Removed: the attribution of thresholds to the source as industry benchmarks. Thresholds here are defaults to test against the company's own cohorts and stage, not benchmarks"
-  - "Adapted for GTM-360: the tranche split (roughly 60, 30, and 10 percent) and the default thresholds are author defaults and must be calibrated to the company's stage and market"
 ---
 
 # Profitable efficient growth

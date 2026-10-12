@@ -1,14 +1,7 @@
 ---
 name: personalised-first-touch
 version: 1.0.0
-status: draft-for-review
 description: "Use to write one personalised first message for a contact who has a reason to be approached, using research into what the contact has said, shared, or done, and their company's current events. Chooses a personalisation bucket and a hook (a verbatim reference for high-value prospects, a conceptual reference for volume), and checks that the contact is still in the role before writing. Not for choosing which contacts to approach (see prospect-list-building) or for the offer (see cold-offer-architect)."
-sources:
-  - "Personalisation buckets (MIT, Alex Vacca / Frontal): six buckets from highest to lowest value (self-authored content, engaged content, self-identified traits, personal details, professional background, company-level signals) and the rule to fall back to relevance when no personal data exists"
-  - "Personalisation hooks (MIT, Alex Vacca / Frontal): strong hook (verbatim tie) versus lite hook (conceptual tie), selection by deal size and situation, and the rule that the hook must connect to relevance"
-  - "Outreach personalisation (MIT, Yoni Tserruya): verify the contact before writing, pull live account signals, choose the strongest hook by stacked signals, recent hire, or role relevance, calibrate length and ask to seniority, never a template, never a message to a departed contact"
-  - "Removed: the sample copy and the outcome figures in the source examples, and the named enrichment tools. Hook examples are replaced by the patterns alone"
-  - "Adapted for GTM-360: the tier of hook by deal size bands and the word limits by seniority are author defaults. Personal details are used sparingly and never where they would feel like surveillance"
 ---
 
 # Personalised first touch

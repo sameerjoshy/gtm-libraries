@@ -1,12 +1,7 @@
 ---
 name: deal-qualification-gates
 version: 1.0.0
-status: draft-for-review
 description: "Use when a pipeline is full of deals that advance on optimism rather than buyer evidence. Scores the evidence quality behind each qualification dimension from 1 to 5, sets minimum totals and per-dimension floors for each stage, and enforces a qualify, downgrade, or kill verdict with a name and a date. Covers deal truth, not account fit (see icp-builder) and not deal speed (see deal-velocity). Its 1 to 5 scale is separate from the in-flight scoring in deal-blocker-maneuvers. Use one scale per team."
-sources:
-  - "Deal qualification gates (MIT, Rutger Katz / Neon Triforce), evidence-quality scale 1 to 5, SPICED dimensions and mappings, stage gates with totals and per-dimension floors, critical-event forcing question, qualify-or-kill verdicts, rollout order"
-  - "Benchmark figures in the source (vendor research, see the provenance note below) are cited for context only and are not used in any rule"
-  - "Adapted for GTM-360: boundaries with icp-builder, deal-velocity, and deal-blocker-maneuvers made explicit; a note that the two scales must not be mixed in one forecast"
 ---
 
 # Deal qualification gates
@@ -126,7 +121,3 @@ Ask these before rollout, to see where the pipeline stands.
 ## Quality bar
 
 Evidence scores rise with stage. Every score of 3 or higher points to something in the record: a quote, a transcript, or an email. No deal advances while a dimension is under its floor. Deals move backward when the evidence says so, and a downgrade is not treated as a failure. A pipeline that only ever moves forward is the sign that the gates are theatre.
-
-## Provenance note
-
-The source cites vendor research for context: a 2025 benchmark that puts average B2B win rates near 19%, a finding that closed-won deals carry roughly twice as many engaged buyer contacts as closed-lost ones, and an observation that reps asking 11 to 14 discovery questions correlate with higher win rates. These come from vendor datasets and are not independently verified here. They are not used in any rule in this skill. Check the original reports before quoting them to a client.

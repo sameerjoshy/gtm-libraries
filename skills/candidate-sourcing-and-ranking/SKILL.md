@@ -1,12 +1,7 @@
 ---
 name: candidate-sourcing-and-ranking
 version: 1.0.0
-status: draft-for-review
 description: "Use when a hiring manager or founder needs to source candidates for an open role, but the brief is incomplete, over-titled, or likely to produce a noisy list. Diagnoses the role's real scope against the company's stage, sets must-haves apart from transferable evidence, previews the market before any paid lookup, ranks candidates in three evidence-based tiers, and returns a shortlist the hiring team can defend. Not for offer and close (see sales-hire-offer-close) or for scoring interviews (see sales-hire-scorecard)."
-sources:
-  - "Source and rank candidates from a hiring brief (MIT, Nylan Richard): diagnosing the role before searching, challenging title inflation against company stage, confirming a five-part search thesis, a small preview with a calibration question, enrichment limited to a reviewable pool, ranking on professional evidence in three tiers, separating role fit from contactability, and requesting approval before any message or system write"
-  - "Removed: the named data source, the named candidate workbook, and the reference files for intake and scoring. Scoring is described in general terms, and each team sets its own weights"
-  - "Adapted for GTM-360: the rule that a missing contact detail is not a sign of a weak candidate is kept as a hard rule. The review capacity guidance is the source's, with the twenty-candidate figure as an author default"
 ---
 
 # Candidate sourcing and ranking

@@ -1,15 +1,7 @@
 ---
 name: answer-engine-visibility-tracking
 version: 1.0.0
-status: draft-for-review
 description: "Use to measure how a brand appears in AI-generated answers over time, and to trust or challenge the score that results. Sets a baseline by seeding the questions buyers actually ask an AI answer engine, in the buyer's words, across the engines and countries that matter, and tracks mentions, ranking against competitors, and the citation sources behind them. Includes an audit that traces any headline visibility score down to the individual answers behind it before the score is explained. Not for choosing which content to build (see answer-engine citation drill-down)."
-sources:
-  - "AEO visibility tracking (MIT, Yahav Fuchs): the baseline method (defining the brand and its competitors, seeding buyer questions in buyer language, reading the visibility timeline and ranking), the rule to measure per engine and per country, and the mining of cited sources to show where content effort moves the score"
-  - "AEO score audit (MIT, Yahav Fuchs): the three-step drill from aggregate score to the scans behind it to the raw answer text, and the rule never to explain a score movement from the aggregate alone"
-  - "Sampling before scoring (MIT, Huxley Peckham): asking each question several times per engine, a majority vote for presence, verbatim answers kept as dated evidence, three presence tiers (recommended, mentioned in passing, cited as a source) with the strictest tier reported separately, a grid of questions by engines in place of one aggregate, and the rule that a changed question set is a break in the series, not a trend"
-  - "Prompt set research (MIT, Elad Hefetz): harvesting buyer language from several sources with provenance tags, holding the brand back until a final pass so the set reflects category demand, personas mapped to awareness stages, branded prompts kept in their own topic, and a validated hand-off rather than an automatic import. The named monitoring platform and the named assistants are not restated"
-  - "Removed: the named engines, the named monitoring tool, the command reference, and the specific scoring formulas, which are not restated. The score is treated as a summary of scans, not as a figure in its own right"
-  - "Adapted for GTM-360: the rule to track a fixed set of prompts over time, and to change the set only with a dated note, is an author addition so that trends are not created by changing the questions"
 ---
 
 # Answer engine visibility tracking

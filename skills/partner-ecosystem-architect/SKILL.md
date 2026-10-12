@@ -1,13 +1,7 @@
 ---
 name: partner-ecosystem-architect
 version: 1.0.0
-status: draft-for-review
 description: "Use to decide whether and how a B2B SaaS company should build a partner ecosystem: what problem partners would solve in the revenue system, which partner types fit the motion and stage, whether the direct motion is ready to be multiplied, how ecosystem-led growth plays fit alongside outbound, inbound, and customer success, and what a 90-day partner plan looks like. Use when someone says partners should be the next motion, when a partner programme is not producing, or when account mapping is being considered. Not for the operational mechanics (see partner-channel-operations)."
-sources:
-  - "Partner ecosystem architect (MIT, Rutger Katz / Neon Triforce): five diagnostic questions, stage-appropriate partner strategy, the three ecosystem-led growth plays (nearbound sales, marketing, and customer success), the ecosystem maturity levels, the partner type architecture by motion, the operator's three-layer model, the account mapping process, partner attribution rules, the signal-based decision rules, and the 90-day programme"
-  - "Removed as unverified: all benchmark statistics attributed to research reports and vendor studies, the at-scale revenue figures attributed to public company reports, the per-dollar partner revenue figure from an older industry study, the AI adoption and partner-count forecasts, the market-size and marketplace figures, the tool landscape with prices and merger news, and the 'nearbound' book reference. Treat these as market context to verify, not as inputs"
-  - "Corrected: the source's stage bands and partner revenue ranges are kept as planning defaults, not as benchmarks. The source described the same partner-influenced commission as both 'typically 50%' and 'reduced'. This skill states it as a default for the client to set"
-  - "Adapted for GTM-360: the stage bands, the investment levels, the 90-day success targets, and the signal thresholds are author defaults to calibrate per client"
 ---
 
 # Partner ecosystem architect

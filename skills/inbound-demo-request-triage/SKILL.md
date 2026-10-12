@@ -1,12 +1,7 @@
 ---
 name: inbound-demo-request-triage
 version: 1.0.0
-status: draft-for-review
 description: "Use when a demo request arrives through a website form or webhook and the question is what happens in the next few minutes. Gates out requests with no usable work email, resolves the person and company, decides buyer persona before scoring, and routes the request on fit and persona, never on a tier number alone. Three outcomes: book a meeting for a qualified buyer, send a fit company's non-buyer a route to the buyer, or send a self-serve or out-of-fit account to a free trial. Not for scoring the account in general (see account-tier-scoring) or for an outbound reply thread (see reply-handling)."
-sources:
-  - "Handle a demo request (MIT, Ariel Cohen): the email gate with consumer-domain stops, the rule that a company that cannot be resolved is a non-fit answer rather than a missing one, persona classified before the account is scored so tier does not blend the two, suppression of the qualified alert for non-buyers, the funded-company override that keeps a funded company on the sales path, and the three-branch route on fit and persona"
-  - "Removed: the named CRM, chat, booking, and scoring tools, the template placeholders, and the contents of the sub-skill references. The routing logic is restated generically"
-  - "Adapted for GTM-360: the self-serve floor (under fifty employees), the funding override (more than thirty employees and more than ten million raised), and the list of consumer email domains are author defaults. Calibrate them to the company's own pricing and ICP"
 ---
 
 # Inbound demo request triage

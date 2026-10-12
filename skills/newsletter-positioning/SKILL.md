@@ -1,12 +1,7 @@
 ---
 name: newsletter-positioning
 version: 1.0.0
-status: draft-for-review
 description: "Use when a newsletter, or a B2B content series that works like one, needs a clear value proposition and a name before it launches. Interviews the owner for the reader, the problem, and the reason to subscribe, writes a value proposition from a fixed formula, then generates names across distinct strategic categories and tests each against the proposition. Not for the subscriber welcome sequence (see newsletter-subscriber-onboarding) or the landing page copy beyond the proposition."
-sources:
-  - "Newsletter value prop and name generator (MIT, Daniel Bustamante): the reason positioning matters more than content quality at launch, the interview-first method, the value-proposition formula, and name generation across three strategic categories with at least ten options"
-  - "Removed: the interview script wording, the named example newsletters, and the category labels used in the source, which are restated generically. The source's exact formula is not reproduced"
-  - "Adapted for GTM-360: the rule that a name is tested against the proposition, and that the proposition must name a specific reader and a specific outcome, is an author addition"
 ---
 
 # Newsletter positioning

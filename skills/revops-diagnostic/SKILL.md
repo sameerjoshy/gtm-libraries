@@ -1,13 +1,7 @@
 ---
 name: revops-diagnostic
 version: 1.0.0
-status: draft-for-review
 description: "Use when revenue problems arrive as symptoms (weak pipeline, a forecast nobody believes, underperforming reps, churn, deals slipping late in the quarter, \"we are busy but nothing moves\") and the real constraint is unknown. Locates the layer of the revenue system where the problem sits, runs the information-focus-action check and the six stages, triages which motion to examine first, and produces one A3-lite with a stop-rule. Route to crisis handling first if several systems are failing at once. Not for the forecast model itself (see revops-forecasting)."
-sources:
-  - "RevOps diagnostic frameworks (MIT, Rutger Katz / Neon Triforce): three-layer revenue system model, symptom-to-constraint mapping, IFA diagnostic, six stages of check, quick triage decision tree, per-motion layer check, A3-lite, five whys, DACI, the constraint principle, integration architecture stages, AI maturity levels"
-  - "Removed as unverified: the '94% of problems are system issues' figure, the 2026 AI adoption percentages, platform feature and deprecation claims, and vendor-specific readiness checklists. The system model is kept as a framing device, not as evidence"
-  - "Adapted for GTM-360: the crisis thresholds, integration counts, and the AI maturity bands are defaults to calibrate with the client. Regulatory points on AI use in employee-facing decisions are flagged for counsel"
-  - "Revenue engine maturity diagnostic (MIT, Scott Wueschinski): the rule that a revenue engine runs at the level of its weakest dimension, and the evidence-first scoring of each dimension, where a capability that cannot be shown is not credited. The five-level scale is not added here, because the marketing maturity grading already covers maturity"
 ---
 
 # RevOps diagnostic

@@ -1,12 +1,7 @@
 ---
 name: commercial-base-audit
 version: 1.0.0
-status: draft-for-review
 description: "Use when a percentage in a commercial term is being set, questioned, or is producing a number nobody expected, such as sales commission, revenue share, affiliate or creator payouts, channel margin, agency or referral fees, or rebates. Finds what the percentage multiplies, identifies the condition under which two competing bases diverge, quantifies the gap per unit and at scale, and works backwards when a payout misses its model. Not for designing the pay plan (see gtm-compensation) or for approving a discount (see deal-desk-operations)."
-sources:
-  - "Audit the base, not the rate (MIT, Roman Palii): finding the multiplicand, the divergence condition where competing bases differ, the per-unit gap stated as a rate and scaled to volume, working backwards from a payout that misses its model, and changing the base rather than the rate"
-  - "Removed: the illustrative figures and the sector examples that were not verified. The method is kept in general terms, and no worked figure is restated"
-  - "Adapted for GTM-360: the rule to treat an undefined base as undefined, to answer the decision rather than audit the clause, and never to present a base change as a rate cut are kept as hard rules"
 ---
 
 # Commercial base audit

@@ -1,12 +1,7 @@
 ---
 name: move-gtm-diagnostic
 version: 1.0.0
-status: draft-for-review
 description: "Use to audit a go-to-market foundation before scaling or automating it. Works through four questions (Market, Operations, Velocity, Expansion), places the company in one of three fit stages (problem-market, product-market, platform-market), and returns a prioritised list of what to fix first. Use when a company wants a GTM health check, when growth has stalled, or before standing up a new outbound, inbound, or deal engine. This is a diagnosis, not a build. Not for a single channel plan (see demand-lifecycle-model)."
-sources:
-  - "MOVE GTM diagnostic (MIT, Sangram Vajre): the four-question diagnostic (Market, Operations, Velocity, Expansion), the three fit stages with their focus, motion, and growth pattern, the principle that a company cannot scale problem-market fit, and the rule to diagnose before building"
-  - "Removed: the revenue thresholds attributed to the source's framework as stage boundaries, and the book references. The stage bands here are the company's own signals, to be checked against its data"
-  - "Adapted for GTM-360: the stage classification uses the company's own revenue trajectory, team structure, and retention as evidence; no outside revenue cut-offs are applied"
 ---
 
 # MOVE GTM diagnostic

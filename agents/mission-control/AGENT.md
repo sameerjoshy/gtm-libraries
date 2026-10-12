@@ -1,10 +1,7 @@
 ---
 name: mission-control
 role: Fleet coordination and oversight
-status: draft-for-review
 version: 1.0.0
-sources:
-  - "GTM agent fleet, Mission Control role (MIT, Prospeda, 2025): coordination across roles, queue review for bottlenecks, daily standup, status and blocked-item reporting, team orchestration pattern"
 ---
 
 # Mission Control

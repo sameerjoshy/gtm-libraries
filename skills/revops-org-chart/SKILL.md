@@ -1,12 +1,7 @@
 ---
 name: revops-org-chart
 version: 1.0.0
-status: draft-for-review
 description: "Use to design or change the structure of a RevOps team: which roles to hire first and in what order by ARR stage, when to bring in a systems architect and in what mode, centralised versus embedded versus hub-and-spoke, where RevOps should report, what its charter must say, how to move a business automation or CRM team into RevOps, and how to structure a multi-business-unit company. Not for the GTM org redesign across functions (see gtm-planning-org-design)."
-sources:
-  - "RevOps org chart and team design (MIT, Rutger Katz / Neon Triforce): stage-based team sizing, the four archetypes, the systems architect engagement modes, the architect versus admin hiring rubric, the organisation evolution stages, reporting-line trade-offs, the charter and its four parts, centralised versus embedded versus hub-and-spoke, and multi-business-unit design"
-  - "Removed as unverified: staffing ratios attributed to a portfolio dataset, the revenue-to-RevOps ratio, the budget share rule attributed to a consultancy, the AI-adoption percentage attributed to a survey, vendor platform pricing changes, and the 'Governance Model' and reference files that are not part of this library"
-  - "Adapted for GTM-360: stage bands, team sizes, and hiring sequence are planning defaults. The AI governance roles are described as functions, not as a fixed hiring plan, since the need depends on how much automation the client runs"
 ---
 
 # RevOps org chart and team design

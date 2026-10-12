@@ -1,12 +1,7 @@
 ---
 name: newsletter-subscriber-onboarding
 version: 1.0.0
-status: draft-for-review
 description: "Use to write the welcome sequence a new newsletter subscriber receives, typically five emails over the first five to seven days, that builds trust, delivers value, and then makes a soft offer. Sets the job of each email (warm welcome, the best past pieces, the common mistake the reader should avoid, the origin story, and a soft offer), the interview needed first, and the rule that the sequence must work for a reader who never opens another email. Not for the newsletter's positioning (see newsletter-positioning) or for lifecycle messaging for paying customers (see saas-lifecycle-programs)."
-sources:
-  - "Newsletter welcome sequence (MIT, Daniel Bustamante): the five-email structure (warm welcome, greatest hits, biggest mistake, origin story, and soft sales pitch), the window of the first five to seven days as the highest engagement period, and the interview for context before any email is drafted"
-  - "Removed: the email copy templates and the example subject lines from the source. The sequence is restated as jobs, not copy"
-  - "Adapted for GTM-360: the rule that the soft offer comes last and must be genuinely useful to a subscriber who has not yet bought is an author addition. The lead-magnet and welcome-gift variants are folded into the first email as options"
 ---
 
 # Newsletter subscriber onboarding

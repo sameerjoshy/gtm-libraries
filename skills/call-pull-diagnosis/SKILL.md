@@ -1,12 +1,7 @@
 ---
 name: call-pull-diagnosis
 version: 1.0.0
-status: draft-for-review
 description: "Use when a sales call, discovery call, demo or pitch transcript needs a diagnosis of why it did or did not move forward. Tests whether the buyer had a real pull, meaning a project that was unavoidable now with options that have limitations, then checks whether the seller tested that pull, fitted the pitch to it, and what to change. Every claim needs a quote or a flagged absence. Not for scoring a call against a rubric (see call-scoring) or for the post-call follow-up (see call-followup-sweep)."
-sources:
-  - "PULL call review (MIT, Rob Snyder): the framework of a project that is unavoidable now, with a list of options that have limitations, the four-layer analysis in order (buyer pull, buyer PULL visibility, seller performance, and what to change), the rule to read the whole transcript before writing, the rule that every claim carries a quote or a flagged absence, and the description of the ideal customer as a PULL situation"
-  - "Removed: the attribution header wording, the link to the author's book and newsletter, and the word caps that belong to the reference format. The framework's full definitions sit in a reference file that is not used here, so the layer detail is kept in general terms"
-  - "Adapted for GTM-360: the rule that a diagnosis without a quote is a flagged absence, not a finding, and the rule that the verdict comes before the advice, are kept as hard rules"
 ---
 
 # Call pull diagnosis

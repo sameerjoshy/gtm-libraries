@@ -1,12 +1,7 @@
 ---
 name: paid-audience-segment-diagnostic
 version: 1.0.0
-status: draft-for-review
 description: "Use when a team has demographic performance data for paid ads (results broken down by industry, country, company size, job title, function, and seniority) and needs to know who is engaging, which segments convert efficiently at an acceptable cost, and what to change. Requires a minimum volume per segment before any segment is judged, separates engagement from conversion, and ends with a short list of segment changes. Not for reach and frequency (see paid-audience-reach-diagnostic) or for choosing the offer (see paid-offer-strategy)."
-sources:
-  - "Audience segment diagnostic (MIT, Justin Rowe): the question of who the buyers are, how efficiently they are reached, and what to change, applied across six demographic dimensions (industry, country, company size, job title, function, and seniority) with cost per lead and conversion measures"
-  - "Removed: the named signals tool and its dashboard and document outputs, and the external link. The six dimensions are kept as the breakdown"
-  - "Adapted for GTM-360: the minimum volume per segment before judgement, and the rule that a segment with high engagement but poor conversion is reported as an engagement finding, not a success, are author defaults and additions"
 ---
 
 # Paid audience segment diagnostic

@@ -1,12 +1,7 @@
 ---
 name: signal-campaign-build
 version: 1.0.0
-status: draft-for-review
 description: "Use to turn an observable market event, such as a funding round, a regulatory change, or a hiring pattern, into a small, defensible outbound campaign. Produces a signal thesis with its false-positive definition, an evidence record for each account, a buyer map for accounts that pass, staged channel drafts, and a quality gate before launch. Use when someone asks who to contact now, which companies show a problem, or how to build a campaign around an event. Not for choosing among ready-made plays (see signal-outbound-plays) or for detecting signals in depth (see signal-detection-and-timing)."
-sources:
-  - "Signal to campaign (MIT, Bojan Berisavljevic): proving the signal carries pain before building, scoring candidate signals on specificity, observability, timing, ownership, offer fit and noise, an evidence record per account with a keep, investigate or remove decision, buyer mapping only after the account passes, enrichment only after the gates, the one-sentence thesis, staged drafts, and a QA report with a small learning cohort"
-  - "Removed: the named data sources and tools, and the example companies. The method is restated without product names"
-  - "Adapted for GTM-360: the rule that a sentence must justify each account is the source's test, kept as a hard rule. The limit of one to three contacts per account is an author default"
 ---
 
 # Signal to campaign

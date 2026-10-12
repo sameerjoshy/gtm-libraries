@@ -1,13 +1,7 @@
 ---
 name: revops-crisis
 version: 1.0.0
-status: draft-for-review
 description: "Use when a revenue function is in crisis, meaning several systems are failing at once and the basic machinery can no longer be trusted. Typical signals are repeated forecast misses, win rates falling for several quarters, pipeline coverage dropping, retention collapsing, data that nobody believes, or functions blaming each other. Gives a four-week emergency triage, a 30-60-90 recovery plan, four crisis playbooks, and rules for leading through the blame. Use before the diagnostic, not instead of it. Not for routine diagnosis (see revops-diagnostic)."
-sources:
-  - "RevOps crisis triage (MIT, Rutger Katz / Neon Triforce): crisis recognition triggers, the multi-system failure pattern, the four-week emergency triage (data audit, cash diagnosis, root cause in fast mode, constraint identification), the 30-60-90 recovery plan, four playbooks (forecast, pipeline, churn, trust), the blame and confidence guidance, and the list of things not to do"
-  - "Removed as unverified: the win-rate medians, retention percentiles, coverage-to-quota percentages, and forecast-variance improvement figures attributed to industry reports, and the claim that automated alerting detects crises three to five days earlier. The thresholds are kept as defaults to calibrate"
-  - "Corrected: the source's pipeline playbook gave both a 2.8x trigger and a 2.1x example without a rule for choosing. This skill uses the win-rate-based required multiple, consistent with revops-strategy and revops-revenue-planning. The source's forecast playbook cited an accuracy target sourced to an analyst report, which is removed"
-  - "Adapted for GTM-360: the crisis thresholds, the data completeness targets, the 2-hour cash diagnosis, the 120-day renewal lead time, and the save-call ARR threshold are defaults. Set the currency and the thresholds from the client's size"
 ---
 
 # RevOps crisis triage

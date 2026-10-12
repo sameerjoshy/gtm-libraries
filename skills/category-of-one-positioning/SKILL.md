@@ -1,12 +1,7 @@
 ---
 name: category-of-one-positioning
 version: 1.0.0
-status: draft-for-review
 description: "Use when a founder or expertise-led business looks interchangeable in its market, is price-shopped against cheaper options, and is described in the same words as competitors. Builds a category-of-one positioning package from the buyer's own words, covering a reframed problem (old way against new way), the process the business actually runs, named expertise, and category language the market can attribute to it. Not for the general positioning build (see positioning-messaging-designer) or for a competitor scan (see competitive-white-space)."
-sources:
-  - "Category-of-one positioning (MIT, Luke Shalom): the diagnosis of interchangeability through shared language, the three-question interview for each pain point, the old way against new way reframe, process before result, named expertise as intellectual property, category language built from the business's own phrasing, and the pressure test against the competitor language list"
-  - "Removed: the named positioning method and its branding, the example business and its phrasing, the named research and note tools, and the setup steps tied to a specific knowledge store. The competitor-naming rule is kept in general terms"
-  - "Adapted for GTM-360: the rule to wait for the ICP and for approval before building on the reframe is kept as a hard rule. The five-to-ten candidate count for category language is an author default"
 ---
 
 # Category of one positioning

@@ -1,12 +1,7 @@
 ---
 name: campaign-benchmark-verdict
 version: 1.0.0
-status: draft-for-review
 description: "Use to decide whether a campaign's numbers are good, before setting a target, when reporting to someone who needs context, or when comparing segments and time periods. Judges a figure against three comparison layers in order of usefulness (the team's own history for the same kind of campaign, the target set before launch, and external averages used only as a rough guide), then gives a verdict and the action it implies. Not for the measurement set-up (see paid-measurement-scorecard)."
-sources:
-  - "Campaign benchmarking (MIT, Tanyo Gochev): the principle that a number without a comparison is not a result, the three comparison layers in order of usefulness (external averages, the team's own history, and the target), the verdict format of comparison layer plus action, and the rule to compare like with like across segments"
-  - "Removed: the published averages and the reply-rate figures quoted in the source, which are not reproduced because they vary by source and date"
-  - "Adapted for GTM-360: the ordering of layers (own history first, then target, then external averages) is an author judgement, reversed from the source's emphasis where external figures are unreliable. The rule to name the layer used in every verdict is kept"
 ---
 
 # Campaign benchmark verdict
