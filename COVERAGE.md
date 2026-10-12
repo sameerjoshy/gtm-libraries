@@ -6,7 +6,7 @@ Tracks every source skill from the two downloaded libraries, so that nothing is 
 
 - Source skills in the first library (`gtm-skills`): 404 SKILL.md files across the author folders below.
 - Source agent roles in the second library (`openclaw-skills`): 5. All five are merged into `agents/`.
-- Merged skills in `skills/`: 132.
+- Merged skills in `skills/`: 145.
 
 ## Status meanings
 
@@ -25,10 +25,10 @@ Per-author counts are a starting point, not a quality judgement. Merging is done
 | ido-goldberg | 19 | Cited |
 | daniel-bustamante | 15 | Not cited |
 | ariel-cohen | 13 | Cited |
-| yahav-fuchs | 12 | Not cited |
+| yahav-fuchs | 12 | Cited |
 | tanyo-gochev | 11 | Cited |
 | justin-rowe | 10 | Cited |
-| thomas-marcelle | 9 | Not cited |
+| thomas-marcelle | 9 | Cited |
 | ryan-iyengar | 8 | Cited |
 | sam-dunning | 8 | Not cited |
 | gali-firon | 7 | Cited |
@@ -38,7 +38,7 @@ Per-author counts are a starting point, not a quality judgement. Merging is done
 | erwann-lefevre | 5 | Cited |
 | jason-mesiarik | 5 | Cited |
 | john-williams | 5 | Cited |
-| maxwell-nimmo | 5 | Not cited |
+| maxwell-nimmo | 5 | Cited |
 | nadav-david | 5 | Cited |
 | omer-levy | 5 | Not cited |
 | peter-cools | 5 | Cited |
@@ -101,7 +101,7 @@ Per-author counts are a starting point, not a quality judgement. Merging is done
 | sung-jo | 1 | Cited |
 | thebigasif | 1 | Not cited |
 | tim-yakubson | 1 | Not cited |
-| victor-moen | 1 | Not cited |
+| victor-moen | 1 | Cited |
 
 ## Matching limit
 

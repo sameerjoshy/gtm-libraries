@@ -100,3 +100,9 @@ Skills listed as merge next in sections 2 and 3 are being written in batches. Ch
 
 - Written, generic form: paid-search-budget-reallocation, paid-search-unit-economics, paid-search-quality-diagnosis, paid-account-change-safety (John Williams write-safety, extended to any paid account), conversion-feedback-to-ad-platforms, off-domain-conversion-tracking, paid-social-campaign-structure, paid-social-audience-strategy, paid-automation-controls, ad-creative-as-filter.
 - Not written: the john-williams pmax asset-group skill (platform-specific structure; to be written as a generic multi-format automated campaign skill in the next batch), the Meta creative-set and remaining Meta sub-skills that repeat the above, the audit skills (aditya-sriram, gaetano-romeo, justin-rowe), and the ads-writing-style and message-validation sets.
+
+## Progress note: creator and community batch (145 merged)
+
+- Written: creator-programme-strategy, creator-deal-structure, creator-rate-band, creator-negotiation, creator-discovery-and-vetting, creator-sponsored-post-drafting, creator-programme-measurement (creator set); community-channel-research, community-post-preflight, community-comment-safety, community-account-warmup, community-account-health (community set, generic forum form); affiliate-programme-playbook (affiliate set, read in part).
+- Folded, not written: the ambassador-finder (covered by brand-advocate-finder), the creator benchmark skill (covered by creator-rate-band), and the Reddit attribution and brand-mention triage (covered by brand-mention-monitor and attribution skills).
+- Still pending: the newsletter and content set, the search and AI visibility set (including the answer-engine visibility tracking), the remaining paid ads audit and Performance Max skills, and the ads writing-style and message-validation sets.
