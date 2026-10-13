@@ -1,7 +1,7 @@
 ---
 name: inbound-demo-request-triage
-version: 1.0.0
-description: "Use when a demo request arrives through a website form or webhook and the question is what happens in the next few minutes. Gates out requests with no usable work email, resolves the person and company, decides buyer persona before scoring, and routes the request on fit and persona, never on a tier number alone. Three outcomes: book a meeting for a qualified buyer, send a fit company's non-buyer a route to the buyer, or send a self-serve or out-of-fit account to a free trial. Not for scoring the account in general (see account-tier-scoring) or for an outbound reply thread (see reply-handling)."
+version: 1.2.0
+description: "Use when a demo request arrives through a website form or webhook and the question is what happens in the next few minutes. Gates out requests with no usable work email, resolves the person and company, decides buyer persona before scoring, and routes the request on fit and persona, never on a tier number alone. Three outcomes: book a meeting for a qualified buyer, send a fit company's non-buyer a route to the buyer, or send a self-serve or out-of-fit account to a free trial. Not for scoring the account in general (see `account-tier-scoring`) or for an outbound reply thread (see `reply-handling`)."
 ---
 
 # Inbound demo request triage

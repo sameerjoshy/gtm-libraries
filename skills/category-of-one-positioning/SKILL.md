@@ -1,7 +1,7 @@
 ---
 name: category-of-one-positioning
-version: 1.0.0
-description: "Use when a founder or expertise-led business looks interchangeable in its market, is price-shopped against cheaper options, and is described in the same words as competitors. Builds a category-of-one positioning package from the buyer's own words, covering a reframed problem (old way against new way), the process the business actually runs, named expertise, and category language the market can attribute to it. Not for the general positioning build (see positioning-messaging-designer) or for a competitor scan (see competitive-white-space)."
+version: 1.2.0
+description: "Use when a founder or expertise-led business looks interchangeable in its market, is price-shopped against cheaper options, and is described in the same words as competitors. Builds a category-of-one positioning package from the buyer's own words, covering a reframed problem (old way against new way), the process the business actually runs, named expertise, and category language the market can attribute to it. Not for the general positioning build (see `positioning-messaging-designer`) or for a competitor scan (see `competitive-white-space`)."
 ---
 
 # Category of one positioning
@@ -22,7 +22,7 @@ Route elsewhere when:
 
 ## Inputs
 
-- The business's own description: website, service pages, headlines and profile text.
+- The business's own description: website, service pages, headlines, and profile text.
 - The closest competitors' descriptions, to build the shared-language list.
 - The ICP, named concretely by the user. If it is not available, ask for it.
 - An interview answer for each pain point: what is broken, why it is broken, and the business's own solution.
@@ -32,12 +32,12 @@ Route elsewhere when:
 ## Procedure
 
 1. **Diagnose interchangeability.** List the words the business and its competitors share. Mark those as banned from the final package. Capture the business's own phrasing word for word, without polishing it.
-2. **Narrow the ICP.** Name buyer types with an industry, stage or revenue band. If the ICP cannot be found, ask and wait. Do not invent it.
+2. **Narrow the ICP.** Name buyer types with an industry, stage, or revenue band. If the ICP cannot be found, ask and wait. Do not invent it.
 3. **Interview for each pain point.** Ask three questions and keep the answers verbatim: what is broken in the industry, why it is broken, and what the solution is. Do not answer for the user.
 4. **Frame the problem as old way against new way.** Build directly from the interview answers. Each side is one line: the old way, why it quietly fails, and what the new way replaces it with.
 5. **Map the new way as a process before naming the result.** Use the business's real steps, in order.
-6. **Package the expertise as a named system.** Use steps, a framework or a method, built from real engagements and proprietary data rather than generic tooling.
-7. **Build category language.** Give the problem, the mechanism and the outcome a name the market can attribute to the business. Start from the business's own phrasing and keep it where it is already sharp. Draft five to ten candidates.
+6. **Package the expertise as a named system.** Use steps, a framework, or a method, built from real engagements and proprietary data rather than generic tooling.
+7. **Build category language.** Give the problem, the mechanism, and the outcome a name the market can attribute to the business. Start from the business's own phrasing and keep it where it is already sharp. Draft five to ten candidates.
 8. **Get approval on the reframe.** Stop here until the user approves it. Everything downstream inherits it.
 9. **Assemble and pressure-test.** Check that no phrase from the shared-language list survives, and that every claim traces to something the user has confirmed.
 
@@ -52,12 +52,12 @@ Route elsewhere when:
 
 ## Quality bar
 
-The package is built from the business's own words. The reframe is approved before any language or named system is built on it. No phrase from the shared-language list survives. No proof, result or client name appears unless the user has confirmed it. Watch for a reframe written without the interview, language polished into generic copy, and a position set against a named competitor.
+The package is built from the business's own words. The reframe is approved before any language or named system is built on it. No phrase from the shared-language list survives. No proof, result, or client name appears unless the user has confirmed it. Watch for a reframe written without the interview, language polished into generic copy, and a position set against a named competitor.
 
 ## Rules
 
 - Interview for each pain point before writing the reframe.
-- Never invent the ICP, proof, results or client names.
+- Never invent the ICP, proof, results, or client names.
 - Keep the user's own phrasing. Do not sand it into generic marketing language.
 - Process before result.
 - Position against the old way, not against a named competitor.

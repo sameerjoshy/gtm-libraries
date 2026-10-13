@@ -1,7 +1,7 @@
 ---
 name: linkedin-ads-monthly-report
-version: 1.0.0
-description: "Use when someone wants a monthly LinkedIn ads and ABM report for the last full calendar month, with a comparison to the month before. For stakeholder or executive audiences. Not a fix list (use linkedin-ads-audit) and not a new plan."
+version: 1.2.0
+description: "Use when someone wants a monthly LinkedIn ads and ABM report for the last full calendar month, with a comparison to the month before. For stakeholder or executive audiences. Not a fix list (use `linkedin-ads-audit`) and not a new plan (use `abm-strategy-planner`)."
 ---
 
 # LinkedIn ads monthly report
@@ -10,7 +10,7 @@ Produces a stakeholder-ready recap of last month, with the month-over-month comp
 
 ## Purpose
 
-Summarise what happened last month, compare it with the month before, say whether the budget was well spent, and list the actions for next month.
+Summarize what happened last month, compare it with the month before, say whether the budget was well spent, and list the actions for next month.
 
 ## When to use
 
@@ -18,7 +18,7 @@ Summarise what happened last month, compare it with the month before, say whethe
 
 Route elsewhere when:
 - The question is a 30-day grade with a fix list. Use `linkedin-ads-audit`.
-- The question is the account-based programme's measurement. Use `abm-measurement-framework`.
+- The question is the account-based program's measurement. Use `abm-measurement-framework`.
 
 ## Inputs
 

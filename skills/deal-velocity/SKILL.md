@@ -1,7 +1,7 @@
 ---
 name: deal-velocity
-version: 1.0.0
-description: "Use when deals stall at specific stages, sales cycles run longer than the segment allows, or the pipeline is large but little closes. Diagnoses which lever of the velocity equation is binding (qualification, stage progression, volume, deal size, or zombie deals), sets stage exit criteria that reflect buyer actions, flags and triages zombie deals, and installs a weekly inspection rhythm. Treats slow deals as a speed problem, after deal truth has been checked by deal-qualification-gates. Not for scoring whether a deal is real."
+version: 1.2.0
+description: "Use when deals stall at specific stages, sales cycles run longer than the segment allows, or the pipeline is large but little closes. Diagnoses which lever of the velocity equation is binding (qualification, stage progression, volume, deal size, or zombie deals), sets stage exit criteria that reflect buyer actions, flags and triages zombie deals, and installs a weekly inspection rhythm. Treats slow deals as a speed problem, after deal truth has been checked by `deal-qualification-gates`. Not for scoring whether a deal is real."
 ---
 
 # Deal velocity
@@ -18,7 +18,7 @@ Order of work: first check whether a deal is real, using `deal-qualification-gat
 - Deals stall at the same stage again and again.
 - The pipeline is large, but the number closing is small.
 - The forecast keeps missing, and the pipeline looks inflated.
-- A velocity programme needs scoping.
+- A velocity program needs scoping.
 
 Route elsewhere when:
 
@@ -35,7 +35,7 @@ Route elsewhere when:
 - Close date history, showing how many times each deal's close date has moved.
 - The segment cycle benchmarks the client has agreed to use, or a plan to set them from the client's own history.
 
-## The velocity equation
+### The velocity equation
 
 Pipeline velocity equals the number of opportunities, times the win rate, times the average deal size, divided by the sales cycle length.
 
@@ -197,12 +197,12 @@ The thresholds (48 hours, 14 days, 15%, 30%) are defaults. Set them per client.
 Automation can scale detection, scoring, and summary work. It needs a baseline first. Before any automated zombie flag or health score is trusted:
 
 - Run the rule manually for at least one cycle, and compare it with what the managers actually decide.
-- Check that the automated score does not disagree systematically with the managers' judgement, and when it does, find out why.
+- Check that the automated score does not disagree systematically with the managers' judgment, and when it does, find out why.
 - Keep a human decision on any closed-lost or stage change.
 
 
 
-### Step 10: Scope a velocity programme when velocity is the constraint
+### Step 10: Scope a velocity program when velocity is the constraint
 
 Three phases, each with a clear output:
 
@@ -224,3 +224,11 @@ Set targets against the client's own baseline. Revisit them at six months.
 ## Quality bar
 
 The binding constraint is named, and one fix is made at a time. Stage moves rest on buyer actions in the record. Zombies are triaged with a decision and a date, not left in the pipeline. Health scores are used to direct inspection, not to rank reps. A single scoring scheme is used across the team. Watch for pipeline added to fix a conversion problem, gates that reps can bypass, and benchmarks quoted without their source.
+
+## Rules
+
+- Nothing is written to the CRM without human approval. Health scores and zombie flags are recommendations until an owner releases them.
+- Keep one scoring scheme per team, and do not average separate scales together.
+- Any closed-lost or stage change keeps a human decision. Automation may flag and recommend, never decide.
+
+Before a stage change or closed-lost is written, ask: who is the named approver releasing this?

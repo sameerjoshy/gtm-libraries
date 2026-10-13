@@ -1,7 +1,7 @@
 ---
 name: credit-based-packaging
-version: 1.0.0
-description: "Use when a product is moving to credits, or a credit-based enterprise deal needs structuring. Translates product actions into a simple credit schedule sized by value delivered rather than compute cost, designs tiers with allowances that feel generous, sets the rate card outside the contract so new capabilities do not reopen procurement, and explains credits to buyers in the value units they already use. Not for choosing the pricing model itself (see usage-pricing-model-selection) or for billing operations (see pricing-monetisation-ops)."
+version: 1.2.0
+description: "Use when a product is moving to credits, or a credit-based enterprise deal needs structuring. Translates product actions into a simple credit schedule sized by value delivered rather than compute cost, designs tiers with allowances that feel generous, sets the rate card outside the contract so new capabilities do not reopen procurement, and explains credits to buyers in the value units they already use. Not for choosing the pricing model itself (see `usage-pricing-model-selection`) or for billing operations (see `pricing-monetization-ops`)."
 ---
 
 # Credit based packaging
@@ -17,9 +17,8 @@ Credits let a vendor sell an outcome and meter a unit, but a poorly designed cre
 - Buyers do not understand what their credits buy.
 
 Route elsewhere when:
-
 - The question is which pricing model to use at all. Use `usage-pricing-model-selection`.
-- The question is how credits are metered and invoiced. Use `pricing-monetisation-ops`.
+- The question is how credits are metered and invoiced. Use `pricing-monetization-ops`.
 
 ## Inputs
 
@@ -32,7 +31,7 @@ Route elsewhere when:
 
 1. **Size each action by value delivered,** not by compute cost. Use a small set of sizes, such as small, medium, large and extra large. Keep the schedule simple. If every action needs a lookup, collapse the sizes.
 2. **Choose the denomination for how it reads, not for the arithmetic.** A large number of credits reads as abundant. A small number reads as stingy. Scale the schedule so that a normal allowance looks generous.
-3. **Design each tier's allowance** so that most customers in the tier stay within it. As author defaults: quote new customers at about seventy to eighty percent of their expected usage, and size each allowance for roughly eighty percent utilisation. Growing into more credits is a conversation about expansion. Credits left unused are a warning of churn.
+3. **Design each tier's allowance** so that most customers in the tier stay within it. As author defaults: quote new customers at about seventy to eighty percent of their expected usage, and size each allowance for roughly eighty percent utilization. Growing into more credits is a conversation about expansion. Credits left unused are a warning of churn.
 4. **Allow limited rollover.** Unlimited rollover erases the signal that the customer is ready to expand. Do not charge penalty prices for overage. Credit mechanics should make the buyer feel that they are getting value.
 5. **Keep the rate card out of the contract.** Reference it from the contract instead. The rate card can then change as the product gains capabilities without reopening procurement.
 6. **Lock the rate-card values** and keep them the same across accounts. When an enterprise buyer wants a lower effective rate, adjust the credit volume in a bundle, not the rate. Bespoke per-account rate cards destroy the trust that consistency builds.
@@ -41,10 +40,17 @@ Route elsewhere when:
 ## Output
 
 - The credit schedule, with each action's size and credit cost, and the reason for each size.
-- The tier structure, with allowances and the utilisation logic behind them.
+- The tier structure, with allowances and the utilization logic behind them.
 - The rate-card terms for the contract, and the rule for changing the rate card.
 - The buyer explanation: outcome, human equivalent, and the monthly summary.
 
 ## Quality bar
 
 Credits are sized on value delivered. The rate card sits outside the contract and is the same for every account. Allowances let most customers stay in bounds. Watch for allowances so low that buyers hit the limit in the first month, denominations that make normal use feel expensive, and discounts applied to the rate card instead of bundled volume.
+
+## Rules
+
+- Never invent usage or value figures. Show the buyer their own numbers.
+- Nothing is signed without a named approver. Pricing and contract terms are released by the delegated approver.
+
+Before pricing goes to a customer, ask: who is the named approver releasing this?

@@ -1,7 +1,7 @@
 ---
 name: stage-aware-follow-up
-version: 1.0.0
-description: "Use when a live deal needs its next touch and the move is not obvious: a prospect replied warmly but never booked, a call happened and the thread went quiet, an agreement is out and unsigned, a meeting was missed, or the deal has gone cold. Identifies the deal's stage, then produces the next message with a direct booking ask where one is needed, and the date and hook of the touch after it. Not for the first cold touch (see outbound-cold-email)."
+version: 1.2.0
+description: "Use when a live deal needs its next touch and the move is not obvious: a prospect replied warmly but never booked, a call happened and the thread went quiet, an agreement is out and unsigned, a meeting was missed, or the deal has gone cold. Identifies the deal's stage, then produces the next message with a direct booking ask where one is needed, and the date and hook of the touch after it. Not for the first cold touch (see `outbound-cold-email`)."
 ---
 
 # Stage-aware follow-up
@@ -29,7 +29,7 @@ Route elsewhere when:
 - The current stage, or the facts needed to place the deal in one.
 - Anything promised in the last exchange, and any asset the prospect asked for.
 
-## Stages and cadence (defaults)
+### Stages and cadence (defaults)
 
 | Stage | Situation | Touch rhythm |
 |---|---|---|
@@ -52,7 +52,7 @@ If the cadence says a touch is early, say so and offer to draft it anyway.
 6. **When a buyer asks for a call,** send the booking link and what the call will cover. Do not ask which day works or request their availability in writing.
 7. **A missed meeting is treated as a scheduling miss.** Same day, no blame, a fresh link.
 8. **Never end the thread with a breakup message,** and never announce a change of cadence. Slow the rhythm quietly and demote to nurture after the stage's touch cap (seven by default).
-9. **Before finalising, ask:** would this message be worth sending even if the prospect never buys? If not, rewrite it.
+9. **Before finalizing, ask:** would this message be worth sending even if the prospect never buys? If not, rewrite it.
 10. **End every draft with** `NEXT-TOUCH: [date], [specific hook]`.
 
 ## Output

@@ -1,7 +1,7 @@
 ---
 name: newsletter-performance-report
-version: 1.0.0
-description: "Use to build a performance report for a newsletter sponsor, client, or owner that a non-technical reader can understand in under a minute and still trust. Covers audience growth, open and click rates with their denominators stated, audience segmentation, a month-over-month summary, an engaged-reader list, per-issue measures, and a refresh pattern that keeps the narrative in step with the numbers. Not for writing the issues (see newsletter-issue-formats) or the sponsor's own pitch."
+version: 1.2.0
+description: "Use to build a performance report for a newsletter sponsor, client, or owner that a non-technical reader can understand in under a minute and still trust. Covers audience growth, open and click rates with their denominators stated, audience segmentation, a month-over-month summary, an engaged-reader list, per-issue measures, and a refresh pattern that keeps the narrative in step with the numbers. Not for writing the issues (see `newsletter-issue-formats`) or the sponsor's own pitch."
 ---
 
 # Newsletter performance report
@@ -20,7 +20,7 @@ Route elsewhere when:
 
 - The question is what to write in the next issue. Use `newsletter-issue-formats`.
 - The question is the welcome sequence. Use `newsletter-subscriber-onboarding`.
-- The question is the sponsorship pitch. That is outside this library.
+- The question is the sponsor offer itself. Use `cold-offer-architect`.
 
 ## Inputs
 
@@ -30,7 +30,7 @@ Route elsewhere when:
 - The list of readers who clicked, for the engaged-reader export.
 - The previous period's report, for comparison.
 
-## The click-rate trap
+### The click-rate trap
 
 Platforms often report a click rate whose denominator is opens, not deliveries. A low open rate then makes click rate look high, and the figure is misread. Always:
 - state the denominator beside every rate,

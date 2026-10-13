@@ -1,7 +1,7 @@
 ---
 name: newsletter-subscriber-onboarding
-version: 1.0.0
-description: "Use to write the welcome sequence a new newsletter subscriber receives, typically five emails over the first five to seven days, that builds trust, delivers value, and then makes a soft offer. Sets the job of each email (warm welcome, the best past pieces, the common mistake the reader should avoid, the origin story, and a soft offer), the interview needed first, and the rule that the sequence must work for a reader who never opens another email. Not for the newsletter's positioning (see newsletter-positioning) or for lifecycle messaging for paying customers (see saas-lifecycle-programs)."
+version: 1.2.0
+description: "Use to write the welcome sequence a new newsletter subscriber receives, typically five emails over the first five to seven days, that builds trust, delivers value, and then makes a soft offer. Sets the job of each email (warm welcome, the best past pieces, the common mistake the reader should avoid, the origin story, and a soft offer), the interview needed first, and the rule that the sequence must work for a reader who never opens another email. Not for the newsletter's positioning (see `newsletter-positioning`) or lifecycle messaging for paying customers (see `saas-lifecycle-programs`)."
 ---
 
 # Newsletter subscriber onboarding
@@ -30,7 +30,7 @@ Route elsewhere when:
 - The origin story: why the owner writes this, in their own words.
 - The offer, if one exists, and whether it is useful without buying.
 
-## The five emails
+### The five emails
 
 1. **Warm welcome.** Confirm the subscription, say what to expect, and state when the next issue arrives. Keep it short and personal. Offer a lead magnet or welcome resource here if one exists.
 2. **Greatest hits.** Send the owner's best past pieces, chosen for the reader's likely problem, not for the owner's pride. Explain in one line why each one is worth reading.

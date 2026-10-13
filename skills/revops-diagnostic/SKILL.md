@@ -1,7 +1,7 @@
 ---
 name: revops-diagnostic
-version: 1.0.0
-description: "Use when revenue problems arrive as symptoms (weak pipeline, a forecast nobody believes, underperforming reps, churn, deals slipping late in the quarter, \"we are busy but nothing moves\") and the real constraint is unknown. Locates the layer of the revenue system where the problem sits, runs the information-focus-action check and the six stages, triages which motion to examine first, and produces one A3-lite with a stop-rule. Route to crisis handling first if several systems are failing at once. Not for the forecast model itself (see revops-forecasting)."
+version: 1.2.0
+description: "Use when revenue problems arrive as symptoms (weak pipeline, a forecast nobody believes, underperforming reps, churn, deals slipping late in the quarter, \"we are busy but nothing moves\") and the real constraint is unknown. Locates the layer of the revenue system where the problem sits, runs the information-focus-action check and the six stages, triages which motion to examine first, and produces one A3-lite with a stop-rule. Route to crisis handling first if several systems are failing at once. Not for the forecast model itself (see `revops-forecasting`)."
 ---
 
 # RevOps diagnostic
@@ -26,12 +26,12 @@ Route elsewhere when:
 - Several systems are failing at once (forecast variance far outside the normal band, coverage falling, retention collapsing, trust in the numbers gone). Triage the emergency first, then return here.
 - The question is the forecast mechanics. Use `revops-forecasting`.
 - The question is the KPI set or stage design. Use `revops-strategy`.
-- The question is the change programme after the constraint is found. Use `revops-change-management`.
+- The question is the change program after the constraint is found. Use `revops-change-management`.
 
 ## Inputs
 
 - ARR, growth rate, and efficiency metrics: net and gross revenue retention, CAC payback, win rate, sales cycle length.
-- Current organisation chart for revenue functions and their headcount.
+- Current organization chart for revenue functions and their headcount.
 - The ICP definition, if one exists.
 - Tech stack inventory: CRM, marketing automation, customer success tooling, data sources.
 - The meeting cadence: which meetings exist, who attends, and what decisions they produce.
@@ -119,7 +119,7 @@ For the priority motion, find the layer that is broken:
 
 - **Fundamentals.** The process does not exist or is not in the system. Fix: define, document, and implement. Typical effort: two to four weeks.
 - **Adoption.** The process exists but people do not follow it. Fix: reporting, coaching, and management cadence. Typical effort: four to eight weeks.
-- **Optimisation.** People execute, but no one can measure or improve it. Fix: analytics, attribution, and conversion tracking. Typical effort: eight to twelve weeks.
+- **Optimization.** People execute, but no one can measure or improve it. Fix: analytics, attribution, and conversion tracking. Typical effort: eight to twelve weeks.
 - **Acceleration.** The team wants to scale what works, but it is manual. Fix: automation and advanced tooling. Typical effort: twelve weeks or more. Invest here only when the three layers beneath are solid.
 
 Output: the priority motion, the stuck layer, the effort estimate, and the next step, which is a full diagnosis of that motion.
@@ -128,7 +128,7 @@ Output: the priority motion, the stuck layer, the effort estimate, and the next 
 
 Pick the top executive goal. Walk each function and ask four questions: what metric do you own that contributes to this goal, how is it measured, how often is it reviewed, and is it in your compensation? A function that cannot answer all four has an alignment gap.
 
-Example: executive goal of raising net revenue retention. If sales compensation is entirely new-logo, if customer success is measured only on satisfaction scores, and if marketing is measured on lead volume, nobody is paid to move retention. Behaviour follows what is measured, visible, reviewed, and paid. If the metric is not visible, reviewed regularly, and tied to compensation, it will not move. Change the metric set and the compensation together, or the change will not hold (see `gtm-compensation`).
+Example: executive goal of raising net revenue retention. If sales compensation is entirely new-logo, if customer success is measured only on satisfaction scores, and if marketing is measured on lead volume, nobody is paid to move retention. Behavior follows what is measured, visible, reviewed, and paid. If the metric is not visible, reviewed regularly, and tied to compensation, it will not move. Change the metric set and the compensation together, or the change will not hold (see `gtm-compensation`).
 
 ### Step 8: Find the constraint and write one A3-lite
 
@@ -161,11 +161,11 @@ CHECK, STOP:    metric, the measurement date, and the stop-rule: the level
 
 Turn the countermeasure into the smallest change that gives a fast signal. Define the metric, the baseline, the expected movement, and the stop-rule. Run it, then decide to scale, adjust, or stop.
 
-## Advanced checks
+### Advanced checks
 
 **Capacity or productivity.** Low pipeline volume with normal win rates is a capacity problem: add sources. Adequate pipeline with low win rates is a productivity problem: fix qualification, process, and coaching. High activity with low win rates is activity without output. Check whether prospecting is producing qualified meetings, and move the effort toward the inbound or referral sources that qualify better.
 
-**The data-forecast-coaching loop.** Revenue management runs on a loop: clean data produces reliable forecasts, which support coaching, which changes rep behaviour, which improves data capture. The most common break is between data quality and forecasts, because inconsistent stage definitions make the forecast untrustworthy, managers stop using it, and coaching drifts away from reality. If that link is broken, fix definitions and data first, then rebuild the forecast model.
+**The data-forecast-coaching loop.** Revenue management runs on a loop: clean data produces reliable forecasts, which support coaching, which changes rep behavior, which improves data capture. The most common break is between data quality and forecasts, because inconsistent stage definitions make the forecast untrustworthy, managers stop using it, and coaching drifts away from reality. If that link is broken, fix definitions and data first, then rebuild the forecast model.
 
 **Integration architecture.** Assess integration as a possible root cause when it is a recurring pain. Ask:
 - How many systems hold their own copy of customer data? Three or more usually means definitions drift.
@@ -186,9 +186,17 @@ Constraint check: if the client is at Level 1 and the data is poor, the constrai
 
 Where AI influences decisions about employees, such as territory allocation or performance-related scoring, record the use and take counsel's view on transparency and consultation obligations before go-live. These are points for counsel, not legal advice.
 
-## Weakest-dimension rule
+### Weakest-dimension rule
 
 A revenue engine runs at the level of its weakest dimension. Before adding effort, automation or headcount, find the dimension that limits the rest. Score each dimension on evidence: ask to see the artifact behind it, such as the ICP document, the scoring model, a live sequence, a duplicate count or the notes from the last review. A capability that cannot be shown is not credited.
+
+### Diagnostic questions
+
+1. What exactly is the symptom, in one measured sentence, and who first noticed it?
+2. Which layer does the symptom live in, and what evidence says the constraint is one layer away?
+3. Which of the three information, focus, and action links is weakest, and what decision did it block last month?
+4. If the top three revenue metrics doubled, would anyone's compensation change? Name the function that cannot answer.
+5. What is the win rate and the coverage in the segment under discussion, and which of the two constrains output?
 
 ## Output
 
@@ -198,14 +206,6 @@ A revenue engine runs at the level of its weakest dimension. Before adding effor
 - The alignment gaps found in the audit.
 - One A3-lite, with owner, check, and stop-rule.
 - One two-week experiment, with its metric and kill criterion.
-
-## Diagnostic questions
-
-1. What exactly is the symptom, in one measured sentence, and who first noticed it?
-2. Which layer does the symptom live in, and what evidence says the constraint is one layer away?
-3. Which of the three information, focus, and action links is weakest, and what decision did it block last month?
-4. If the top three revenue metrics doubled, would anyone's compensation change? Name the function that cannot answer.
-5. What is the win rate and the coverage in the segment under discussion, and which of the two constrains output?
 
 ## Quality bar
 

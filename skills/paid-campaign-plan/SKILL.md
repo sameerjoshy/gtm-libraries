@@ -1,7 +1,7 @@
 ---
 name: paid-campaign-plan
-version: 1.0.0
-description: "Use to plan a paid campaign end to end before anything is launched, so that objectives, channels and budget, targeting, creative, and measurement are fixed in advance. Sets out the four elements every plan needs, a naming convention that makes later reporting possible, and the choice between doing the setup in-house and outsourcing it. Not for choosing the channel (see paid-channel-selection) or for the creative copy (see ad-copy-voice-of-customer)."
+version: 1.2.0
+description: "Use when planning a paid campaign end to end before anything is launched, so that objectives, channels and budget, targeting, creative, and measurement are fixed in advance. Sets out the four elements every plan needs, a naming convention that makes later reporting possible, and the choice between doing the setup in-house and outsourcing it. Not for choosing the channel (see `paid-channel-selection`) or for the creative copy (see `ad-copy-voice-of-customer`)."
 ---
 
 # Paid campaign plan
@@ -30,7 +30,7 @@ Route elsewhere when:
 - The offer and the creative brief.
 - The measurement the team will use to judge the campaign.
 
-## The four elements
+### The four elements
 
 1. **Campaign names and objectives.** Name each campaign with a convention, and state its purpose in one sentence. The name is what makes later reporting possible.
 2. **Channels and budget.** State the budget available, the channels to be used, and the amount for each.
@@ -39,7 +39,7 @@ Route elsewhere when:
 
 Each channel has its own targeting logic (keywords for search, audiences for social), but the planning steps are the same across channels.
 
-## Naming convention
+### Naming convention
 
 Use a fixed structure so every campaign can be filtered and compared:
 

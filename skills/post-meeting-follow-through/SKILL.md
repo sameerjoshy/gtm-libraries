@@ -1,7 +1,7 @@
 ---
 name: post-meeting-follow-through
-version: 1.0.0
-description: "Use to make every external sales meeting produce its follow-through in a fixed sequence: pull the meeting record, check the account and its stage, classify the meeting outcome, record the meeting for metrics without double-counting, route the deal decision to a person, and draft a follow-up in the owner's voice for approval. Designed for one person taking many external meetings, so follow-up quality and CRM hygiene do not depend on memory. Not for the sweep of a whole week's calls (see call-followup-sweep)."
+version: 1.2.0
+description: "Use when making every external sales meeting produce its follow-through in a fixed sequence: pull the meeting record, check the account and its stage, classify the meeting outcome, record the meeting for metrics without double-counting, route the deal decision to a person, and draft a follow-up in the owner's voice for approval. Designed for one person taking many external meetings, so follow-up quality and CRM hygiene do not depend on memory. Not for the sweep of a whole week's calls (see call-followup-sweep)."
 ---
 
 # Post-meeting follow-through

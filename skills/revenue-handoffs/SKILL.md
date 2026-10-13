@@ -1,7 +1,7 @@
 ---
 name: revenue-handoffs
-version: 1.0.0
-description: "Use when revenue leaks between teams: leads go dark after handover to sales, promises made before signature disappear, implementation loses momentum, or nobody owns expansion. Designs the handoff protocol for each transition in the revenue bow tie (marketing to sales, sales to implementation, implementation to customer success, customer success back to sales), with an owner, a context packet, an SLA, and leading indicators for each. Not for routing rules (see lead-routing-design) or for tool build-out."
+version: 1.2.0
+description: "Use when revenue leaks between teams: leads go dark after handover to sales, promises made before signature disappear, implementation loses momentum, or nobody owns expansion. Designs the handoff protocol for each transition in the revenue bow tie (marketing to sales, sales to implementation, implementation to customer success, customer success back to sales), with an owner, a context packet, an SLA, and leading indicators for each. Not for routing rules (see `lead-routing-design`) or for tool build-out."
 ---
 
 # Revenue handoffs
@@ -74,7 +74,7 @@ Premature outreach to content downloaders damages trust. Nurture first.
 Lead tiers:
 
 - Hand-raisers skip scoring and go straight to sales, on the five-minute target.
-- Marketing-qualified leads combine firmographic fit, behavioural intent, and any third-party intent. A starting split is 40% fit, 40% behaviour, and 20% third-party intent. Adjust it against the client's closed-won data.
+- Marketing-qualified leads combine firmographic fit, behavioral intent, and any third-party intent. A starting split is 40% fit, 40% behavior, and 20% third-party intent. Adjust it against the client's closed-won data.
 - Product-qualified leads, where there is a free product, are routed on usage triggers.
 
 Context packet for a marketing-to-sales handoff: firmographics, the full engagement history, the score broken down into fit and intent, the other contacts at the same account, and any qualification data already gathered. Enrich before routing, so the rep does not do the research while the lead waits.
@@ -120,7 +120,7 @@ Choose the seller's involvement by deal size. These are examples; set the bands 
 
 ### Step 4: Implementation to customer success
 
-This is the least standardised transition and the one with the most consequence. Early value, in the first 30 days, is linked to better retention. Treat it as a measured stage.
+This is the least standardized transition and the one with the most consequence. Early value, in the first 30 days, is linked to better retention. Treat it as a measured stage.
 
 Context packet: scope and configuration, training completed and still missing, open issues with their workarounds, customer sentiment during implementation, the updated stakeholder map, first adoption metrics, and lessons learned.
 

@@ -1,7 +1,7 @@
 ---
 name: sales-methodology
-version: 1.0.0
-description: "Use to choose and operationalise a sales methodology: SPICED for recurring-revenue discovery and qualification, MEDDIC or MEDDPICC for complex enterprise deals, BANT as a first screen only, and Challenger, SPIN, or Gap Selling as selling styles. Covers the discovery call structure, the discovery score as one field per deal, stage gates, CRM properties, deal-review coaching, rep onboarding, the discount conversation, and how the methodology connects to the pipeline. Use when reps skip discovery, deals reach proposal unqualified, or the framework lives in a deck and not in the CRM. Not for the health score (see deal-velocity) or change management across the whole revenue team (see revops-change-management)."
+version: 1.2.0
+description: "Use when choosing and operationalizing a sales methodology: SPICED for recurring-revenue discovery and qualification, MEDDIC or MEDDPICC for complex enterprise deals, BANT as a first screen only, and Challenger, SPIN, or Gap Selling as selling styles. Covers the discovery call structure, the discovery score as one field per deal, stage gates, CRM properties, deal-review coaching, rep onboarding, the discount conversation, and how the methodology connects to the pipeline. Use when reps skip discovery, deals reach proposal unqualified, or the framework lives in a deck and not in the CRM. Not for the health score (see `deal-velocity`) or change management across the whole revenue team (see `revops-change-management`)."
 ---
 
 # Sales methodology
@@ -25,7 +25,7 @@ Route elsewhere when:
 - The question is the approval of discounts. Use `deal-desk-operations`.
 - The question is the stage evidence scale for forecasts. Use `deal-qualification-gates`.
 - The question is the deal health score. Use `deal-velocity`.
-- The question is the wider change programme. Use `revops-change-management`.
+- The question is the wider change program. Use `revops-change-management`.
 - The question is building the target account list. Use `icp-builder`.
 
 ## Inputs
@@ -125,7 +125,7 @@ Before the call: know the company's size, sector, and situation. Hold one hypoth
 **Outbound discovery, 45 to 60 minutes.** The seller introduces the problem, so the call needs more context-building.
 
 - 0 to 3 minutes: set the purpose. Make clear that this is a conversation about how the buyer works, not a pitch.
-- 3 to 10 minutes: situation. Ask about the organisation, the sales structure, the growth target, and the tools.
+- 3 to 10 minutes: situation. Ask about the organization, the sales structure, the growth target, and the tools.
 - 10 to 18 minutes: pain. Ask where deals are lost, and what that costs.
 - 18 to 28 minutes: impact. Ask what would change if the problem were solved, and what that is worth.
 - 28 to 35 minutes: critical event. Ask what is driving urgency and whether there is a date.
@@ -144,7 +144,7 @@ Build the clusters from the client's own deal data, not from a generic profile.
 
 ### Step 7: Coach through the methodology
 
-**Weekly deal review.** Pick three to five deals per rep, prioritising stalled deals, close dates in the next month, and large opportunities. Ask methodology-specific questions, not "how is this going?" Ask: "What is the critical event?" and "Who is the economic buyer, and have you spoken to them?"
+**Weekly deal review.** Pick three to five deals per rep, prioritizing stalled deals, close dates in the next month, and large opportunities. Ask methodology-specific questions, not "how is this going?" Ask: "What is the critical event?" and "Who is the economic buyer, and have you spoken to them?"
 
 Score the deal live, with the rep, so the rep learns the scoring. Identify one gap, and assign one action to close it. One action, not three. "Get a fifteen-minute call with the finance lead this week. How will you do that?" Follow up the next week: was it done, and what changed?
 
@@ -161,13 +161,13 @@ Score the deal live, with the rep, so the rep learns the scoring. Identify one g
 
 - Put it in the CRM, in the deal record, not in a separate document.
 - Coach with the methodology on live deals, not in a separate training session.
-- Recognise wins that came from the methodology, such as an early critical event or direct access to the economic buyer.
+- Recognize wins that came from the methodology, such as an early critical event or direct access to the economic buyer.
 - Start with five to seven fields. Add more only when the first set is routine.
 
 ### Step 8: Onboard new reps over four weeks
 
 - **Week 1:** framework and language. Score a set of historical deals with the manager.
-- **Week 2:** guided practice. Role-play discovery, and analyse recorded calls against the elements.
+- **Week 2:** guided practice. Role-play discovery, and analyze recorded calls against the elements.
 - **Week 3:** shadow live calls, and debrief each one.
 - **Week 4:** live calls with coaching after each one.
 
@@ -233,6 +233,14 @@ When a deal closes or is disqualified, delete personal data on request, within t
 
 Rules for cold contact and electronic marketing vary by country. Check them with counsel before the first outreach, and do not rely on a summary of the rules in this skill.
 
+### Diagnostic questions
+
+1. Pick the last ten deals that reached proposal. How many have a documented economic buyer and a decision process?
+2. Where is the methodology recorded: in the CRM, in a deck, or nowhere?
+3. What do the weekly deal reviews actually ask?
+4. How many discounts in the last quarter have a recorded reason and a recorded trade?
+5. Are reps scoring the methodology from evidence, or from how they feel about the deal?
+
 ## Output
 
 - The methodology chosen, with the reason, and the pairing with a selling style if any.
@@ -244,14 +252,6 @@ Rules for cold contact and electronic marketing vary by country. Check them with
 - The discount conversation guide and the CRM fields for negotiation.
 - The pipeline rules: stage criteria, kill criteria, and forecast categories.
 - The AI guardrails and the override tracking.
-
-## Diagnostic questions
-
-1. Pick the last ten deals that reached proposal. How many have a documented economic buyer and a decision process?
-2. Where is the methodology recorded: in the CRM, in a deck, or nowhere?
-3. What do the weekly deal reviews actually ask?
-4. How many discounts in the last quarter have a recorded reason and a recorded trade?
-5. Are reps scoring the methodology from evidence, or from how they feel about the deal?
 
 ## Quality bar
 

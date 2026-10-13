@@ -1,7 +1,7 @@
 ---
 name: linkedin-audience-targeting
-version: 1.0.0
-description: "Use to size, target and maintain a LinkedIn audience for B2B campaigns. Covers audience size by funnel stage, the job title or job function choice, seniority and company size splits, company and contact list targeting, the exclusions to apply, and the rules that keep audience expansion and the network placements off. Not for the campaign structure or budget (see abm-strategy-planner) or for retargeting segments across channels (see abm-retargeting-segments)."
+version: 1.2.0
+description: "Use when sizing, targeting, and maintaining a LinkedIn audience for B2B campaigns. Covers audience size by funnel stage, the job title or job function choice, seniority and company size splits, company and contact list targeting, the exclusions to apply, and the rules that keep audience expansion and the network placements off. Not for the campaign structure or budget (see `abm-strategy-planner`) or for retargeting segments across channels (see `abm-retargeting-segments`)."
 ---
 
 # LinkedIn audience targeting

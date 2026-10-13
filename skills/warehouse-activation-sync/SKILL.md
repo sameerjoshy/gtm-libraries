@@ -1,7 +1,7 @@
 ---
 name: warehouse-activation-sync
-version: 1.0.0
-description: "Use to move a scored or segmented audience from the data warehouse into the CRM, ad platforms, or sequencing tools without corrupting them. Enforces the order of operations: resolve identity before any write, send only real changes, guard field types, apply suppression and consent before anything reaches a destination, batch to each destination's limits, dry-run with a deletion guard, then reconcile after a live push. Not for designing the data layer (see gtm-data-architecture) or for CRM data quality rules (see revops-data-governance)."
+version: 1.2.0
+description: "Use to move a scored or segmented audience from the data warehouse into the CRM, ad platforms, or sequencing tools without corrupting them. Enforces the order of operations: resolve identity before any write, send only real changes, guard field types, apply suppression and consent before anything reaches a destination, batch to each destination's limits, dry-run with a deletion guard, then reconcile after a live push. Not for designing the data layer (see `gtm-data-architecture`) or for CRM data quality rules (see `revops-data-governance`)."
 ---
 
 # Warehouse activation sync
@@ -40,15 +40,15 @@ Run the steps in this order every time.
 2. **Compute the change diff.** Compare the resolved audience with the last synced state. Send only new rows, changed fields, and intended removals. Do not send unchanged rows. Unchanged rows waste API budget and clutter the audit trail.
 3. **Guard the field types.** Convert dates to the destination's format, map values to allowed picklist options, check number and currency types, and enforce length limits. A row that fails the schema goes to an error list with its reason. Never force-write it.
 4. **Apply suppression and consent.** Remove contacts on do-not-contact or unsubscribe lists, contacts failing the region's consent rules, and contacts a channel excludes. Do this after matching, so the log shows exactly who was held and why.
-5. **Batch and schedule to each destination's limits.** Chunk writes to the batch size, back off on rate-limit responses, and set a cadence per destination. As defaults: the CRM near real time, ad audiences hourly, and sequences only through an explicit enrolment step.
+5. **Batch and schedule to each destination's limits.** Chunk writes to the batch size, back off on rate-limit responses, and set a cadence per destination. As defaults: the CRM near real time, ad audiences hourly, and sequences only through an explicit enrollment step.
 6. **Dry run first.** Report planned adds, updates, suppressions and errors, with counts and samples. Set a maximum-delete guard, default 10% of the audience. If intended removals exceed it, stop and surface the run. Do not mass-delete after a bad upstream run. Require sign-off above the auto-approve limit, default 500 rows.
 7. **Sync live, then reconcile.** Write the changes, record the outcome of each row, and produce a reconciliation: expected against written counts for each object, error rows with reasons, and suppressed rows. Save the new sync state so the next run's diff is correct.
 
-## Ownership rules
+### Ownership rules
 
 - The warehouse is authoritative for computed traits, such as scores, tiers and segments.
 - The CRM is authoritative for fields that reps own. A sync never overwrites a rep-owned field.
-- A sequencer never enrols contacts automatically from a warehouse sync. A bad upstream filter would become a mass mis-send.
+- A sequencer never enrolls contacts automatically from a warehouse sync. A bad upstream filter would become a mass mis-send.
 
 ## Output
 
@@ -58,4 +58,4 @@ Run the steps in this order every time.
 
 ## Quality bar
 
-Identity is resolved before any write. Unchanged rows are not sent. Suppression runs after matching and is logged. The delete guard is set and tested. Enrolment is a separate, gated step. Watch for a low-quality match floor lowered to hit a volume target, a sync that overwrites rep-owned fields, and an audience pushed live with no dry run.
+Identity is resolved before any write. Unchanged rows are not sent. Suppression runs after matching and is logged. The delete guard is set and tested. Enrollment is a separate, gated step. Watch for a low-quality match floor lowered to hit a volume target, a sync that overwrites rep-owned fields, and an audience pushed live with no dry run.

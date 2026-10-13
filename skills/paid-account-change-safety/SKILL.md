@@ -1,6 +1,6 @@
 ---
 name: paid-account-change-safety
-version: 1.0.0
+version: 1.2.0
 description: "Use when an AI agent or automation is about to make a write change to a live paid media account (pausing a campaign, changing a bid or budget, adding negative terms, editing conversion tracking, or launching a campaign). Classifies each change by blast radius, defaults to propose-only, sets explicit limits for the low-risk band, requires a preview and a confirmation for anything executed, and records proof that a change ran. Use it so that a claimed success is backed by a verified change. Not for read-only analysis of an account."
 ---
 
@@ -18,7 +18,7 @@ An agent that can read and write a paid media account can also spend money badly
 
 Route elsewhere when:
 
-- The question is the analysis that justifies a change. Use the relevant diagnostic skill, such as `paid-search-quality-diagnosis` or `paid-optimisation-signals`.
+- The question is the analysis that justifies a change. Use the relevant diagnostic skill, such as `paid-search-quality-diagnosis` or `paid-optimization-signals`.
 - The question is data quality in the systems behind the account. Use `revops-data-governance`.
 
 ## Inputs
@@ -27,7 +27,7 @@ Route elsewhere when:
 - The account's current state, read at the time of the proposal.
 - The approval given, and whether it covers this specific change.
 
-## Blast radius
+### Blast radius
 
 Classify each proposed change before doing anything else:
 
@@ -35,11 +35,11 @@ Classify each proposed change before doing anything else:
 - **Low-risk:** a single keyword, a negative term, or a bid move within a tight band.
 - **Account-level:** budget swings, conversion tracking, campaign creation or deletion, and anything touching billing.
 
-## Default: propose only
+### Default: propose only
 
 Pull the data, calculate, and recommend. Execute nothing without an explicit go-ahead. An approval covers the specific change that was approved. It does not cover the rest of the session, and it does not carry over to a later change.
 
-## Limits for the low-risk band
+### Limits for the low-risk band
 
 Keep the low-risk band genuinely low-risk. As defaults:
 - bid moves within about twenty percent of the current bid,

@@ -1,16 +1,14 @@
 ---
 name: hiring-signal-tracking
-version: 1.0.0
-description: "Use to watch job postings as buying signals across target accounts, and to verify any hiring claim before it is used as fact in a score, alert, message, or account note. Detects and classifies hiring patterns, and blocks hiring claims that cannot be confirmed at the company's own source. Detection and classification only, never outreach. Not for outreach (see signal-outbound-plays) or champion job changes (see champion-job-change-tracking)."
+version: 1.2.0
+description: "Use when watching job postings as buying signals across target accounts, or when verifying any hiring claim before it is used as fact in a score, alert, message, or account note. Detects and classifies hiring patterns, and blocks hiring claims that cannot be confirmed at the company's own source. Detection and classification only, never outreach. Not for outreach (see `signal-outbound-plays`) or champion job changes (see `champion-job-change-tracking`)."
 ---
 
 # Hiring signal tracking
 
-Watches job postings for buying patterns, and verifies every hiring claim at the company's own source before it is used.
-
 ## Purpose
 
-Hiring shows where budget and attention are going. A team being built now is a tooling decision being made this quarter. But research tools often attribute another company's job postings to the target, so a hiring claim is not usable until it is confirmed. Both halves belong in one skill.
+Watch job postings for buying patterns, and verify every hiring claim at the company's own source before it is used. Hiring shows where budget and attention are going. A team being built now is a tooling decision being made this quarter. But research tools often attribute another company's job postings to the target, so a hiring claim is not usable until it is confirmed. Both halves belong in one skill.
 
 ## When to use
 
@@ -18,16 +16,10 @@ Hiring shows where budget and attention are going. A team being built now is a t
 - A hiring claim needs to be verified at the company's own source before anyone acts on it.
 
 Route elsewhere when:
+
 - The question is which signals to combine into an outreach play. Use `signal-detection-and-timing`.
+- The question is building the outreach play itself. Use `signal-outbound-plays`.
 - The question is a champion who has moved employer. Use `champion-job-change-tracking`.
-
-## Principles
-
-- **Verify before use.** A hiring claim counts only when confirmed from the target company's own source. Web research summaries are not enough.
-- **A pattern is a cluster, not a single post.** One posting is weak. Three or more fresh roles in the same team is a real pattern.
-- **Recency matters.** Only the last 14 days' postings are news. Older hiring is context.
-- **Dead postings die early.** Evergreen, reposted, and agency listings are removed before they reach an alert.
-- **Silence is not the same as no hiring.** Zero results across all watched accounts on several consecutive runs means the source has failed until proven otherwise.
 
 ## Inputs
 
@@ -37,6 +29,14 @@ Route elsewhere when:
 - Your own company's domain, to exclude your own postings.
 
 ## Procedure
+
+### Principles
+
+- **Verify before use.** A hiring claim counts only when confirmed from the target company's own source. Web research summaries are not enough.
+- **A pattern is a cluster, not a single post.** One posting is weak. Three or more fresh roles in the same team is a real pattern.
+- **Recency matters.** Only the last 14 days' postings are news. Older hiring is context.
+- **Dead postings die early.** Evergreen, reposted, and agency listings are removed before they reach an alert.
+- **Silence is not the same as no hiring.** Zero results across all watched accounts on several consecutive runs means the source has failed until proven otherwise.
 
 ### 1. Pull postings from two scans, kept separate
 
@@ -111,5 +111,3 @@ After three to six weeks, read the ledger and digests: signals per week, share a
 ## Rules
 
 - Detection and classification only. This skill never drafts, queues, or sends outreach.
-- Champion and contact moves belong to `champion-job-change-tracking`.
-- General signal interpretation and timing belong to `signal-detection-and-timing`.

@@ -1,7 +1,7 @@
 ---
 name: paid-search-quality-diagnosis
-version: 1.0.0
-description: "Use when paid search keywords are expensive relative to competitors, ads are not showing as expected, or someone asks why ads are not showing without a budget explanation. Treats the keyword quality score as a diagnostic, not a target, breaks it into its three components (expected click-through rate, ad relevance, and landing page experience), weights the fix list by spend, and routes each below-average component to a different fix. Not for the budget envelope (see paid-search-budget-reallocation) or the forecast maths (see paid-search-unit-economics)."
+version: 1.2.0
+description: "Use when paid search keywords are expensive relative to competitors, ads are not showing as expected, or someone asks why ads are not showing without a budget explanation. Treats the keyword quality score as a diagnostic, not a target, breaks it into its three components (expected click-through rate, ad relevance, and landing page experience), weights the fix list by spend, and routes each below-average component to a different fix. Not for the budget envelope (see `paid-search-budget-reallocation`) or the forecast math (see `paid-search-unit-economics`)."
 ---
 
 # Paid search quality diagnosis
@@ -29,7 +29,7 @@ Route elsewhere when:
 - The search terms that triggered each keyword, where available.
 - The minimum volume the team treats as reliable for diagnosis.
 
-## The three components
+### The three components
 
 - **Expected click-through rate:** how likely the ad is to be clicked for this query. Below average means the ad is not compelling enough for the query it shows on.
 - **Ad relevance:** how closely the ad matches the query. Below average usually means the ad group covers too many themes, so the ad and the query have drifted apart.
@@ -39,7 +39,7 @@ Each component has its own cause and its own fix. Do not apply one generic fix t
 
 ## Procedure
 
-1. **Treat the score as a diagnostic.** Do not optimise toward it or report it as a headline metric. It exists to show which component is weak.
+1. **Treat the score as a diagnostic.** Do not optimize toward it or report it as a headline metric. It exists to show which component is weak.
 2. **Set the reliability threshold.** Exclude keywords below the minimum volume, because their ratings are not stable enough to act on.
 3. **Weight by spend.** Sort the remaining keywords by spend. A below-average component on a keyword that spends heavily matters more than the same rating on a keyword that barely spends.
 4. **Route each below-average component:**

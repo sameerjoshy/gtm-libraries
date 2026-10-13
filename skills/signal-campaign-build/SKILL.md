@@ -1,14 +1,14 @@
 ---
 name: signal-campaign-build
-version: 1.0.0
-description: "Use to turn an observable market event, such as a funding round, a regulatory change, or a hiring pattern, into a small, defensible outbound campaign. Produces a signal thesis with its false-positive definition, an evidence record for each account, a buyer map for accounts that pass, staged channel drafts, and a quality gate before launch. Use when someone asks who to contact now, which companies show a problem, or how to build a campaign around an event. Not for choosing among ready-made plays (see signal-outbound-plays) or for detecting signals in depth (see signal-detection-and-timing)."
+version: 1.2.0
+description: "Use to turn an observable market event, such as a funding round, a regulatory change, or a hiring pattern, into a small, defensible outbound campaign. Produces a signal thesis with its false-positive definition, an evidence record for each account, a buyer map for accounts that pass, staged channel drafts, and a quality gate before launch. Use when someone asks who to contact now, which companies show a problem, or how to build a campaign around an event. Not for choosing among ready-made plays (see `signal-outbound-plays`) or for detecting signals in depth (see `signal-detection-and-timing`)."
 ---
 
 # Signal to campaign
 
 ## Purpose
 
-A visible event is not a buying signal. Teams often collect a list of companies that match a trigger, enrich hundreds of contacts, and write personalisation from one keyword. This skill works the other way round. It first proves the signal carries a real problem, removes false positives, and only then spends effort on contacts and copy.
+A visible event is not a buying signal. Teams often collect a list of companies that match a trigger, enrich hundreds of contacts, and write personalization from one keyword. This skill works the other way round. It first proves the signal carries a real problem, removes false positives, and only then spends effort on contacts and copy.
 
 ## When to use
 
@@ -38,7 +38,7 @@ Route elsewhere when:
    - Specificity: does it point to this problem, or only describe the company?
    - Observability: can another person inspect the evidence for each account?
    - Timing: does it explain why action makes sense now?
-   - Ownership: is there a recognisable buyer who owns the implied problem?
+   - Ownership: is there a recognizable buyer who owns the implied problem?
    - Offer fit: does the offer resolve the situation without a logical leap?
    - Noise: which common cases would produce a false positive?
 3. **Choose one primary signal and one backup.** Funding, generic hiring, technology use and broad growth become useful only when combined with current evidence of the relevant workflow, constraint or complexity.
@@ -46,7 +46,7 @@ Route elsewhere when:
 
 ### Stage two: build the evidence layer
 
-5. **Create an evidence record for each candidate account:** normalised company name and domain, the source and the exact excerpt, the observation date or a verified current status, the operational implication, the likely owner of the pain, a false-positive note, and a decision of keep, investigate or remove.
+5. **Create an evidence record for each candidate account:** normalized company name and domain, the source and the exact excerpt, the observation date or a verified current status, the operational implication, the likely owner of the pain, a false-positive note, and a decision of keep, investigate or remove.
 6. **Apply the sentence test.** Keep an account only if this sentence can be completed: "This company belongs because the evidence shows ___, which likely creates ___ for ___."
 7. **Replace weak rows** rather than padding the cohort to reach a volume target.
 
@@ -73,4 +73,4 @@ Route elsewhere when:
 
 ## Quality bar
 
-Every account has source evidence and a reason for inclusion. False positives are defined before the cohort is built. Fit, signal strength and contactability are scored separately. Enrichment happens after the account gate. Outreach is staged for human approval. Watch for an enrichment run before the cohort is proven, personalisation from a single keyword, and a launch set by a lead-count target.
+Every account has source evidence and a reason for inclusion. False positives are defined before the cohort is built. Fit, signal strength and contactability are scored separately. Enrichment happens after the account gate. Outreach is staged for human approval. Watch for an enrichment run before the cohort is proven, personalization from a single keyword, and a launch set by a lead-count target.

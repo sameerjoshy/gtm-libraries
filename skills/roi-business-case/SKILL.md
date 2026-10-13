@@ -1,7 +1,7 @@
 ---
 name: roi-business-case
-version: 1.0.0
-description: "Use when a live deal needs a business case the buyer will believe: going into procurement, finance review, or executive sign-off, when a champion needs an internal case, or when a single optimistic ROI figure is drawing scepticism. Builds a one-page case with worst, average, and best scenarios, each tied to the buyer's root-cause problem and their own baselines, with every assumption visible. Not for the discovery-to-demo plan (see discovery-to-demo-bridge)."
+version: 1.2.0
+description: "Use when a live deal needs a business case the buyer will believe: going into procurement, finance review, or executive sign-off, when a champion needs an internal case, or when a single optimistic ROI figure is drawing skepticism. Builds a one-page case with worst, average, and best scenarios, each tied to the buyer's root-cause problem and their own baselines, with every assumption visible. Not for the discovery-to-demo plan (see `discovery-to-demo-bridge`)."
 ---
 
 # ROI business case
@@ -22,7 +22,7 @@ Do not build the case on a problem whose impact cannot be grounded in the buyer'
 Route elsewhere when:
 
 - The question is which pains to demonstrate in the demo. Use `discovery-to-demo-bridge`.
-- The question is the pricing or packaging itself. Use `pricing-monetisation-ops`.
+- The question is the pricing or packaging itself. Use `pricing-monetization-ops`.
 
 ## Inputs
 
@@ -36,7 +36,7 @@ Route elsewhere when:
 ## Procedure
 
 1. **Anchor to the root cause.** State the problem as a mechanism. Every dollar in the model must trace to fixing it. Value unrelated to the root cause is removed, because it weakens the whole page.
-2. **Write the baseline** with its source. Missing values are marked `[CONFIRM WITH BUYER]`, not filled with estimates. A soft baseline is labelled as soft.
+2. **Write the baseline** with its source. Missing values are marked `[CONFIRM WITH BUYER]`, not filled with estimates. A soft baseline is labeled as soft.
 3. **Define three scenarios** against the same baseline:
    - Worst: a small, defensible improvement, the level that works even if little goes right.
    - Average: the most likely improvement, given the buyer's context.

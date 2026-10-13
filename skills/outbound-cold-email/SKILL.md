@@ -1,7 +1,7 @@
 ---
 name: outbound-cold-email
-version: 1.0.0
-description: "Use when writing or reviewing a cold email or a multi-step cold sequence for a named account, contact, list, or signal. Picks the hook from the strongest real trigger, matches the org's voice, sets the sequence shape and cadence, applies a seven-point final gate, and stages every message for approval. Covers the deliverability limits that cap volume. Not for replies to existing threads (see reply-handling) or for LinkedIn and phone outreach."
+version: 1.2.0
+description: "Use when writing or reviewing a cold email or a multi-step cold sequence for a named account, contact, list, or signal. Picks the hook from the strongest real trigger, matches the org's voice, sets the sequence shape and cadence, applies a seven-point final gate, and stages every message for approval. Covers the deliverability limits that cap volume. Not for replies to existing threads (see `reply-handling`) or for LinkedIn and phone outreach (see `linkedin-outreach` or `cold-call-outreach`)."
 ---
 
 # Outbound cold email
@@ -19,8 +19,8 @@ Write cold email that a named person could only receive from you, that has a rea
 Route elsewhere when:
 
 - The contact has replied. Use `reply-handling`.
-- The request is for a social message or a phone script. Those are separate motions.
-- The request is about inbox setup or domain health alone. That is an infrastructure task for the client's ops owner.
+- The request is for a social message or a phone script. Use `linkedin-outreach` or `cold-call-outreach`.
+- The request is about inbox setup or domain health alone. Use `email-deliverability`.
 
 ## Inputs
 
@@ -52,7 +52,7 @@ The hook shapes the angle. It rarely appears in the copy. Open with what the hoo
 
 - Approved past sends are style examples. Imitate their tone and rhythm.
 - The skill's strategy rules outrank the examples. If an example breaks a rule, follow the rule.
-- Never copy wording from another organisation's material.
+- Never copy wording from another organization's material.
 - If there are no examples yet, draft plainly from the ICP pains, the value proposition, and the persona. Tell the user the voice is provisional.
 - Draft in the language the prospect buys in. A wrong-language sequence is an error.
 
@@ -83,7 +83,7 @@ Rules for the sequence:
 
 - Each follow-up is shorter than the one before. Each one stands on its own and brings something new: new proof, a sharper insight, a useful asset, or a peer story. A follow-up with nothing new is skipped.
 - Change the value proposition between emails. A useful default: step 1 on saving money, step 2 on making money, step 3 on saving time.
-- The break-up asks a timing question, such as "Is this not a priority right now?" Once it is sent, honour it. No further messages.
+- The break-up asks a timing question, such as "Is this not a priority right now?" Once it is sent, honor it. No further messages.
 - One channel per sequence unless the motion says otherwise. Do not reference one channel from another.
 - Multi-thread only for large accounts (around 200 or more employees), committee signals, or when asked. Use a different angle for each contact. Never send the same email twice into one company.
 
@@ -100,7 +100,7 @@ These are starting defaults. Calibrate them to the client's own results.
 
 Run all seven checks on every message before it is staged. A failed check means rewrite, not tweak.
 
-1. **Delete the opener.** Does the email still make sense? If not, the personalisation is decoration. Rebuild it around the hook.
+1. **Delete the opener.** Does the email still make sense? If not, the personalization is decoration. Rebuild it around the hook.
 2. **Check the close for "worth".** "Worth 15 minutes", "worth a quick look", and "worth a conversation" are common enough that they reduce replies. Ask for the thing itself.
 3. **Check sentence one.** If it names a funding round, a launch, a hire, or any other event, rewrite it. Open with what it means for the reader.
 4. **Check uniqueness.** Could this email go to anyone else this week? If so, it is a blast in disguise.
@@ -116,7 +116,7 @@ Run all seven checks on every message before it is staged. A failed check means 
 - A channel with missing contact data is fixed or dropped. Do not guess an address.
 - If the org has a sending tool, stage the sequence there as unsent. Do not start it.
 
-## Messaging frameworks
+### Messaging frameworks
 
 Choose one of these eight frameworks for each email, and name it in the output. Use only one per email.
 
@@ -131,7 +131,7 @@ Choose one of these eight frameworks for each email, and name it in the output. 
 
 Match the framework to the reader's altitude and the trigger. A pattern interrupt on a warm trigger wastes the trigger. Ask-before-pitch on a cold list with no trigger is usually the safer choice.
 
-## Deliverability limits
+### Deliverability limits
 
 These cap volume, whatever the copy quality. They apply to the sending domains and mailboxes the client uses.
 
@@ -144,7 +144,7 @@ These cap volume, whatever the copy quality. They apply to the sending domains a
 - Keep sustained reply rates above 5%. Below 2% for a campaign is a diagnosis trigger, not a reason to add volume.
 - Set SPF, DKIM, and DMARC correctly on every sending domain before the first send.
 
-## Benchmarks
+### Benchmarks
 
 Reply-rate baselines by outreach type. Use them to set expectations and to spot problems. Replace them with the client's own results as they come in.
 
@@ -165,7 +165,7 @@ Diagnose by symptom:
 | Replies, no meetings | Unclear or weak ask | Smaller, clearer ask |
 | High unsubscribes | Wrong audience or too much volume | Narrow the list, reduce frequency |
 
-## Give-first rule
+### Give-first rule
 
 The reply must cost the prospect nothing. A first email earns a reply in one of two ways: it delivers value up front, or the offer is so good that saying yes is the only thing left to do. Anything that asks the prospect to work first, such as imagining the value, choosing a time or acting before receiving, lowers the reply rate.
 
@@ -175,7 +175,7 @@ If the real offer is high-ticket, sell the free step, not the engagement. Naming
 
 The calls to action this rules out include a bare request for a quick call, an offer of a custom document nobody has seen value from, and any call to action that needs more than a yes.
 
-## Email structure option: R.E.P.L.Y.
+### Email structure option: R.E.P.L.Y.
 
 Use R.E.P.L.Y. as a structure for a first email, alongside the messaging frameworks above. Name the structure in the output, as with the frameworks.
 
@@ -185,7 +185,7 @@ Use R.E.P.L.Y. as a structure for a first email, alongside the messaging framewo
 - L, low-friction ask: one small, reversible next step. Usually one call to action.
 - Y, you-focused: count sentences about the reader against sentences about the sender. If "we" and "our" outweigh "you" and "your", rewrite.
 
-## Diagnose in order: list, offer, copy
+### Diagnose in order: list, offer, copy
 
 When replies are low, diagnose in this order: list, then offer, then copy. As a default weighting, the list carries about 40 percent of reply performance, the offer about 40 percent, and the copy about 20 percent. These weights are defaults, to calibrate with the team's own results.
 
@@ -203,4 +203,4 @@ For each sequence, staged for approval:
 
 ## Quality bar
 
-A strong email has a hook that fits almost no one else that week, substance that traces back to the ICP and the value proposition, and nothing that reads like a template. Watch for the proof point growing into a feature list, the call to action shrinking to a calendar link, a segment blast presented as personalisation, and feedback that is given but never written into the org's voice notes.
+A strong email has a hook that fits almost no one else that week, substance that traces back to the ICP and the value proposition, and nothing that reads like a template. Watch for the proof point growing into a feature list, the call to action shrinking to a calendar link, a segment blast presented as personalization, and feedback that is given but never written into the org's voice notes.

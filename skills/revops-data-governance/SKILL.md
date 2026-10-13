@@ -1,16 +1,14 @@
 ---
 name: revops-data-governance
-version: 1.0.0
-description: "Use when CRM data is unreliable, reports do not match across teams, fields have no owners, duplicates or integration drift are causing routing or forecast errors, or a bulk cleanup is being considered. Covers the system of record and data dictionary, measurable health scoring, reviewable and approved cleanup, enrichment rules, field and definition governance, and controls that stop defects returning. Not a CRM configuration guide, and not a forecast (see revops-forecasting)."
+version: 1.2.0
+description: "Use when CRM data is unreliable, reports do not match across teams, fields have no owners, duplicates or integration drift are causing routing or forecast errors, or a bulk cleanup is being considered. Covers the system of record and data dictionary, measurable health scoring, reviewable and approved cleanup, enrichment rules, field and definition governance, and controls that stop defects returning. Not a CRM configuration guide, and not a forecast (see `revops-forecasting`)."
 ---
 
 # RevOps data governance
 
-Makes CRM data trustworthy enough to report on, route from, and forecast with. Measures it, cleans it under review, and stops the same defects coming back.
-
 ## Purpose
 
-Give the team one documented system of record for each data point, one set of definitions, a health score that can be reproduced, and a cleanup that can be reviewed, reversed, and verified. Prevention comes first, then detection, then correction.
+Makes CRM data trustworthy enough to report on, route from, and forecast with. Give the team one documented system of record for each data point, one set of definitions, a health score that can be reproduced, and a cleanup that can be reviewed, reversed, and verified. Prevention comes first, then detection, then correction.
 
 ## When to use
 
@@ -20,17 +18,6 @@ Give the team one documented system of record for each data point, one set of de
 Route elsewhere when:
 - The question is the forecast method. Use `revops-forecasting`.
 - The question is the team's wider operating model. Use `revops-strategy`.
-
-## Principles
-
-- **Define before measuring, measure before cleaning.** A cleanup without a baseline cannot show it worked.
-- **Measure only what drives decisions.** Do not reward filling optional fields because they are easy to count.
-- **Unknown is not passing.** An unevaluable rule is reported as unknown. It is never scored as a pass.
-- **Never invent values.** Missing data stays missing or goes to a human. Uncertainty is exposed, not converted into a correction.
-- **No changes without named approval.** Approve specific operations, not a summary. Merges, deletions, ownership decisions, and bulk changes always need explicit approval.
-- **Stale operations stop.** If a value changed after planning, that operation stops rather than overwrites newer work.
-- **Score rules are versioned.** A changed rule rebases the baseline. It is never shown as an improvement or a decline.
-- **Prevention beats correction.** Find the entry point of each recurring defect and control it there.
 
 ## Inputs
 
@@ -42,6 +29,17 @@ Route elsewhere when:
 6. Named owners for each object and each rule. If none exist, that gap is the first finding.
 
 ## Procedure
+
+### Principles
+
+- **Define before measuring, measure before cleaning.** A cleanup without a baseline cannot show it worked.
+- **Measure only what drives decisions.** Do not reward filling optional fields because they are easy to count.
+- **Unknown is not passing.** An unevaluable rule is reported as unknown. It is never scored as a pass.
+- **Never invent values.** Missing data stays missing or goes to a human. Uncertainty is exposed, not converted into a correction.
+- **No changes without named approval.** Approve specific operations, not a summary. Merges, deletions, ownership decisions, and bulk changes always need explicit approval.
+- **Stale operations stop.** If a value changed after planning, that operation stops rather than overwrites newer work.
+- **Score rules are versioned.** A changed rule rebases the baseline. It is never shown as an improvement or a decline.
+- **Prevention beats correction.** Find the entry point of each recurring defect and control it there.
 
 ### Step 1: Set the system of record and data model
 
@@ -76,7 +74,7 @@ Scoring method:
 - Do not publish an object score with fewer than 30 eligible records without a small-sample warning.
 - Critical-rule floors are set separately from the composite. Starting floors: suppression conflicts 100% pass, active ownership at least 99%, and zero tolerated unresolved duplicate accounts tied to open opportunities. A high composite never hides a failing critical rule.
 
-Optional five-dimension view for leadership, labelled as practice-based targets: completeness of required fields (95% or more), accuracy from sampled audits (90% or more), consistency across linked records (99% or more), timeliness (85% or more), and uniqueness (99% or more). If any dimension is below 85%, fix completeness and consistency first.
+Optional five-dimension view for leadership, labeled as practice-based targets: completeness of required fields (95% or more), accuracy from sampled audits (90% or more), consistency across linked records (99% or more), timeliness (85% or more), and uniqueness (99% or more). If any dimension is below 85%, fix completeness and consistency first.
 
 Version the rule set, weights, populations, and thresholds together. When any changes, recalculate the prior snapshot under the new version if possible, and label the rebaseline.
 
@@ -97,7 +95,7 @@ Prevent duplicates at creation: check on email for contacts, and fuzzy name and 
 
 Snapshot before proposing changes. Define each audit check as an explicit rule (population, condition, severity, evidence). Cover duplicates, ownership gaps, stale pipeline, critical-field completeness, stage conformance, and integration drift.
 
-Count findings by object, rule, owner, source, and age. Separate isolated bad records from systematic failures caused by imports, forms, integrations, or team behaviour. Systematic failures get a source control, not a record-by-record fix.
+Count findings by object, rule, owner, source, and age. Separate isolated bad records from systematic failures caused by imports, forms, integrations, or team behavior. Systematic failures get a source control, not a record-by-record fix.
 
 Represent every proposed change as one reviewable operation:
 - record type and stable identifier
@@ -107,7 +105,7 @@ Represent every proposed change as one reviewable operation:
 - confidence, reversibility, and impact radius
 - whether a human decision is required
 
-Separate deterministic corrections from judgement calls. Missing owners, unclear duplicate survivors, disputed lifecycle stages, and inferred values always require a named human decision.
+Separate deterministic corrections from judgment calls. Missing owners, unclear duplicate survivors, disputed lifecycle stages, and inferred values always require a named human decision.
 
 Prioritize in this order:
 1. Changes that stop ongoing corruption.
@@ -253,7 +251,7 @@ Maturity levels, as a self-assessment:
 - MUST NOT give legal advice. Route privacy questions to counsel.
 - NEVER present the practice-based targets, weights, or thresholds as industry standards.
 
-## Rules
+### Scope boundaries
 
 - Defines governance, scoring, and cleanup method. Does not configure a specific CRM's properties, workflows, or permissions. That needs a platform-specific skill.
 - Does not inspect deals for risk in a live pipeline: use `pipeline-review`. This skill fixes the data that review depends on.

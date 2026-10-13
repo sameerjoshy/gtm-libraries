@@ -1,7 +1,7 @@
 ---
 name: newsletter-issue-formats
-version: 1.0.0
-description: "Use to plan and write the recurring issues of a newsletter, especially a weekly curated roundup. Covers the five roundup formats (links, lessons, tools, content, and a hybrid), the rule that each curated item carries the owner's own take, the structure of a scannable issue, a single closing call to action, and a repeatable production process. Also covers turning a social post into a newsletter issue and generating a year of issue ideas. Not for the welcome sequence (see newsletter-subscriber-onboarding) or the subject line (see email-subject-and-copy-review)."
+version: 1.2.0
+description: "Use to plan and write the recurring issues of a newsletter, especially a weekly curated roundup. Covers the five roundup formats (links, lessons, tools, content, and a hybrid), the rule that each curated item carries the owner's own take, the structure of a scannable issue, a single closing call to action, and a repeatable production process. Also covers turning a social post into a newsletter issue and generating a year of issue ideas. Not for the welcome sequence (see `newsletter-subscriber-onboarding`) or the subject line (see `email-subject-and-copy-review`)."
 ---
 
 # Newsletter issue formats
@@ -34,7 +34,7 @@ Route elsewhere when:
 
 Choose a format, build the issue structure, then follow the production process. Use the post and idea sections when they apply.
 
-## The five roundup formats
+### The five roundup formats
 
 - **Link roundup:** the best articles or posts from the week, each with a short comment on why it matters.
 - **Lesson roundup:** what the owner learned that week, with one or two examples.
@@ -44,7 +44,7 @@ Choose a format, build the issue structure, then follow the production process. 
 
 Pick one format per series, and keep it for at least several issues so readers know what to expect.
 
-## Issue structure
+### Issue structure
 
 1. **Intro:** two or three sentences on the issue's theme, in the owner's voice.
 2. **Curated items:** three to six items, each with the owner's own comment. The comment says why it matters to this reader.
@@ -52,7 +52,7 @@ Pick one format per series, and keep it for at least several issues so readers k
 
 Keep the whole issue scannable: short paragraphs, clear item headings, and no item longer than a few lines of the owner's comment.
 
-## Production process
+### Production process
 
 1. **Collect** candidate items during the week, in one place, with a note on why each might matter.
 2. **Select** three to six items, dropping any the owner cannot comment on from experience.
@@ -61,11 +61,11 @@ Keep the whole issue scannable: short paragraphs, clear item headings, and no it
 5. **Check** that every item carries a comment. An item without one is removed, not published.
 6. **Schedule** the send at the same time each week.
 
-## Turning a post into an issue
+### Turning a post into an issue
 
 A social post that worked has already been tested on the audience. Expand it into an issue by adding the reasoning the short post could not hold, a practical example, and a single closing call to action. Credit the original and do not reuse another person's post without permission.
 
-## Idea list
+### Idea list
 
 To generate issue ideas for a year, list the reader's recurring questions, the owner's recent lessons, and the tools and content the owner uses. Group the ideas by format, and schedule the formats so no two heavy issues run back to back.
 

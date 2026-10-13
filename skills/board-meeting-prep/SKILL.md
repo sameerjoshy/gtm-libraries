@@ -1,14 +1,14 @@
 ---
 name: board-meeting-prep
-version: 1.0.0
-description: "Use when a CEO, CRO, or go-to-market leader is preparing for a board, investor, or operating review and needs the room to make a decision. Produces a decision-first pre-read, an in-room agenda that spends most of the time on discussion, a single primary ask framed as a decision brief, and a preparation brief for likely director questions. Not for the financial model itself (see revenue-metrics)."
+version: 1.2.0
+description: "Use when a CEO, CRO, or go-to-market leader is preparing for a board, investor, or operating review and needs the room to make a decision. Produces a decision-first pre-read, an in-room agenda that spends most of the time on discussion, a single primary ask framed as a decision brief, and a preparation brief for likely director questions. Not for the financial model itself (see `revenue-metrics`)."
 ---
 
 # Board meeting prep
 
 ## Purpose
 
-A board can only use a meeting for judgement if the context has already been read. This skill builds the material in the order that makes that possible: who is in the room, what decision is needed, what the board must believe to say yes, the evidence for each belief, and a discussion plan. Slides come last.
+A board can only use a meeting for judgment if the context has already been read. This skill builds the material in the order that makes that possible: who is in the room, what decision is needed, what the board must believe to say yes, the evidence for each belief, and a discussion plan. Slides come last.
 
 ## When to use
 
@@ -19,7 +19,6 @@ A board can only use a meeting for judgement if the context has already been rea
 If no decision is needed, the material is a report. Send it as a memo, not a board presentation.
 
 Route elsewhere when:
-
 - The question is the revenue model or forecast. Use `revenue-metrics` or `revops-forecasting`.
 - The question is the company's internal operating cadence. Use `revenue-operating-cadence`.
 
@@ -40,7 +39,7 @@ Route elsewhere when:
 6. **Frame any capital request as a comparison.** Show the chain from investment to result, what has been proven at a smaller scale, the milestone that releases the next tranche, and the cost of delay.
 7. **Design the room.** Retrospective, then orientation, then the decision. Plan the time at about 25 percent presentation and 75 percent discussion.
 8. **Close on a named decision:** who, what, by when, and what it unlocks. Record it in writing within one business day.
-9. **Send the pre-read** seven calendar days ahead, and never fewer than five business days ahead. Directors read it, so the meeting itself is for judgement.
+9. **Send the pre-read** seven calendar days ahead, and never fewer than five business days ahead. Directors read it, so the meeting itself is for judgment.
 
 ## Output
 

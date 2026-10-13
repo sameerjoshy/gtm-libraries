@@ -1,7 +1,7 @@
 ---
 name: lead-magnet-post
-version: 1.0.0
-description: "Use to write a professional network post that gives away a free resource (a playbook, template, checklist or guide) in return for a comment, or to diagnose and rewrite one that underperformed. Qualifies the resource first, offers three hook options matched to the proof the author actually has, builds the post in a fixed order (hook, free-claim line, pain block, deliverable list, call to action), self-scores the draft before delivery, and checks that every promise is something the resource can deliver. Not for a company newsletter (see newsletter-issue-formats) or a general post with no resource attached (see founder-post-triggers)."
+version: 1.2.0
+description: "Use when writing a professional network post that gives away a free resource (a playbook, template, checklist or guide) in return for a comment, or diagnosing and rewriting one that underperformed. Qualifies the resource first, offers three hook options matched to the proof the author actually has, builds the post in a fixed order (hook, free-claim line, pain block, deliverable list, call to action), self-scores the draft before delivery, and checks that every promise is something the resource can deliver. Not for a company newsletter (see `newsletter-issue-formats`) or a general post with no resource attached (see `founder-post-triggers`)."
 ---
 
 # Lead magnet post

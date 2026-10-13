@@ -1,7 +1,7 @@
 ---
 name: account-org-map
-version: 1.0.0
-description: "Use when a seller, partner manager, recruiter or researcher needs a usable map of who works at a named company, how its team is probably structured, and who matters for one specific objective. Fixes the scope and the objective before any research, builds an evidence set in deliberate passes, infers reporting lines with a confidence label on each edge, reads four structural observations, and ranks the people to approach. Not for a company's own internal org design (see revops-org-chart) or for the buying group in a signal-led campaign (see signal-campaign-build)."
+version: 1.2.0
+description: "Use when a seller, partner manager, recruiter or researcher needs a usable map of who works at a named company, how its team is probably structured, and who matters for one specific objective. Fixes the scope and the objective before any research, builds an evidence set in deliberate passes, infers reporting lines with a confidence label on each edge, reads four structural observations, and ranks the people to approach. Not for a company's own internal org design (see `revops-org-chart`) or for the buying group in a signal-led campaign (see `signal-campaign-build`)."
 ---
 
 # Account org map
@@ -40,7 +40,7 @@ Route elsewhere when:
    - individual contributors, only for recruiting, technical influence, or a full map that was asked for.
    Record each person's name, current title, function, location, tenure, profile link, and source. Deduplicate by profile link first, then by name and company.
 5. **Stop when another search adds names without changing the structure or the next action.** A readable fifteen-person map is better than a speculative eighty-person list.
-6. **Normalise each title** into a seniority layer and a business function.
+6. **Normalize each title** into a seniority layer and a business function.
 7. **Infer reporting lines and label every one:**
    - supported: a public source names the line or the team;
    - likely: function and adjacent seniority strongly imply it;

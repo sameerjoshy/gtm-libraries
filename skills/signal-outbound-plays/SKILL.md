@@ -1,7 +1,7 @@
 ---
 name: signal-outbound-plays
-version: 1.0.0
-description: "Use to choose a signal-based outbound play: a reason to contact a prospect that is tied to an observable event, such as a new hire, a departure, a role that signals priority, a review that names a problem, or a new follower. Gives eleven plays, each with its signal, its timing, and its value-first angle, and a rule for when each play should not be used. Not for detecting signals in depth (see signal-detection-and-timing)."
+version: 1.2.0
+description: "Use to choose a signal-based outbound play: a reason to contact a prospect that is tied to an observable event, such as a new hire, a departure, a role that signals priority, a review that names a problem, or a new follower. Gives eleven plays, each with its signal, its timing, and its value-first angle, and a rule for when each play should not be used. Not for detecting signals in depth (see `signal-detection-and-timing`)."
 ---
 
 # Signal-based outbound plays
@@ -29,7 +29,7 @@ Route elsewhere when:
 - The prospect's role and company, to check the angle fits.
 - Any reason the play should not be used, such as a sensitive event or a recent contact.
 
-## The plays
+### The plays
 
 | Play | Signal | Timing (default) | Angle |
 |---|---|---|---|
@@ -41,11 +41,11 @@ Route elsewhere when:
 | 6. Departed employee | A person in a relevant role has left | 1 to 2 weeks after | Offer cover for the gap in their work |
 | 7. Missing role | A function with no dedicated owner, at a company of a size where one is expected | Ongoing | Describe the gap and what it costs |
 | 8. Public negative review | A public review names a problem your product solves | Within days | Acknowledge the problem, describe how others solved it |
-| 9. Generated ideas | Personalised ideas about the prospect's business | Ongoing | Two specific ideas, then the offer |
+| 9. Generated ideas | Personalized ideas about the prospect's business | Ongoing | Two specific ideas, then the offer |
 | 10. Visitor activity | Prospect has visited pricing or a high-intent page | Real time | Helpful, short follow-up by the most relevant channel |
 | 11. Inbound followers | A new follower on a relevant social account | 24 to 48 hours | Thank them and offer a relevant resource |
 
-## Rules for each play
+### Play rules
 
 - **Use the play only when the signal is observable and current.** A signal older than its timing window is not a signal.
 - **Do not reference how the prospect was found** beyond what is public. Never imply monitoring of private activity.

@@ -1,7 +1,7 @@
 ---
 name: paid-automation-controls
-version: 1.0.0
-description: "Use when deciding whether and how to let an ad platform automate targeting, placements, creative, and budget for a B2B lead campaign, or when a manual campaign is being compared with an automated one. Explains how automation changes the levers (creative and conversion data matter more than targeting inputs), the layers a platform may automate, what to keep constrained, when manual control still wins, and the B2B lead-quality features to switch on. Not for the campaign structure in the testing phases (see paid-social-campaign-structure)."
+version: 1.2.0
+description: "Use when deciding whether and how to let an ad platform automate targeting, placements, creative, and budget for a B2B lead campaign, or when a manual campaign is being compared with an automated one. Explains how automation changes the levers (creative and conversion data matter more than targeting inputs), the layers a platform may automate, what to keep constrained, when manual control still wins, and the B2B lead-quality features to switch on. Not for the campaign structure in the testing phases (see `paid-social-campaign-structure`)."
 ---
 
 # Paid automation controls
@@ -29,7 +29,7 @@ Route elsewhere when:
 - The lagging outcome the team judges by, such as qualified pipeline.
 - Lead records from the platform's forms, for checking quality.
 
-## What changes under automation
+### What changes under automation
 
 Targeting inputs such as audiences, lookalikes, and interests become suggestions. The platform expands beyond them when it predicts better results. The levers that remain with the team are:
 - the creative it supplies, which the platform uses as a signal of who to reach,
@@ -37,7 +37,7 @@ Targeting inputs such as audiences, lookalikes, and interests become suggestions
 
 The question shifts from "who do I target" to "what creative do I supply, and what outcome data do I send back".
 
-## The layers a platform may automate
+### The layers a platform may automate
 
 1. **Audience:** the platform widens or redirects the audience from the inputs given.
 2. **Placements:** the platform chooses where ads run, across the surfaces it owns.
@@ -46,7 +46,7 @@ The question shifts from "who do I target" to "what creative do I supply, and wh
 
 Each layer can be switched on separately. Turn on one layer at a time and watch its effect on the lagging outcome.
 
-## B2B lead features
+### B2B lead features
 
 Where the platform offers lead features for business audiences, consider switching on:
 - **Work email validation,** so people must enter a business address rather than one auto-filled from a personal profile.
@@ -55,7 +55,7 @@ Where the platform offers lead features for business audiences, consider switchi
 
 Check the effect on cost per lead and on the share of leads sales accepts. Lead filtering can raise cost per lead while lowering cost per qualified lead, so judge it on the qualified figure.
 
-## When manual control still wins
+### When manual control still wins
 
 - The offer is high-value and the sales cycle is long, so a few qualified leads matter more than volume.
 - Conversion data sent back is thin or unreliable, so the platform is learning from the wrong outcome.
@@ -79,4 +79,4 @@ Check the effect on cost per lead and on the share of leads sales accepts. Lead 
 
 ## Quality bar
 
-Automation layers are switched on one at a time against a recorded baseline. Judgement is on the qualified outcome. The prerequisites are checked first. Watch for full automation switched on before the audience or creative is proven, lead filtering judged on raw cost per lead, and automated results reported without a baseline.
+Automation layers are switched on one at a time against a recorded baseline. Judgment is on the qualified outcome. The prerequisites are checked first. Watch for full automation switched on before the audience or creative is proven, lead filtering judged on raw cost per lead, and automated results reported without a baseline.

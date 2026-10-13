@@ -1,7 +1,7 @@
 ---
 name: deal-desk-operations
-version: 1.0.0
-description: "Use when reps hold too much pricing authority, discounts vary widely by region or rep, approvals stall deals, or margin is leaking without anyone seeing it. Designs the discount approval matrix by depth and deal size, a margin floor, a strategic exception lane with a 30-day review, a three-stage quote workflow with turnaround targets, discount tracking with expiry, governance of usage and outcome deals, and the metrics that show whether the desk is helping or slowing deals. Not for list pricing or packaging strategy (see pricing-monetisation-ops) or renewal positioning (see cs-operations)."
+version: 1.2.0
+description: "Use when reps hold too much pricing authority, discounts vary widely by region or rep, approvals stall deals, or margin is leaking without anyone seeing it. Designs the discount approval matrix by depth and deal size, a margin floor, a strategic exception lane with a 30-day review, a three-stage quote workflow with turnaround targets, discount tracking with expiry, governance of usage and outcome deals, and the metrics that show whether the desk is helping or slowing deals. Not for list pricing or packaging strategy (see `pricing-monetization-ops`) or renewal positioning (see `cs-operations`)."
 ---
 
 # Deal desk operations
@@ -24,8 +24,8 @@ Do not build a deal desk on day one. It earns its place when deal complexity, di
 
 Route elsewhere when:
 
-- The question is the list price or packaging. Use `pricing-monetisation-ops`.
-- The question is billing, metering, or revenue recognition. Use `pricing-monetisation-ops`.
+- The question is the list price or packaging. Use `pricing-monetization-ops`.
+- The question is billing, metering, or revenue recognition. Use `pricing-monetization-ops`.
 - The question is renewal price positioning. Use `cs-operations`.
 - The question is the strategic exception as a sales decision on a single deal. Use `deal-qualification-gates` to test the case.
 
@@ -111,7 +111,7 @@ Every approved discount carries:
 - **Reason**, from a fixed list: competitive, loss aversion, strategic, volume, or loyalty.
 - **Expiry**: one-time for this deal, automatic renewal, or expiry on a set date. Most discounts should expire.
 - **Precedent flag**: is this the first time this discount has been offered to this industry, region, or company size?
-- **Renewal behaviour**: returns to list price, renegotiated, or held over, with the decision recorded.
+- **Renewal behavior**: returns to list price, renegotiated, or held over, with the decision recorded.
 
 Most margin leakage comes from four sources: discounts that were never approved or documented, concessions forgotten at renewal, annual discounts treated as permanent, and prices agreed in a sales call that never reached the record. The expiry field and the renewal check address the first three. Reconcile the CRM against the signed contracts each quarter to catch the fourth.
 
@@ -121,12 +121,12 @@ Leakage is measured, not assumed. Compare the discount in the signed contract wi
 
 Price increases at renewal fail when they are not planned. Plan them by cohort, starting at least 120 days before renewal.
 
-1. **Segment the base.** High value and low churn risk: defend and grow. Mid value and normal risk: optimise and hold. High risk and lower value: selective increase, or prune.
+1. **Segment the base.** High value and low churn risk: defend and grow. Mid value and normal risk: optimize and hold. High risk and lower value: selective increase, or prune.
 2. **Set an increase by cohort.** Default ranges to calibrate: the defended cohort may take a larger increase, the middle cohort a moderate one, and the at-risk cohort a small one or none.
 3. **Record the rationale.** Which cohort, which tier, why, and who approved the strategy. A chief revenue officer and a finance lead should co-sign it.
 4. **Track the hold rate by cohort.** If the defended cohort shows churn on the first contact, the strategy needs changing.
 
-Renewal behaviour for each discount follows Step 5. An expired discount renews at list price unless someone decides otherwise and records it.
+Renewal behavior for each discount follows Step 5. An expired discount renews at list price unless someone decides otherwise and records it.
 
 ### Step 7: Govern usage-based and outcome-based deals
 
@@ -185,7 +185,7 @@ Review velocity and compliance weekly. Review quality and strategic exceptions m
 
 Move to Level 2 by naming a desk lead or assigning the work to revenue operations, auditing existing discounts for thirty to sixty days, and installing a three-tier matrix. Use the quote tool the company already has, or set one up in the CRM. For Salesforce, see `revops-salesforce`.
 
-**Level 2, formalised.** The matrix is documented. Quote turnaround targets are set and tracked. The desk reviews most deals above a set discount. Legal has a named process. Gaps: limited data on discount patterns, reactive renewal pricing, and usage and outcome deals handled one at a time.
+**Level 2, formalized.** The matrix is documented. Quote turnaround targets are set and tracked. The desk reviews most deals above a set discount. Legal has a named process. Gaps: limited data on discount patterns, reactive renewal pricing, and usage and outcome deals handled one at a time.
 
 Move to Level 3 by building a discount dashboard, a cohort-based renewal strategy, and standard templates for usage deals, and by reporting the quality metrics each month with finance.
 
@@ -195,7 +195,7 @@ Level 3 usually takes twelve to twenty-four months of building, as volume and co
 
 **Sequence for the first year:**
 
-- Quarter one: formalise the matrix, document the existing discounts, and set up the quote workflow.
+- Quarter one: formalize the matrix, document the existing discounts, and set up the quote workflow.
 - Quarter two: enforce discount tracking and expiry, and start the weekly velocity review.
 - Quarter three: build the renewal cohort strategy, and set the governance rhythm: weekly velocity review, monthly deep dive.
 - Quarter four: add the quality and strategic exception metrics, and tie the desk to the monthly finance close.
@@ -220,18 +220,26 @@ Contracts with EU customers should say which data is used for pricing and renewa
 - The metrics dashboard, with weekly and monthly reviews.
 - The maturity level today, and the next step.
 
-## Anti-patterns
+## Quality bar
+
+Discount authority is written down, and every person can name their own limit. Each approval shows its margin effect at the point of decision. Quotes clear each stage within its target, and exceptions carry a written reason. Expiry is recorded on every discount, and the contract is reconciled to the approval record. Watch for approvals without margin information, strategic labels used by default, discounts with no expiry, and a desk that is faster but less profitable.
+
+### Anti-patterns
 
 | Anti-pattern | Symptom | Fix |
 |---|---|---|
 | Ten approval tiers | Reps hunt for the approver, and decisions stall | Four tiers at most |
 | No expiry on discounts | Discounts persist into renewal and erode margin | Mandatory expiry, audited each quarter |
 | Desk judged on speed alone | Deals move faster and margin leaks | Measure margin and win rate alongside turnaround |
-| Reps hiding discounts | Reported discounts are well below actual | Make the desk a facilitator, and recognise clean deals |
+| Reps hiding discounts | Reported discounts are well below actual | Make the desk a facilitator, and recognize clean deals |
 | Strategic label on everything | The exception lane becomes the default route | Score every exception and review it at thirty days |
 | Vague outcome measures | Disputes at payout, and churn | Auditable measures, a baseline, and a named dispute process |
 | Aggressive step-ups with no trigger | The customer hits a cap and churns at the next renewal | Tie step-ups to usage or performance, and check in mid-contract |
 
-## Quality bar
+## Rules
 
-Discount authority is written down, and every person can name their own limit. Each approval shows its margin effect at the point of decision. Quotes clear each stage within its target, and exceptions carry a written reason. Expiry is recorded on every discount, and the contract is reconciled to the approval record. Watch for approvals without margin information, strategic labels used by default, discounts with no expiry, and a desk that is faster but less profitable.
+- No deal below the target contribution margin is approved at any level. A breach goes to finance and leadership as an explicit, logged exception.
+- Every discount carries a reason and an expiry. Do not approve a discount without both.
+- Nothing reaches a customer without a named approver. Quotes are released through the workflow, not directly.
+
+Before a quote or discount reaches a customer, ask: who is the named approver releasing this?

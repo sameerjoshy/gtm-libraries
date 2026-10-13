@@ -1,7 +1,7 @@
 ---
 name: profitable-efficient-growth
-version: 1.0.0
-description: "Use when a founder, revenue leader, or finance lead is planning for the year, preparing for a board or a raise, deciding whether to spend more on acquisition or fix the model first, or asks about unit economics such as CAC payback, net revenue retention, burn multiple, or magic number. Builds an efficiency scorecard from the company's own numbers, grades each metric against stated default thresholds, diagnoses whether growth is efficient or leaking, and suggests how to split the next dollar of go-to-market spend. Not for the pricing model itself (see pricing-monetisation-ops)."
+version: 1.2.0
+description: "Use when a founder, revenue leader, or finance lead is planning for the year, preparing for a board or a raise, deciding whether to spend more on acquisition or fix the model first, or asks about unit economics such as CAC payback, net revenue retention, burn multiple, or magic number. Builds an efficiency scorecard from the company's own numbers, grades each metric against stated default thresholds, diagnoses whether growth is efficient or leaking, and suggests how to split the next dollar of go-to-market spend. Not for the pricing model itself (see `pricing-monetization-ops`)."
 ---
 
 # Profitable efficient growth
@@ -19,7 +19,7 @@ Growth that costs more than it returns is not growth. Teams often scale spend wh
 
 Route elsewhere when:
 
-- The question is the price or packaging. Use `pricing-monetisation-ops`.
+- The question is the price or packaging. Use `pricing-monetization-ops`.
 - The question is the revenue forecast. Use `revops-forecasting`.
 - The question is the planning calendar. Use `revops-revenue-planning`.
 
@@ -31,7 +31,7 @@ Route elsewhere when:
 - Net burn, if the company is not yet profitable.
 - Stage and market, which set how the thresholds should be read.
 
-## The metrics
+### The metrics
 
 - **Customer lifetime value to acquisition cost (LTV:CAC).** Lifetime value is gross margin per customer over a stated horizon, discounted for churn. Do not use a simple perpetual formula when net retention is at or above 100 percent, because it breaks down.
 - **CAC payback.** Months of gross margin from a new customer needed to recover its acquisition cost.
@@ -60,4 +60,4 @@ Default thresholds to test against the company's own numbers: LTV to CAC of abou
 
 ## Quality bar
 
-Every metric shows its formula and period. Thresholds are labelled as defaults. The diagnosis names one driving metric. Spend is not increased on a channel with weak payback. Watch for lifetime value formulas applied where retention is above 100 percent, thresholds presented as industry standards, and a growth plan with no efficiency check.
+Every metric shows its formula and period. Thresholds are labeled as defaults. The diagnosis names one driving metric. Spend is not increased on a channel with weak payback. Watch for lifetime value formulas applied where retention is above 100 percent, thresholds presented as industry standards, and a growth plan with no efficiency check.

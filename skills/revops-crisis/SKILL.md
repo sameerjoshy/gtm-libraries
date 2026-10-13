@@ -1,7 +1,7 @@
 ---
 name: revops-crisis
-version: 1.0.0
-description: "Use when a revenue function is in crisis, meaning several systems are failing at once and the basic machinery can no longer be trusted. Typical signals are repeated forecast misses, win rates falling for several quarters, pipeline coverage dropping, retention collapsing, data that nobody believes, or functions blaming each other. Gives a four-week emergency triage, a 30-60-90 recovery plan, four crisis playbooks, and rules for leading through the blame. Use before the diagnostic, not instead of it. Not for routine diagnosis (see revops-diagnostic)."
+version: 1.2.0
+description: "Use when a revenue function is in crisis, meaning several systems are failing at once and the basic machinery can no longer be trusted. Typical signals are repeated forecast misses, win rates falling for several quarters, pipeline coverage dropping, retention collapsing, data that nobody believes, or functions blaming each other. Gives a four-week emergency triage, a 30-60-90 recovery plan, four crisis playbooks, and rules for leading through the blame. Use before the diagnostic, not instead of it. Not for routine diagnosis (see `revops-diagnostic`)."
 ---
 
 # RevOps crisis triage
@@ -10,7 +10,7 @@ description: "Use when a revenue function is in crisis, meaning several systems 
 
 Existing diagnostic skills assume the basics work. A diagnostic is useless when the data is unreliable, and a maturity assessment is academic when the functions do not talk to each other. In a crisis, the first job is to make the machinery trustworthy enough to steer, not to understand everything.
 
-The core rule: speed of stabilisation beats completeness of diagnosis. Find the one thing that unlocks the others, fix it, and move to the next constraint. Do not try to fix six things at once.
+The core rule: speed of stabilization beats completeness of diagnosis. Find the one thing that unlocks the others, fix it, and move to the next constraint. Do not try to fix six things at once.
 
 This skill is emergency response. Once the company is stable, move to `revops-diagnostic` for the deeper work.
 
@@ -47,7 +47,7 @@ Route elsewhere when:
 
 ### Step 1: Confirm the crisis and name it in one line
 
-The pattern to recognise is this: data breaks, then process fails, then people fracture, and then nobody can execute reliably. Once trust collapses, the company is in crisis mode, and normal planning stops working.
+The pattern to recognize is this: data breaks, then process fails, then people fracture, and then nobody can execute reliably. Once trust collapses, the company is in crisis mode, and normal planning stops working.
 
 Write the crisis as one sentence with numbers. "Forecast missed by 35% for two quarters, and sales and marketing disagree on what a qualified lead is" is useful. "Things are bad" is not.
 
@@ -121,12 +121,12 @@ The emergency constraint is the area scoring 1 while the others score 2. If all 
 Unlock logic, one action per constraint:
 - **Governance at 1.** Install a daily stand-up and name one decision driver (usually the CRO). The unlock is that leadership knows what matters.
 - **Enablement at 1.** Complete the data audit from week one, and define three non-negotiable processes. The unlock is that teams can execute consistently.
-- **Revenue engine at 1.** Analyse win rate, and speak to five recent lost deals quickly. The unlock is knowing where to focus: discovery, closing, or multi-threading.
+- **Revenue engine at 1.** Analyze win rate, and speak to five recent lost deals quickly. The unlock is knowing where to focus: discovery, closing, or multi-threading.
 - **Customer insight at 1.** Pull the five best and five worst recent outcomes, and look for patterns. The unlock is that the company stops guessing about its ICP.
 
-## The 30-60-90 recovery plan
+### The 30-60-90 recovery plan
 
-### Days 1 to 30: stabilise
+### Days 1 to 30: stabilize
 
 - Data audit complete, with the blitz run if needed.
 - Top ten at-risk deals named, each with an executive sponsor.
@@ -156,7 +156,7 @@ Unlock logic, one action per constraint:
 - A team pulse check that shows trust improving.
 - Handover to `revops-diagnostic` for the deeper work.
 
-## Four crisis playbooks
+### Four crisis playbooks
 
 ### A: The forecast crisis (missed several quarters running)
 
@@ -212,7 +212,7 @@ Structural fix, weeks three to eight: a health scoring system with escalation ru
 
 ### D: The trust crisis (functions blame each other)
 
-Root cause: no shared metrics, no shared cadence, and no shared accountability. Each function optimises its own numbers, the numbers conflict, and the blame cycle follows.
+Root cause: no shared metrics, no shared cadence, and no shared accountability. Each function optimizes its own numbers, the numbers conflict, and the blame cycle follows.
 
 Emergency fix, weeks one and two:
 - One shared dashboard that every function sees daily: ARR, pipeline, churn, and acquisition cost.
@@ -223,7 +223,7 @@ Emergency fix, weeks one and two:
 
 Structural fix, weeks three to eight: a shared metrics dashboard owned by RevOps, a one-page definition for each major concept, a weekly governance meeting with a decision log, and cross-functional playbooks for the main motions. Use `revenue-operating-cadence` and `revenue-handoffs`.
 
-## Leading through the crisis
+### Leading through the crisis
 
 ### The blame cycle
 
@@ -255,7 +255,7 @@ How to run them:
 - Ask for a binary commitment: "Can you deliver X by this date, yes or no?" In a crisis, a maybe delays the timeline.
 - If someone refuses a crisis priority, bring in their manager or the CEO. A crisis is not the time for building consensus.
 
-## Things not to do in a crisis
+### Things not to do in a crisis
 
 - Do not change compensation plans mid-quarter. It adds chaos to chaos. Lock it, and announce changes for the next period.
 - Do not fire the head of sales straight away. Most failures in a crisis are system failures. Run the diagnostic first. If it is a people problem, two weeks of evidence will show it.
@@ -266,9 +266,9 @@ How to run them:
 - Do not drop the daily stand-up. It is the main way information reaches leaders. Keep it for sixty days.
 - Do not fix data, process, and people at the same time. Pick one. Data first, then process, since clean data makes process work visible. Then people, since trust rebuilds once the data and process hold.
 
-## How to use this skill
+### How to use this skill
 
-**"Everything is broken."** Recognise the crisis, run the four-week emergency triage, then the 30-60-90 plan.
+**"Everything is broken."** Recognize the crisis, run the four-week emergency triage, then the 30-60-90 plan.
 
 **"The forecast cannot be trusted."** Playbook A: shadow forecast, then pattern identification, then the structural fix.
 
@@ -280,7 +280,15 @@ How to run them:
 
 **"The data is unusable."** Run the week-one data audit before anything else. Nothing else works until the data does.
 
-**After day ninety.** Hand off to `revops-diagnostic` for the deeper analysis. Crisis work stabilises. Long-term improvement needs a different approach.
+**After day ninety.** Hand off to `revops-diagnostic` for the deeper analysis. Crisis work stabilizes. Long-term improvement needs a different approach.
+
+### Diagnostic questions
+
+1. Which metric crossed the crisis line, and for how many quarters?
+2. What share of the critical deal fields are populated today, and who is accountable for that number?
+3. What is the executive-level downside: the value of the top ten at-risk deals and renewals?
+4. Which function is blaming which, and what single shared metric would they all accept?
+5. What is the one thing that, if fixed this week, would unlock the most?
 
 ## Output
 
@@ -291,14 +299,6 @@ How to run them:
 - The emergency constraint and its unlock action.
 - The 30-60-90 plan with owners.
 - The playbook applied, with its fix in weeks one and two.
-
-## Diagnostic questions
-
-1. Which metric crossed the crisis line, and for how many quarters?
-2. What share of the critical deal fields are populated today, and who is accountable for that number?
-3. What is the executive-level downside: the value of the top ten at-risk deals and renewals?
-4. Which function is blaming which, and what single shared metric would they all accept?
-5. What is the one thing that, if fixed this week, would unlock the most?
 
 ## Quality bar
 

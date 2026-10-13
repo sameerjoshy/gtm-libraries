@@ -1,7 +1,7 @@
 ---
 name: email-subject-and-copy-review
-version: 1.0.0
-description: "Use to write or improve the subject line and body of a B2B marketing or newsletter email. Generates subject lines from named psychological triggers (curiosity, urgency, pain, authority, results, contrarian, value, action, empowerment, story, trend, and quick win), reviews the body against a checklist of copy rules (direct address, a hook that gets to the point, skimmable structure, a single contextual call to action, a closing line for the reader who skips to the end), and rewrites vague pain statements into specific ones. Not for the whole sequence (see saas-lifecycle-programs) or for detecting machine-sounding prose (see content-authenticity-review)."
+version: 1.2.0
+description: "Use when writing or improving the subject line and body of a B2B marketing or newsletter email. Generates subject lines from named psychological triggers (curiosity, urgency, pain, authority, results, contrarian, value, action, empowerment, story, trend, and quick win), reviews the body against a checklist of copy rules (direct address, a hook that gets to the point, skimmable structure, a single contextual call to action, a closing line for the reader who skips to the end), and rewrites vague pain statements into specific ones. Not for the whole sequence (see saas-lifecycle-programs) or for detecting machine-sounding prose (see content-authenticity-review)."
 ---
 
 # Email subject and copy review
@@ -30,7 +30,7 @@ Route elsewhere when:
 - Open rates and reply rates for earlier emails, where they exist, to judge the alternatives.
 - Any real deadline the email can state. Without one, no urgency is written.
 
-## Subject lines
+### Subject lines
 
 Match the subject to the email's intent. Write five to ten options, each using a different trigger:
 
@@ -44,12 +44,12 @@ Match the subject to the email's intent. Write five to ten options, each using a
 - **Action:** a clear next step.
 - **Empowerment:** what the reader can do.
 - **Story:** a short narrative hook.
-- **Trend:** a shift the reader will recognise.
+- **Trend:** a shift the reader will recognize.
 - **Quick win:** a result in a short time.
 
 Write a preview line for each recommended subject. For A/B tests, change one element at a time.
 
-## Copy review checklist
+### Copy review checklist
 
 Review the body against these checks:
 1. **Hook.** The first line gets to the point, with no warm-up.
@@ -61,7 +61,7 @@ Review the body against these checks:
 7. **Closing line.** A short final line for the reader who skips to the end.
 8. **Paragraph structure.** No paragraph does two jobs.
 
-## Pain specificity rewrite
+### Pain specificity rewrite
 
 Find sections that are generic, such as "we help you save time". For each, write three specific rewrites that describe the reader's situation in concrete terms. Keep only rewrites that are true of the product and that the company can support. Do not add statistics, customer names, or results that are not supplied.
 
@@ -76,7 +76,7 @@ Find sections that are generic, such as "we help you save time". For each, write
 
 ## Output
 
-- Five to ten subject lines, labelled by trigger, with three recommended and their preview lines.
+- Five to ten subject lines, labeled by trigger, with three recommended and their preview lines.
 - The copy review, with each check's result and the fix.
 - The rewritten sections, with the reason for each.
 

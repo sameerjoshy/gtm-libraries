@@ -1,14 +1,14 @@
 ---
 name: paid-social-launch-checklist
-version: 1.0.0
-description: "Use before the first live paid social campaign for a high-value B2B offer, to confirm measurement and audiences are ready. Covers conversion events that fire on completion rather than on click, the priority order when several events fire on one page, domain verification, a server-side events route where the browser misses conversions, remarketing and exclusion audiences built before any prospecting, and a test lead traced from the ad to the CRM. Not for the optimisation of a live campaign (see paid-social-optimisation-playbook) or for the choice of audience strategy (see paid-social-audience-strategy)."
+version: 1.2.0
+description: "Use when preparing the first live paid social campaign for a high-value B2B offer, to confirm measurement and audiences are ready. Covers conversion events that fire on completion rather than on click, the priority order when several events fire on one page, domain verification, a server-side events route where the browser misses conversions, remarketing and exclusion audiences built before any prospecting, and a test lead traced from the ad to the CRM. Not for the optimization of a live campaign (see `paid-social-optimization-playbook`) or for the choice of audience strategy (see `paid-social-audience-strategy`)."
 ---
 
 # Paid social launch checklist
 
 ## Purpose
 
-A paid social campaign that launches without working measurement spends budget and then cannot show what it bought. The platform optimises on whatever conversion it is told about, so a wrong event at launch teaches it the wrong thing for weeks. This checklist confirms the measurement base and the audiences before the first pound or dollar is spent.
+A paid social campaign that launches without working measurement spends budget and then cannot show what it bought. The platform optimizes on whatever conversion it is told about, so a wrong event at launch teaches it the wrong thing for weeks. This checklist confirms the measurement base and the audiences before the first pound or dollar is spent.
 
 ## When to use
 
@@ -17,7 +17,7 @@ A paid social campaign that launches without working measurement spends budget a
 
 Route elsewhere when:
 
-- The campaign is live and underperforming. Use `paid-social-optimisation-playbook`.
+- The campaign is live and underperforming. Use `paid-social-optimization-playbook`.
 - The question is which audience strategy to use. Use `paid-social-audience-strategy`.
 - The question is server-side conversion feedback from the CRM stages. Use `conversion-feedback-to-ad-platforms`.
 
@@ -32,7 +32,7 @@ Route elsewhere when:
 ## Procedure
 
 1. **Set the conversion events.** For lead generation, use a lead event, and a sign-up event where sign-up is a key conversion. Fire each event when the action completes, on the thank-you page or after successful form validation. Never fire on the button click.
-2. **Set the priority order** when more than one event fires on the same page, so the event the campaign optimises for ranks above page views and lower-funnel events.
+2. **Set the priority order** when more than one event fires on the same page, so the event the campaign optimizes for ranks above page views and lower-funnel events.
 3. **Install the measurement base on every relevant page,** and confirm it fires, using the platform's own event diagnostics or a browser check. Check the thank-you page specifically.
 4. **Verify each root domain** used in the campaign, before scaling spend. Verification can take minutes or up to about seventy-two hours, so start early.
 5. **Add a server-side route** for the conversion events, once the browser events are firing. It recovers conversions that browser blockers and privacy settings remove. Send the same event identifier from browser and server, so the platform counts each conversion once. This step is recommended for B2B, not mandatory at launch. If it is skipped, record that decision.

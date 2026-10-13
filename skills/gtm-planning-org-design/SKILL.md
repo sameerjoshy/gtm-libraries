@@ -1,36 +1,30 @@
 ---
 name: gtm-planning-org-design
-version: 1.0.0
-description: "Use for go-to-market planning, choosing a motion and touch model, territory design, bottoms-up capacity and headcount planning, revenue org structure, and the RevOps function's staffing. Use when the sales team structure does not fit the deal size, territories look unfair, a revenue target has no capacity behind it, or a hiring plan is being built. Produces a motion decision, territory and capacity model, headcount and hiring plan, and efficiency checks, with assumptions labelled. Not for comp plans, ICP definition, or forecasting."
+version: 1.2.0
+description: "Use when planning go-to-market motion, touch model, territory design, bottoms-up capacity and headcount, revenue org structure, or RevOps staffing. Use when the sales team structure does not fit the deal size, territories look unfair, a revenue target has no capacity behind it, or a hiring plan is being built. Produces a motion decision, territory and capacity model, headcount and hiring plan, and efficiency checks, with assumptions labeled. Not for comp plans (see `gtm-compensation`), the ICP (see `icp-builder`), or forecasting (see `revops-forecasting`)."
 ---
 
 # GTM planning and org design
 
-Works out whether the revenue team is built for the product, the buyer, and the company's stage, and whether the revenue target has the capacity behind it. Builds the plan from capacity up, so a target is tested rather than assumed.
-
 ## Purpose
 
-Give leadership a motion decision, a territory and capacity model, a headcount and hiring plan, and efficiency checks, all built from stated assumptions that someone can challenge. The plan should show what the team can produce at its current productivity, what each investment adds, and when hiring must start to be productive on time.
+Work out whether the revenue team is built for the product, the buyer, and the company's stage, and whether the revenue target has the capacity behind it. Build the plan from capacity up, so a target is tested rather than assumed. Give leadership a motion decision, a territory and capacity model, a headcount and hiring plan, and efficiency checks, all built from stated assumptions that someone can challenge. The plan shows what the team can produce at its current productivity, what each investment adds, and when hiring must start to be productive on time.
 
 ## When to use
 
-- Leadership needs to check whether the revenue team is built for the product, the buyer and the stage.
-- A revenue target needs its capacity, headcount and hiring timing tested before it is accepted.
+- Leadership needs to check whether the revenue team is built for the product, the buyer, and the stage.
+- A revenue target needs its capacity, headcount, and hiring timing tested before it is accepted.
+- The sales team structure does not fit the deal size, territories look unfair, or a hiring plan is being built.
 
 Route elsewhere when:
+
 - The question is the planning calendar and forecast. Use `revops-revenue-planning`.
+- The question is forecasting bookings period by period or setting forecast categories. Use `revops-forecasting`.
 - The question is compensation design. Use `gtm-compensation`.
-
-## Principles
-
-- **Match the motion to the sale.** The touch model follows deal size, buyer seniority, and decision complexity. A high-touch team on a small deal does not pay back. A self-serve motion on a large complex deal leaves money on the table.
-- **Start from capacity, not the target.** Build what the team can produce at current productivity first. Then show the gap to the target, and what closes it.
-- **Lock the baseline.** Set the current-year baseline from actual data and do not adjust it during planning.
-- **Ramp is capacity.** A new rep is a fraction of a rep until ramped. Count ramped-equivalents, not heads.
-- **Hire ahead of need.** Hiring lead time plus ramp time decides when a role must be opened. Hiring is almost always later than the plan assumes.
-- **Keep acquisition and retention math separate.** New-logo planning runs on conversion rates. Retention planning runs on retention rates over time. Small retention changes compound.
-- **Sequence motions.** Prove one motion before adding another. Do not run two new motions at once, or the team cannot learn which one worked.
-- **Label every benchmark.** Most published figures come from vendor reports, podcasts, or surveys. Treat them as unverified and use the client's own data where it exists.
+- The question is the ICP. Use `icp-builder`.
+- The question is the live pipeline. Use `pipeline-review`.
+- The question is data standards. Use `revops-data-governance`.
+- The question is Salesforce configuration. Use `revops-salesforce`.
 
 ## Inputs
 
@@ -46,6 +40,17 @@ Route elsewhere when:
 If historical data is missing, say so and mark every affected assumption as provisional.
 
 ## Procedure
+
+### Principles
+
+- **Match the motion to the sale.** The touch model follows deal size, buyer seniority, and decision complexity. A high-touch team on a small deal does not pay back. A self-serve motion on a large complex deal leaves money on the table.
+- **Start from capacity, not the target.** Build what the team can produce at current productivity first. Then show the gap to the target, and what closes it.
+- **Lock the baseline.** Set the current-year baseline from actual data and do not adjust it during planning.
+- **Ramp is capacity.** A new rep is a fraction of a rep until ramped. Count ramped-equivalents, not heads.
+- **Hire ahead of need.** Hiring lead time plus ramp time decides when a role must be opened. Hiring is almost always later than the plan assumes.
+- **Keep acquisition and retention math separate.** New-logo planning runs on conversion rates. Retention planning runs on retention rates over time. Small retention changes compound.
+- **Sequence motions.** Prove one motion before adding another. Do not run two new motions at once, or the team cannot learn which one worked.
+- **Label every benchmark.** Most published figures come from vendor reports, podcasts, or surveys. Treat them as unverified and use the client's own data where it exists.
 
 ### Step 1: Choose the motion
 
@@ -69,8 +74,8 @@ Check the choice with three questions:
 Hybrid motions are normal above roughly $10M ARR. Keep each motion operationally separate, with its own funnel, metrics, and team.
 
 By growth stage:
-- Early (under about $5M ARR): founder-led sales, moving to the first AE hires. The motion is still being discovered. Do not over-specialise.
-- Scale-up ($5M to $50M): specialise SDR, AE, and customer success. Formalise stages and playbooks. Motion choice is most expensive to get wrong here.
+- Early (under about $5M ARR): founder-led sales, moving to the first AE hires. The motion is still being discovered. Do not over-specialize.
+- Scale-up ($5M to $50M): specialize SDR, AE, and customer success. Formalize stages and playbooks. Motion choice is most expensive to get wrong here.
 - Growth ($50M and above): multi-segment, multi-motion. Focus on territory and coverage efficiency.
 
 ### Step 2: Segment the business and lock the baseline
@@ -88,7 +93,7 @@ Use separate retention and acquisition math:
 Principles:
 1. **Equal opportunity, not equal accounts.** Territories should offer roughly equal earning potential, weighted by addressable market, not account count.
 2. **Start simple, add complexity as data improves.** First pass: geographic. Second pass: named accounts for enterprise, geographic for mid-market. Third pass: vertical overlays.
-3. **Minimise disruption.** Territory changes break relationships. Design so territories can scale by splitting, not by reshuffling each year.
+3. **Minimize disruption.** Territory changes break relationships. Design so territories can scale by splitting, not by reshuffling each year.
 
 Models:
 - **Geographic:** for mid-market and below, where volume matters. Watch for unequal market density.
@@ -137,7 +142,7 @@ Retention sensitivity, in the expansion segment: model the renewal base at curre
 
 ### Step 5: Design the revenue org
 
-**Team ratios** (vendor and survey sources, labelled as such; test against the client's own data):
+**Team ratios** (vendor and survey sources, labeled as such; test against the client's own data):
 
 | Ratio | Inbound-heavy | Balanced | Outbound-heavy | Enterprise |
 |---|---|---|---|---|
@@ -170,7 +175,7 @@ Four archetypes, never confused: a generalist manager (connective tissue, never 
 
 Systems architect engagement comes in three modes: advisory at any stage, especially during platform launches; fractional when the team is junior; FTE when the team has 3 to 6 or more RevOps people, 10 or more integrated tools, and architecture decisions are a weekly bottleneck.
 
-Structure evolves in four stages: siloed (ops reports to department heads), departmental (one RevOps manager, organised by function), functional (systems team and insights team, the critical transition), and evolved (enablement joins, cross-functional product-style teams).
+Structure evolves in four stages: siloed (ops reports to department heads), departmental (one RevOps manager, organized by function), functional (systems team and insights team, the critical transition), and evolved (enablement joins, cross-functional product-style teams).
 
 ### Step 6: Build the headcount and hiring plan
 
@@ -190,7 +195,7 @@ Fully-loaded cost per head: on-target earnings multiplied by roughly 1.3 to 1.5,
 Use the client's own data first. Published figures below are external and unverified.
 
 - **GTM efficiency ratio:** total GTM spend divided by net new ARR. A common reading: under 1.0 is excellent, 1.0 to 1.5 is good, 1.5 to 2.0 is concerning, above 2.0 is broken.
-- **Magic number:** net new ARR divided by prior-quarter GTM spend. A common reading: above 1.5 means under-investing, 1.0 to 1.5 is efficient, 0.5 to 1.0 needs optimisation, below 0.5 means cut spend and diagnose.
+- **Magic number:** net new ARR divided by prior-quarter GTM spend. A common reading: above 1.5 means under-investing, 1.0 to 1.5 is efficient, 0.5 to 1.0 needs optimization, below 0.5 means cut spend and diagnose.
 - **CAC payback:** CAC divided by (ARR times gross margin), in months. A common reading: under 12 for strong, 8 to 12 for SMB targets, 12 to 18 for mid-market, 18 to 24 for enterprise. Above 24 is a concern unless lifetime value is very high.
 - **Sustainability check:** for each motion, CAC should be under about 20 percent of the lifetime revenue of the customers it acquires. A payback above 24 months means the motion can destroy value even while it grows ARR.
 
@@ -221,7 +226,7 @@ Never run two new motions at the same time. Add the adjacent motion only when th
 5. **Gap to target:** what the current team produces, what is missing, and what closes it, with each lever's contribution.
 6. **Headcount and hiring plan:** roles, numbers, ramp, and open dates.
 7. **Org structure:** the stage pattern, the ratios, and the RevOps staffing decision.
-8. **Efficiency checks:** using client data first, with external benchmarks labelled.
+8. **Efficiency checks:** using client data first, with external benchmarks labeled.
 9. **Scenarios and sensitivity:** base case, each investment, and the retention downside.
 10. **Open assumptions:** each provisional figure, its source, and who will confirm it.
 
@@ -233,9 +238,9 @@ Never run two new motions at the same time. Add the adjacent motion only when th
 - Quota is based on historical attainment, not the top-down target.
 - Pipeline is haircut for constraint and slippage before it counts as bookings.
 - Every productivity assumption has a value and a source.
-- Benchmarks from vendors, surveys, or podcasts are labelled as unverified.
+- Benchmarks from vendors, surveys, or podcasts are labeled as unverified.
 - Hiring open dates are set from time-to-hire plus ramp.
-- Acquisition and retention math are modelled separately.
+- Acquisition and retention math are modeled separately.
 - Scenarios show one change at a time.
 
 ## Rules
@@ -250,13 +255,3 @@ Never run two new motions at the same time. Add the adjacent motion only when th
 - MUST NOT run two new motions at once.
 - MUST show the investment and the capacity it adds before recommending a hire or a new motion.
 - NEVER treat a provisional assumption as confirmed in the output.
-
-## Rules
-
-- Covers team structure, territories, capacity, and headcount. Compensation plans and quota design are a separate skill: `gtm-compensation`.
-- Does not define the ICP. Use `icp-builder`.
-- Does not forecast bookings period by period or set forecast categories. A forecasting skill is needed for that.
-- Does not inspect the live pipeline. Use `pipeline-review`.
-- Does not design the RevOps system or CRM configuration. Use `revops-data-governance` for data standards, and `revops-salesforce` for Salesforce configuration.
-- Does not set discount policy.
-- Does not write outreach or messaging.

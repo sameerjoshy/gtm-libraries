@@ -1,7 +1,7 @@
 ---
 name: revops-revenue-planning
-version: 1.0.0
-description: "Use to build an annual or quarterly revenue plan, reconcile a bottoms-up capacity plan with a top-down finance target, version the plan of record, decide when to reforecast, and align FP&A with RevOps. Use when the forecast and the budget disagree, when a stretch target arrives without owners, or when the team asks when to start planning. Not for in-quarter forecasting mechanics (see revops-forecasting), GTM structure (see gtm-planning-org-design), or quota and commission design (see gtm-compensation)."
+version: 1.2.0
+description: "Use when building an annual or quarterly revenue plan, reconciling a bottoms-up capacity plan with a top-down finance target, versioning the plan of record, deciding when to reforecast, or aligning FP&A with RevOps. Use when the forecast and the budget disagree, when a stretch target arrives without owners, or when the team asks when to start planning. Not for in-quarter forecasting mechanics (see `revops-forecasting`), GTM structure (see `gtm-planning-org-design`), or quota and commission design (see `gtm-compensation`)."
 ---
 
 # Revenue planning
@@ -23,7 +23,6 @@ The core rule: start with what the team can produce, then decide what gap to clo
 - A reforecast is being discussed and nobody agrees on whether the trigger has fired.
 
 Route elsewhere when:
-
 - The question is weekly deal inspection or the in-quarter forecast call. Use `revops-forecasting`.
 - The question is the territory design or headcount model. Use `gtm-planning-org-design`.
 - The question is quota or commission. Use `gtm-compensation`.
@@ -36,7 +35,11 @@ Route elsewhere when:
 - The prior plan of record and every earlier version, kept for the audit trail.
 - The reforecast triggers agreed in advance.
 
-## Core principles
+## Procedure
+
+Work through the planning calendar, then build bottoms-up, reconcile, set versions and governance, and reforecast on triggers.
+
+### Core principles
 
 1. **Bottoms-up first, then top-down.** Build from current capacity and known pipeline. Finance adds ambition. Reconcile the gap with named scenarios, not by spreading a number across teams.
 2. **Separate three questions.** What can we produce (capacity)? What do we want to produce (strategy)? What does the market allow (opportunity sizing)? Three analyses, three answers. Conflating them creates noise.
@@ -45,11 +48,7 @@ Route elsewhere when:
 5. **Reforecast on triggers, not on mood.** Fixed windows plus explicit triggers. Continuous re-planning erodes ownership.
 6. **FP&A and RevOps decide jointly.** RevOps owns pipeline reality and capacity. FP&A owns financial implications. A forecast that does not reconcile across both is revised before it is approved.
 
-## Procedure
-
-Follow the planning calendar, then build bottoms-up, reconcile, set versions and governance, and reforecast on triggers.
-
-## Planning calendar
+### Planning calendar
 
 Build backwards from the fixed date: board approval, or the date the plan must be in market. Compressed cycles can shorten data gathering and validation. They should not shorten reconciliation.
 
@@ -60,11 +59,11 @@ A default twelve-week cycle for a calendar-year business, with phase lengths to 
 - **Phase 3, top-down and reconciliation (weeks 6 to 8).** Finance shares the top-down model. Run the reconciliation meeting. Revise the plan with scenarios, and model the cost of hiring and spend.
 - **Phase 4, validation (weeks 9 to 10).** Executive alignment. Validate assumptions against current pipeline. Lock the plan of record. Run sensitivity analysis and draft the board narrative.
 - **Phase 5, approval (weeks 11 to 12).** Board materials and presentation. Budget allocation to departments.
-- **Buffer.** Implementation: enablement, quota setting, and incentive finalisation.
+- **Buffer.** Implementation: enablement, quota setting, and incentive finalization.
 
 For a fiscal year that starts in a different month, shift the whole calendar by the difference. For example, a plan that goes live in April starts roughly three months earlier than a calendar-year plan.
 
-## Bottoms-up build
+### Bottoms-up build
 
 Bottoms-up is not a line-by-line forecast. It is a capacity-grounded estimate of what the team should produce given known constraints.
 
@@ -109,7 +108,7 @@ Sum the segments for the company total.
 
 Example rows: renewal gross retention (source: customer success data, high confidence); expansion growth (source: three-year trend, medium); new-business rep capacity (source: quota times ramp model, medium); inbound to outbound mix (source: sourcing audit, low).
 
-## Reconciliation
+### Reconciliation
 
 Finance's top-down target comes from growth strategy, board expectations, or a fundraising narrative. The reconciliation meeting closes the gap between it and the bottoms-up.
 
@@ -126,7 +125,7 @@ Finance's top-down target comes from growth strategy, board expectations, or a f
 
 If the gap cannot close with credible scenarios, say so. Escalate the decision with the bets required and the owners of each bet. Do not close it with a number nobody owns.
 
-## Versions and governance
+### Versions and governance
 
 Three versions persist:
 
@@ -136,7 +135,7 @@ Three versions persist:
 
 Reforecasts are saved as dated versions and kept. Each one compares the current projection against both the plan of record and the original bottoms-up. Example at a mid-year reforecast: plan of record at 8.5M, bottoms-up at 7.8M, current forecast at 7.9M. The variance from plan is minus 0.6M, about 7%. The question is why: did pipeline generation miss, did deals slip, or did an assumption break? Comparing against both baselines shows whether the miss was capacity or execution.
 
-## Reforecasting
+### Reforecasting
 
 Reforecasting is disciplined re-evaluation on a fixed cadence or when a trigger fires. It is not continuous re-planning.
 
@@ -170,30 +169,30 @@ External:
 
 **Locked and flexible parameters.** Some things do not change mid-year: quota targets, the headcount plan committed to the board, compensation structure, and the ICP definition. Others move freely: the revenue target, pipeline assumptions, scenario owners, and the reforecast cadence itself. Mixing the two is the main cause of reforecasting chaos. Lock what must hold, and reforecast what is meant to move.
 
-## Benchmarks as context
+### Benchmarks as context
 
 Use benchmarks to ask questions, not to set targets.
 
 - **Forecast accuracy.** Monthly actuals against the month-start forecast. Bands used as defaults: within 5% is strong, within 10% is good, 15 to 20% is common, and 25% or more means the process needs structural fixing.
-- **Quota attainment.** If fewer than half the reps are at quota across the organisation, check the quota-setting process before blaming reps.
+- **Quota attainment.** If fewer than half the reps are at quota across the organization, check the quota-setting process before blaming reps.
 - **Coverage.** Use the win-rate formula above, not a fixed multiple.
 - **Reforecast frequency.** Quarterly at minimum, so the plan does not drift from reality. Weekly is too often: the overhead of re-planning exceeds the signal. Monthly reviews with quarterly full reforecasts is a common and workable default.
 
-## FP&A and RevOps collaboration
+### FP&A and RevOps collaboration
 
-RevOps is the pipeline operator: deal inspection, forecast categories, stage accuracy, sandbagging detection, and the weekly forecast call. FP&A is the financial modeller: cash, working capital, burn, expense budgets, and the board narrative.
+RevOps is the pipeline operator: deal inspection, forecast categories, stage accuracy, sandbagging detection, and the weekly forecast call. FP&A is the financial modeler: cash, working capital, burn, expense budgets, and the board narrative.
 
-**Joint decisions.** The plan of record is signed by both. Reforecasts are validated by both. Stretch scenarios are assessed for feasibility by RevOps and modelled financially by FP&A. The headcount plan has RevOps owning the capacity maths and FP&A owning cost allocation.
+**Joint decisions.** The plan of record is signed by both. Reforecasts are validated by both. Stretch scenarios are assessed for feasibility by RevOps and modeled financially by FP&A. The headcount plan has RevOps owning the capacity math and FP&A owning cost allocation.
 
 **Rhythm.** A thirty-minute weekly sync flags any material change in the forecast or pipeline, so surprises do not reach the board first. A quarterly reconciliation recalibrates top-down against bottoms-up, with assumptions debated openly and resolved on data.
 
-## AI in planning
+### AI in planning
 
 Forecasting tools and AI-assisted deal scoring can reduce the manual effort in the forecast call and surface outliers. Use their outputs as inputs to the triggers above, not as replacements for them. Two checks before relying on them: confirm the model's accuracy against the client's own past forecasts, and confirm which decisions a person must still approve. AI-driven forecasts that nobody can explain do not survive a board question.
 
 Where AI-driven tools change headcount assumptions, for example by replacing part of the sales development capacity, model both the human and the automated motions explicitly, with their own cost and ramp.
 
-## Diagnostic: ten questions
+### Diagnostic: ten questions
 
 Answer each yes or no. Any "no" or "unknown" marks a process risk in that area.
 
@@ -210,7 +209,7 @@ Answer each yes or no. Any "no" or "unknown" marks a process risk in that area.
 
 Scoring: eight or more yes is strong discipline. Five to seven means process gaps to fix in the next cycle. Fewer than five means plan the planning process before setting revenue targets.
 
-## How to use this skill
+### How to use this skill
 
 **"We need an annual plan from scratch."** Start from the board date and build the calendar backwards. Run the bottoms-up. Overlay named pipeline. Reconcile against the top-down target. Lock the plan of record with its three versions.
 
@@ -218,7 +217,7 @@ Scoring: eight or more yes is strong discipline. Five to seven means process gap
 
 **"Finance gave us a stretch we do not believe."** Make each part of the stretch a named scenario with an owner and a dependency. If the scenarios do not close the gap, escalate with the specific bets required: "The market will not support this plan unless we make these three bets. We own two. The third depends on product. What is product committing to?"
 
-**"We reforecast monthly and it is chaos."** Set the cadence: quarterly minimum, monthly only where the business is highly volatile. Define the triggers with numbers. Expose which function is destabilising the process.
+**"We reforecast monthly and it is chaos."** Set the cadence: quarterly minimum, monthly only where the business is highly volatile. Define the triggers with numbers. Expose which function is destabilizing the process.
 
 ## Output
 

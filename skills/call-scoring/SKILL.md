@@ -1,14 +1,14 @@
 ---
 name: call-scoring
-version: 1.0.0
-description: "Use to score a sales call and turn the score into coaching. Covers two complementary views: nine conversation KPIs computed from the transcript (talk ratio, question rate, longest monologue, next steps, and similar), and a behaviour scorecard per conversation type (prospecting, discovery, demo, pricing, close) scored 1 to 5 with cited evidence. Use when coaching is vague, reps and managers grade calls differently, or a transcript needs grading. Not for qualification of the deal itself (see meddpicc-gap-audit)."
+version: 1.2.0
+description: "Use when a team needs to score a sales call and turn the score into coaching. Covers two complementary views: nine conversation KPIs computed from the transcript (talk ratio, question rate, longest monologue, next steps, and similar), and a behavior scorecard per conversation type (prospecting, discovery, demo, pricing, close) scored 1 to 5 with cited evidence. Use when coaching is vague, when reps and managers grade calls differently, or when a transcript needs grading. Not for qualification of the deal itself (see `meddpicc-gap-audit`)."
 ---
 
 # Call scoring
 
 ## Purpose
 
-Coaching fails when nobody agrees what a good call looks like. This skill makes the standard visible in two layers. The first layer measures how the conversation was run, from the transcript. The second layer grades whether the behaviours that win deals happened, using a card per conversation type. Both layers point at the same practice plan.
+Coaching fails when nobody agrees what a good call looks like. This skill makes the standard visible in two layers. The first layer measures how the conversation was run, from the transcript. The second layer grades whether the behaviors that win deals happened, using a card per conversation type. Both layers point at the same practice plan.
 
 ## When to use
 
@@ -18,7 +18,6 @@ Coaching fails when nobody agrees what a good call looks like. This skill makes 
 - A transcript needs grading against a standard.
 
 Route elsewhere when:
-
 - The question is whether the deal is qualified. Use `meddpicc-gap-audit`.
 - The question is a demo's structure. Use `demo-builder`.
 
@@ -47,16 +46,16 @@ Route elsewhere when:
 4. **Score against target bands.** Bands are defaults and must be calibrated per client against their own won calls. Timing-based KPIs are marked unavailable when the transcript has no timestamps.
 5. **Separate two groups.** Conversation quality (questions, talk ratio, engagement) and forward motion (agenda, next steps, next meeting). Report them separately. A call that scores well on quality and poorly on motion is a finding: the rep ran a good conversation that went nowhere.
 
-### Part B: Behaviour scorecard
+### Part B: Behavior scorecard
 
 1. **List the key conversations** where deals are won and lost. Each gets a card.
-2. **Build 10 to 15 items per card.** Each item is an observable behaviour, not a judgement ("got the buyer to state the problem in their own words", not "good discovery"). Group items into the call's natural chunks: opener, body, close, for example.
+2. **Build 10 to 15 items per card.** Each item is an observable behavior, not a judgment ("got the buyer to state the problem in their own words", not "good discovery"). Group items into the call's natural chunks: opener, body, close, for example.
 3. **Score each item 1 to 5** with the quoted moment that earned it, or the absence that cost it. Mark an item unobserved if the transcript does not show it. Never invent a moment.
 4. **Find the lowest chunk** and write one drill for it.
 
 ### Part C: Coaching loop
 
-- Practise the lowest-scoring chunk only, not the whole call.
+- Practice the lowest-scoring chunk only, not the whole call.
 - One role play per rep per week, minimum.
 - Re-score a sample of calls after a month. Track the trend per chunk, so the team sees where it improves.
 - Grow the card only after the scoring habit is steady. A 40-item card nobody uses grades nothing.
@@ -70,4 +69,4 @@ Route elsewhere when:
 
 ## Quality bar
 
-Every score cites the transcript. Every band is marked as a default or as calibrated. Quality and motion are never averaged into one number. Watch for scores given on impression, bands treated as industry benchmarks, and drills that practise the whole call instead of the weakest section.
+Every score cites the transcript. Every band is marked as a default or as calibrated. Quality and motion are never averaged into one number. Watch for scores given on impression, bands treated as industry benchmarks, and drills that practice the whole call instead of the weakest section.

@@ -1,6 +1,6 @@
 ---
 name: post-launch-window
-version: 1.0.0
+version: 1.2.0
 description: "Use when a post is about to go live or has just gone live, and the question is what happens after publish. Covers a sponsored creator post, a founder announcement, a launch thread, a milestone update, or a customer story. Sets the pre-publish requirements (an interaction trigger, paid usage rights, attribution, a destination), a timed sequence from thirty minutes before publish to several days after, a numeric rule for when to put paid spend behind a post and when to stop, and a debrief. Not for choosing creators (see creator-discovery-and-vetting) or for drafting the sponsored copy (see creator-sponsored-post-drafting)."
 ---
 
@@ -20,7 +20,7 @@ Route elsewhere when:
 
 - The question is choosing the creator. Use `creator-discovery-and-vetting`.
 - The question is drafting the sponsored copy. Use `creator-sponsored-post-drafting`.
-- The question is the programme's measurement. Use `creator-programme-measurement`.
+- The question is the program's measurement. Use `creator-program-measurement`.
 
 ## Inputs
 
@@ -34,7 +34,7 @@ Route elsewhere when:
 
 Work through the pre-publish steps first, then the sequence, then the amplification decision.
 
-## Before publish
+### Before publish
 
 1. **Build the post to invite a reply.** A neutral summary earns scrolling. A stated position, an open question, or a claim someone would want to correct earns replies, and replies carry the most weight. This is not a call for provocation.
 2. **Confirm paid usage rights** in the agreement, with a stated window, before publish. Without them, a validated post cannot be amplified, and renegotiating mid-window costs time and leverage.
@@ -42,7 +42,7 @@ Work through the pre-publish steps first, then the sequence, then the amplificat
 4. **Ready the destination.** Decide where the traffic lands, such as a sign-up path, a template or a resource, before creating the demand.
 5. **Keep the link out of the post body.** Prepare it for the first comment.
 
-## The sequence
+### The sequence
 
 | When | Action |
 |---|---|
@@ -56,7 +56,7 @@ Work through the pre-publish steps first, then the sequence, then the amplificat
 
 Never edit the original after publish. Never post and leave.
 
-## Interaction types
+### Interaction types
 
 Rank the kinds of response by how much they show a real conversation:
 - the author replying to each commenter, which is the most valuable action available;
@@ -69,7 +69,7 @@ Rank the kinds of response by how much they show a real conversation:
 
 Outbound links in the body usually reduce distribution, and verified accounts usually receive wider reach.
 
-## Amplification: only behind proven posts
+### Amplification: only behind proven posts
 
 Paid spend should widen a post that organic distribution has already validated, and the post should be boosted as a native post. Rebuilding it as an advert discards the social proof that made it work.
 
@@ -78,7 +78,7 @@ Paid spend should widen a post that organic distribution has already validated, 
 
 A stated trigger turns the decision into a rule. Without one, spend follows whatever the team happens to like.
 
-## Pre-publish check
+### Pre-publish check
 
 - [ ] The post invites a reply through a position or an open question
 - [ ] No link in the body; the link is ready for the first comment

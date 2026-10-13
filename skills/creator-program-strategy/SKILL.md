@@ -1,10 +1,10 @@
 ---
-name: creator-programme-strategy
-version: 1.0.0
-description: "Use to build a B2B creator marketing strategy from the ideal customer to booked creators: map the audience, choose the creator tier that balances credibility, reach, and cost per qualified lead, allocate the budget across creators, and design the brief. Use when a team is deciding whether to run creator marketing at all, which tier to start with, or how to split a creator budget. Not for sourcing or vetting individual creators (see creator-discovery-and-vetting) or for pricing a deal (see creator-deal-structure)."
+name: creator-program-strategy
+version: 1.2.0
+description: "Use when building a B2B creator marketing strategy from the ideal customer to booked creators: map the audience, choose the creator tier that balances credibility, reach, and cost per qualified lead, allocate the budget across creators, and design the brief. Use when a team is deciding whether to run creator marketing at all, which tier to start with, or how to split a creator budget. Not for sourcing or vetting individual creators (see `creator-discovery-and-vetting`) or for pricing a deal (see `creator-deal-structure`)."
 ---
 
-# Creator programme strategy
+# Creator program strategy
 
 ## Purpose
 
@@ -14,14 +14,13 @@ Creator marketing for B2B fails when it is chosen for reach and judged on likes.
 
 - A team is deciding whether creator marketing fits its motion.
 - A budget for creators needs splitting across tiers or creators.
-- A first creator programme is being designed.
-- An existing programme is producing content but no pipeline.
+- A first creator program is being designed.
+- An existing program is producing content but no pipeline.
 
 Route elsewhere when:
-
 - The question is finding and vetting individual creators. Use `creator-discovery-and-vetting`.
 - The question is what to pay. Use `creator-deal-structure` or `creator-rate-band`.
-- The question is how to measure the return. Use `creator-programme-measurement`.
+- The question is how to measure the return. Use `creator-program-measurement`.
 
 ## Inputs
 
@@ -30,7 +29,9 @@ Route elsewhere when:
 - Any existing creator or advocate relationships.
 - The total budget for the test period.
 
-## The tier trade-off
+## Procedure
+
+### The tier trade-off
 
 Creator tiers trade reach against trust and fit:
 
@@ -41,7 +42,7 @@ Creator tiers trade reach against trust and fit:
 
 The right tier is the one whose audience is the ICP. Follower count is secondary.
 
-## Procedure
+### Sequence
 
 1. **Define the audience** by role, seniority, and topic. Write it as the buyer and the people who influence the buyer.
 2. **Choose the tier** that puts that audience in front of a credible voice at an acceptable cost. Start with a small number of mid-tier creators.

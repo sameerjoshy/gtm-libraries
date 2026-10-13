@@ -1,7 +1,7 @@
 ---
 name: competitive-intelligence
-version: 1.0.0
-description: "Use to track what named competitors are doing (funding, leadership, hiring, launches, partnerships), in a dated briefing that reports only new signals, to prepare a competitor brief for a specific deal such as a displacement or renewal defence, or to create or update a six-section battlecard. Not for positioning or messaging analysis, which is competitive-white-space."
+version: 1.2.0
+description: "Use when tracking what named competitors are doing (funding, leadership, hiring, launches, partnerships), in a dated briefing that reports only new signals, to prepare a competitor brief for a specific deal such as a displacement or renewal defense, or to create or update a six-section battlecard. Not for positioning or messaging analysis (see `competitive-white-space`)."
 ---
 
 # Competitive intelligence
@@ -25,14 +25,14 @@ Route elsewhere when:
 
 - **Competitor list.** Confirmed by the user before the first run. Never research a list the user has not approved. If the user does not have one, propose three to five from searches on "[company] competitors", "vs" and "alternatives", then confirm.
 - **For each competitor:** name, domain, category (direct, adjacent, incumbent), and two or three keywords for trend searches.
-- **Mode.** Periodic briefing, or deal brief. For a deal brief, the deal context is required: displacement, renewal defence, or general prep.
+- **Mode.** Periodic briefing, or deal brief. For a deal brief, the deal context is required: displacement, renewal defense, or general prep.
 - **Memory.** A per-competitor file of signals already reported, used for deduplication. Created on first run.
 
 ## Procedure
 
 Choose the mode first, then follow its section. Use the periodic briefing for a regular report, the deal brief for a live deal, and the battlecard for a standing reference.
 
-## Periodic briefing
+### Periodic briefing
 
 1. **Choose the mode.** Full, if the last run was more than 14 days ago or this is the first run (window: 14 days). Quick, if last run was within 14 days (window: since last run, minimum 7 days). If a report already exists for today, ask before re-running.
 2. **Load memory** and build the known-signal list for each competitor.
@@ -43,15 +43,15 @@ Choose the mode first, then follow its section. Use the periodic briefing for a 
 7. **Write** the briefing: TL;DR of three to five P1 signals, a section per competitor (with where they win and where the user wins), industry trends, a cross-competitor pattern if three or more competitors were covered, and implications. Competitors with no new signal are listed as quiet.
 8. **Save** the briefing, and append only validated signals to each competitor's memory file. STALE and UNCERTAIN signals never enter memory.
 
-## Deal brief
+### Deal brief
 
 1. **Restate the deal context** in one line. If it is missing, ask once, then default to general and say so.
 2. **Resolve** the competitor. Confirm the match if the name is ambiguous.
 3. **Pull:** firmographics, news from the last 90 days, leadership moves, hiring by function (a surge is an investment signal, a gap is a weakness signal), and customer intent signals where a data source offers them.
-4. **Triage against the deal context.** For displacement, a leadership departure outranks a launch. For renewal defence, a new feature outranks routine hiring.
+4. **Triage against the deal context.** For displacement, a leadership departure outranks a launch. For renewal defense, a new feature outranks routine hiring.
 5. **Displacement angles** (three to five), only if the user has supplied their own product context. Each angle names a specific signal happening at the competitor now, a way to use it, and one discovery question that brings it out without stating it.
 
-## Battlecard
+### Battlecard
 
 Use when a team needs a standing competitor reference for live deals, not a dated report. Create one from scratch, or update an existing one by keeping what is still true and revising only what has gone stale.
 
@@ -69,7 +69,7 @@ Use when a team needs a standing competitor reference for live deals, not a date
 
 Battlecard rules:
 
-- Every strength and weakness has a source. A rumoured point is labelled as reported, with where it was reported.
+- Every strength and weakness has a source. A rumored point is labeled as reported, with where it was reported.
 - Do not include legally sensitive claims, such as "their product is insecure", without a citation.
 - Keep it to about one page (roughly 600 words).
 - If the competitor has almost no public footprint, say so. The team may be preparing for a rival that rarely appears in deals, and should check that before investing in a card.

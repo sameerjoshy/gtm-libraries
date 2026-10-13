@@ -1,7 +1,7 @@
 ---
 name: linkedin-signal-triage
-version: 1.0.0
-description: "Use to turn LinkedIn activity around a team member into routed, scored signals, covering profile views, inbound connection requests, direct-message conversations, post comments and reactions, and engagement with a product-focused influencer post. Resolves each actor, applies dedup, internal, relationship, and fit gates, scores active signals more strongly than passive ones, writes to the CRM only for fully resolved and fit-matched actors, and proposes a next move for a human to approve. Never sends outreach. Not for writing the outreach itself (see linkedin-outreach) or for general buying-signal tracking (see signal-detection-and-timing)."
+version: 1.2.0
+description: "Use when turning LinkedIn activity around a team member into routed, scored signals, covering profile views, inbound connection requests, direct-message conversations, post comments and reactions, and engagement with a product-focused influencer post. Resolves each actor, applies dedup, internal, relationship, and fit gates, scores active signals more strongly than passive ones, writes to the CRM only for fully resolved and fit-matched actors, and proposes a next move for a human to approve. Never sends outreach. Not for writing the outreach itself (see `linkedin-outreach`) or for general buying-signal tracking (see `signal-detection-and-timing`)."
 ---
 
 # LinkedIn signal triage
@@ -30,7 +30,7 @@ Route elsewhere when:
 - The list of team members and company domains, to exclude internal activity.
 - The fit rules the team uses for decision-makers and companies.
 
-## Signal strength
+### Signal strength
 
 Rank the signals before routing:
 
@@ -48,12 +48,12 @@ Rank the signals before routing:
    - **Fit.** Does the company match the ICP, and is the title a buying role? Only fit-matched actors reach a CRM write as prospects.
 3. **Score the signal.** Apply the signal strength above. An active signal from a decision-maker at a fit company is qualifying on its own. A passive signal needs repetition or a stronger fit before it qualifies. A weak persona caps the score at the awareness tier, however strong the company.
 4. **Write to the CRM** only for fully resolved, fit-matched actors. Record the signal type, the date, and the source. Unresolved or unfit actors are logged to a separate record, not the prospect table.
-5. **Escalate repeat engagers.** An actor who engages more than once within the window moves to a higher intent level, after a check that they are an active buyer and not a recurring fan. Only then is a personalised, multi-channel next move drafted.
+5. **Escalate repeat engagers.** An actor who engages more than once within the window moves to a higher intent level, after a check that they are an active buyer and not a recurring fan. Only then is a personalized, multi-channel next move drafted.
 6. **Handle direct messages in a daily pass.** Classify each conversation into a bucket: customer support, commercial, pipeline, re-engagement, prospect, partner, investor, community, or other. Update the account record and CRM. Score only the qualified buckets. Route partner and investor messages to their owners rather than the sales queue.
 7. **Propose the next move, do not send it.** For each scored signal, draft one of two things: a reply for the thread owner, or a sequence queued for approval for the rest of the buying group. Nothing is sent without a human approving it.
 8. **Post the outcome to one visibility channel** for each processed ICP-relevant signal, so the team can see what was acted on.
 
-## Influencer post engagers
+### Influencer post engagers
 
 Before capture, check that the post is genuinely about the product. A broad topic filter is not enough. Then collect engagers, filter to fit companies and buying roles, score each company, and post one digest. Team members are removed from the list. The digest is a review list, not a set of sends.
 

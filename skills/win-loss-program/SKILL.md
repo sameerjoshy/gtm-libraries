@@ -1,14 +1,14 @@
 ---
 name: win-loss-program
-version: 1.0.0
-description: "Use when CRM loss reasons are not trusted, competitive losses go unexplained, or positioning and product decisions rest on rep-reported fields. Sets up a standing win-loss programme with three evidence lanes: mining the record of every decided deal, interviewing buyers after the decision (both wins and losses), and periodic customer group sessions. Codes the causes against one driver taxonomy and routes the findings to positioning, enablement, and qualification. Rep-reported reasons are treated as opinion; buyer-reported reasons are treated as evidence."
+version: 1.2.0
+description: "Use when CRM loss reasons are not trusted, competitive losses go unexplained, or positioning and product decisions rest on rep-reported fields. Sets up a standing win-loss program with three evidence lanes: mining the record of every decided deal, interviewing buyers after the decision (both wins and losses), and periodic customer group sessions. Codes the causes against one driver taxonomy and routes the findings to positioning, enablement, and qualification. Rep-reported reasons are treated as opinion; buyer-reported reasons are treated as evidence. Not for reviving a lost deal (see `closed-lost-revival`)."
 ---
 
-# Win-loss programme
+# Win-loss program
 
 ## Purpose
 
-Most decided deals are never investigated. The CRM loss field is filled by the rep, soon after the outcome, from a dropdown that makes them choose one cause. Those reasons cluster around price and timing. Buyers, interviewed after the decision, often describe trust, a missing capability, a stronger champion on the other side, or a choice that was largely made before the first call. A standing programme is the way to find out which account is right, and to feed that into positioning, enablement, and qualification.
+Most decided deals are never investigated. The CRM loss field is filled by the rep, soon after the outcome, from a dropdown that makes them choose one cause. Those reasons cluster around price and timing. Buyers, interviewed after the decision, often describe trust, a missing capability, a stronger champion on the other side, or a choice that was largely made before the first call. A standing program is the way to find out which account is right, and to feed that into positioning, enablement, and qualification.
 
 ## When to use
 
@@ -46,14 +46,14 @@ Within about a week of each decision, review the full record of the deal.
 
 Interviews are the deeper lane. Run them on a sample, not on every deal.
 
-- **Sample:** interview every large or strategic decision. Add a rotating sample of the rest, and cover both outcomes. Interview wins as well as losses. A programme that studies only losses learns half the causal model, and wins are where real differentiators come out, which may differ from the ones on the slides.
+- **Sample:** interview every large or strategic decision. Add a rotating sample of the rest, and cover both outcomes. Interview wins as well as losses. A program that studies only losses learns half the causal model, and wins are where real differentiators come out, which may differ from the ones on the slides.
 - **Timing:** about 2 to 6 weeks after the decision. This window is practice-based. Sooner is raw. Later is revised by memory.
 - **Interviewer:** never the rep who ran the deal. A neutral interviewer gets more honest answers. Buyers soften what they say to the person they just turned down. Use a founder for strategic deals, or a product marketing or RevOps lead, or a third party.
 - **Protocol:** 30 minutes. No selling, no defending, no correcting the record.
   - Open with: "Walk me through the decision as it actually happened, starting from when you first felt the problem."
   - Follow the story: who was involved, what nearly changed the outcome, what the winning option did that mattered, and what the company did that annoyed or reassured them.
   - Close with: "What would have had to be true for this to go the other way?"
-- **Discipline:** when the buyer says something uncomfortable, write it down and ask them to say more. The programme is working when a meaningful share of its findings are uncomfortable.
+- **Discipline:** when the buyer says something uncomfortable, write it down and ask them to say more. The program is working when a meaningful share of its findings are uncomfortable.
 
 ### Step 3: Run customer group sessions
 
@@ -68,10 +68,10 @@ This is a group format with customers. A moderated session brings together five 
 
 ### Step 4: Code causes against one taxonomy
 
-Individual stories are anecdotes. The programme's output is the pattern across them.
+Individual stories are anecdotes. The program's output is the pattern across them.
 
 - Code every decided deal against one stable set of driver categories: product capability, trust and proof, price relative to value, champion strength, competitive move, timing and budget reality, and process failure.
-- Allow several drivers per deal, and mark one as primary. A single cause per deal recreates the dropdown problem the programme exists to escape.
+- Allow several drivers per deal, and mark one as primary. A single cause per deal recreates the dropdown problem the program exists to escape.
 - Code the group-session findings into the same taxonomy, with their product or process tag. That lets one readout inform both the roadmap and the sales motion.
 
 ### Step 5: Run the quarterly readout
@@ -101,7 +101,7 @@ One page of findings. Each finding is anchored to a quote.
 - The routing list: which findings go to which owner, and by when.
 - The self-audit (see below).
 
-## Self-audit
+### Self-audit
 
 Put the CRM loss fields and the interview findings for the same deals side by side. The divergence table shows whether the method is finding what the fields miss. If the divergence is small, look first at the interviewing. Do not conclude that the fields were accurate.
 

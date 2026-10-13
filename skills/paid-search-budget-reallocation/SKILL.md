@@ -1,7 +1,7 @@
 ---
 name: paid-search-budget-reallocation
-version: 1.0.0
-description: "Use when deciding where to move budget across existing paid search campaigns, for example when some campaigns are capped by budget, others are past their efficient spend, or a seasonal peak is coming. Treats the account as one budget envelope rather than separate silos, reads lost impression share as the signal for underfunded campaigns, compares marginal rather than average cost per result, and caps each move. Not for a new account with no history (see paid-channel-selection) or for the stage split (see paid-budget-by-stage)."
+version: 1.2.0
+description: "Use when deciding where to move budget across existing paid search campaigns, for example when some campaigns are capped by budget, others are past their efficient spend, or a seasonal peak is coming. Treats the account as one budget envelope rather than separate silos, reads lost impression share as the signal for underfunded campaigns, compares marginal rather than average cost per result, and caps each move. Not for a new account with no history (see `paid-channel-selection`) or for the stage split (see `paid-budget-by-stage`)."
 ---
 
 # Paid search budget reallocation
@@ -28,7 +28,7 @@ Route elsewhere when:
 - Each campaign's spend, conversions, and cost per result over the last thirty days or more.
 - Lost impression share to budget, per campaign.
 - The marginal cost per result for each campaign, estimated from its recent spend changes.
-- Minimum budgets the business has committed to keep, such as a brand defence campaign.
+- Minimum budgets the business has committed to keep, such as a brand defense campaign.
 
 ## Procedure
 
@@ -37,7 +37,7 @@ Route elsewhere when:
 3. **Check the marginal cost, not the average.** An average hides campaigns that are efficient at low spend and expensive at the margin. Compare the cost of the last increment of spend in each campaign.
 4. **Rank the moves.** Give the next unit of budget to the campaign with the best marginal return, and take it from the campaign with the worst.
 5. **Cap each move** at roughly twenty to thirty percent of the receiving or giving campaign's budget. Larger single moves can trigger a fresh learning period and make the change impossible to judge.
-6. **Hold protected minimums outside the optimisation.** Commitments the business has made stay fixed, and the envelope is reduced by them first.
+6. **Hold protected minimums outside the optimization.** Commitments the business has made stay fixed, and the envelope is reduced by them first.
 7. **Plan ahead for seasonality.** If a peak is known, move budget before it arrives, in steps, and set a date to reverse the move.
 8. **Set the check date** for each move, and judge it against the marginal figure, not the average.
 

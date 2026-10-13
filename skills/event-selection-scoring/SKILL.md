@@ -1,7 +1,7 @@
 ---
 name: event-selection-scoring
-version: 1.0.0
-description: "Use to choose which conferences, trade shows or vendor events a company should attend, exhibit at or sponsor next. Locks the buyer classification first, then scores each event on relevance, decision-maker access and engagement mode, applies a bonus only for organiser-run matchmaking, and returns a short tiered list. Not for preparing a team for an event already chosen (see event-attendee-prep) or for the logistics of attending (see event-logistics-planning)."
+version: 1.2.0
+description: "Use when choosing which conferences, trade shows or vendor events a company should attend, exhibit at or sponsor next. Locks the buyer classification first, then scores each event on relevance, decision-maker access and engagement mode, applies a bonus only for organizer-run matchmaking, and returns a short tiered list. Not for preparing a team for an event already chosen (see event-attendee-prep) or for the logistics of attending (see event-logistics-planning)."
 ---
 
 # Event selection scoring
@@ -35,7 +35,7 @@ Route elsewhere when:
 3. **Discover with breadth, not habit.** Search current event listings rather than relying on recall. Cover six categories: industry flagships; narrow vertical summits with a specific buyer role; regional flagships in the target geography; free vendor-hosted conferences; emerging events in their first few years; and side events around the larger ones. In a fifteen-event set, aim for at least two per category. Where a category is empty for this client, record why.
 4. **Audit the famous events.** For each well-known event on the list, write one line on why it beats a more targeted alternative for this client's ICP. Replace it with the targeted option where that line cannot be written.
 5. **Score each event on a 100-point base.** Relevance (40): how closely the attendees match the ICP. Decision-maker access (40): the density of real buyers and the structural reach to them. Engagement mode (20): whether attendees are in a buying mindset or a learning mindset. Show the three sub-scores. Priority one is 80 and above. Priority two is 70 to 79. Events below 70 are excluded. These cut-offs are author defaults to calibrate.
-6. **Apply the matchmaking bonus only where it is earned.** Add ten points only where the organiser runs matchmaking as a service and takes responsibility for pairing attendees with stated criteria. Self-serve booking in an event app does not qualify.
+6. **Apply the matchmaking bonus only where it is earned.** Add ten points only where the organizer runs matchmaking as a service and takes responsibility for pairing attendees with stated criteria. Self-serve booking in an event app does not qualify.
 7. **Run the cross-client check.** If the same list would suit a different client in a different vertical, it is too generic. Replace the generic entries with vertical or regional alternatives.
 8. **Write the output.** A summary, then a ranked table capped at the maximum count, with no padding. Each event gets two sentences. The first covers the audience and format, with numbers where they are verified. The second covers why this client's buyers need this offer now, and must not be interchangeable across events.
 9. **Review after attendance.** After three to five events, compare the leads, meetings and pipeline per event with the predicted tier. If the predictions and results diverge, adjust the weights.

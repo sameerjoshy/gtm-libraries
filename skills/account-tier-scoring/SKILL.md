@@ -1,27 +1,18 @@
 ---
 name: account-tier-scoring
-version: 1.0.0
-description: "Use to tier accounts for human attention (Bronze, Silver, Gold) by combining intent or engagement with deal potential, after a gate check against the ICP. Use when accounts are scored by feel, when high-scoring accounts turn out to be too small or lack a buyer, or when deciding when an account is ready to hand to sales. Produces a tier, a score breakdown with Met, Missed, or Uncertain per dimension, a confidence level, and a handover decision. Not for ABM dashboards or ICP definition."
+version: 1.2.0
+description: "Use when accounts need tiering for human attention (Bronze, Silver, Gold) by combining intent or engagement with deal potential, after a gate check against the ICP. Use when accounts are scored by feel, when high-scoring accounts turn out to be too small or lack a buyer, or when deciding when an account is ready to hand to sales. Produces a tier, a score breakdown with Met, Missed, or Uncertain per dimension, a confidence level, and a handover decision. Not for ICP definition (see `icp-builder`) or the ABM engagement dashboard (see `abm-account-engagement-report`)."
 ---
 
 # Account tier scoring
 
-Places each account in a tier that tells the team how much human attention it deserves now. Every tier is the result of gates first, then intent and potential, with the reasoning written down so anyone can check it.
-
 ## Purpose
+
+Place each account in a tier that tells the team how much human attention it deserves now. Every tier is the result of gates first, then intent and potential, with the reasoning written down so anyone can check it.
 
 Keep reps' time on accounts that are both able to buy and showing a reason to act. Stop small accounts reaching the queue on one loud signal, and stop large accounts being dismissed for a quiet month. Produce a tier, a breakdown, and a handover decision that two people would reach the same way.
 
-## When to use
-
-- Accounts need tiers that set how much rep attention each one deserves now.
-- Handover decisions need a checkable reason, with the signals and caps shown.
-
-Route elsewhere when:
-- The ICP itself is being defined. Use `icp-builder`.
-- One account needs a meeting brief. Use `account-research-brief`.
-
-## Principles
+### Principles
 
 - **Gates before scores.** An account that fails the ICP gate, the size floor, or an exclusion is not tiered. A high intent score never rescues a failed gate.
 - **Two questions, kept separate.** How strong is the intent or engagement? How large could this deal be? A tier is their intersection. Score each on its own first.
@@ -32,12 +23,23 @@ Route elsewhere when:
 - **Show the work.** Every tier carries its signal stack, its caps, and its confidence. Nothing is stated without the evidence beside it.
 - **Verify writes.** A tier is only reported as applied once the record is re-read and confirms it.
 
+## When to use
+
+- Accounts need tiers that set how much rep attention each one deserves now.
+- Handover decisions need a checkable reason, with the signals and caps shown.
+
+Route elsewhere when:
+- The ICP itself is being defined. Use `icp-builder`.
+- One account needs a meeting brief. Use `account-research-brief`.
+- The question is the ABM engagement dashboard or its composite score. Use `abm-account-engagement-report`.
+- The question is how to detect or interpret a single signal in depth. Use `signal-detection-and-timing`.
+
 ## Inputs
 
 1. The ICP and its gates, from `context/icp.md` or the `icp-builder` skill output. Without it, stop and ask for it.
 2. The account record: firmographics (employee count, funding, geography, industry), lifecycle stage, and owner.
 3. The first-party signal stack for the account: web visits, pricing-page visits, replies, meetings, product usage, form fills, and the person behind each signal.
-4. Third-party signals: funding, hiring, technology change, intent topics. Labelled as third-party.
+4. Third-party signals: funding, hiring, technology change, intent topics. Labeled as third-party.
 5. Existing contacts and their titles, checked against the buyer persona list.
 6. Prior history: closed-lost deals, trials, prior meetings. Checked against the CRM, not from memory.
 7. The account's prior tier, score, and dated snapshot, if any.
@@ -206,7 +208,7 @@ For a batch: a summary count by tier and gate outcome, then the Gold accounts, t
 - No tier was lowered by a weak new signal.
 - Decay was applied only where the rule triggers, and recorded.
 - Every tier write was re-read and confirmed, or flagged as failed.
-- Thresholds and weights are labelled as defaults or as client-calibrated.
+- Thresholds and weights are labeled as defaults or as client-calibrated.
 
 ## Rules
 
@@ -222,10 +224,3 @@ For a batch: a summary count by tier and gate outcome, then the Gold accounts, t
 - MUST NOT present the default weights or bands as industry benchmarks. Calibrate them to the client's wins or label them as defaults.
 - NEVER promote an account on anonymous or third-party signals alone where an enterprise gate applies.
 - NEVER enrich or draft outreach for Bronze or Non-ICP accounts.
-
-## Rules
-
-- Tiers individual accounts for attention. It does not define the ICP: use `icp-builder`.
-- Does not build the ABM engagement dashboard or its composite score for client reports: use `abm-account-engagement-report`. That score ranks accounts for a report. This skill makes the decision about attention and handover.
-- Does not detect or interpret a single signal in depth: use `signal-detection-and-timing`. Hiring and champion changes have their own skills.
-- Does not write outreach or sequences.

@@ -1,25 +1,24 @@
 ---
 name: brand-advocate-finder
-version: 1.0.0
-description: "Use to find and shortlist independent outside voices who could represent, endorse, or amplify a company in its field, such as advisers, former senior operators, and recognised authors. Screens for field credibility, independence, and reach, in that order, and shows which criteria are confirmed, likely, or unverified for each candidate. Not for finding customers or sales prospects. Advocates are never treated as a sales target."
+version: 1.2.0
+description: "Use when a company needs to find and shortlist independent outside voices who could represent, endorse, or amplify the brand in its field, such as advisers, former senior operators, and recognized authors. Screens for field credibility, independence, and reach, in that order, and shows which criteria are confirmed, likely, or unverified for each candidate. Not for finding customers or sales prospects (see `prospect-list-building`) or for paid influencer campaigns (see `creator-program-strategy`). Advocates are never treated as a sales target."
 ---
 
 # Brand advocate finder
 
 ## Purpose
 
-Independent voices are worth more than a company's own posts, when they are credible in the field and not paid to say what the company wants. This skill finds candidates with real standing in a specific sub-field, screens them for independence and reach, and shows the evidence for each judgement, so the team knows what is verified and what still needs a check.
+Independent voices are worth more than a company's own posts, when they are credible in the field and not paid to say what the company wants. This skill finds candidates with real standing in a specific sub-field, screens them for independence and reach, and shows the evidence for each judgment, so the team knows what is verified and what still needs a check.
 
 ## When to use
 
 - The company wants advisers, speakers, or public endorsers in a named field.
-- A co-marketing or content programme needs credible outside voices.
+- A co-marketing or content program needs credible outside voices.
 - An existing advocate list needs checking.
 
 Route elsewhere when:
-
 - The question is customers or prospects. Use `prospect-list-building`.
-- The question is paid influencer campaigns. Use `creator-programme-strategy`.
+- The question is paid influencer campaigns. Use `creator-program-strategy`.
 
 ## Inputs
 
@@ -34,7 +33,7 @@ Route elsewhere when:
 3. **Source candidates in layers, strongest credibility signal first:**
    - Former senior operators in the sub-field who now advise or consult independently.
    - Authors of well-regarded articles, talks, or research in the field.
-   - Former employees of a recognised leader in the field, now independent. Their standing can come from the company they left.
+   - Former employees of a recognized leader in the field, now independent. Their standing can come from the company they left.
    - Founders of companies that were sold or closed, where the field knows their work.
 4. **Screen each candidate** on three criteria, in this order:
    - Field credibility: a track record in the sub-field that others can verify.

@@ -1,7 +1,7 @@
 ---
 name: community-comment-safety
-version: 1.0.0
-description: "Use to review or write a comment that touches a brand in an online community forum, before it is posted. Runs a six-point check (the community's rules, its self-promotion policy, relevance to what the post actually says, authenticity, tone, and spam-filter risk), switches to a value-first mode where self-promotion is restricted, and sets the rule that a failed comment gets one rewrite before it is dropped. Use it because forum moderation punishes patterns, not just single posts. Not for choosing a community (see community-channel-research) or for pre-posting rule checks (see community-post-preflight)."
+version: 1.2.0
+description: "Use when reviewing or writing a comment that touches a brand in an online community forum, before it is posted. Runs a six-point check (the community's rules, its self-promotion policy, relevance to what the post actually says, authenticity, tone, and spam-filter risk), switches to a value-first mode where self-promotion is restricted, and sets the rule that a failed comment gets one rewrite before it is dropped. Use it because forum moderation punishes patterns, not just single posts. Not for choosing a community (see `community-channel-research`) or for pre-posting rule checks (see `community-post-preflight`)."
 ---
 
 # Community comment safety
@@ -29,7 +29,7 @@ Route elsewhere when:
 - Recent comments from the same account, to check for repeated shapes across threads.
 - The account's standing, from the warm-up check.
 
-## The six-point check
+### The six-point check
 
 1. **Community rules.** Does the comment comply with the rules the community states?
 2. **Self-promotion.** Does it respect the community's self-promotion policy?
@@ -40,20 +40,20 @@ Route elsewhere when:
 
 Give each comment one of three verdicts: pass, fix, or skip.
 
-## Value-first mode
+### Value-first mode
 
 Where a community restricts self-promotion:
-- remove or minimise product references,
+- remove or minimize product references,
 - drop external links entirely,
 - answer the question fully, and let the brand earn at most a passing mention.
 
 Value first is the only mode that survives in a community that restricts promotion.
 
-## Disclosure
+### Disclosure
 
 Where the commenter works for the brand, the community's rules may require them to say so. Disclose the affiliation where it is required, and where it is not required, do not imply independence.
 
-## Two strikes, then skip
+### Two strikes, then skip
 
 A comment that fails the check gets one rewrite. If the rewrite also fails, skip it. Do not keep rewriting the same comment for the same thread.
 

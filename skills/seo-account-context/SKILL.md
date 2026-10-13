@@ -1,7 +1,7 @@
 ---
 name: seo-account-context
-version: 1.0.0
-description: "Use before any SEO or content keyword work for a company, to build one confirmed account intelligence document: what the company sells, who it sells to, what it wants to sell more of, and what already works. Gathers the onboarding form, the live website, sales call notes, and client communications into one picture, and asks for confirmation before any keyword research starts. Not for choosing topics (see seo-topic-research)."
+version: 1.2.0
+description: "Use when starting any SEO or content keyword work for a company, to build one confirmed account intelligence document: what the company sells, who it sells to, what it wants to sell more of, and what already works. Gathers the onboarding form, the live website, sales call notes, and client communications into one picture, and asks for confirmation before any keyword research starts. Not for choosing topics (see `seo-topic-research`)."
 ---
 
 # SEO account context
@@ -17,7 +17,6 @@ SEO research that starts from a keyword tool produces a list of searches, not a 
 - Keyword research is about to start, and the account picture is thin.
 
 Route elsewhere when:
-
 - The question is which topics to write about. Use `seo-topic-research`.
 - The question is the account's full commercial profile for sales. Use `account-research-brief`.
 
@@ -32,7 +31,9 @@ Ask once, in one message, for whatever is available:
 
 Gather everything in one pass. Do not ask for the same thing twice.
 
-## The account intelligence document
+## Procedure
+
+### The account intelligence document
 
 Write one document with these sections:
 
@@ -44,7 +45,7 @@ Write one document with these sections:
 
 Mark every claim as **confirmed** (from the company or its data) or **unverified** (inferred from the website or elsewhere).
 
-## Procedure
+### Steps
 
 1. **Gather the inputs** in one request.
 2. **Draft the document** using the five sections.

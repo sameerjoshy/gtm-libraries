@@ -1,7 +1,7 @@
 ---
 name: ad-creative-as-filter
-version: 1.0.0
-description: "Use when planning paid social creative for a B2B offer, where the creative itself decides who the platform shows the ads to. Sets out a method to list the buyer situations the ideal customer faces, to choose angles that attract the right people and repel the wrong ones, to mine organic content and customer conversations for proven angles, and to plan the mix of angles to test. Not for the words of the ad (see ad-copy-voice-of-customer) or for fatigue on live creative (see creative-fatigue-rotation)."
+version: 1.2.0
+description: "Use when planning paid social creative for a B2B offer, where the creative itself decides who the platform shows the ads to. Sets out a method to list the buyer situations the ideal customer faces, to choose angles that attract the right people and repel the wrong ones, to mine organic content and customer conversations for proven angles, and to plan the mix of angles to test. Not for the words of the ad (see `ad-copy-voice-of-customer`) or for fatigue on live creative (see `creative-fatigue-rotation`)."
 ---
 
 # Ad creative as filter
@@ -30,13 +30,15 @@ Route elsewhere when:
 - Support tickets that drive upgrades or churn.
 - Organic content from the last twelve months, with its engagement.
 
-## Step one: list the buyer situations
+## Procedure
+
+### Step one: list the buyer situations
 
 List fifteen to twenty-five specific situations the ideal customer is in. Each situation is a specific trigger, not a general category. For example, "a new manager inheriting a team with no pipeline visibility" is a situation. "Sales productivity" is a category.
 
 Each situation becomes a candidate angle. More situations give more angles to test. Teams that test three or four generic concepts usually find nothing. Teams that test many specific situations are more likely to find the two or three that resonate with in-market buyers.
 
-## Step two: check organic winners first
+### Step two: check organic winners first
 
 Before writing new ads, audit the last twelve months of organic content:
 - the posts with the most engagement, comments, and saves,
@@ -45,7 +47,7 @@ Before writing new ads, audit the last twelve months of organic content:
 
 A theme that already worked organically is a strong candidate for paid creative.
 
-## Step three: choose the angles
+### Step three: choose the angles
 
 For each candidate situation, ask:
 - Would a non-buyer read this and move on? If so, the angle is filtering correctly.
@@ -54,20 +56,19 @@ For each candidate situation, ask:
 
 Keep the angles that pass all three.
 
-## Step four: plan the test mix
+### Step four: plan the test mix
 
 - Test a small set of angles at a time, one variable per test.
 - Give each angle a hypothesis: which buyer it should attract, and how the team will judge it on qualified outcomes.
 - Judge each angle by the qualified cost from the CRM, not by engagement alone. High engagement from the wrong people is a failure.
 
-## Procedure
+### Step five: hand the angles off
 
-1. **List the buyer situations** from the sources, aiming for fifteen to twenty-five.
-2. **Audit the organic winners** and add their themes.
-3. **Choose the angles** that filter correctly and attract the ideal buyer.
-4. **Plan the test mix,** with a hypothesis and a qualified measure for each angle.
-5. **Hand the chosen angles** to the copy and creative work.
-6. **Review the results** against qualified outcomes after the test period.
+Hand the chosen angles to the copy and creative work, each with its hypothesis and its qualified measure.
+
+### Step six: review the results
+
+Review the results against qualified outcomes after the test period, and keep the angles that brought qualified buyers.
 
 ## Output
 

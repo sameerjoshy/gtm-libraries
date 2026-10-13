@@ -1,7 +1,7 @@
 ---
 name: paid-measurement-scorecard
-version: 1.0.0
-description: "Use to check whether a company's paid media measurement is good enough to judge spend, before any budget is scaled or any channel is cut. Scores five areas on a one-to-three scale (blended dashboard, channel dashboard, conversion tracking, web analytics, and an agreed attribution process), and treats weak measurement as a blocker to scaling. Not for the optimisation rules once measurement is sound (see paid-optimisation-signals)."
+version: 1.2.0
+description: "Use when checking whether a company's paid media measurement is good enough to judge spend, before any budget is scaled or any channel is cut. Scores five areas on a one-to-three scale (blended dashboard, channel dashboard, conversion tracking, web analytics, and an agreed attribution process), and treats weak measurement as a blocker to scaling. Not for the optimization rules once measurement is sound (see `paid-optimization-signals`)."
 ---
 
 # Paid measurement scorecard
@@ -15,11 +15,11 @@ Paid spend is judged on measurement, and most B2B teams cannot answer basic ques
 - Before scaling a paid budget.
 - Before cutting a channel that looks expensive.
 - When leadership asks what paid is delivering, and the answer takes too long.
-- When a new team inherits a paid programme with unclear reporting.
+- When a new team inherits a paid program with unclear reporting.
 
 Route elsewhere when:
 
-- The question is which metrics justify action once measurement works. Use `paid-optimisation-signals`.
+- The question is which metrics justify action once measurement works. Use `paid-optimization-signals`.
 - The question is the attribution model in depth. Use `revenue-metrics`.
 
 ## Inputs
@@ -29,7 +29,7 @@ Route elsewhere when:
 - The CRM records of paid-sourced leads, with their stages.
 - The owner and reporting cadence for each dashboard.
 
-## The five questions
+### The five questions
 
 Score each from one to three. Be honest. A score is a description of what exists, not what is planned.
 

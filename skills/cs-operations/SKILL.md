@@ -1,7 +1,7 @@
 ---
 name: cs-operations
-version: 1.0.0
-description: "Use when customers churn without warning, red accounts pile up, renewal conversations turn contentious, or expansion-ready accounts slip away. Designs the post-sale operating model: a five-dimension health score refreshed weekly, traffic-light triage into rescue or renewal-risk mode, the renewal timeline from T-120, event playbooks, coverage tiers, discount governance, churn autopsies, and the customer-to-product feedback loop. Tool-neutral. Not for expansion scoring and whitespace (see expansion-revenue-architect) or the Sales-to-CS handoff mechanics (see revenue-handoffs)."
+version: 1.2.0
+description: "Use when customers churn without warning, red accounts pile up, renewal conversations turn contentious, or expansion-ready accounts slip away. Designs the post-sale operating model: a five-dimension health score refreshed weekly, traffic-light triage into rescue or renewal-risk mode, the renewal timeline from T-120, event playbooks, coverage tiers, discount governance, churn autopsies, and the customer-to-product feedback loop. Tool-neutral. Not for expansion scoring and whitespace (see `expansion-revenue-architect`) or the Sales-to-CS handoff mechanics (see `revenue-handoffs`)."
 ---
 
 # Customer success operations
@@ -20,13 +20,20 @@ This skill designs that system. It is tool-neutral. Choose the platform after th
 - CSMs have too many accounts to give each one attention.
 - Product does not act on what customers say.
 
-Route elsewhere when:
+### Common starting points
 
+- **"We keep losing customers and don't know why":** build the health score, and run churn autopsies on the last ten churned accounts. Patterns usually show within four weeks.
+- **"The CS team is overloaded":** a coverage problem. Build the three tiers. Stop high-touching accounts that do not need it.
+- **"Discounts are expiring and customers push back":** install discount governance. Record each expiry, lead with value at T-90, and keep step-ups as a T-30 save play.
+- **"Product does not listen to CS":** install the feedback loop, with ARR on every request.
+- **"We are starting from nothing":** run the diagnostic. Month one is playbooks and a basic score. Month two is the renewal timeline. Month three is automation.
+
+Route elsewhere when:
 - The question is which expansion to pursue, or how to score expansion readiness. Use `expansion-revenue-architect`.
 - The question is how a closed deal passes to CS. Use `revenue-handoffs`.
 - The question is onboarding to first value. Use `onboarding-activation`.
 - The question is the metric definitions for GRR and NRR. Use `revenue-metrics`.
-- The question is pricing and discount policy. Pricing governance sits in a separate skill (`pricing-monetisation-ops`).
+- The question is pricing and discount policy. Pricing governance sits in a separate skill (`pricing-monetization-ops`).
 
 ## Inputs
 
@@ -55,7 +62,7 @@ Score the current state with the maturity stages in Step 2.
 | Stage | Health scoring | Renewals | Expansion | Governance |
 |---|---|---|---|---|
 | Reactive | None. The team responds to churn. | Ad hoc, customer-led | Accidental | CS isolated, no feedback loops |
-| Defined | Manual, based on CSM judgement | A playbook starts about 60 days before expiry | Signals found inconsistently | A written handoff exists |
+| Defined | Manual, based on CSM judgment | A playbook starts about 60 days before expiry | Signals found inconsistently | A written handoff exists |
 | Proactive | A composite score, updated weekly, with alerts | Automated 90-day process with save plays | A scoring model and targeted outreach | Quarterly CS and product reviews |
 | Predictive | A calibrated model, checked against outcomes | Preventive interventions | Expansion scoring feeds the sales pipeline | Near-real-time feedback loops |
 
@@ -68,10 +75,10 @@ Use a composite score from 0 to 100, built from five weighted dimensions. Defaul
 | Dimension | Default weight | What it measures |
 |---|---|---|
 | Product usage | 35% | Login frequency, feature adoption, depth of use, and trend |
-| Relationship | 25% | Executive sponsor engaged, survey response, meeting cadence, and breadth of users across the organisation |
+| Relationship | 25% | Executive sponsor engaged, survey response, meeting cadence, and breadth of users across the organization |
 | Support | 18% | Ticket volume trend, severity, resolution time, and satisfaction |
 | Commercial | 17% | Contract value trend, payment history, and expansion conversations |
-| Outcomes | 5% | Achievement of the stated goals, value realised, and milestone completion |
+| Outcomes | 5% | Achievement of the stated goals, value realized, and milestone completion |
 
 Usage carries the highest default weight because it is usually the most direct signal. Outcomes carries the lowest because it is often incomplete early on. Treat both as defaults.
 
@@ -137,7 +144,7 @@ Save play basics, in order:
 4. Bring in the executive sponsor, from each side.
 5. Offer pricing last, and only if the value case is made. See Step 8.
 
-If the customer's problem is no longer one the product solves, say so. A honest "wrong fit" verdict is better than a discount that delays churn by a quarter.
+If the customer's problem is no longer one the product solves, say so. An honest "wrong fit" verdict is better than a discount that delays churn by a quarter.
 
 ### Step 7: Install event-based playbooks
 
@@ -202,6 +209,23 @@ Automation helps only once the data is clean. Sequence it:
 
 Automation notifies and recommends. The CSM remains accountable for the customer decision.
 
+### Diagnostic questions
+
+Count the yes answers across five areas:
+
+- **Process:** documented playbooks, a defined renewal timeline, a written health scoring framework, escalation paths, and business reviews for every high-touch account.
+- **Technology:** one system that shows usage, support, and commercial data together, with automated scoring.
+- **Data:** can you forecast churn 30 days out, and do you track expansion signals and team efficiency?
+- **Enablement:** structured CSM onboarding, accessible playbooks, and process certification.
+- **Governance:** a feedback loop to product, a handoff process to sales, monthly exec review of CS metrics, churn autopsies, and discount tracking.
+
+Read the score as a guide. Fix the weakest area first, because the areas depend on each other.
+
+- 0 to 6 yes: Reactive. Write the playbooks and the basic health score first.
+- 7 to 13 yes: Defined. Connect the data and automate the playbooks.
+- 14 to 19 yes: Proactive. Build the predictive models and rebalance coverage.
+- 20 to 25 yes: Predictive. Tune the models, and add automation with human review.
+
 ## Output
 
 - The operating model, with the four pillars and their owners.
@@ -214,7 +238,7 @@ Automation notifies and recommends. The CSM remains accountable for the customer
 - The churn autopsy and feedback loop, with owners and cadence.
 - The weekly, monthly, and quarterly review agendas.
 
-## Key metrics
+### Key metrics
 
 Set targets from the client's own baseline after one quarter of measurement. The figures below are starting points, not standards.
 
@@ -233,31 +257,14 @@ Set targets from the client's own baseline after one quarter of measurement. The
 
 Industry medians for these metrics vary widely by segment and deal size. Do not quote them to the client as targets without checking against their own segment.
 
-## Diagnostic
-
-Count the yes answers across five areas:
-
-- **Process:** documented playbooks, a defined renewal timeline, a written health scoring framework, escalation paths, and business reviews for every high-touch account.
-- **Technology:** one system that shows usage, support, and commercial data together, with automated scoring.
-- **Data:** can you forecast churn 30 days out, and do you track expansion signals and team efficiency?
-- **Enablement:** structured CSM onboarding, accessible playbooks, and process certification.
-- **Governance:** a feedback loop to product, a handoff process to sales, monthly exec review of CS metrics, churn autopsies, and discount tracking.
-
-Read the score as a guide. Fix the weakest area first, because the areas depend on each other.
-
-- 0 to 6 yes: Reactive. Write the playbooks and the basic health score first.
-- 7 to 13 yes: Defined. Connect the data and automate the playbooks.
-- 14 to 19 yes: Proactive. Build the predictive models and rebalance coverage.
-- 20 to 25 yes: Predictive. Tune the models, and add automation with human review.
-
-## How to use this skill
-
-- **"We keep losing customers and don't know why":** build the health score, and run churn autopsies on the last ten churned accounts. Patterns usually show within four weeks.
-- **"The CS team is overloaded":** a coverage problem. Build the three tiers. Stop high-touching accounts that do not need it.
-- **"Discounts are expiring and customers push back":** install discount governance. Record each expiry, lead with value at T-90, and keep step-ups as a T-30 save play.
-- **"Product does not listen to CS":** install the feedback loop, with ARR on every request.
-- **"We are starting from nothing":** run the diagnostic. Month one is playbooks and a basic score. Month two is the renewal timeline. Month three is automation.
-
 ## Quality bar
 
 Every account has a health score and an owner. Red accounts have a named play before the renewal window opens. Renewal conversations start from documented value, not a pricing surprise. Churn autopsies feed a playbook for each churn cause. Watch for vendor churn percentages quoted as fact, scores that nobody acts on, discounts with no expiry, and a score that is never checked against outcomes.
+
+## Rules
+
+- Nothing customer-visible goes out without human review. A CSM or manager approves any renewal offer, discount, or support-tier change before it reaches the customer.
+- Use business contact data only. Do not record personal emails, phone numbers, or private account details in the health score.
+- Confirm the data-protection design with counsel before an automated score drives any customer-visible decision.
+
+Before a renewal offer, discount, or tier change reaches a customer, ask: who is the named approver releasing this?

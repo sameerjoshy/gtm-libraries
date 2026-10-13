@@ -1,7 +1,7 @@
 ---
 name: earned-autonomy
-version: 1.0.0
-description: "Use to decide how much a GTM automation or AI agent may do without a person reviewing each output. Assigns a level per task (draft, spot-check, exception-only, or automatic), states the evidence required to move up and the triggers that move it back down, and treats wordless low-risk actions differently from anything that carries words. Use when a workflow is ready to run on a schedule, when per-item approval should stop, or when an agent has made a mistake. Not for the security or legal review of the agent itself."
+version: 1.2.0
+description: "Use when deciding how much a GTM automation or AI agent may do without a person reviewing each output. Assigns a level per task (draft, spot-check, exception-only, or automatic), states the evidence required to move up and the triggers that move it back down, and treats wordless low-risk actions differently from anything that carries words. Use when a workflow is ready to run on a schedule, when per-item approval should stop, or when an agent has made a mistake. Not for the security or legal review of the agent itself."
 ---
 
 # Earned autonomy
@@ -29,7 +29,7 @@ Route elsewhere when:
 - The guardrails: what counts as a breach, such as a complaint, a bounce spike, or a wrong account.
 - The log of past outputs, with the human edits and rejections recorded.
 
-## Levels
+### Levels
 
 | Level | What ships | What reaches a person |
 |---|---|---|
@@ -47,7 +47,7 @@ Route elsewhere when:
    - L0 to L1: at least 30 items reviewed, with human edits or rejections under about 10 percent (default).
    - L1 to L2: at least 50 items at L1, with at least 95 percent passing the gate on sampling, and no guardrail breach in the window (default).
    - L2 to L3: the outcome measure at or above target for four consecutive weeks, with no breach (default).
-3. **Trust judgement steps separately.** A task with several steps, such as choosing an angle and choosing the person, has a count for each. Clearing one does not clear the other.
+3. **Trust judgment steps separately.** A task with several steps, such as choosing an angle and choosing the person, has a count for each. Clearing one does not clear the other.
 4. **Reset on credibility-costing misses.** A miss that would show the sender did no homework resets the count for that step to zero. A harmless stylistic miss does not.
 5. **Hold, do not promote, when no refusals occur.** A window with no human reviews is not evidence of quality, because nobody looked.
 6. **Set the automatic drops.** Any guardrail breach moves the task back one level without waiting for review. Name the person alerted.
@@ -62,4 +62,4 @@ Route elsewhere when:
 
 ## Quality bar
 
-Every level has recorded evidence. Judgement steps are counted separately. Credibility-costing misses reset the count. Automatic drops are set before autonomy is granted. Watch for autonomy granted per agent, promotion on an empty review window, and thresholds changed after the fact.
+Every level has recorded evidence. Judgment steps are counted separately. Credibility-costing misses reset the count. Automatic drops are set before autonomy is granted. Watch for autonomy granted per agent, promotion on an empty review window, and thresholds changed after the fact.

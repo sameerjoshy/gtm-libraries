@@ -1,7 +1,7 @@
 ---
 name: community-channel-research
-version: 1.0.0
-description: "Use to find and vet the online community forums where a brand could take part, such as topic subforums on a large discussion site. Searches on the problem language buyers use rather than the category name, checks each community's size, type, posting rules, and what its top posts look like, judges fit from the content rather than the size, and produces a shortlist with the rules that constrain posting in each. Not for checking a single post before it goes live (see community-post-preflight)."
+version: 1.2.0
+description: "Use when finding and vetting the online community forums where a brand could take part, such as topic subforums on a large discussion site. Searches on the problem language buyers use rather than the category name, checks each community's size, type, posting rules, and what its top posts look like, judges fit from the content rather than the size, and produces a shortlist with the rules that constrain posting in each. Not for checking a single post before it goes live (see `community-post-preflight`)."
 ---
 
 # Community channel research

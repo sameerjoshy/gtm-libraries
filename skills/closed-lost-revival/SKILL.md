@@ -1,7 +1,7 @@
 ---
 name: closed-lost-revival
-version: 1.0.0
-description: "Use for a quarterly revival sweep over pipeline the company already paid to create: closed-lost deals, proposals that went quiet, champions who changed jobs, and contacts who engaged and then went silent. Applies hard gates, requires dated evidence before any draft, names each loss pattern against a library, and ships one capped campaign per quarter for human approval. Revives only accounts that engaged and then disengaged. Not for cold contacts who never replied (those go to prospecting), and not for live threads still inside a cadence."
+version: 1.2.0
+description: "Use when running a quarterly revival sweep over pipeline the company already paid to create: closed-lost deals, proposals that went quiet, champions who changed jobs, and contacts who engaged and then went silent. Applies hard gates, requires dated evidence before any draft, names each loss pattern against a library, and ships one capped campaign per quarter for human approval. Revives only accounts that engaged and then disengaged. Not for cold contacts who never replied (see `outbound-cold-email` or `prospect-list-building`), and not for live threads still inside a cadence."
 ---
 
 # Closed-lost revival
@@ -30,7 +30,7 @@ Route elsewhere when:
 
 - Closed-lost deals with close date, original objection, last contact date, and deal owner.
 - Proposals sent, with the date and what was promised.
-- Champions and their history: whether they realised value at the origin company, and whether they have moved.
+- Champions and their history: whether they realized value at the origin company, and whether they have moved.
 - Engagement history for each contact, with the last substantive exchange.
 - Do-not-contact flags, and any partner, advisor, or peer relationships to exclude.
 - The current offer, meaning what the company is selling or sharing now.
@@ -50,7 +50,7 @@ Each lane has gates. A lead that fails a gate is skipped immediately.
 
 **Lane B: champion job changes.** About a fifth of past champions are cited as moving in a given year, from industry estimates. Each verified move is a warm route into an account the company has not worked.
 
-- The champion must have realised value at the origin company, meaning the deal was won, or they were an active user who drove workflows. A contact on a lost deal is familiarity, not a champion. Skip.
+- The champion must have realized value at the origin company, meaning the deal was won, or they were an active user who drove workflows. A contact on a lost deal is familiarity, not a champion. Skip.
 - Skip if the origin company declined within the last 90 days. The champion is leaving a company that just said no.
 - A new employer that is a competitor or on an exclusion list: log it, no outreach.
 - A new employer below the minimum viable size: at most a personal note from the former relationship owner. Never a sales motion.
@@ -82,7 +82,7 @@ Each lane has gates. A lead that fails a gate is skipped immediately.
   - Ghosted: interest, then nothing.
   - Objection pending: "let us think about it", then nothing.
   - Timing miss: "circle back after an event" that never happened.
-  - Changed landscape: a reorganisation, a freeze, or a role change in the middle of the conversation.
+  - Changed landscape: a reorganization, a freeze, or a role change in the middle of the conversation.
 
 ### Step 3: Name the loss pattern
 
@@ -109,7 +109,7 @@ Lane B:
 
 Lane C:
 
-- Acknowledge the gap briefly. Do not apologise for it.
+- Acknowledge the gap briefly. Do not apologize for it.
 - Anchor on their last question: "You asked about [specific thing]. Here is what has changed since."
 
 ### Step 5: Compress into one campaign

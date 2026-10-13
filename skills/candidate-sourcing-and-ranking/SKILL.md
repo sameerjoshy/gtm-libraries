@@ -1,7 +1,7 @@
 ---
 name: candidate-sourcing-and-ranking
-version: 1.0.0
-description: "Use when a hiring manager or founder needs to source candidates for an open role, but the brief is incomplete, over-titled, or likely to produce a noisy list. Diagnoses the role's real scope against the company's stage, sets must-haves apart from transferable evidence, previews the market before any paid lookup, ranks candidates in three evidence-based tiers, and returns a shortlist the hiring team can defend. Not for offer and close (see sales-hire-offer-close) or for scoring interviews (see sales-hire-scorecard)."
+version: 1.2.0
+description: "Use when a hiring manager or founder needs to source candidates for an open role, but the brief is incomplete, over-titled, or likely to produce a noisy list. Diagnoses the role's real scope against the company's stage, sets must-haves apart from transferable evidence, previews the market before any paid lookup, ranks candidates in three evidence-based tiers, and returns a shortlist the hiring team can defend. Not for offer and close (see `sales-hire-offer-close`) or for scoring interviews (see `sales-hire-scorecard`)."
 ---
 
 # Candidate sourcing and ranking
@@ -12,11 +12,10 @@ A job title is a poor search filter. Many candidate lists are long because the b
 
 ## When to use
 
-- An open role has an incomplete, inflated or contradictory brief.
+- An open role has an incomplete, inflated, or contradictory brief.
 - A search has already produced a long list that the hiring team cannot evaluate.
 
 Route elsewhere when:
-
 - The question is closing a candidate. Use `sales-hire-offer-close`.
 - The question is scoring interviews. Use `sales-hire-scorecard`.
 - The question is hiring signals inside accounts. Use `hiring-signal-tracking`.
@@ -34,7 +33,7 @@ Route elsewhere when:
 ## Procedure
 
 1. **Diagnose the role.** Challenge title inflation and stage mismatch. A "VP" at a fifteen-person company may be a hands-on lead. A "senior" at a large enterprise may own less than a lead at a start-up. Translate the title into outcomes and scope before using it as a filter.
-2. **Confirm the search thesis** in five parts: outcomes in the first twelve months; non-negotiable evidence; transferable evidence and acceptable neighbours; context constraints; exclusions and the target count. Ask the user to correct the weakest assumption.
+2. **Confirm the search thesis** in five parts: outcomes in the first twelve months; non-negotiable evidence; transferable evidence and acceptable neighbors; context constraints; exclusions and the target count. Ask the user to correct the weakest assumption.
 3. **Build the search ladder:** title families, seniority range, the experience evidence required, the company contexts, and the geography. Use broad title families. Titles are noisy and should not carry the whole search.
 4. **Preview the market before any paid enrichment.** Ask whether the search returns enough plausible candidates, not merely enough rows. If the pool is empty, loosen one constraint and say which. If it is too small, separate an unrealistic brief from a thin dataset. If it is too large, tighten on outcome evidence, not on prestige.
 5. **Calibrate.** Show five representative profiles and ask which is closest and which is clearly wrong. Refine the thesis once before scaling.
@@ -47,7 +46,7 @@ Route elsewhere when:
     - Tier 2, validate: credible transferable fit, with one question to test.
     - Tier 3, reserve: partial fit, relevant only if the thesis broadens.
 11. **Write a rationale for each Tier 1 candidate:** current scope, career path, evidence against each must-have, the largest unknown, and why this person comes before the next. A senior title or a famous employer is never a rationale on its own.
-12. **Recommend the next action** from verified availability and role context. Do not infer willingness to move, notice period, pay expectations or personal circumstances.
+12. **Recommend the next action** from verified availability and role context. Do not infer willingness to move, notice period, pay expectations, or personal circumstances.
 13. **Request separate approval** before any message is sent, any record is written to an applicant system or CRM, or any sequence starts.
 
 ## Output
@@ -64,7 +63,7 @@ Every Tier 1 recommendation cites evidence and names one uncertainty. Titles are
 ## Rules
 
 - Capture the hiring company's domain and exclude its current employees.
-- Keep must-haves, transferable evidence and preferences apart.
+- Keep must-haves, transferable evidence, and preferences apart.
 - Calibrate titles against company stage and actual scope.
-- Never infer personal circumstances, pay expectations or intent to move.
-- Get approval before any paid lookup, message, system write or sequence.
+- Never infer personal circumstances, pay expectations, or intent to move.
+- Get approval before any paid lookup, message, system write, or sequence.

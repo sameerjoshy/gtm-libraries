@@ -1,7 +1,7 @@
 ---
 name: community-account-health
-version: 1.0.0
-description: "Use to monitor the health of a brand's accounts on online community forums, or to respond when something has gone wrong: a comment has disappeared, a community has banned the account, or the account has been suspended. Classifies each moderation signal correctly (a ban, a removal, or a rule note) before reacting, gates posting on confirmed signals only, checks membership before each posting attempt, and sets the recovery path for temporary bans, permanent bans, and site-wide suspension. Not for the warm-up of a new account (see community-account-warmup)."
+version: 1.2.0
+description: "Use when monitoring the health of a brand's accounts on online community forums, or responding when something has gone wrong: a comment has disappeared, a community has banned the account, or the account has been suspended. Classifies each moderation signal correctly (a ban, a removal, or a rule note) before reacting, gates posting on confirmed signals only, checks membership before each posting attempt, and sets the recovery path for temporary bans, permanent bans, and site-wide suspension. Not for the warm-up of a new account (see `community-account-warmup`)."
 ---
 
 # Community account health
@@ -30,7 +30,7 @@ Route elsewhere when:
 - The rules of each community where the account posts.
 - The account's recent posting history.
 
-## Read the signals
+### Read the signals
 
 Scan the account's messages from moderators daily, and classify each one:
 
@@ -40,11 +40,11 @@ Scan the account's messages from moderators daily, and classify each one:
 
 Only confirmed signals should gate posting. A suspected problem is watched, not acted on.
 
-## Membership and pre-flight
+### Membership and pre-flight
 
 Track which communities the account has actually joined. Confirm membership before each posting attempt, because posting into a community the account has not joined fails or looks like spam.
 
-## Recovery paths
+### Recovery paths
 
 - **Temporary ban:** stop posting in that community until the ban ends. Do not post again on the end date until the community's rules have been re-read.
 - **Permanent ban from one community:** remove that community from the plan. Do not appeal with a copy of the removed content.

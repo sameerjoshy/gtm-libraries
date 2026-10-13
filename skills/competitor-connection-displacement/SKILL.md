@@ -1,7 +1,7 @@
 ---
 name: competitor-connection-displacement
-version: 1.0.0
-description: "Use to find prospects who are actively evaluating the category, by looking at people who have just connected with a named competitor. Qualifies those connections against the ICP, removes existing pipeline, scores each remaining prospect on net-new status, decision power, and freshness, and writes a problem-first angle for each. Not for competitive teardowns or battlecards (see competitive-intelligence)."
+version: 1.2.0
+description: "Use when finding prospects who are actively evaluating the category, by looking at people who have just connected with a named competitor. Qualifies those connections against the ICP, removes existing pipeline, scores each remaining prospect on net-new status, decision power, and freshness, and writes a problem-first angle for each. Not for competitive teardowns or battlecards (see `competitive-intelligence`)."
 ---
 
 # Competitor connection displacement

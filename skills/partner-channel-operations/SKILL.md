@@ -1,20 +1,20 @@
 ---
 name: partner-channel-operations
-version: 1.0.0
-description: "Use to run the operational plumbing of a partner or channel programme: choosing partner types and tiers, defining an ideal partner profile, deal registration and conflict rules, partner onboarding and enablement, co-sell motions, attribution of sourced versus influenced revenue, partner health scoring, and the review cadence. Use when partners are signed but not producing, when partner and direct reps fight over accounts, or when partner revenue cannot be reported. Not for deciding whether to build a partner motion at all (see partner-ecosystem-architect)."
+version: 1.2.0
+description: "Use when running the operational plumbing of a partner or channel program: choosing partner types and tiers, defining an ideal partner profile, deal registration and conflict rules, partner onboarding and enablement, co-sell motions, attribution of sourced versus influenced revenue, partner health scoring, and the review cadence. Triggers when partners are signed but not producing, when partner and direct reps fight over accounts, or when partner revenue cannot be reported. Not for deciding whether to build a partner motion at all (see `partner-ecosystem-architect`)."
 ---
 
 # Partner channel operations
 
 ## Purpose
 
-Most partner programmes fail in operations, not in recruitment. Partners are signed, nobody knows how to bring them deals, registrations collide with direct reps, and the revenue cannot be reported. This skill sets out the operating system that makes a partner programme measurable and repeatable.
+Most partner programs fail in operations, not in recruitment. Partners are signed, nobody knows how to bring them deals, registrations collide with direct reps, and the revenue cannot be reported. This skill sets out the operating system that makes a partner program measurable and repeatable.
 
 The core rule: recruit fewer partners, enable them properly, register every deal in one place, and report sourced and influenced revenue separately. Activation matters more than the count of partners on paper.
 
 ## When to use
 
-- The partner programme exists, but few partners produce pipeline.
+- The partner program exists, but few partners produce pipeline.
 - Partner and direct sales claim the same accounts.
 - Partner-sourced revenue cannot be separated from direct revenue.
 - The company is about to design tiers, a portal, or a deal registration process.
@@ -44,7 +44,7 @@ The type follows the job the partner does, not the ambition.
 
 | Type | Use when | Usual economics (default, to calibrate) |
 |---|---|---|
-| Referral | Early programme. Partners have relationships but no sales capacity. | Referral fee on first-year contract value |
+| Referral | Early program. Partners have relationships but no sales capacity. | Referral fee on first-year contract value |
 | Technology | Shared customer, integration creates combined value | Revenue share or referral on co-sold deals |
 | Reseller | Fast distribution in a market or region. Partner owns the customer relationship. | Margin on resold product |
 | Implementation | Solution needs set-up or configuration before it works | Project fees to the partner, plus indirect uplift |
@@ -75,7 +75,7 @@ Three tiers. Promote on performance, not tenure.
 - **Tier 2, growth.** Ten to twenty as a default. Requires a completed certification, a minimum number of registered deals per quarter, and active portal use. Gets standard rates, co-marketing resources, monthly check-ins, and lead sharing.
 - **Tier 3, referral.** No cap. Requires a signed agreement and completion of basic product training. Gets referral rates, portal access, collateral, and quarterly updates.
 
-Commission and fund percentages are set by the client. Do not copy them from another programme.
+Commission and fund percentages are set by the client. Do not copy them from another program.
 
 ### Step 4: Run deal registration with clear conflict rules
 
@@ -108,7 +108,7 @@ Registration is the process that decides who owns an account when both partner a
 
 **Enablement content the partner needs:** a one-page product summary, an ICP and persona guide, a competitive battlecard, a demo environment, a co-branded slide template, case studies, an ROI calculator, a sales playbook, an objection guide, and a restricted pricing guide. The pricing guide is restricted to certified partners.
 
-Do not expect partners to self-serve. Partners need more enablement than most programmes budget for.
+Do not expect partners to self-serve. Partners need more enablement than most programs budget for.
 
 ### Step 6: Define the co-sell motions and their rules
 
@@ -147,21 +147,21 @@ Note: this 0 to 100 partner score is a separate field from the deal health score
 
 - **Weekly:** the partner manager reviews the registration pipeline (about fifteen minutes) and syncs with sales on active co-sell deals.
 - **Monthly:** review partner activity across all tiers, identify inactive partners for outreach or exit, and review the onboarding pipeline.
-- **Quarterly, tier 1:** a partner business review. Agenda: revenue against plan (sourced and influenced), the active and stuck pipeline, programme feedback, a refresh of account mapping, the next quarter's target accounts and co-marketing, and an executive alignment on direction and roadmap.
-- **Annually:** tier reassignment on performance, a review of commission structure, programme return on cost, and strategic partner planning for the coming year.
+- **Quarterly, tier 1:** a partner business review. Agenda: revenue against plan (sourced and influenced), the active and stuck pipeline, program feedback, a refresh of account mapping, the next quarter's target accounts and co-marketing, and an executive alignment on direction and roadmap.
+- **Annually:** tier reassignment on performance, a review of commission structure, program return on cost, and strategic partner planning for the coming year.
 
-## Maturity
+### Maturity
 
 Four levels. Move up only when the level below is working.
 
 1. **Fundamentals (months 0 to 6).** One person, a few tools. Define the ideal partner profile, document the partner sales process and deal registration, sign a basic agreement, set up CRM tracking, and recruit and enable the first three to five partners.
 2. **Adoption (months 6 to 18).** One or two people and a partner portal. Tiers in place, a content library, reporting and dashboards live, a regular management review, and partner health scoring running.
-3. **Optimisation (months 18 to 36).** A dedicated team. Partner insights shape programme decisions, partner messaging is tested, a governance council reviews performance, account mapping is in use, and attribution is trusted.
-4. **Acceleration (month 36 onward).** A full partner organisation. Recruit, ramp, and retire partners on economics and impact. Automate registration triage and onboarding where volume justifies it.
+3. **Optimization (months 18 to 36).** A dedicated team. Partner insights shape program decisions, partner messaging is tested, a governance council reviews performance, account mapping is in use, and attribution is trusted.
+4. **Acceleration (month 36 onward).** A full partner organization. Recruit, ramp, and retire partners on economics and impact. Automate registration triage and onboarding where volume justifies it.
 
 Expect six to twelve months from launch to meaningful partner revenue. Track the leading indicators (registrations and pipeline) before the lagging one (revenue).
 
-## Common pitfalls
+### Common pitfalls
 
 - **Many partners, none producing.** Measure activation rate, not partner count. Ten active partners are worth more than fifty dormant ones.
 - **Sales and partners fight over accounts.** Set registration rules, use first-to-register, and make the economics fair to both sides.
@@ -169,6 +169,14 @@ Expect six to twelve months from launch to meaningful partner revenue. Track the
 - **Partner revenue cannot be tracked.** Add the CRM fields and enforce the tags in deal reviews.
 - **Equal investment in unequal partners.** Tier them. Invest most in tier 1. Move partners to lower-touch treatment after two quarters of no activity.
 - **Partners bring poor-fit deals.** Define qualification for registered deals, reject deals outside the ICP, and train partners on the ICP.
+
+### Diagnostic questions
+
+1. How many partners registered a deal in the last ninety days, and how many have never registered one?
+2. How many registered deals ended in a conflict with a direct rep, and how long did each conflict take to resolve?
+3. Can sourced and influenced partner revenue be reported for the last four quarters, from the CRM alone?
+4. Which tier-one partner has a signed joint plan and a named owner on each side?
+5. What did the partner program cost last year, and what partner-attributed revenue did it produce?
 
 ## Output
 
@@ -180,14 +188,6 @@ Expect six to twelve months from launch to meaningful partner revenue. Track the
 - The partner health score and the review cadence.
 - The maturity level, with the next step.
 
-## Diagnostic questions
-
-1. How many partners registered a deal in the last ninety days, and how many have never registered one?
-2. How many registered deals ended in a conflict with a direct rep, and how long did each conflict take to resolve?
-3. Can sourced and influenced partner revenue be reported for the last four quarters, from the CRM alone?
-4. Which tier-one partner has a signed joint plan and a named owner on each side?
-5. What did the partner programme cost last year, and what partner-attributed revenue did it produce?
-
 ## Quality bar
 
-Every partner has a tier, a score, and a named owner. Registration decides every shared account within 48 hours. Sourced and influenced revenue are reported separately, from CRM data. Watch for recruitment without activation, partner revenue reported from memory, unresolved account conflicts, and programmes judged in month three.
+Every partner has a tier, a score, and a named owner. Registration decides every shared account within 48 hours. Sourced and influenced revenue are reported separately, from CRM data. Watch for recruitment without activation, partner revenue reported from memory, unresolved account conflicts, and programs judged in month three.

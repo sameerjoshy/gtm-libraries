@@ -1,6 +1,6 @@
 ---
 name: founder-led-sales
-version: 1.0.0
+version: 1.2.0
 description: "Use when a product has users but no paying customers, when the founder has not yet sold, or when deals stall on \"let me think about it\". Sets out the motion the founder runs personally for the first ten to twenty deals: start with the most engaged existing users, run discovery, demonstrate the buyer's own use case, equip the champion to sell internally, and close every conversation with a next step and a date. Not for building a sales team once the motion works (see sales-playbook-foundations)."
 ---
 
@@ -19,7 +19,7 @@ Nobody else can sell the product before the founder can. The first deals teach t
 Route elsewhere when:
 
 - The team already sells and needs its process built. Use `sales-playbook-foundations`.
-- The question is which channel to use for demand. Use the relevant outbound or content skill.
+- The question is which channel to use for demand. Use `paid-channel-selection`.
 
 ## Inputs
 

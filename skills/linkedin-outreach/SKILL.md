@@ -1,7 +1,7 @@
 ---
 name: linkedin-outreach
-version: 1.0.0
-description: "Use when planning or reviewing LinkedIn outreach to named prospects, including connection requests, direct messages, and InMail. Sets safe volume and warm-up, applies the success rules before launch, enforces message length and the no-pitch-in-the-request rule, and provides a recovery plan for a restricted account. Not for email (see outbound-cold-email) or replies to existing threads (see reply-handling)."
+version: 1.2.0
+description: "Use when planning or reviewing LinkedIn outreach to named prospects, including connection requests, direct messages, and InMail. Sets safe volume and warm-up, applies the success rules before launch, enforces message length and the no-pitch-in-the-request rule, and provides a recovery plan for a restricted account. Not for email (see `outbound-cold-email`) or replies to existing threads (see `reply-handling`)."
 ---
 
 # LinkedIn outreach
@@ -21,7 +21,7 @@ Route elsewhere when:
 
 - The work is email: use `outbound-cold-email`.
 - The contact has replied: use `reply-handling`.
-- The request is a LinkedIn ad or a content plan. Those are separate motions.
+- The request is a LinkedIn ad audit or a campaign plan. Use `linkedin-ads-audit` or `abm-strategy-planner`.
 
 ## Inputs
 
@@ -110,7 +110,7 @@ Do not launch until every item is ticked.
 - [ ] Targets filtered to active people (recent activity checked).
 - [ ] Each message is under four sentences.
 - [ ] Connection requests are within the daily working limit.
-- [ ] Pacing is randomised, with breaks, and does not repeat the same sequence every time.
+- [ ] Pacing is randomized, with breaks, and does not repeat the same sequence every time.
 - [ ] Sending is timed to the target's time zone and working hours.
 - [ ] A lead magnet or value hook is included where the org has approved one.
 - [ ] A follow-up plan is set, with two or three touches at most.
@@ -126,7 +126,7 @@ Do not launch until every item is ticked.
 5. Engage with other people's content.
 6. Reintroduce outreach slowly, starting from the warm-up stage.
 
-## Common mistakes
+### Common mistakes
 
 - A pitch in the connection request. Save the pitch for the message after acceptance.
 - A generic first message. Refer to something specific and real about the person.

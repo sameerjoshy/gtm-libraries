@@ -1,7 +1,7 @@
 ---
 name: reply-handling
-version: 1.0.0
-description: "Use when a prospect has replied to an outbound sequence and you need to decide what to do next. Classifies the reply into one of six intent buckets, drafts the matching response or stop action, and records the outcome in the CRM after approval. Never sends on its own. For batches of more than about five replies, classifies first and then works one bucket at a time. Not for writing the first sequence (see outbound-cold-email)."
+version: 1.2.0
+description: "Use when a prospect has replied to an outbound sequence and you need to decide what to do next. Classifies the reply into one of six intent buckets, drafts the matching response or stop action, and records the outcome in the CRM after approval. Never sends on its own. For batches of more than about five replies, classifies first and then works one bucket at a time. Not for writing the first sequence (see `outbound-cold-email`)."
 ---
 
 # Reply handling
@@ -16,7 +16,10 @@ A reply is the most valuable moment in outbound, and the easiest to mishandle. A
 - An out-of-office or auto-reply has arrived and affects the schedule.
 - A batch of replies needs triage.
 
-Do not use it for first-touch copy. That belongs in `outbound-cold-email`.
+Route elsewhere when:
+
+- You are writing the first-touch copy. Use `outbound-cold-email`.
+- You are scoring a draft before it is sent. Use `reply-pull-gate`.
 
 ## Inputs
 
@@ -68,7 +71,7 @@ Only after the user approves the draft or the stop action:
 
 - **Unsubscribe:** stop the sequence. Set the do-not-contact flag the org uses. Add a note recording the reason.
 - **Wrong person with a named contact:** find or create the new contact. Link them to the company. Add a note on the original contact recording the referral.
-- **Interested or objection:** add a note summarising the reply in one or two lines. Move the lifecycle stage if it has changed, for example from lead to opportunity. Create a follow-up task for the owner.
+- **Interested or objection:** add a note summarizing the reply in one or two lines. Move the lifecycle stage if it has changed, for example from lead to opportunity. Create a follow-up task for the owner.
 - **All buckets:** update the company record if the reply reveals new facts, such as a use case, the current vendor, or timing.
 
 For a batch of more than about five replies, prepare all CRM updates as one set, show the set for approval, and write them together.
@@ -82,14 +85,6 @@ If there are more than about 20 unread replies:
 3. Print the count for each bucket.
 4. Work one bucket at a time, starting with interested and referral replies, since they carry the most value.
 
-## Rules
-
-- Never send a drafted reply on your own. Show it and wait for approval.
-- Never unsubscribe a contact without an explicit unsubscribe request. "Not interested" is an objection, not a stop.
-- Never ignore a wrong-person reply. The referral is often the highest-value outcome of an outbound sequence.
-- Write a note on every classified reply, so the next touch has context.
-- Never treat a reply from an automated system as a human reply without checking.
-
 ## Output
 
 - The classification and the reason, in one line.
@@ -99,4 +94,12 @@ If there are more than about 20 unread replies:
 
 ## Quality bar
 
-A good reply handler makes the next touch feel informed. Interested buyers get a fast, specific answer. Objections get one reframe and one small step, not a debate. Referrals turn into a named contact. Opt-outs are honoured the same day and recorded. Every reply leaves a note behind. Watch for replies sent without a reading of the thread, unsubscribes triggered by "not interested", and referrals that die in the inbox.
+A good reply handler makes the next touch feel informed. Interested buyers get a fast, specific answer. Objections get one reframe and one small step, not a debate. Referrals turn into a named contact. Opt-outs are honored the same day and recorded. Every reply leaves a note behind. Watch for replies sent without a reading of the thread, unsubscribes triggered by "not interested", and referrals that die in the inbox.
+
+## Rules
+
+- Never send a drafted reply on your own. Show it and wait for approval.
+- Never unsubscribe a contact without an explicit unsubscribe request. "Not interested" is an objection, not a stop.
+- Never ignore a wrong-person reply. The referral is often the highest-value outcome of an outbound sequence.
+- Write a note on every classified reply, so the next touch has context.
+- Never treat a reply from an automated system as a human reply without checking.

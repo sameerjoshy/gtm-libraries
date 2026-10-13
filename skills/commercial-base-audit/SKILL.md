@@ -1,7 +1,7 @@
 ---
 name: commercial-base-audit
-version: 1.0.0
-description: "Use when a percentage in a commercial term is being set, questioned, or is producing a number nobody expected, such as sales commission, revenue share, affiliate or creator payouts, channel margin, agency or referral fees, or rebates. Finds what the percentage multiplies, identifies the condition under which two competing bases diverge, quantifies the gap per unit and at scale, and works backwards when a payout misses its model. Not for designing the pay plan (see gtm-compensation) or for approving a discount (see deal-desk-operations)."
+version: 1.2.0
+description: "Use when a percentage in a commercial term is being set, questioned, or is producing a number nobody expected, such as sales commission, revenue share, affiliate or creator payouts, channel margin, agency or referral fees, or rebates. Finds what the percentage multiplies, identifies the condition under which two competing bases diverge, quantifies the gap per unit and at scale, and works backwards when a payout misses its model. Not for designing the pay plan (see `gtm-compensation`) or for approving a discount (see `deal-desk-operations`)."
 ---
 
 # Commercial base audit
@@ -33,11 +33,11 @@ Route elsewhere when:
 
 ## Procedure
 
-1. **Find the multiplicand.** Name the noun the percentage applies to: bookings, billings, recognised revenue or cash collected; list price or price paid; order total or product subtotal; gross or net spend; first-year, total or collected contract value. Read the clause. Do not assume an industry default.
+1. **Find the multiplicand.** Name the noun the percentage applies to: bookings, billings, recognized revenue or cash collected; list price or price paid; order total or product subtotal; gross or net spend; first-year, total or collected contract value. Read the clause. Do not assume an industry default.
 2. **Test the definition.** A base is undefined unless the clause states where it sits relative to fees, tax and refunds. Where it is undefined, name both readings and price the gap. Where it is defined, confirm it in one sentence and move on.
 3. **Find the divergence condition.** Name the event under which the competing bases differ, such as a discount, a refund, non-payment, early cancellation, a returned item or a change in platform fees. Compute both bases at that event.
 4. **Quantify.** State the per-unit gap as a rate, for example each unit of discount costs one amount on one base and another on the other. Multiply by the affected volume where it is known. The scaled exposure decides whether the clause is worth reopening.
-5. **Work backwards when the payout misses the model.** If the rate is unchanged and there are no tiers, caps or clawbacks, the base ratio is actual payout divided by modelled payout. The unexplained base is the gap between them divided by the rate. Use that magnitude as a filter across candidate components. First confirm that actual and model cover the same period, event, population and unit, because a lag or an accrual mismatch looks exactly like a base error.
+5. **Work backwards when the payout misses the model.** If the rate is unchanged and there are no tiers, caps or clawbacks, the base ratio is actual payout divided by modeled payout. The unexplained base is the gap between them divided by the rate. Use that magnitude as a filter across candidate components. First confirm that actual and model cover the same period, event, population and unit, because a lag or an accrual mismatch looks exactly like a base error.
 6. **Do not name a cause from the ratio alone.** A total cannot separate an inflated base from a raised rate. Check the effective rate per line first.
 7. **Frame the ask.** A base change can be easier to agree than a rate cut, because the headline percentage stays where it is. Where the two bases coincide on normal business, say so and quantify it. Where they differ on every transaction, present the change as a real transfer.
 

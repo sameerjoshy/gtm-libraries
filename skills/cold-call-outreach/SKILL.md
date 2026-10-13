@@ -1,7 +1,7 @@
 ---
 name: cold-call-outreach
-version: 1.0.0
-description: "Use when building, reviewing, or training on phone outreach to prospects: an opening script, a no-show call, a voicemail, or objection handling. Keeps every script to a short, permission-based opener with a real trigger and a specific ask, requires approved proof points, and applies consent and do-not-call rules before any call. Not for email or a social message."
+version: 1.2.0
+description: "Use when building, reviewing, or training on phone outreach to prospects: an opening script, a no-show call, a voicemail, or objection handling. Keeps every script to a short, permission-based opener with a real trigger and a specific ask, requires approved proof points, and applies consent and do-not-call rules before any call. Not for email or a social message (see `outbound-cold-email` or `linkedin-outreach`)."
 ---
 
 # Cold call outreach
@@ -99,7 +99,7 @@ Check each script against this list.
 - [ ] Compliance check in Step 1 completed?
 - [ ] Would a busy person keep listening after the first sentence?
 
-## One named prospect
+### One named prospect
 
 Use this section when a rep is calling one named person, not a list. Before writing the script, load the account research, the contact's role, and the measure the contact was hired to move.
 

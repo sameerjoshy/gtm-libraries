@@ -1,7 +1,7 @@
 ---
 name: qbr-ebr-builder
-version: 1.0.0
-description: "Use to design and build customer business reviews that buyers attend: the quarterly operational review for users and the executive business review for the economic buyer, with the value recap in the customer's own numbers as the central artefact. Includes a pre-meeting executive account brief for the seller. Use when reviews are a feature parade, when the economic buyer has stopped attending, when renewal value has to be proved from scratch, or before a sponsor sync. Not for internal meeting design (see revenue-operating-cadence) or for the intervention itself when a review finds risk (see renewal-save-motion)."
+version: 1.2.0
+description: "Use when designing and building customer business reviews that buyers attend: the quarterly operational review for users and the executive business review for the economic buyer, with the value recap in the customer's own numbers as the central artifact. Includes a pre-meeting executive account brief for the seller. Use when reviews are a feature parade, when the economic buyer has stopped attending, when renewal value has to be proved from scratch, or before a sponsor sync. Not for internal meeting design (see `revenue-operating-cadence`) or for the intervention itself when a review finds risk (see `renewal-save-motion`)."
 ---
 
 # QBR and EBR builder
@@ -33,7 +33,7 @@ Route elsewhere when:
 - The account's contract value, renewal date, and segment.
 - The customer's agreed success baseline, from onboarding or the last review. If none exists, that is the first finding.
 - The customer's own system data: usage, outcomes measured in their terms, and tickets.
-- The contacts: the economic buyer, the executive sponsor, the programme owner, and the daily users, with attendance history for each.
+- The contacts: the economic buyer, the executive sponsor, the program owner, and the daily users, with attendance history for each.
 - The most recent internal health read for the account.
 - The open actions from the last review, and whether the customer completed them.
 
@@ -45,10 +45,10 @@ Two instruments, not one blended review.
 
 | | Quarterly review (operational) | Executive business review (executive) |
 |---|---|---|
-| Audience | Daily users and the programme owner | Economic buyer and executive sponsor |
+| Audience | Daily users and the program owner | Economic buyer and executive sponsor |
 | Rhythm | Quarterly, or asynchronous for smaller accounts | One or two a year, timed 90 to 120 days before renewal |
 | Question | Is the product working, and used well? | Was it worth the money, and what should it do next? |
-| Centre of gravity | Adoption, blockers, and the roadmap of use | Value recap in their numbers, strategic alignment, and the roadmap of outcomes |
+| Center of gravity | Adoption, blockers, and the roadmap of use | Value recap in their numbers, strategic alignment, and the roadmap of outcomes |
 | Typical failure | A feature parade | Skipping it because "the users are happy" |
 
 The executive review is timed before the renewal because, by the time a renewal conversation starts, an unengaged economic buyer has already formed a view from hallway talk. The executive review is where that view is formed deliberately.
@@ -67,7 +67,7 @@ Assembling review material used to be the expensive part, which justified skippi
 
 Every review, quarterly or executive, follows the same spine. The depth differs by audience.
 
-**Panel 1: look back, in their numbers.** This is the central artefact. Its rules:
+**Panel 1: look back, in their numbers.** This is the central artifact. Its rules:
 - Build it from the customer's own system data, against a baseline agreed at onboarding or at the previous review. If no baseline exists, installing one is the first review's job.
 - Report outcomes, not activity. "Cut manual reconciliation time by a stated amount since March" lands better than "487 workflows run."
 - Include what did not improve. One acknowledged miss makes every claimed win believable. A review with no misses reads as marketing.
@@ -86,7 +86,7 @@ Every review, quarterly or executive, follows the same spine. The depth differs 
 
 - **The economic buyer attends the executive review, or the review moves.** A review without them is a rehearsal. Getting them there is the sponsor's job, agreed in the success plan, not a calendar surprise.
 - **Treat attendance drift as a signal.** A sponsor who attended two reviews and skipped the third has told you something the health read has not yet caught. Feed it to risk triage.
-- **A new stakeholder restarts the relationship at their starting point.** After a reorganisation or a new executive, run a compressed look-back, and do not assume they carry any of the prior context.
+- **A new stakeholder restarts the relationship at their starting point.** After a reorganization or a new executive, run a compressed look-back, and do not assume they carry any of the prior context.
 
 ### Step 5: Prepare the executive account brief
 
@@ -103,8 +103,8 @@ THE PICTURE (three sentences)
   What they are trying to do, why now, why us.
 
 BUYING COMMITTEE
-  Name, title, sentiment in one word, with the quote or behaviour behind it.
-  Sentiment is never stated without a quote or a specific behaviour.
+  Name, title, sentiment in one word, with the quote or behavior behind it.
+  Sentiment is never stated without a quote or a specific behavior.
 
 WHERE WE ARE (three to five bullets)
   The last meaningful contact and its outcome.
@@ -138,13 +138,13 @@ A review is upstream instrumentation for the rest of the post-sale system. Every
 3. Routed flags: risk signals to the save motion, expansion signals to the expansion motion, and product blockers to the product team, with a feedback loop the customer can see.
 4. A one-paragraph internal verdict on the account: trajectory, sponsor state, and one thing to fix before the next review.
 
-## Anti-patterns
+### Diagnostic questions
 
-- **The feature parade.** Roadmap-heavy decks answer a question nobody asked. The roadmap earns about ten minutes in panel 3, framed by the customer's goals.
-- **The survey score as proof.** A satisfaction score is not a value recap. Scores decorate; outcomes persuade.
-- **The annual ambush.** The first value conversation happening at renewal is the most expensive scheduling failure in account management. The executive review ahead of renewal exists to make the renewal uneventful.
-- **The unchanged deck.** If the review could be last quarter's deck with new dates, cancel it and send the one-page summary. Customer attention is being spent on no news.
-- **The solo review.** The vendor presents and the customer receives. A jointly built agenda, with panel 1 sent in advance and the customer asked what they want challenged, is itself a signal of engagement. An account that will not help shape the agenda is telling you where you stand.
+1. For the top ten accounts, when did the economic buyer last hear the value case from the company, in their own numbers?
+2. Can the company produce a value recap, against an agreed baseline, for the largest renewal due in the next two quarters, without a data search project?
+3. What share of the last quarter's reviews ended with customer-owned actions that were completed?
+4. Which sponsors stopped attending reviews in the last year, and what happened at their renewals?
+5. How many hours does one review pack take to assemble, and is that why the long tail gets no reviews?
 
 ## Output
 
@@ -155,14 +155,14 @@ A review is upstream instrumentation for the rest of the post-sale system. Every
 - The executive account brief, if a sponsor sync or executive review is planned.
 - The routed flags and the internal verdict.
 
-## Diagnostic questions
-
-1. For the top ten accounts, when did the economic buyer last hear the value case from the company, in their own numbers?
-2. Can the company produce a value recap, against an agreed baseline, for the largest renewal due in the next two quarters, without a data search project?
-3. What share of the last quarter's reviews ended with customer-owned actions that were completed?
-4. Which sponsors stopped attending reviews in the last year, and what happened at their renewals?
-5. How many hours does one review pack take to assemble, and is that why the long tail gets no reviews?
-
 ## Quality bar
 
 The economic buyer is in the executive review, or the review has moved. The value recap is in the customer's numbers, against an agreed baseline, and admits at least one miss. Every review ends with customer-owned actions. The internal verdict and the customer-facing verdict match. Watch for feature parades, scores presented as value, executive reviews without the buyer, and briefs with sentiment but no quotes.
+
+### Anti-patterns
+
+- **The feature parade.** Roadmap-heavy decks answer a question nobody asked. The roadmap earns about ten minutes in panel 3, framed by the customer's goals.
+- **The survey score as proof.** A satisfaction score is not a value recap. Scores decorate; outcomes persuade.
+- **The annual ambush.** The first value conversation happening at renewal is the most expensive scheduling failure in account management. The executive review ahead of renewal exists to make the renewal uneventful.
+- **The unchanged deck.** If the review could be last quarter's deck with new dates, cancel it and send the one-page summary. Customer attention is being spent on no news.
+- **The solo review.** The vendor presents and the customer receives. A jointly built agenda, with panel 1 sent in advance and the customer asked what they want challenged, is itself a signal of engagement. An account that will not help shape the agenda is telling you where you stand.

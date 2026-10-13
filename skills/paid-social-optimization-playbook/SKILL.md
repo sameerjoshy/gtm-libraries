@@ -1,10 +1,10 @@
 ---
-name: paid-social-optimisation-playbook
-version: 1.0.0
-description: "Use to diagnose and fix a live paid social campaign for a high-value B2B offer. Sets the decision rhythm (no judgement on less than seven days of data), three diagnosis paths (cost per action rising, click-through falling, lead quality poor), a kill, optimise or scale rule, a learning-phase rule for what resets delivery, and a swap rule that never pauses an ad without a replacement ready. Not for the first launch (see paid-social-launch-checklist) or for the account-wide audit (see paid-account-audit)."
+name: paid-social-optimization-playbook
+version: 1.2.0
+description: "Use when diagnosing and fixing a live paid social campaign for a high-value B2B offer. Sets the decision rhythm (no judgment on less than seven days of data), three diagnosis paths (cost per action rising, click-through falling, lead quality poor), a kill, optimize or scale rule, a learning-phase rule for what resets delivery, and a swap rule that never pauses an ad without a replacement ready. Not for the first launch (see `paid-social-launch-checklist`) or for the account-wide audit (see `paid-account-audit`)."
 ---
 
-# Paid social optimisation playbook
+# Paid social optimization playbook
 
 ## Purpose
 
@@ -15,7 +15,7 @@ A live paid social campaign changes every day, and teams often act on the noise.
 - Cost per action has risen above target, and the team needs to know why.
 - Click-through has fallen from its own baseline.
 - Leads are arriving but do not match the buyer.
-- A campaign needs a kill, optimise or scale decision.
+- A campaign needs a kill, optimize or scale decision.
 
 Route elsewhere when:
 
@@ -27,14 +27,14 @@ Route elsewhere when:
 
 - Daily results for each campaign, ad set and ad over at least the last fourteen days: spend, reach, frequency, click-through, cost per action, and actions that reached the CRM.
 - The target cost per action, and the baseline click-through for each campaign.
-- The learning history: changes made to audience, budget, creative and optimisation event, with dates.
+- The learning history: changes made to audience, budget, creative and optimization event, with dates.
 - Lead quality data from the CRM: role, company size and email type for each lead.
 
 ## Procedure
 
 ### Rhythm
 
-1. **No judgement on less than seven days of data.** Daily swings are normal. Changes made every two to four days because a figure dipped are the most common way to kill a working campaign.
+1. **No judgment on less than seven days of data.** Daily swings are normal. Changes made every two to four days because a figure dipped are the most common way to kill a working campaign.
 2. **Decide on a fixed day each week.** Use the same review point every week. Act on what the window shows, not on the last day.
 
 ### Diagnose a rising cost per action
@@ -61,18 +61,18 @@ Leads with the wrong role, the wrong company size, or a personal email address, 
 - **The targeting.** The audience is too broad or includes people outside the buyer group.
 - **The offer.** The offer attracts curiosity rather than intent. Change the offer before the audience.
 
-### Kill, optimise or scale
+### Kill, optimize or scale
 
 - **Kill now** if the campaign has no conversions after roughly five to ten times the target cost per action, if frequency is high with falling results, or if it has not left the learning phase after about fourteen days. Author defaults.
-- **Optimise** if the cost per action is within twenty to thirty percent of target but inconsistent, if click-through has plateaued, or if lead quality is mixed. Fix in this order: creative, audience, budget or bid, landing page, offer.
+- **Optimize** if the cost per action is within twenty to thirty percent of target but inconsistent, if click-through has plateaued, or if lead quality is mixed. Fix in this order: creative, audience, budget or bid, landing page, offer.
 - **Scale** only when all of these hold: at least fifty conversions a week for two consecutive weeks; the cost per action at or below target for three consecutive days; frequency below about three; and lead quality confirmed in the CRM, not only in volume.
 
 ### Learning phase
 
 - Delivery is unstable while the platform learns. Budget for enough conversions per ad set per week. As a planning default, around fifty, verified against the platform's current guidance.
-- These changes reset learning: a change of audience, a budget increase of more than about thirty percent at once, a new creative asset, a change of optimisation event, and a change of bid strategy.
+- These changes reset learning: a change of audience, a budget increase of more than about thirty percent at once, a new creative asset, a change of optimization event, and a change of bid strategy.
 - These do not: a budget change under about ten percent, a copy change to the headline or description, and a pause of under a day.
-- If the campaign is stuck, either raise the budget, or optimise for an earlier event such as landing-page views or form starts. Consolidate ad sets: one ad set with a larger budget learns faster than several small ones.
+- If the campaign is stuck, either raise the budget, or optimize for an earlier event such as landing-page views or form starts. Consolidate ad sets: one ad set with a larger budget learns faster than several small ones.
 
 ### Swap rule
 
@@ -87,7 +87,7 @@ About a fifth of campaigns usually produce most of the qualified pipeline. Ident
 ## Output
 
 - The diagnosis for each flagged campaign, with the path taken and the evidence at each step.
-- A kill, optimise or scale decision for each, with the rule it met.
+- A kill, optimize or scale decision for each, with the rule it met.
 - The swap list: which ad is replaced, why, and the date the replacement goes live.
 - The learning-phase changes to avoid, and any consolidation proposed.
 - The next review date.

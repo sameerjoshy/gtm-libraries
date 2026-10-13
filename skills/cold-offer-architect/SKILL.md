@@ -1,7 +1,7 @@
 ---
 name: cold-offer-architect
-version: 1.0.0
-description: "Use before writing cold copy, or when cold outreach is not converting despite clean writing. Builds an offer as a complete value-for-value deal (specific outcome, believable mechanism, risk on the seller, low effort for the buyer, proof embedded) and scores it against an eight-criterion pass or fail gate. Covers cold email, cold DMs, and cold ads. Not for the copy, sequence, or list, which come after the offer passes."
+version: 1.2.0
+description: "Use when you are about to write cold copy, or when cold outreach is not converting despite clean writing. Builds an offer as a complete value-for-value deal (specific outcome, believable mechanism, risk on the seller, low effort for the buyer, proof embedded) and scores it against an eight-criterion pass or fail gate. Covers cold email, cold DMs, and cold ads. Not for the copy, sequence, or list (see `outbound-cold-email`), which come after the offer passes."
 ---
 
 # Cold offer architect
@@ -35,7 +35,7 @@ Route elsewhere when:
 1. **Architect the deal** before any message. State the outcome, the mechanism, the risk the seller carries, the effort required from the buyer, the proof, and the reason the offer is this generous.
 2. **Score all eight criteria**, pass or fail, with no averaging:
    - Specific, quantified, time-bound outcome. A "no" is "more pipeline" with no number or clock.
-   - Believable mechanism. A sceptic can see why this works, and why this seller.
+   - Believable mechanism. A skeptic can see why this works, and why this seller.
    - Risk sits on the seller. The buyer does not spend money, time, or reputation to find out.
    - Near-zero effort for the prospect. A meeting before any value lands counts as effort, and fails.
    - A stated reason why the offer is this good. Unexplained generosity reads as a trick.
@@ -46,7 +46,7 @@ Route elsewhere when:
 4. **Only then write the message**, as the vehicle for the offer.
 5. **Diagnose a dead offer** when it reads well but gets no response. The usual failures are criteria 1, 3, and 8 failing together, which produces the soft "want it?" opener.
 
-## Rules applied to the proof point
+### Rules applied to the proof point
 
 Every offer must contain a specific proof point: a real number, or a named comparable where the comparable has agreed to be named. Do not invent a number to pass the first criterion. Do not promise an outcome that cannot be defended.
 

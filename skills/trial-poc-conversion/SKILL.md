@@ -1,7 +1,7 @@
 ---
 name: trial-poc-conversion
-version: 1.0.0
-description: "Use when trials go nowhere, prospects want to test before buying, or evaluations expire without a verdict. Designs trials, POCs, and pilots as decision processes: picks the evaluation motion, contracts success criteria and the consequence before granting access, defines and instruments an activation milestone, runs a decision-forcing clock, and closes out expired evaluations as logged outcomes. Not for qualification (see deal-qualification-gates) or the procurement steps after a win (see procurement-navigation)."
+version: 1.2.0
+description: "Use when trials go nowhere, prospects want to test before buying, or evaluations expire without a verdict. Designs trials, POCs, and pilots as decision processes: picks the evaluation motion, contracts success criteria and the consequence before granting access, defines and instruments an activation milestone, runs a decision-forcing clock, and closes out expired evaluations as logged outcomes. Not for qualification (see `deal-qualification-gates`) or the procurement steps after a win (see `procurement-navigation`)."
 ---
 
 # Trials and POCs that convert
@@ -52,7 +52,7 @@ Measure conversion against the client's own cohorts for each motion. A conversio
 Before granting any POC, four things must exist in writing. If the buyer will not help write them, that is a useful finding, and cheaper to learn now than after three weeks.
 
 1. **Success criteria, two or three, measurable, and the buyer's own.** "See if we like it" is not a criterion. "Reduce manual triage time on the support queue by half, measured on their own data" is. The criteria come from the pain evidence gathered in discovery. An evaluation cannot prove value that discovery never quantified.
-2. **The then-what.** What happens if the criteria are met: commercial terms agreed in advance, the signature path named, and a start date pencilled in. An evaluation without a pre-agreed consequence is a tour, not a decision.
+2. **The then-what.** What happens if the criteria are met: commercial terms agreed in advance, the signature path named, and a start date penciled in. An evaluation without a pre-agreed consequence is a tour, not a decision.
 3. **Named owners on both sides, and the evaluation committee.** Who judges, against what criteria, and on what date. A POC judged by one enthusiast converts to nothing. The economic buyer must see the readout, or the readout is a rehearsal.
 4. **The clock.** Default durations, to replace with cohort data: around 14 days for self-serve and around 30 days for sales-assisted. Extend only for activity, never for silence. An expiry with no decision is itself a decision, and it is logged as one.
 
@@ -81,7 +81,7 @@ Expired and silent evaluations inflate the pipeline and waste outreach.
 - Re-entry happens through a fresh trigger, under the revival process (`closed-lost-revival`), not through "checking in on your trial".
 - Never count un-activated evaluations in the weighted pipeline at the same probability as activated ones. The gap between them is usually the strongest single signal an evaluation-stage deal carries. Use the client's own split, not an external figure.
 
-### Step 6: Measure the programme
+### Step 6: Measure the program
 
 Track each evaluation with these fields:
 
@@ -103,6 +103,10 @@ Review the cohort each quarter. The useful questions: which motion converts best
 - The zombie rule and the pipeline treatment for un-activated evaluations.
 - The cohort dashboard and the quarterly review questions.
 
+## Quality bar
+
+Every evaluation has written success criteria, a named committee, a consequence, and a decision date before access is granted. Activation is measured, and stalls are caught early. Expired evaluations are closed with a logged reason. Watch for access granted to be accommodating, criteria written by the seller alone, successful pilots that reopen price, and un-activated trials counted in the forecast.
+
 ## Diagnostic questions
 
 1. List the last ten evaluations. For how many can you produce success criteria written by the buyer?
@@ -110,7 +114,3 @@ Review the cohort each quarter. The useful questions: which motion converts best
 3. What happens automatically when a trial expires today?
 4. How many active POCs are past their original clock with no agreed extension?
 5. When a POC succeeds, how often do commercial talks restart from zero?
-
-## Quality bar
-
-Every evaluation has written success criteria, a named committee, a consequence, and a decision date before access is granted. Activation is measured, and stalls are caught early. Expired evaluations are closed with a logged reason. Watch for access granted to be accommodating, criteria written by the seller alone, successful pilots that reopen price, and un-activated trials counted in the forecast.

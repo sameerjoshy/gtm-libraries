@@ -1,7 +1,7 @@
 ---
 name: call-followup-sweep
-version: 1.0.0
-description: "Use when a day or a week of customer calls has happened and the follow-through is owed but unwritten. Asks for the window, reads each call, extracts the commitments (especially the seller's own unshipped promises), triages which calls earn an email, and returns one draft per account that earns one, a list of calls that earn none with reasons, and an ageing report of open promises. Produces drafts only and never sends. Not for the sequence after a booked meeting (see stage-aware-follow-up)."
+version: 1.2.0
+description: "Use when a day or a week of customer calls has happened and the follow-through is owed but unwritten. Asks for the window, reads each call, extracts the commitments (especially the seller's own unshipped promises), triages which calls earn an email, and returns one draft per account that earns one, a list of calls that earn none with reasons, and an aging report of open promises. Produces drafts only and never sends. Not for the sequence after a booked meeting (see `stage-aware-follow-up`)."
 ---
 
 # Call follow-up sweep
@@ -17,8 +17,7 @@ After a busy week of customer calls, the follow-through is what decides deals, a
 - A week needs catching up after travel or a conference.
 
 Route elsewhere when:
-
-- A single booked meeting needs its follow-up. That is `post-meeting-follow-through`.
+- A single booked meeting needs its follow-up. Use `post-meeting-follow-through`.
 - A warm reply needs its next touch. Use `stage-aware-follow-up`.
 
 ## Inputs
@@ -44,18 +43,18 @@ Route elsewhere when:
 
 ## Output
 
-- Ageing commitments first, with owner, date, and the call they came from.
+- Aging commitments first, with owner, date, and the call they came from.
 - One draft per account that earns one, with subject, body, and action items.
 - The no-email list, with a reason for each call.
 - Calls that could not be read.
 - Any objection or request that recurred across calls.
+
+## Quality bar
+
+The window was confirmed. Seller commitments are extracted as carefully as buyer commitments. Most calls are shown as needing no email, with a reason. Each draft could not be sent unchanged to a different account. Watch for recap emails that narrate the call, drafts for every call, and missed promises.
 
 ## Rules
 
 - Drafts only. Never send, schedule, or write to a CRM as part of a sweep. The user reviews and sends.
 - Never invent a commitment, date, or number that was not said on a call. Quote it, or flag it as unclear.
 - Do not present a clean report over partial coverage. List the gaps.
-
-## Quality bar
-
-The window was confirmed. Seller commitments are extracted as carefully as buyer commitments. Most calls are shown as needing no email, with a reason. Each draft could not be sent unchanged to a different account. Watch for recap emails that narrate the call, drafts for every call, and missed promises.

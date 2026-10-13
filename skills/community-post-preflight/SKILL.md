@@ -1,7 +1,7 @@
 ---
 name: community-post-preflight
-version: 1.0.0
-description: "Use immediately before a brand posts anything, or shares a link, in an online community forum, to check whether the post is allowed and likely to stay up. Runs four checks in order (the community's rules, whether it is restricted or private, whether the link has been shared before, and the community's own posting norms), then gives a go or no-go verdict with the specific rule at issue and an alternative where one exists. Not for judging a comment's tone (see community-comment-safety)."
+version: 1.2.0
+description: "Use when a brand is about to post anything, or share a link, in an online community forum, to check whether the post is allowed and likely to stay up. Runs four checks in order (the community's rules, whether it is restricted or private, whether the link has been shared before, and the community's own posting norms), then gives a go or no-go verdict with the specific rule at issue and an alternative where one exists. Not for judging a comment's tone (see `community-comment-safety`)."
 ---
 
 # Community post preflight
@@ -28,14 +28,14 @@ Route elsewhere when:
 - The submission history of the link, to check for duplicates.
 - Any campaign schedule the post belongs to.
 
-## The four checks, in order, every time
+### The four checks, in order, every time
 
 1. **Rules.** Read the community's rules in full. A rule violation gets a post removed at once, and repeat removals flag the account.
 2. **Community type.** If the community is restricted or private, stop. Only approved members can post.
 3. **Duplicate link.** Check whether the link has already been submitted to the community. A duplicate post can get the account banned.
 4. **Wiki and pinned norms.** Read the community's wiki or pinned posts. Many communities keep their real posting norms there, such as flair requirements, promotion windows, or minimum account history.
 
-## Verdict
+### Verdict
 
 - **Go,** with any constraint that applies: a required format, an allowed thread type, or a timing window.
 - **No-go,** with the exact rule that blocks the post and an alternative where one exists, such as a comment in an existing discussion or a post in a periodic promotion thread.

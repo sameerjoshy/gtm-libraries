@@ -1,7 +1,7 @@
 ---
 name: acquired-brand-gtm-integration
-version: 1.0.0
-description: "Use immediately after acquiring a product or brand, before combining websites, customer records, pipelines, messaging, analytics, or campaigns. Sets the integration boundary from the deal thesis, maps the existing demand system, assigns a brand posture to each customer-facing surface, segments records by relationship and permission before any merge, protects live demand during consolidation, and sequences reversible changes. Not for the deal itself or the legal integration."
+version: 1.2.0
+description: "Use when a product or brand has just been acquired, before combining websites, customer records, pipelines, messaging, analytics, or campaigns. Sets the integration boundary from the deal thesis, maps the existing demand system, assigns a brand posture to each customer-facing surface, segments records by relationship and permission before any merge, protects live demand during consolidation, and sequences reversible changes. Not for the deal itself or the legal integration."
 ---
 
 # Acquired-brand GTM integration
@@ -25,7 +25,7 @@ Route elsewhere when:
 ## Inputs
 
 - The acquisition thesis in one sentence: distribution, product expansion, market entry, customer access, talent, or brand equity.
-- The domains, websites, forms, booking paths, pricing pages, email programmes, partner listings, reviews, and paid campaigns of both businesses.
+- The domains, websites, forms, booking paths, pricing pages, email programs, partner listings, reviews, and paid campaigns of both businesses.
 - The CRM, the marketing database, and the billing system, with their owners.
 - Any contract or consent terms that govern how customer and contact data can be used.
 
@@ -57,3 +57,11 @@ Route elsewhere when:
 ## Quality bar
 
 Every asset has an owner and a rollback path, or an explicit "unknown". Every customer-facing surface has a posture. No contact is treated as marketable without a permission basis. Live high-intent paths are tested after each change. Watch for a rebrand before the inventory, merged lists with lost permission data, and irreversible steps taken on day one.
+
+## Rules
+
+- NEVER treat a contact or customer as marketable without a permission basis for that use.
+- NEVER take an irreversible step, such as retiring a domain or merging customer records, before the reversible steps have run cleanly for an agreed period.
+- Nothing changes on a customer-facing surface without a named approver.
+
+Before you change a customer-facing surface, ask: who is the named approver releasing this change?

@@ -1,14 +1,14 @@
 ---
 name: deal-blocker-maneuvers
-version: 1.0.0
-description: "Use after a meaningful interaction on a complex, multi-stakeholder deal (a call, a stakeholder meeting, a procurement exchange) when the question is what to run next, not what is missing. Scores the deal's qualification from primary evidence only, reads it against the stage it is in, identifies the single worst blocker, and produces a two-cycle maneuver with a trigger, pre-mortem, verbatim opener, branches, and explicit abort criteria. Not for transactional or high-velocity deals."
+version: 1.2.0
+description: "Use when a complex, multi-stakeholder deal needs its next move after a meaningful interaction (a call, a stakeholder meeting, a procurement exchange), and the question is what to run next rather than what is missing. Scores the deal's qualification from primary evidence only, reads it against the stage it is in, identifies the single worst blocker, and produces a two-cycle maneuver with a trigger, pre-mortem, verbatim opener, branches, and explicit abort criteria. Not for transactional or high-velocity deals."
 ---
 
 # Deal blocker maneuvers
 
-Turns a complex deal's qualification into one saved artifact the rep can act on: a stage-adjusted read, one named blocker, and a two-cycle move with abort criteria. The gaps that nobody has asked about are listed as literal questions.
-
 ## Purpose
+
+Turns a complex deal's qualification into one saved artifact the rep can act on: a stage-adjusted read, one named blocker, and a two-cycle move with abort criteria. The gaps that nobody has asked about are listed as literal questions.
 
 Tell the rep what to do next week on a deal that is stuck, has gone quiet, or is about to be forecast. Stop it from being scored on optimism. Make the next move specific enough to run, and the stopping point clear enough that the rep will actually stop.
 
@@ -20,22 +20,12 @@ Tell the rep what to do next week on a deal that is stuck, has gone quiet, or is
 Route elsewhere when:
 - The question is the qualification standard for the whole deal. Use `deal-qualification-gates`.
 - The question is the agreed plan with the buyer. Use `mutual-action-plan-builder`.
-
-## Principles
-
-- **Primary evidence only.** Score what the buyer said or wrote. Never the rep's summary, confidence, or assurance that the economic buyer is engaged.
-- **Unknown is zero.** An absent dimension scores 0. A guess dressed as a score is worse than an honest gap.
-- **Read against the stage.** A raw total means nothing alone. +3 is healthy in discovery and alarming in negotiation.
-- **One blocker, one maneuver.** Cycle 1 targets the single worst blocker. Cycle 2 starts only after cycle 1 reaches an exit state.
-- **Abort before you start.** Define the failure condition before anyone is invested in the play.
-- **Unknowns clustered behind one person are the warning.** Three or more zeros behind a single stakeholder means the deal has one source, however good the total looks.
-- **Do not blend divergent stakeholders.** If the parties want different things, score them separately.
-
-## Scope
-
-Built for enterprise and complex deals: several stakeholders, a real evaluation, third parties or procurement in the path, and a cycle of months. Do not run the full framework on transactional deals, or deals that close in under about 30 days with no second stakeholder. The diagnostic overhead exceeds what those deals return. Use the team's lighter qualification standard instead.
-
-Terminology: use the client's own labels for the eight dimensions and stages if they differ from the labels here. Declare the mapping once and use only those labels in output.
+- The question is widening the buying committee itself. Use `multi-threading-coach`.
+- The question is account fit or tier. Use `icp-builder` or `account-tier-scoring`.
+- The question is the forecast category. Use `revops-forecasting`.
+- The question is a full outreach sequence. Use `outbound-cold-email`.
+- The question is discount or pricing policy. Use `deal-desk-operations`.
+- The question is the pipeline-wide inspection. Use `pipeline-review`.
 
 ## Inputs
 
@@ -47,6 +37,20 @@ Terminology: use the client's own labels for the eight dimensions and stages if 
 6. The forecast owner, the person who must be told the same day when a deal breaches an escalation condition.
 
 ## Procedure
+
+### Principles
+
+- **Primary evidence only.** Score what the buyer said or wrote. Never the rep's summary, confidence, or assurance that the economic buyer is engaged.
+- **Unknown is zero.** An absent dimension scores 0. A guess dressed as a score is worse than an honest gap.
+- **Read against the stage.** A raw total means nothing alone. +3 is healthy in discovery and alarming in negotiation.
+- **One blocker, one maneuver.** Cycle 1 targets the single worst blocker. Cycle 2 starts only after cycle 1 reaches an exit state.
+- **Abort before you start.** Define the failure condition before anyone is invested in the play.
+- **Unknowns clustered behind one person are the warning.** Three or more zeros behind a single stakeholder means the deal has one source, however good the total looks.
+- **Do not blend divergent stakeholders.** If the parties want different things, score them separately.
+
+**Scope.** Built for enterprise and complex deals: several stakeholders, a real evaluation, third parties or procurement in the path, and a cycle of months. Do not run the full framework on transactional deals, or deals that close in under about 30 days with no second stakeholder. The diagnostic overhead exceeds what those deals return. Use the team's lighter qualification standard instead.
+
+Terminology: use the client's own labels for the eight dimensions and stages if they differ from the labels here. Declare the mapping once and use only those labels in output.
 
 ### Step 1: Segmentation gate
 
@@ -65,14 +69,14 @@ Eight dimensions: metrics, economic buyer, decision criteria, decision process, 
 
 Where an accepted dimension conflicts with newer evidence, say so and cite both sides. Do not overwrite it quietly.
 
-**Mapping a different rubric.** Some assessments use two axes: how well evidenced a dimension is, and whether the answer favours you. Map them in this order, never by feel:
+**Mapping a different rubric.** Some assessments use two axes: how well evidenced a dimension is, and whether the answer favors you. Map them in this order, never by feel:
 
 | Incoming | Maps to |
 |---|---|
-| Well evidenced, favourable | +1 |
+| Well evidenced, favorable | +1 |
 | Well evidenced, neutral or adequate | +0.5 |
-| Well evidenced, actively unfavourable, a condition that kills the deal unaddressed | -1 |
-| Well evidenced, unfavourable but survivable | +0.5 |
+| Well evidenced, actively unfavorable, a condition that kills the deal unaddressed | -1 |
+| Well evidenced, unfavorable but survivable | +0.5 |
 | Asserted without evidence, any direction | 0 |
 | Explicitly flagged as a gap | 0 |
 
@@ -82,16 +86,16 @@ The per-dimension criteria in Step 2a govern wherever the detail allows. The tab
 
 - **Metrics.** +1: the economic decision-maker has confirmed that a specific number achieves an outcome they own, in a case jointly agreed. +0.5: a target is known but treated as a nice-to-have, and is operational rather than tied to the financials. 0: no target stated. -1: the buyer cannot say what happens if the target is missed, or the conversation is anchored on a pilot budget disconnected from any larger outcome. A number the buyer is measured on is not the same as a number their business depends on.
 - **Economic buyer.** +1: direct, substantive interaction with the person who releases the money, who stated the priority in their own words. +0.5: known, but every interaction is filtered through a subordinate. 0: cannot name the approver at this size. -1: identified, and actively blocked. The line between friction and blocker is passive versus active. "We haven't got to them yet" is friction. "You don't need to talk to her" is a blocker, and reps often record it as friction because it arrives politely.
-- **Decision criteria.** +1: explicit, and they favour capabilities you hold and competitors do not, and you helped shape them. +0.5: generic criteria any credible vendor meets, or criteria you only learned. 0: unknown. -1: written around a competitor's strengths, or a constraint you cannot meet. Discovering criteria is not the same as influencing them.
+- **Decision criteria.** +1: explicit, and they favor capabilities you hold and competitors do not, and you helped shape them. +0.5: generic criteria any credible vendor meets, or criteria you only learned. 0: unknown. -1: written around a competitor's strengths, or a constraint you cannot meet. Discovering criteria is not the same as influencing them.
 - **Decision process.** +1: every step, approval, and timeline is documented and confirmed by someone inside the account. +0.5: a verbal outline nobody has validated. 0: not mapped. -1: stalled with no restart date, or you are excluded from steps you should be in.
-- **Third parties and paper process.** Covers partners, agencies, resellers, integrators, procurement, legal, and security review. +1: every external party is identified, their role is clear, and none blocks delivery. +0.5: involved, but timelines or incentives are unclear. 0: no visibility at all. -1: actively blocking, deprioritising, or gating the timeline. Read incentives, not intentions. A friendly partner who earns nothing from the integration is a blocker with good manners.
+- **Third parties and paper process.** Covers partners, agencies, resellers, integrators, procurement, legal, and security review. +1: every external party is identified, their role is clear, and none blocks delivery. +0.5: involved, but timelines or incentives are unclear. 0: no visibility at all. -1: actively blocking, deprioritizing, or gating the timeline. Read incentives, not intentions. A friendly partner who earns nothing from the integration is a blocker with good manners.
 - **Implicated pain and initiative.** +1: a funded, time-bound initiative with executive sponsorship, and slipping it has a named cost. +0.5: pain acknowledged, but no deadline or initiative. 0: unknown what prompted the evaluation. -1: no real pain, or not big enough to beat the other things competing for the budget. Doing nothing for two more quarters costs the buyer nothing, and this is where no-decision losses are decided.
 - **Champion.** +1: proven. Advocates internally without prompting, has shared information you did not ask for, and has influenced an outcome at least once. +0.5: unproven. Friendly and responsive, but has never sold on your behalf. 0: absent. There is no -1. A contact with no influence, or who has misled you, was never a champion. Score them 0 and the next action becomes finding one. A +0.5 that has sat at +0.5 for months deserves a re-test: what has this person actually done for you since the last run?
-- **Competition.** Include the status quo, which wins most often. +1: preferred or sole-sourced, with differentiation the buyer can say back to you. +0.5: a fair evaluation with identified advantages. 0: you do not know who else is being considered. -1: undifferentiated, a competitor is favoured, or the criteria are written against you.
+- **Competition.** Include the status quo, which wins most often. +1: preferred or sole-sourced, with differentiation the buyer can say back to you. +0.5: a fair evaluation with identified advantages. 0: you do not know who else is being considered. -1: undifferentiated, a competitor is favored, or the criteria are written against you.
 
 Total range: -7 to +8.
 
-**Relevance test for a dimension that does not apply.** Score it +1 only where its absence is confirmed and favourable (for example, no third parties in the path, verified), and record why. Where it is merely not visible, it is 0. "No procurement involvement" and "nobody has mentioned procurement" are different, and the difference is often a quarter.
+**Relevance test for a dimension that does not apply.** Score it +1 only where its absence is confirmed and favorable (for example, no third parties in the path, verified), and record why. Where it is merely not visible, it is 0. "No procurement involvement" and "nobody has mentioned procurement" are different, and the difference is often a quarter.
 
 ### Step 3: Read the score against the stage
 
@@ -185,7 +189,7 @@ Re-run at the review cadence. Default: after every meaningful interaction, and a
 
 **Writes to the deal record** need explicit human approval, field by field. The artifact is a recommendation, not an update.
 
-## Calibration
+### Calibration
 
 The bands above are defaults. Calibrate them before they affect a forecast.
 
@@ -235,12 +239,3 @@ One saved artifact per run:
 - MUST treat bands as provisional until calibrated. NEVER let an uncalibrated band remove a deal from the forecast.
 - MUST NOT run the full framework on a deal below the complexity floor.
 - NEVER let outside jargon reach the rep. Use the client's labels.
-
-## Rules
-
-- Runs after a deal interaction and produces the next move. It does not score accounts for fit: use `icp-builder` and `account-tier-scoring`.
-- Does not forecast or set forecast categories. A forecasting skill is needed for that.
-- Does not write outreach sequences. The opening line is a sentence the rep sends, not a campaign.
-- Does not set discount or pricing policy.
-- Does not run the pipeline-wide inspection: use `pipeline-review`. This skill works on one complex deal at a time.
-- Mutual action plans and multi-threading are adjacent skills. Merge them later, and link here once they exist.

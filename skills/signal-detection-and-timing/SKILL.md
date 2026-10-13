@@ -1,12 +1,10 @@
 ---
 name: signal-detection-and-timing
-version: 1.0.0
-description: "Use to decide which buying signals to track for a business, to interpret a fired signal (relevance, meaning, strength, confidence, why-now), and to decide when and how to act on it (window, cadence, channel). Covers website-based signal plans, fixed watchlists, and website or content engagement. Hiring and champion job-change signals have their own skills. Not for choosing a ready play (see signal-outbound-plays)."
+version: 1.2.0
+description: "Use to decide which buying signals to track for a business, to interpret a fired signal (relevance, meaning, strength, confidence, why-now), and to decide when and how to act on it (window, cadence, channel). Covers website-based signal plans, fixed watchlists, and website or content engagement. Hiring and champion job-change signals have their own skills. Not for choosing a ready play (see `signal-outbound-plays`)."
 ---
 
 # Signal detection and timing
-
-Chooses which signals to track, interprets a fired signal, and decides when to act on it.
 
 ## Purpose
 
@@ -21,15 +19,8 @@ Route elsewhere when:
 - The question is which ready play to run for a specific event. Use `signal-outbound-plays`.
 - The question is a champion who has changed employer. Use `champion-job-change-tracking`.
 - The question is hiring patterns in particular. Use `hiring-signal-tracking`.
-
-## Principles
-
-- **Start from the buyer's why-now, not a menu of signal types.** Ask what has to become true in an account for this offer to matter now. Then find the public, observable proxy for that change.
-- **Detectability is the gate.** A signal is usable only if it can be seen in public or first-party data, at useful volume, today.
-- **Freshness is load-bearing.** Date every event from the event itself, not from when an aggregator published it. A stale signal is a cold lead.
-- **Strength and confidence are separate.** Strength is how big the event is. Confidence is how sure the reading is. Never let one stand in for the other.
-- **Never manufacture urgency.** If the event has no real deadline, the window is soft and must be labelled so.
-- **Never creepy.** Reference the public change ("saw the funding news"), never how the person was found ("saw you visited our pricing page").
+- The task is writing the outreach itself. Use the outbound skills.
+- The task is scoring accounts into tiers. Use `account-tier-scoring` (targeting family).
 
 ## Inputs
 
@@ -43,7 +34,7 @@ Route elsewhere when:
 ### A. Choose signals for a business
 
 1. Extract from the company's site: what it sells, who buys, and what has to change in an account for it to be needed now.
-2. Turn each why-now into a signal you can observe. Group by family: people moves, company moves, competitive engagement, social or behavioural activity, and technology changes (a tool added or dropped).
+2. Turn each why-now into a signal you can observe. Group by family: people moves, company moves, competitive engagement, social or behavioral activity, and technology changes (a tool added or dropped).
 3. Rank by fit, intent strength, and volume. Keep three to five. Drop anything that is undetectable, low-volume, or really inbound.
 
 ### B. Interpret a fired signal
@@ -78,7 +69,7 @@ Treat these as starting points to calibrate against your own reply and conversio
    - **Act-now:** short, sharp intent, such as a visit to a pricing or demo page.
    - **Ramp:** a window that opens over weeks, such as a new leader settling in.
 2. Set the window from the event date:
-   - High-intent behavioural signals: reach out within about 24 to 48 hours. Cold within days.
+   - High-intent behavioral signals: reach out within about 24 to 48 hours. Cold within days.
    - New leadership or role change: the useful window tends to open two to four weeks in and run into the second month.
    - Hiring, funding, or expansion: days to weeks. Anchor to a real deadline if the event names one.
 3. Match cadence and channel order: tight and multi-touch for act-now; patient and value-first for ramp.
@@ -114,6 +105,15 @@ Before any outreach:
 - Respond within the window for the engagement type. A pricing visit answered in week two has missed.
 - For an anonymous visit, create an account-level task for the owner, not an individual message.
 
+## Principles
+
+- **Start from the buyer's why-now, not a menu of signal types.** Ask what has to become true in an account for this offer to matter now. Then find the public, observable proxy for that change.
+- **Detectability is the gate.** A signal is usable only if it can be seen in public or first-party data, at useful volume, today.
+- **Freshness is load-bearing.** Date every event from the event itself, not from when an aggregator published it. A stale signal is a cold lead.
+- **Strength and confidence are separate.** Strength is how big the event is. Confidence is how sure the reading is. Never let one stand in for the other.
+- **Never manufacture urgency.** If the event has no real deadline, the window is soft and must be labeled so.
+- **Never creepy.** Reference the public change ("saw the funding news"), never how the person was found ("saw you visited our pricing page").
+
 ## Output
 
 Depending on the step:
@@ -132,10 +132,3 @@ Depending on the step:
 - Open questions are specific and answerable, and capped at five.
 - Benchmark figures found in source material (reply rates, conversion multiples) come from vendor claims and are not used as targets until tested against your own data.
 - No message refers to how the person was found.
-
-## Rules
-
-- Hiring signals: use `hiring-signal-tracking`, which also holds the verification gate for hiring claims.
-- Champion and contact job changes: use `champion-job-change-tracking`.
-- Writing the outreach itself: use the outbound skills.
-- Scoring accounts into tiers: use `account-tier-scoring` (targeting family).
